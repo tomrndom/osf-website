@@ -1,0 +1,30 @@
+{
+  "name": "osf-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev",
+    "build": "vuepress build"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenStackweb/osf-website.git"
+  },
+  "author": "Frank Ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpenStackweb/osf-website/issues"
+  },
+  "homepage": "https://github.com/OpenStackweb/osf-website#readme",
+  "dependencies": {
+    "vuepress": "^0.14.10"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "webpack-dev-middleware": "^3.6.0"
+  }
+}
