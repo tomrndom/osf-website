@@ -13,7 +13,7 @@ Vuepress is a minimalistic Vue-powered static site generator. Netlify CMS is uni
 - [Bulma](https://bulma.io)
 - [Buefy](https://buefy.github.io)
 
-To request changes, [submit an issue](https://github.com/StarlingXWeb/starlingx-website/issues) or [submit a pull request](https://github.com/StarlingXWeb/starlingx-website/pulls).
+To request changes, [submit an issue](https://github.com/OpenStackweb/osf-website/issues) or [submit a pull request](https://github.com/OpenStackweb/osf-website/pulls).
 
 ## Install locally (Alternative)
 
