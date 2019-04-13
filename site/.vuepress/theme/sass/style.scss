@@ -139,3 +139,47 @@ hr {
   //margin: 1.5rem 0;
   margin-top: -15px;
 }
+
+
+// #################### FOOTER
+
+.footer-container {
+  // background-color: #133E68;  
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  width: 700px;
+  // margin-left: 30px;
+}
+
+.footer-container-child {
+  color: #d5d5d5;
+  width:200px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+
+.footer-container1 {
+  // background-color: #133E68;  
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: row;
+  // align-content: space-around;
+  // width: 700px;
+  margin-left: 30px;
+}
+
+.footer-container1-child {
+  color: #d5d5d5;
+  // width:180px;
+  align-items: flex-end;
+}
+
+.footer-container1-child-right {
+  margin-right: 30px;
+  margin-left: auto;
+}
+

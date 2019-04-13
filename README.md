@@ -29,7 +29,7 @@ yarn install
 ```
 ### Access locally
 ```
-yarn run site:dev
+yarn dev 
 ```
 
 ---
@@ -48,10 +48,6 @@ $ yarn global add vuepress # OR npm install -g vuepress
 $ yarn install
 ```
 
-### Access locally
-```
-$ yarn dev
-```
 
 ## Install locally Using Brew
 
