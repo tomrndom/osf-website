@@ -44,7 +44,7 @@
 }
 
 .bar-footer-entry > a {
-  color: #fff;
+  color: #c8cbce;
 }
 
 .bar-footer-inner {
@@ -117,13 +117,10 @@ i {
 
 
 .menu-container {
-  display: flex;
-  margin-left: auto;
-  // justify-content: flex-end;
+  display: inline-flex;
+  margin-right: 12px;
   align-items: flex-end;
   flex-direction: row;
-
-  // justify-content: space-between;
   max-width: 100%;
   flex: 1 1 100%;
   padding-left: 40px;
@@ -131,6 +128,14 @@ i {
 
 .menu-item {
   padding: 1px;
-
   align-self: flex-end;
+}
+
+hr {
+  background-color: #c8cbce;
+  border: none;
+  display: block;
+  height: 1.2px;
+  //margin: 1.5rem 0;
+  margin-top: -15px;
 }

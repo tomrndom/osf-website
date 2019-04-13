@@ -38,7 +38,7 @@
 						'is-active': isMobileNavOpen,
 						'menu-container': true
 					}">
-					<ul class="nav-menu nobullet menu-item">
+					<ul class="nav-menu menu-item">
 						<li v-for="(navItem, i) in $site.themeConfig.nav" >
 							<a @click.prevent="handleNavItemClick(navItem)" href="#">{{ navItem.text }}</a>
 						</li>
@@ -47,9 +47,10 @@
 							<a href="#" target="_blank" class="bar-button">Join the community</a>
 							<!-- <a @click.prevent="handleNavItemClick(navItem)" href="#">{{ navItem.text }}</a> -->
 						</li>
-
-
 					</ul><!-- /.nav-menu -->
+
+
+
 					<!--<div class="nav-end">
 						<b-field class="field-search">
 							<b-input placeholder="Search" type="text" icon="search" icon-pack="fas" />

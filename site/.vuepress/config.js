@@ -36,6 +36,14 @@ module.exports = {
                 "text": "All Projects",
                 "link": "#"
               },
+              {
+                "text": "Host a project",
+                "link": "#"
+              },
+              {
+                "text": "Services",
+                "link": "#"
+              },
             ]
           },
           {
@@ -43,6 +51,10 @@ module.exports = {
             "nav": [
               {
                 "text": "About",
+                "link": "#"
+              },
+              {
+                "text": "Supporters",
                 "link": "#"
               },
             ]
@@ -55,6 +67,10 @@ module.exports = {
                 "text": "Corporate members",
                 "link": "#"
               },
+              {
+                "text": "Join OSF",
+                "link": "#"
+              },
             ]
           },
 
@@ -65,6 +81,14 @@ module.exports = {
                 "text": "Open Infrastructure Summit",
                 "link": "#"
               },
+              {
+                "text": "Openinfra / Openstack Days",
+                "link": "#"
+              },
+              {
+                "text": "Community Meetups",
+                "link": "#"
+              },
             ]
           },
 
@@ -73,6 +97,22 @@ module.exports = {
             "nav": [
               {
                 "text": "About OSF",
+                "link": "#"
+              },
+              {
+                "text": "4 Opens",
+                "link": "#"
+              },
+              {
+                "text": "Annual report",
+                "link": "#"
+              },
+              {
+                "text": "Foundation staff",
+                "link": "#"
+              },
+              {
+                "text": "Board of directors",
                 "link": "#"
               },
             ]
