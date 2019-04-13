@@ -1,0 +1,136 @@
+/* ------------------------------------------------------------ *\
+    Bulma Styles
+\* ------------------------------------------------------------ */
+
+@import "./bulma/sass/utilities/_all";
+@import "./modules/variables";
+@import "./bulma";
+@import "~buefy/src/scss/buefy";
+
+/* ------------------------------------------------------------ *\
+    Modules
+\* ------------------------------------------------------------ */
+
+@import "./modules/base";
+@import "./modules/form-elements";
+@import "./modules/container";
+@import "./modules/wrapper";
+@import "./modules/main";
+@import "./modules/content";
+@import "./modules/sidebar";
+@import "./modules/header";
+@import "./modules/bar";
+@import "./modules/btn";
+@import "./modules/link";
+@import "./modules/nav";
+@import "./modules/hero";
+@import "./modules/section";
+@import "./modules/list";
+@import "./modules/box";
+@import "./modules/footer";
+@import "./modules/form";
+@import "./modules/widget";
+@import "./modules/pagination";
+@import "./modules/default-page";
+@import "./modules/search";
+
+.header-anchor {
+  display: none;
+}
+
+.bar-footer {
+  padding: 14px 0;
+  background: $back-darkest;
+}
+
+.bar-footer-entry > a {
+  color: #fff;
+}
+
+.bar-footer-inner {
+  display: flex;
+  // justify-content: flex-start; 
+  align-items: flex-start;
+  flex-direction: row;
+}
+.bar-footer-entry {
+  margin-left: 10px;
+  padding-right: 20px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.bar-footer-entry-right {
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+
+.bar-link {
+  flex: 0 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 4px 14px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: underline;
+  color: $white;
+  transition: background 0.3s, border-color 0.3s;
+
+  &:hover {
+    background: $primary;
+    border-color: $primary;
+    color: $white;
+  }
+}
+
+
+i {
+  border: solid $white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.logo-containter {
+  display: flex;
+}
+
+.logo-containter-child {
+  font-size: 1.7em;
+  font-weight: 900;
+  color: $back-darkest;
+  margin-left: 10px;
+}
+
+.logo-containter-child-img {
+  width: 50px;
+  padding: 1px;
+}
+
+
+
+.menu-container {
+  display: flex;
+  margin-left: auto;
+  // justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row;
+
+  // justify-content: space-between;
+  max-width: 100%;
+  flex: 1 1 100%;
+  padding-left: 40px;
+}
+
+.menu-item {
+  padding: 1px;
+
+  align-self: flex-end;
+}
