@@ -18,12 +18,28 @@
                   <!-- /.footer-list -->
                 </div>
                 <!-- /.column -->
+
               </div>
               <!-- /.columns -->
             </div>
             <!-- /.footer-content -->
           </div>
           <!-- /.column -->
+          <div class="column">
+
+            <div class="nav-brand">
+              <router-link to="/">
+                <div class="logo-containter">
+                  <div class="logo-containter-child logo-containter-child-img"><img :src="require('../public/images/logo-openstack.svg')" alt="Not found"></div>
+                  <div class="logo-containter-child">
+                    <div><span>OPENSTACK</span></div>
+                    <div><span>FOUNDATION</span></div>
+                  </div>
+                </div>
+              </router-link>
+            </div><!-- /.nav-brand -->
+
+          </div>
           
         </div>
         <!-- /.columns -->

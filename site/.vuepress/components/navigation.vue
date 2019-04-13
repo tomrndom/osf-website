@@ -4,10 +4,7 @@
 			<div class="nav-inner">
 				<div class="nav-brand">
 					<router-link to="/">
-						<!-- <img :src="require('../theme/svg/logo.svg')" alt="not found" /> -->
-						<!-- <img src="#" alt="not found" /> -->
-						<!-- <img :src="require('../theme/images/bar-logo.svg')" alt="Not found">
-						________ -->
+
 						<div class="logo-containter">
 							<div class="logo-containter-child logo-containter-child-img"><img :src="require('../public/images/logo-openstack.svg')" alt="Not found"></div>
 							<div class="logo-containter-child">
