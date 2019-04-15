@@ -138,10 +138,24 @@ home: true
 </section>
 
 
-<!-- <section class="section-bg-bluered">
-hola
+<section class="section-bg-bluered">
+ <div class="section-bg-bluered-child">
+    <div class="section-bg-white-center">
+      <p class="p-bluerd1">JOIN US</p>
+      <h3>THE OPEN INFRASTRUCTURE</h3>
+      <h3>SUMMIT</h3>
+      <p>THE OPEN STACK SUMMIT HAS A NEW NAME!</p>
+      <p>
+      Join the people building and operating open infrastructure, with over 300 sessions and workshops on container infrastructure, ci/cd, telecom + nfv, public cloud, private & hybrid cloud, security and members of open source communities like airship, ansible, ceph, docker, kata containers, kubernetes, onap, openstack, open vswitch, opnfv, starlingx, zuul and more.</p>
+      <div class="dkdkfjkd">
+            <div class="dkdkfjkd">asdfasdf</div>
+      </div>
+    </div>
+  </div>
+  
 </section>
 
+<!--
 
 <section class="section-bg-white">
 hola
