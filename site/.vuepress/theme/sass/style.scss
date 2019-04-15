@@ -231,13 +231,15 @@ div.content.custom > main > section > div > div > div > h3 {
   color: $white !important;
 }
 
-
-.hero-main .hero-body {
-  background-image:url('/images/hero-image.png');
- }
-
  .hero-background {
-  background-image:url('/images/hero-image.png');
+  background-image:url('/images/hero-image.svg');
+  background-size: cover;
  }
 
- 
+ .hero.is-primary {
+  background-color: unset;
+}
+
+.hero.is-primary {
+  background-color: unset;
+}
