@@ -5,4 +5,15 @@
 .wrapper {
 	min-height: 100vh;
 	overflow: hidden;
+	background-color: $dark;
+	color: $white;
+}
+
+
+
+.wrapper-all {
+    min-height: 25vh;
+    overflow: hidden;
+    background-color: $dark;
+    color: #fff;
 }

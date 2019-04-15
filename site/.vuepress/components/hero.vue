@@ -29,6 +29,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque quam, pla
               <span>Join the community</span>
             </a>
 
+            <!-- <img src="../public/images/hero-image.png" alt="#" /> -->
 
           </div>
           <!-- /.hero-actions -->

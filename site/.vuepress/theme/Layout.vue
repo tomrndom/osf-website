@@ -1,11 +1,20 @@
 <template>
   <div class="wrapper">
-    <base-header />
+    <div class="wrapper hero-background" v-if="$page.frontmatter.home">
+      <bar />
+      <navigation />
+      <main class="main">
+          <hero class="hero-main is-primary" withButton :title="$page.frontmatter.hero.headline" >
+          </hero>
+      </main>
+    </div>
 
-    <component v-if="layout" :is="layout" />
-    <home v-else-if="$page.frontmatter.home" />
-    <page v-else />
+    <div class="wrapper-all" v-else>
+      <bar />
+      <navigation />
+    </div>
 
+    <page />
     <base-footer />
     <bar-footer/>
   </div><!-- /.wrapper -->

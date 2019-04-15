@@ -5,31 +5,18 @@ title: OPENSTACK FOUNDATION
 hero:
   headline: 'THE HOME OF OPEN INFRASTRUCTURE'
   button:
-    title: Get Kata Containers 1.6
-    url: 'https://github.com/kata-containers/runtime/releases/tag/1.6.0'
+    title: Learn more
+    url: '#'
 home: true
-# heroImage: /bencodezen-logo.png
-# heroText: OPENSTACK FOUNDATION
-# tagline: Not your average coding blog
-# actionText: Read the latest →
-# actionLink: /blog/
-# features:
-# - title: Consulting
-#   details: I provide web development services across the spectrum. From taking design comps and creating a design system with modular & scalable CSS architecture to building single page applications with Vue.js. 
-# - title: Speaking
-#   details: I have spoken on various topics on web development and best practices. I'm always creating new topics as well, so please reach out if you'd like me to speak at your event!
-# - title: Training & Workshops
-#   details: I have experience teaching groups of various sizes and skillsets. Whether it's Vue.js, CSS, or some other topic, I would love to share my knowledge with you and your group!
-# footer: © Tipit 2019. Made with VuePress.
 
 ---
 
 
- <main class="main">
+ <!-- <main class="main">
     <hero class="hero-main is-primary" withButton :title="$page.frontmatter.hero.headline" >
     </hero>
 </main>
-
+ -->
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque quam, placerat sit amet lorem in, dapibus pellentesque dolor. In fermentum commodo est, nec varius erat tempus vel. In hac habitasse platea dictumst. Nam consectetur lobortis nisi rutrum consequat. Nam in leo sed urna fermentum iaculis. Morbi quis nunc id lorem finibus venenatis. Donec aliquam, turpis ut placerat convallis, nisi massa ornare ligula, id aliquam metus est eget tortor. Cras rutrum, felis sit amet iaculis porta, lorem quam ornare dolor, et facilisis ipsum nisi posuere enim. Nunc aliquet arcu at turpis rhoncus finibus. Sed mattis ligula ac augue lacinia feugiat. Ut sollicitudin turpis mi, ac fermentum nibh molestie sed.
