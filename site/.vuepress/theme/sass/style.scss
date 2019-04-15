@@ -184,3 +184,49 @@ hr {
   margin-left: auto;
 }
 
+.hero.is-primary {
+  background-color: $dark;
+  color: #fff;
+}
+
+div.content.custom > main > section > div > div > div > h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;  
+  font-weight: 900;
+}
+
+
+
+.button {
+  margin-top: 15px;
+  margin-right: 10px;
+  height: auto;
+  padding: 9px 35px;
+  transition: background 0.3s;
+
+  background: $white;
+  flex: 0 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 0px;
+  // border: 1px solid $white;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  // text-transform: uppercase;
+  text-transform: none !important;
+  color: $dark !important;
+  transition: background 0.3s, border-color 0.3s;
+
+  &:hover {
+    background: $primary;
+    border-color: $primary;
+  }
+
+}
+
+.button-red {
+  background: $dark-gray;
+  border-color: $dark-gray;
+  color: $white !important;
+}

@@ -1,13 +1,13 @@
 ---
 layout: home
-title: OPENSTACKf FOUNDATION
+title: OPENSTACK FOUNDATION
 
-# hero:
-#   headline: 'The speed of containers, the security of VMs'
-#   button:
-#     title: Get Kata Containers 1.6
-#     url: 'https://github.com/kata-containers/runtime/releases/tag/1.6.0'
-# home: true
+hero:
+  headline: 'THE HOME OF OPEN INFRASTRUCTURE'
+  button:
+    title: Get Kata Containers 1.6
+    url: 'https://github.com/kata-containers/runtime/releases/tag/1.6.0'
+home: true
 # heroImage: /bencodezen-logo.png
 # heroText: OPENSTACK FOUNDATION
 # tagline: Not your average coding blog
@@ -23,6 +23,14 @@ title: OPENSTACKf FOUNDATION
 # footer: © Tipit 2019. Made with VuePress.
 
 ---
+
+
+ <main class="main">
+    <hero class="hero-main is-primary" withButton :title="$page.frontmatter.hero.headline" >
+    </hero>
+</main>
+
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque quam, placerat sit amet lorem in, dapibus pellentesque dolor. In fermentum commodo est, nec varius erat tempus vel. In hac habitasse platea dictumst. Nam consectetur lobortis nisi rutrum consequat. Nam in leo sed urna fermentum iaculis. Morbi quis nunc id lorem finibus venenatis. Donec aliquam, turpis ut placerat convallis, nisi massa ornare ligula, id aliquam metus est eget tortor. Cras rutrum, felis sit amet iaculis porta, lorem quam ornare dolor, et facilisis ipsum nisi posuere enim. Nunc aliquet arcu at turpis rhoncus finibus. Sed mattis ligula ac augue lacinia feugiat. Ut sollicitudin turpis mi, ac fermentum nibh molestie sed.
 

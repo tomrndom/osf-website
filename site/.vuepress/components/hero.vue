@@ -11,16 +11,25 @@
     <div class="hero-body">
       <div :class="['container', containerClass]">
         <div class="hero-content">
-          <h3 class="hero-title">{{ title }}</h3>
+          <div class="hero-subhead">WELCOME TO
+          </div>
+          <h3 class="hero-title">THE HOME OF</h3>
+          <h3 class="hero-title">OPEN INFRASTRUCTURE</h3>
           <!-- /.hero-title -->
-          <div v-if="withButton" class="hero-subhead">Kata Containers is an open source container runtime, building lightweight virtual machines that seamlessly plug into the containers ecosystem.
-          </div>
-          <div v-if="withEntry" class="hero-entry">
-            <slot name="entry"/>
-          </div>
+          <div class="hero-entry">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque quam, placerat sit amet lorem in, dapibus pellentesque dolor. In fermentum commodo est, nec varius.
+</div>
           <!-- /.hero-entry -->
-          <div v-if="withButton" class="hero-actions">
-            <slot name="buttons"/>
+          <div class="hero-actions">
+        
+            <a href="#" class="button">
+              <span>Learn more</span>
+            </a>
+            <a href="#" class="button button-red">
+              <span>Join the community</span>
+            </a>
+
+
           </div>
           <!-- /.hero-actions -->
         </div>
