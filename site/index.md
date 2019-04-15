@@ -96,8 +96,57 @@ home: true
     
   </div>
 
+</section>
+
+
+
+<section class="section-bg-green">
+
+
+  <div class="section-bg-green-child">
+    <div class="section-bg-white-center">
+      <h4>THE PROJECTS BUILDING</h4>
+      <h4>OPEN INFRASTRUCTURE</h4>
+      <div class="section-bg-green-logos-container">
+        <div class="section-bg-green-logo">
+          <img src="/images/home/logo1.svg" alt="not found"/>
+        </div>
+        <div class="section-bg-green-logo">
+          <img src="/images/home/logo2.svg" alt="not found"/>
+        </div>
+        <div class="section-bg-green-logo">
+          <img src="/images/home/logo3.svg" alt="not found"/>
+        </div>
+        <div class="section-bg-green-logo">
+          <img src="/images/home/logo4.svg" alt="not found"/>
+        </div>
+        <div class="section-bg-green-logo">
+          <img src="/images/home/logo5.svg" alt="not found"/>
+        </div>
+      </div>
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus ut risus non tempor. Fusce varius augue lectus, ut accumsan erat tincidunt finibus. Cras eu tellus in lacus fringilla hendrerit. Suspendisse in varius libero. Nam laoreet vitae est vel rutrum. Phasellus convallis ultricies nulla at posuere. Praesent pretium lobortis neque ac aliquam. </p>
+      <a href="#" class="button button-red">
+        <span>See all OSF projects</span>
+     </a>
+    </div>
+    
+  </div>
+
 
 
 </section>
 
 
+<!-- <section class="section-bg-bluered">
+hola
+</section>
+
+
+<section class="section-bg-white">
+hola
+</section>
+
+<section class="section-bg-lightblue">
+hola
+</section> -->

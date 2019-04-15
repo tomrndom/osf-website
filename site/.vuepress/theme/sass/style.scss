@@ -398,3 +398,77 @@ div.content.custom > main > section > div > div > div > h3 {
     text-align: center;
   }
 }
+
+// ############ SECTION HOME 2 - GREEN #################
+
+
+.section-bg-green {
+  color: $dark;
+  background-image:url('/images/background-shapes-green.svg');
+  background-size: cover;
+  margin-top: -170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-bg-green-child {
+  color: $dark;
+  margin: 90px;
+  margin-top: 0px;
+  width: 850px;
+  text-align: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  background-color: $white;
+
+  h4 {
+    // font-size: 22pt;
+    color: $dark;
+    text-transform: uppercase;
+    margin-top: 0px;
+    &:first-child {
+      margin-bottom: 0.3em
+    }
+  }
+  p {
+    color: $dark;
+  }
+}
+
+.section-bg-green-logos-container {
+  display: flex;
+  justify-content: space-around;
+}
+.section-bg-green-logo {
+  color: red;
+  margin: 30px;
+  width: 70px;
+}
+
+// ############ SECTION HOME 2 - BLUERED #################
+
+
+.section-bg-bluered {
+  color: $dark;
+  background-image:url('/images/background-shapes-bluered.svg');
+  background-size: cover;
+  margin-top: -170px;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+// ############ SECTION HOME 2 - LIGHTBLUE #################
+
+
+.section-bg-lightblue {
+  color: $dark;
+  background-image:url('/images/background-shapes-lightblue.svg');
+  background-size: cover;
+  margin-top: -170px;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
