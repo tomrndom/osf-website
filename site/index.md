@@ -11,12 +11,55 @@ home: true
 
 ---
 
+<section class="section-bg-blue">
 
- <!-- <main class="main">
-    <hero class="hero-main is-primary" withButton :title="$page.frontmatter.hero.headline" >
-    </hero>
-</main>
- -->
+<div class="columns">
+
+<div class="column">
+    <img src="/images/home/image1.svg" alt="not found" class="section-bg-blue-child section-bg-blue-child-left ">
+    <img src="/images/home/image2.svg" alt="not found" class="section-bg-blue-child section-bg-blue-child-imageset1">
+
+ <div class="section-bg-blue-child">
+    <h4>WHY OPENSOURCE?</h4>
+    <p>
+    Because it works. OpenStack has proven the model, becoming one of the 3 most actively developed open source projects on the planet, with thousands of developers from over xx countries.
+    And it powers everything from massively popular games like Overwatch to the largest power company in the world in China, to Workday, to ATT's 5G networks and beyond.</p>
+    <p>
+    Now we're ready to share this radically open method for developing open source software with the world beyond OpenStack, helping people build and operate open infrastructure.
+    </p>
+
+  </div>
+
+</div>
+<div class="column">
+  <div class="section-bg-blue-child">
+    <h4>Built on the 4 Opens, Build by the Community</h4>
+    <p>
+    Modern apps rely on automated infrastructure, from massive datacenter clouds to the smallest edge nodes for IoT and 5g, and none of it is possible without open source software.</p>
+    <p>That's Open Infrastructure, and the OSF exists to ensure each open source component is built and tested together, collaboratively, with a radical approach to openness we call
+    the "Four Opens".</p>
+    <p>From Community where anyone is welcome, to Design where diverse ideas are shared before the coding begins, to Development when every patch is visible and tested before it lands, to the Source code itself which is shared with the world, each is critical to how we deliver open source.</p>
+  </div>
+
+  <img src="/images/home/image3.svg" alt="not found" class="section-bg-blue-child section-bg-blue-child-imageset3">
+
+ <img src="/images/home/image4.svg" alt="not found" class="section-bg-blue-child section-bg-blue-child-imageset1 section-bg-blue-child-imageset4">
+
+</div>
+
+</div>
+
+
+
+</section>
+
+
+<section class="section-bg-white">
+
+
+
+</section>
+
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque quam, placerat sit amet lorem in, dapibus pellentesque dolor. In fermentum commodo est, nec varius erat tempus vel. In hac habitasse platea dictumst. Nam consectetur lobortis nisi rutrum consequat. Nam in leo sed urna fermentum iaculis. Morbi quis nunc id lorem finibus venenatis. Donec aliquam, turpis ut placerat convallis, nisi massa ornare ligula, id aliquam metus est eget tortor. Cras rutrum, felis sit amet iaculis porta, lorem quam ornare dolor, et facilisis ipsum nisi posuere enim. Nunc aliquet arcu at turpis rhoncus finibus. Sed mattis ligula ac augue lacinia feugiat. Ut sollicitudin turpis mi, ac fermentum nibh molestie sed.

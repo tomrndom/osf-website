@@ -243,3 +243,59 @@ div.content.custom > main > section > div > div > div > h3 {
 .hero.is-primary {
   background-color: unset;
 }
+
+
+// ############ SECTION HOME 1 #################
+
+.section-bg-blue {
+  color: $white;
+  background-image:url('/images/background-shapes-blue.svg');
+  background-size: cover;
+}
+
+.section-bg-blue-child {
+  color: $white;
+  margin: 90px;
+  width: 350px;
+  z-index: 200;
+  h4 {
+    // font-size: 22pt;
+    color: $white;
+    text-transform: uppercase;
+  }
+}
+
+.section-bg-blue-child-left {
+  margin-left: 120px;
+  z-index: 200;
+  position: relative;
+}
+
+.section-bg-blue-child-imageset1 {
+  width: 500px;
+  margin-left: 0px;
+  margin-top: -100px;
+  z-index: 100;
+}
+
+.section-bg-blue-child-imageset3 {
+  width: 550px;
+  margin-left: 20px;
+  padding-right: 20px;
+}
+
+.section-bg-blue-child-imageset4 {
+  width: 310px;
+  margin-left: 180px;
+  margin-top: -120px;
+}
+
+// ############ SECTION HOME 2 #################
+
+.section-bg-white {
+  color: red;
+  background-image:url('/images/background-shapes-white.svg');
+  background-size: cover;
+  height: 250px;
+  margin-top: -170px;
+}
