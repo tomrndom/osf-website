@@ -293,9 +293,108 @@ div.content.custom > main > section > div > div > div > h3 {
 // ############ SECTION HOME 2 #################
 
 .section-bg-white {
-  color: red;
+  color: $dark;
   background-image:url('/images/background-shapes-white.svg');
   background-size: cover;
-  height: 250px;
   margin-top: -170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.section-bg-white-center {
+  color: $white;
+  margin: 90px;
+  width: 750px;
+  z-index: 200;
+  h4 {
+    // font-size: 22pt;
+    color: $white;
+    text-transform: uppercase;
+  }
+}
+
+.section-bg-white-child {
+  color: $dark;
+  margin: 90px;
+  width: 550px;
+  text-align: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+
+
+  h4 {
+    // font-size: 22pt;
+    color: $dark;
+    text-transform: uppercase;
+    margin-top: 0px;
+    &:first-child {
+      margin-bottom: 0.3em
+    }
+  }
+  p {
+    color: $dark;
+  }
+}
+
+
+
+// ############ SECTION HOME 2 - ICONS #################
+
+
+.section-bg-white-icons1 {
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  margin-top: -50px;
+}
+
+.section-bg-white-icons-child1 {
+  display: flex;
+  flex-direction: column;
+  p {
+    width: 70px;
+    text-align: center;
+  }
+}
+
+
+.section-bg-white-icons2 {
+  display: flex;
+  justify-content: space-around;
+  width: 550px;
+  margin-top: 30px;
+}
+
+.section-bg-white-icons-child2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  p {
+    width: 120px;
+    text-align: center;
+  }
+}
+
+
+
+.section-bg-white-icons3 {
+  display: flex;
+  justify-content: space-around;
+  width: 550px;
+  margin-top: 15px;
+}
+
+.section-bg-white-icons-child3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  p {
+    width: 120px;
+    text-align: center;
+  }
 }

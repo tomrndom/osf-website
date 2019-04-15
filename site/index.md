@@ -56,18 +56,48 @@ home: true
 
 <section class="section-bg-white">
 
+  <div class="section-bg-white-child">
+    <div class="section-bg-white-center">
+      <h4>Why Expand Beyond the</h4>
+      <h4>Openstack Project</h4>
+      <p>
+      This is where we will talk about the changing environment and how one project can’t do all of the things. We’ll touch on how infrastructure has evolved and how these sfas will help drive infrastructure in the future.</p>
+      <p>Vivamus eget metus massa. Vivamus blandit dignissim neque, ac ornare dolor iaculis et. Nullam sit amet suscipit felis, sed convallis nibh. Proin venenatis odio purus, quis sollicitudin ipsum gravida ut. Suspendisse vehicula massa.</p>
+      <a href="#" class="button button-red">
+        <span>Learn more</span>
+     </a>
+    <div class="section-bg-white-icons1">
+      <div class="section-bg-white-icons-child1"> 
+        <img src="/images/home/icon1.svg" alt="not found"/>
+        <p>EDGE COMPUTING</p>
+      </div>
+      <div class="section-bg-white-icons-child1"> 
+        <img src="/images/home/icon2.svg" alt="not found"/>
+        <p>CI/CD</p>
+        </div>
+    </div>
+    <div class="section-bg-white-icons2">
+      <div class="section-bg-white-icons-child2">
+        <img src="/images/home/icon3.svg" alt="not found"/>
+        <p>CONTAINER INFRASTRUCTURE</p>
+      </div>
+      <div class="section-bg-white-icons-child2">
+        <img src="/images/home/icon4.svg" alt="not found"/>
+        <p>IA & MACHINE LEARNING</p>
+      </div>
+    </div>
+    <div class="section-bg-white-icons3">
+      <div class="section-bg-white-icons-child3">
+        <img src="/images/home/icon5.svg" alt="not found"/>
+        <p>Public/PrIvate Hybrid CLOUD</p>
+      </div>
+    </div>
+    </div>
+    
+  </div>
+
 
 
 </section>
 
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque quam, placerat sit amet lorem in, dapibus pellentesque dolor. In fermentum commodo est, nec varius erat tempus vel. In hac habitasse platea dictumst. Nam consectetur lobortis nisi rutrum consequat. Nam in leo sed urna fermentum iaculis. Morbi quis nunc id lorem finibus venenatis. Donec aliquam, turpis ut placerat convallis, nisi massa ornare ligula, id aliquam metus est eget tortor. Cras rutrum, felis sit amet iaculis porta, lorem quam ornare dolor, et facilisis ipsum nisi posuere enim. Nunc aliquet arcu at turpis rhoncus finibus. Sed mattis ligula ac augue lacinia feugiat. Ut sollicitudin turpis mi, ac fermentum nibh molestie sed.
-
-Sed interdum risus sed neque venenatis tristique. Morbi eget commodo metus, vitae accumsan diam. Nulla suscipit, nunc ut euismod mollis, velit odio sodales diam, tristique aliquet velit est sagittis magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur a nisl consectetur, vestibulum urna malesuada, consequat diam. Aenean viverra felis dignissim velit tempus finibus. Quisque vulputate erat mi, cursus pharetra metus iaculis eu. Cras nec semper metus. Suspendisse auctor ex sapien, nec sagittis dui lobortis at. Sed interdum sem nibh, aliquet tempus neque venenatis sed. Cras bibendum tempor velit nec placerat. Nullam at dolor nisl. Mauris mi odio, suscipit tincidunt elit ut, tincidunt malesuada dui. Nam consectetur tempus dignissim. Nulla sit amet felis sed augue iaculis ultrices quis vel neque.
-
-Mauris blandit elit in nibh tempor accumsan. Donec eleifend turpis sit amet neque rhoncus volutpat ut eu velit. Vivamus eleifend odio metus, at hendrerit ante elementum non. Etiam a pulvinar nulla, eu ultricies arcu. Quisque risus mi, volutpat sit amet viverra id, vulputate in ex. Donec nibh sapien, tempor at molestie eget, elementum vel nulla. Proin finibus molestie libero ut cursus. Suspendisse commodo, nibh eleifend lobortis vestibulum, nisi turpis elementum tortor, sed laoreet elit sapien nec diam. Etiam at laoreet sapien. Fusce elementum ac velit ac varius. Morbi eu purus molestie, gravida risus eu, malesuada felis. Etiam vehicula et ligula non mattis. Nullam scelerisque, neque sit amet lobortis tempor, elit erat lobortis nisl, at elementum ex libero at libero.
-
-Nullam dignissim lectus eu augue vulputate, non mollis elit hendrerit. Integer finibus, nulla eu pharetra ultricies, lacus mauris finibus magna, quis imperdiet tortor erat sed metus. Duis interdum quis nunc non finibus. Pellentesque eu gravida nunc. Praesent risus dolor, fringilla at lectus nec, dapibus ornare nisl. Vestibulum a pharetra velit. Cras eu congue metus, et volutpat turpis. Sed pulvinar ligula sit amet euismod bibendum. Integer pellentesque enim eget leo malesuada imperdiet. Pellentesque iaculis lobortis erat, at convallis mi volutpat quis. In lobortis felis lacinia finibus condimentum. Duis eu placerat enim.
-
-Suspendisse lacinia condimentum ligula, iaculis consectetur sapien molestie sit amet. Mauris dictum metus sit amet euismod pulvinar. Pellentesque vehicula dolor at varius ornare. Nulla suscipit at ante quis porta. Etiam ultricies risus non erat placerat dictum. Aliquam egestas eleifend mauris scelerisque elementum. Phasellus interdum quis augue et condimentum. Vestibulum vitae enim non diam egestas blandit. Sed eu sapien tincidunt, bibendum velit eget, aliquam diam.
