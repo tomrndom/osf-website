@@ -614,6 +614,31 @@ div.content.custom > main > section > div > div > div > h3 {
   background-color: $white;
   padding-top: 80px;
   padding-bottom: 60px;
+  margin-bottom: 20px;
+
+  .columns {
+    .column {
+      &:first-child{
+        max-width:450px;
+        margin-left:80px;
+        img {
+          margin-bottom:25px;
+        }
+      }
+      &:last-child{
+        //max-width:450px;
+        margin-left:80px;
+        img {
+          width: 500px;
+          max-width: unset;   
+          &:last-child {
+            margin-left: 140px;
+            margin-top: -100px;
+          }     
+        }
+      }
+    }
+  }
 
 }
 
@@ -628,6 +653,39 @@ div.content.custom > main > section > div > div > div > h3 {
   background-size: cover;
   padding-top: 110px;
   padding-bottom: 60px;
+  margin-top: -230px;
+
+  h2 {
+    text-align: center;
+    color: $white;
+    margin-bottom: 40px;
+  }
+
+
+  .home-s7-main-container {
+    display:flex;
+    justify-content: center;
+  }
+
+  .home-s7-main-container-child {
+    margin: 10px;
+    width: 400px;
+  }
+
+  .card{
+    border-radius: $box-radius;
+    color: $dark;
+    .title.is-4 {
+      color: $primary;
+    }
+    p {
+      color: $primary;
+      a {
+        color: $primary;
+      }
+    }
+    
+  }
 
 }
 
@@ -636,11 +694,24 @@ div.content.custom > main > section > div > div > div > h3 {
 
 
 .home-s8-main {
-  color: $dark;
+  color: $primary;
   background-color: $white;
   padding-top: 110px;
   padding-bottom: 60px;
   text-align: center;
+
+  h2 {
+    color: $primary;
+    font-size: 35px;
+  }
+  h3 {
+    color: $primary;
+    margin-top: 5em !important;
+  }
+
+  .button.button-red {
+    margin-top: 5em;
+  }
 
 }
 

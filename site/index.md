@@ -186,7 +186,7 @@ hola
 
 <div class="column">
     <img src="/images/home/logo6.svg" alt="not found" class="">
-    <h4>5G OPEN VISION FUND</h4>
+    <h2>5G OPEN VISION FUND</h2>
     <p>
     5G is comming and will change mobile telecom infrastructure
     forever. Help us create a future that is open
@@ -212,10 +212,9 @@ hola
 <section class="home-s7-main">
     <h2>WHAT PEOPLE SAYS ABOUT US</h2>
 
-<div class="columns">
+<div class="home-s7-main-container">
 
-<div class="column">
-
+<div class="home-s7-main-container-child">
   <div class="card">
     <div class="card-content">
         <div class="media">
@@ -225,20 +224,20 @@ hola
             </figure>
         </div>
         <div class="media-content">
-            <p class="title is-4">xxxx</p>
-            <p class="subtitle is-6">xxxxx</p>
+            <p class="title is-4">Patryk IInicki</p>
+            <p class="subtitle is-6">@Patryk_llnicki</p>
         </div>
         </div>
         <div class="content">
-        <h3> <a href="#" class="a-no-underline" >******</a> </h3>
-          <a href="#">Read More</a>
+          <p>We had a successful day yerterday with our bug squash, over 80 bugs
+          triaged, marked as afidex already, small fixes pushed up, touched up reviews to 
+          merge code and so much more. Thanks to all the <a href="#">@OpenStack</a></p>
         </div>
     </div>
   </div>
-
 </div>
-<div class="column">
 
+<div class="home-s7-main-container-child">
   <div class="card">
     <div class="card-content">
         <div class="media">
@@ -248,21 +247,20 @@ hola
             </figure>
         </div>
         <div class="media-content">
-            <p class="title is-4">xxxx</p>
-            <p class="subtitle is-6">xxxxx</p>
+            <p class="title is-4">Patryk IInicki</p>
+            <p class="subtitle is-6">@Patryk_llnicki</p>
         </div>
         </div>
         <div class="content">
-        <h3> <a href="#" class="a-no-underline" >******</a> </h3>
-          <a href="#">Read More</a>
+          <p>We had a successful day yerterday with our bug squash, over 80 bugs
+          triaged, marked as afidex already, small fixes pushed up, touched up reviews to 
+          merge code and so much more. Thanks to all the <a href="#">@OpenStack</a></p>
         </div>
     </div>
   </div>
-
 </div>
-<div class="column">
-    
 
+<div class="home-s7-main-container-child">
   <div class="card">
     <div class="card-content">
         <div class="media">
@@ -272,19 +270,21 @@ hola
             </figure>
         </div>
         <div class="media-content">
-            <p class="title is-4">xxxx</p>
-            <p class="subtitle is-6">xxxxx</p>
+            <p class="title is-4">Patryk IInicki</p>
+            <p class="subtitle is-6">@Patryk_llnicki</p>
         </div>
         </div>
         <div class="content">
-        <h3> <a href="#" class="a-no-underline" >******</a> </h3>
-          <a href="#">Read More</a>
+          <p>We had a successful day yerterday with our bug squash, over 80 bugs
+          triaged, marked as afidex already, small fixes pushed up, touched up reviews to 
+          merge code and so much more. Thanks to all the <a href="#">@OpenStack</a></p>
         </div>
     </div>
   </div>
-
-    
 </div>
+
+
+
 
 </div>
 
