@@ -832,13 +832,24 @@ div.content.custom > main > section > div > div > div > h3 {
 // ############ projects section 2
 
 .projects-s2-main {
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 50px;
   color: $white;
-  background-color: #00ffff;
+  background-color: #39ba9c;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
   .itemtitle {
     color: $white;
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 80px;
+    margin-left: 0px;
+  }
+  p {
+    max-width: 500px;
   }
 }
