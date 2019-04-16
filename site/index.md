@@ -49,8 +49,6 @@ home: true
 
 </div>
 
-
-
 </section>
 
 
@@ -180,3 +178,82 @@ hola
 <section class="section-bg-lightblue">
 hola
 </section> -->
+
+
+<section class="home-s6-main">
+
+<div class="columns">
+
+<div class="column">
+    <img src="/images/home/logo6.svg" alt="not found" class="">
+    <h4>5G OPEN VISION FUND</h4>
+    <p>
+    5G is comming and will change mobile telecom infrastructure
+    forever. Help us create a future that is open
+    for participation, collaborationand opportunity to the broadest array of organizations.</p>
+    <a href="#" class="button button-red">
+        <span>Join the community</span>
+    </a>
+
+</div>
+<div class="column">
+  <div class="section-bg-blue-child">
+        <img src="/images/home/picture3.svg" alt="not found" class="">        
+        <img src="/images/home/picture4.svg" alt="not found" class="">
+  </div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="home-s7-main">
+    <h2>WHAT PEOPLE SAYS ABOUT US</h2>
+
+<div class="columns">
+
+<div class="column">
+    <a href="#" class="button button-red">
+        <span>card</span>
+    </a>
+</div>
+<div class="column">
+    <a href="#" class="button button-red">
+        <span>card</span>
+    </a>
+</div>
+<div class="column">
+    <a href="#" class="button button-red">
+        <span>card</span>
+    </a>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="home-s8-main">
+    <h2>COMPANIES SUPPORTING THE OPENSTACK FOUNDATION</h2>
+    <h3>Platinum Members</h3>
+    <div class="home-s8-container">   
+        <img src="/images/home/logo-att.svg" alt="not found" class="home-s8-container-child" /> 
+        <img src="/images/home/logo-ericsson.svg" alt="not found ericsson" class="home-s8-container-child" /> 
+        <img src="/images/home/logo-huawei.svg" alt="not found" class="home-s8-container-child" /> 
+        <img src="/images/home/logo-intel.svg" alt="not found" class="home-s8-container-child" /> 
+        <img src="/images/home/logo-redhat.svg" alt="not found" class="home-s8-container-child" /> 
+        <img src="/images/home/logo-tencent.svg" alt="not found" class="home-s8-container-child" /> 
+    </div>
+    <h3>Golden Members</h3>
+    <div class="home-s8-container">   
+        <img src="/images/home/logo-ubuntu.svg" alt="not found" class="home-s8-container-child" /> 
+        <img src="/images/home/logo-chinamobile.svg" alt="not found chinamobile" class="home-s8-container-child" /> 
+        <img src="/images/home/logo-dellemc.svg" alt="not found" class="home-s8-container-child" /> 
+        <img src="/images/home/logo-cisco.svg" alt="not found" class="home-s8-container-child" /> 
+        <img src="/images/home/logo-chinaunicom.svg" alt="not found" class="home-s8-container-child" /> 
+        <img src="/images/home/logo-citynetwork.svg" alt="not found" class="home-s8-container-child" /> 
+    </div>
+
+</section>

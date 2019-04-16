@@ -511,16 +511,6 @@ div.content.custom > main > section > div > div > div > h3 {
   padding-top: 120px;
   padding-bottom: 60px;
   margin-top: -30px;
-
-/*   &::after {
-    content: url('/images/background-shapes-bluered.svg');
-    filter:alpha(opacity=50);
-    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
-    opacity:0.50;
-  } */
-
-  
-  
 }
 
 .home-s5-container1 {
@@ -608,6 +598,61 @@ div.content.custom > main > section > div > div > div > h3 {
 }
 
 .home-s5-container3-child {
+  
+  margin-top: 100px;
+  
+}
+
+
+
+
+// ############ home section 6
+
+
+.home-s6-main {
+  color: $dark;
+  background-color: $white;
+  padding-top: 80px;
+  padding-bottom: 60px;
+
+}
+
+
+
+// ############ home section 7
+
+
+.home-s7-main {
+  color: $dark;
+  background-image:url('/images/background-shapes-lightblue.svg');
+  background-size: cover;
+  padding-top: 110px;
+  padding-bottom: 60px;
+
+}
+
+
+// ############ home section 8
+
+
+.home-s8-main {
+  color: $dark;
+  background-color: $white;
+  padding-top: 110px;
+  padding-bottom: 60px;
+
+}
+
+.home-s8-container {
+  color: $white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.home-s8-container-child {
   
   margin-top: 100px;
   
