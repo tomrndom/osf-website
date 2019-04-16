@@ -312,7 +312,7 @@ hola
         <img src="/images/home/logo-citynetwork.svg" alt="not found" class="home-s8-container-child" /> 
     </div>
     <a href="#" class="button button-red">
-        <span>View all Member Companies -></span>
+        <span>View all Member Companies <img src="/images/symbols/arrow-left.svg" alt="not found" />  </span>
     </a>
 
 </section>
