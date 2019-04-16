@@ -215,19 +215,75 @@ hola
 <div class="columns">
 
 <div class="column">
-    <a href="#" class="button button-red">
-        <span>card</span>
-    </a>
+
+  <div class="card">
+    <div class="card-content">
+        <div class="media">
+        <div class="media-left">
+            <figure class="image is-48x48">
+            <img src="/images/home/avatar1.svg" alt="not found">
+            </figure>
+        </div>
+        <div class="media-content">
+            <p class="title is-4">xxxx</p>
+            <p class="subtitle is-6">xxxxx</p>
+        </div>
+        </div>
+        <div class="content">
+        <h3> <a href="#" class="a-no-underline" >******</a> </h3>
+          <a href="#">Read More</a>
+        </div>
+    </div>
+  </div>
+
 </div>
 <div class="column">
-    <a href="#" class="button button-red">
-        <span>card</span>
-    </a>
+
+  <div class="card">
+    <div class="card-content">
+        <div class="media">
+        <div class="media-left">
+            <figure class="image is-48x48">
+            <img src="/images/home/avatar1.svg" alt="not found">
+            </figure>
+        </div>
+        <div class="media-content">
+            <p class="title is-4">xxxx</p>
+            <p class="subtitle is-6">xxxxx</p>
+        </div>
+        </div>
+        <div class="content">
+        <h3> <a href="#" class="a-no-underline" >******</a> </h3>
+          <a href="#">Read More</a>
+        </div>
+    </div>
+  </div>
+
 </div>
 <div class="column">
-    <a href="#" class="button button-red">
-        <span>card</span>
-    </a>
+    
+
+  <div class="card">
+    <div class="card-content">
+        <div class="media">
+        <div class="media-left">
+            <figure class="image is-48x48">
+            <img src="/images/home/avatar1.svg" alt="not found">
+            </figure>
+        </div>
+        <div class="media-content">
+            <p class="title is-4">xxxx</p>
+            <p class="subtitle is-6">xxxxx</p>
+        </div>
+        </div>
+        <div class="content">
+        <h3> <a href="#" class="a-no-underline" >******</a> </h3>
+          <a href="#">Read More</a>
+        </div>
+    </div>
+  </div>
+
+    
 </div>
 
 </div>
@@ -255,5 +311,8 @@ hola
         <img src="/images/home/logo-chinaunicom.svg" alt="not found" class="home-s8-container-child" /> 
         <img src="/images/home/logo-citynetwork.svg" alt="not found" class="home-s8-container-child" /> 
     </div>
+    <a href="#" class="button button-red">
+        <span>View all Member Companies -></span>
+    </a>
 
 </section>
