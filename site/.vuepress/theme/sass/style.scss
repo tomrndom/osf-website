@@ -499,3 +499,116 @@ div.content.custom > main > section > div > div > div > h3 {
   align-items: center;
   height: 250px;
 }
+
+
+
+// ############### home section 5 - home-s5 #############
+
+.home-s5-main {
+  color: $dark;
+  background-image:url('/images/background-shapes-bluered.svg');
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 60px;
+  margin-top: -30px;
+
+/*   &::after {
+    content: url('/images/background-shapes-bluered.svg');
+    filter:alpha(opacity=50);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+    opacity:0.50;
+  } */
+
+  
+  
+}
+
+.home-s5-container1 {
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.home-s5-container1-child {
+  text-align: center;
+  align-self: center;
+  color: $white;
+  width: 50%;
+  p.l1 {
+    margin-bottom: -20px;
+    padding-bottom: 0px;
+/*     color: red;  
+ */  }
+  h3 {
+    color: $white;
+  }
+}
+
+
+.home-s5-container2 {
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.home-s5-container2-child1 {
+  background-image:url('/images/home/picture1.svg');
+  background-size: cover;
+  color: $white;
+  width: 45%;
+  padding: 150px;
+  margin-top: 100px;
+  height: 610px;
+
+  p {
+    margin-top: 10px;
+    padding-bottom: 0px;
+ }
+  h3 {
+    margin-top: 100px;
+    color: $white;
+  }
+}
+
+.home-s5-container2-child2 {
+  background-image:url('/images/home/picture2.svg');
+  background-size: cover;
+  color: $white;
+  width: 45%;
+  padding: 150px;
+  margin-top: 100px;
+  height: 610px;
+
+  p {
+    margin-top: 10px;
+    padding-bottom: 0px;
+ }
+  h3 {
+    margin-top: 100px;
+    color: $white;
+  }
+}
+
+
+.home-s5-container3 {
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.home-s5-container3-child {
+  
+  margin-top: 100px;
+  
+}

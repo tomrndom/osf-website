@@ -133,27 +133,43 @@ home: true
     
   </div>
 
-
-
 </section>
 
 
-<section class="section-bg-bluered">
- <div class="section-bg-bluered-child">
-    <div class="section-bg-white-center">
-      <p class="p-bluerd1">JOIN US</p>
-      <h3>THE OPEN INFRASTRUCTURE</h3>
-      <h3>SUMMIT</h3>
-      <p>THE OPEN STACK SUMMIT HAS A NEW NAME!</p>
-      <p>
-      Join the people building and operating open infrastructure, with over 300 sessions and workshops on container infrastructure, ci/cd, telecom + nfv, public cloud, private & hybrid cloud, security and members of open source communities like airship, ansible, ceph, docker, kata containers, kubernetes, onap, openstack, open vswitch, opnfv, starlingx, zuul and more.</p>
-      <div class="dkdkfjkd">
-            <div class="dkdkfjkd">asdfasdf</div>
+<div class="home-s5-main">
+      <div class="home-s5-container1">
+        <div class="home-s5-container1-child">
+          <p class="l1">JOIN US AT</p>
+          <h3>THE OPEN INFRASTRUCTURE SUMMIT</h3>
+          <p>THE OPEN STACK SUMMIT HAS A NEW NAME!</p>
+          <p>
+          Join the people building and operating open infrastructure, with over 300 sessions and workshops on container infrastructure, ci/cd, telecom + nfv, public cloud, private & hybrid cloud, security and members of open source communities like airship, ansible, ceph, docker, kata containers, kubernetes, onap, openstack, open vswitch, opnfv, starlingx, zuul and more.</p>
+        </div>      
       </div>
-    </div>
-  </div>
-  
-</section>
+      <div class="home-s5-container2">
+        <div class="home-s5-container2-child1">
+          <h3>DENVER, COLORADO</h3>
+          <p>April 29 - May 1, 2019</p>
+          <a href="#" class="button button-red">
+              <span>Buy your tickets</span>
+          </a>
+        </div>   
+        <div class="home-s5-container2-child2">
+          <h3>DENVER, COLORADO</h3>
+          <p>April 29 - May 1, 2019</p>
+          <a href="#" class="button button-red">
+              <span>Learn more</span>
+          </a>
+        </div>       
+      </div>
+      <div class="home-s5-container3">   
+        <div class="home-s5-container3-child">
+          <a href="#" class="button button-red">
+              <span>View all Summits</span>
+          </a>
+        </div>       
+      </div>
+</div>
 
 <!--
 
