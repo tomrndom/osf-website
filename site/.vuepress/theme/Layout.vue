@@ -8,10 +8,9 @@
           </hero>
       </main>
     </div>
+    
 
-
-
-    <div class="wrapper project-background" v-if="$page.frontmatter.project">
+    <div class="wrapper project-background" v-else-if="$page.frontmatter.project">
       <bar />
       <navigation />
       <main class="main">

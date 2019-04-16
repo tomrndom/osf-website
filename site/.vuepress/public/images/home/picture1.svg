@@ -23,26 +23,6 @@
                     </g>
                     <rect id="Rectangle" fill-opacity="0.35" fill="#000000" x="0" y="0" width="632" height="529"></rect>
                 </g>
-                <g id="denver-btn" transform="translate(96.000000, 204.000000)">
-                    <text id="DENVER,-COLORADO" font-family="Helvetica" font-size="26" font-weight="normal" fill="#FFFFFF">
-                        <tspan x="162.710938" y="25">DENVER, </tspan>
-                        <tspan x="146.099121" y="56">COLORADO</tspan>
-                    </text>
-                    <text id="April-29---May-1,-20" font-family="Helvetica" font-size="23" font-weight="normal" line-spacing="23" fill="#FFFFFF">
-                        <tspan x="85.6330566" y="49.2036133">April 29 - May 1, 2019</tspan>
-                    </text>
-                    <g id="btn_external-red" transform="translate(117.000000, 92.000000)">
-                        <g id="buy-your-tickets-btn">
-                            <rect id="Rectangle" fill="#EC1944" x="0" y="0" width="240" height="39"></rect>
-                            <text id="Buy-your-tickets" font-family="Helvetica" font-size="15" font-weight="normal" fill="#FFFFFF">
-                                <tspan x="30" y="27">Buy your tickets</tspan>
-                            </text>
-                            <g id="upload" transform="translate(203.039010, 19.932291) rotate(9.000000) translate(-203.039010, -19.932291) translate(193.539010, 9.346577)" fill="#FFFFFF" fill-rule="nonzero">
-                                <path d="M1.53927644,10.1174785 C1.7465084,10.1196905 1.952926,10.0532717 2.10915806,9.91839543 L8.76945081,4.16851465 L9.70271489,18.0887668 C9.70731023,18.4760405 10.0728712,18.7929433 10.5205246,18.7977216 C10.968178,18.8024999 11.3263099,18.4933219 11.3217146,18.1060482 L10.3884505,4.18579602 L17.1533722,10.0502696 C17.4731358,10.3274709 17.9847397,10.3329318 18.298005,10.0624876 C18.6112703,9.79204327 18.6060185,9.34944478 18.2862549,9.07224348 L10.1261499,1.99829307 C10.0509031,1.93236892 9.96044202,1.88028688 9.85964023,1.84349942 C9.66128298,1.77065937 9.43867052,1.76828319 9.24118234,1.83689794 C9.14203766,1.87155115 9.05279811,1.92241528 8.97908862,1.98604923 L0.95277517,8.91593343 C0.639509867,9.18637772 0.644761674,9.6289762 0.964525259,9.90617751 C1.12400646,10.045124 1.33204447,10.1152665 1.53927644,10.1174785 Z" id="Path" transform="translate(9.625390, 10.292438) rotate(-276.000000) translate(-9.625390, -10.292438) "></path>
-                            </g>
-                        </g>
-                    </g>
-                </g>
             </g>
         </g>
     </g>
