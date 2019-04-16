@@ -9,6 +9,19 @@
       </main>
     </div>
 
+
+
+    <div class="wrapper project-background" v-if="$page.frontmatter.project">
+      <bar />
+      <navigation />
+      <main class="main">
+          <hero-projects class="hero-main is-primary" :title="$page.frontmatter.hero.headline" >
+          </hero-projects>
+      </main>
+    </div>
+
+
+
     <div class="wrapper-all" v-else>
       <bar />
       <navigation />
