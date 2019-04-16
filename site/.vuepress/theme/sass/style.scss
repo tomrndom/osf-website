@@ -766,12 +766,11 @@ div.content.custom > main > section > div > div > div > h3 {
 
 }
 
-
-
 // ############ projects section 1
 
 .projects-s1-main {
   color: $white;
+
   .itemtitle {
     color: $white;
     margin-top: 20px;
@@ -785,7 +784,7 @@ div.content.custom > main > section > div > div > div > h3 {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  width: 100%;
+  width: 95%;
   margin: 80px;
   margin-top: 20px;
 }
