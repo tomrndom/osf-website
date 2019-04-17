@@ -3,14 +3,12 @@
     <div class="hero-body">
       <div class="container">
         <div class="hero-project-content">
-          <h3 class="hero-project-title">OSF PROJECTS</h3>
+          <h3 class="hero-project-title">{{ title }}</h3>
           <!-- /.hero-title -->
           <div class="hero-project-entry">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque quam, placerat sit amet lorem in, dapibus pellentesque dolor. In fermentum commodo est, nec varius.
+          {{ headline }}
           </div>
         </div>
-        
-
         <!-- /.hero-content -->
       </div>
       <!-- /.container -->
@@ -39,7 +37,10 @@ export default {
       type: String,
       default: () => {}
     },
-    image: {
+    headline: {
+      type: String,
+      default: () => {}
+    },    image: {
       type: String,
       default: () => {}
     },

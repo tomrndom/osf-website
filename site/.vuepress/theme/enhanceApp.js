@@ -1,4 +1,3 @@
-// import Buefy from "buefy";
 
 import Field from "buefy/dist/components/field";
 import Input from "buefy/dist/components/input";
@@ -13,6 +12,7 @@ export default ({
   siteData // site metadata
 }) => {
   // ...apply enhancements to the app
+  // Vue.use(Buefy);
   Vue.use(Field);
   Vue.use(Input);
   Vue.use(Checkbox);

@@ -34,6 +34,8 @@
 @import "./modules/default-page";
 @import "./modules/search";
 
+h5 { margin:0; padding:0; font-size:100%; line-height:1; }
+
 .header-anchor {
   display: none;
 }
@@ -887,4 +889,121 @@ div.content.custom > main > section > div > div > div > h3 {
   p {
     max-width: 500px;
   }
+}
+
+
+
+// ############# ABOUT SECTION 1
+
+.about-s1-main {
+  color: $white;
+
+  // .itemtitle {
+  //   color: $white;
+  //   margin-top: 20px;
+  //   margin-bottom: 10px;
+  //   margin-left: 80px;
+  // }
+}
+
+.about-s1-container {
+  background-color: $white;
+  // display: flex;
+  // justify-content: space-around;
+  // flex-direction: row;
+  width: 98%;
+  margin-left: 0px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+
+  p {
+    color: $back-darkest;
+  }
+  h3 {
+    margin:0; padding:0; font-size:100%; line-height:1;
+    font-family: Helvetica;
+    font-size: 26px;
+    color: #133E68;
+    text-transform: uppercase;
+  }
+
+  .fix-h3 {
+    font-family: Helvetica;
+    font-size: 26.0px;
+    color: rgba(19,62,104,1.0);
+    text-align: left;
+    line-height: 31.0px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    margin-left: 95px;
+  }
+
+  .fix-h5 {
+    font-family: Helvetica;
+    color: #000102;
+    line-height: 21px;
+    margin-left: 95px;
+    &:last-child{
+      margin-bottom: 40px;
+    }
+  }
+
+
+  #about-s1-id-pic1{
+    margin-top: -70px;
+    margin-left: 10px;
+    z-index: 200;
+  }
+  #about-s1-id-pic2{
+    margin-top: -15px;
+    margin-left: 95px;
+    z-index: 100;
+  }
+
+  #about-s1-id-pic3{
+    margin-top: 30px;
+    margin-left: 20px;
+    z-index: 100;
+  }
+
+  #about-s1-id-pic4{
+    margin-top: 30px;
+    margin-left: 320px;
+    z-index: 100;
+  }
+  #about-s1-id-pic5{
+    margin-top: -20px;
+    margin-left: 95px;
+    z-index: 100;
+  }
+  #about-s1-id-pic6{
+    margin-top: 30px;
+    margin-left: 20px;
+    z-index: 100;
+  }
+  #about-s1-id-pic7{
+    margin-top: 60px;
+    margin-left: 95px;
+    z-index: 100;
+  }
+  #about-s1-id-pic8{
+    margin-top: 80px;
+    margin-left: 10px;
+    z-index: 200;
+  }
+  #about-s1-id-pic9{
+    margin-top: -45px;
+    margin-left: 115px;
+    z-index: 100;
+  }
+}
+
+
+
+.section-bg-blue-child {
+  color: $white;
+  margin: 90px;
+  width: 350px;
+  z-index: 200;
+  
 }

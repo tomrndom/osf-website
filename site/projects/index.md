@@ -1,9 +1,10 @@
 ---
 layout: project
-title: OSF PROJECTS
+title: 'OSF PROJECTS'
 
 hero:
-  headline: 'THE HOME OF OPEN INFRASTRUCTURE'
+  title: 'OSF PROJECTS'
+  headline: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque quam, placerat sit amet lorem in, dapibus pellentesque dolor. In fermentum commodo est, nec varius'
   button:
     title: Learn more
     url: '#'

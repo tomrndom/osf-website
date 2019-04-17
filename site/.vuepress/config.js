@@ -9,13 +9,13 @@ module.exports = {
               "text": "PROJECTS",
               "link": "/projects/"
             },
-            {
-              "text": "5G OPEN VISION",
-              "link": "/5g-open-vision/"
-            },
+            // {
+            //   "text": "5G OPEN VISION",
+            //   "link": "/5g-open-vision/"
+            // },
             {
               "text": "MEMBERSHIP",
-              "link": "/membership/"
+              "link": "https://www.openstack.org/join"
             },
             {
               "text": "EVENTS",
