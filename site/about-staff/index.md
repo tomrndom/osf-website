@@ -199,22 +199,22 @@ about: true
         </div>
         <div class="column">
             <div class="columns">
-                <div class="column">
+                <div class="column aboutstaff-s3-col" id="aboutstaff-s3-col-1">
                     <div class="fix-h3">CONTACT INFORMATION</div>
                     <div class="fix-h5">OpenStack Foundation</div>
                     <div class="fix-h5">P.O. Box 1903</div>
                     <div class="fix-h5">Austin TX, 78767</div>
                     <div class="fix-h5">512-827-8633</div>
-                    <a href="#" class="button button-red">
+                    <a href="#" class="button button-red" id="btncontactus">
                         <span>Contact us</span>
                     </a>
                 </div>
-                <div class="column">
+                <div class="column  aboutstaff-s3-col" id="aboutstaff-s3-col-2">
                     <div class="fix-h3">MORE ABOUT THE FOUNDATION</div>
-                    <a href="#" class="aboutstaff-s3-link">Board of Directors</a>
-                    <a href="#" class="aboutstaff-s3-link">Technical Committee</a>
-                    <a href="#" class="aboutstaff-s3-link">User Committee</a>
-                    <a href="#" class="aboutstaff-s3-link">Supporting Companies</a>
+                    <p><a href="#" class="aboutstaff-s3-link">Board of Directors</a></p>
+                    <p><a href="#" class="aboutstaff-s3-link">Technical Committee</a></p>
+                    <p><a href="#" class="aboutstaff-s3-link">User Committee</a></p>
+                    <p><a href="#" class="aboutstaff-s3-link">Supporting Companies</a></p>
                 </div>
             </div>
         </div>

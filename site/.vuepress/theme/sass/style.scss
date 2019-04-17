@@ -1153,15 +1153,15 @@ div.content.custom > main > section > div > div > div > h3 {
 .aboutstaff-s3-main {
   color: $back-darkest;
   background-color: #1C6EBF;
+  margin-top: 50px;
   margin-left: 10px;
   margin-right: 0px;
   padding: 0;
-  margin: 0;
   
   #aboutstaff-s3-id-pic2{
     margin-top: -70px;
     margin-left: -10px;
-    z-index: 200;
+    z-index: 300;
   }
 
   #aboutstaff-s3-id-pic3{
@@ -1178,24 +1178,47 @@ div.content.custom > main > section > div > div > div > h3 {
     line-height: 31.0px;
     margin-top: 25px;
     margin-bottom: 20px;
-    margin-left: 95px;
+    margin-left: 0px;
   }
 
   .fix-h5 {
     font-family: Helvetica;
     color: $white;
     line-height: 21px;
-    margin-left: 95px;
+    margin-left: 0px;
   }
 
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: $white;
+    text-decoration: underline;
+  }
   .aboutstaff-s3-link{
     margin-top: 20px;
     margin-bottom: 20px;
-    color: $back-darkest;
+    color: $white;
     text-decoration: underline;
   }
-  // .columns.colum {
+
+  #aboutstaff-s3-col-1 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
     
-  // }
+  }
+  #aboutstaff-s3-col-2 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    
+  }
+
+  #btncontactus {
+    width: 180px;
+  }
+
 
 }
