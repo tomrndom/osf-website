@@ -192,5 +192,32 @@ about: true
 
 
 <div class="aboutstaff-s3-main">
-    <img src="/images/about-staff/picture2.svg" id="aboutstaff-s3-id-pic2" alt="not found" />
+    <div class="columns">
+        <div class="column">
+            <img src="/images/about-staff/picture2.svg" id="aboutstaff-s3-id-pic2" alt="not found" />
+            <img src="/images/about-staff/picture3.svg" id="aboutstaff-s3-id-pic3" alt="not found" />
+        </div>
+        <div class="column">
+            <div class="columns">
+                <div class="column">
+                    <div class="fix-h3">CONTACT INFORMATION</div>
+                    <div class="fix-h5">OpenStack Foundation</div>
+                    <div class="fix-h5">P.O. Box 1903</div>
+                    <div class="fix-h5">Austin TX, 78767</div>
+                    <div class="fix-h5">512-827-8633</div>
+                    <a href="#" class="button button-red">
+                        <span>Contact us</span>
+                    </a>
+                </div>
+                <div class="column">
+                    <div class="fix-h3">MORE ABOUT THE FOUNDATION</div>
+                    <a href="#" class="aboutstaff-s3-link">Board of Directors</a>
+                    <a href="#" class="aboutstaff-s3-link">Technical Committee</a>
+                    <a href="#" class="aboutstaff-s3-link">User Committee</a>
+                    <a href="#" class="aboutstaff-s3-link">Supporting Companies</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
