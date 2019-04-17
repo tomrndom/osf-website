@@ -97,7 +97,7 @@ module.exports = {
             "nav": [
               {
                 "text": "About OSF",
-                "link": "#"
+                "link": "/about/"
               },
               {
                 "text": "4 Opens",
@@ -109,7 +109,7 @@ module.exports = {
               },
               {
                 "text": "Foundation staff",
-                "link": "#"
+                "link": "/about-staff/"
               },
               {
                 "text": "Board of directors",
