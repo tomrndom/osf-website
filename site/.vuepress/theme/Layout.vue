@@ -23,7 +23,7 @@
       <bar />
       <navigation />
       <main class="main">
-          <hero-projects class="hero-main is-primary" :title="$page.frontmatter.hero.title" :headline="$page.frontmatter.hero.headline" :link1="$page.frontmatter.hero.link1.title">
+          <hero-projects class="hero-main is-primary" :title="$page.frontmatter.hero.title" :headline="$page.frontmatter.hero.headline" >
           </hero-projects>
       </main>
     </div>
@@ -32,7 +32,7 @@
       <bar />
       <navigation />
       <main class="main">
-          <hero-supporting class="hero-main is-primary" :title="$page.frontmatter.hero.title" :headline="$page.frontmatter.hero.headline" :link1="$page.frontmatter.hero.link1.title">
+          <hero-supporting class="hero-main is-primary" :title="$page.frontmatter.hero.title" :headline="$page.frontmatter.hero.headline" >
           </hero-supporting>
       </main>
     </div>
