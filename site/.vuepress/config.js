@@ -2,7 +2,7 @@
 module.exports = {
     title: "OPENSTACK FOUNDATION",
     description: "THE HOME OF OPEN INFRASTRUCTURE",
-    head: [["link", { rel: "icon", href: "/favicons/favicon.ico" }]],
+    head: [["link", { rel: "icon", href: "/favicons/logo-openstack.ico" }]],
     themeConfig: {
         nav: [
             {
