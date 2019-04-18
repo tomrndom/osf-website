@@ -1,0 +1,88 @@
+---
+layout: about
+title: 'Companies Supporting The OpenStack Foundation'
+
+hero:
+  title: 'COMPANIES SUPPORTING THE OPENSTACK FOUNDATION'
+  headline: 'The OpenStack Foundation would not exist without the support of the Platinum, Gold, and Corporate Sponsors listed below.'
+  button:
+    title: Learn more
+    url: '#'
+home: false
+project: false
+about: true
+
+---
+
+
+
+
+<!-- <section class="aboutstaff-s2-main">
+        <div class="aboutstaff-s2-container">
+            <div class="aboutstaff-s2-container-border">
+                <div class="card-social-container-icons">
+                    <img src="/images/symbols/icon-5.svg" class="card-social-icons" alt="icon">
+                </div>
+            </div>
+        </div>
+</section> -->
+
+<!-- block 1 -->
+<section class="companies-s1-main">
+        <div class="companies-s1-container">
+          <div class="columns">
+            <div class="column">
+              <div class="fix-h3">Platinum Members</div>
+              <div class="fix-h5">OpenStack Foundation Platinum Members provide a significant portion of the funding to achieve the Foundation's mission of protecting, empowering and promoting the OpenStack community and software. Each Platinum Member's company strategy aligns with the OpenStack mission and is responsible for committing full-time resources toward the project. There are eight Platinum Members at any given time, each of which holds a seat on the Board of Directors. Thank you to the following Platinum Members who are committed to OpenStack's success.</div>
+            </div>
+            <div class="column w4-5">
+              <img src="/images/home/picture5.svg" alt="" id="companies-s1-picture1">
+            </div>
+          </div>
+            <div class="companies-s1-1-container">
+              <img src="/images/home/logo-att.svg" alt="">  
+              <img src="/images/home/logo-ericsson.svg" alt="">  
+              <img src="/images/home/logo-huawei.svg" alt="">  
+              <img src="/images/home/logo-intel.svg" alt="">  
+              <img src="/images/home/logo-redhat.svg" alt="">  
+              <img src="/images/home/logo-tencent.svg" alt="">  
+              <img src="/images/home/logo-suse.svg" alt="">  
+            </div>
+        </div>
+               
+</section>
+
+
+
+<!-- block 2 -->
+<section class="companies-s1-main">
+        <div class="companies-s1-container">
+          <div class="columns">
+            <div class="column">
+              <div class="fix-h3">Gold Members</div>
+              <div class="fix-h5">OpenStack Foundation Gold Members provide funding and pledge strategic alignment to the OpenStack mission. There can be up to twenty-four Gold Members at any given time, subject to board approval. If your organization is highly involved with OpenStack and interested in becoming a Gold Member, read more about joining the Foundation. Thank you to the following Gold Members who are committed to OpenStack's success.</div>
+            </div>
+          </div>
+            <div class="companies-s1-1-container">
+              <img src="/images/home/logo-cloud.svg" alt="">  
+              <img src="/images/home/logo-ubuntu.svg" alt="">  
+              <img src="/images/home/logo-chinamobile.svg" alt="">  
+              <img src="/images/home/logo-chinatelecom.svg" alt="">  
+              <img src="/images/home/logo-cisco.svg" alt="">  
+              <img src="/images/home/logo-chinaunicom.svg" alt="">  
+              <img src="/images/home/logo-citynetwork.svg" alt="">  
+              <img src="/images/home/logo-dellemc.svg" alt="">  
+              <img src="/images/home/logo-tmobile.svg" alt="">  
+              <img src="/images/home/logo-easystack.svg" alt="">  
+              <img src="/images/home/logo-fiberhome.svg" alt="">  
+              <img src="/images/home/logo-inspur.svg" alt="">  
+              <img src="/images/home/logo-inwinstack.svg" alt="">  
+              <img src="/images/home/logo-mirantis.svg" alt="">  
+              <img src="/images/home/logo-nec.svg" alt="">  
+              <img src="/images/home/logo-netapp.svg" alt="">  
+              <img src="/images/home/logo-h3c.svg" alt="">  
+              <img src="/images/home/logo-unitedstack.svg" alt="">  
+              <img src="/images/home/logo-zte.svg" alt="">  
+            </div>
+        </div>        
+</section>

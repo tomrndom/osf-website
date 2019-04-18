@@ -100,6 +100,9 @@ module.exports = {
                 "link": "/about/"
               },
               {
+                "text": "Supporting Companies",
+                "link": "/companies/"
+              },              {
                 "text": "4 Opens",
                 "link": "#"
               },
