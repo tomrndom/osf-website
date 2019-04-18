@@ -5,40 +5,19 @@ title: 'Companies Supporting The OpenStack Foundation'
 hero:
   title: 'COMPANIES SUPPORTING THE OPENSTACK FOUNDATION'
   headline: 'The OpenStack Foundation would not exist without the support of the Platinum, Gold, and Corporate Sponsors listed below.'
-  button:
-    title: Learn more
+  link1:
+    title: 'Learn more about how your company can help'
     url: '#'
 home: false
 project: false
-about: true
+about: false
+companies: true
 
 ---
-
-
-
-
-<!-- <section class="aboutstaff-s2-main">
-        <div class="aboutstaff-s2-container">
-            <div class="aboutstaff-s2-container-border">
-                <div class="card-social-container-icons">
-                    <img src="/images/symbols/icon-5.svg" class="card-social-icons" alt="icon">
-                </div>
-            </div>
-        </div>
-</section> -->
 
 <!-- block 1 -->
 <section class="companies-s1-main">
         <div class="companies-s1-container">
-          <!-- <div class="columns">
-            <div class="column">
-              <div class="fix-h3">Platinum Members</div>
-              <div class="fix-h5">OpenStack Foundation Platinum Members provide a significant portion of the funding to achieve the Foundation's mission of protecting, empowering and promoting the OpenStack community and software. Each Platinum Member's company strategy aligns with the OpenStack mission and is responsible for committing full-time resources toward the project. There are eight Platinum Members at any given time, each of which holds a seat on the Board of Directors. Thank you to the following Platinum Members who are committed to OpenStack's success.</div>
-            </div>
-            <div class="column w4-5">
-              <img src="/images/home/picture5.svg" alt="" id="companies-s1-picture1">
-            </div>
-          </div> -->
           <div class="companies-s1-columns">
             <div class="companies-s1-column1">
               <div class="fix-h3">Platinum Members</div>
@@ -103,7 +82,7 @@ about: true
           <div class="columns">
             <div class="column">
               <div class="fix-h3">Infrastruture Donors</div>
-              <div class="fix-h5">Infrastructure donors are companies running OpenStack clouds, donating cloud resources to the OpenStack project infrastructure. Those resources are mostly used in our automated testing framework to support OpenStack development efforts.</div>
+              <div class="fix-h5">Infrastructure donors are companies running OpenStack clouds, donating cloud resources to the OpenStack project infrastructure. Those resources are mostly used in our <a href="#" >automated testing framework</a> to support OpenStack development efforts.</div>
             </div>
           </div>
             <div class="companies-s1-1-container">
@@ -123,7 +102,7 @@ about: true
           <div class="columns">
             <div class="column">
               <div class="fix-h3">Corporate Sponsors</div>
-              <div class="fix-h5">Corporate Sponsors provide additional funding to support the Foundation's mission of protecting, empowering and promoting OpenStack. If you are interested in becoming a corporate sponsor, read more about supporting the Foundation. Thank you to the following corporate sponsors for supporting the OpenStack Foundation.</div>
+              <div class="fix-h5">Corporate Sponsors provide additional funding to support the Foundation's mission of protecting, empowering and promoting OpenStack. If you are interested in becoming a corporate sponsor, read more about <a href="#" >supporting the Foundation</a>. Thank you to the following corporate sponsors for supporting the OpenStack Foundation.</div>
             </div>
           </div>
             <div class="companies-s1-1-container">

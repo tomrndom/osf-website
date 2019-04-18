@@ -23,11 +23,19 @@
       <bar />
       <navigation />
       <main class="main">
-          <hero-projects class="hero-main is-primary" :title="$page.frontmatter.hero.title" :headline="$page.frontmatter.hero.headline">
+          <hero-projects class="hero-main is-primary" :title="$page.frontmatter.hero.title" :headline="$page.frontmatter.hero.headline" :link1="$page.frontmatter.hero.link1.title">
           </hero-projects>
       </main>
     </div>
 
+    <div class="wrapper project-background" v-else-if="$page.frontmatter.companies">
+      <bar />
+      <navigation />
+      <main class="main">
+          <hero-supporting class="hero-main is-primary" :title="$page.frontmatter.hero.title" :headline="$page.frontmatter.hero.headline" :link1="$page.frontmatter.hero.link1.title">
+          </hero-supporting>
+      </main>
+    </div>
 
     <div class="wrapper-all" v-else>
       <bar />

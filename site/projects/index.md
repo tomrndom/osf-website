@@ -5,6 +5,9 @@ title: 'OSF PROJECTS'
 hero:
   title: 'OSF PROJECTS'
   headline: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque quam, placerat sit amet lorem in, dapibus pellentesque dolor. In fermentum commodo est, nec varius'
+  link1:
+    title: ''
+    url: '#'
   button:
     title: Learn more
     url: '#'

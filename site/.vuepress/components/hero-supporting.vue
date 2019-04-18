@@ -8,6 +8,12 @@
           <div class="hero-project-entry">
           {{ headline }}
           </div> 
+          <br/>
+          <div class="hero-project-entry">
+            <p>
+              <a href="#" target="_blank" class="hero-link"> {{ link1 }} <i class="right"></i> </a>
+            </p>
+          </div>
         </div>
         <!-- /.hero-content -->
       </div>
@@ -25,7 +31,7 @@ export default {
    *
    * @type {Strng}
    */
-  name: "HeroProject",
+  name: "HeroSupporting",
 
   /**
    * The supported properties of the component.
