@@ -30,7 +30,7 @@ about: true
 <!-- block 1 -->
 <section class="companies-s1-main">
         <div class="companies-s1-container">
-          <div class="columns">
+          <!-- <div class="columns">
             <div class="column">
               <div class="fix-h3">Platinum Members</div>
               <div class="fix-h5">OpenStack Foundation Platinum Members provide a significant portion of the funding to achieve the Foundation's mission of protecting, empowering and promoting the OpenStack community and software. Each Platinum Member's company strategy aligns with the OpenStack mission and is responsible for committing full-time resources toward the project. There are eight Platinum Members at any given time, each of which holds a seat on the Board of Directors. Thank you to the following Platinum Members who are committed to OpenStack's success.</div>
@@ -38,7 +38,16 @@ about: true
             <div class="column w4-5">
               <img src="/images/home/picture5.svg" alt="" id="companies-s1-picture1">
             </div>
-          </div>
+          </div> -->
+          <div class="companies-s1-columns">
+            <div class="companies-s1-column1">
+              <div class="fix-h3">Platinum Members</div>
+              <div class="fix-h5">OpenStack Foundation Platinum Members provide a significant portion of the funding to achieve the Foundation's mission of protecting, empowering and promoting the OpenStack community and software. Each Platinum Member's company strategy aligns with the OpenStack mission and is responsible for committing full-time resources toward the project. There are eight Platinum Members at any given time, each of which holds a seat on the Board of Directors. Thank you to the following Platinum Members who are committed to OpenStack's success.</div>
+            </div>
+            <div class="companies-s1-column2">
+              <img src="/images/home/picture5.svg" alt="" id="companies-s1-picture1">
+            </div>
+          </div>          
             <div class="companies-s1-1-container">
               <img src="/images/home/logo-att.svg" alt="">  
               <img src="/images/home/logo-ericsson.svg" alt="">  
@@ -56,14 +65,14 @@ about: true
 
 <!-- block 2 -->
 <section class="companies-s1-main">
-        <div class="companies-s1-container">
+        <div class="companies-s2-container">
           <div class="columns">
             <div class="column">
               <div class="fix-h3">Gold Members</div>
               <div class="fix-h5">OpenStack Foundation Gold Members provide funding and pledge strategic alignment to the OpenStack mission. There can be up to twenty-four Gold Members at any given time, subject to board approval. If your organization is highly involved with OpenStack and interested in becoming a Gold Member, read more about joining the Foundation. Thank you to the following Gold Members who are committed to OpenStack's success.</div>
             </div>
           </div>
-            <div class="companies-s1-1-container">
+            <div class="companies-s2-1-container">
               <img src="/images/home/logo-cloud.svg" alt="" />  
               <img src="/images/home/logo-ubuntu.svg" alt="" />  
               <img src="/images/home/logo-chinamobile.svg" alt="" />  
