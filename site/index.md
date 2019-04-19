@@ -16,8 +16,8 @@ home: true
 <div class="columns">
 
 <div class="column">
-    <img src="/images/home/image1.svg" alt="not found" class="section-bg-blue-child section-bg-blue-child-left ">
-    <img src="/images/home/image2.svg" alt="not found" class="section-bg-blue-child section-bg-blue-child-imageset1">
+    <img src="/images/home/image1.svg" alt="" class="section-bg-blue-child section-bg-blue-child-left ">
+    <img src="/images/home/image2.svg" alt="" class="section-bg-blue-child section-bg-blue-child-imageset1">
 
  <div class="section-bg-blue-child">
     <h4>WHY OPENSOURCE?</h4>
@@ -56,11 +56,10 @@ home: true
 
   <div class="section-bg-white-child">
     <div class="section-bg-white-center">
-      <h4>Why Expand Beyond the</h4>
-      <h4>Openstack Project</h4>
-      <p>
-      This is where we will talk about the changing environment and how one project can’t do all of the things. We’ll touch on how infrastructure has evolved and how these sfas will help drive infrastructure in the future.</p>
-      <p>Vivamus eget metus massa. Vivamus blandit dignissim neque, ac ornare dolor iaculis et. Nullam sit amet suscipit felis, sed convallis nibh. Proin venenatis odio purus, quis sollicitudin ipsum gravida ut. Suspendisse vehicula massa.</p>
+      <div class="fix-h3">Why Expand Beyond the Openstack Project</div>
+      <div class="fix-h5">
+      This is where we will talk about the changing environment and how one project can’t do all of the things. We’ll touch on how infrastructure has evolved and how these sfas will help drive infrastructure in the future.</div>
+      <div class="fix-h5">Vivamus eget metus massa. Vivamus blandit dignissim neque, ac ornare dolor iaculis et. Nullam sit amet suscipit felis, sed convallis nibh. Proin venenatis odio purus, quis sollicitudin ipsum gravida ut. Suspendisse vehicula massa.</div>
       <a href="#" class="button button-red">
         <span>Learn more</span>
      </a>
@@ -72,8 +71,9 @@ home: true
       <div class="section-bg-white-icons-child1"> 
         <img src="/images/home/icon2.svg" alt="not found"/>
         <p>CI/CD</p>
-        </div>
-    </div>
+      </div>
+    </div> 
+    <!-- /icons file 1-->
     <div class="section-bg-white-icons2">
       <div class="section-bg-white-icons-child2">
         <img src="/images/home/icon3.svg" alt="not found"/>
@@ -84,8 +84,8 @@ home: true
         <p>IA & MACHINE LEARNING</p>
       </div>
     </div>
-    <div class="section-bg-white-icons3">
-      <div class="section-bg-white-icons-child3">
+    <div class="section-bg-white-icons2">
+      <div class="section-bg-white-icons-child2">
         <img src="/images/home/icon5.svg" alt="not found"/>
         <p>Public/PrIvate Hybrid CLOUD</p>
       </div>
@@ -103,8 +103,7 @@ home: true
 
   <div class="section-bg-green-child">
     <div class="section-bg-white-center">
-      <h4>THE PROJECTS BUILDING</h4>
-      <h4>OPEN INFRASTRUCTURE</h4>
+      <div class="fix-h3">THE PROJECTS BUILDING OPEN INFRASTRUCTURE</div>
       <div class="section-bg-green-logos-container">
         <div class="section-bg-green-logo">
           <img src="/images/home/logo1.svg" alt="not found"/>
@@ -122,8 +121,8 @@ home: true
           <img src="/images/home/logo5.svg" alt="not found"/>
         </div>
       </div>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus ut risus non tempor. Fusce varius augue lectus, ut accumsan erat tincidunt finibus. Cras eu tellus in lacus fringilla hendrerit. Suspendisse in varius libero. Nam laoreet vitae est vel rutrum. Phasellus convallis ultricies nulla at posuere. Praesent pretium lobortis neque ac aliquam. </p>
+      <div class="fix-h5">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus ut risus non tempor. Fusce varius augue lectus, ut accumsan erat tincidunt finibus. Cras eu tellus in lacus fringilla hendrerit. Suspendisse in varius libero. Nam laoreet vitae est vel rutrum. Phasellus convallis ultricies nulla at posuere. Praesent pretium lobortis neque ac aliquam. </div>
       <a href="#" class="button button-red">
         <span>See all OSF projects</span>
      </a>

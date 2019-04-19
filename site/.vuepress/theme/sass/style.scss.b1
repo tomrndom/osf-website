@@ -36,27 +36,6 @@
 
 h5 { margin:0; padding:0; font-size:100%; line-height:1; }
 
-
-.fix-h3 {
-  font-family: Helvetica;
-  font-size: 26.0px;
-  color: rgba(19,62,104,1.0);
-  text-align: left;
-  line-height: 31.0px;
-  margin-top: 90px;
-  margin-bottom: 40px;
-  margin-left: 90px;
-  margin-right: 90px;
-}
-.fix-h5 {
-  font-family: Helvetica;
-  color: #000102;
-  line-height: 21px;
-  margin-left: 95px;
-  margin-right: 95px;
-}
-
-
 .header-anchor {
   display: none;
 }
@@ -72,6 +51,7 @@ h5 { margin:0; padding:0; font-size:100%; line-height:1; }
 
 .bar-footer-inner {
   display: flex;
+  // justify-content: flex-start; 
   align-items: flex-start;
   flex-direction: row;
 }
@@ -144,50 +124,13 @@ i {
 .logo-containter-child {
   font-size: 1.7em;
   font-weight: 900;
+  color: $white;
   margin-left: 10px;
-  @media only screen and (min-width: $screen-sm-min) {
-    color: $white;
-  }
-  @media (max-width: $screen-md) {
-    color: $back-darkest;
-  }
-  div > span {
-    &:first-child{
-      margin-left: 0px;
-      display: none;
-    }
-  }
-}
-
-.logo-containter-child1 {
-  font-size: 1.7em;
-  font-weight: 900;
-  margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-
-  @media only screen and (min-width: $screen-sm-min) {
-    color: $white;
-  }
-  @media (max-width: $screen-md) {
-    color: $back-darkest;
-  }
-}
-
-.nav .nav-menu a {
-  @media only screen and (min-width: $screen-sm-min) {
-    color: $white;
-  }
-  @media (max-width: $screen-md) {
-    color: $back-darkest;
-  }
 }
 
 .logo-containter-child-img {
-  width: 50.5px;
-  padding: 0px;
+  width: 50px;
+  padding: 1px;
   color: $white;
 }
 
@@ -226,26 +169,15 @@ hr {
   flex-wrap: wrap;
   align-content: space-around;
   width: 700px;
-  @media (max-width: $screen-md) { //small screen pantalla 
-    width: unset;
-  }
+  // margin-left: 30px;
 }
 
-.footer-container-child { 
+.footer-container-child {
   color: #d5d5d5;
   width:200px;
   margin-bottom: 25px;
   margin-right: 10px;
   padding-right: 10px;
-  // @media only screen and (min-width: $screen-sm-min) { //big screen
-  // } 
-  @media (max-width: $screen-md) { //small screen pantalla 
-    margin-right: -30px;
-    hr {
-      // display: none !important;
-      margin-top: 3px;
-    }
-  }
 }
 
 
@@ -319,12 +251,9 @@ div.content.custom > main > section > div > div > div > h3 {
 }
 
  .hero-background {
-  //background-image:url('/images/home/picture1.svg');
-  //background-size: cover;
-    @media only screen and (min-width: $screen-sm-min) {
-      background-image:url('/images/home/openstack-foundation-hero-image.jpg');
-      background-size: cover;
-    }
+  // background-image:url('/images/hero-image.svg');
+  background-image:url('/images/home/openstack-foundation-hero-image.jpg');
+  background-size: cover;
  }
 
  .hero.is-primary {
@@ -394,33 +323,33 @@ div.content.custom > main > section > div > div > div > h3 {
 
 }
 
-
+.section-bg-white-center {
+  color: $white;
+  margin: 90px;
+  width: 750px;
+  z-index: 200;
+  h4 {
+    // font-size: 22pt;
+    color: $white;
+    text-transform: uppercase;
+  }
+}
 
 .section-bg-white-child {
   color: $dark;
   margin: 90px;
-  // width: 550px;
+  width: 550px;
   text-align: center;
   align-self: center;
   display: flex;
   justify-content: center;
 
-  .fix-h3 {
-    text-align: center;
-    margin-left: 0px; 
-    margin-right: 0px;
-  }
-  .fix-h5 {
-    text-align: center;
-    margin-left: 0px; 
-    margin-right: 0px;
-  }
 
   h4 {
     // font-size: 22pt;
     color: $dark;
     text-transform: uppercase;
-    margin-top: 0px; 
+    margin-top: 0px;
     &:first-child {
       margin-bottom: 0.3em
     }
@@ -430,50 +359,16 @@ div.content.custom > main > section > div > div > div > h3 {
   }
 }
 
-.section-bg-white-center {
-  color: $back-darkest;
-  margin: 90px;
-  // width: 750px;
-  z-index: 200;
-  h4 {
-    color: $back-darkest;
-    text-transform: uppercase;
-    margin-bottom: 20px;
 
-  }
-  p {
-    color: $back-darkest;
-  }
-  
-  @media (max-width: $screen-md) {
-    margin: 0px;
-    width: 100%;
-  }
-}
 
 // ############ SECTION HOME 2 - ICONS #################
 
-// @media (max-width: $screen-md) {
-//   .fix-h3 {
-//     margin-top: 150px;
-//   }
-// }
 
 .section-bg-white-icons1 {
   display: flex;
   justify-content: space-between;
-  width: 760px;
+  width: 550px;
   margin-top: -50px;
-  margin-left: 120px;
-  // div:first-child {
-  //   background-color: red;
-  // }
-  @media (max-width: $screen-md) { //small screen
-    margin-top: 10px;
-    width: 300px;
-    margin-left: 15px;
-    //margin-left: 280px;
-  }
 }
 
 .section-bg-white-icons-child1 {
@@ -489,15 +384,8 @@ div.content.custom > main > section > div > div > div > h3 {
 .section-bg-white-icons2 {
   display: flex;
   justify-content: space-around;
-  width: 760px;
+  width: 550px;
   margin-top: 30px;
-  margin-left: 120px;
-  @media (max-width: $screen-md) { //small screen
-    margin-top: 10px;
-    width: 300px;
-    margin-left: 20px;
-  }
-
 }
 
 .section-bg-white-icons-child2 {
@@ -506,7 +394,7 @@ div.content.custom > main > section > div > div > div > h3 {
   text-align: center;
 
   p {
-    // width: 120px;
+    width: 120px;
     text-align: center;
   }
 }
@@ -554,17 +442,7 @@ div.content.custom > main > section > div > div > div > h3 {
   display: flex;
   justify-content: center;
   background-color: $white;
-  .fix-h3 {
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 130px;
-    margin-right: 130px;
-  }
-  .fix-h5 {
-    text-align: center;
-    margin-left: 130px;
-    margin-right: 130px;
-  }
+
   h4 {
     // font-size: 22pt;
     color: $dark;
@@ -576,11 +454,6 @@ div.content.custom > main > section > div > div > div > h3 {
   }
   p {
     color: $dark;
-  }
-  @media (max-width: $screen-md) {
-    .fix-h3 {
-      margin-top: 150px;
-    }
   }
 }
 
@@ -666,7 +539,6 @@ div.content.custom > main > section > div > div > div > h3 {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  flex-flow: wrap;
   width: 100%;
 }
 
@@ -678,7 +550,8 @@ div.content.custom > main > section > div > div > div > h3 {
   p.l1 {
     margin-bottom: -20px;
     padding-bottom: 0px;
-  }
+/*     color: red;  
+ */  }
   h3 {
     color: $white;
   }
@@ -692,8 +565,7 @@ div.content.custom > main > section > div > div > div > h3 {
   align-items: center;
   flex-direction: row;
   width: 100%;
-  flex-flow: wrap;
-  
+
 }
 
 .home-s5-container2-child1 {
@@ -704,12 +576,7 @@ div.content.custom > main > section > div > div > div > h3 {
   padding: 150px;
   margin-top: 100px;
   height: 610px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  flex-flow: wrap;
 
-  
   p {
     margin-top: 10px;
     padding-bottom: 0px;
@@ -717,21 +584,6 @@ div.content.custom > main > section > div > div > div > h3 {
   h3 {
     margin-top: 100px;
     color: $white;
-  }
-  @media (max-width: $screen-md) {
-    width: 100%;
-    p {
-      margin-top: 10px;
-      padding-bottom: 0px;
-      margin-left: -20px;
-    }
-    h3 {
-      margin-top: 100px;
-      margin-left: -20px;
-    }
-    a {
-      margin-left: -20px;
-    }
   }
 }
 
@@ -743,33 +595,14 @@ div.content.custom > main > section > div > div > div > h3 {
   padding: 150px;
   margin-top: 100px;
   height: 610px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  
+
   p {
     margin-top: 10px;
     padding-bottom: 0px;
  }
   h3 {
-    margin-top: 140px;
+    margin-top: 100px;
     color: $white;
-  }
-  @media (max-width: $screen-md) {
-    width: 100%;
-    p {
-      margin-top: 10px;
-      padding-bottom: 0px;
-      margin-left: -20px;
-    }
-    h3 {
-      margin-top: 130px;
-      margin-left: -20px;
-    }
-    a {
-      margin-left: -20px;
-      width: 200px;
-    }
   }
 }
 
@@ -852,14 +685,11 @@ div.content.custom > main > section > div > div > div > h3 {
   .home-s7-main-container {
     display:flex;
     justify-content: center;
-    flex-flow: wrap;
   }
 
   .home-s7-main-container-child {
     margin: 10px;
     width: 400px;
-    display: flex;
-    flex-flow: wrap;
   }
 
   .card{
@@ -874,6 +704,7 @@ div.content.custom > main > section > div > div > div > h3 {
         color: $primary;
       }
     }
+    
   }
 
 }
@@ -909,7 +740,6 @@ div.content.custom > main > section > div > div > div > h3 {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  flex-flow: wrap;
   width: 100%;
 
 }

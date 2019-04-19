@@ -17,8 +17,8 @@
           <h3 class="hero-title">OPEN INFRASTRUCTURE</h3>
           <!-- /.hero-title -->
           <div class="hero-entry">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque quam, placerat sit amet lorem in, dapibus pellentesque dolor. In fermentum commodo est, nec varius.
-</div>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque quam, placerat sit amet lorem in, dapibus pellentesque dolor. In fermentum commodo est, nec varius.
+          </div>
           <!-- /.hero-entry -->
           <div class="hero-actions">
         
