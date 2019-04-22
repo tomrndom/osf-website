@@ -10,46 +10,54 @@ hero:
 home: true
 
 ---
+<div class="home-s1-pictures">
+    <div></div>
+    <img src="/images/home/image1.svg" class="home-picture1" alt="" />
+    <img src="/images/home/image2.svg" class="home-picture2" alt="" /> 
+</div>
 
-<section class="section-bg-blue">
-
-<div class="columns">
-
-<div class="column">
-    <img src="/images/home/image1.svg" alt="" class="section-bg-blue-child section-bg-blue-child-left ">
-    <img src="/images/home/image2.svg" alt="" class="section-bg-blue-child section-bg-blue-child-imageset1">
-
- <div class="section-bg-blue-child">
-    <h4>WHY OPENSOURCE?</h4>
-    <p>
-    Because it works. OpenStack has proven the model, becoming one of the 3 most actively developed open source projects on the planet, with thousands of developers from over xx countries.
-    And it powers everything from massively popular games like Overwatch to the largest power company in the world in China, to Workday, to ATT's 5G networks and beyond.</p>
-    <p>
-    Now we're ready to share this radically open method for developing open source software with the world beyond OpenStack, helping people build and operate open infrastructure.
-    </p>
-
+<section class="home-s1-main">
+  <div class="home-s1-container">
+    <div></div>
   </div>
-
-</div>
-<div class="column">
-  <div class="section-bg-blue-child">
-    <h4>Built on the 4 Opens, Build by the Community</h4>
-    <p>
-    Modern apps rely on automated infrastructure, from massive datacenter clouds to the smallest edge nodes for IoT and 5g, and none of it is possible without open source software.</p>
-    <p>That's Open Infrastructure, and the OSF exists to ensure each open source component is built and tested together, collaboratively, with a radical approach to openness we call
-    the "Four Opens".</p>
-    <p>From Community where anyone is welcome, to Design where diverse ideas are shared before the coding begins, to Development when every patch is visible and tested before it lands, to the Source code itself which is shared with the world, each is critical to how we deliver open source.</p>
+  <div class="home-s1-container">
+    <div class="home-s1-text">
+      <div class="fix-h3">Built on the 4 Opens, Build by the Community</div>
+      <div class="fix-h5">
+        That's Open Infrastructure, and the OSF exists to ensure each open source component is built and tested together, collaboratively, with a radical approach to openness we call the "Four Opens".</div>
+      <div class="fix-h5">
+        Now we're ready to share this radically open method for developing open source software with the world beyond OpenStack, helping people build and operate open infrastructure.</div>      
+      <div class="fix-h5">
+        From Community where anyone is welcome, to Design where diverse ideas are shared before the coding begins, to Development when every patch is visible and tested before it lands, to the Source code itself which is shared with the world, each is critical to how we deliver open source.</div>
+    </div>
   </div>
-
-  <img src="/images/home/image3.svg" alt="not found" class="section-bg-blue-child section-bg-blue-child-imageset3">
-
- <img src="/images/home/image4.svg" alt="not found" class="section-bg-blue-child section-bg-blue-child-imageset1 section-bg-blue-child-imageset4">
-
-</div>
-
-</div>
-
 </section>
+
+
+
+
+<div class="home-s2-pictures">
+    <div></div>
+    <img src="/images/home/image3.svg" class="home-picture3" alt="" />
+    <img src="/images/home/image4.svg" class="home-picture4" alt="" /> 
+</div>
+
+<section class="home-s2-main">
+  <div class="home-s2-container">
+    <div class="home-s2-text">
+      <div class="fix-h3">WHY OPENSOURCE?</div>
+      <div class="fix-h5">
+        Because it works. OpenStack has proven the model, becoming one of the 3 most actively developed open source projects on the planet, with thousands of developers from over xx countries.
+    And it powers everything from massively popular games like Overwatch to the largest power company in the world in China, to Workday, to ATT's 5G networks and beyond.</div>
+      <div class="fix-h5">
+        Now we're ready to share this radically open method for developing open source software with the world beyond OpenStack, helping people build and operate open infrastructure.</div>
+    </div>
+    <div class="home-s2-container">
+      <div></div>
+    </div>
+  </div>
+</section>  
+
 
 
 <section class="section-bg-white">
@@ -197,8 +205,8 @@ hola
 </div>
 <div class="column">
   <div class="section-bg-blue-child">
-        <img src="/images/home/picture3.svg" alt="not found" class="">        
-        <img src="/images/home/picture4.svg" alt="not found" class="">
+        <img src="/images/home/picture3.svg" id="home-p-p3" alt="not found" class="">        
+        <img src="/images/home/picture4.svg" id="home-p-p4" alt="not found" class="">
   </div>
 
 </div>

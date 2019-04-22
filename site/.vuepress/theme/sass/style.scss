@@ -336,7 +336,212 @@ div.content.custom > main > section > div > div > div > h3 {
 }
 
 
+// ############ HOME SECTION 1 #################
+
+// @media only screen and (min-width: $screen-sm-min) { //big screen
+// } 
+// @media (max-width: $screen-md) { //small screen pantalla 
+//   display: none;
+// }
+
+.separator-blank {
+  height: 500px;
+  background-color: red;
+}
+
+.home-s1-pictures {
+  height: 5px;
+  .home-picture1 {
+    top: 100px;
+    left: 135px;
+    position: relative;
+  }
+  .home-picture2 {
+    top: 480px;
+    left: -470px;
+    position: relative;
+  }
+  @media (max-width: $screen-md) { //small screen pantalla 
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+
+    .home-picture1 {
+      top: -100px;
+      left: unset;
+      width: 90%;
+    }
+    .home-picture2 {
+      top: -160px;
+      left: unset;
+      width: 90%;
+    }
+  }
+}
+
+
+
+.home-s1-main {
+  color: $white;
+  background-image:url('/images/background-shapes-blue.svg');
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  padding-bottom: 450px;
+
+  .home-s1-container {
+    color: $white;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 40%;
+    flex-flow: wrap;
+    @media (max-width: $screen-md) { //small screen pantalla 
+      max-width: unset;
+    }
+  }
+  .home-s1-text {
+    color: $white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 400px;
+    padding-left: 20px;
+  }
+  .home-s1-img
+   {
+    color: $white;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .fix-h3 {
+    color: $white;
+    margin-left: unset;
+    margin-right: unset; 
+  }
+  .fix-h5 {
+    color: $white;
+    margin-left: unset;
+    margin-right: unset; 
+  }
+  
+  @media (max-width: $screen-md) { //small screen pantalla 
+
+    margin-top: 800px;
+    padding-bottom: 0px;
+    .home-s1-container {
+      width: 90%;
+      margin-top: -150px;
+    }
+    .home-picture1 {
+      width: 95%;
+      margin-top: 0px;
+    }
+  
+  }
+}
+
+
+
+
+.home-s2-pictures {
+  height: 5px;
+  .home-picture3 {
+    top: -100px;
+    left: 600px;
+    position: relative;
+  }
+  .home-picture4 {
+    top: 280px;
+    left: 200px;
+    position: relative;
+  }
+  @media (max-width: $screen-md) { //small screen pantalla 
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    margin-top: 100px;
+
+    .home-picture3 {
+      top: -100px;
+      left: unset;
+      width: 90%;
+    }
+    .home-picture4 {
+      top: -160px;
+      left: unset;
+      width: 90%;
+    }
+  }
+}
+
+.home-s2-main {
+  color: $white;
+  background-image:url('/images/background-shapes-blue.svg');
+  background-size: cover;
+  display: flex;
+  flex-flow: wrap;
+  padding-bottom: 350px;
+
+  .home-s2-container {
+    color: $white;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 40%;
+    flex-flow: wrap;
+    @media (max-width: $screen-md) { //small screen pantalla 
+      max-width: unset;
+      margin-bottom: 120px;
+
+    }
+  }
+  .home-s2-text {
+    color: $white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 400px;
+    padding-left: 20px;
+  }
+  .home-s2-img
+   {
+    color: $white;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .fix-h3 {
+    color: $white;
+    margin-left: 10px;
+    margin-right: unset; 
+  }
+  .fix-h5 {
+    color: $white;
+    margin-left: 10px;
+    margin-right: unset; 
+  }
+  
+  @media (max-width: $screen-md) { //small screen pantalla 
+
+    margin-top: 800px;
+    padding-bottom: 0px;
+
+    .home-s2-container {
+      width: 90%;
+    }
+    .home-picture3 {
+      width: 95%;
+      margin-top: 0px;
+    }
+  
+  }
+}
+
 // ############ SECTION HOME 1 #################
+
 
 .section-bg-blue {
   color: $white;
@@ -427,6 +632,9 @@ div.content.custom > main > section > div > div > div > h3 {
   }
   p {
     color: $dark;
+  }
+  @media (max-width: $screen-md) { //small screen pantalla 
+    margin: unset;
   }
 }
 
@@ -542,6 +750,9 @@ div.content.custom > main > section > div > div > div > h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: $screen-md) { //small screen
+    background-image: unset;
+  }
 }
 
 .section-bg-green-child {
@@ -1180,7 +1391,23 @@ div.content.custom > main > section > div > div > div > h3 {
   color: $white;
   margin: 90px;
   width: 350px;
-  z-index: 200;
+  z-index: 200; 
+  @media (max-width: $screen-md) { //small screen
+    margin-left: -150px;
+    padding-bottom: 250px;
+
+    #home-p-p3 {
+      width: unset;
+    }
+    #home-p-p4 {
+      margin-top: 50px;
+      margin-left: 0px;
+    }
+    .columns.column{
+      padding: unset;
+    }
+
+  }
   
 }
 
