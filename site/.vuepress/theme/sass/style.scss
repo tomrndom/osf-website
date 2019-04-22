@@ -1185,9 +1185,16 @@ div.content.custom > main > section > div > div > div > h3 {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  flex-flow: wrap;
   width: 95%;
   margin: 80px;
   margin-top: 20px;
+  @media (max-width: $screen-md) { //small screen
+    width: unset;
+    margin: unset;
+    margin-top: 20px;
+    padding-top: 50px;
+  }
 }
 
 .projetcs-s1-container-child {
@@ -1226,6 +1233,13 @@ div.content.custom > main > section > div > div > div > h3 {
         color: $back-darkest;
       }
     }
+  }
+
+  @media (max-width: $screen-md) { //small screen
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: unset;
+    padding-bottom: unset;
   }
 }
 
