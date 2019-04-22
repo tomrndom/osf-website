@@ -1349,6 +1349,18 @@ div.content.custom > main > section > div > div > div > h3 {
     &:last-child{
       margin-bottom: 40px;
     }
+
+    @media (max-width: $screen-md) { //small screen
+      .fix-h3 {
+        margin-left: 60px;
+        margin-right: 0px;
+      }
+      .fix-h5 {
+        margin-left: 60px;
+        margin-right: 0px;
+      }
+    }
+
   }
 
 
@@ -1373,6 +1385,9 @@ div.content.custom > main > section > div > div > div > h3 {
     margin-top: 30px;
     margin-left: 320px;
     z-index: 100;
+    @media (max-width: $screen-md) { //small screen
+      margin-left: 0px; 
+    }
   }
   #about-s1-id-pic5{
     margin-top: -20px;
