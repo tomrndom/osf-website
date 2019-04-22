@@ -655,6 +655,7 @@ div.content.custom > main > section > div > div > div > h3 {
   
   @media (max-width: $screen-md) {
     margin: 0px;
+    margin-bottom: 25px;
     width: 100%;
   }
 }
@@ -790,7 +791,7 @@ div.content.custom > main > section > div > div > div > h3 {
   }
   @media (max-width: $screen-md) {
     .fix-h3 {
-      margin-top: 150px;
+      margin-top: 230px;
     }
   }
 }
