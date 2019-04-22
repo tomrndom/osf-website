@@ -126,7 +126,7 @@ companies: true
 
 
 <section class="companies-s2-main">
-<h4 class="itemtitle"> BECAME A SPONSOR LOREM IPSUM DONEC MAURIS </h4>
+<div class="fix-h3"> BECAME A SPONSOR LOREM IPSUM DONEC MAURIS </div>
 <div class="fix-h5">Donec et blandit lorem, eu accumsan elit. Integer aliquet molestie nunc. Curabitur tincidunt luctus quam eget ullamcorper. Integer ac varius nulla. Nulla facilisi. Vestibulum lacinia mauris sit amet libero convallis dictum. Aenean a elementum lacus.</div>
 <a href="#" class="button button-white">
     <span>Contact us</span>
