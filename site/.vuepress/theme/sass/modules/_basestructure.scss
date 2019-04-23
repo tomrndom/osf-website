@@ -13,39 +13,42 @@
 }
 
 .fix-h3 {
-  font-family: Helvetica;
-  font-size: 26.0px;
   color: rgba(19,62,104,1.0);
   text-align: left;
-  line-height: 31.0px;
   margin: 0px;
   padding: 0px;
   margin-bottom: 15px;
+
+  font-family: GothamNarrow-Medium;
+  font-size: 32px;
+  line-height: 33px;
+
 }
 .fix-h5 {
-  font-family: Helvetica;
-  font-size: 16.0px; //1rem
+  font-family: GothamNarrow-Book;
+  font-size: 17px;
+  line-height: 21px;  
   color: #000102;
-  line-height: 21px;
   margin: 0px;
   padding: 0px;
   margin-bottom: 15px;
 }
+
 .fix-h3-white {
-  font-family: Helvetica;
-  font-size: 26.0px;
   color: $white;
   text-align: left;
-  line-height: 31.0px;
   margin: 0px;
   padding: 0px;
   margin-bottom: 15px;
+  font-family: GothamNarrow-Medium;
+  font-size: 32px;
+  line-height: 33px;
 }
 .fix-h5-white {
-  font-family: Helvetica;
-  font-size: 16.0px; //1rem
-  color: $white;
+  font-family: GothamNarrow-Book;
+  font-size: 17px;
   line-height: 21px;
+  color: $white;
   margin: 0px;
   padding: 0px;
   margin-bottom: 15px;
@@ -328,6 +331,49 @@ div.content.custom > main > section > div > div > div > h3 {
 
 // ########### /END CONTENT
 
+.hero-main .hero-title {
+  font-weight: 300;
+  color: #fff;
+  font-family: GothamNarrow-Bold;
+  font-size: 47px;
+  text-align: left;
+  line-height: 45px;
+}
+ 
+.hero-entry {
+  font-size: 14px;
+  max-width: 350px;
+  margin-top: 20px;
+  font-family: GothamNarrow-Book;
+  font-size: 17px;
+  color: #FFFFFF;
+  line-height: 21px;
+}
 
- 
- 
+.hero-subhead {
+  padding-bottom: 5px;
+  font-size: 18px;
+  color: #EE1E48;
+  font-family: GothamNarrow-Medium;
+  font-size: 22px;
+  color: #EC1944;
+}
+
+.nav .nav-menu a {
+  // line-height: 18.0px;
+  font-family: GothamNarrow-Medium;
+  font-size: 15px;
+
+}
+
+.button-red {
+  border-radius: 0px;
+  font-family: GothamNarrow-Medium;
+  font-size: 15px;
+}
+
+.button {
+  border-radius: 0px;
+  font-family: GothamNarrow-Medium;
+  font-size: 15px;
+}

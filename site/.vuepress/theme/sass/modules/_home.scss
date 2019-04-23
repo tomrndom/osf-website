@@ -641,11 +641,19 @@
 
   h2 {
     color: $primary;
-    font-size: 35px;
+    font-family: GothamNarrow-Medium;
+    font-size: 32px;
+    // color: #FFFFFF;
+    line-height: 33px;
+
   }
   h3 {
     color: $primary;
     margin-top: 5em !important;
+    font-family: GothamNarrow-Medium;
+    font-size: 15px;
+    color: #133E68;
+    text-align: center;
   }
 
   .button.button-red {
