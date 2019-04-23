@@ -19,13 +19,15 @@
   padding: 0px;
   margin-bottom: 15px;
 
-  font-family: GothamNarrow-Medium;
+  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-weight: 500;
   font-size: 32px;
   line-height: 33px;
 
 }
 .fix-h5 {
-  font-family: GothamNarrow-Book;
+  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Book; 
+  font-weight: 400;  
   font-size: 17px;
   line-height: 21px;  
   color: #000102;
@@ -40,12 +42,18 @@
   margin: 0px;
   padding: 0px;
   margin-bottom: 15px;
-  font-family: GothamNarrow-Medium;
+  // font-family: GothamNarrow-Medium;
+  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-weight: 500;
+
   font-size: 32px;
   line-height: 33px;
 }
 .fix-h5-white {
-  font-family: GothamNarrow-Book;
+  // font-family: GothamNarrow-Book;
+  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-weight: 400;
+
   font-size: 17px;
   line-height: 21px;
   color: $white;
@@ -70,14 +78,16 @@
   .bar-entry {
     margin-top: -9px;
     p {
-      font-family: GothamNarrow-Medium;
+      font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium;
+      font-weight: 500;
       font-size: 15px;
       color: $white;
       text-align: left;
       line-height: 18.0px;
 
       a {
-        font-family: GothamNarrow-Medium;
+        font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium;
+        font-weight: 500;
         font-size: 15px;
         color: $white;
         text-align: left;
@@ -95,7 +105,10 @@
     flex: 0 0 auto;
     display: inline-block;
     vertical-align: middle;
-    font-family: 'Helvetica',Helvetica,Arial,serif;
+    // font-family: 'Helvetica',Helvetica,Arial,serif;
+    font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+    font-weight: 400;
+  
     font-size: 15.0px;
     color: $white;
     text-align: left;
@@ -155,7 +168,9 @@ i {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-family: GothamNarrow-Medium;
+  // font-family: GothamNarrow-Medium;
+  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-weight: 500;
 
 
   @media only screen and (min-width: $screen-sm-min) {
@@ -170,7 +185,10 @@ i {
   color: #fff;
   transition: color 0.3s;
   display: inline-block;
-  font-family: 'Helvetica',Helvetica,Arial,serif;
+  // font-family: 'Helvetica',Helvetica,Arial,serif;
+  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-weight: 400;
+
   font-size: 15.0px;
   text-align: left;
   line-height: 18.0px;
@@ -201,7 +219,9 @@ i {
   //background-size: cover;
     @media only screen and (min-width: $screen-sm-min) {
       background-image:url('/images/home/openstack-foundation-hero-image.jpg');
-      background-size: cover;
+      // background-size: cover;
+      background-size: contain;
+      background-repeat: no-repeat;
     }
  }
 
@@ -336,7 +356,10 @@ div.content.custom > main > section > div > div > div > h3 {
 .hero-main .hero-title {
   font-weight: 300;
   color: #fff;
-  font-family: GothamNarrow-Bold;
+
+  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-weight: 700;
+  // font-family: GothamNarrow-Bold;  
   font-size: 47px;
   text-align: left;
   line-height: 45px;
@@ -346,7 +369,9 @@ div.content.custom > main > section > div > div > div > h3 {
   font-size: 14px;
   max-width: 350px;
   margin-top: 20px;
-  font-family: GothamNarrow-Book;
+  // font-family: GothamNarrow-Book;
+  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-weight: 400;
   font-size: 17px;
   color: #FFFFFF;
   line-height: 21px;
@@ -356,26 +381,35 @@ div.content.custom > main > section > div > div > div > h3 {
   padding-bottom: 5px;
   font-size: 18px;
   color: #EE1E48;
-  font-family: GothamNarrow-Medium;
+  // font-family: GothamNarrow-Medium;
+  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-weight: 500;
   font-size: 22px;
   color: #EC1944;
 }
 
 .nav .nav-menu a {
   // line-height: 18.0px;
-  font-family: GothamNarrow-Medium;
+  // font-family: GothamNarrow-Medium;
+  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-weight: 500;
   font-size: 15px;
 
 }
 
 .button-red {
   border-radius: 0px;
-  font-family: GothamNarrow-Medium;
+  // font-family: GothamNarrow-Medium;
+  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-weight: 500;
   font-size: 15px;
 }
 
 .button {
   border-radius: 0px;
-  font-family: GothamNarrow-Medium;
+  // font-family: GothamNarrow-Medium;
+  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-weight: 500;
+
   font-size: 15px;
 }
