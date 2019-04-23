@@ -42,7 +42,9 @@
 					}">
 					<ul class="nav-menu menu-item">
 						<li v-for="(navItem, i) in $site.themeConfig.nav" >
-							<a @click.prevent="handleNavItemClick(navItem)" href="#">{{ navItem.text }}</a>
+							<!-- <a @click.prevent="handleNavItemClick(navItem)" href="#">{{ navItem.text }} </a> -->
+							<a v-if="!islocal(navItem)" :href="navItem.link" target="_blank">{{ navItem.text }} </a>
+							<a v-else :href="navItem.link" >{{ navItem.text }} </a>
 						</li>
 
 						<li >
@@ -108,9 +110,10 @@
 				this.$router.push(navItem.link);
 
 				this.isMobileNavOpen = false;
+			},
+			islocal(navItem) {
+				return navItem.link.startsWith("/");
 			}
-
-
 		},
 		
 		/**
