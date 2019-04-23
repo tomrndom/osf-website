@@ -70,14 +70,15 @@
   .bar-entry {
     margin-top: -9px;
     p {
-      font-family: 'Helvetica',Helvetica,Arial,serif;
-      font-size: 15.0px;
+      font-family: GothamNarrow-Medium;
+      font-size: 15px;
       color: $white;
       text-align: left;
       line-height: 18.0px;
+
       a {
-        font-family: 'Helvetica',Helvetica,Arial,serif;
-        font-size: 15.0px;
+        font-family: GothamNarrow-Medium;
+        font-size: 15px;
         color: $white;
         text-align: left;
         line-height: 18.0px;
@@ -154,6 +155,7 @@ i {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  font-family: GothamNarrow-Medium;
 
 
   @media only screen and (min-width: $screen-sm-min) {
