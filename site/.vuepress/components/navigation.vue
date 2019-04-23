@@ -4,9 +4,10 @@
 			<div class="nav-inner">
 				<div class="nav-brand">
 					<router-link to="/">
-
 						<div class="logo-containter">
-							<div class="logo-containter-child logo-containter-child-img"><img :src="require('../public/images/logo-openstack.svg')" alt=""></div>
+							<div class="logo-containter-child logo-containter-child-img">
+								<img :src="require('../public/images/logo-openstack-48x48.png')" 
+								alt=""></div>
 							<!-- <div class="logo-containter-child">
 								<div><span>OPENSTACK</span></div>
 								<div><span>FOUNDATION</span></div>

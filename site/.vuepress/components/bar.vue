@@ -7,10 +7,10 @@
         </div> -->
         <!-- /.bar-logo -->
         <div class="bar-entry">
-          <p>THE OPEN INFRASTRUCTURE SUMMIT IS COMMING TO DENVER!</p>
+          <p>THE OPEN INFRASTRUCTURE SUMMIT IS COMMING TO DENVER! <a href="#" target="_blank" class="bar-link">Learn more <i class="right"></i> </a></p> 
         </div>
         <!-- /.bar-entry -->
-        <a href="#" target="_blank" class="bar-link">Learn more <i class="right"></i> </a>
+        
       </div>
       <!-- /.bar-inner -->
     </div>

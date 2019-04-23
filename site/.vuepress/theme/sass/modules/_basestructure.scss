@@ -1,0 +1,333 @@
+/* ------------------------------------------------------------ *\
+    Basestructre Hero & Header & footer
+\* ------------------------------------------------------------ */
+
+.tgreen {
+  background-color: green;
+}
+.tred {
+  background-color: red;
+}
+.tyellow {
+  background-color: yellow;
+}
+
+.fix-h3 {
+  font-family: Helvetica;
+  font-size: 26.0px;
+  color: rgba(19,62,104,1.0);
+  text-align: left;
+  line-height: 31.0px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+.fix-h5 {
+  font-family: Helvetica;
+  font-size: 16.0px; //1rem
+  color: #000102;
+  line-height: 21px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+.fix-h3-white {
+  font-family: Helvetica;
+  font-size: 26.0px;
+  color: $white;
+  text-align: left;
+  line-height: 31.0px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+.fix-h5-white {
+  font-family: Helvetica;
+  font-size: 16.0px; //1rem
+  color: $white;
+  line-height: 21px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+.bar {
+  padding: 7px 0;
+  background: #EE1E48;
+  color: #fff;
+  height: 70px;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+  .bar-entry {
+    margin-top: -9px;
+    p {
+      font-family: 'Helvetica',Helvetica,Arial,serif;
+      font-size: 15.0px;
+      color: $white;
+      text-align: left;
+      line-height: 18.0px;
+      a {
+        font-family: 'Helvetica',Helvetica,Arial,serif;
+        font-size: 15.0px;
+        color: $white;
+        text-align: left;
+        line-height: 18.0px;
+        margin-right: 2px;
+      }
+    }
+    @media (max-width: 650px) { //small screen pantalla 
+      margin-top: -20px;
+    }
+  }
+
+  
+  .bar-link {
+    flex: 0 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Helvetica',Helvetica,Arial,serif;
+    font-size: 15.0px;
+    color: $white;
+    text-align: left;
+    line-height: 18.0px;
+    text-decoration: underline;
+    margin-left: 10px;
+    transition: background 0.3s, border-color 0.3s;
+    &:hover {
+      background: $primary;
+      border-color: $primary;
+      color: $white;
+    }
+  }
+
+}
+
+i {
+  border: solid $white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+
+.logo-containter {
+  display: flex;
+}
+
+.logo-containter-child {
+  font-size: 1.8em;
+  font-weight: 900;
+  margin-left: 0px;
+  @media only screen and (min-width: $screen-sm-min) {
+    color: $white;
+  }
+  @media (max-width: $screen-md) {
+    color: $back-darkest;
+  }
+  div > span {
+    &:first-child{
+      margin-left: 0px;
+      display: none;
+    }
+  }
+}
+
+.logo-containter-child1 {
+  font-size: 1.7em;
+  font-weight: 900;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+
+  @media only screen and (min-width: $screen-sm-min) {
+    color: $white;
+  }
+  @media (max-width: $screen-md) {
+    color: $back-darkest;
+  }
+}
+
+.nav .nav-menu a {
+  color: #fff;
+  transition: color 0.3s;
+  display: inline-block;
+  font-family: 'Helvetica',Helvetica,Arial,serif;
+  font-size: 15.0px;
+  text-align: left;
+  line-height: 18.0px;
+
+  @media only screen and (min-width: $screen-sm-min) {
+    color: $white;
+  }
+  @media (max-width: $screen-md) {
+    color: $back-darkest;
+  }
+}
+
+.logo-containter-child-img {
+  width: 50.5px;
+  padding: 0px;
+  color: $white;
+}
+
+.hero-main .hero-content {
+  margin-top: 110px;
+  @media (max-width: $screen-md) { //small screen pantalla 
+    margin-top: 0px;
+  }
+}
+
+.hero-background {
+  //background-image:url('/images/home/picture1.svg');
+  //background-size: cover;
+    @media only screen and (min-width: $screen-sm-min) {
+      background-image:url('/images/home/openstack-foundation-hero-image.jpg');
+      background-size: cover;
+    }
+ }
+
+ .hero.is-primary {
+   background-color: unset;
+ }
+
+ .hero-body
+  div.container {
+    padding: 0px;
+  }
+
+  .button {
+    height: auto;
+    padding: 11px 45px;
+    text-transform: uppercase;
+    transition: background 0.3s;
+    border-radius: 0px;
+    margin-top: 30px;
+}
+  .button-red {
+    background: #ee1e48;
+    border-color: #ee1e48;
+    color: #fff!important;
+    border-radius: 0px;
+}
+// ########### /END HERO
+
+// ########### FOOTER
+
+.footer-container {
+  // background-color: #133E68;  
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  width: 700px;
+  @media (max-width: $screen-md) { //small screen pantalla 
+    width: unset;
+  }
+}
+
+.footer-container-child { 
+  color: #d5d5d5;
+  width:200px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  padding-right: 10px;
+  // @media only screen and (min-width: $screen-sm-min) { //big screen
+  // } 
+  @media (max-width: $screen-md) { //small screen pantalla 
+    margin-right: -30px;
+    hr {
+      // display: none !important;
+      margin-top: 3px;
+    }
+  }
+}
+
+
+.footer-container1 {
+  // background-color: #133E68;  
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: row;
+  // align-content: space-around;
+  // width: 700px;
+  margin-left: 30px;
+}
+
+.footer-container1-child {
+  color: #d5d5d5;
+  // width:180px;
+  align-items: flex-end;
+}
+
+.footer-container1-child-right {
+  margin-right: 30px;
+  margin-left: auto;
+}
+
+
+div.content.custom > main > section > div > div > div > h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;  
+  font-weight: 900;
+}
+
+.bar-footer {
+  padding: 14px 0;
+  padding-right: 30px;
+  background: $back-darkest;
+  .is-dark-gray {
+    color: white;
+  }
+  div.container {
+    padding: 0px;
+    margin-left: 20px;
+  }
+}
+
+.bar-footer-entry > a {
+  color: #c8cbce;
+}
+
+.bar-footer-inner {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.bar-footer-entry {
+  margin-left: 10px;
+  padding-right: 20px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.bar-footer-entry-right {
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+.bar-footer.container {
+  padding: 0px;
+}
+// ########### /END FOOTER
+
+// ########### BEGIN CONTENT
+
+// ########### /END CONTENT
+
+
+ 
+ 
