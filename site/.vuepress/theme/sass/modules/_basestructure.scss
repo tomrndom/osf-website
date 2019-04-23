@@ -19,14 +19,14 @@
   padding: 0px;
   margin-bottom: 15px;
 
-  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-family: Roboto, "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
   font-weight: 500;
   font-size: 32px;
   line-height: 33px;
 
 }
 .fix-h5 {
-  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Book; 
+  font-family:  Roboto, "Gotham Narrow SSm A"; //GothamNarrow-Book; 
   font-weight: 400;  
   font-size: 17px;
   line-height: 21px;  
@@ -42,16 +42,14 @@
   margin: 0px;
   padding: 0px;
   margin-bottom: 15px;
-  // font-family: GothamNarrow-Medium;
-  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-family:  Roboto, "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
   font-weight: 500;
 
   font-size: 32px;
   line-height: 33px;
 }
 .fix-h5-white {
-  // font-family: GothamNarrow-Book;
-  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-family:  Roboto, "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
   font-weight: 400;
 
   font-size: 17px;
@@ -78,7 +76,7 @@
   .bar-entry {
     margin-top: -9px;
     p {
-      font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium;
+      font-family: Roboto, "Gotham Narrow SSm A"; //GothamNarrow-Medium;
       font-weight: 500;
       font-size: 15px;
       color: $white;
@@ -86,7 +84,7 @@
       line-height: 18.0px;
 
       a {
-        font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium;
+        font-family: Roboto, "Gotham Narrow SSm A"; //GothamNarrow-Medium;
         font-weight: 500;
         font-size: 15px;
         color: $white;
@@ -106,7 +104,7 @@
     display: inline-block;
     vertical-align: middle;
     // font-family: 'Helvetica',Helvetica,Arial,serif;
-    font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+    font-family: Roboto, "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
     font-weight: 400;
   
     font-size: 15.0px;
@@ -169,7 +167,7 @@ i {
   flex-direction: column;
   align-items: flex-start;
   // font-family: GothamNarrow-Medium;
-  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-family: Roboto, "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
   font-weight: 500;
 
 
@@ -186,7 +184,7 @@ i {
   transition: color 0.3s;
   display: inline-block;
   // font-family: 'Helvetica',Helvetica,Arial,serif;
-  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-family: Roboto, "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
   font-weight: 400;
 
   font-size: 15.0px;
@@ -357,7 +355,7 @@ div.content.custom > main > section > div > div > div > h3 {
   font-weight: 300;
   color: #fff;
 
-  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-family: Roboto, "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
   font-weight: 700;
   // font-family: GothamNarrow-Bold;  
   font-size: 47px;
@@ -370,7 +368,7 @@ div.content.custom > main > section > div > div > div > h3 {
   max-width: 350px;
   margin-top: 20px;
   // font-family: GothamNarrow-Book;
-  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-family: Roboto, "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
   font-weight: 400;
   font-size: 17px;
   color: #FFFFFF;
@@ -382,16 +380,14 @@ div.content.custom > main > section > div > div > div > h3 {
   font-size: 18px;
   color: #EE1E48;
   // font-family: GothamNarrow-Medium;
-  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-family: Roboto, "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
   font-weight: 500;
   font-size: 22px;
   color: #EC1944;
 }
 
 .nav .nav-menu a {
-  // line-height: 18.0px;
-  // font-family: GothamNarrow-Medium;
-  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-family: Roboto, "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
   font-weight: 500;
   font-size: 15px;
 
@@ -399,17 +395,14 @@ div.content.custom > main > section > div > div > div > h3 {
 
 .button-red {
   border-radius: 0px;
-  // font-family: GothamNarrow-Medium;
-  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-family: Roboto, "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
   font-weight: 500;
   font-size: 15px;
 }
 
 .button {
   border-radius: 0px;
-  // font-family: GothamNarrow-Medium;
-  font-family: "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
+  font-family: Roboto, "Gotham Narrow SSm A"; //GothamNarrow-Medium; 
   font-weight: 500;
-
   font-size: 15px;
 }

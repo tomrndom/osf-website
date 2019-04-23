@@ -180,7 +180,7 @@ home: true
           <div class="fix-h3-white">DENVER, COLORADO</div>
           <div class="fix-h5-white">April 29 - May 1, 2019</div>
           <a href="#" class="button button-red">
-              <span>Learn more <img src="/images/symbols/arrow-left.svg" alt="not found" /></span>
+              <span>Learn more </span>
           </a>
         </div>       
       </div>
