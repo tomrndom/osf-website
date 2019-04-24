@@ -9,6 +9,22 @@
     color: $white;
     background-image:url('/images/background-shapes-blue.svg');
     background-size: cover;
+    /*images*/
+    .home-picture1{
+      position:relative;
+      z-index: 1;
+    }
+    .home-picture2 {
+      margin-top: -100px;
+      margin-left: -110px;
+      position: relative;
+    }
+    .home-picture3{
+      margin-top: -355px;
+      max-width: 110%;
+      margin-right: -97px;
+      position: relative;
+    }
 
     .home-s1-container {
         color: $white;
@@ -17,9 +33,9 @@
         flex-direction: row;
         justify-content: space-evenly;
         flex-flow: wrap;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 80px;
+        //margin-left: 100px;
+        //margin-right: 100px;
+        padding-top: 80px;
 
         @media (max-width: $screen-md) { //small screen pantalla 
           max-width: unset;
@@ -58,7 +74,7 @@
             flex-direction: row;
             flex-flow: wrap;
             width: 100%;
-            margin-right: 20px
+            margin-right: 20px;
         }
         .home-s1-text {
             color: $white;
@@ -75,12 +91,8 @@
     .home-s1-pictures {
         // height: 5px;
         width: 100%;
-        margin: -30px;
+        //margin: -30px;
         padding: 0px;
-        .home-picture2 {
-            width: 45%;
-            //position: relative;
-        }
         .home-picture3 {
             width: 45%;
             margin-top: -200px;
@@ -99,18 +111,14 @@
 
 
     .home-s1-pictures2 {
-
         width: 100%;
-        margin-right: 100px;
         padding: 0px;
         display: flex;
         justify-content: flex-end;
-   
+        position:relative;
         .home-picture3 {
-            width: 45%;
-            margin: -5px;
-            padding: 0px;
-            margin-top: -150px;
+          margin-right: -40px;
+          margin-top: -150px;
         }
         @media (max-width: 1000px) { //small screen pantalla 
             margin: 0px;
@@ -147,7 +155,6 @@
   
   .section-bg-white-child {
     color: $dark;
-    margin: 90px;
     // width: 550px;
     text-align: center;
     align-self: center;
@@ -158,6 +165,7 @@
       text-align: center;
       margin-left: 0px; 
       margin-right: 0px;
+      text-transform: uppercase;
     }
     .fix-h5 {
       text-align: center;
@@ -187,20 +195,18 @@
   
   .section-bg-white-center {
     color: $back-darkest;
-    margin: 90px;
-    margin-top: 10px;
-    z-index: 200;
+    padding:90px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
     .fix-h3 {
-        text-align: center;
-        margin-left: 150px;
-        margin-right: 150px;
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      text-transform: uppercase;
     }
-    .fix-h5 {
-        text-align: center;
-        margin-left: 150px;
-        margin-right: 150px;
-    }
-    
     
     @media (max-width: $screen-md) {
       margin: 0px;
@@ -323,40 +329,20 @@
     color: $dark;
     background-image:url('/images/background-shapes-green.svg');
     background-size: cover;
-    margin-top: -170px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 0px;
     padding-bottom: 60px;
-
     @media (max-width: $screen-md) { //small screen
       background-image: unset;
       background-color: $white;
     }
   }
-  
   .section-bg-green-child {
     color: $dark;
-    margin: 90px;
-    margin-top: 0px;
-    width: 1000px;
-    text-align: center;
-    align-self: center;
-    display: flex;
-    justify-content: center;
     background-color: $white;
-    .fix-h3 {
-      text-align: center;
-      margin-top: 30px;
-      margin-left: 130px;
-      margin-right: 130px;
-    }
-    .fix-h5 {
-      text-align: center;
-      margin-left: 130px;
-      margin-right: 130px;
-    }
+    margin-bottom: 70px;
     h4 {
       // font-size: 22pt;
       color: $dark;
@@ -421,10 +407,12 @@
   }
   
   .home-s5-container1-child {
-    text-align: center;
     align-self: center;
-    color: $white;
-    width: 50%;
+    color: #fff;
+    padding: 0 90px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
     p.l1 {
       margin-bottom: -20px;
       padding-bottom: 0px;

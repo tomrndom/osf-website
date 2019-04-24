@@ -13,10 +13,11 @@ home: true
 <section class="home-s1-main">
 
 
-  <div class="home-s1-container">
+  <div class="home-s1-container container">
     <div class="home-s1-col">
       <div class="home-s1-col-content-left">
         <img src="/images/home/image1.svg" class="home-picture1" alt="" />
+        <img src="/images/home/image2.svg" class="home-picture2" alt="" /> 
       </div>
     </div>
     <div class="home-s1-col">
@@ -35,11 +36,7 @@ home: true
     </div>
   </div>
 
-  <div class="home-s1-pictures">
-    <img src="/images/home/image2.svg" class="home-picture2" alt="" /> 
-  </div>
-
-  <div class="home-s1-container">
+  <div class="home-s1-container container">
     <div class="home-s1-col">
       <div class="home-s1-col-content-left">
         <div class="home-s1-text">
@@ -59,15 +56,15 @@ home: true
     </div>
   </div>
 
-<div class="home-s1-pictures2 ">
-    <img src="/images/home/image4.svg" class="home-picture3" alt="" /> 
-</div>
+  <div class="home-s1-pictures2 container">
+      <img src="/images/home/image4.svg" class="home-picture3" alt="" /> 
+  </div>
 
 
 </section>
 
   <section class="section-bg-white">
-    <div class="section-bg-white-child">
+    <div class="section-bg-white-child container">
       <div class="section-bg-white-center">
         <div class="fix-h3">Why expand beyond the OpenStack project?</div>
         <div class="fix-h5">
@@ -111,7 +108,7 @@ home: true
   </section>
 
   <section class="section-bg-green">
-    <div class="section-bg-green-child">
+    <div class="section-bg-green-child container">
       <div class="section-bg-white-center">
         <div class="fix-h3">The projects behind open infrastructure</div>
         <div class="section-bg-green-logos-container">
@@ -143,44 +140,45 @@ home: true
 
 
   <!-- SECTION S5 -->
-
+  <!--
   <div class="home-s5-main">
-        <div class="home-s5-container1">
-          <div class="home-s5-container1-child">
-            <div class="fix-h5-white">JOIN US AT</div>
-            <div class="fix-h3-white">THE OPEN INFRASTRUCTURE SUMMIT</div>
-            <div class="fix-h5-white">THE OPEN STACK SUMMIT HAS A NEW NAME!</div>
-            <div class="fix-h5-white">
-            Join the people building and operating open infrastructure, with over 300 sessions and workshops on container infrastructure, ci/cd, telecom + nfv, public cloud, private & hybrid cloud, security and members of open source communities like airship, ansible, ceph, docker, kata containers, kubernetes, onap, openstack, open vswitch, opnfv, starlingx, zuul and more.</div>
-          </div>      
-        </div>
-        <div class="home-s5-container2">
-          <div class="home-s5-container2-child1">
-            <div class="fix-h3-white">DENVER, COLORADO</div>
-            <div class="fix-h5-white">April 29 - May 1, 2019</div>
-            <a href="#" class="button button-red">
-                <span>Buy your tickets <img src="/images/symbols/arrow-left.svg" alt="not found" /></span>
-            </a>
-          </div>   
-          <div class="home-s5-container2-child2">
-            <div class="fix-h3-white">DENVER, COLORADO</div>
-            <div class="fix-h5-white">April 29 - May 1, 2019</div>
-            <a href="#" class="button button-red">
-                <span>Learn more </span>
-            </a>
-          </div>       
-        </div>
-        <div class="home-s5-container3">   
-          <div class="home-s5-container3-child">
-            <a href="#" class="button button-red">
-                <span>View all Summits</span>
-            </a>
-          </div>       
-        </div>
-  </div>
-
+    <div class="home-s5-container1 container">
+      <div class="home-s5-container1-child">
+        <div class="fix-h5-white">JOIN US AT</div>
+        <div class="fix-h3-white">THE OPEN INFRASTRUCTURE SUMMIT</div>
+        <div class="fix-h5-white">THE OPEN STACK SUMMIT HAS A NEW NAME!</div>
+        <div class="fix-h5-white">
+        Join the people building and operating open infrastructure, with over 300 sessions and workshops on container infrastructure, ci/cd, telecom + nfv, public cloud, private & hybrid cloud, security and members of open source communities like airship, ansible, ceph, docker, kata containers, kubernetes, onap, openstack, open vswitch, opnfv, starlingx, zuul and more.</div>
+      </div>      
+    </div>
+    <div class="home-s5-container2">
+      <div class="home-s5-container2-child1">
+        <div class="fix-h3-white">DENVER, COLORADO</div>
+        <div class="fix-h5-white">April 29 - May 1, 2019</div>
+        <a href="#" class="button button-red">
+            <span>Buy your tickets <img src="/images/symbols/arrow-left.svg" alt="not found" /></span>
+        </a>
+      </div>   
+      <div class="home-s5-container2-child2">
+        <div class="fix-h3-white">DENVER, COLORADO</div>
+        <div class="fix-h5-white">April 29 - May 1, 2019</div>
+        <a href="#" class="button button-red">
+            <span>Learn more </span>
+        </a>
+      </div>       
+    </div>
+    <div class="home-s5-container3">   
+      <div class="home-s5-container3-child">
+        <a href="#" class="button button-red">
+            <span>View all Summits</span>
+        </a>
+      </div>       
+    </div>
+  </div>-->
+  <!--
   <section class="home-s6-main">
-    <div class="columns">
+    <div class="container">
+      <div class="columns">
       <div class="column">
         <img src="/images/home/logo6.svg" alt="not found" class="">
         <h2>5G Open Vision Fund</h2>
@@ -198,8 +196,9 @@ home: true
         </div>
       </div>
     </div>
+    </div>
   </section>
-
+  -->
 
 
 </section>
