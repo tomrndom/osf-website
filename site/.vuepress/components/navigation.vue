@@ -42,18 +42,42 @@
 					}">
 					<ul class="nav-menu menu-item">
 						<li v-for="(navItem, i) in $site.themeConfig.nav" >
-							<!-- <a @click.prevent="handleNavItemClick(navItem)" href="#">{{ navItem.text }} </a> -->
-							<a v-if="!islocal(navItem)" :href="navItem.link" target="_blank">{{ navItem.text }} </a>
-							<a v-else :href="navItem.link" >{{ navItem.text }} </a>
-						</li>
 
+							<a v-if="!islocal(navItem)" :href="navItem.link" target="_blank">{{ navItem.text }} </a>
+							<div v-else-if="isnested(navItem)" class="dropdown is-hoverable " >
+								<div class="dropdown-trigger">
+									<button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+									<span>{{ navItem.text }} </span>
+									<!-- <span class="icon is-small">
+										<i class="fas fa-angle-down" aria-hidden="true"></i>
+									</span> -->
+									</button>
+								</div>
+								<div class="dropdown-menu" id="dropdown-menu" role="menu">
+									<div class="dropdown-content">
+									
+									<div v-for="item in navItem.items" class="menuitemeffect">
+
+										<a v-if="!islocal(item)" :href="item.link" class="dropdown-item" target="_blank">
+											<span>{{ item.text }} </span> 
+										</a>
+										<a v-else :href="item.link" class="dropdown-item">
+											<span>{{ item.text }} </span>
+										</a>
+
+									</div>
+									</div>
+								</div>
+							</div>
+							<a v-else :href="navItem.link" >{{ navItem.text }} </a>
+
+						</li>
+						
 						<li >
 							<a href="#" target="_blank" class="bar-button">Join the community</a>
 							<!-- <a @click.prevent="handleNavItemClick(navItem)" href="#">{{ navItem.text }}</a> -->
 						</li>
 					</ul><!-- /.nav-menu -->
-
-
 
 					<!--<div class="nav-end">
 						<b-field class="field-search">
@@ -112,8 +136,14 @@
 				this.isMobileNavOpen = false;
 			},
 			islocal(navItem) {
+				if (typeof navItem.link === 'undefined') {
+					return true;//if item is subitem or dropdown..
+				}
 				return navItem.link.startsWith("/");
-			}
+			},
+			isnested(navItem) {
+				return typeof navItem.items !== 'undefined';
+			}			
 		},
 		
 		/**
@@ -134,4 +164,24 @@
 			document.removeEventListener('click', this.documentClick);
 		}
 	}
+
+
+// <div class="nav-item">
+// <div class="dropdown-wrapper">
+// <a class="dropdown-title">
+// <span class="title">Languages</span>
+// <span class="arrow right"></span></a>
+// <ul class="nav-dropdown" style="display:none;">
+// <li class="dropdown-item"> 
+//  <a href="/default-theme-config/" class="nav-link router-link-active">English</a>
+// </li>
+// <li class="dropdown-item">
+//  <a href="/zh/default-theme-config/" class="nav-link">简体中文</a>
+// </li>
+// </ul>
+// </div>
+// </div>
+
+
 </script>
+

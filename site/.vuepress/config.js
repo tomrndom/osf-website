@@ -7,23 +7,36 @@ module.exports = {
         nav: [
             {
               "text": "PROJECTS",
-              "link": "/projects/"
+              // "link": "/projects/",
+              "items": [
+                { "text": 'ALL PROJECTS', "link": '/projects/' },
+                { "text": 'SERVICES', "link": '/projects/services' },
+                { "text": 'HOST AT OSF', "link": '/projects/host-osf' },
+              ]
             },
-            // {
-            //   "text": "5G OPEN VISION",
-            //   "link": "/5g-open-vision/"
-            // },
             {
               "text": "MEMBERSHIP",
-              "link": "https://www.openstack.org/join"
+              "items": [
+                { "text": 'SUPPORTING COMPANIES', "link": '/projects/' },
+                { "text": 'JOIN OSF', "link": 'https://www.openstack.org/join' },
+              ]
             },
             {
               "text": "EVENTS",
-              "link": "/events/"
+              "items": [
+                { "text": 'OPEN INFRA SUMMIT', "link": 'https://www.openstack.org/join' },
+                { "text": 'OPENINFRA  / OPENSTACK DAYS', "link": 'https://www.openstack.org/join' },
+                { "text": 'JOIN OSF', "link": 'https://www.openstack.org/join' },
+              ]
             },
             {
               "text": "ABOUT",
-              "link": "/about/"
+              // "link": "/about/"
+              "items": [
+                { "text": '4 OPENS', "link": 'https://www.openstack.org/join' },
+                { "text": 'ANUAL REPORT', "link": 'https://www.openstack.org/join' },
+                { "text": 'FOUNDATION STAFF', "link": 'BOARD' },
+              ]
             }
           ],
       sidebar: 'auto',
