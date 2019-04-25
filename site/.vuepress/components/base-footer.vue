@@ -5,13 +5,13 @@
       <div class="footer-container-child1">
         
         <div class="footer-container">
-          <div class="footer-container-child" v-for="section in $site.themeConfig.footer.sections" > 
+          <div class="footer-container-child" v-for="section in $site.themeConfig.nav" > 
             
-            <h6 class="footer-title">{{ section.title }}</h6>
+            <h6 class="footer-title">{{ section.text }}</h6>
             <hr/>
             <!-- /.footer-title -->
             <ul class="footer-list nobullet">
-              <li v-for="item in section.nav" class="item-no-bullet">
+              <li v-for="item in section.items" class="item-no-bullet">
                 <a :href="item.link">{{ item.text }}</a>
               </li>
             </ul>
@@ -27,8 +27,8 @@
             <div class="logo-containter">
               <div class="logo-containter-child logo-containter-child-img"><img :src="require('../public/images/logo-openstack.svg')" alt=""></div>
               <div class="logo-containter-child">
-                <div><span>OPENSTACK</span></div>
-                <div><span>FOUNDATION</span></div>
+                <div><span>OpenStack</span></div>
+                <div><span>Foundation</span></div>
               </div>
             </div>
           </router-link>
@@ -37,17 +37,6 @@
       </div>
       
     </div>
-  	
-
-
-    <!-- <div class="footer-container">
-      <div class="footer-container-child">uno</div>
-      <div class="footer-container-child">dos</div>
-      <div class="footer-container-child">tres</div>
-      <div class="footer-container-child">cuatro</div>
-      <div class="footer-container-child">cinco</div>
-    </div> -->
-    
 
   </footer>
   <!-- /.footer -->

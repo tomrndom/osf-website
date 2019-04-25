@@ -7,16 +7,10 @@
         </div> -->
         <!-- /.bar-logo -->
         <div class="bar-footer-entry">
-          <a href="#" target="_blank" >PRIVACY POLICY</a>
-        </div>
-        <div class="bar-footer-entry">
-          <a href="#" target="_blank" >LEGALS</a>
-        </div>
-        <div class="bar-footer-entry">
-          <a href="#" target="_blank" >DISCLAIMER</a>
+          <a href="https://openstack.org/privacy/" target="_blank" >Privacy Policy</a>
         </div>
         <div class="bar-footer-entry bar-footer-entry-right">
-          <a href="#" target="_blank" >OPENSTACK FOUNDATION ©2019</a>
+          OpenStack Foundation ©2019
         </div>
         <!-- /.bar-entry -->
       </div>

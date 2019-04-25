@@ -25,7 +25,7 @@ project: true
     <div class="projetcs-s1-container-child">
         <h2>OPENSTACK</h2>
         <h3>Programmable infrastructure for VMs, containers and baremetal.</h3>
-        <p>Openstack is an open source software project for creating private and public clouds,
+        <p>OpenStack is an open source software project for creating private and public clouds,
         powering 75 public cloud data centers and thousands of private clouds at a scale of More than 10 million physical cores worldwide. Since launching in 2012, openstack has Become one of 
         the largest and most diverse open source projects in history.</p>
         <div class="columns">

@@ -206,7 +206,7 @@ home: true
 
 <section class="home-s7-main">
   
-  <h2 class="fix-h3-white">What people says about us</h2>
+  <h2 class="fix-h3-white">What people say about us</h2>
 
   <div class="home-s7-main-container">
 
@@ -301,7 +301,7 @@ home: true
         <img src="/images/home/logo-tencent.svg" alt=" " class="home-s8-container-child" /> 
         <img src="/images/symbols/logo-arrow-right.svg" alt=" " class="home-s8-container-child" /> 
     </div>
-    <h3>Golden Members</h3>
+    <h3>Gold Members</h3>
     <div class="home-s8-container">   
         <img src="/images/symbols/logo-arrow-left.svg" alt=" " class="home-s8-container-child" /> 
         <img src="/images/home/logo-ubuntu.svg" alt=" " class="home-s8-container-child" /> 
