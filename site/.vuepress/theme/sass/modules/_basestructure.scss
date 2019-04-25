@@ -408,8 +408,8 @@ div.content.custom > main > section > div > div > div > h3 {
     box-shadow: 0 2px 3px rgba(34, 34, 34, 0.1), 0 0 0 1px rgba(34, 34, 34, 0.1);
     padding-bottom: 0.5rem;
     padding-top: 2.5rem;
-    margin-top: 20px;
-    height: 260px;
+    margin-top: 22px;
+    height: 267px;
     left: 50%;
 
     a span {
@@ -417,21 +417,27 @@ div.content.custom > main > section > div > div > div > h3 {
       border-bottom: 2px solid $white;
       margin-top: 15px;
       margin-bottom: 5px;
-      padding-bottom: 10px;
+      padding-bottom: 7px;
       padding-top: 10px;
+      font-size: 13px;
     }
+
+    a {
+      padding-left: 33px;
+    }
+
 
     a:hover span {
       border-bottom: 2px solid #133E68;
     }
     
     .menuitemeffect {
-      height: 65px;
+      height: 49px;
     } 
 
     &:after { /* arrow */
       // bottom: 70%;
-      top: -6px;
+      top: -2px;
       left: 50%;
       border: solid transparent;
       content: " ";
@@ -450,6 +456,6 @@ div.content.custom > main > section > div > div > div > h3 {
 
 .dropdown.is-active .dropdown-menu, .dropdown.is-hoverable:hover .dropdown-menu {
   display: block;
-  left: calc( 50% - 120px );
-  width: 260px;
+  left: calc( 50% - 110px );
+  width: 240px;
 }

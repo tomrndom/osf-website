@@ -35,7 +35,8 @@ module.exports = {
               "items": [
                 { "text": '4 OPENS', "link": 'https://www.openstack.org/join' },
                 { "text": 'ANUAL REPORT', "link": 'https://www.openstack.org/join' },
-                { "text": 'FOUNDATION STAFF', "link": 'BOARD' },
+                { "text": 'FOUNDATION STAFF', "link": '/about-staff/' },
+                { "text": 'BOARD OF DIRECTORS', "link": '/about/board' },
               ]
             }
           ],
