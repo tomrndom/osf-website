@@ -26,7 +26,7 @@ about: true
                 </a>                   
             </div>
             <div class="column aboutstaff-s1-1-container">
-                <img src="/images/about/picture5.svg" id="aboutstaff-s1-id-pic1" alt="not found" />
+                <img src="/images/about/picture5.jpg" id="aboutstaff-s1-id-pic1" alt="not found" />
             </div>
         </div>
     </div>

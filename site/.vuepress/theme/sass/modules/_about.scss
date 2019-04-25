@@ -72,7 +72,7 @@
   
     #about-s1-id-pic3{
       margin-top: 30px;
-      margin-left: 20px;
+      margin-left: 16px;
       z-index: 100;
     }
   
@@ -80,18 +80,19 @@
       margin-top: 30px;
       margin-left: 320px;
       z-index: 100;
+      max-height: 390px;
       @media (max-width: $screen-md) { //small screen
         margin-left: 0px; 
       }
     }
     #about-s1-id-pic5{
       margin-top: -20px;
-      margin-left: 95px;
+      margin-left: 91px;
       z-index: 100;
     }
     #about-s1-id-pic6{
       margin-top: 30px;
-      margin-left: 20px;
+      margin-left: 16px;
       z-index: 100;
     }
     #about-s1-id-pic7{
@@ -103,6 +104,7 @@
       margin-top: 80px;
       margin-left: 10px;
       z-index: 200;
+      max-height: 390px;
     }
     #about-s1-id-pic9{
       margin-top: -45px;

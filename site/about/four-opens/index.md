@@ -18,8 +18,8 @@ about: true
   <div class="container about-s1-container">
     <div class="columns">
       <div class="column">
-        <img src="/images/about/picture1.svg" id="about-s1-id-pic1" alt="not found" >
-        <img src="/images/about/picture2.svg" id="about-s1-id-pic2" alt="not found" >
+        <img src="/images/about/picture1.jpg" id="about-s1-id-pic1" alt="not found" >
+        <img src="/images/about/picture2.jpg" id="about-s1-id-pic2" alt="not found" >
       </div>
       <div class="column">
         <h3 class="fix-h3">Host at OSF</h3>
@@ -47,13 +47,13 @@ about: true
         </p>
       </div>
       <div class="column">
-        <img src="/images/about/picture3.svg"  id="about-s1-id-pic3" alt="not found" >
+        <img src="/images/about/picture3.jpg"  id="about-s1-id-pic3" alt="not found" >
       </div>
     </div>
     <div class="columns">
       <div class="column">
-        <img src="/images/about/picture4.svg"  id="about-s1-id-pic4"alt="not found" >
-        <img src="/images/about/picture5.svg"  id="about-s1-id-pic5"alt="not found" >
+        <img src="/images/about/picture4.jpg"  id="about-s1-id-pic4"alt="not found" >
+        <img src="/images/about/picture5.jpg"  id="about-s1-id-pic5"alt="not found" >
      </div>
       <div class="column">
         <h3 class="fix-h3">Community Development</h3>
@@ -68,12 +68,12 @@ about: true
         </p>
       </div>
       <div class="column">
-        <img src="/images/about/picture6.svg"  id="about-s1-id-pic6" alt="not found" >
+        <img src="/images/about/picture6.jpg"  id="about-s1-id-pic6" alt="not found" >
      </div>
     </div>
     <div class="columns">
       <div class="column">
-        <img src="/images/about/picture7.svg" id="about-s1-id-pic7" alt="not found" >
+        <img src="/images/about/picture7.jpg" id="about-s1-id-pic7" alt="not found" >
       </div>
       <div class="column">
         <h3 class="fix-h3">Marketing & Communications</h3>
@@ -88,7 +88,7 @@ about: true
         </p>
       </div>
       <div class="column">
-        <img src="/images/about/picture8.svg" id="about-s1-id-pic8" alt="not found" >
+        <img src="/images/about/picture8.jpg" id="about-s1-id-pic8" alt="not found" >
       </div>
     </div>
   </div>
