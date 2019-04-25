@@ -13,8 +13,7 @@
         <div class="hero-content">
           <div class="hero-subhead">WELCOME TO
           </div>
-          <h3 class="hero-title">THE HOME OF</h3>
-          <h3 class="hero-title">OPEN INFRASTRUCTURE</h3>
+          <h3 class="hero-title">THE HOME OF OPEN INFRASTRUCTURE</h3>
           <!-- /.hero-title -->
           <div class="hero-entry">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque quam, placerat sit amet lorem in, dapibus pellentesque dolor. In fermentum commodo est, nec varius.

@@ -75,29 +75,29 @@ home: true
           <span>Learn more</span>
         </a>
         <div class="section-bg-white-icons-container">
-          <div class="section-bg-white-icons1">
+          <div class="section-bg-white-icons1 icons">
             <div class="section-bg-white-icons-child1"> 
               <img src="/images/home/icon1.svg" alt="not found"/>
               <p>EDGE COMPUTING</p>
             </div>
-            <div class="section-bg-white-icons-child1"> 
+            <div class="section-bg-white-icons-child1 icons"> 
               <img src="/images/home/icon2.svg" alt="not found"/>
               <p>CI/CD</p>
             </div>
           </div> 
           <!-- /icons file 1-->
-          <div class="section-bg-white-icons2">
-            <div class="section-bg-white-icons-child2">
+          <div class="section-bg-white-icons2 icons">
+            <div class="section-bg-white-icons-child2 icons">
               <img src="/images/home/icon3.svg" alt="not found"/>
               <p>CONTAINER INFRASTRUCTURE</p>
             </div>
-            <div class="section-bg-white-icons-child2">
+            <div class="section-bg-white-icons-child2 icons">
               <img src="/images/home/icon4.svg" alt="not found"/>
               <p>IA & MACHINE LEARNING</p>
             </div>
           </div>
           <div class="section-bg-white-icons2">
-            <div class="section-bg-white-icons-child2">
+            <div class="section-bg-white-icons-child2 icons">
               <img src="/images/home/icon5.svg" alt="not found"/>
               <p>Public/PrIvate Hybrid CLOUD</p>
             </div>
@@ -206,7 +206,7 @@ home: true
 
 <section class="home-s7-main">
   
-  <h2>WHAT PEOPLE SAYS ABOUT US</h2>
+  <h2 class="fix-h3-white">What people says about us</h2>
 
   <div class="home-s7-main-container">
 

@@ -45,9 +45,15 @@
       color: $white;
       transition: color 0.3s;
       display: inline-block;
-
+      padding: 0.5em;
       &:hover {
         color: $primary;
+        background:$white;
+      }
+      &.bar-button{
+        &:hover{
+          background:$primary-blue;
+        }
       }
     }
 
@@ -104,7 +110,7 @@
     }
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     & {
       position: relative;
       padding: 10px 0;
@@ -164,4 +170,11 @@
 
 .padding-top-10 {
   padding-top: 10px;
+}
+.nav {
+  .nav-menu{
+     a {
+      padding: 0.5em; 
+    }
+  }
 }

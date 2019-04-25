@@ -42,15 +42,8 @@
     align-items: flex-end;
   }
 
-  .bar-entry {
-    // margin: 0 22px;
-    margin-bottom: 4px;
-  }
 
   @media (max-width: 768px) {
-    & {
-      padding: 15px 0;
-    }
 
     .bar-inner {
       flex-wrap: wrap;

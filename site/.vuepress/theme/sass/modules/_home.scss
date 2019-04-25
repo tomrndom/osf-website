@@ -182,6 +182,15 @@
         margin-bottom: 0.3em
       }
     }
+    .icons{
+      img{
+        padding-bottom: 0.8em;
+      }
+      p{
+        width: 70%;
+        margin: 0 auto;
+      }
+    }
     p {
       color: $dark;
     }
@@ -579,8 +588,7 @@
   background-image:url('/images/background-shapes-lightblue.svg');
   background-size: cover;
   padding-top: 110px;
-  padding-bottom: 60px;
-  margin-top: -130px;
+  padding-bottom: 110px;
 
   h2 {
     text-align: center;
@@ -596,10 +604,16 @@
   }
 
   .home-s7-main-container-child {
-    margin: 10px;
+    margin-left: 20px;
     width: 400px;
     display: flex;
     flex-flow: wrap;
+    &:first-child{
+      margin-left: 0;
+    }
+    @media (max-width: 768px){
+      margin-left: 0;
+    }
   }
 
   .card{
