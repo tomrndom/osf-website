@@ -399,10 +399,7 @@ div.content.custom > main > section > div > div > div > h3 {
     margin-top: unset;
     background-color: unset;
     border: unset;
-    color: $white;
-    // :hover {
-    //   color: #2A394E;
-    // }
+    color: $white;    
   }
   .dropdown-content {
     background-color: $white;
@@ -429,7 +426,7 @@ div.content.custom > main > section > div > div > div > h3 {
     }
     
     .menuitemeffect {
-      height: 60px;
+      height: 65px;
     } 
 
     &:after { /* arrow */
@@ -453,6 +450,6 @@ div.content.custom > main > section > div > div > div > h3 {
 
 .dropdown.is-active .dropdown-menu, .dropdown.is-hoverable:hover .dropdown-menu {
   display: block;
-  left: calc( 50% - 125px );
-  width: 250px;
+  left: calc( 50% - 120px );
+  width: 260px;
 }
