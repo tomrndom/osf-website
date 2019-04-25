@@ -61,10 +61,9 @@
 										<a v-if="!islocal(item)" :href="item.link" class="dropdown-item" target="_blank">
 											<span>{{ item.text }} </span> 
 										</a>
-										<a v-else :href="item.link" class="dropdown-item">
+										<a v-else @click.prevent="handleNavItemClick(item)" href="#" class="dropdown-item">
 											<span>{{ item.text }} </span>
 										</a>
-
 									</div>
 									</div>
 								</div>
