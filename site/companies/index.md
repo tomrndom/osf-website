@@ -24,7 +24,7 @@ companies: true
               <div class="fix-h5">OpenStack Foundation Platinum Members provide a significant portion of the funding to achieve the Foundation's mission of protecting, empowering and promoting the OpenStack community and software. Each Platinum Member's company strategy aligns with the OpenStack mission and is responsible for committing full-time resources toward the project. There are eight Platinum Members at any given time, each of which holds a seat on the Board of Directors. Thank you to the following Platinum Members who are committed to OpenStack's success.</div>
             </div>
             <div class="companies-s1-column2">
-              <img src="/images/home/picture5.svg" alt="" id="companies-s1-picture1">
+              <img src="/images/home/picture5.jpg" alt="" id="companies-s1-picture1">
             </div>
           </div>          
             <div class="companies-s1-1-container">

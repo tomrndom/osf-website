@@ -16,8 +16,8 @@ home: true
   <div class="home-s1-container container">
     <div class="home-s1-col">
       <div class="home-s1-col-content-left">
-        <img src="/images/home/image1.svg" class="home-picture1" alt="" />
-        <img src="/images/home/image2.svg" class="home-picture2" alt="" /> 
+        <img src="/images/home/image1.jpg" class="home-picture1" alt="" />
+        <img src="/images/home/image2.jpg" class="home-picture2" alt="" /> 
       </div>
     </div>
     <div class="home-s1-col">
@@ -57,7 +57,7 @@ home: true
   </div>
 
   <div class="home-s1-pictures2 container">
-      <img src="/images/home/image4.svg" class="home-picture3" alt="" /> 
+      <img src="/images/home/image4.svg" class="home-picture4" alt="" /> 
   </div>
 
 

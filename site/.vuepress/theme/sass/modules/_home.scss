@@ -13,17 +13,27 @@
     .home-picture1{
       position:relative;
       z-index: 1;
+      max-height: 500px;
     }
     .home-picture2 {
       margin-top: -100px;
       margin-left: -110px;
       position: relative;
+      max-height: 350px;
     }
     .home-picture3{
       margin-top: -355px;
       max-width: 110%;
       margin-right: -97px;
       position: relative;
+      max-height: 470px;
+    }
+    .home-picture4{
+      margin-top: -355px;
+      max-width: 110%;
+      margin-right: -97px;
+      position: relative;
+      max-height: 495px;
     }
 
     .home-s1-container {
@@ -447,7 +457,7 @@
   }
   
   .home-s5-container2-child1 {
-    background-image:url('/images/home/picture1.svg');
+    background-image:url('/images/home/picture1.jpg');
     background-size: cover;
     color: $white;
     width: 45%;
@@ -486,7 +496,7 @@
   }
   
   .home-s5-container2-child2 {
-    background-image:url('/images/home/picture2.svg');
+    background-image:url('/images/home/picture2.jpg');
     background-size: cover;
     color: $white;
     width: 45%;

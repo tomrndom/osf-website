@@ -26,7 +26,7 @@ about: true
                 </a>                   
             </div>
             <div class="column aboutstaff-s1-1-container">
-                <img src="/images/about/picture5.svg" id="aboutstaff-s1-id-pic1" alt="not found" />
+                <img src="/images/about/picture5.jpg" id="aboutstaff-s1-id-pic1" alt="not found" />
             </div>
         </div>
     </div>
@@ -194,8 +194,8 @@ about: true
 <div class="aboutstaff-s3-main">
     <div class="columns">
         <div class="column">
-            <img src="/images/about-staff/picture2.svg" id="aboutstaff-s3-id-pic2" alt="not found" />
-            <img src="/images/about-staff/picture3.svg" id="aboutstaff-s3-id-pic3" alt="not found" />
+            <img src="/images/about-staff/picture2.jpg" id="aboutstaff-s3-id-pic2" alt="not found" />
+            <img src="/images/about-staff/picture3.jpg" id="aboutstaff-s3-id-pic3" alt="not found" />
         </div>
         <div class="column">
             <div class="columns">
