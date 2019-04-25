@@ -401,7 +401,10 @@ div.content.custom > main > section > div > div > div > h3 {
     margin-top: unset;
     background-color: unset;
     border: unset;
-    color: $white;    
+    color: $white;   
+    @media (max-width: 769px) { //small screen pantalla 
+      color: #133E68;
+    } 
   }
   .dropdown-content {
     background-color: $white;
@@ -413,7 +416,9 @@ div.content.custom > main > section > div > div > div > h3 {
     margin-top: 22px;
     height: 267px;
     left: 50%;
-
+    @media (max-width: 769px) { //small screen pantalla 
+      margin-top: 5px;
+    } 
     a span {
       color: #133E68;
       border-bottom: 2px solid $white;
@@ -435,6 +440,9 @@ div.content.custom > main > section > div > div > div > h3 {
     
     .menuitemeffect {
       height: 49px;
+      @media (max-width: 769px) { //small screen pantalla 
+        height: 30px;
+      } 
     } 
 
     &:after { /* arrow */
