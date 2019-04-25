@@ -46,6 +46,12 @@
 
   font-size: 32px!important;
   line-height: 33px;
+  @media screen and(max-width: $screen-md-min){
+    font-size: 25px;
+    line-height: 36px;
+    padding-top: 1em;
+  }
+
 }
 .fix-h5-white {
   font-weight: 400;
@@ -88,9 +94,6 @@
         line-height: 18.0px;
         margin-right: 2px;
       }
-    }
-    @media (max-width: 650px) { //small screen pantalla 
-      margin-top: -20px;
     }
   }
 
@@ -202,14 +205,14 @@ i {
 }
 
 .hero-background {
-  //background-image:url('/images/home/picture1.svg');
-  //background-size: cover;
-    @media only screen and (min-width: $screen-sm-min) {
-      background-image:url('/images/home/openstack-foundation-hero-image.jpg');
-      // background-size: cover;
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
+  background-image:url('/images/home/openstack-foundation-hero-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media (max-width: $screen-sm-min){
+    background-position-y: 11em;
+    background-size: 114%;
+    background-position-x: 50%;
+  }
  }
 
  .hero.is-primary {
@@ -228,6 +231,10 @@ i {
     transition: background 0.3s;
     border-radius: 0px;
     margin-top: 30px;
+    @media screen and(max-width: $screen-sm-min){
+      margin-top: 1em;
+      width: 100%;  
+    }
 }
   .button-red {
     background: #ee1e48;
@@ -346,10 +353,13 @@ div.content.custom > main > section > div > div > div > h3 {
   font-size: 47px;
   text-align: left;
   line-height: 45px;
-  @media (max-width: 768px){
+  @media (max-width: $screen-md-min){
     padding-top:1em;
     font-size: 30px;
     line-height: 34px;
+  }
+  @media (max-width: $screen-sm-min){
+    padding-top:0em;
   }
 }
  

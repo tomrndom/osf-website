@@ -2,6 +2,7 @@
 Note: local links require a leading and trailing slash.
 */
 module.exports = {
+    host: '0.0.0.0',
     title: "OpenStack Foundation",
     description: "The Home of Open Infrastructure",
     head: [["link", { rel: "icon", href: "/favicons/logo-openstack.ico" }]],

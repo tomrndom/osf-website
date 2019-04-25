@@ -13,44 +13,55 @@
     .home-picture1{
       position:relative;
       z-index: 1;
-      max-height: 500px;
+      @media (max-width: $screen-md-min){
+        z-index: 0;
+        width: 55%;
+      }
+      @media (max-width: $screen-sm-min){
+        width: 80%;
+        height: 80%
+      }
     }
     .home-picture2 {
       margin-top: -100px;
       margin-left: -110px;
       position: relative;
-      max-height: 350px;
+      @media (max-width: $screen-md-min){
+        margin-top: -42%;
+        margin-left: 24%;
+        width: 80%;
+      }
+      @media (max-width: $screen-sm-min){
+        margin-top: -63%;
+        margin-left: 5%;
+        width: 100%;
+      }
     }
     .home-picture3{
-      margin-top: -355px;
+      margin-top: -70%;
+      margin-right: -14%;
       max-width: 110%;
-      margin-right: -97px;
       position: relative;
-      max-height: 470px;
-    }
-    .home-picture4{
-      margin-top: -355px;
-      max-width: 110%;
-      margin-right: -97px;
-      position: relative;
-      max-height: 495px;
+      @media(max-width: $screen-md-min){
+        margin-top: 5%;
+        margin-left: -7%;
+        max-width: 65%;
+      }
+      @media (max-width: $screen-sm-min){
+        margin-right: 0;
+        width: 100%;
+      }
     }
 
     .home-s1-container {
         color: $white;
-        // background-color: yellow;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         flex-flow: wrap;
-        //margin-left: 100px;
-        //margin-right: 100px;
         padding-top: 80px;
-
-        @media (max-width: $screen-md) { //small screen pantalla 
-          max-width: unset;
-          margin-left: 10%;
-          margin-right: 10%;
+        @media (max-width: $screen-md-min){
+          padding-top:0;
         }
         .home-s1-col {
             color: $white;
@@ -60,9 +71,13 @@
             flex-flow: wrap;
             width: 50%;
             @media (max-width: $screen-md) { //small screen pantalla 
-                width: unset;
-                margin-top: 50px;
-                margin-bottom: 50px;
+              width: unset;
+              margin-top: 50px;
+              margin-bottom: 50px;
+            }
+            @media (max-width: $screen-md-min){
+              margin-top: 0px;
+              margin-bottom: 0px;
             }
         }
         .home-s1-col-content-right {
@@ -75,7 +90,10 @@
             margin-left: 20px;
             @media (max-width: $screen-md) { //small screen pantalla 
               margin-left: 0px
-          }
+            }
+            @media (max-width: $screen-md-min){
+               display: block;
+            }
         }
         .home-s1-col-content-left {
             color: $white;
@@ -99,50 +117,48 @@
 
 
     .home-s1-pictures {
-        // height: 5px;
-        width: 100%;
-        //margin: -30px;
-        padding: 0px;
-        .home-picture3 {
-            width: 45%;
-            margin-top: -200px;
-            //position: relative;
+      // height: 5px;
+      width: 100%;
+      //margin: -30px;
+      padding: 0px;
+      .home-picture3 {
+        width: 45%;
+        margin-top: -200px;
+        //position: relative;
+        @media (max-width: $screen-md-min){
+          max-width: 71%;
+          margin-top: -35%;
+          margin-right: -61%;
         }
-        @media (max-width: 1000px) { //small screen pantalla 
-            margin: 0px;
-            display: flex;
-            justify-content: center;
-            .home-picture2 {
-                width: 90%;
-                //position: relative;
-            }
-        }
+      }
     }
+      
 
-
-    .home-s1-pictures2 {
-        width: 100%;
-        padding: 0px;
+  .home-s1-pictures2 {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    position:relative;
+    .home-picture3 {
+      margin-right: -40px;
+      margin-top: -150px;
+      @media (max-width: 1000px) { //small screen pantalla 
+        margin: 0px;
         display: flex;
-        justify-content: flex-end;
-        position:relative;
-        .home-picture3 {
-          margin-right: -40px;
-          margin-top: -150px;
-        }
-        @media (max-width: 1000px) { //small screen pantalla 
-            margin: 0px;
-            display: flex;
-            justify-content: center;
-            .home-picture3 {
-                width: 90%;
-                margin: 0px;
-                padding: 0px; 
-                margin-top: 50px;
-           
-            }
-        }
+        justify-content: center;
+      }
+      @media (max-width: $screen-md-min){
+        width: 41%;
+        margin-right: 10%;
+        margin-top: -40%;
+      }
+      @media (max-width: $screen-sm-min){
+        max-width: 73%;
+        margin-top: -75%;
+      }
     }
+  }
 }
 
 
@@ -457,7 +473,7 @@
   }
   
   .home-s5-container2-child1 {
-    background-image:url('/images/home/picture1.jpg');
+    background-image:url('/images/home/picture1.svg');
     background-size: cover;
     color: $white;
     width: 45%;
@@ -496,7 +512,7 @@
   }
   
   .home-s5-container2-child2 {
-    background-image:url('/images/home/picture2.jpg');
+    background-image:url('/images/home/picture2.svg');
     background-size: cover;
     color: $white;
     width: 45%;
