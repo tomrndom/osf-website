@@ -51,13 +51,13 @@ home: true
     </div>
     <div class="home-s1-col">
       <div class="home-s1-col-content-right">
-        <img src="/images/home/image3.svg" class="home-picture3" alt="" />
+        <img src="/images/home/image3.jpg" class="home-picture3" alt="" />
       </div>
     </div>
   </div>
 
   <div class="home-s1-pictures2 container">
-      <img src="/images/home/image4.svg" class="home-picture4" alt="" /> 
+      <img src="/images/home/image4.jpg" class="home-picture4" alt="" /> 
   </div>
 
 

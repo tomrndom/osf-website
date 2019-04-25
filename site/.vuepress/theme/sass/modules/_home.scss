@@ -13,6 +13,7 @@
     .home-picture1{
       position:relative;
       z-index: 1;
+      max-height: 497px;
       @media (max-width: $screen-md-min){
         z-index: 0;
         width: 55%;
@@ -26,6 +27,8 @@
       margin-top: -100px;
       margin-left: -110px;
       position: relative;
+      max-height: 346px;
+
       @media (max-width: $screen-md-min){
         margin-top: -42%;
         margin-left: 24%;
@@ -42,6 +45,8 @@
       margin-right: -14%;
       max-width: 110%;
       position: relative;
+      max-height: 467px;
+
       @media(max-width: $screen-md-min){
         margin-top: 5%;
         margin-left: -7%;
@@ -51,6 +56,11 @@
         margin-right: 0;
         width: 100%;
       }
+    }
+
+    .home-picture4{
+      max-height: 496px;
+
     }
 
     .home-s1-container {
