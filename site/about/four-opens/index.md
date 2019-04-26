@@ -4,10 +4,8 @@ title: 'The 4 Opens'
 
 hero:
   title: 'The 4 Opens'
-  headline: 'These are the activities open source projects need to do to effectively build a broad Community and drive the effectiveness of their software.'
-  button:
-    title: Learn more
-    url: '#'
+  headline: 'We at OSF consider The Four Opens our guiding principles in everything we do.'
+
 home: false
 project: false
 about: true
@@ -18,88 +16,32 @@ about: true
   <div class="container about-s1-container">
     <div class="columns">
       <div class="column">
-        <img src="/images/about/picture1.jpg" id="about-s1-id-pic1" alt="not found" >
-        <img src="/images/about/picture2.jpg" id="about-s1-id-pic2" alt="not found" >
-      </div>
-      <div class="column">
-        <h3 class="fix-h3">Host at OSF</h3>
-        <p class="fix-h5">The OSF approach to open source provides a home for Open Infrastructure communities that align with the “Four Opens” philosophy:</p>
-        <ul class="fix-h5">
-          <li>open source</li>
-          <li>open design</li>
-          <li>open development</li>
-          <li>open community</li>
-        </ul>
-        <p class="fix-h5">
-          Communities want to work with us because we help projects thrive and truly believe that collaboration is the key to success. The OSF staff is a small team, but we make a big impact. Collectively we support the largest, most active, and engaged open source infrastructure communities globally.
-        </p>
-        <p class="fix-h5">
-          OSF operates efficiently based on years of experience figuring out what works and what doesn’t,  with a focus on community development. We dedicate our resources towards advancing the project goals and growing adoption. Our strength lies in the communities we serve. Inquire about hosting your project with OSF. Contact us at XXX.
-        </p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column">
-        <h3 class="fix-h3">A Customized Approach</h3>
-        <p class="fix-h5">At OSF we value project individuality and collaboration. The quality of each project is our main focus, not the overall quantity of projects we host. There is no template or a one-size-fits-all model for the way we engage and support open source projects. Each project is unique and each community has specific needs. We welcome every project with personalized support and attention to detail. Our team is genuinely cheerful, helpful, knowledgeable and passionate about helping communities grow and thrive. We do not sit on the sidelines; we actively participate in each and every community that we serve</p>
-        <p class="fix-h5">
-          Our model provides the support system and collaborative environment so that communities are able to focus their attention on the important work of building software that works in real life and solves tough problems for end users around the globe.
-        </p>
-      </div>
-      <div class="column">
-        <img src="/images/about/picture3.jpg"  id="about-s1-id-pic3" alt="not found" >
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column">
-        <img src="/images/about/picture4.jpg"  id="about-s1-id-pic4"alt="not found" >
-        <img src="/images/about/picture5.jpg"  id="about-s1-id-pic5"alt="not found" >
-     </div>
-      <div class="column">
-        <h3 class="fix-h3">Community Development</h3>
-        <p class="fix-h5">We believe that communities thrive by focusing on relationships. OSF staff are active members of each community that we support with a hands-on approach. We not only devote resources, energy and attention to helping each project succeed, but also take the success and health of each community personally. . We value the importance of each community’s unique culture and celebrate it. We’re also experts and here to provide guidance in the important and necessary areas like open source governance. Whatever is needed, we’re here to help.
-        </p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column">
-        <h3 class="fix-h3">Project Formation & Launch</h3>
-        <p class="fix-h5">Starting from scratch is challenging, but we’re here to help! We believe that most successful projects start with code first. Code before hype. From there our team has expertise in organizing all of the details that go into establishing an open source project from the very beginning and, when the time is right, launching it more broadly with great awareness and maximum impact. From open source licensing to marketing and everything in between, we cover all the bases.
-        </p>
-      </div>
-      <div class="column">
-        <img src="/images/about/picture6.jpg"  id="about-s1-id-pic6" alt="not found" >
-     </div>
-    </div>
-    <div class="columns">
-      <div class="column">
-        <img src="/images/about/picture7.jpg" id="about-s1-id-pic7" alt="not found" >
-      </div>
-      <div class="column">
-        <h3 class="fix-h3">Marketing & Communications</h3>
-        <p class="fix-h5">The love is in the details. Our expert marketing and communications team is passionate about open source and works closely within each community to promote and support the project milestones and the contributors behind the code, using social media, blogs, press releases, analyst briefings, media interviews, CFP submissions and more. The marketing team is always busy helping to elevate and amplify the good work done by each community. 
-        </p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column">
-        <h3 class="fix-h3">Web & Creative</h3>
-        <p class="fix-h5">It’s way more than just copy and paste! Our fantastic design and development teams collaborate directly with each community to develop their project’s own identity and web prosense that’s unique and represents them well. From stickers to swag to slide decks, each project team is proud to display their logos for everyone to see. The project designs creates a common, shared identity that ties the community together around the world.
-        </p>
-      </div>
-      <div class="column">
-        <img src="/images/about/picture8.jpg" id="about-s1-id-pic8" alt="not found" >
+        <h3 class="fix-h3">The Four Opens</h3>
+        <p class="fix-h5">The Four Opens are a set of principles guidelines that were created by the OpenStack community as a way to guarantee that the users get all the benefits associated with open source software, including the ability to engage with the community and influence future evolution of the software. 
+        <p class="fix-h5">Under these guidelines, the OpenStack community grew from tens of contributors to thousands, creating one of the top three most active open source projects in the world behind the Linux Kernel and Chromium. The Four Opens were instrumental not only in this success but also in building a thriving, global community. 
+        <p class="fix-h5">We at OSF consider The Four Opens our guiding principles in everything we do.</p>
+        <h3 class="fix-h3">Open Source</h3>
+        <p class="fix-h5">Any software developed under the Four Opens must be released under an open source license. It means being able to study a program, modify it, and redistribute either the original or the modified version so that others may benefit from your work. That is a minimum standard for what we mean by “Open source” in the Four Opens. Beyond that, we want the software to be truly usable and scalable. This adds the additional condition that it should not be limited in features or crippled in performance to artificially enable any business model.</p>
+        <p class="fix-h5">What that means more directly: We do not produce “open core” software.  We are committed to creating truly open source software that is usable and scalable. Truly open source software is not feature or performance limited and is not crippled. There will be no “Enterprise Edition.”
+        <h3 class="fix-h3">Open Community</h3>
+        <p class="fix-h5">“Open Community” embodies the key difference with single-vendor-controlled open source projects. It is about ensuring that the community is a cohesive, inclusive, level playing ground where all the voices are heard and anyone can rise to leadership positions.</p>
+        <p class="fix-h5">To build a truly open community, you need to balance the three forces:
+            developers, users and ecosystem. It’s easy to think simply in terms of upstream and downstream, but communities are complex organisms, and the reality is much more dynamic. It’s important to establish common goals and build strong connections between the forces, because operating in silos will dilute the power of the community. Each force affects the others, and they have to be working in harmony to achieve anything.</p>
+        <h3 class="fix-h3">Open Development</h3>
+        <p class="fix-h5">“Open Development” refers to the adoption of transparent and inclusive development processes that enable everyone to participate as an equal on a level playing field. Publicly-accessible services means that everyone can see everything about development activities, without even needing to sign up to a service. Open development also means that all patches are welcome for consideration, whether that patch is from a project founder or a first-time contributor. A successful open source project will adopt a set of standards that clearly states the metrics and standards that a contribution will be evaluated against. By defining these standards we create an egalitarian process in which contributions are evaluated on a level playing field.</p>
+        <h3 class="fix-h3">Open Design</h3>
+        <p class="fix-h5">“Open Design” guarantees a transparent and open process for planning and designing the software. It’s about letting go of the control of the design of the software and its feature road-map, and accepting that it should be driven by the community.</p>
+        <p class="fix-h5">This is not easy to do. Design is an opinionated process. Design by committee can be inefficient. It’s easier and faster to keep design and feature development in the hands of a happy few, behind closed doors, than it is to get consensus across a community around desired features and priorities. But that would be choosing to go fast in the short term with a small group rather than going far in the long term with a larger group. Community-agreed design will lead to a better product that better answers the need of the users.</p>
       </div>
     </div>
   </div>
 </section>
 
-
 <section class="projects-s2-main">
   <div class="container">
-    <h4 class="itemtitle"> INTERESTED IN HOSTING YOUR PROJECT WITH OSF? </h4>
-    <div class="fix-h5">Donec sem nisl, laoreet non felis mollis, euismod rutrum tellus. Nullam vulputate fermentum leo, ac vestibulum elit sagittis at. Nunc magna libero, pharetra id nulla vel, condimentum porttitor nisl. Maecenas consequat, odio nec varius bibendum, metus enim imperdiet diam, a fringilla massa nisl ut tortor</div>
-    <a href="#" class="button button-red">
+    <h4 class="itemtitle">Interested in hosting your project with OSF? </h4>
+    <div class="fix-h5">There are a few ways to start open source projects with OSF. Every project’s needs and goals are unique so the first step is to setup an exploratory review between the project leaders and OSF staff to discuss the project’s scope, use cases and vision for the future.</div>
+    <a href="mailto:info@openstack.org" class="button button-red">
         <span>Contact us</span>
     </a>
   </div>
