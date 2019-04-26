@@ -175,11 +175,19 @@
     color: $dark;
     background-image:url('/images/background-shapes-white.svg');
     background-size: cover;
+    background-color: #f6f6f6;
     margin-top: -100px;
     display: flex;
     justify-content: center;
     align-items: center;
-  
+    @media (max-width: $screen-md-min){
+      background-position-x:-25px;
+      background-position-y:-100px;
+    }
+    @media (max-width: $screen-sm-min){
+      background-position-x:-150px;
+      background-position-y:-150px;
+    }
   }
   
   
@@ -702,13 +710,22 @@
   padding-top: 110px;
   padding-bottom: 60px;
   text-align: center;
-
-  h2 {
-    color: $primary;
-    font-size: 32px;
-    // color: #FFFFFF;
-    line-height: 33px;
-
+  @media screen and (max-width: $screen-md-min){
+    padding-top:60px;
+  }
+  .fix-h3{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-weight:500; 
+    @media screen and(max-width: $screen-md-min){
+      width: 100%;
+      font-size: 26px;
+      line-height: 32px;
+      padding-top: 1em;
+    }
   }
   h3 {
     color: $primary;
@@ -716,6 +733,9 @@
     font-size: 15px;
     color: #133E68;
     text-align: center;
+     @media screen and (max-width: $screen-sm-min){
+      margin-top: 3em !important;
+    }
   }
 
   .button.button-red {
@@ -740,8 +760,29 @@
   }
 }
 
+/*Logos carousel*/
+
 .home-s8-container-child {
-  
-  margin-top: 100px;
-  
+  margin-top: 2em;
+  margin-right:1em;
+  max-height: 100px;
+  @media (max-width: $screen-md-min){
+    margin-top: 1em;
+    margin-right: 0;
+  }
+  &:last-child{
+    margin-right: 0;
+  }
+}
+.carousel-inner{
+  @media (max-width: $screen-md-min){
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+.carousel-control-prev, 
+.carousel-control-next{
+  @media (max-width: $screen-md-min){
+    width: 4%;
+  }
 }
