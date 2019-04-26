@@ -3,7 +3,7 @@ layout: about
 title: 'THE OPENSTACK FOUNDATION'
 
 hero:
-  title: 'THE OPENSTACK FOUNDATION'
+  title: 'Foundation Staff'
   headline: 'The goal of the OpenStack Foundation is to serve developers, users, and the entire ecosystem by providing a set of shared resources to grow the footprint of public and private OpenStack clouds, enable technology vendors targeting the platform and assist developers in producing the best cloud software in the industry.'
   button:
     title: Learn more

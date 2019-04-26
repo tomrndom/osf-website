@@ -4,7 +4,7 @@ title: 'THE OPENSTACK FOUNDATION'
 
 hero:
   title: 'Board of Directors'
-  headline: 'The goal of the OpenStack Foundation is to serve developers, users, and the entire ecosystem by providing a set of shared resources to grow the footprint of public and private OpenStack clouds, enable technology vendors targeting the platform and assist developers in producing the best cloud software in the industry.'
+  headline: 'The Board of Directors provides strategic and financial oversight of Foundation resources and staff.'
   button:
     title: Learn more
     url: '#'
@@ -15,49 +15,27 @@ about: true
 ---
 
 
-<section class="aboutstaff-s1-main">
-    <div class="aboutstaff-s1-container">
-        <div class="columns">
-            <div class="column aboutstaff-s1-1-container" >
-                <div class="fix-h3">COMMUNITY ENGAGEMENT AND DEVELOPMENT</div>
-                <div class="fix-h5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper quam vitae lectus porttitor placerat. Morbi gravida sapien dictum erat interdum volutpat. Aliquam luctus ligula non mauris interdum aliquet. </div> 
-                <a href="#" class="button button-red">
-                    Job Openings
-                </a>                   
-            </div>
-            <div class="column aboutstaff-s1-1-container">
-                <img src="/images/about/picture5.jpg" id="aboutstaff-s1-id-pic1" alt="not found" />
-            </div>
-        </div>
-    </div>
-</section>
-
-
 <section class="aboutstaff-s2-main">
         <!-- PERSON  -->
         <div class="aboutstaff-s2-container">
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
-                    <img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon">
-                    <img src="/images/symbols/icon-2.svg" class="card-social-icons" alt="icon">
-                    <img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon">
-                    <img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon">
-                    <img src="/images/symbols/icon-5.svg" class="card-social-icons" alt="icon">
+                    <a href="https://www.openstack.org/community/members/profile/406" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/AlanHClark"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://www.linkedin.com/in/AlanHClark" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/about-staff/avatar1.svg" alt="avatar">
+                                    <img src="/images/about-staff/alanclarkinformal.jpg" alt="avatar">
                                 </figure>
                             </div>
                             <div class="media-content">
-                                <p class="title is-4 card-text-color">Jonathan Bryce</p>
-                                <p class="subtitle is-6">Executive Director</p>
-                                <p class="subtitle is-6">Jonathan Bryce, who has spent his career building the cloud, is Executive Director of the OpenStack Foundation. Previously he was a founder of The Rackspace Cloud.</p>
-                                <p>He started his career working as a web developer for Rackspace, and during his tenure, he and co-worker Todd Morey had a vision to build a sophisticated web hosting environment where users and businesses alike could turn to design, develop and deploy their ideal web site – all without being responsible for procuring the technology, installing it or making sure it is...</p>
-                                <a href="#" class="aboutstaff-s2-readmore">Read more</a>
+                                <p class="title is-4 card-text-color">Alan Clark</p>
+                                <p class="subtitle is-6">Platinum Representative </p>
+                                <p class="subtitle is-6">Experienced industry leader, open source advocate, a member of the SUSE leadership team, and SUSE strategy adviser for new industry initiatives and open source.</p>
                             </div>
                         </div>
                     </div>
@@ -68,26 +46,22 @@ about: true
         <div class="aboutstaff-s2-container">
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
-                    <img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon">
-                    <img src="/images/symbols/icon-2.svg" class="card-social-icons" alt="icon">
-                    <img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon">
-                    <img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon">
-                    <img src="/images/symbols/icon-5.svg" class="card-social-icons" alt="icon">
+                    <a href="https://www.openstack.org/community/members/profile/2813" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/allisonrandal"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://www.linkedin.com/in/allisonrandal/" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/about-staff/avatar2.svg" alt="avatar">
+                                    <img src="/images/about-staff/alanclarkinformal.jpg" alt="avatar">
                                 </figure>
                             </div>
                             <div class="media-content">
-                                <p class="title is-4 card-text-color">Mark Collier</p>
-                                <p class="subtitle is-6">Chief Operating Officer</p>
-                                <p class="subtitle is-6">Mark has been lucky enough to participate in many disruptive technology shifts, from the introduction of the first GPUs at Dell in the 90s as a product manager, to the digital music/MP3 transition at Musicmatch as Director of Business Development. After Yahoo! acquired Musicmatch, combining the #1 streaming radio service with the #1 digital music app, Mark served as Sr Director, establishing strategic partnerships for one of the first on demand streaming music services. In 2009, Mark joined Rackspace, an early pioneer in cloud computing, as VP of Business Development, focused on building their cloud ecosystem.</p>
-                                <p>In 2010, to accelerate the cloud ecosystem's development, Mark co-founded a new open source cloud computing project called OpenStack, in partnership with NASA and 25 other organizations globally. OpenStack quickly became one of the fastest growing open source projects in history. In 2012, Mark co-founded the OpenStack Foundation to manage the growth of the project, where he now serves at the COO. Today, OpenStack is one of the 3 most actively developed open source projects in the world, along with the Linux kernel and Chromium...</p>
-                                <a href="#" class="aboutstaff-s2-readmore">Read more</a>
+                                <p class="title is-4 card-text-color">Allison Randal</p>
+                                <p class="subtitle is-6">Individual Representative<br/>Eigenstate Ltd, Ericsson Software Technology, The Perl Foundation, Onyx Neon, Inc. </p>
+                                <p class="subtitle is-6">Allison is a software developer and open source strategist. She is a board member of the OpenStack Foundation, a board member of the Open Source Initiative, a board member of the Perl Foundation, and co-founder of the FLOSS Foundations group for open source leaders. She previously served as President of the Open Source Initiative, President of the Perl Foundation, board member at the Python Software Foundation, Chief Architect of the Parrot virtual machine, Chairman of the Board at the Parrot Foundation, Open Source Evangelist at O'Reilly Media, Conference Chair of OSCON, Technical Architect of Ubuntu, Open Source Advisor at Canonical, Distinguished Technologist and Open Source Strategist at Hewlett Packard Enterprise, and Distinguished Engineer at SUSE. She participates in the Debian and OpenStack projects, and is currently taking a mid-career research sabbatical to complete a PhD at the University of Cambridge.</p>
                             </div>
                         </div>
                     </div>
