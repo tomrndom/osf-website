@@ -4,7 +4,7 @@ title: 'OSF PROJECTS'
 
 hero:
   title: 'OSF PROJECTS'
-  headline: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque quam, placerat sit amet lorem in, dapibus pellentesque dolor. In fermentum commodo est, nec varius'
+  headline: 'Projects that call OSF their home each value open collaboration and exemplify the Four Opens (source, design, development, community). All of our project have a strategic focus, vision & scope that furthers the OSF mission of supporting the development and adoption of production infrastructure with open source components.'
   link1:
     title: ''
     url: '#'
@@ -18,40 +18,66 @@ project: true
 
 <section class="projects-s1-main">
 
-<h3 class="itemtitle">CONFIRMED PROJECTS &#128712; </h3>
+<h3 class="itemtitle">CONFIRMED PROJECTS</h3>
 
 <div class="projects-s1-container">
     <img src="/images/projects/logo1.svg" alt="not found" class="projetcs-s1-container-child">
     <div class="projetcs-s1-container-child">
         <h2>OPENSTACK</h2>
-        <h3>Programmable infrastructure for VMs, containers and baremetal.</h3>
+        <h3>Programmable infrastructure for VMs, containers and bare metal.</h3>
         <p>OpenStack is an open source software project for creating private and public clouds,
-        powering 75 public cloud data centers and thousands of private clouds at a scale of More than 10 million physical cores worldwide. Since launching in 2012, openstack has Become one of 
+        powering 75 public cloud data centers and thousands of private clouds at a scale of more than 10 million physical cores worldwide. Since launching in 2012, openstack has Become one of 
         the largest and most diverse open source projects in history.</p>
         <div class="columns">
             <div class="column">
-                <p><img src="/images/home/icon5.svg" alt="not found"> PUBLIC, PRIVATE& HYBRID CLOD</p>
+                <p><img src="/images/home/icon5.svg" alt="not found"> PUBLIC, PRIVATE &amp; HYBRID CLOUD</p>
                 <p><img src="/images/home/icon1.svg" alt="not found"> EDGE COMPUTING</p>
                 <p><img src="/images/home/icon3.svg" alt="not found"> CONTAINER INFRASTRUCTURE</p>
             </div>
             <div class="column">
             <p>IMPÓRTANT LINKS:</p><br/>
-            <p><a href="#">Mailing Lists</a></p>
-            <p><a href="#">Documentation</a></p>
-            <p><a href="#">Getting Started</a></p>
-            <p><a href="#">Technical Committee</a></p>
-            <p><a href="#">User Committee</a></p>
+            <p><a href="http://lists.openstack.org/cgi-bin/mailman/listinfo">Mailing Lists</a></p>
+            <p><a href="https://docs.openstack.org">Documentation</a></p>
+            <p><a href="https://www.openstack.org/software/start/">Getting Started</a></p>
+            <p><a href="https://www.openstack.org/foundation/tech-committee/">Technical Committee</a></p>
+            <p><a href="https://www.openstack.org/foundation/user-committee/">User Committee</a></p>
             </div>
         </div>        
     </div>
     <div class="projetcs-s1-container-child">
-        <a href="#" class="button button-red">
+        <a href="https://www.openstack.org" class="button button-red">
             <span>openstack.org <img src="/images/symbols/arrow-left.svg" alt="not found" /></span>
         </a>
     </div>
 </div>
+<div class="projects-s1-container">
+    <img src="/images/projects/logo3.svg" alt="not found" class="projetcs-s1-container-child">
+    <div class="projetcs-s1-container-child">
+        <h2>KATA CONTAINERS</h2>
+        <h3 id="projects-s3-h3">Secure, lightweight CRI compatible virtualized containers.</h3>
+        <p>Kata containers is an open source project delivering increased container security and Workload isolation through an implementation of lightweight virtual machines.</p>
+        <div class="columns">
+            <div class="column">
+                <p><img src="/images/home/icon3.svg" alt="not found"> CONTAINER INFRASTRUCTURE</p>
+            </div>
+            <div class="column">
+            <p>IMPÓRTANT LINKS:</p><br/>
+            <p><a href="http://lists.katacontainers.io/cgi-bin/mailman/listinfo">Mailing Lists</a></p>
+            <p><a href="https://katacontainers.io/docs/">Documentation</a></p>
+            <p><a href="https://github.com/kata-containers/runtime/releases/">Releases</a></p>
+            <p><a href="https://katacontainers.io/community/">Blog</a></p>
+            <p><a href="https://github.com/kata-containers">Code</a></p>
+            </div>
+        </div>        
+    </div>
+    <div class="projetcs-s1-container-child">
+        <a href="https://katacontainers.io" class="button button-red"  id="projects-s3-btn">
+            <span>katacontainers.io <img src="/images/symbols/arrow-left.svg" alt="not found" /></span>
+        </a>
+    </div>
+</div>
 
-<h3 class="itemtitle">PILOT PROJECTS &#128712; </h3>
+<h3 class="itemtitle">PILOT PROJECTS</h3>
 
 <div class="projects-s1-container">
     <img src="/images/projects/logo2.svg" alt="not found" class="projetcs-s1-container-child">
@@ -66,43 +92,16 @@ project: true
             </div>
             <div class="column">
             <p>IMPÓRTANT LINKS:</p><br/>
-            <p><a href="#">Mailing Lists</a></p>
-            <p><a href="#">Documentation</a></p>
-            <p><a href="#">Developer Guide</a></p>
-            <p><a href="#">Airship in a Bottle</a></p>
+            <p><a href="http://lists.airshipit.org/cgi-bin/mailman/listinfo">Mailing Lists</a></p>
+            <p><a href="https://airship-treasuremap.readthedocs.io/en/latest/">Documentation</a></p>
+            <p><a href="https://airship-treasuremap.readthedocs.io/en/latest/">Documentation</a></p>
+            <p><a href="https://git.airshipit.org/cgit">Code</a></p>
             </div>
         </div>        
     </div>
     <div class="projetcs-s1-container-child">
-        <a href="#" class="button button-red" id="projects-s2-btn">
-            <span>airship.io <img src="/images/symbols/arrow-left.svg" alt="not found" /></span>
-        </a>
-    </div>
-</div>
-
-<div class="projects-s1-container">
-    <img src="/images/projects/logo3.svg" alt="not found" class="projetcs-s1-container-child">
-    <div class="projetcs-s1-container-child">
-        <h2>KATA CONTAINER</h2>
-        <h3 id="projects-s3-h3">Secure, lightweight CRI compatible virtualized containers.</h3>
-        <p>Kata containers is an open source project delivering increased container security and Workload isolation through an implementation of lightweight virtual machines.</p>
-        <div class="columns">
-            <div class="column">
-                <p><img src="/images/home/icon3.svg" alt="not found"> CONTAINER INFRASTRUCTURE</p>
-            </div>
-            <div class="column">
-            <p>IMPÓRTANT LINKS:</p><br/>
-            <p><a href="#">Mailing Lists</a></p>
-            <p><a href="#">Documentation</a></p>
-            <p><a href="#">Install Guide</a></p>
-            <p><a href="#">Blog</a></p>
-            <p><a href="#">Architecture Committee</a></p>
-            </div>
-        </div>        
-    </div>
-    <div class="projetcs-s1-container-child">
-        <a href="#" class="button button-red"  id="projects-s3-btn">
-            <span>katacontainers.io <img src="/images/symbols/arrow-left.svg" alt="not found" /></span>
+        <a href="https://airshipit.org" class="button button-red" id="projects-s2-btn">
+            <span>airshipit.org <img src="/images/symbols/arrow-left.svg" alt="not found" /></span>
         </a>
     </div>
 </div>
@@ -114,7 +113,7 @@ project: true
     <div class="projetcs-s1-container-child">
         <h2>STARLING X</h2>
         <h3 id="projects-s4-h3">Edge cloud computing infrastructure for high performance, ultra-low latency applications.</h3>
-        <p>Starlingx is a complete cloud infrastructure software stack for the edge used by the Most demanding applications in industrial iot, telecom, and other use cases. Based on Mature production software deployed in mission critical applications, newly open Sourced starlingx code is the base for edge implementations in scalable solutions that Can be productized now.</p>
+        <p>StarlingX is a complete cloud infrastructure software stack for the edge used by the Most demanding applications in industrial iot, telecom, and other use cases. Based on Mature production software deployed in mission critical applications, newly open sourced StarlingX code is the base for edge implementations in scalable solutions that Can be productized now.</p>
         <div class="columns">
             <div class="column">
                 <p><img src="/images/home/icon1.svg" alt="not found"> EDGE COMPUTING</p>
@@ -122,15 +121,16 @@ project: true
             </div>
             <div class="column">
             <p>IMPÓRTANT LINKS:</p><br/>
-            <p><a href="#">Mailing Lists</a></p>
-            <p><a href="#">Documentation</a></p>
-            <p><a href="#">Developer Guide</a></p>
-            <p><a href="#">Standing Meetings</a></p>
+            <p><a href="http://lists.starlingx.io/">Mailing Lists</a></p>
+            <p><a href="https://wiki.openstack.org/wiki/StarlingX">Documentation</a></p>
+            <p><a href="https://wiki.openstack.org/wiki/StarlingX#Releases">Releases</a></p>
+            <p><a href="https://wiki.openstack.org/wiki/StarlingX/Meetings">Standing Meetings</a></p>
+            <p><a href="https://git.starlingx.io/cgit">Code</a></p>
             </div>
         </div>        
     </div>
     <div class="projetcs-s1-container-child">
-        <a href="#" class="button button-red"  id="projects-s4-btn">
+        <a href="https://starlingx.io" class="button button-red"  id="projects-s4-btn">
             <span>starlingx.io <img src="/images/symbols/arrow-left.svg" alt="not found" /></span>
         </a>
     </div>
@@ -141,7 +141,7 @@ project: true
     <img src="/images/projects/logo5.svg" alt="not found" class="projetcs-s1-container-child">
     <div class="projetcs-s1-container-child">
         <h2>ZUUL</h2>
-        <h3 id="projects-s5-h3">CI/CD platformfor gating changes across multiple systems/repos.</h3>
+        <h3 id="projects-s5-h3">CI/CD platform for gating changes across multiple systems/repos.</h3>
         <p>Zuul is an open source ci/cd platform specializing in gating changes across multiple Systems and applications before landing on a single patch</p>
         <div class="columns">
             <div class="column">
@@ -149,15 +149,17 @@ project: true
             </div>
             <div class="column">
             <p>IMPÓRTANT LINKS:</p><br/>
-            <p><a href="#">Mailing Lists</a></p>
-            <p><a href="#">Documentation</a></p>
-            <p><a href="#">Install Guide</a></p>
+            <p><a href="http://lists.zuul-ci.org/cgi-bin/mailman/listinfo">Mailing Lists</a></p>
+            <p><a href="https://zuul-ci.org/docs/">Documentation</a></p>
+            <p><a href="https://pypi.org/project/zuul/">Install Guide</a></p> 
+            <p><a href="https://zuul-ci.org/users.html">Users</a></p> 
+            <p><a href="https://git.zuul-ci.org/">Source Code</a></p>
             </div>
         </div>        
     </div>
     <div class="projetcs-s1-container-child">
-        <a href="#" class="button button-red"  id="projects-s5-btn">
-            <span>zuul-ci.io <img src="/images/symbols/arrow-left.svg" alt="not found" /></span>
+        <a href="https://zuul-ci.org/" class="button button-red"  id="projects-s5-btn">
+            <span>zuul-ci.org <img src="/images/symbols/arrow-left.svg" alt="not found" /></span>
         </a>
     </div>
 </div>
