@@ -127,8 +127,8 @@ companies: true
 
 <section class="companies-s2-main">
 <div class="fix-h3"> BECOME A SPONSOR</div>
-<div class="fix-h5">The OpenStack Foundation would not exist without the support of the Platinum, Gold, and Corporate Sponsors listed above. Learn more about how your company can help.</div>
-<a href="https://www.openstack.org/join/#sponsor" class="button button-white">
+<div class="fix-h5">The resources provided by the OSF Members and Sponsors are critical to making the Open Infrastructure community successful, and there are many ways to support this mission, whether you're contributing code, building an OpenStack product or helping build the community.</div>
+<a href="mailto:ecosystem@openstack.org" class="button button-white">
     <span>Contact us</span>
 </a>
 </section>
