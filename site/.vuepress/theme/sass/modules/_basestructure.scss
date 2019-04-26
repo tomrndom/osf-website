@@ -417,6 +417,7 @@ div.content.custom > main > section > div > div > div > h3 {
     background-color: unset;
     border: unset;
     color: $white;   
+    cursor: default;
     @media (max-width: 769px) { //small screen pantalla 
       color: #133E68;
     } 
