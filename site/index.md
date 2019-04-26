@@ -9,8 +9,6 @@ home: true
 
 ---
 <section class="home-s1-main">
-
-
   <div class="home-s1-container container">
     <div class="home-s1-col">
       <div class="home-s1-col-content-left">
@@ -34,7 +32,6 @@ home: true
       </div>
     </div>
   </div>
-
   <div class="home-s1-container container">
     <div class="home-s1-col">
       <div class="home-s1-col-content-left">
@@ -55,10 +52,7 @@ home: true
       </div>
     </div>
   </div>
-
-
 </section>
-
   <section class="section-bg-white">
     <div class="section-bg-white-child container">
       <div class="section-bg-white-center">
@@ -102,7 +96,6 @@ home: true
       </div>
     </div>
   </section>
-
   <section class="section-bg-green">
     <div class="section-bg-green-child container">
       <div class="section-bg-white-center">
@@ -133,8 +126,6 @@ home: true
       </div>
     </div>
   </section>
-
-
   <!-- SECTION S5 -->
   <!--
   <div class="home-s5-main">
@@ -195,15 +186,11 @@ home: true
     </div>
   </section>
   -->
-
-
 </section>
 
 
 <section class="home-s7-main">
-  
   <h2 class="fix-h3-white">What people say about us</h2>
-
   <div class="home-s7-main-container container is-fluid">
     <div class="home-s7-main-container-child ">
       <div class="card column">
@@ -269,12 +256,6 @@ home: true
     </div>
   </div>
 </section>
-
-
-
-
-
-
 <section class="home-s8-main">
     <h2>Companies supporting the OpenStack Foundation</h2>
     <h3>Platinum Members</h3>

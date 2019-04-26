@@ -11,12 +11,12 @@
     <div class="hero-body">
       <div :class="['container', containerClass]">
         <div class="hero-content">
-          <div class="hero-subhead">Welcome to
+          <div class="hero-subhead">We help people Build & Operate
           </div>
-          <h3 class="hero-title">The Home of Open Infrastructure</h3>
+          <h3 class="hero-title">Open Infrastructure</h3>
           <!-- /.hero-title -->
           <div class="hero-entry">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque quam, placerat sit amet lorem in, dapibus pellentesque dolor. In fermentum commodo est, nec varius.
+          With over 100,000 members in 187 countries, the OSF helps open source communities build the tools infrastructure operators need for Data Center Clouds, 5G, Edge, Containers, CI/CD and beyond.
           </div>
           <!-- /.hero-entry -->
           <div class="hero-actions">
