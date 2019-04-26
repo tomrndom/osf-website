@@ -11,7 +11,7 @@
     <div class="hero-body">
       <div :class="['container', containerClass]">
         <div class="hero-content">
-          <div class="hero-subhead">We help people Build & Operate
+          <div class="hero-subhead">We help people Build &amp; Operate
           </div>
           <h3 class="hero-title">Open Infrastructure</h3>
           <!-- /.hero-title -->

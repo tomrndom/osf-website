@@ -11,7 +11,7 @@
           <br/>
           <div class="hero-project-entry">
             <p>
-              <a href="#" target="_blank" class="hero-link"> {{ link1 }} <i class="right"></i> </a>
+              <a :href="link1.url" target="_blank" class="hero-link"> {{ link1.title }} <i class="right"></i> </a>
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default {
       default: () => {}
     },    
     link1: {
-      type: String,
+      type: Object,
       default: () => {}
     },    
     image: {

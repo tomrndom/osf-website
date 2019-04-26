@@ -32,7 +32,7 @@
       <bar />
       <navigation />
       <main class="main">
-          <hero-supporting class="hero-main is-primary" :title="$page.frontmatter.hero.title" :headline="$page.frontmatter.hero.headline" :link1="$page.frontmatter.hero.link1.title">
+          <hero-supporting class="hero-main is-primary" :title="$page.frontmatter.hero.title" :headline="$page.frontmatter.hero.headline" :link1="$page.frontmatter.hero.link1">
           </hero-supporting>
       </main>
     </div>
