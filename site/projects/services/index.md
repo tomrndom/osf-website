@@ -73,7 +73,7 @@ about: true
         <h3 class="fix-h3">Trademark & Legal Support</h3>
         <p class="fix-h5">Always read the fine print. Our expert legal team is here to handle the paperwork, secure global trademarks and make sure all of the details are buttoned up.</p>
         <h3 class="fix-h3">Other Services</h3>
-        <p class="fix-h5">Each project has specific needs and goals that the OSF team is here to support. Depending on market need and project funding, there are many other services that our team can offer. Examples include specialized events specifically for the project , a project branded presence at other industry events, product or professional certification, and a dedicated marketplace. </p>        
+        <p class="fix-h5">Each project has specific needs and goals that the OSF team is here to support. Depending on community needs, there are many other services that our team can offer, and we are ready to customize the deliverables based on the community’s needs. In addition to the above listed services, examples include contributor on-boarding, product or professional certification, and a dedicated marketplace. </p>        
       </div>
       <div class="column">
         <img src="/images/about/picture3.jpg" id="about-s1-id-pic3" alt="not found">
