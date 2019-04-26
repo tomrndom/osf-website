@@ -161,15 +161,14 @@ project: true
         </a>
     </div>
 </div>
-
-
 </section>
 
 <section class="projects-s2-main">
-
-<h3 class="itemtitle"> INTERESTED IN HOSTING YOUR PROJECT WITH OSF? </h3>
-<p>Donec sem nisl, laoreet non felis mollis, euismod rutrum tellus. Nullam vulputate fermentum leo, ac vestibulum elit sagittis at. Nunc magna libero, pharetra id nulla vel, condimentum porttitor nisl. Maecenas consequat, odio nec varius bibendum, metus enim imperdiet diam, a fringilla massa nisl ut tortor</p>
-<a href="#" class="button button-red">
-    <span>Contact us</span>
-</a>
+  <div class="container">
+    <h4 class="itemtitle">Interested in hosting your project with OSF? </h4>
+    <div class="fix-h5">There are a few ways to start open source projects with OSF. Every project’s needs and goals are unique so the first step is to setup an exploratory review between the project leaders and OSF staff to discuss the project’s scope, use cases and vision for the future.</div>
+    <a href="mailto:info@openstack.org" class="button button-red">
+        <span>Contact us</span>
+    </a>
+  </div>
 </section>
