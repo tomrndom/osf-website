@@ -278,28 +278,48 @@ home: true
 
 
 <section class="home-s8-main">
-    <h2>COMPANIES SUPPORTING THE OPENSTACK FOUNDATION</h2>
+    <h2>Companies supporting the OpenStack Foundation</h2>
     <h3>Platinum Members</h3>
-    <div class="home-s8-container">   
-        <img src="/images/symbols/logo-arrow-left.svg" alt=" " class="home-s8-container-child" /> 
-        <img src="/images/home/logo-att.svg" alt=" " class="home-s8-container-child" /> 
-        <img src="/images/home/logo-ericsson.svg" alt="  " class="home-s8-container-child" /> 
-        <img src="/images/home/logo-huawei.svg" alt=" " class="home-s8-container-child" /> 
-        <img src="/images/home/logo-intel.svg" alt=" " class="home-s8-container-child" /> 
-        <img src="/images/home/logo-redhat.svg" alt=" " class="home-s8-container-child" /> 
-        <img src="/images/home/logo-tencent.svg" alt=" " class="home-s8-container-child" /> 
-        <img src="/images/symbols/logo-arrow-right.svg" alt=" " class="home-s8-container-child" /> 
+    <div id="platinum-carousel" class="carousel slide" data-ride="carousel" data-interval="0">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/images/home/logo-att.svg" alt=" " class="home-s8-container-child" />
+            <img src="/images/home/logo-ericsson.svg" alt="  " class="home-s8-container-child" />
+            <img src="/images/home/logo-huawei.svg" alt=" " class="home-s8-container-child" />
+            <img src="/images/home/logo-intel.svg" alt=" " class="home-s8-container-child" />
+            <img src="/images/home/logo-redhat.svg" alt=" " class="home-s8-container-child" />
+            <img src="/images/home/logo-tencent.svg" alt=" " class="home-s8-container-child" />
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#platinum-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <img src="/images/symbols/logo-arrow-left.svg" alt=" " class="home-s8-container-child" />
+      </a>
+      <a class="carousel-control-next" href="#platinum-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <img src="/images/symbols/logo-arrow-right.svg" alt=" " class="home-s8-container-child" />
+      </a>
     </div>
     <h3>Gold Members</h3>
-    <div class="home-s8-container">   
-        <img src="/images/symbols/logo-arrow-left.svg" alt=" " class="home-s8-container-child" /> 
-        <img src="/images/home/logo-ubuntu.svg" alt=" " class="home-s8-container-child" /> 
-        <img src="/images/home/logo-chinamobile.svg" alt="  " class="home-s8-container-child" /> 
-        <img src="/images/home/logo-dellemc.svg" alt=" " class="home-s8-container-child" /> 
-        <img src="/images/home/logo-cisco.svg" alt="not " class="home-s8-container-child" /> 
-        <img src="/images/home/logo-chinaunicom.svg" alt=" " class="home-s8-container-child" /> 
-        <img src="/images/home/logo-citynetwork.svg" alt=" " class="home-s8-container-child" /> 
-        <img src="/images/symbols/logo-arrow-right.svg" alt=" " class="home-s8-container-child" /> 
+    <div id="gold-carousel" class="carousel slide" data-ride="carousel" data-interval="0">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/images/home/logo-ubuntu.svg" alt=" " class="home-s8-container-child" />
+            <img src="/images/home/logo-chinamobile.svg" alt="  " class="home-s8-container-child" />
+            <img src="/images/home/logo-dellemc.svg" alt=" " class="home-s8-container-child" />
+            <img src="/images/home/logo-cisco.svg" alt="not " class="home-s8-container-child" />
+            <img src="/images/home/logo-chinaunicom.svg" alt=" " class="home-s8-container-child" />
+            <img src="/images/home/logo-citynetwork.svg" alt=" " class="home-s8-container-child" />
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#gold-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <img src="/images/symbols/logo-arrow-left.svg" alt=" " class="home-s8-container-child" />
+      </a>
+      <a class="carousel-control-next" href="#gold-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <img src="/images/symbols/logo-arrow-right.svg" alt=" " class="home-s8-container-child" />
+      </a>
     </div>
     <a href="#" class="button button-red">
         <span>View all Member Companies <img src="/images/symbols/arrow-left.svg" alt=" " />  </span>
