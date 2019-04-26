@@ -281,14 +281,17 @@ home: true
     <div id="platinum-carousel" class="carousel slide" data-ride="carousel" data-interval="0">
       <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="/images/home/logo-att.svg" alt=" " class="home-s8-container-child" />
-            <img src="/images/home/logo-ericsson.svg" alt="  " class="home-s8-container-child" />
-            <img src="/images/home/logo-huawei.svg" alt=" " class="home-s8-container-child" />
-            <img src="/images/home/logo-intel.svg" alt=" " class="home-s8-container-child" />
-            <img src="/images/home/logo-redhat.svg" alt=" " class="home-s8-container-child" />
-            <img src="/images/home/logo-tencent.svg" alt=" " class="home-s8-container-child" />
+            <img src="/images/companies/att-lg2.jpg" alt="AT&amp;T" class="home-s8-container-child">
+            <img src="/images/companies/ericsson-lg.jpg" alt="Ericsson" class="home-s8-container-child">
+            <img src="/images/companies/huawei-new-lg.jpg" alt="Huawei" class="home-s8-container-child">
+            <img src="/images/companies/intel-xlg.jpg" alt="Intel" class="home-s8-container-child">
+            <img src="/images/companies/rackspace-lg-2016.jpg" alt="Rackspace" class="home-s8-container-child">
+            <img src="/images/companies/redhat-sp-lg.jpg" alt="Red Hat, Inc." class="home-s8-container-child">
+            <img src="/images/companies/suse-sp-lg.jpg" alt="SUSE" class="home-s8-container-child">
+            <img src="/images/companies/Tencent-vert-lg.jpg" alt="Tencent Cloud" class="home-s8-container-child">
         </div>
       </div>
+      <!--
       <a class="carousel-control-prev" href="#platinum-carousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <img src="/images/symbols/logo-arrow-left.svg" alt=" " class="home-s8-container-child" />
@@ -297,29 +300,47 @@ home: true
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <img src="/images/symbols/logo-arrow-right.svg" alt=" " class="home-s8-container-child" />
       </a>
+      -->
     </div>
     <h3>Gold Members</h3>
     <div id="gold-carousel" class="carousel slide" data-ride="carousel" data-interval="0">
       <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="/images/home/logo-ubuntu.svg" alt=" " class="home-s8-container-child" />
-            <img src="/images/home/logo-chinamobile.svg" alt="  " class="home-s8-container-child" />
-            <img src="/images/home/logo-dellemc.svg" alt=" " class="home-s8-container-child" />
-            <img src="/images/home/logo-cisco.svg" alt="not " class="home-s8-container-child" />
-            <img src="/images/home/logo-chinaunicom.svg" alt=" " class="home-s8-container-child" />
-            <img src="/images/home/logo-citynetwork.svg" alt=" " class="home-s8-container-child" />
+            <img src="/images/companies/logo-99cloud-lg2.jpg" alt="99Cloud Inc." class="home-s8-container-child">
+            <img src="/images/companies/ubuntu-lg.jpg" alt="Canonical" class="home-s8-container-child">
+            <img src="/images/companies/ChinaMobile-logo-02-sm.png" alt="China Mobile" class="home-s8-container-child">
+            <img src="/images/companies/CT-sm.png" alt="China Telecom" class="home-s8-container-child">
+            <img src="/images/companies/China-Unicom.png" alt="China Unicom" class="home-s8-container-child">
+            <img src="/images/companies/cisco-new-lg.png" alt="Cisco" class="home-s8-container-child">
+        </div>
+        <div class="carousel-item">        
+            <img src="/images/companies/CityNetwork-Logo-Regular-500px-RGB.png" alt="City Network" class="home-s8-container-child">
+            <img src="/images/companies/EMC-lg.jpg" alt="Dell EMC" class="home-s8-container-child">
+            <img src="/images/companies/deutschetelekom-lg.jpg" alt="Deutsche Telekom" class="home-s8-container-child">
+            <img src="/images/companies/easystack-lg2.jpg" alt="EasyStack" class="home-s8-container-child">
+            <img src="/images/companies/fiberhome-lg.jpg" alt="FiberHome" class="home-s8-container-child">
+            <img src="/images/companies/inspur-lg.jpg" alt="Inspur" class="home-s8-container-child">
+        </div>
+        <div class="carousel-item">                    
+            <img src="/images/companies/inwinstack-lg2.jpg" alt="inwinSTACK" class="home-s8-container-child">
+            <img src="/images/companies/mirantis-lg-van.jpg" alt="Mirantis" class="home-s8-container-child">
+            <img src="/images/companies/nec-headline-large.png" alt="NEC" class="home-s8-container-child">
+            <img src="/images/companies/netapp-sp-lg4.jpg" alt="NetApp" class="home-s8-container-child">
+            <img src="/images/companies/H3C-lg.jpg" alt="New H3C Technologies Co., Limited" class="home-s8-container-child">
+            <img src="/images/companies/unitedstack-sp-lg.jpg" alt="UnitedStack Inc." class="home-s8-container-child">
+            <img src="/images/companies/zte-lg.jpg" alt="ZTE Corporation" class="home-s8-container-child">
         </div>
       </div>
       <a class="carousel-control-prev" href="#gold-carousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <img src="/images/symbols/logo-arrow-left.svg" alt=" " class="home-s8-container-child" />
+        <img src="/images/symbols/logo-arrow-left.svg" alt="Previous" class="home-s8-container-child" />
       </a>
       <a class="carousel-control-next" href="#gold-carousel" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <img src="/images/symbols/logo-arrow-right.svg" alt=" " class="home-s8-container-child" />
+        <img src="/images/symbols/logo-arrow-right.svg" alt="Next" class="home-s8-container-child" />
       </a>
     </div>
-    <a href="#" class="button button-red">
-        <span>View all Member Companies <img src="/images/symbols/arrow-left.svg" alt=" " />  </span>
+    <a href="/companies/" class="button button-red">
+        <span>View all Member Companies <img src="/images/symbols/arrow-left.svg" alt="" /></span>
     </a>
 </section>
