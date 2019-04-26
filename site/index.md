@@ -16,8 +16,9 @@ home: true
   <div class="home-s1-container container">
     <div class="home-s1-col">
       <div class="home-s1-col-content-left">
-        <img src="/images/home/image1.jpg" class="home-picture1" alt="" />
-        <img src="/images/home/image2.jpg" class="home-picture2" alt="" /> 
+        <img src="/images/home/image1.jpg" class="home-picture1" width="1691" height="2067" alt="" />
+        <img src="/images/home/image2.jpg" width="2670" height="1671" 
+        class="home-picture2" alt="" /> 
       </div>
     </div>
     <div class="home-s1-col">
@@ -52,12 +53,9 @@ home: true
     <div class="home-s1-col">
       <div class="home-s1-col-content-right">
         <img src="/images/home/image3.jpg" class="home-picture3" alt="" />
+        <img src="/images/home/image4.jpg" class="home-picture4" alt="" /> 
       </div>
     </div>
-  </div>
-
-  <div class="home-s1-pictures2 container">
-      <img src="/images/home/image4.jpg" class="home-picture4" alt="" /> 
   </div>
 
 
@@ -208,78 +206,69 @@ home: true
   
   <h2 class="fix-h3-white">What people say about us</h2>
 
-  <div class="home-s7-main-container">
-
-  <div class="home-s7-main-container-child">
-    <div class="card">
-      <div class="card-content">
-          <div class="media">
-          <div class="media-left">
-              <figure class="image is-48x48">
-              <img src="/images/home/avatar1.svg" alt="not found">
-              </figure>
-          </div>
-          <div class="media-content">
-              <p class="title is-4">Patryk IInicki</p>
-              <p class="subtitle is-6">@Patryk_llnicki</p>
-          </div>
-          </div>
-          <div class="content">
-            <p>We had a successful day yerterday with our bug squash, over 80 bugs
-            triaged, marked as afidex already, small fixes pushed up, touched up reviews to 
-            merge code and so much more. Thanks to all the <a href="#">@OpenStack</a></p>
-          </div>
+  <div class="home-s7-main-container container is-fluid">
+    <div class="home-s7-main-container-child ">
+      <div class="card column">
+        <div class="card-content">
+            <div class="media">
+            <div class="media-left">
+                <figure class="image is-48x48">
+                <img src="/images/home/avatar1.svg" alt="not found">
+                </figure>
+            </div>
+            <div class="media-content">
+                <p class="title is-4">Patryk IInicki</p>
+                <p class="subtitle is-6">@Patryk_llnicki</p>
+            </div>
+            </div>
+            <div class="content">
+              <p>We had a successful day yerterday with our bug squash, over 80 bugs
+              triaged, marked as afidex already, small fixes pushed up, touched up reviews to 
+              merge code and so much more. Thanks to all the <a href="#">@OpenStack</a></p>
+            </div>
+        </div>
+      </div>
+      <div class="card column">
+        <div class="card-content">
+            <div class="media">
+            <div class="media-left">
+                <figure class="image is-48x48">
+                <img src="/images/home/avatar1.svg" alt="not found">
+                </figure>
+            </div>
+            <div class="media-content">
+                <p class="title is-4">Patryk IInicki</p>
+                <p class="subtitle is-6">@Patryk_llnicki</p>
+            </div>
+            </div>
+            <div class="content">
+              <p>We had a successful day yerterday with our bug squash, over 80 bugs
+              triaged, marked as afidex already, small fixes pushed up, touched up reviews to 
+              merge code and so much more. Thanks to all the <a href="#">@OpenStack</a></p>
+            </div>
+        </div>
+      </div>
+      <div class="card column">
+        <div class="card-content">
+            <div class="media">
+            <div class="media-left">
+                <figure class="image is-48x48">
+                <img src="/images/home/avatar1.svg" alt="not found">
+                </figure>
+            </div>
+            <div class="media-content">
+                <p class="title is-4">Patryk IInicki</p>
+                <p class="subtitle is-6">@Patryk_llnicki</p>
+            </div>
+            </div>
+            <div class="content">
+              <p>We had a successful day yerterday with our bug squash, over 80 bugs
+              triaged, marked as afidex already, small fixes pushed up, touched up reviews to 
+              merge code and so much more. Thanks to all the <a href="#">@OpenStack</a></p>
+            </div>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="home-s7-main-container-child">
-    <div class="card">
-      <div class="card-content">
-          <div class="media">
-          <div class="media-left">
-              <figure class="image is-48x48">
-              <img src="/images/home/avatar1.svg" alt="not found">
-              </figure>
-          </div>
-          <div class="media-content">
-              <p class="title is-4">Patryk IInicki</p>
-              <p class="subtitle is-6">@Patryk_llnicki</p>
-          </div>
-          </div>
-          <div class="content">
-            <p>We had a successful day yerterday with our bug squash, over 80 bugs
-            triaged, marked as afidex already, small fixes pushed up, touched up reviews to 
-            merge code and so much more. Thanks to all the <a href="#">@OpenStack</a></p>
-          </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="home-s7-main-container-child">
-    <div class="card">
-      <div class="card-content">
-          <div class="media">
-          <div class="media-left">
-              <figure class="image is-48x48">
-              <img src="/images/home/avatar1.svg" alt="not found">
-              </figure>
-          </div>
-          <div class="media-content">
-              <p class="title is-4">Patryk IInicki</p>
-              <p class="subtitle is-6">@Patryk_llnicki</p>
-          </div>
-          </div>
-          <div class="content">
-            <p>We had a successful day yerterday with our bug squash, over 80 bugs
-            triaged, marked as afidex already, small fixes pushed up, touched up reviews to 
-            merge code and so much more. Thanks to all the <a href="#">@OpenStack</a></p>
-          </div>
-      </div>
-    </div>
-  </div>
-
-
   </div>
 </section>
 

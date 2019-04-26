@@ -13,21 +13,18 @@
     .home-picture1{
       position:relative;
       z-index: 1;
-      max-height: 497px;
       @media (max-width: $screen-md-min){
         z-index: 0;
         width: 55%;
       }
       @media (max-width: $screen-sm-min){
         width: 80%;
-        height: 80%
       }
     }
     .home-picture2 {
       margin-top: -100px;
       margin-left: -110px;
       position: relative;
-      max-height: 346px;
 
       @media (max-width: $screen-md-min){
         margin-top: -42%;
@@ -45,8 +42,6 @@
       margin-right: -14%;
       max-width: 110%;
       position: relative;
-      max-height: 467px;
-
       @media(max-width: $screen-md-min){
         margin-top: 5%;
         margin-left: -7%;
@@ -57,12 +52,26 @@
         width: 100%;
       }
     }
-
-    .home-picture4{
-      max-height: 496px;
-
+    .home-picture4 {
+      margin-right: -40px;
+      margin-top: -20%;
+      position: relative;
+      width: 90%;
+      @media (max-width: 1000px) { //small screen pantalla 
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+      }
+      @media (max-width: $screen-md-min){
+        width: 41%;
+        margin-left: 58%;
+        margin-top: -40%;
+        margin-bottom: 60px;
+      }
+      @media (max-width: $screen-sm-min){
+        max-width: 73%;
+      }
     }
-
     .home-s1-container {
         color: $white;
         display: flex;
@@ -91,10 +100,10 @@
             }
         }
         .home-s1-col-content-right {
-            color: $white;
+            color: $white;/*
             display: flex;
             justify-content: flex-end;
-            flex-direction: row;
+            flex-direction: row;*/
             flex-flow: wrap;
             width: 100%;
             margin-left: 20px;
@@ -107,9 +116,10 @@
         }
         .home-s1-col-content-left {
             color: $white;
+            /*
             display: flex;
             justify-content: flex-start;
-            flex-direction: row;
+            flex-direction: row;*/
             flex-flow: wrap;
             width: 100%;
             margin-right: 20px;
@@ -150,23 +160,8 @@
     display: flex;
     justify-content: flex-end;
     position:relative;
-    .home-picture3 {
-      margin-right: -40px;
-      margin-top: -150px;
-      @media (max-width: 1000px) { //small screen pantalla 
-        margin: 0px;
-        display: flex;
-        justify-content: center;
-      }
-      @media (max-width: $screen-md-min){
-        width: 41%;
-        margin-right: 10%;
-        margin-top: -40%;
-      }
-      @media (max-width: $screen-sm-min){
-        max-width: 73%;
-        margin-top: -75%;
-      }
+    @media (max-width: $screen-md-min){
+      margin-bottom: 60px;
     }
   }
 }
@@ -244,6 +239,18 @@
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    @media (max-width: $screen-md) {
+      margin: 0px;
+      margin-bottom: 25px;
+      width: 100%;
+      margin-top: 100px;
+    }
+    @media screen and(max-width: $screen-md-min){
+      width: 100%;
+      margin-top: 60px;
+      margin-bottom: 0;
+      padding:0;
+    }
     .fix-h3 {
       text-align: center;
       width: 80%;
@@ -251,22 +258,16 @@
       margin-top: 1em;
       margin-bottom: 1em;
       text-transform: uppercase;
-    }
-    
-    @media (max-width: $screen-md) {
-      margin: 0px;
-      margin-bottom: 25px;
-      width: 100%;
-      margin-top: 100px;
-      .fix-h3 {
-        text-align: center;
-        margin-left: 10px;
-        margin-right: 10px;
+      @media (max-width: $screen-md-min){
+        width: 100%;
       }
-      .fix-h5 {
-        text-align: center;
-        margin-left: 10px;
-        margin-right: 10px;
+      @media (max-width: $screen-sm-min){
+        text-align: left;
+      }
+    }
+     .fix-h5 {
+      @media screen and( max-width: $screen-sm-min){
+        text-align: left;        
       }
     }
   }
@@ -288,6 +289,9 @@
       justify-content: center;
       align-content: center;
       align-items: center;
+      @media screen and(max-width: $screen-md-min){
+        margin-bottom: 60px;
+      }
   }
   
   .section-bg-white-icons1 {
@@ -296,16 +300,17 @@
     width: 760px;
     margin-top: -50px;
     margin-left: 0px;
-    // div:first-child {
-    //   background-color: red;
-    // }
     @media (max-width: $screen-md) { //small screen
       margin-top: 10px;
-      width: 300px;
-      margin-left: 15px;
-      //margin-left: 280px;
+      width: 60%;
     }
+    @media (max-width: $screen-md-min) { //small screen
+      margin-top: 20px;
+      width: 100%;
+    }
+
   }
+
   
   .section-bg-white-icons-child1 {
     display: flex;
@@ -325,10 +330,12 @@
     margin-left: 0px;
     @media (max-width: $screen-md) { //small screen
       margin-top: 10px;
-      width: 300px;
-      margin-left: 20px;
+      width: 60%;
     }
-  
+    @media (max-width: $screen-md-min) { //small screen
+      margin-top: 20px;
+      width: 100%;
+    }
   }
   
   .section-bg-white-icons-child2 {
@@ -349,6 +356,14 @@
     justify-content: space-around;
     width: 550px;
     margin-top: 15px;
+    @media (max-width: $screen-md) { //small screen
+      margin-top: 10px;
+      width: 60%;
+    }
+    @media (max-width: $screen-md-min) { //small screen
+      margin-top: 20px;
+      width: 100%;
+    }
   }
   
   .section-bg-white-icons-child3 {
@@ -403,16 +418,6 @@
     @media (max-width: $screen-md) {
         width: 100%;
         margin: 0px;
-      .fix-h3 {
-        margin-top: 150px;
-        margin-left: 0px;
-        margin-right: 0px;
-      }
-      .fix-h5 {
-        margin-left: 0px;
-        margin-right: 0px;
-      }
-
     }
   }
   
@@ -420,6 +425,10 @@
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
+    @media (max-width:1024px) and (min-width: 769px){
+      width: 120%;
+      margin-left: -10%;
+    }
   }
   .section-bg-green-logo {
     color: red;
@@ -625,36 +634,48 @@
   background-size: cover;
   padding-top: 110px;
   padding-bottom: 110px;
-
+  @media (max-width: $screen-md-min){
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   h2 {
     text-align: center;
     color: $white;
     margin-bottom: 40px;
   }
-
-
   .home-s7-main-container {
     display:flex;
     justify-content: center;
     flex-flow: wrap;
+    max-width: 1440px;
+    margin: 0 auto;
   }
 
   .home-s7-main-container-child {
-    margin-left: 20px;
-    width: 400px;
     display: flex;
     flex-flow: wrap;
-    &:first-child{
-      margin-left: 0;
-    }
-    @media (max-width: 768px){
-      margin-left: 0;
+    @media (max-width: $screen-md-min){
+      display: block;
     }
   }
 
   .card{
     border-radius: $box-radius;
     color: $dark;
+    &.column{
+      padding:0;
+      margin-right:1em;
+      &:last-child{
+        margin-right:0;
+      }
+      @media (max-width: $screen-md-min){
+        margin-right: 0;
+        margin-bottom: 1em;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
     .title.is-4 {
       color: $primary;
     }
