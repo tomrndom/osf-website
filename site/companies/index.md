@@ -81,7 +81,7 @@ companies: true
         <div class="companies-s1-container">
           <div class="columns">
             <div class="column">
-              <div class="fix-h3">Infrastruture Donors</div>
+              <div class="fix-h3">Infrastructure Donors</div>
               <div class="fix-h5">Infrastructure donors are companies running OpenStack clouds, donating cloud resources to the OpenStack project infrastructure. Those resources are mostly used in our <a href="#" >automated testing framework</a> to support OpenStack development efforts.</div>
             </div>
           </div>

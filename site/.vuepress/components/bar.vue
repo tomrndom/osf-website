@@ -7,7 +7,7 @@
         </div> -->
         <!-- /.bar-logo -->
         <div class="bar-entry">
-          <p>THE OPEN INFRASTRUCTURE SUMMIT IS COMMING TO DENVER! <a href="#" target="_blank" class="bar-link">Learn more <i class="right"></i> </a></p> 
+          <p>The Open Infrastructure Summit is going to Shanghai! <a href="https://www.openstack.org/summit/shanghai-2019/" target="_blank" class="bar-link">Learn more <i class="right"></i> </a></p> 
         </div>
         <!-- /.bar-entry -->
         
