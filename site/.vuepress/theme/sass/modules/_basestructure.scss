@@ -474,8 +474,26 @@ div.content.custom > main > section > div > div > div > h3 {
   }
 }
 
+
+.nested-menu-image {
+  display: none;  
+  height: 0px;
+  img {
+    margin-left: -428px;
+    height: 268px;
+    max-width: unset;
+    margin-top: -35px;
+  }
+}
+
 .dropdown.is-active .dropdown-menu, .dropdown.is-hoverable:hover .dropdown-menu {
   display: block;
   left: calc( 50% - 110px );
   width: 240px;
+  .nested-menu-image {
+    display: block;  
+    @media (max-width: 1024px) { //small screen pantalla 
+      display: none;  
+    } 
+  }
 }

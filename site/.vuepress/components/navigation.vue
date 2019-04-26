@@ -56,17 +56,21 @@
 								<div class="dropdown-menu" id="dropdown-menu" role="menu">
 									<div class="dropdown-content">
 									
-									<div v-for="item in navItem.items" class="menuitemeffect">
+										<div v-if="navItem.text === 'About'" class="nested-menu-image"> 
+											<img src="/images/home/image2.jpg" alt=""/>
+										</div>										
+										<div v-for="item in navItem.items" class="menuitemeffect">
+											<a v-if="!islocal(item)" :href="item.link" class="dropdown-item" target="_blank">
+												<span>{{ item.text }} </span> 
+											</a>
+											<a v-else @click.prevent="handleNavItemClick(item)" href="#" class="dropdown-item">
+												<span>{{ item.text }} </span>
+											</a>
+										</div>
 
-										<a v-if="!islocal(item)" :href="item.link" class="dropdown-item" target="_blank">
-											<span>{{ item.text }} </span> 
-										</a>
-										<a v-else @click.prevent="handleNavItemClick(item)" href="#" class="dropdown-item">
-											<span>{{ item.text }} </span>
-										</a>
-									</div>
 									</div>
 								</div>
+
 							</div>
 							<a v-else :href="navItem.link" >{{ navItem.text }} </a>
 
