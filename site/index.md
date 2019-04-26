@@ -1,12 +1,10 @@
 ---
 layout: home
-title: OPENSTACK FOUNDATION
+title: OpenStack Foundation
 
 hero:
-  headline: 'THE HOME OF OPEN INFRASTRUCTURE'
-  button:
-    title: Learn more
-    url: '#'
+  headline: 'The Home of Open Infrastructure'
+
 home: true
 
 ---
@@ -41,10 +39,10 @@ home: true
     <div class="home-s1-col">
       <div class="home-s1-col-content-left">
         <div class="home-s1-text">
-          <div class="fix-h3-white">Why opensource?</div>
+          <div class="fix-h3-white">Why open source?</div>
           <p class="fix-h5-white">
-           Because it works. OpenStack has proven the model, becoming one of the 3 most actively developed open source projects on the planet, with thousands of developers from over xx countries.
-          And it powers everything from massively popular games like Overwatch to the largest power company in the world in China, to Workday, to ATT's 5G networks and beyond.</p>
+           It works. OpenStack has proven the model, becoming one of the 3 most actively developed open source projects on the planet, with thousands of developers from over 180 countries.
+          And it powers everything from massively popular games like Overwatch™ to the largest power company in the world in China, to Workday, to ATT's 5G networks and beyond.</p>
           <p class="fix-h5-white">
             Now we're ready to share this radically open method for developing open source software with the world beyond OpenStack, helping people build and operate open infrastructure.</p>
           </div>
@@ -66,7 +64,7 @@ home: true
       <div class="section-bg-white-center">
         <div class="fix-h3">Why expand beyond the OpenStack project?</div>
         <div class="fix-h5">
-          Because the world has changed. When OpenStack started in 2010, clouds were mainly in virtual machines in a datacenter. Today, clouds have evolved to work seamlessly in and out of datacenters and are composed of an evolving mix of bare metal, VMs, and containers. While OpenStack is seen as the de facto open source platform for operating cloud infrastructure around the world, more technology is needed to meet all of the diverse use cases, and we want to make sure it’s developed in the open, using the same proven approach to open source" </div>
+          The world has changed. When OpenStack started in 2010, clouds were mainly in virtual machines in a datacenter. Today, clouds have evolved to work seamlessly in and out of datacenters and are composed of an evolving mix of bare metal, VMs, and containers. While OpenStack is seen as the de facto open source platform for operating cloud infrastructure around the world, more technology is needed to meet all of the diverse use cases, and we want to make sure it’s developed in the open, using the same proven approach to open source.</div>
         <div class="fix-h5">
           For this reason, we have expanded our focus as a foundation and are helping to establish new open source communities to advance areas where  technology can successfully contribute to the development of open infrastructure: AI/Machine Learning, CI/CD, Container Infrastructure, Edge Computing and of course, Public, Private and Hybrid Clouds.</div>
         <a href="#" class="button button-red">
@@ -76,28 +74,28 @@ home: true
           <div class="section-bg-white-icons1 icons">
             <div class="section-bg-white-icons-child1"> 
               <img src="/images/home/icon1.svg" alt="not found"/>
-              <p>EDGE COMPUTING</p>
+              <p>Edge computing</p>
             </div>
             <div class="section-bg-white-icons-child1 icons"> 
               <img src="/images/home/icon2.svg" alt="not found"/>
-              <p>CI/CD</p>
+              <p title="Continuous integration and continuous delivery">CI/CD</p>
             </div>
           </div> 
           <!-- /icons file 1-->
           <div class="section-bg-white-icons2 icons">
             <div class="section-bg-white-icons-child2 icons">
               <img src="/images/home/icon3.svg" alt="not found"/>
-              <p>CONTAINER INFRASTRUCTURE</p>
+              <p>Container infrastructure</p>
             </div>
             <div class="section-bg-white-icons-child2 icons">
               <img src="/images/home/icon4.svg" alt="not found"/>
-              <p>IA & MACHINE LEARNING</p>
+              <p>AI & machine learning</p>
             </div>
           </div>
           <div class="section-bg-white-icons2">
             <div class="section-bg-white-icons-child2 icons">
               <img src="/images/home/icon5.svg" alt="not found"/>
-              <p>Public/PrIvate Hybrid CLOUD</p>
+              <p>Public/PrIvate Hybrid cloud</p>
             </div>
           </div>
         </div>
@@ -129,7 +127,7 @@ home: true
         <div class="fix-h5">
           Staying true to our mission of helping people build and operate open infrastructure, OSF hosts open source projects that contribute to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “Four Opens”.
         </div>
-        <a href="#" class="button button-red">
+        <a href="/projects/" class="button button-red">
           <span>See all OSF projects</span>
         </a>
       </div>

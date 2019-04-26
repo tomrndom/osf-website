@@ -30,7 +30,7 @@ module.exports = {
               "text": "Events",
               "items": [
                 { "text": 'Open Infra Summit', "link": 'https://www.openstack.org/summit/' },
-                { "text": 'Open Infra  / OpenStack days', "link": 'https://www.openstack.org/community/events/#openstack_days' },
+                { "text": 'Open Infra Days', "link": 'https://www.openstack.org/community/events/#openstack_days' },
                 { "text": 'Community Meetups', "link": 'https://www.meetup.com/topics/openstack/' },
               ]
             },

@@ -11,9 +11,9 @@
     <div class="hero-body">
       <div :class="['container', containerClass]">
         <div class="hero-content">
-          <div class="hero-subhead">WELCOME TO
+          <div class="hero-subhead">Welcome to
           </div>
-          <h3 class="hero-title">THE HOME OF OPEN INFRASTRUCTURE</h3>
+          <h3 class="hero-title">The Home of Open Infrastructure</h3>
           <!-- /.hero-title -->
           <div class="hero-entry">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque quam, placerat sit amet lorem in, dapibus pellentesque dolor. In fermentum commodo est, nec varius.
@@ -21,10 +21,10 @@
           <!-- /.hero-entry -->
           <div class="hero-actions">
         
-            <a href="#" class="button">
-              <span>Learn more</span>
+            <a href="/projects/" class="button">
+              <span>OSF projects</span>
             </a>
-            <a href="#" class="button button-red">
+            <a href="https://www.openstack.org/join" class="button button-red">
               <span>Join the community</span>
             </a>
 
