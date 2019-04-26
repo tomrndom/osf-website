@@ -29,7 +29,12 @@
     }
   }
 
- 
+  .bar-entry{
+    text-transform: uppercase;
+    a{
+      text-transform: lowercase;
+    }
+  }
 
   .bar-logo {
     max-width: 32px;
