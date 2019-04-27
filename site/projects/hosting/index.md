@@ -1,10 +1,10 @@
 ---
 layout: about
-title: 'Host at OSF'
+title: 'Host your project at the Open Infrastructure Foundation'
 
 hero:
-  title: 'Host at OSF'
-  headline: 'We support the largest, most active, and engaged open source infrastructure community globally.'
+  title: 'Host your project at OSF'
+  headline: 'The OSF supports active, global, and engaged open source infrastructure communities.'
 
 home: false
 project: false
@@ -23,10 +23,10 @@ about: true
         <h3 class="fix-h3">Host at OSF</h3>
         <p class="fix-h5">The OSF approach to open source provides a home for Open Infrastructure communities that align with the “Four Opens” philosophy:</p>
         <ul class="fix-h5">
-          <li>open source</li>
-          <li>open design</li>
-          <li>open development</li>
-          <li>open community</li>
+          <li>Open Source</li>
+          <li>Open Community</li>
+          <li>Open Development</li>
+          <li>Open Design</li>
         </ul>
         <p class="fix-h5">
           Communities want to work with us because we help projects thrive and truly believe that collaboration is the key to success. The OSF staff is a small team, but we make a big impact. Collectively we support the largest, most active, and engaged open source infrastructure communities globally.
@@ -39,9 +39,9 @@ about: true
     <div class="columns">
       <div class="column">
         <h3 class="fix-h3">A Customized Approach</h3>
-        <p class="fix-h5">At OSF we value project individuality and collaboration. The quality of each project is our main focus, not the overall quantity of projects we host. There is no template or a one-size-fits-all model for the way we engage and support open source projects. Each project is unique and each community has specific needs. We welcome every project with personalized support and attention to detail. Our team is genuinely cheerful, helpful, knowledgeable and passionate about helping communities grow and thrive. We do not sit on the sidelines; we actively participate in each and every community that we serve</p>
+        <p class="fix-h5">At OSF we value project individuality and collaboration. The quality of each project is our main focus, not the overall quantity of projects we host. There is no template or a one-size-fits-all model for the way we engage and support open source projects. Each project is unique and each community has specific needs. We welcome every project with personalized support and attention to detail. Our team is genuinely welcoming, helpful, knowledgeable and passionate about helping communities grow and thrive. We do not sit on the sidelines; we actively participate in each and every community that we serve</p>
         <p class="fix-h5">
-          Our model provides the support system and collaborative environment so that communities are able to focus their attention on the important work of building software that works in real life and solves tough problems for end users around the globe.
+          Our model provides the support system and collaborative environment where communities are able to focus their attention on the important work of building and operating software that solves real problems around the globe.
         </p>
       </div>
       <div class="column">
