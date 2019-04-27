@@ -69,7 +69,7 @@
 						</li>
 						
 						<li >
-							<a href="https://www.openstack.org/join" target="_blank" class="bar-button">Join the community</a>
+							<a href="https://www.openstack.org/join" target="_blank" class="bar-button">Join the OSF</a>
 							<!-- <a @click.prevent="handleNavItemClick(navItem)" href="#">{{ navItem.text }}</a> -->
 						</li>
 					</ul><!-- /.nav-menu -->

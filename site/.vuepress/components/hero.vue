@@ -24,8 +24,8 @@
             <a href="/projects/" class="button">
               <span>OSF projects</span>
             </a>
-            <a href="https://www.openstack.org/join" class="button button-red">
-              <span>Join the community</span>
+            <a href="https://www.openstack.org/join#sponsor" class="button button-red">
+              <span>Support the OSF</span>
             </a>
 
             <!-- <img src="../public/images/hero-image.png" alt="#" /> -->
