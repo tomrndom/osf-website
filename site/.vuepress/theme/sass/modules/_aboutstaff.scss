@@ -121,6 +121,14 @@
       margin-right: 25px;
       margin-bottom: 0px;
     }
+    
+    .card figure img {
+        display: inline-block;
+        border-radius: 50%;
+        object-fit: cover;
+        width: 128px;
+        height: 128px;
+    }    
   
     .aboutstaff-s2-container-border {
       border: 1px solid #dedede;
