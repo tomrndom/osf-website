@@ -67,28 +67,28 @@ home: true
         <div class="section-bg-white-icons-container">
           <div class="section-bg-white-icons1 icons">
             <div class="section-bg-white-icons-child1"> 
-              <img src="/images/home/icon1.svg" alt="not found"/>
+              <img src="/images/home/icon1.svg" alt=""/>
               <p>Edge computing</p>
             </div>
             <div class="section-bg-white-icons-child1 icons"> 
-              <img src="/images/home/icon2.svg" alt="not found"/>
+              <img src="/images/home/icon2.svg" alt=""/>
               <p title="Continuous integration and continuous delivery">CI/CD</p>
             </div>
           </div> 
           <!-- /icons file 1-->
           <div class="section-bg-white-icons2 icons">
             <div class="section-bg-white-icons-child2 icons">
-              <img src="/images/home/icon3.svg" alt="not found"/>
+              <img src="/images/home/icon3.svg" alt=""/>
               <p>Container infrastructure</p>
             </div>
             <div class="section-bg-white-icons-child2 icons">
-              <img src="/images/home/icon4.svg" alt="not found"/>
+              <img src="/images/home/icon4.svg" alt=""/>
               <p>AI & machine learning</p>
             </div>
           </div>
           <div class="section-bg-white-icons2">
             <div class="section-bg-white-icons-child2 icons">
-              <img src="/images/home/icon5.svg" alt="not found"/>
+              <img src="/images/home/icon5.svg" alt=""/>
               <p>Public/PrIvate Hybrid cloud</p>
             </div>
           </div>
@@ -102,19 +102,19 @@ home: true
         <div class="fix-h3">The projects behind open infrastructure</div>
         <div class="section-bg-green-logos-container">
           <div class="section-bg-green-logo">
-            <img src="/images/home/logo1.svg" alt="not found"/>
+            <img src="/images/home/logo1.svg" alt=""/>
           </div>
           <div class="section-bg-green-logo">
-            <img src="/images/home/logo2.svg" alt="not found"/>
+            <img src="/images/home/logo2.svg" alt=""/>
           </div>
           <div class="section-bg-green-logo">
-            <img src="/images/home/logo3.svg" alt="not found"/>
+            <img src="/images/home/logo3.svg" alt=""/>
           </div>
           <div class="section-bg-green-logo">
-            <img src="/images/home/logo4.svg" alt="not found"/>
+            <img src="/images/home/logo4.svg" alt=""/>
           </div>
           <div class="section-bg-green-logo">
-            <img src="/images/home/logo5.svg" alt="not found"/>
+            <img src="/images/home/logo5.svg" alt=""/>
           </div>
         </div>
         <div class="fix-h5">
@@ -143,7 +143,7 @@ home: true
         <div class="fix-h3-white">DENVER, COLORADO</div>
         <div class="fix-h5-white">April 29 - May 1, 2019</div>
         <a href="#" class="button button-red">
-            <span>Buy your tickets <img src="/images/symbols/arrow-left.svg" alt="not found" /></span>
+            <span>Buy your tickets <img src="/images/symbols/arrow-left.svg" alt="" /></span>
         </a>
       </div>   
       <div class="home-s5-container2-child2">
@@ -167,7 +167,7 @@ home: true
     <div class="container">
       <div class="columns">
       <div class="column">
-        <img src="/images/home/logo6.svg" alt="not found" class="">
+        <img src="/images/home/logo6.svg" alt="" class="">
         <h2>5G Open Vision Fund</h2>
         <p>
         5G, the next generation of mobile networks, is coming and will change infrastructure forever. What will be the technology basis for the 5G transformation and how do we create a future that is open for participation, collaboration and opportunity to the broadest array of organizations? Open source</p>
@@ -178,8 +178,8 @@ home: true
       </div>
       <div class="column">
         <div class="section-bg-blue-child">
-          <img src="/images/home/picture3.svg" id="home-p-p3" alt="not found" class="">        
-          <img src="/images/home/picture4.svg" id="home-p-p4" alt="not found" class="">
+          <img src="/images/home/picture3.svg" id="home-p-p3" alt="" class="">        
+          <img src="/images/home/picture4.svg" id="home-p-p4" alt="" class="">
         </div>
       </div>
     </div>
@@ -198,7 +198,7 @@ home: true
             <div class="media">
             <div class="media-left">
                 <figure class="image is-48x48">
-                <img src="https://pbs.twimg.com/profile_images/1060472215286833152/cqMbWgDq_bigger.jpg" alt="not found">
+                <img src="https://pbs.twimg.com/profile_images/1060472215286833152/cqMbWgDq_bigger.jpg" alt="">
                 </figure>
             </div>
             <div class="media-content">
@@ -216,7 +216,7 @@ home: true
             <div class="media">
             <div class="media-left">
                 <figure class="image is-48x48">
-                <img src="https://pbs.twimg.com/profile_images/795298621965144064/rbQvkw0c_bigger.jpg" alt="not found">
+                <img src="https://pbs.twimg.com/profile_images/795298621965144064/rbQvkw0c_bigger.jpg" alt="">
                 </figure>
             </div>
             <div class="media-content">
@@ -234,7 +234,7 @@ home: true
             <div class="media">
             <div class="media-left">
                 <figure class="image is-48x48">
-                <img src="https://pbs.twimg.com/profile_images/556073063888850945/xCO4x5vO_bigger.jpeg" alt="not found">
+                <img src="https://pbs.twimg.com/profile_images/556073063888850945/xCO4x5vO_bigger.jpeg" alt="">
                 </figure>
             </div>
             <div class="media-content">

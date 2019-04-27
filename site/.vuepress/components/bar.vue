@@ -3,7 +3,7 @@
     <div class="container">
       <div class="bar-inner">
         <!-- <div class="bar-logo">
-          <img :src="require('../theme/images/bar-logo.svg')" alt="not found">
+          <img :src="require('../theme/images/bar-logo.svg')" alt="">
         </div> -->
         <!-- /.bar-logo -->
         <div class="bar-entry">

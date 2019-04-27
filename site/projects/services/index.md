@@ -16,8 +16,8 @@ about: true
   <div class="container about-s1-container">
     <div class="columns">
       <div class="column">
-        <img src="/images/about/picture4.jpg"  id="about-s1-id-pic4" alt="not found">
-        <img src="/images/about/picture5.jpg"  id="about-s1-id-pic5" alt="not found">
+        <img src="/images/about/picture4.jpg"  id="about-s1-id-pic4" alt="">
+        <img src="/images/about/picture5.jpg"  id="about-s1-id-pic5" alt="">
      </div>
       <div class="column">
         <h3 class="fix-h3">Community Development</h3>
@@ -35,12 +35,12 @@ about: true
       </p>
       </div>
       <div class="column">
-        <img src="/images/about/picture6.svg"  id="about-s1-id-pic6" alt="not found" >
+        <img src="/images/about/picture6.svg"  id="about-s1-id-pic6" alt="" >
      </div>
     </div>
     <div class="columns">
       <div class="column">
-        <img src="/images/about/picture7.svg" id="about-s1-id-pic7" alt="not found" >
+        <img src="/images/about/picture7.svg" id="about-s1-id-pic7" alt="" >
       </div>
       <div class="column">
       <h3 class="fix-h3">Web & Creative</h3>
@@ -55,13 +55,13 @@ about: true
           All projects hosted at OSF are featured at global events, including community-lead events, local open infrastructure meetups, industry events, and the global <a href="https://www.openstack.org/summit">Open Infrastructure Summits</a>. Our events provide the opportunity to collaborate directly with the people building and running open source infrastructure across problem domains including edge computing, 5G, container infrastructure, hybrid cloud, CI/CD, machine learning, AI and more.</p>      
       </div>
       <div class="column">
-        <img src="/images/about/picture8.jpg" id="about-s1-id-pic8" alt="not found">
+        <img src="/images/about/picture8.jpg" id="about-s1-id-pic8" alt="">
       </div>
     </div>
     <div class="columns">
       <div class="column">
-        <img src="/images/about/picture1.jpg" id="about-s1-id-pic1" alt="not found">
-        <img src="/images/about/picture2.jpg" id="about-s1-id-pic2" alt="not found">
+        <img src="/images/about/picture1.jpg" id="about-s1-id-pic1" alt="">
+        <img src="/images/about/picture2.jpg" id="about-s1-id-pic2" alt="">
       </div>
       <div class="column">
           <h3 class="fix-h3">OpenDev, a Suite of Collaborative Tools</h3>
@@ -76,7 +76,7 @@ about: true
         <p class="fix-h5">Each project has specific needs and goals that the OSF team is here to support. Depending on community needs, there are many other services that our team can offer, and we are ready to customize the deliverables based on the community’s needs. In addition to the above listed services, examples include contributor on-boarding, product or professional certification, and a dedicated marketplace. </p>        
       </div>
       <div class="column">
-        <img src="/images/about/picture3.jpg" id="about-s1-id-pic3" alt="not found">
+        <img src="/images/about/picture3.jpg" id="about-s1-id-pic3" alt="">
       </div>
     </div>
   </div>

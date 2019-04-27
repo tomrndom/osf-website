@@ -29,7 +29,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/alanclarkinformal.jpg" alt="avatar">
+                                    <img src="/images/board/alanclarkinformal.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -55,7 +55,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/allisonrandall.png" alt="avatar">
+                                    <img src="/images/board/allisonrandall.png" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -81,7 +81,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/andrewcathrow.jpg" alt="avatar">
+                                    <img src="/images/board/andrewcathrow.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -106,7 +106,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/annis-photo.PNG" alt="avatar">
+                                    <img src="/images/board/annis-photo.PNG" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -139,7 +139,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/arkady.png" alt="avatar">
+                                    <img src="/images/board/arkady.png" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -166,7 +166,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/changboguo.JPG" alt="avatar">
+                                    <img src="/images/board/changboguo.JPG" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -193,7 +193,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/christopherprice.jpg" alt="avatar">
+                                    <img src="/images/board/christopherprice.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -219,7 +219,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/clemenshardewig.jpeg" alt="avatar">
+                                    <img src="/images/board/clemenshardewig.jpeg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -247,7 +247,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/eglesigler.png" alt="avatar">
+                                    <img src="/images/board/eglesigler.png" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -272,7 +272,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/imad.jpg" alt="avatar">
+                                    <img src="/images/board/imad.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -300,7 +300,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/johan.png" alt="avatar">
+                                    <img src="/images/board/johan.png" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -328,7 +328,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/josephwang.jpg" alt="avatar">
+                                    <img src="/images/board/josephwang.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -355,7 +355,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/junweiliu.jpg" alt="avatar">
+                                    <img src="/images/board/junweiliu.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -382,7 +382,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/markmc.jpg" alt="avatar">
+                                    <img src="/images/board/markmc.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -409,7 +409,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/montytaylor.jpg" alt="avatar">
+                                    <img src="/images/board/montytaylor.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -435,7 +435,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/prakash.jpg" alt="avatar">
+                                    <img src="/images/board/prakash.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -461,7 +461,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/robertesker.jpg" alt="avatar">
+                                    <img src="/images/board/robertesker.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -488,7 +488,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/ruanhe.jpg" alt="avatar">
+                                    <img src="/images/board/ruanhe.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -514,7 +514,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/ryanbeisner.png" alt="avatar">
+                                    <img src="/images/board/ryanbeisner.png" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -541,7 +541,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/ryanvanwyk.jpg" alt="avatar">
+                                    <img src="/images/board/ryanvanwyk.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -567,7 +567,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/seanmcginnis.png" alt="avatar">
+                                    <img src="/images/board/seanmcginnis.png" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -592,7 +592,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/shanewang.png" alt="avatar">
+                                    <img src="/images/board/shanewang.png" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -618,7 +618,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/timbell.jpg" alt="avatar">
+                                    <img src="/images/board/timbell.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -644,7 +644,7 @@ about: true
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/vijoypandey.jpg" alt="avatar">
+                                    <img src="/images/board/vijoypandey.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -668,8 +668,8 @@ about: true
 <div class="aboutstaff-s3-main">
     <div class="columns">
         <div class="column">
-            <img src="/images/about-staff/picture2.svg" id="aboutstaff-s3-id-pic2" alt="not found" />
-            <img src="/images/about-staff/picture3.svg" id="aboutstaff-s3-id-pic3" alt="not found" />
+            <img src="/images/about-staff/picture2.svg" id="aboutstaff-s3-id-pic2" alt="" />
+            <img src="/images/about-staff/picture3.svg" id="aboutstaff-s3-id-pic3" alt="" />
         </div>
         <div class="column">
             <div class="columns">
