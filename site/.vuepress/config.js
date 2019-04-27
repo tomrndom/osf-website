@@ -5,7 +5,7 @@ module.exports = {
     host: '0.0.0.0',
     title: "OpenStack Foundation",
     description: "The Home of Open Infrastructure",
-    head: [["link", { rel: "icon", href: "/favicons/logo-openstack.ico" }],
+    head: [["link", { rel: "icon", href: "/favicons/OSF_logo_square_ico.png" }],
             ["script", { src: "https://code.jquery.com/jquery-3.3.1.slim.min.js" }],
             ["script", { src: "/js/carousel.min.js" }],
         ],    

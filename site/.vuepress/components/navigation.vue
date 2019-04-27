@@ -6,16 +6,8 @@
 					<router-link to="/">
 						<div class="logo-containter">
 							<div class="logo-containter-child logo-containter-child-img">
-								<img :src="require('../public/images/logo-openstack-48x48.png')" 
-								alt=""></div>
-							<!-- <div class="logo-containter-child">
-								<div><span>OPENSTACK</span></div>
-								<div><span>FOUNDATION</span></div>
-							</div> -->
-							<div class="logo-containter-child1">
-								<div>OPENSTACK</div>
-								<div>FOUNDATION</div>
-							</div>
+								<img :src="require('../public/images/OSF_logo.svg')" 
+								alt="OpenStack Foundation"></div>
 						</div>
 
 

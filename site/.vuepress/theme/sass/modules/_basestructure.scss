@@ -98,6 +98,7 @@
         text-align: left;
         line-height: 18.0px;
         margin-right: 2px;
+        text-transform: none;
       }
     }
   }
@@ -108,7 +109,6 @@
     display: inline-block;
     vertical-align: middle;
     font-weight: 400;
-  
     font-size: 15.0px;
     color: $white;
     text-align: left;
@@ -143,41 +143,6 @@ i {
   display: flex;
 }
 
-.logo-containter-child {
-  font-size: 1.8em;
-  font-weight: 900;
-  margin-left: 0px;
-  @media only screen and (min-width: $screen-sm-min) {
-    color: $white;
-  }
-  @media (max-width: $screen-md) {
-    color: $back-darkest;
-  }
-  div > span {
-    &:first-child{
-      margin-left: 0px;
-      display: none;
-    }
-  }
-}
-
-.logo-containter-child1 {
-  font-size: 1.7em;
-  font-weight: 900;
-  margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-weight: 500;
-
-
-  @media only screen and (min-width: $screen-sm-min) {
-    color: $white;
-  }
-  @media (max-width: $screen-md) {
-    color: $back-darkest;
-  }
-}
 
 .nav .nav-menu a {
   color: #fff;
@@ -193,12 +158,15 @@ i {
     color: $white;
   }
   @media (max-width: $screen-md) {
-    color: $back-darkest;
+    color: $white;
   }
 }
 
 .logo-containter-child-img {
-  width: 50.5px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: monospace;
+  width: 250px;
   padding: 0px;
   color: $white;
 }

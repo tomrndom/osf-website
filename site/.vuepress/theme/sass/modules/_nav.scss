@@ -22,7 +22,7 @@
 
     }
     a {
-      color: $primary-blue;
+      color: $white;
       text-transform: uppercase;
     }
   }
@@ -114,7 +114,6 @@
     & {
       position: relative;
       padding: 10px 0;
-      background: $white;
     }
 
     .nav-brand {
