@@ -1,19 +1,18 @@
 ---
 layout: project
-title: 'OSF PROJECTS'
+title: "OSF PROJECTS"
 
 hero:
-  title: 'OSF PROJECTS'
-  headline: 'Projects that call OSF their home each value open collaboration and exemplify the Four Opens (source, design, development, community). All of our project have a strategic focus, vision & scope that furthers the OSF mission of supporting the development and adoption of production infrastructure with open source components.'
+  title: "OSF PROJECTS"
+  headline: "Projects that call OSF their home each value open collaboration and exemplify the Four Opens (source, design, development, community). All of our project have a strategic focus, vision & scope that furthers the OSF mission of supporting the development and adoption of production infrastructure with open source components."
   link1:
-    title: ''
-    url: '#'
+    title: ""
+    url: "#"
   button:
     title: Learn more
-    url: '#'
+    url: "#"
 home: false
 project: true
-
 ---
 
 <section class="projects-s1-main">
@@ -35,7 +34,7 @@ project: true
                 <p><img src="/images/home/icon3.svg" alt=""> CONTAINER INFRASTRUCTURE</p>
             </div>
             <div class="column">
-            <p>IMPÓRTANT LINKS:</p><br/>
+            <p>IMPORTANT LINKS:</p><br/>
             <p><a href="http://lists.openstack.org/cgi-bin/mailman/listinfo">Mailing Lists</a></p>
             <p><a href="https://docs.openstack.org">Documentation</a></p>
             <p><a href="https://www.openstack.org/software/start/">Getting Started</a></p>
@@ -61,7 +60,7 @@ project: true
                 <p><img src="/images/home/icon3.svg" alt=""> CONTAINER INFRASTRUCTURE</p>
             </div>
             <div class="column">
-            <p>IMPÓRTANT LINKS:</p><br/>
+            <p>IMPORTANT LINKS:</p><br/>
             <p><a href="http://lists.katacontainers.io/cgi-bin/mailman/listinfo">Mailing Lists</a></p>
             <p><a href="https://katacontainers.io/docs/">Documentation</a></p>
             <p><a href="https://github.com/kata-containers/runtime/releases/">Releases</a></p>
@@ -91,7 +90,7 @@ project: true
                 <p><img src="/images/home/icon3.svg" alt=""> CONTAINER INFRASTRUCTURE</p>
             </div>
             <div class="column">
-            <p>IMPÓRTANT LINKS:</p><br/>
+            <p>IMPORTANT LINKS:</p><br/>
             <p><a href="http://lists.airshipit.org/cgi-bin/mailman/listinfo">Mailing Lists</a></p>
             <p><a href="https://airship-treasuremap.readthedocs.io/en/latest/">Documentation</a></p>
             <p><a href="https://airship-treasuremap.readthedocs.io/en/latest/">Documentation</a></p>
@@ -106,8 +105,6 @@ project: true
     </div>
 </div>
 
-
-
 <div class="projects-s1-container">
     <img src="/images/projects/logo4.svg" alt="" class="projetcs-s1-container-child">
     <div class="projetcs-s1-container-child">
@@ -120,7 +117,7 @@ project: true
                 <p><img src="/images/home/icon3.svg" alt=""> CONTAINER INFRASTRUCTURE</p>
             </div>
             <div class="column">
-            <p>IMPÓRTANT LINKS:</p><br/>
+            <p>IMPORTANT LINKS:</p><br/>
             <p><a href="http://lists.starlingx.io/">Mailing Lists</a></p>
             <p><a href="https://wiki.openstack.org/wiki/StarlingX">Documentation</a></p>
             <p><a href="https://wiki.openstack.org/wiki/StarlingX#Releases">Releases</a></p>
@@ -136,7 +133,6 @@ project: true
     </div>
 </div>
 
-
 <div class="projects-s1-container">
     <img src="/images/projects/logo5.svg" alt="" class="projetcs-s1-container-child">
     <div class="projetcs-s1-container-child">
@@ -148,7 +144,7 @@ project: true
                 <p><img src="/images/home/icon2.svg" alt=""> CI/CD</p>
             </div>
             <div class="column">
-            <p>IMPÓRTANT LINKS:</p><br/>
+            <p>IMPORTANT LINKS:</p><br/>
             <p><a href="http://lists.zuul-ci.org/cgi-bin/mailman/listinfo">Mailing Lists</a></p>
             <p><a href="https://zuul-ci.org/docs/">Documentation</a></p>
             <p><a href="https://pypi.org/project/zuul/">Install Guide</a></p> 
