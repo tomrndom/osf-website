@@ -666,6 +666,9 @@
     @media (max-width: $screen-md-min){
       display: block;
     }
+    img {
+        border-radius: 50%;
+    }
   }
 
   .card{

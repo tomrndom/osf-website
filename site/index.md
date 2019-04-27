@@ -190,7 +190,7 @@ home: true
 
 
 <section class="home-s7-main">
-  <h2 class="fix-h3-white">What people say about us</h2>
+  <h2 class="fix-h3-white">What People are Saying</h2>
   <div class="home-s7-main-container container is-fluid">
     <div class="home-s7-main-container-child ">
       <div class="card column">
@@ -198,18 +198,16 @@ home: true
             <div class="media">
             <div class="media-left">
                 <figure class="image is-48x48">
-                <img src="/images/home/avatar1.svg" alt="not found">
+                <img src="https://pbs.twimg.com/profile_images/1060472215286833152/cqMbWgDq_bigger.jpg" alt="not found">
                 </figure>
             </div>
             <div class="media-content">
-                <p class="title is-4">Patryk IInicki</p>
-                <p class="subtitle is-6">@Patryk_llnicki</p>
+                <p class="title is-4">Guillaume Chenuet</p>
+                <p class="subtitle is-6">@gchenuet</p>
             </div>
             </div>
             <div class="content">
-              <p>We had a successful day yerterday with our bug squash, over 80 bugs
-              triaged, marked as afidex already, small fixes pushed up, touched up reviews to 
-              merge code and so much more. Thanks to all the <a href="#">@OpenStack</a></p>
+              <p>Today was a great day for @ZuulCI and @OpenStack at @leboncoinEng! Testing the load capacity of our primary #OpenStack cluster. Excited to add the second one tomorrow and perform more #ZuulCI builds on them!</p>
             </div>
         </div>
       </div>
@@ -218,18 +216,16 @@ home: true
             <div class="media">
             <div class="media-left">
                 <figure class="image is-48x48">
-                <img src="/images/home/avatar1.svg" alt="not found">
+                <img src="https://pbs.twimg.com/profile_images/795298621965144064/rbQvkw0c_bigger.jpg" alt="not found">
                 </figure>
             </div>
             <div class="media-content">
-                <p class="title is-4">Patryk IInicki</p>
-                <p class="subtitle is-6">@Patryk_llnicki</p>
+                <p class="title is-4">Mark Collier</p>
+                <p class="subtitle is-6">@sparkycollier</p>
             </div>
             </div>
             <div class="content">
-              <p>We had a successful day yerterday with our bug squash, over 80 bugs
-              triaged, marked as afidex already, small fixes pushed up, touched up reviews to 
-              merge code and so much more. Thanks to all the <a href="#">@OpenStack</a></p>
+              <p>THANKS to 1,400+ contributors from 150+ orgs who made OpenStack Stein (#19!) a reality. There are a lot of OSS projects dominated by one company, who are changing models right now to control the benefits($). At OSF #fouropens mean more opportunity, IMHO. </p>
             </div>
         </div>
       </div>
@@ -238,18 +234,16 @@ home: true
             <div class="media">
             <div class="media-left">
                 <figure class="image is-48x48">
-                <img src="/images/home/avatar1.svg" alt="not found">
+                <img src="https://pbs.twimg.com/profile_images/556073063888850945/xCO4x5vO_bigger.jpeg" alt="not found">
                 </figure>
             </div>
             <div class="media-content">
-                <p class="title is-4">Patryk IInicki</p>
-                <p class="subtitle is-6">@Patryk_llnicki</p>
+                <p class="title is-4">Tim Bell</p>
+                <p class="subtitle is-6">@noggin143</p>
             </div>
             </div>
             <div class="content">
-              <p>We had a successful day yerterday with our bug squash, over 80 bugs
-              triaged, marked as afidex already, small fixes pushed up, touched up reviews to 
-              merge code and so much more. Thanks to all the <a href="#">@OpenStack</a></p>
+              <p>Thanks to the #openstack infra team for the help to debug a mailing list issue. It's easy to forget how much effort goes into an open source community above writing the code: ticket handling, user registration, test infrastructure, web outreach and collaboration tools.</p>
             </div>
         </div>
       </div>
