@@ -623,7 +623,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Tim Bell</p>
-                                <p class="subtitle is-6">Huawei</p>
+                                <p class="subtitle is-6">CERN</p>
                                 <p class="subtitle is-6">Tim is responsible for the group at CERN, the European Laboratory for Particle Physics, which manages the compute infrastructure for 13,000 physicists around the world to support fundamental research. He previously worked as a Unix kernel developer at IBM along with managing large scale Unix production deployments and services for Deutsche Bank in Europe.</p>
                                 <p>His team is running the CERN OpenStack cloud which has been in production since July 2013 and is currently around 320,000 cores. This cloud provides processing power to analyse the data from the Large Hadron Collider and other experiments which produce around 60PB a year. The practical experiences are shared on the blog at <a href="http://techblog.web.cern.ch">http://techblog.web.cern.ch</a>.</p>
                                 <p>Tim has been an elected individual director of the OpenStack management board since 2012 and was a member of the OpenStack user committee from 2013-2015. </p>
