@@ -34,7 +34,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Alan Clark</p>
-                                <p class="subtitle is-6">Platinum Representative </p>
+                                <p class="subtitle is-6">Platinum Representative<br/>SUSE</p>
                                 <p class="subtitle is-6">Experienced industry leader, open source advocate, a member of the SUSE leadership team, and SUSE strategy adviser for new industry initiatives and open source.</p>
                             </div>
                         </div>
@@ -86,7 +86,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Andrew Cathrow</p>
-                                <p class="subtitle is-6">Unaffiliated</p>
+                                <p class="subtitle is-6">Platinum Representative<br/>Rackspace</p>
                                 <p class="subtitle is-6">Andrew has over 20 years of experience in enterprise software and services with diverse roles covering consulting, development, operations, product management, product marketing, and sales engineering.</p>
                                 <p>With over 12 years working in the Open Source world Andrew has extensive experience working with open source communities and in successfully taking open source projects to market including Red Hat's KVM hypervisor and OpenStack.</p>
                             </div>
@@ -111,7 +111,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Anni Lai</p>
-                                <p class="subtitle is-6">Gold Representative<br/>Huawei</p>
+                                <p class="subtitle is-6">Platinum Representative<br/>Huawei</p>
                                 <p class="subtitle is-6">I am an IT technology professional with a passion for community and partnership building.</p>
                                 <p>I'm very fortunate to live in the Silicon Valley area where I obtained a graduate degree in Computer Science, and extensive training in both engineering and business from successful companies such as Sun Microsystems, Oracle, Salesforce.com, Savvis/Centurylink, and now Huawei. For the last 10+ years, I've chosen technology evangelism, partner enablement, and developer empowerment to be the focus of my career.  Over the last 5+ years, I've traveled to 30+ countries visiting telco and enterprise partners and customers in EMEA, APAC, and Latin America to discuss ICT and Cloud initiatives, evangelized OpenStack to both enterprise and telco communities, and presented the latest Cloud/OpenStack technologies and business trends at various industry conferences and forums.</p>
                                 <p>I formally joined the OpenStack community in July 2015 and I've been a regular speaker for the last 3 summits (Tokyo, Austin, and Barcelona). I have conducted one sponsored keynote, several session presentations, and hosted various panels in the area of telco trends, containers, and community. In 2016, I served as an OpenStack Board Director, participated in various OpenStack work groups, helped organize the 1st OpenStack Days: China event with 3500+ registrants, 2400+ attendees and multiple hackathons/bug smash events in China.  With my engineering and business background and training in Enterprise IT and Telco, I would like to continue contributing to the OpenStack community in the following areas:</p>
@@ -171,7 +171,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">ChangBo Guo</p>
-                                <p class="subtitle is-6">Gold Representative<br/>EasyStack</p>
+                                <p class="subtitle is-6">Individual Representative<br/>EasyStack</p>
                                 <p class="subtitle is-6">ChangBo Guo serves as Individual Director of OpenStack Foundation in 2017/2018 and Oslo PTL for Pike and Queens. He worked on Linux and AIX for several years. He is one of the earliest OpenStack contributors in China. He has been working on the OpenStack since 2012, when he worked on the PowerVM driver under Nova to support IBM Power Systems. He is Oslo core reviewer and have been contributing several projects like Nova, Neutron, Ironic, Oslo, etc. He is one of top contributors in China, has submitted 1000+ commits, with more than 45000 LOCs.  As founding engineer of EasyStack, he attended the earliest of large-scale OpenStack adoptions in China, such as Lenovo, Postal Savings Bank of China, China Telecom, State Grid, etc. He was involved in the whole adoption, including platform design,  implementation and solving key issues for these customers.</p>
                                 <p>He is also an active OpenStack evangelists in China. He is organizer of China OpenStack user group, and promote OpenStack technologies in several meet-ups in China including Beijing, Xi'an, Chengdu, Shenzhen, etc. He is honored to be the host of Beijing OpenStack meet-up from November 2016 and on. He is also keen to help others learn how to contribute in upstream and delivered presentation about upstream contribution for several companies. He leads a upstream team to make OpenStack better and more popular. He attended several design summits and delivered presentations. He served as track chair of upstream development in Barcelona, Boston and Sydney design summit.
 </p>
@@ -224,7 +224,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Clemens Hardewig</p>
-                                <p class="subtitle is-6">Deutsche Telekom T-Systems </p>
+                                <p class="subtitle is-6">Gold Representative<br/>Deutsche Telekom T-Systems </p>
                                 <p class="subtitle is-6">Clemens is born in Germany and married with three kids, I have a PhD in computer science and worked in the communication industry in different managerial roles in IT.</p>
                                 <p>Working for Deutsche Telekom-T-Systems since 1997,  IT wise Clemens grew up in the **ix space and became excited with Opensource and community work already early in my carrier. Since then, the use and promotion of Opensource Technology in the different stations of my carrier is one of the red lines Clemens always tried to facilitate and develop.</p>
                                 <p>Being with Deutsche Telekom in different managerial roles, Clemens has been involved in depth  in Community Work as eg in the early days of Mobile Internet where I helped to develop the Wireless Application Protocol (WAP) Community as a accounable representative for DT.</p>
@@ -360,7 +360,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">junwei liu</p>
-                                <p class="subtitle is-6">China Mobile Suzhou Software Technology Co., Ltd - China Mobile Suzhou Research Center, China Mobile Research Institute, China Mobile Research Institute </p>
+                                <p class="subtitle is-6">Gold Representative<br/>China Mobile Suzhou Software Technology Co., Ltd - China Mobile Suzhou Research Center, China Mobile Research Institute, China Mobile Research Institute </p>
                                 <p class="subtitle is-6">JunWei Liu serves as Director Of OpenStack Foundation in 2017. He works at China Mobile for eight years and he is the vice General Manager of Cloud Product Deparment,China Mobile SuZhou R&D Center. Over the last 8+ years,he has worked on developing and building China Mobile's cloud products-"Big Cloud",which is an fully cloud software stack including computing,storage,network,security and cloud management platform. As the cheif architect of Big Cloud, Junwei leads a team more than 400 people to construct China Mobile's public cloud (It‘s one of the biggest public cloud based openstack including 4000 physical nodes) and private cloud (It's one of the biggest private cloud based openstack including 24000 physical nodes,20000 baremetal nodes base ironic). So junwei has rich experience in cloud R&D and operation, especially for openstack. His team won OpenStack SuperUser in 2016 and they give back their experience to OpenStack Community all the time, for example telecom demand about availability and scalability, real demand for end-user, deep customization for workload.</p>
                                 <p>JunWei Liu is also very active for OpenStack's promotion and landing in China. For example, he is an organizer of  China OpenStack Hackathon and Meet-up in SuZhou. He always comes up some unique idea for OpenStack based the demand of China Mobile's customers. He often leads his team to share their experience for China OpenStack users and make OpenStack more mature cooperating China Mobile's partners.</p>
                             </div>
@@ -519,7 +519,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Ryan Beisner</p>
-                                <p class="subtitle is-6">Canonical</p>
+                                <p class="subtitle is-6">Gold Representative<br/>Canonical</p>
                                 <p class="subtitle is-6">Ryan is Engineering Manager on the Ubuntu OpenStack Engineering Team, a global open source software development team at Canonical, the company behind Ubuntu Linux.  He focuses on application modeling, cloud operations modeling and software engineering process automation.</p>
                                 <p>Ryan joined Canonical in 2014.  His background is in network engineering and open source system integration.  Previously, as Operations Director for a US ISP/telecom, he lead the private cloud engineering and deployment efforts for that carrier and its clients.</p>
                             </div>
@@ -546,7 +546,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Ryan van Wyk</p>
-                                <p class="subtitle is-6">AT&T</p>
+                                <p class="subtitle is-6">Platinum Representative<br/>AT&T</p>
                                 <p class="subtitle is-6">Assistant Vice President (AVP) of Network Cloud Engineering. 21 years of experience in Information Technology Management, Software Architecture, Project/Program Management, Development, Open Source and Systems Integration of Emerging Technologies. Currently leading the development of world’s largest network function virtualization cloud. Received a Bachelor of Science in Business Administration in Management Information Systems (M.I.S.) & Engineering Management from Saint Louis University, and a MBA from Washington University - Olin Business School.</p>
                             </div>
                         </div>
@@ -572,7 +572,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Sean McGinnis</p>
-                                <p class="subtitle is-6">Huawei</p>
+                                <p class="subtitle is-6">Individual Representative<br/>Huawei</p>
                                 <p class="subtitle is-6">Sean is a Principal Architect in Huawei’s Cloud Open Source Development Team involved in OpenStack and other Cloud related open source projects with a focus on storage related integration.</p>
                                 <p>Sean is currently a member of the OpenStack Technical Committee (TC), the Project Team Lead (PTL) for the Release Management team, the former PTL of the Cinder block storage project, and a core in a number of OpenStack projects. He also serves as the Community and Release Manager for the Linux Foundation OpenSDS project and is an open source liaison with the Storage Network Industry Association (SNIA).</p>
                             </div>
@@ -623,7 +623,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Tim Bell</p>
-                                <p class="subtitle is-6">CERN</p>
+                                <p class="subtitle is-6">Individual Representative<br/>CERN</p>
                                 <p class="subtitle is-6">Tim is responsible for the group at CERN, the European Laboratory for Particle Physics, which manages the compute infrastructure for 13,000 physicists around the world to support fundamental research. He previously worked as a Unix kernel developer at IBM along with managing large scale Unix production deployments and services for Deutsche Bank in Europe.</p>
                                 <p>His team is running the CERN OpenStack cloud which has been in production since July 2013 and is currently around 320,000 cores. This cloud provides processing power to analyse the data from the Large Hadron Collider and other experiments which produce around 60PB a year. The practical experiences are shared on the blog at <a href="http://techblog.web.cern.ch">http://techblog.web.cern.ch</a>.</p>
                                 <p>Tim has been an elected individual director of the OpenStack management board since 2012 and was a member of the OpenStack user committee from 2013-2015. </p>
@@ -649,7 +649,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Vijoy Pandey</p>
-                                <p class="subtitle is-6">Cisco</p>
+                                <p class="subtitle is-6">Gold Representative<br/>Cisco</p>
                                 <p class="subtitle is-6">Vijoy is the VP and CTO of Cloud at Cisco, having recently joined Cisco in August 2018.</p>
                                 <p>Vijoy was previously at Google where he has held various leadership roles in the architecture, engineering and operations of Google's global data center networking footprint, Cloud networking, and their two global WAN networks. He also led the development of software and systems for intent-driven zero-touch automation, diagnostic telemetry, data analytics and ML/AI and application-level awareness in the infrastructure.</p>
                                 <p>Prior to Google, Vijoy served in numerous CTO capacities including CTO of Networking at IBM Cloud and at IBM Systems and Software Group; CTO of Blade Network Technologies, and has led global Engineering teams at Blade Network Technologies, Nortel and Alteon.</p>
