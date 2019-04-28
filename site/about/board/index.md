@@ -277,7 +277,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Imad Sousou</p>
-                                <p class="subtitle is-6">Platinum Representative</p>
+                                <p class="subtitle is-6">Platinum Representative<br/>Intel</p>
                                 <p class="subtitle is-6">Imad Sousou is vice president in the Software and Services Group and general manager of the Open Source Technology Center at Intel Corp. He established the center in 2003 and is responsible for driving Intel's efforts in open source software and architecture across technologies and market segments, including enterprise and carrier-grade Linux and related technologies, virtualization technologies, embedded market segments, and client Linux programs and related technologies.</p>
                                 <p>Imad joined Intel in 1994 as a senior software engineer. Before moving into his current role, he served as director of telecom software programs in the Intel Communications Group and as director of client software engineering in the Home Products Group.</p>
                                 <p>Prior to joining Intel, Imad was a software engineer at Central Point Software working on system utilities for the Apple Mac OS.</p>
@@ -414,7 +414,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Monty Taylor</p>
-                                <p class="subtitle is-6">Individual Representative </p>
+                                <p class="subtitle is-6">Individual Representative<br/>Red Hat, Open Infrastructure</p>
                                 <p class="subtitle is-6">Monty currently leads the team that works on the Zuul project for CI/CD in Red Hat's CTO Office. He's the founder, core member and past PTL of the OpenStack Infra team which runs CI and developer tooling for OpenStack. He's a member of the OpenStack Foundation Board of Directors, a Python Fellow and past member the OpenStack Technical Committee. Monty is the PTL of the openstacksdk project and is the maintainer of the Ansible modules for consuming OpenStack. Before his OpenStack days he was a core developer on Drizzle and was a Senior Consultant for MySQL, Inc.</p>
                                 <p>Monty has a degree in Theatre Directing and went to grad school at CalArts in lighting design. The intersection of fields has led him to start more than one business around developing technology for and related to live performance. Recently Monty served as an Adjunct Professor at NYU's Tisch School of the Arts teaching a class on programming related to lighting design. If you let him, he'll talk to you WAY too much about Scuba Diving.</p>
                             </div>
@@ -440,7 +440,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Prakash Ramchandran</p>
-                                <p class="subtitle is-6">Individual Representative </p>
+                                <p class="subtitle is-6">Individual Representative<br/>Dell</p>
                                 <p class="subtitle is-6">Prakash has 35+ years of Telco/ICT experience with MSEE from IIT Bombay. He is a current Board of Director for Openstack 2018, IEEE SCW SC Vice Chair, NFIC-2018 Chair, and has been a veteran consultant on NFV, MANO, VIM, Virtualization, Conatainerization, Microservices, 5G Core/Edge/Access, Network Slicing and Vertical Industry solutions. The companies he has served for include Micronic Devices, IDM, Microdata Consultants, Intelligent System, Tandem, WinVision, AT&T Mobility, seven.com, coverity.com, AT&T Labs, Futurewei/Huawei Technologies and currently at Dell. He was also part of Valley start-ups and other IT /Internet Data Center ventures in late 90's and early 2000. He brought to table the experience building Platform PoCs using OpenStack ecosystems. He has been a regular attendee of OpenStack, OPNFV, 3GPP NFV/MEC,IEEE forums over the last several years in the Bay Area as well as globally in US, China & India.</p>
                             </div>
                         </div>
@@ -493,7 +493,7 @@ about: true
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Ruan HE</p>
-                                <p class="subtitle is-6">Platinum Representative</p>
+                                <p class="subtitle is-6">Platinum Representative<br/>Tencent</p>
                                 <p class="subtitle is-6">Dr. Ruan HE is currently chief architect Tencent Cloud TStack and has more than 9 years working experiences in cloud computing and cybersecurity.</p>
                             </div>
                         </div>
