@@ -110,6 +110,7 @@
     flex-direction: row;
     width: 97%;
   }
+    
   .card-social-icons {
     color: red;
     margin-right: 25px;
@@ -145,6 +146,23 @@
     margin-bottom: 20px;
     margin-left: 120px;
   }
+}
+
+@media (max-width: 767px) {
+  .aboutstaff-s2-container {
+    .card-social-container-icons {
+      text-align: center;
+      display: block;
+    }
+    .card .card-content .media {
+      .media-left {
+        width: 0;
+        position: relative;
+      }
+      .media-content {
+        margin-top: 160px;
+      }
+    }    
 }
 
 // ############# ABOUTSTAFF SECTION 2
