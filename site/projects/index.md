@@ -76,6 +76,33 @@ project: true
     </div>
 </div>
 
+<div class="projects-s1-container">
+    <img src="/images/projects/logo5.svg" alt="" class="projetcs-s1-container-child">
+    <div class="projetcs-s1-container-child">
+        <h2>ZUUL</h2>
+        <h3 id="projects-s5-h3">CI/CD platform for gating changes across multiple systems/repos.</h3>
+        <p>Zuul is an open source ci/cd platform specializing in gating changes across multiple Systems and applications before landing on a single patch</p>
+        <div class="columns">
+            <div class="column">
+                <p><img src="/images/home/icon2.svg" alt=""> CI/CD</p>
+            </div>
+            <div class="column">
+            <p>IMPORTANT LINKS:</p><br/>
+            <p><a href="http://lists.zuul-ci.org/cgi-bin/mailman/listinfo">Mailing Lists</a></p>
+            <p><a href="https://zuul-ci.org/docs/">Documentation</a></p>
+            <p><a href="https://pypi.org/project/zuul/">Install Guide</a></p> 
+            <p><a href="https://zuul-ci.org/users.html">Users</a></p> 
+            <p><a href="https://git.zuul-ci.org/">Source Code</a></p>
+            </div>
+        </div>        
+    </div>
+    <div class="projetcs-s1-container-child">
+        <a href="https://zuul-ci.org/" class="button button-red"  id="projects-s5-btn">
+            <span>zuul-ci.org <img src="/images/symbols/arrow-left.svg" alt="" /></span>
+        </a>
+    </div>
+</div>
+
 <h3 class="itemtitle">PILOT PROJECTS</h3>
 
 <div class="projects-s1-container">
@@ -129,33 +156,6 @@ project: true
     <div class="projetcs-s1-container-child">
         <a href="https://starlingx.io" class="button button-red"  id="projects-s4-btn">
             <span>starlingx.io <img src="/images/symbols/arrow-left.svg" alt="" /></span>
-        </a>
-    </div>
-</div>
-
-<div class="projects-s1-container">
-    <img src="/images/projects/logo5.svg" alt="" class="projetcs-s1-container-child">
-    <div class="projetcs-s1-container-child">
-        <h2>ZUUL</h2>
-        <h3 id="projects-s5-h3">CI/CD platform for gating changes across multiple systems/repos.</h3>
-        <p>Zuul is an open source ci/cd platform specializing in gating changes across multiple Systems and applications before landing on a single patch</p>
-        <div class="columns">
-            <div class="column">
-                <p><img src="/images/home/icon2.svg" alt=""> CI/CD</p>
-            </div>
-            <div class="column">
-            <p>IMPORTANT LINKS:</p><br/>
-            <p><a href="http://lists.zuul-ci.org/cgi-bin/mailman/listinfo">Mailing Lists</a></p>
-            <p><a href="https://zuul-ci.org/docs/">Documentation</a></p>
-            <p><a href="https://pypi.org/project/zuul/">Install Guide</a></p> 
-            <p><a href="https://zuul-ci.org/users.html">Users</a></p> 
-            <p><a href="https://git.zuul-ci.org/">Source Code</a></p>
-            </div>
-        </div>        
-    </div>
-    <div class="projetcs-s1-container-child">
-        <a href="https://zuul-ci.org/" class="button button-red"  id="projects-s5-btn">
-            <span>zuul-ci.org <img src="/images/symbols/arrow-left.svg" alt="" /></span>
         </a>
     </div>
 </div>
