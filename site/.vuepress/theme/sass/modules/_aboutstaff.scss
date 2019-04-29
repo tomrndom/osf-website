@@ -227,6 +227,9 @@
     justify-content: left;
     align-items: left;
     flex-direction: column;
+    p {
+        margin: 0 0 1em 0;
+    }
   }
 
   #btncontactus {

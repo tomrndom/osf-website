@@ -691,16 +691,17 @@ meta:
                     <div class="fix-h5">P.O. Box 1903</div>
                     <div class="fix-h5">Austin TX, 78767</div>
                     <div class="fix-h5">512-827-8633</div>
-                    <a href="#" class="button button-red" id="btncontactus">
+                    <a href="mailto:info@openstack.org" class="button button-red" id="btncontactus">
                         <span>Contact us</span>
                     </a>
                 </div>
                 <div class="column  aboutstaff-s3-col" id="aboutstaff-s3-col-2">
                     <div class="fix-h3">MORE ABOUT THE FOUNDATION</div>
-                    <p><a href="#" class="aboutstaff-s3-link">Board of Directors</a></p>
-                    <p><a href="#" class="aboutstaff-s3-link">Technical Committee</a></p>
-                    <p><a href="#" class="aboutstaff-s3-link">User Committee</a></p>
-                    <p><a href="#" class="aboutstaff-s3-link">Supporting Companies</a></p>
+                    <p><a href="/about/board/" class="aboutstaff-s3-link">Board of Directors</a></p>
+                    <p><a href="https://www.openstack.org/foundation/tech-committee/" class="aboutstaff-s3-link">Technical Committee</a></p>
+                    <p><a href="https://www.openstack.org/foundation/user-committee/" class="aboutstaff-s3-link">User Committee</a></p>
+                    <p><a href="https://www.openstack.org/community/members/" class="aboutstaff-s3-link">Member Directory</a></p>
+                    <p><a href="/companies/" class="aboutstaff-s3-link">Supporting Companies</a></p>
                 </div>
             </div>
         </div>

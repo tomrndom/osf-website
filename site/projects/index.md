@@ -150,7 +150,6 @@ meta:
             <p>IMPORTANT LINKS:</p><br/>
             <p><a href="http://lists.airshipit.org/cgi-bin/mailman/listinfo">Mailing Lists</a></p>
             <p><a href="https://airship-treasuremap.readthedocs.io/en/latest/">Documentation</a></p>
-            <p><a href="https://airship-treasuremap.readthedocs.io/en/latest/">Documentation</a></p>
             <p><a href="https://git.airshipit.org/cgit">Code</a></p>
             </div>
         </div>        
