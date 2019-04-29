@@ -10,6 +10,33 @@ home: false
 project: false
 about: true
 
+meta:
+  - property: 'og:title'
+    content: 'Build the future of Open Infrastructure.'
+  - property: 'og:type'
+    content: 'website'
+  - property: 'og:url'
+    content: 'http://dev.foundation.openstack.org/'
+  - property: 'og:image'
+    content: 'http://dev.foundation.openstack.org/images/osficon-social.png'
+  - property: 'og:image:type'
+    content: 'image/png'
+  - property: 'og:image:height'
+    content: '200'
+  - property: 'og:image:width'
+    content: '200'
+  - property: 'og:description'
+    content: 'The Home of Open Infrastructure'
+  - property: 'og:site_name'
+    content: 'OpenStack Foundation'
+  - property: 'og:locale'
+    content: 'en_US'
+  - property: 'fb:app_id'
+    content: '209869746011654'
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:site'
+    content: '@openstack'
 ---
 
 <section class="section about-s1-main">
