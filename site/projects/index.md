@@ -157,7 +157,7 @@ meta:
       <div class="projetcs-s1-container-child column is-4">
           <a href="https://airshipit.org" class="button button-red" id="projects-s2-btn">
               <span>airshipit.org <img src="/images/symbols/arrow-left.svg" alt="" /></span>
-         column is-4  </a>
+         </a>
       </div>
   </div>
 
@@ -184,7 +184,7 @@ meta:
       </div>
       <div class="projetcs-s1-container-child column is-4">
           <a href="https://starlingx.io" class="button button-red"  id="projects-s4-btn">
-            column is-4   <span>starlingx.io <img src="/images/symbols/arrow-left.svg" alt="" /></span>
+            <span>starlingx.io <img src="/images/symbols/arrow-left.svg" alt="" /></span>
           </a>
       </div>
   </div>
