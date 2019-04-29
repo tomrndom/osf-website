@@ -280,7 +280,8 @@ meta:
   </div>
 </section>
 <section class="home-s8-main">
-    <h2>Companies supporting the OpenStack Foundation</h2>
+  <div class="container">
+    <h2 class="fix-h3">Companies supporting the OpenStack Foundation</h2>
     <h3>Platinum Members</h3>
     <div id="platinum-carousel" class="carousel slide" data-ride="carousel" data-interval="0">
       <div class="carousel-inner">
@@ -347,4 +348,5 @@ meta:
     <a href="/companies/" class="button button-red">
         <span>View all Member Companies <img src="/images/symbols/arrow-left.svg" alt="" /></span>
     </a>
+  </div>
 </section>
