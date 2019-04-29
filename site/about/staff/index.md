@@ -14,7 +14,7 @@ about: true
 
 meta:
   - property: 'og:title'
-    content: 'Build the future of Open Infrastructure.'
+    content: 'OpenStack Foundation'
   - property: 'og:type'
     content: 'website'
   - property: 'og:url'
