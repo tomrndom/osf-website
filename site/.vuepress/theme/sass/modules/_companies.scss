@@ -19,7 +19,13 @@
     padding-top: 20px;
     padding-bottom: 30px;
     padding-right: 40px;
-  
+    @media (max-width: $screen-md-min){
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      width: 100%;
+    }
     a {
       color: #EC1944;
     }
@@ -31,11 +37,17 @@
       margin-top: 60px;
       margin-bottom: 40px;
       margin-left: 60px;
+      @media (max-width: $screen-md-min){
+        margin-left: 0px;
+      }
     }
     .fix-h5 {
       color: #000102;
       line-height: 21px;
       margin-left: 60px;
+      @media (max-width: $screen-md-min){
+        margin-left: 0px;
+      }
     }
     .companies-s1-1-container {
       display: flex;
@@ -44,7 +56,9 @@
       align-items: center;
       margin-top: 30px;
       margin-left: 60px;
-  
+       @media (max-width: $screen-md) {
+        margin-left: 0;
+       }
       img {
         margin: 10px;
       }    
@@ -90,7 +104,13 @@
     padding-top: 20px;
     padding-bottom: 30px;
     padding-right: 40px;
-  
+    @media (max-width: $screen-md-min){
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      width: 100%;
+    }
     .fix-h3 {
       font-size: 26.0px;
       color: rgba(19,62,104,1.0);
@@ -99,11 +119,17 @@
       margin-top: 60px;
       margin-bottom: 40px;
       margin-left: 60px;
+      @media (max-width: $screen-md-min){
+        margin-left: 0px;
+      }
     }
     .fix-h5 {
       color: #000102;
       line-height: 21px;
       margin-left: 60px;
+      @media (max-width: $screen-md-min){
+        margin-left: 0px;
+      }
     }
     .companies-s2-1-container {
       display: flex;
@@ -112,7 +138,9 @@
       align-items: center;      
       margin-top: 30px;
       margin-left: 60px;
-  
+       @media (max-width: $screen-md) {
+        margin-left: 0;
+       }
       img {
         margin: 10px;
       }    
@@ -171,11 +199,17 @@
         color: $white;
         margin-left: 60px;
         margin-right: 0px;
+        @media (max-width: $screen-md) {
+          margin-left: 0;
+         }
       }    
       .fix-h5 {
         color: $white;
         margin-left: 60px;
         margin-right: 0px;
+        @media (max-width: $screen-md) {
+          margin-left: 0;
+         }
       }
     }
   

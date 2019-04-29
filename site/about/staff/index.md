@@ -46,7 +46,8 @@ meta:
 
 <section class="aboutstaff-s1-main">
     <div class="aboutstaff-s1-container">
-        <div class="columns">
+        <div class="container">
+          <div class="columns">
             <div class="column aboutstaff-s1-1-container" >
                 <div class="fix-h3">COMMUNITY ENGAGEMENT AND DEVELOPMENT</div>
                 <div class="fix-h5">The goal of the OpenStack Foundation is to serve developers, users, and the entire ecosystem by providing a set of shared resources to grow the footprint of public and private OpenStack clouds, enable technology vendors targeting the platform and assist developers in producing the best cloud software in the industry.</div> 
@@ -58,11 +59,12 @@ meta:
                 <img src="/images/about/picture5.jpg" id="aboutstaff-s1-id-pic1" alt="" />
             </div>
         </div>
+        </div>
     </div>
 </section>
 
 
-<section class="aboutstaff-s2-main">
+<section class="aboutstaff-s2-main container">
         <!-- PERSON  -->
         <div class="aboutstaff-s2-container">
             <div class="aboutstaff-s2-container-border">
@@ -678,6 +680,7 @@ meta:
 
 
 <div class="aboutstaff-s3-main">
+  <div class="container">
     <div class="columns">
         <div class="column">
             <img src="/images/about-staff/picture2.jpg" width="601px" height="380px" id="aboutstaff-s3-id-pic2" alt="" />
@@ -706,5 +709,5 @@ meta:
             </div>
         </div>
     </div>
-
+  </div>
 </div>

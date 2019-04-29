@@ -44,7 +44,7 @@ meta:
 ---
 
 
-<section class="aboutstaff-s2-main">
+<section class="aboutstaff-s2-main container">
         <!-- PERSON  -->
         <div class="aboutstaff-s2-container">
             <div class="aboutstaff-s2-container-border">
@@ -203,7 +203,7 @@ meta:
                                 <p class="subtitle is-6">Individual Representative<br/>EasyStack</p>
                                 <p class="subtitle is-6">ChangBo Guo serves as Individual Director of OpenStack Foundation in 2017/2018 and Oslo PTL for Pike and Queens. He worked on Linux and AIX for several years. He is one of the earliest OpenStack contributors in China. He has been working on the OpenStack since 2012, when he worked on the PowerVM driver under Nova to support IBM Power Systems. He is Oslo core reviewer and have been contributing several projects like Nova, Neutron, Ironic, Oslo, etc. He is one of top contributors in China, has submitted 1000+ commits, with more than 45000 LOCs.  As founding engineer of EasyStack, he attended the earliest of large-scale OpenStack adoptions in China, such as Lenovo, Postal Savings Bank of China, China Telecom, State Grid, etc. He was involved in the whole adoption, including platform design,  implementation and solving key issues for these customers.</p>
                                 <p>He is also an active OpenStack evangelists in China. He is organizer of China OpenStack user group, and promote OpenStack technologies in several meet-ups in China including Beijing, Xi'an, Chengdu, Shenzhen, etc. He is honored to be the host of Beijing OpenStack meet-up from November 2016 and on. He is also keen to help others learn how to contribute in upstream and delivered presentation about upstream contribution for several companies. He leads a upstream team to make OpenStack better and more popular. He attended several design summits and delivered presentations. He served as track chair of upstream development in Barcelona, Boston and Sydney design summit.
-</p>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -695,6 +695,7 @@ meta:
 
 
 <div class="aboutstaff-s3-main">
+  <div class="container">
     <div class="columns">
         <div class="column">
             <img src="/images/about-staff/picture2.jpg" width="601px" height="380px" id="aboutstaff-s3-id-pic2" alt="" />
@@ -703,7 +704,7 @@ meta:
         <div class="column">
             <div class="columns">
                 <div class="column aboutstaff-s3-col" id="aboutstaff-s3-col-1">
-                    <div class="fix-h3">Contact information</div>
+                    <div class="fix-h3">CONTACT INFORMATION</div>
                     <div class="fix-h5">OpenStack Foundation</div>
                     <div class="fix-h5">P.O. Box 1903</div>
                     <div class="fix-h5">Austin TX, 78767</div>
@@ -713,7 +714,7 @@ meta:
                     </a>
                 </div>
                 <div class="column  aboutstaff-s3-col" id="aboutstaff-s3-col-2">
-                    <div class="fix-h3">More about the Foundation</div>
+                    <div class="fix-h3">MORE ABOUT THE FOUNDATION</div>
                     <p><a href="/about/board/" class="aboutstaff-s3-link">Board of Directors</a></p>
                     <p><a href="https://www.openstack.org/foundation/tech-committee/" class="aboutstaff-s3-link">Technical Committee</a></p>
                     <p><a href="https://www.openstack.org/foundation/user-committee/" class="aboutstaff-s3-link">User Committee</a></p>
@@ -723,5 +724,5 @@ meta:
             </div>
         </div>
     </div>
-
+  </div>
 </div>

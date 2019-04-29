@@ -45,7 +45,8 @@ meta:
 ---
 
 <!-- block 1 -->
-<section class="companies-s1-main">
+<div class="container">
+  <section class="companies-s1-main">
         <div class="companies-s1-container">
           <div class="companies-s1-columns">
             <div class="companies-s1-column1">
@@ -68,8 +69,7 @@ meta:
                 <img src="/images/companies/suse-sp-lg.jpg" alt="SUSE">
                 <img src="/images/companies/Tencent-vert-lg.jpg" alt="Tencent Cloud">
             </div>
-        </div>
-               
+        </div>              
 </section>
 
 
@@ -803,11 +803,15 @@ meta:
             </div>
         </div>        
 </section>
+</div>
+
 
 <section class="companies-s2-main">
-<div class="fix-h3"> BECOME A SPONSOR</div>
-<div class="fix-h5">The resources provided by the OSF Members and Sponsors are critical to making the Open Infrastructure community successful, and there are many ways to support this mission, whether you're contributing code, building an OpenStack product or helping build the community.</div>
-<a href="mailto:ecosystem@openstack.org" class="button button-white">
-    <span>Contact us</span>
-</a>
+  <div class="fix-h3"> BECOME A SPONSOR</div>
+  <div class="container">
+    <div class="fix-h5">The resources provided by the OSF Members and Sponsors are critical to making the Open Infrastructure community successful, and there are many ways to support this mission, whether you're contributing code, building an OpenStack product or helping build the community.</div>
+    <a href="mailto:ecosystem@openstack.org" class="button button-white">
+        <span>Contact us</span>
+    </a>
+  </div>
 </section>

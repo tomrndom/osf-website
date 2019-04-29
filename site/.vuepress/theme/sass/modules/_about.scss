@@ -19,14 +19,16 @@
   
   .about-s1-container {
     background-color: $white;
-    // display: flex;
-    // justify-content: space-around;
-    // flex-direction: row;
-    //width: 98%;
-    //margin-left: 0px;
-    //margin-top: 70px;
-    //margin-bottom: 40px;
-    
+    padding-left: 4em;
+    padding-right: 4em;
+    @media (max-width: $screen-md-min){
+     margin-left: 1em;
+     margin-right: 1em;
+    }
+    @media (max-width: $screen-sm-min){
+     padding-left: 1.5em;
+     padding-right: 1.5em;
+    }
     .fix-h3 {
       font-size: 26.0px;
       color: rgba(19,62,104,1.0);
@@ -34,13 +36,21 @@
       line-height: 31.0px;
       margin-top: 90px;
       margin-bottom: 40px;
-      margin-left: 95px;
+      @media (max-width: $screen-md-min){
+        margin-top:0;
+        padding-top:0;
+      }
     }
-  
+    ul{
+      &.fix-h5{
+        margin-left: 1em;
+        list-style: none;
+      }
+    }
     .fix-h5 {
       color: #000102;
       line-height: 21px;
-      margin-left: 95px;
+
       &:last-child{
         margin-bottom: 40px;
       }
@@ -61,50 +71,67 @@
   
     #about-s1-id-pic1{
       margin-top: -70px;
-      margin-left: 10px;
       z-index: 200;
+      @media (max-width: $screen-md-min){
+        margin-top: 0px;
+      }
     }
     #about-s1-id-pic2{
-      margin-top: -15px;
-      margin-left: 95px;
+      margin-top: -25px;
+      margin-left: 5%;
       z-index: 100;
     }
   
     #about-s1-id-pic3{
       margin-top: 30px;
-      margin-left: 16px;
       z-index: 100;
+      @media screen and (max-width:$screen-md-min) { 
+       margin-top: -30px;
+      }
     }
   
     #about-s1-id-pic4{
       margin-top: 30px;
-      margin-left: 320px;
+      margin-left: 37.3%;
       z-index: 100;
       max-height: 390px;
-      @media (max-width: $screen-md) { //small screen
-        margin-left: 0px; 
+      @media screen and (max-width: 1024px) {
+        margin-left: 20%;
+      }
+      @media screen and (max-width:$screen-md-min) { 
+        margin-left: 0;
       }
     }
     #about-s1-id-pic5{
-      margin-top: -20px;
-      margin-left: 91px;
+      margin-top: -20%;
       z-index: 100;
     }
     #about-s1-id-pic6{
       margin-top: 30px;
       margin-left: 16px;
       z-index: 100;
+      @media (max-width: $screen-md-min){
+        margin-top: -30px;
+        margin-left: 0;
+      }
     }
     #about-s1-id-pic7{
       margin-top: 60px;
-      margin-left: 95px;
       z-index: 100;
+       @media (max-width: $screen-md-min){
+        margin-top: -60px;
+        margin-left: 4%;
+      }
     }
     #about-s1-id-pic8{
       margin-top: 80px;
       margin-left: 10px;
       z-index: 200;
       max-height: 390px;
+       @media (max-width: $screen-md-min){
+        margin-top: -30px;
+        margin-left: 0;
+      }
     }
     #about-s1-id-pic9{
       margin-top: -45px;

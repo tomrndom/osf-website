@@ -170,7 +170,13 @@ i {
   padding: 0px;
   color: $white;
 }
-
+footer {
+  .logo-containter-child-img{
+    @media (max-width: $screen-md-min){
+      width: 100%;
+    }
+  }
+}
 .hero-main .hero-content {
   @media (max-width: $screen-md) { //small screen pantalla 
     margin-top: 0px;

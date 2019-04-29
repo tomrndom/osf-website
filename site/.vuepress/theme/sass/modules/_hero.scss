@@ -15,7 +15,17 @@
 /* ------------------------------------------------------------ *\
 	Hero Intro
 \* ------------------------------------------------------------ */
-
+.hero-title,
+.hero-project-title{
+  max-width: 50%;
+  padding-right: 24px;
+  font-size: 42px;
+  font-weight: 500;
+  @media (max-width: 768px) {
+  	max-width: 70%;
+    font-size: 30px;
+  }
+}
 .hero-intro {
   .hero-content {
     display: flex;
@@ -23,21 +33,20 @@
     align-items: center;
   }
 
+.hero-title,
+.hero-project-title{
+  max-width: 50%;
+  padding-right: 24px;
+  font-size: 42px;
+  font-weight: 500;
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
+}
   .hero-body {
     padding: 60px 0 0px;
     background-color: white;
   }
-
-  .hero-title {
-    max-width: 50%;
-    padding-right: 24px;
-    font-size: 42px;
-    font-weight: 500;
-    @media (max-width: 768px) {
-      font-size: 30px;
-    }
-  }
-
   .hero-entry {
     position: relative;
     max-width: 460px;
@@ -112,10 +121,13 @@
   .hero-body {
     padding: 5rem 0rem;
     @media (min-width: 1440px) {
-      padding: 5rem 0rem;
+      padding: 5rem 2rem;
     }
     @media (max-width: $screen-sm-min) {
       padding: 5rem 2rem 2rem;
+    }
+    @media (max-width:320px) {
+      padding: 10rem 2rem 2rem;
     }
     .hero-title {
       @media (max-width: $screen-md-min) {

@@ -18,12 +18,12 @@
   .button.button-red {
     font-size: 15px;
     color: rgb(255, 255, 255);
-    // width: 80px;
-    // padding-left: 80px;
-    // padding-right: 80px;
-    margin-left: 90px;
     margin-right: auto;
     margin-bottom: 80px;
+    @media (max-width: $screen-md-min){
+      margin-bottom: 120px;
+      width: 100%;
+    }
   }
   .fix-h3 {
     font-size: 26px;
@@ -32,13 +32,11 @@
     line-height: 31px;
     margin-top: 90px;
     margin-bottom: 40px;
-    margin-left: 95px;
   }
 
   .fix-h5 {
     color: $white;
     line-height: 21px;
-    margin-left: 95px;
     &:last-child {
       margin-bottom: 40px;
     }
@@ -47,14 +45,12 @@
     margin-top: -140px;
     margin-left: 20px;
     z-index: 100;
-    width: 580px;
   }
 }
 
 .aboutstaff-s1-container {
   background-color: #1c6ebf;
-  width: 99.5%;
-  margin-left: 20px;
+  width: 100%;
   margin-top: 70px;
   margin-bottom: 24px;
 
@@ -65,13 +61,11 @@
     line-height: 31px;
     margin-top: 90px;
     margin-bottom: 40px;
-    margin-left: 95px;
   }
 
   .fix-h5 {
     color: #000102;
     line-height: 21px;
-    margin-left: 95px;
     &:last-child {
       margin-bottom: 40px;
     }
@@ -88,15 +82,12 @@
 
 .aboutstaff-s2-main {
   color: $back-darkest;
-  margin: 0px;
-  padding: 0;
-  margin: 0;
 }
 
 .aboutstaff-s2-container {
   background-color: $white;
-  width: calc(100% - 60px);
-  margin-left: 30px;
+  width: 100%;
+  //margin-left: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
 
@@ -124,8 +115,13 @@
     width: 128px;
     height: 128px;
   }
-
-  .aboutstaff-s2-container-border {
+  .card-content{
+    padding-left: 0;
+    padding-right: 0;  
+  }
+    
+  .aboutstaff-s2-container-border,
+  .fix-h3 {
     border: 1px solid #dedede;
     width: 85%;
     margin-left: 7.5%;
@@ -138,13 +134,15 @@
     text-decoration: underline;
   }
   .fix-h3 {
+    border:0;
+    padding:0;
     font-size: 26px;
     color: rgba(19, 62, 104, 1);
     text-align: left;
     line-height: 31px;
     margin-top: 25px;
-    margin-bottom: 20px;
-    margin-left: 120px;
+    margin-bottom: 0;
+    //margin-left: 120px;
   }
 }
 
@@ -170,10 +168,7 @@
 .aboutstaff-s3-main {
   color: $back-darkest;
   background-color: #1c6ebf;
-  margin-top: 50px;
-  margin-left: 10px;
-  margin-right: 0px;
-  padding: 0;
+  padding-top: 3em;
 
   #aboutstaff-s3-id-pic2 {
     margin-top: -70px;
@@ -185,6 +180,9 @@
     margin-top: -80px;
     margin-left: 190px;
     z-index: 200;
+    @media (max-width: $screen-sm-min){
+      margin-left: 0px;
+    }
   }
 
   .fix-h3 {
@@ -195,6 +193,10 @@
     margin-top: 25px;
     margin-bottom: 20px;
     margin-left: 0px;
+    @media (max-width: $screen-md-min){
+      margin-top: 0;
+      padding-top:0;
+    }
   }
 
   .fix-h5 {
