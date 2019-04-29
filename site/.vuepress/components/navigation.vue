@@ -46,7 +46,10 @@
 									</button>
 								</div>
 								<div class="dropdown-menu" id="dropdown-menu" role="menu">
-									<div class="dropdown-content">
+									<div class="dropdown-content">																				
+										<div class="nested-menu-image"> 
+											<img :src="navItem.img" alt="" :style="navItem.fixcss"/>
+										</div>										
 
 										<div v-for="item in navItem.items" class="menuitemeffect">
 											<a v-if="!islocal(item)" :href="item.link" class="dropdown-item" target="_blank">

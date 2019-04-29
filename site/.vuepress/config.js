@@ -14,7 +14,7 @@ module.exports = {
     themeConfig: {
         nav: [
             {
-              "text": "Projects",
+              "text": "Projects", "img": "/images/about/picture2.jpg", "fixcss":"margin-left:-453px;",
               "items": [
                 { "text": 'All projects', "link": '/projects/' },
                 { "text": 'Services', "link": '/projects/services/' },
@@ -22,14 +22,14 @@ module.exports = {
               ]
             },
             {
-              "text": "Membership",
+              "text": "Membership", "img": "/images/about/picture5.jpg", "fixcss":"margin-left:-428px;",
               "items": [
                 { "text": 'Supporting Companies', "link": '/companies/' },
                 { "text": 'Join OSF', "link": 'https://www.openstack.org/join' },
               ]
             },
             {
-              "text": "Events",
+              "text": "Events", "img": "/images/home/image3.jpg", "fixcss":"margin-left:-346px;",
               "items": [
                 { "text": 'Open Infra Summit', "link": 'https://www.openstack.org/summit/' },
                 { "text": 'Open Infra Days', "link": 'https://www.openstack.org/community/events/#openstack_days' },
@@ -37,7 +37,7 @@ module.exports = {
               ]
             },
             {
-              "text": "About",
+              "text": "About", "img": "/images/home/image2.jpg", "fixcss":"margin-left:-428px;",
               "items": [
                 { "text": '4 Opens', "link": '/about/four-opens/' },
                 { "text": 'Annual report', "link": 'https://www.openstack.org/foundation/2018-openstack-foundation-annual-report' },
