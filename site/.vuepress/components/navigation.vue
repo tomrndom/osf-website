@@ -36,7 +36,8 @@
 						<li v-for="(navItem, i) in $site.themeConfig.nav" >
 
 							<a v-if="!islocal(navItem)" :href="navItem.link" target="_blank">{{ navItem.text }} </a>
-							<div v-else-if="isnested(navItem)" class="dropdown is-hoverable " >
+							<div v-else-if="isnested(navItem)" class="dropdown is-hoverable"
+                                 :ref="'dropdownHoverable-' + i">
 								<div class="dropdown-trigger">
 									<button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
 									<span>{{ navItem.text }} </span>
@@ -46,16 +47,16 @@
 									</button>
 								</div>
 								<div class="dropdown-menu" id="dropdown-menu" role="menu">
-									<div class="dropdown-content">																				
+									<div class="dropdown-content">
 										<div class="nested-menu-image"> 
 											<img :src="navItem.img" alt="" :style="navItem.fixcss"/>
-										</div>										
-
+										</div>
+										
 										<div v-for="item in navItem.items" class="menuitemeffect">
 											<a v-if="!islocal(item)" :href="item.link" class="dropdown-item" target="_blank">
 												<span>{{ item.text }} </span> 
 											</a>
-											<a v-else @click.prevent="handleNavItemClick(item)" href="#" class="dropdown-item">
+											<a v-else @click.prevent="handleNavItemClick(item, i)" href="#" class="dropdown-item">
 												<span>{{ item.text }} </span>
 											</a>
 										</div>
@@ -124,10 +125,11 @@
 					this.isMobileNavOpen = false;
 				}
 			},
-
-			handleNavItemClick(navItem) {
+			handleNavItemClick(navItem, i) {
+			    const dropdownHoverable = this.$refs['dropdownHoverable-'+i][0];
 				this.$router.push(navItem.link);
-
+                dropdownHoverable.classList.remove('is-hoverable')
+                setTimeout(() => dropdownHoverable.classList.add('is-hoverable'), 100)
 				this.isMobileNavOpen = false;
 			},
 			islocal(navItem) {
