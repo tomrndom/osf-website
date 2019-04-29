@@ -3,6 +3,7 @@ Note: local links require a leading and trailing slash.
 */
 module.exports = {
     host: '0.0.0.0',
+    ga: 'UA-139234657-1',
     title: "OpenStack Foundation",
     description: "The Home of Open Infrastructure",
     head: [["link", { rel: "icon", href: "/favicons/OSF_logo_square_ico.png" }],
