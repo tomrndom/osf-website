@@ -697,8 +697,8 @@ meta:
 <div class="aboutstaff-s3-main">
     <div class="columns">
         <div class="column">
-            <img src="/images/about-staff/picture2.svg" id="aboutstaff-s3-id-pic2" alt="" />
-            <img src="/images/about-staff/picture3.svg" id="aboutstaff-s3-id-pic3" alt="" />
+            <img src="/images/about-staff/picture2.jpg" width="601px" height="380px" id="aboutstaff-s3-id-pic2" alt="" />
+            <img src="/images/about-staff/picture3.jpg" width="320px" height="390px" id="aboutstaff-s3-id-pic3" alt="" />
         </div>
         <div class="column">
             <div class="columns">
