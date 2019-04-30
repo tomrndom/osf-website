@@ -25,7 +25,7 @@
         <div class="nav-brand">
           <router-link to="/">
             <div class="logo-containter">
-              <div class="logo-containter-child logo-containter-child-img"><img :src="require('../public/images/osf_logo_pill.png')" alt="OpenStack Foundation"></div>
+              <div class="logo-containter-child logo-containter-child-img"><img :src="require('../public/images/OSF_logo.svg')" alt="OpenStack Foundation"></div>
             </div>
           </router-link>
         </div><!-- /.nav-brand -->
