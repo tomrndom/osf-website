@@ -241,7 +241,7 @@ meta:
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Danny Carenno</p>
-                                <p class="subtitle is-6">Director of Marketing</p>
+                                <p class="subtitle is-6">Ecosystem Manager</p>
                                 <p class="subtitle is-6">Danny is the Ecosystem Manager for the OpenStack Foundation, from Tyler, TX. He attended The University of Texas at San Antonio and spent close to seven years at Rackspace where he held Support, Business Development and Marketing roles. He has joined the Foundation team to focus on nurturing the OpenStack partner ecosystem, assist with on boarding new sponsors and building relationships with community members. He’s known to be a prolific coffee drinker and keeps up to date with the latest tunes. He enjoys live music shows, a good workout, riding his fixie and SF Giants Baseball.</p>
                             </div>
                         </div>
@@ -522,7 +522,7 @@ meta:
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Kendall Waters</p>
-                                <p class="subtitle is-6">Marketing Coordinator</p>
+                                <p class="subtitle is-6">Marketing & Events Coordinator</p>
                                 <p class="subtitle is-6">Kendall Waters has joined the OpenStack Foundation as a Marketing Associate after completing a spring internship in 2015. She graduated from St. Edward s University in Austin, TX with a Bachelor s degree in Digital Media Management. She helps the marketing team organize and manage the twice-annual Summits. Her previous roles have specialized in social media management at local start-up companies in Austin. In her free time, she likes to ride her bike around town, attend music festivals, and spend time with her two cats.</p>
                             </div>
                         </div>
