@@ -132,10 +132,10 @@
 #projects-s2-btn {
   background-color: #65c7c2;
   color: $white;
-  border-color: #65c7c2;
+  border:0!important;
   &:hover{
     background-color: darken(#65c7c2, 20%);
-    border-color: darken(#65c7c2, 20%);
+    border:0!important;
   }
 }
 
@@ -145,10 +145,10 @@
 #projects-s3-btn {
   background-color: #f05c3f;
   color: $white;
-  border-color: #f05c3f;
+  border:0!important;
  &:hover{
     background-color: darken(#f05c3f, 20%);
-    border-color: darken(#f05c3f, 20%);
+    border:0!important;
   }
 }
 
@@ -158,10 +158,10 @@
 #projects-s4-btn {
   background-color: #685bc7;
   color: $white;
-  border-color: #685bc7;
+  border:0!important;
   &:hover{
     background-color: darken(#685bc7, 20%);
-    border-color: darken(#685bc7, 20%);
+    border:0!important;
   }
 }
 
@@ -171,17 +171,18 @@
 #projects-s5-btn {
   background-color: #071d49;
   color: $white;
-  border-color: #071d49;
+  border:0!important;
    &:hover{
     background-color: darken(#071d49, 20%);
-    border-color: darken(#071d49, 20%);
+    border:0!important;
   }
 }
 
 .button-white {
+  border:0px;
    &:hover{
     background-color: #ee1e48;
-    border-color: #ee1e48;
+    border:0;
     color: #133e68;
   }
 }
