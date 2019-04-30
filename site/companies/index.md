@@ -807,7 +807,7 @@ meta:
 
 
 <section class="companies-s2-main">
-  <div class="fix-h3"> BECOME A SPONSOR</div>
+  <h4 class="itemtitle"> Become a sponsor</h4>
   <div class="container">
     <div class="fix-h5">The resources provided by the OSF Members and Sponsors are critical to making the Open Infrastructure community successful, and there are many ways to support this mission, whether you're contributing code, building an OpenStack product or helping build the community.</div>
     <a href="mailto:ecosystem@openstack.org" class="button button-white">
