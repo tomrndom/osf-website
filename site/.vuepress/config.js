@@ -22,7 +22,7 @@ module.exports = {
               ]
             },
             {
-              "text": "Membership", "img": "/images/menu/menu_membership.jpg", "fixcss":"margin-left:-409px;",
+              "text": "Membership", "img": "/images/menu/menu_membership.jpg", "fixcss":"margin-left:-408px;",
               "items": [
                 { "text": 'Supporting Companies', "link": '/companies/' },
                 { "text": 'Join OSF', "link": 'https://www.openstack.org/join' },
@@ -37,7 +37,7 @@ module.exports = {
               ]
             },
             {
-              "text": "About", "img": "/images/menu/menu_about.jpg", "fixcss":"margin-left:-424px;",
+              "text": "About", "img": "/images/menu/menu_about.jpg", "fixcss":"margin-left:-422px;",
               "items": [
                 { "text": '4 Opens', "link": '/about/four-opens/' },
                 { "text": 'Annual report', "link": 'https://www.openstack.org/foundation/2018-openstack-foundation-annual-report' },
