@@ -85,10 +85,10 @@
     .column {
       padding: 0 2em;
       p {
-        font-size: 14px;
+        font-size: 12px;
         img {
-          max-width: 40px;
-          margin-right: 7px;
+          max-width: 30px;
+          margin-right: 12px;
         }
       }
       &:last-child {
@@ -110,19 +110,19 @@
 
   @media (max-width: $screen-md) {
     //small screen
-    padding-left: 70px;
-    padding-right: 70px;
+    // padding-left: 70px;
+    // padding-right: 70px;
     margin-top: unset;
     padding-bottom: unset;
   }
-   @media (max-width: $screen-sm-min){
-    padding-left:1em;
-    padding-right:1em;
-   }
-  .is-6{
-    @media (max-width: $screen-sm-min){
-        width: 100%;
-     }
+  @media (max-width: $screen-sm-min) {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .is-6 {
+    @media (max-width: $screen-sm-min) {
+      width: 100%;
+    }
   }
 }
 
@@ -132,8 +132,8 @@
 #projects-s2-btn {
   background-color: #65c7c2;
   color: $white;
-  border:0!important;
-  &:hover{
+  margin-top: 0;
+  &:hover {
     background-color: darken(#65c7c2, 20%);
     border:0!important;
   }
@@ -145,8 +145,9 @@
 #projects-s3-btn {
   background-color: #f05c3f;
   color: $white;
-  border:0!important;
- &:hover{
+  border-color: #f05c3f;
+  margin-top: 0;
+  &:hover {
     background-color: darken(#f05c3f, 20%);
     border:0!important;
   }
@@ -158,8 +159,9 @@
 #projects-s4-btn {
   background-color: #685bc7;
   color: $white;
-  border:0!important;
-  &:hover{
+  border-color: #685bc7;
+  margin-top: 0;
+  &:hover {
     background-color: darken(#685bc7, 20%);
     border:0!important;
   }
@@ -171,16 +173,16 @@
 #projects-s5-btn {
   background-color: #071d49;
   color: $white;
-  border:0!important;
-   &:hover{
+  border-color: #071d49;
+  margin-top: 0;
+  &:hover {
     background-color: darken(#071d49, 20%);
     border:0!important;
   }
 }
 
 .button-white {
-  border:0px;
-   &:hover{
+  &:hover {
     background-color: #ee1e48;
     border:0;
     color: #133e68;
@@ -190,7 +192,7 @@
 // ############ projects section 2
 
 .projects-s2-main,
-.companies-s2-main,{
+.companies-s2-main {
   margin-top: 0px;
   padding-top: 70px;
   padding-bottom: 70px;
@@ -225,8 +227,7 @@
   .button-red {
     width: 100%;
   }
- 
 }
 .projects-s1-main {
-    margin-bottom: 1.7em;
+  margin-bottom: 1.7em;
 }
