@@ -11,7 +11,26 @@
     text-transform: uppercase;
   }
 }
-
+/*Hero home*/
+.hero-background{
+	 .hero-body {
+    padding: 5rem 0rem;
+    @media (min-width: 1440px) {
+      padding: 5rem 2rem;
+    }
+    @media (max-width: $screen-sm-min) {
+      padding: 20rem 2rem 2rem;
+    }
+    @media (max-width:320px) {
+      padding: 10rem 2rem 2rem;
+    }
+    .hero-title {
+      @media (max-width: $screen-md-min) {
+        font-size: 30px;
+      }
+    }
+  }
+}
 /* ------------------------------------------------------------ *\
 	Hero Intro
 \* ------------------------------------------------------------ */
@@ -116,23 +135,6 @@
     //margin: 0 auto;
     @media (max-width: $screen-md-min) {
       width: 100%;
-    }
-  }
-  .hero-body {
-    padding: 5rem 0rem;
-    @media (min-width: 1440px) {
-      padding: 5rem 2rem;
-    }
-    @media (max-width: $screen-sm-min) {
-      padding: 5rem 2rem 2rem;
-    }
-    @media (max-width:320px) {
-      padding: 10rem 2rem 2rem;
-    }
-    .hero-title {
-      @media (max-width: $screen-md-min) {
-        font-size: 30px;
-      }
     }
   }
 }
