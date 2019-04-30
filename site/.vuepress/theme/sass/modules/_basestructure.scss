@@ -227,12 +227,12 @@ footer {
 }
   .button-red {
     background: #ee1e48;
-    border-color: #ee1e48;
+    border:0;
     color: #fff!important;
     border-radius: 0px;
     &:hover{
       background-color: darken(#ee1e48, 20%);
-      border-color: darken(#ee1e48, 20%);
+      border:0;
     }
 }
 // ########### /END HERO
@@ -381,19 +381,18 @@ div.content.custom > main > section > div > div > div > h3 {
 .nav .nav-menu a {
   font-weight: 500;
   font-size: 15px;
-
 }
 
 .button-red {
   border-radius: 0px;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .button {
   border-radius: 0px;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 
@@ -492,5 +491,13 @@ div.content.custom > main > section > div > div > div > h3 {
     @media (max-width: 1024px) { //small screen pantalla 
       display: none;  
     } 
+  }
+}
+/*list bullets*/
+ul{
+  li{
+    &:before{
+      color: #133e68!important;
+    }
   }
 }

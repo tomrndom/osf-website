@@ -14,7 +14,7 @@ module.exports = {
     themeConfig: {
         nav: [
             {
-              "text": "Projects", "img": "/images/menu/menu_projects.jpg", "fixcss":"margin-left:-453px;",
+              "text": "Projects", "img": "/images/menu/menu_projects.jpg",
               "items": [
                 { "text": 'All projects', "link": '/projects/' },
                 { "text": 'Services', "link": '/projects/services/' },
@@ -22,7 +22,7 @@ module.exports = {
               ]
             },
             {
-              "text": "Membership", "img": "/images/menu/menu_membership.jpg", "fixcss":"margin-left:-428px;",
+              "text": "Membership", "img": "/images/menu/menu_membership.jpg", "fixcss":"margin-left:-409px;",
               "items": [
                 { "text": 'Supporting Companies', "link": '/companies/' },
                 { "text": 'Join OSF', "link": 'https://www.openstack.org/join' },
@@ -37,7 +37,7 @@ module.exports = {
               ]
             },
             {
-              "text": "About", "img": "/images/menu/menu_about.jpg", "fixcss":"margin-left:-428px;",
+              "text": "About", "img": "/images/menu/menu_about.jpg", "fixcss":"margin-left:-424px;",
               "items": [
                 { "text": '4 Opens', "link": '/about/four-opens/' },
                 { "text": 'Annual report', "link": 'https://www.openstack.org/foundation/2018-openstack-foundation-annual-report' },

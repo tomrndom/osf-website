@@ -132,11 +132,10 @@
 #projects-s2-btn {
   background-color: #65c7c2;
   color: $white;
-  border-color: #65c7c2;
   margin-top: 0;
   &:hover {
     background-color: darken(#65c7c2, 20%);
-    border-color: darken(#65c7c2, 20%);
+    border:0!important;
   }
 }
 
@@ -150,7 +149,7 @@
   margin-top: 0;
   &:hover {
     background-color: darken(#f05c3f, 20%);
-    border-color: darken(#f05c3f, 20%);
+    border:0!important;
   }
 }
 
@@ -164,7 +163,7 @@
   margin-top: 0;
   &:hover {
     background-color: darken(#685bc7, 20%);
-    border-color: darken(#685bc7, 20%);
+    border:0!important;
   }
 }
 
@@ -178,14 +177,14 @@
   margin-top: 0;
   &:hover {
     background-color: darken(#071d49, 20%);
-    border-color: darken(#071d49, 20%);
+    border:0!important;
   }
 }
 
 .button-white {
   &:hover {
     background-color: #ee1e48;
-    border-color: #ee1e48;
+    border:0;
     color: #133e68;
   }
 }

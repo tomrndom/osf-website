@@ -178,7 +178,6 @@ meta:
                 <img src="/images/companies/orangelogosm3.png" alt="Orange">
                 <img src="/images/companies/ovh-lg.jpg" alt="OVH">
                 <img src="/images/companies/paypal.png" alt="PayPal">
-                <img src="/images/companies/a.html" alt="Platform9">
                 <img src="/images/companies/platform9-lg4.png" alt="Platform9 Systems, Inc">
                 <img src="/images/companies/produban-sm.png" alt="Produban">
                 <img src="/images/companies/pure-lg.jpg" alt="Pure Storage">
