@@ -44,8 +44,8 @@ meta:
   <div class="container about-s1-container">
     <div class="columns">
       <div class="column">
-        <img src="/images/about/picture1.jpg" id="about-s1-id-pic1" alt="" >
-        <img src="/images/about/picture2.jpg" id="about-s1-id-pic2" alt="" >
+        <img src="/images/projects/hosting1.jpg" id="about-s1-id-pic1" alt="" >
+        <img src="/images/projects/hosting2.jpg" id="about-s1-id-pic2" alt="" >
       </div>
       <div class="column">
         <h3 class="fix-h3">Host at OSF</h3>
@@ -73,7 +73,7 @@ meta:
         </p>
       </div>
       <div class="column">
-        <img src="/images/about/picture3.jpg"  id="about-s1-id-pic3" alt="" >
+        <img src="/images/projects/hosting3.jpg"  id="about-s1-id-pic3" alt="" >
       </div>
     </div>
 
