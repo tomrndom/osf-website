@@ -26,7 +26,13 @@
       text-transform: uppercase;
     }
   }
-
+  .nav-content{
+    .dropdown{
+      .button{
+        text-transform: uppercase;
+      }
+    }
+  }
   .nav-content {
     // justify-content: space-between;
     max-width: 100%;
@@ -51,8 +57,9 @@
         background:$white;
       }
       &.bar-button{
-        &:hover{
-          background:$primary-blue;
+         &:hover{
+          background-color: darken(#EE1E48, 20%);
+          border-color: darken(#EE1E48, 20%);
         }
       }
     }

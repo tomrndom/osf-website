@@ -21,7 +21,7 @@
           <!-- /.hero-entry -->
           <div class="hero-actions">
         
-            <a href="/projects/" class="button">
+            <a href="/projects/" class="button button-white">
               <span>OSF projects</span>
             </a>
             <a href="https://www.openstack.org/join#sponsor" class="button button-red">

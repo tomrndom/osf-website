@@ -141,8 +141,10 @@
   display: inline-block;
   vertical-align: middle;
   padding: 4px 14px;
-  text-decoration: underline;
   color: $white;
+  &:hover{
+  	text-decoration: underline;
+  }
 }
 
 /* ------------------------------------------------------------ *\

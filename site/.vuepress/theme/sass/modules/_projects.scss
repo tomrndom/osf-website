@@ -133,6 +133,10 @@
   background-color: #65c7c2;
   color: $white;
   border-color: #65c7c2;
+  &:hover{
+    background-color: darken(#65c7c2, 20%);
+    border-color: darken(#65c7c2, 20%);
+  }
 }
 
 #projects-s3-h3 {
@@ -142,6 +146,10 @@
   background-color: #f05c3f;
   color: $white;
   border-color: #f05c3f;
+ &:hover{
+    background-color: darken(#f05c3f, 20%);
+    border-color: darken(#f05c3f, 20%);
+  }
 }
 
 #projects-s4-h3 {
@@ -151,6 +159,10 @@
   background-color: #685bc7;
   color: $white;
   border-color: #685bc7;
+  &:hover{
+    background-color: darken(#685bc7, 20%);
+    border-color: darken(#685bc7, 20%);
+  }
 }
 
 #projects-s5-h3 {
@@ -160,6 +172,18 @@
   background-color: #071d49;
   color: $white;
   border-color: #071d49;
+   &:hover{
+    background-color: darken(#071d49, 20%);
+    border-color: darken(#071d49, 20%);
+  }
+}
+
+.button-white {
+   &:hover{
+    background-color: #ee1e48;
+    border-color: #ee1e48;
+    color: #133e68;
+  }
 }
 
 // ############ projects section 2
