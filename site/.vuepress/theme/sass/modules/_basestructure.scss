@@ -494,3 +494,11 @@ div.content.custom > main > section > div > div > div > h3 {
     } 
   }
 }
+/*list bullets*/
+ul{
+  li{
+    &:before{
+      color: #133e68!important;
+    }
+  }
+}
