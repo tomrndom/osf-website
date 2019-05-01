@@ -767,10 +767,8 @@
 .carousel {
     min-height: 130px;
 }
-#platinum-carousel,
-#gold-carousel {
+.home-s8-container-child {
   margin-top: 2em;
-  max-height: 100px;
   @media (max-width: $screen-md-min){
     margin-top: 1em;
     margin-right: 0;
