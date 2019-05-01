@@ -2,7 +2,6 @@
 	Variables
 \* ------------------------------------------------------------ */
 
-
 /*
   RED EE1E48
   BLUE 133E68    133E68
@@ -20,7 +19,6 @@ $screen-lg-min: 992px;
 // Large tablets and desktops
 $screen-xl-min: 1200px;
 $screen-md: 1023px; //1023px;
-
 
 // @media (max-width: $screen-md) {
 //   img.feature-icons {
@@ -43,25 +41,25 @@ $container-gutter: 15px;
 
 $column-gap: 24px;
 
-$back-darkest: #0A2743;
+$back-darkest: #0a2743;
 
 $family-primary: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif;
 $body-size: 14px;
 $body-line-height: 1.2;
 
-$primary: #2A394E;
+$primary: #2a394e;
 $primary-invert: findColorInvert($primary);
 
-$dark-gray: #EE1E48; //#333
+$dark-gray: #ee1e48; //#333
 $dark-gray-invert: findColorInvert($dark);
 
-$primary-blue: #2A394E;
+$primary-blue: #133e68;
 $primary-blue-invert: findColorInvert($primary-blue);
 
 $purple-light: #c0a9f7;
 $purple-light-invert: findColorInvert($purple-light);
 
-$dark: #133E68; // #0c0016
+$dark: #133e68; // #0c0016
 $dark-invert: findColorInvert($dark);
 
 $danger: #d91a31;
@@ -69,7 +67,7 @@ $danger-invert: findColorInvert($danger);
 
 $dark-light: #4a4a4a;
 
-$primary-dark: #F15B3E;
+$primary-dark: #f15b3e;
 
 $gray: #9b9b9b;
 $white: #fff;

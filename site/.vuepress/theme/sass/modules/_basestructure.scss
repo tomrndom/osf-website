@@ -13,7 +13,7 @@
 }
 
 .fix-h3 {
-  color: rgba(19,62,104,1.0);
+  color: rgba(19, 62, 104, 1);
   text-align: left;
   margin: 0px;
   padding: 0px;
@@ -23,17 +23,16 @@
   font-size: 32px;
   line-height: 33px;
   text-transform: uppercase;
-  @media screen and(max-width: $screen-md-min){
+  @media screen and(max-width: $screen-md-min) {
     font-size: 26px;
     line-height: 32px;
     padding-top: 1em;
   }
-
 }
 .fix-h5 {
-  font-weight: 400;  
+  font-weight: 400;
   font-size: 17px;
-  line-height: 21px;  
+  line-height: 21px;
   color: #000102;
   margin: 0px;
   padding: 0px;
@@ -51,12 +50,11 @@
 
   font-size: 32px;
   line-height: 33px;
-  @media screen and(max-width: $screen-md-min){
+  @media screen and(max-width: $screen-md-min) {
     font-size: 26px;
     line-height: 32px;
     padding-top: 1em;
   }
-
 }
 .fix-h5-white {
   font-weight: 400;
@@ -70,7 +68,7 @@
 }
 
 .bar {
-  background: #EE1E48;
+  background: #ee1e48;
   color: #fff;
   height: auto;
 
@@ -79,7 +77,6 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-
   }
   .bar-entry {
     p {
@@ -87,32 +84,31 @@
       font-size: 15px;
       color: $white;
       text-align: left;
-      line-height: 18.0px;
-      padding-top:1em;
-      padding-bottom:1em;
+      line-height: 18px;
+      padding-top: 1em;
+      padding-bottom: 1em;
 
       a {
         font-weight: 500;
         font-size: 15px;
         color: $white;
         text-align: left;
-        line-height: 18.0px;
+        line-height: 18px;
         margin-right: 2px;
         text-transform: none;
       }
     }
   }
 
-  
   .bar-link {
     flex: 0 0 auto;
     display: inline-block;
     vertical-align: middle;
     font-weight: 400;
-    font-size: 15.0px;
+    font-size: 15px;
     color: $white;
     text-align: left;
-    line-height: 18.0px;
+    line-height: 18px;
     text-decoration: underline;
     margin-left: 10px;
     transition: background 0.3s, border-color 0.3s;
@@ -122,7 +118,6 @@
       color: $white;
     }
   }
-
 }
 
 i {
@@ -137,12 +132,9 @@ i {
   -webkit-transform: rotate(-45deg);
 }
 
-
-
 .logo-containter {
   display: flex;
 }
-
 
 .nav .nav-menu a {
   color: #fff;
@@ -150,9 +142,9 @@ i {
   display: inline-block;
   font-weight: 400;
 
-  font-size: 15.0px;
+  font-size: 15px;
   text-align: left;
-  line-height: 18.0px;
+  line-height: 18px;
 
   @media only screen and (min-width: $screen-sm-min) {
     color: $white;
@@ -166,21 +158,21 @@ i {
   font-size: 25px;
   font-weight: bold;
   font-family: monospace;
-  width: 250px;
+  width: 230px;
   padding: 0px;
   color: $white;
 }
 footer {
-  .logo-containter-child-img{
-    @media (max-width: $screen-md-min){
+  .logo-containter-child-img {
+    @media (max-width: $screen-md-min) {
       margin-right: 1em;
       width: 200px;
     }
-    @media (max-width: $screen-sm-min){
+    @media (max-width: $screen-sm-min) {
       margin-right: 0em;
       width: 150px;
     }
-    @media (max-width:320px){
+    @media (max-width: 320px) {
       margin-right: 0em;
       width: 100px;
       position: absolute;
@@ -189,76 +181,78 @@ footer {
   }
 }
 .hero-main .hero-content {
-  @media (max-width: $screen-md) { //small screen pantalla 
+  @media (max-width: $screen-md) {
+    //small screen pantalla
     margin-top: 0px;
   }
 }
 
 .hero-background {
-  background-image:url('/images/home/openstack-foundation-hero-image.jpg');
+  background-image: url("/images/home/openstack-foundation-hero-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  @media (max-width: $screen-sm-min){
+  @media (max-width: $screen-sm-min) {
     background-position-y: 11em;
     background-size: 114%;
     background-position-x: 50%;
   }
- }
-
- .hero.is-primary {
-   background-color: unset;
- }
-
- .hero-body
-  div.container {
-    padding: 0px;
-  }
-
-  .button {
-    height: auto;
-    padding: 11px 45px;
-    transition: background 0.3s;
-    border-radius: 0px;
-    margin-top: 30px;
-    @media screen and(max-width: $screen-sm-min){
-      margin-top: 1em;
-      width: 100%;  
-    }
 }
-  .button-red {
-    background: #ee1e48;
-    border:0;
-    color: #fff!important;
-    border-radius: 0px;
-    &:hover{
-      background-color: darken(#ee1e48, 20%);
-      border:0;
-    }
+
+.hero.is-primary {
+  background-color: unset;
+}
+
+.hero-body div.container {
+  padding: 0px;
+}
+
+.button {
+  height: auto;
+  padding: 11px 45px;
+  transition: background 0.3s;
+  border-radius: 0px;
+  margin-top: 30px;
+  @media screen and(max-width: $screen-sm-min) {
+    margin-top: 1em;
+    width: 100%;
+  }
+}
+.button-red {
+  background: #ee1e48;
+  border: 0;
+  color: #fff !important;
+  border-radius: 0px;
+  &:hover {
+    background-color: darken(#ee1e48, 20%);
+    border: 0;
+  }
 }
 // ########### /END HERO
 
 // ########### FOOTER
 
 .footer-container {
-  // background-color: #133E68;  
+  // background-color: #133E68;
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
   width: 700px;
-  @media (max-width: $screen-md) { //small screen pantalla 
+  @media (max-width: $screen-md) {
+    //small screen pantalla
     width: unset;
   }
 }
 
-.footer-container-child { 
+.footer-container-child {
   color: #d5d5d5;
-  width:200px;
+  width: 200px;
   margin-bottom: 25px;
   margin-right: 10px;
   padding-right: 10px;
   // @media only screen and (min-width: $screen-sm-min) { //big screen
-  // } 
-  @media (max-width: $screen-md) { //small screen pantalla 
+  // }
+  @media (max-width: $screen-md) {
+    //small screen pantalla
     margin-right: -30px;
     hr {
       // display: none !important;
@@ -267,9 +261,8 @@ footer {
   }
 }
 
-
 .footer-container1 {
-  // background-color: #133E68;  
+  // background-color: #133E68;
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-start;
@@ -277,7 +270,7 @@ footer {
   // align-content: space-around;
   // width: 700px;
   margin-left: 30px;
-  @media (max-width:320px){
+  @media (max-width: 320px) {
     align-items: flex-end;
   }
 }
@@ -293,10 +286,9 @@ footer {
   margin-left: auto;
 }
 
-
 div.content.custom > main > section > div > div > div > h3 {
   margin-top: 0px;
-  margin-bottom: 0px;  
+  margin-bottom: 0px;
   font-weight: 900;
 }
 
@@ -325,8 +317,9 @@ div.content.custom > main > section > div > div > div > h3 {
 .bar-footer-entry {
   margin-left: 10px;
   padding-right: 20px;
-  font-size: 10px;
+  font-size: 11px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .bar-footer-entry-right {
@@ -349,33 +342,33 @@ div.content.custom > main > section > div > div > div > h3 {
   font-size: 47px;
   text-align: left;
   line-height: 45px;
-  @media (max-width: $screen-md-min){
-    padding-top:1em;
+  @media (max-width: $screen-md-min) {
+    padding-top: 1em;
     font-size: 30px;
     line-height: 34px;
   }
-  @media (max-width: $screen-sm-min){
-    padding-top:0em;
+  @media (max-width: $screen-sm-min) {
+    padding-top: 0em;
   }
 }
- 
+
 .hero-entry {
   font-size: 14px;
   max-width: 350px;
   margin-top: 20px;
   font-weight: 400;
   font-size: 17px;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 21px;
 }
 
 .hero-subhead {
   padding-bottom: 5px;
   font-size: 18px;
-  color: #EE1E48;
+  color: #ee1e48;
   font-weight: 500;
   font-size: 22px;
-  color: #EC1944;
+  color: #ec1944;
 }
 
 .nav .nav-menu a {
@@ -395,7 +388,6 @@ div.content.custom > main > section > div > div > div > h3 {
   font-size: 16px;
 }
 
-
 // ###### NESTED MENU
 
 .dropdown {
@@ -406,11 +398,12 @@ div.content.custom > main > section > div > div > div > h3 {
     margin-top: unset;
     background-color: unset;
     border: unset;
-    color: $white;   
+    color: $white;
     cursor: default;
-    @media (max-width: 769px) { //small screen pantalla 
-      color: #133E68;
-    } 
+    @media (max-width: 769px) {
+      //small screen pantalla
+      color: #133e68;
+    }
   }
   .dropdown-content {
     background-color: $white;
@@ -422,11 +415,12 @@ div.content.custom > main > section > div > div > div > h3 {
     margin-top: 22px;
     height: 267px;
     left: 50%;
-    @media (max-width: 769px) { //small screen pantalla 
+    @media (max-width: 769px) {
+      //small screen pantalla
       margin-top: 5px;
-    } 
+    }
     a span {
-      color: #133E68;
+      color: #133e68;
       border-bottom: 2px solid $white;
       margin-top: 15px;
       margin-bottom: 5px;
@@ -439,19 +433,20 @@ div.content.custom > main > section > div > div > div > h3 {
       padding-left: 33px;
     }
 
-
     a:hover span {
-      border-bottom: 2px solid #133E68;
+      border-bottom: 2px solid #133e68;
     }
-    
+
     .menuitemeffect {
       height: 49px;
-      @media (max-width: 769px) { //small screen pantalla 
+      @media (max-width: 769px) {
+        //small screen pantalla
         height: 30px;
-      } 
-    } 
+      }
+    }
 
-    &:after { /* arrow */
+    &:after {
+      /* arrow */
       // bottom: 70%;
       top: -2px;
       left: 50%;
@@ -466,13 +461,11 @@ div.content.custom > main > section > div > div > div > h3 {
       border-width: 20px;
       margin-left: -30px;
     }
-
   }
 }
 
-
 .nested-menu-image {
-  display: none;  
+  display: none;
   height: 0px;
   img {
     margin-left: -428px;
@@ -482,22 +475,24 @@ div.content.custom > main > section > div > div > div > h3 {
   }
 }
 
-.dropdown.is-active .dropdown-menu, .dropdown.is-hoverable:hover .dropdown-menu {
+.dropdown.is-active .dropdown-menu,
+.dropdown.is-hoverable:hover .dropdown-menu {
   display: block;
-  left: calc( 50% - 110px );
+  left: calc(50% - 110px);
   width: 240px;
   .nested-menu-image {
-    display: block;  
-    @media (max-width: 1024px) { //small screen pantalla 
-      display: none;  
-    } 
+    display: block;
+    @media (max-width: 1024px) {
+      //small screen pantalla
+      display: none;
+    }
   }
 }
 /*list bullets*/
-ul{
-  li{
-    &:before{
-      color: #133e68!important;
+ul {
+  li {
+    &:before {
+      color: #133e68 !important;
     }
   }
 }
