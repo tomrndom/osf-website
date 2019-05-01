@@ -76,7 +76,7 @@ meta:
         </div>        
     </div>
     <div class="projetcs-s1-container-child column is-3">
-      <a href="https://www.openstack.org" class="button button-red" style="margin-top:0;">
+      <a href="https://www.openstack.org" class="button button-red projects-btn">
         <span>openstack.org <img src="/images/symbols/arrow-left.svg" alt="" /></span>
       </a>
     </div>
@@ -85,7 +85,7 @@ meta:
     <div class="column is-2">
       <img src="/images/projects/logo3.svg" alt="" class="projetcs-s1-container-child">
     </div>
-    <div class="projetcs-s1-container-child column is-6 is-full-mobile">
+    <div class="projetcs-s1-container-child column is-7 is-full-mobile">
         <h2>KATA CONTAINERS</h2>
         <h3 id="projects-s3-h3">Secure, lightweight CRI compatible virtualized containers.</h3>
         <p>Kata containers is an open source project delivering increased container security and Workload isolation through an implementation of lightweight virtual machines.</p>
@@ -103,8 +103,8 @@ meta:
             </div>
         </div>        
     </div>
-    <div class="projetcs-s1-container-child">
-        <a href="https://katacontainers.io" class="button button-red"  id="projects-s3-btn">
+    <div class="projetcs-s1-container-child column is-3">
+        <a href="https://katacontainers.io" class="button button-red projects-btn"  id="projects-s3-btn">
             <span>katacontainers.io <img src="/images/symbols/arrow-left.svg" alt="" /></span>
         </a>
     </div>
@@ -114,7 +114,7 @@ meta:
     <div class="column is-2">
       <img src="/images/projects/logo5.svg" alt="" class="projetcs-s1-container-child">
     </div>
-    <div class="projetcs-s1-container-child column is-6 is-full-mobile">
+    <div class="projetcs-s1-container-child column is-7 is-full-mobile">
         <h2>ZUUL</h2>
         <h3 id="projects-s5-h3">CI/CD platform for gating changes across multiple systems/repos.</h3>
         <p>Zuul is an open source ci/cd platform specializing in gating changes across multiple Systems and applications before landing on a single patch</p>
@@ -132,8 +132,8 @@ meta:
             </div>
         </div>        
     </div>
-    <div class="projetcs-s1-container-child column is-4">
-        <a href="https://zuul-ci.org/" class="button button-red"  id="projects-s5-btn">
+    <div class="projetcs-s1-container-child column is-3">
+        <a href="https://zuul-ci.org/" class="button button-red projects-btn"  id="projects-s5-btn">
             <span>zuul-ci.org <img src="/images/symbols/arrow-left.svg" alt="" /></span>
         </a>
     </div>
@@ -145,7 +145,7 @@ meta:
     <div class="column is-2">
       <img src="/images/projects/logo2.svg" alt="" class="projetcs-s1-container-child">
     </div>
-      <div class="projetcs-s1-container-child column is-6 is-full-mobile">
+      <div class="projetcs-s1-container-child column is-7 is-full-mobile">
           <h2>AIRSHIP</h2>
           <h3 id="projects-s2-h3">Making lifecycle management for open infrastructure simple, repeatable & resilent.</h3>
           <p>Airship is a collection of interoperable and loosely coupled open source tools that Provide for automated cloud provisioning and life cycle managemente in a completely Declarative and predictable way. The focus of this project is the implementation of a declarative platform to introduce openstack on kubernets, and the lifecycle Management of the resulting cloud.</p>
@@ -162,8 +162,8 @@ meta:
               </div>
           </div>        
       </div>
-      <div class="projetcs-s1-container-child column is-4">
-          <a href="https://airshipit.org" class="button button-red" id="projects-s2-btn">
+      <div class="projetcs-s1-container-child column is-3">
+          <a href="https://airshipit.org" class="button button-red projects-btn" id="projects-s2-btn">
               <span>airshipit.org <img src="/images/symbols/arrow-left.svg" alt="" /></span>
          </a>
       </div>
@@ -173,7 +173,7 @@ meta:
     <div class="column is-2">
       <img src="/images/projects/logo4.svg" alt="" class="projetcs-s1-container-child">
     </div>
-      <div class="projetcs-s1-container-child column is-6 is-full-mobile">
+      <div class="projetcs-s1-container-child column is-7 is-full-mobile">
           <h2>STARLING X</h2>
           <h3 id="projects-s4-h3">Edge cloud computing infrastructure for high performance, ultra-low latency applications.</h3>
           <p>StarlingX is a complete cloud infrastructure software stack for the edge used by the Most demanding applications in industrial iot, telecom, and other use cases. Based on Mature production software deployed in mission critical applications, newly open sourced StarlingX code is the base for edge implementations in scalable solutions that Can be productized now.</p>
@@ -192,8 +192,8 @@ meta:
               </div>
           </div>        
       </div>
-      <div class="projetcs-s1-container-child column is-4">
-          <a href="https://starlingx.io" class="button button-red"  id="projects-s4-btn">
+      <div class="projetcs-s1-container-child column is-3">
+          <a href="https://starlingx.io" class="button button-red projects-btn"  id="projects-s4-btn">
             <span>starlingx.io <img src="/images/symbols/arrow-left.svg" alt="" /></span>
           </a>
       </div>
@@ -204,7 +204,7 @@ meta:
   <div class="container">
     <h4 class="itemtitle">Interested in hosting your project with OSF? </h4>
     <div class="fix-h5">There are a few ways to start open source projects with OSF. Every project’s needs and goals are unique so the first step is to setup an exploratory review between the project leaders and OSF staff to discuss the project’s scope, use cases and vision for the future.</div>
-    <a href="mailto:info@openstack.org" class="button button-red">
+    <a href="mailto:info@openstack.org" class="button button-red projects-btn">
         <span>Contact us</span>
     </a>
   </div>
