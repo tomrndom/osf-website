@@ -770,7 +770,6 @@
 #platinum-carousel,
 #gold-carousel {
   margin-top: 2em;
-  margin-right: 2em;
   max-height: 100px;
   @media (max-width: $screen-md-min){
     margin-top: 1em;
@@ -780,8 +779,8 @@
     margin-right: 0;
   }
 }
-#platinum-carousel{
-  margin-right: 0;
+#gold-carousel .carousel-item img {
+  margin-right: 1em;
 }
 .carousel-inner{
   @media (max-width: $screen-md-min){
