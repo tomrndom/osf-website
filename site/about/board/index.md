@@ -706,7 +706,7 @@ meta:
                     <div class="fix-h5">P.O. Box 1903</div>
                     <div class="fix-h5">Austin TX, 78767</div>
                     <div class="fix-h5">512-827-8633</div>
-                    <a href="mailto:info@openstack.org" class="button button-red" id="btncontactus">
+                    <a href="mailto:community@openstack.org" class="button button-red" id="btncontactus">
                         <span>Contact us</span>
                     </a>
                 </div>

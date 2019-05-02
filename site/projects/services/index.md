@@ -1,44 +1,44 @@
 ---
 layout: about
-title: 'Services'
+title: "Services"
 
 hero:
-  title: 'OSF Project Services'
-  headline: 'These are the activities open source projects need to do to effectively build a broad community and drive the effectiveness of their software.'
+  title: "OSF Project Services"
+  headline: "These are the activities open source projects need to do to effectively build a broad community and drive the effectiveness of their software."
 
 home: false
 project: false
 about: true
 
 meta:
-  - property: 'og:title'
-    content: 'We help people Build & Operate Open Infrastructure'
-  - property: 'og:type'
-    content: 'website'
-  - property: 'og:url'
-    content: 'https://osf.dev'
-  - property: 'og:image'
-    content: 'https://osf.dev/images/osficon-social.png'
-  - property: 'og:image:secure_url'
-    content: 'https://osf.dev/images/osficon-social.png'
-  - property: 'og:image:type'
-    content: 'image/png'
-  - property: 'og:image:height'
-    content: '200'
-  - property: 'og:image:width'
-    content: '240'
-  - property: 'og:description'
-    content: 'OSF provides services that open source projects need to build a broad community and drive the effectiveness of their software.'
-  - property: 'og:site_name'
-    content: 'OSF: OpenStack Foundation'
-  - property: 'og:locale'
-    content: 'en_US'
-  - property: 'fb:app_id'
-    content: '209869746011654'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:site'
-    content: '@openstack'
+  - property: "og:title"
+    content: "We help people Build & Operate Open Infrastructure"
+  - property: "og:type"
+    content: "website"
+  - property: "og:url"
+    content: "https://osf.dev"
+  - property: "og:image"
+    content: "https://osf.dev/images/osficon-social.png"
+  - property: "og:image:secure_url"
+    content: "https://osf.dev/images/osficon-social.png"
+  - property: "og:image:type"
+    content: "image/png"
+  - property: "og:image:height"
+    content: "200"
+  - property: "og:image:width"
+    content: "240"
+  - property: "og:description"
+    content: "OSF provides services that open source projects need to build a broad community and drive the effectiveness of their software."
+  - property: "og:site_name"
+    content: "OSF: OpenStack Foundation"
+  - property: "og:locale"
+    content: "en_US"
+  - property: "fb:app_id"
+    content: "209869746011654"
+  - property: "twitter:card"
+    content: "summary"
+  - property: "twitter:site"
+    content: "@openstack"
 ---
 
 <section class="section about-s1-main">
@@ -111,14 +111,12 @@ meta:
   </div>
 </section>
 
-
 <section class="projects-s2-main">
   <div class="container">
     <h4 class="itemtitle">Interested in hosting your project with OSF? </h4>
     <div class="fix-h5">There are a few ways to start open source projects with OSF. Every project’s needs and goals are unique so the first step is to setup an exploratory review between the project leaders and OSF staff to discuss the project’s scope, use cases and vision for the future.</div>
-    <a href="mailto:info@openstack.org" class="button button-red">
+    <a href="mailto:community@openstack.org" class="button button-red">
         <span>Contact us</span>
     </a>
   </div>
 </section>
-

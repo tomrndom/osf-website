@@ -204,7 +204,7 @@ meta:
   <div class="container">
     <h4 class="itemtitle">Interested in hosting your project with OSF? </h4>
     <div class="fix-h5">There are a few ways to start open source projects with OSF. Every project’s needs and goals are unique so the first step is to setup an exploratory review between the project leaders and OSF staff to discuss the project’s scope, use cases and vision for the future.</div>
-    <a href="mailto:info@openstack.org" class="button button-red projects-btn">
+    <a href="mailto:community@openstack.org" class="button button-red projects-btn">
         <span>Contact us</span>
     </a>
   </div>
