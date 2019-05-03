@@ -528,9 +528,11 @@ meta:
                 </div>
             </div>
         </div>
-        <div class="aboutstaff-s2-container">
-            <div class="fix-h3">SUPPORTING CAST</div>
-        </div>
+        </section>
+        <section class="aboutstaff-s2-main container">
+            <div class="aboutstaff-s2-container">
+                <div class="fix-h3">SUPPORTING CAST</div>
+            </div>
         <!-- PERSON  -->
         <div class="aboutstaff-s2-container">
             <div class="aboutstaff-s2-container-border">
