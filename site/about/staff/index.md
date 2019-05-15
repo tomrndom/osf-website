@@ -441,7 +441,7 @@ meta:
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/about-staff/KendallNelson.jpg" alt="">
+                                    <img src="/images/about-staff/kendallnelson.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
