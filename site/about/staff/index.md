@@ -68,7 +68,7 @@ meta:
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/28" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/jbryce"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/jbryce" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                     <a href="https://www.linkedin.com/in/jbryce" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
@@ -95,7 +95,7 @@ meta:
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/31" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/sparkycollier"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/sparkycollier" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                     <a href="https://www.linkedin.com/in/markcollier" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
@@ -123,7 +123,7 @@ meta:
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/7506" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/heidiscoop"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/heidiscoop" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                     <a href="https://www.linkedin.com/in/heidiskupienbretz" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
@@ -150,7 +150,7 @@ meta:
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/154" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/tcarrez"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/tcarrez" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                     <a href="https://www.linkedin.com/in/thierry-carrez-652662a" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
@@ -177,7 +177,7 @@ meta:
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/20997" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/iamweswilson"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/iamweswilson" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                     <a href="https://www.linkedin.com/in/iamweswilson" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
@@ -214,7 +214,7 @@ meta:
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Clark Boylan</p>
-                                <p class="is-6">Infrastructure Engineer</p>
+                                <p class="is-6">Principal Engineer</p>
                                 <p class="is-6">It all started as a volunteer sysadmin at Portland State University. Since then Clark has operated large network infrastructures, built radios for airplanes, and is now a core member of the OpenStack project infrastructure team. When not in front of a keyboard, Clark enjoys brewing beer and barbecuing brisket in his brother's back yard.</p>
                             </div>
                         </div>
@@ -252,7 +252,7 @@ meta:
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/96706" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/JamesColeDesign"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/JamesColeDesign" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                     <a href="https://www.linkedin.com/in/jcoledesign" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
@@ -278,7 +278,7 @@ meta:
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/50757" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/erindisney"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/erindisney" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                     <a href="https://www.linkedin.com/in/erindisney" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
@@ -291,7 +291,7 @@ meta:
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Erin Disney</p>
-                                <p class="is-6">Marketing Manager</p>
+                                <p class="is-6">Senior Event Marketing Manager</p>
                                 <p class="is-6">Erin Disney works as a Marketing Manager for the OpenStack Foundation. Prior to joining, Erin ran events for W2O Group including CES, JPMorgan Healthcare, SXSW, and Social Media Week activations. She also has experience in digital marketing strategy, analytics, internal/external communications, and project management. Away from work she loves live music, stand up comedy, exploring Austin’s restaurant scene, and spoiling her Bengal cat Cloris Leachman.</p>
                             </div>
                         </div>
@@ -329,7 +329,7 @@ meta:
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/10331" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/hogepodge"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/hogepodge" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                     <a href="https://www.linkedin.com/in/chris-hoge-9915671" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
@@ -355,7 +355,7 @@ meta:
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/6997" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/Massey"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/Massey" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                     <a href="https://www.linkedin.com/in/clairemassey" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
@@ -381,7 +381,7 @@ meta:
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/1395" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/jimmymcarthur"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/jimmymcarthur" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                     <a href="https://www.linkedin.com/in/jimmymcarthur/" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
@@ -407,7 +407,7 @@ meta:
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/17777" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/amprice88"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/amprice88" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                     <a href="https://www.linkedin.com/in/allisonmarieprice" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
@@ -422,6 +422,33 @@ meta:
                                 <p class="title is-4 card-text-color">Allison Price</p>
                                 <p class="is-6">Senior Marketing Manager</p>
                                 <p class="is-6">Allison manages Marketing Content initiatives including case study development, advertising campaigns, the Superuser online publication and OpenStack User Survey. Her past roles have specialized in social strategy and execution for both B2B and B2C global companies in the technology and consumer industries. In her spare time, she enjoys finding new hiking trails and sharing her love with Celine Dion with anyone and everyone who will listen. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PERSON  -->
+        <div class="aboutstaff-s2-container">
+            <div class="aboutstaff-s2-container-border">
+                <div class="card-social-container-icons">
+                    <a href="https://www.openstack.org/community/members/profile/35859/kendall-nelson" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/knelson92" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://www.linkedin.com/in/kendall-nelson-a7409575/" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-128x128">
+                                    <img src="/images/about-staff/KendallNelson.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4 card-text-color">Kendall Nelson</p>
+                                <p class="is-6">Software Engineer</p>
+                                <p class="is-6">Kendall is an Upstream Developer Advocate at the OpenStack Foundation based in Seattle, WA. She first started working on Cinder and os-brick in the Liberty release and since then gotten involved in Release Mangement, StoryBoard, the Women of OpenStack (WoO), the First Contact SIG, the Contributor Guide, and OpenStack Upstream Institute. She has also worked as an election official for TC and PTL elections (Pike-Rocky) and served as a track chair for the Barcelona, Boston, Sydney, and Vancouver summits.</p>
+                                <p>When she is not evangelizing about the awesomeness of OpenStack, bringing people into the community, or working to make upstream development a friendlier place, she can be found reading Harry Potter, watching Doctor Who, or out on a photo taking adventure.</p>
                             </div>
                         </div>
                     </div>
@@ -468,7 +495,7 @@ meta:
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Jeremy Stanley</p>
-                                <p class="is-6">Infrastructure Engineer</p>
+                                <p class="is-6">Senior Principal Engineer</p>
                                 <p class="is-6">A long-time computer hobbyist and technology generalist, Jeremy's worked as a Unix and GNU/Linux sysadmin for more than two decades focusing on information security, Internet services and data center automation. He's a core member of the OpenStack project infrastructure team and serves on both the technical committee and vulnerability management team. In his spare time he writes free software, hacks on open hardware projects and embedded platforms, restores old video game systems and enjoys articles on math theory and cosmology.</p>
                             </div>
                         </div>
@@ -481,7 +508,7 @@ meta:
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/14820" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/IldikoVancsa"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/IldikoVancsa" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                     <a href="https://hu.linkedin.com/in/ildiko-vancsa-a963499" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
@@ -507,7 +534,7 @@ meta:
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/29123" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/wendallkaters"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/wendallkaters" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                     <a href="https://www.linkedin.com/in/waterskendall" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
