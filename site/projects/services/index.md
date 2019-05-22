@@ -4,7 +4,7 @@ title: "OpenStack Foundation Services for Projects"
 
 hero:
   title: "OSF Project Services"
-  headline: "These are the activities open source projects need to do to effectively build a broad community and drive the effectiveness of their software."
+  headline: "These are the activities open source projects need in order to effectively build a broad community and drive the effectiveness of their software."
 
 home: false
 project: false
