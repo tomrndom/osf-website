@@ -4,7 +4,7 @@ title: "The OpenStack Foundation Board of Directors"
 
 hero:
   title: "Board of Directors"
-  headline: "The Board of Directors provides strategic and financial oversight of Foundation resources and staff."
+  headline: "The Board of Directors provides strategic and financial oversight of OSF resources and staff."
   button:
     title: Learn more
     url: "#"
