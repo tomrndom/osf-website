@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "OSF PROJECTS"
+title: "OpenStack Foundation Projects"
 
 hero:
   title: "OSF PROJECTS"
@@ -16,7 +16,7 @@ project: true
 
 meta:
   - property: "og:title"
-    content: "We help people Build & Operate Open Infrastructure"
+    content: "OpenStack Foundation Projects"
   - property: "og:type"
     content: "website"
   - property: "og:url"

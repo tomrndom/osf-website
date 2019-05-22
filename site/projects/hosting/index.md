@@ -1,6 +1,6 @@
 ---
 layout: about
-title: "Host your project at the Open Infrastructure Foundation"
+title: "Host your project at the OpenStack Foundation"
 
 hero:
   title: "Host your project at OSF"

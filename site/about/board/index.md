@@ -1,6 +1,6 @@
 ---
 layout: about
-title: "THE OPENSTACK FOUNDATION"
+title: "The OpenStack Foundation Board of Directors"
 
 hero:
   title: "Board of Directors"
@@ -13,7 +13,7 @@ project: false
 about: true
 meta:
   - property: "og:title"
-    content: "We help people Build & Operate Open Infrastructure"
+    content: "The OpenStack Foundation Board of Directors"
   - property: "og:type"
     content: "website"
   - property: "og:url"

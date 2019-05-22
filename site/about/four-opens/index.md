@@ -4,7 +4,7 @@ title: "The 4 Opens"
 
 hero:
   title: "The 4 Opens"
-  headline: "We at OSF consider The Four Opens our guiding principles in everything we do."
+  headline: "We at the OpenStack Foundation consider The Four Opens our guiding principles in everything we do."
 
 home: false
 project: false

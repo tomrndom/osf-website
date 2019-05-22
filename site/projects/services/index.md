@@ -1,6 +1,6 @@
 ---
 layout: about
-title: "Services"
+title: "OpenStack Foundation Services for Projects"
 
 hero:
   title: "OSF Project Services"
@@ -12,7 +12,7 @@ about: true
 
 meta:
   - property: "og:title"
-    content: "We help people Build & Operate Open Infrastructure"
+    content: "OpenStack Foundation Services for Projects"
   - property: "og:type"
     content: "website"
   - property: "og:url"

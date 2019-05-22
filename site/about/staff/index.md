@@ -1,6 +1,6 @@
 ---
 layout: about
-title: "THE OPENSTACK FOUNDATION"
+title: "The OpenStack Foundation Staff"
 
 hero:
   title: "Foundation Staff"
@@ -14,7 +14,7 @@ about: true
 
 meta:
   - property: "og:title"
-    content: "We help people Build & Operate Open Infrastructure"
+    content: "The OpenStack Foundation Staff"
   - property: "og:type"
     content: "website"
   - property: "og:url"
