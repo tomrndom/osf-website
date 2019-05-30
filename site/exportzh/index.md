@@ -90,7 +90,6 @@ meta:
 执行总监：Jonathan Bryce: <a href="mailto:jonathan@openstack.org">jonathan@openstack.org</a><br>
 首席运营官：Mark Collier <a href="mailto:mark@openstack.org">mark@openstack.org</a></p>
         <p class="fix-h5"><a href="/export/">Original English version</a>.</p>
-
       </div>
     </div>
   </div>
