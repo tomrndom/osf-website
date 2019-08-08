@@ -589,30 +589,6 @@ meta:
         <div class="aboutstaff-s2-container">
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
-                    <a href="https://www.openstack.org/community/members/profile/57767" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image is-128x128">
-                                    <img src="/images/about-staff/nicolemartinelli.jpg" alt="">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4 card-text-color">Nicole Martinelli</p>
-                                <p class="is-6">A journalist, she works with the OpenStack Foundation marketing team and is responsible for the Superuser publication online and in print. Whether you're solving the mysteries of the universe, building a pet adoption engine or ending storage headaches with OpenStack, she wants to tell your story.</p>
-                                <p>Other things to know: she cares enough about open source to have donned (more than once!) a plushy penguin costume. She never turns down a visit to a data center. A lover of half-baked ideas, half-empty glasses and Half Moon Bay, on good days she thinks like an artist but works like an accountant. Californitaliana.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- PERSON  -->
-        <div class="aboutstaff-s2-container">
-            <div class="aboutstaff-s2-container-border">
-                <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/7565" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
