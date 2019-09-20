@@ -68,10 +68,10 @@ meta:
 
 <section class="projects-s2-main">
   <div class="container">
-    <h4 class="itemtitle">Interested in hosting your project with OSF? </h4>
-    <div class="fix-h5">There are a few ways to start open source projects with OSF. Every project’s needs and goals are unique so the first step is to setup an exploratory review between the project leaders and OSF staff to discuss the project’s scope, use cases and vision for the future.</div>
-    <a href="mailto:community@openstack.org" class="button button-red">
-        <span>Contact us</span>
+    <h4 class="itemtitle">Interested in contributing to the Four Opens? </h4>
+    <div class="fix-h5">Do you have a passion for open source? Share your knowledge with the world and contribute to the Four Opens.</div>
+    <a href="https://opendev.org/osf/four-opens/" class="button button-red">
+        <span>Contribute</span>
     </a>
   </div>
 </section>
