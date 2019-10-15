@@ -122,33 +122,6 @@ meta:
         <div class="aboutstaff-s2-container">
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
-                    <a href="https://www.openstack.org/community/members/profile/7506" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/heidiscoop" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://www.linkedin.com/in/heidiskupienbretz" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image is-128x128">
-                                    <img src="/images/about-staff/HeidiBretz.jpg" alt="">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4 card-text-color">Heidi Bretz</p>
-                                <p class="is-6">Director of Business Development</p>
-                                <p class="is-6">Heidi leads the foundation's efforts to grow and nurture a strong ecosystem around OpenStack.</p>
-                                <p>Heidi has spent over 15 years in the technology world in leadership positions with companies in Silicon Valley and in Seattle including Netscape, Red Herring, Microsoft and Amazon Web Services. She originally launched her career in banking spending nine years with Drexel Burnham Lambert, Wells Fargo and Hambrecht & Quist before falling in love with cutting edge technology when her bank (H&Q) was taking Netscape public . She made the career leap to Netscape and tech and has never looked back! Her passions besides game changing technologies, are cycling, skiing, music and almost any sport that involves speed.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- PERSON  -->
-        <div class="aboutstaff-s2-container">
-            <div class="aboutstaff-s2-container-border">
-                <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/154" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
                     <a href="https://twitter.com/tcarrez" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                     <a href="https://www.linkedin.com/in/thierry-carrez-652662a" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
@@ -216,6 +189,32 @@ meta:
                                 <p class="title is-4 card-text-color">Clark Boylan</p>
                                 <p class="is-6">Principal Engineer</p>
                                 <p class="is-6">It all started as a volunteer sysadmin at Portland State University. Since then Clark has operated large network infrastructures, built radios for airplanes, and is now a core member of the OpenStack project infrastructure team. When not in front of a keyboard, Clark enjoys brewing beer and barbecuing brisket in his brother's back yard.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PERSON  -->
+        <div class="aboutstaff-s2-container">
+            <div class="aboutstaff-s2-container-border">
+                <div class="card-social-container-icons">
+                    <a class="staff-wechat" href="javascript:copyWeChatID('Jing Jiang')"><i class="fa fa-weixin" aria-hidden="true"></i></a>
+                    <a class="staff-contact-email" rel="nofollow" href="mailto:sunny@openstack.org"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    <a href="https://www.openstack.org/community/members/profile/101709" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-128x128">
+                                    <img src="/images/about-staff/SunnyCai.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4 card-text-color">Sunny Cai</p>
+                                <p class="is-6">Marketing Associate</p>
+                                <p class="is-6">Sunny works for the OpenStack Foundation as a Marketing Associate, after working as a Marketing intern for a year after graudating from the University of Washington in Seattle with a Bachelor's degree in Economics and Sociology. During her college career, she served as a student President for FIUTS to provide strategic leadership and produce events for the international students in the University of Washington. Outside of work, she loves weight lifting, boxing, dancing, traveling and almost every outdoor activity.</p>
                             </div>
                         </div>
                     </div>
@@ -318,32 +317,6 @@ meta:
                                 <p class="title is-4 card-text-color">Ashlee Ferguson</p>
                                 <p class="is-6">Marketing Associate</p>
                                 <p class="is-6">Ashlee Ferguson joined the OpenStack Foundation as a Marketing Associate after interning with the Marketing Team for a year. She graduated from the University of Texas at Austin with a Bachelor's degree in Corporate Communication and a Business Minor. Prior to joining the OpenStack Foundation, she worked in event coordination for SXSW Interactive. Outside of work, Ashlee enjoys Austin’s live music scene, coffee shops, and breakfast taco joints.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- PERSON  -->
-        <div class="aboutstaff-s2-container">
-            <div class="aboutstaff-s2-container-border">
-                <div class="card-social-container-icons">
-                    <a href="https://www.openstack.org/community/members/profile/10331" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/hogepodge" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://www.linkedin.com/in/chris-hoge-9915671" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image is-128x128">
-                                    <img src="/images/about-staff/chrishoge.jpg" alt="">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4 card-text-color">Chris Hoge</p>
-                                <p class="is-6">Senior Technical Program Manager</p>
-                                <p class="is-6">Chris Hoge is the Interop Engineer for the OpenStack Foundation. He's been an active contributor to the Interop Working Group (formerly DefCore), and helps run the trademark program for the OpenStack Foundation. He also works on collaborations between the OpenStack and Kubernetes communities. Previously he worked as an OpenStack community manager and developer at Puppet Labs, and operated a research cloud for the College of Arts and Sciences at The University of Oregon. When not cloud computing, he enjoys long-distance running, dancing, and throwing a ball for his Border Collie.</p>
                             </div>
                         </div>
                     </div>
