@@ -96,10 +96,9 @@ meta:
                 <img src="/images/companies/easystack-lg2.jpg" alt="EasyStack">
                 <img src="/images/companies/fiberhome-lg.jpg" alt="FiberHome">
                 <img src="/images/companies/inspur-lg.jpg" alt="Inspur">
-                <img src="/images/companies/inwinstack-lg2.jpg" alt="inwinSTACK">
                 <img src="/images/companies/mirantis-lg-van.jpg" alt="Mirantis">
                 <img src="/images/companies/nec-headline-large.png" alt="NEC">
-                <img src="/images/companies/netapp-sp-lg4.jpg" alt="NetApp">
+                <img src="/images/companies/troila-new-sm.jpg" alt="Troila">
                 <img src="/images/companies/H3C-lg.jpg" alt="New H3C Technologies Co., Limited">
                 <img src="/images/companies/unitedstack-sp-lg.jpg" alt="UnitedStack Inc.">
                 <img src="/images/companies/zte-lg.jpg" alt="ZTE Corporation">
