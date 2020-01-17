@@ -168,7 +168,8 @@ meta:
                 <img src="/images/companies/linuxacademy-lg.jpg" alt="Linux Academy">
                 <img src="/images/companies/lf-large.jpg" alt="Linux Foundation">
                 <img src="/images/companies/logi-strp-rgb2.jpg" alt="Logicalis">
-                <img src="/images/companies/netronome-lg.jpg" alt="Netronome">
+                <img src="/images/companies/logi-strp-rgb2.jpg" alt="Logicalis">
+                <img src="/images/companies/logo-netapp.jpg" alt="NetApp">
                 <img src="/images/companies/Netscout-logo-trans150.png" alt="NetScout">
                 <img src="/images/companies/nokia-lg.jpg" alt="Nokia">
                 <img src="/images/companies/ntt-lg.jpg" alt="NTT Communications">
