@@ -342,7 +342,7 @@ meta:
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Claire Massey</p>
                                 <p class="is-6">Director of Strategic Partnerships</p>
-                                <p class="is-6">Claire Massey is a Senior Marketing Manager for the OpenStack Foundation. Claire oversees the onboarding of new projects to the Foundation and building the programs around these projects.  In past endeavors, she has managed OpenStack Summits, OpenStack Days, hackathons, technical events and the Foundation's presence at industry events.  She has also specialized in the management of social media strategy for global brands, managed donor stewardship and grant writing for The University of Texas at Austin, and event planning for non-profits and a state agency. In her free time, she enjoys pilates, traveling and ordering at restaurants rather than cooking.</p>
+                                <p class="is-6">Claire is the Director of Strategic Partnerships for the OpenStack Foundation. She is primarily responsible for stewarding relationships with stakeholders at organizations across the global open source ecosystem to engage investors and bring open infrastructure technologies to new markets. Claire is also responsible for establishing and onboarding new strategic projects and building out programs. In past endeavors, she has managed OpenStack Summits, OpenStack Days, hackathons, technical events, the Foundation's presence at industry events and marketing communications activities.</p>
                             </div>
                         </div>
                     </div>
