@@ -87,8 +87,9 @@ meta:
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Allison Randal</p>
-                                <p class="is-6">Individual Representative<br/>Eigenstate Ltd, Ericsson Software Technology, The Perl Foundation, Onyx Neon, Inc. </p>
-                                <p class="is-6">Allison is a software developer and open source strategist. She is a board member of the OpenStack Foundation, a board member of the Open Source Initiative, a board member of the Perl Foundation, and co-founder of the FLOSS Foundations group for open source leaders. She previously served as President of the Open Source Initiative, President of the Perl Foundation, board member at the Python Software Foundation, Chief Architect of the Parrot virtual machine, Chairman of the Board at the Parrot Foundation, Open Source Evangelist at O'Reilly Media, Conference Chair of OSCON, Technical Architect of Ubuntu, Open Source Advisor at Canonical, Distinguished Technologist and Open Source Strategist at Hewlett Packard Enterprise, and Distinguished Engineer at SUSE. She participates in the Debian and OpenStack projects, and is currently taking a mid-career research sabbatical to complete a PhD at the University of Cambridge.</p>
+                                <p class="is-6">Individual Representative<br/>Software Freedom Conservancy, Eigenstate Ltd, Ericsson Software Technology, The Perl Foundation, Onyx Neon, Inc. </p>
+                                <p class="is-6">Allison is a software developer and open source strategist. She is a board member of the OpenStack Foundation, a board member of the Software Freedom Conservancy, a board member of the Perl Foundation, and co-founder of the FLOSS Foundations group for open source leaders. She previously served as President of the Open Source Initiative, President of the Perl Foundation, board member at the Python Software Foundation, Chief Architect of the Parrot virtual machine, Chairman of the Board at the Parrot Foundation, Open Source Evangelist at O'Reilly Media, Conference Chair of OSCON, Technical Architect of Ubuntu, Open Source Advisor at Canonical, Distinguished Technologist and Open Source Strategist at Hewlett Packard Enterprise, and Distinguished Engineer at SUSE. She participates in the Debian and OpenStack projects, and is currently taking a mid-career research sabbatical to complete a PhD at the University of Cambridge.
+ </p>
                             </div>
                         </div>
                     </div>
@@ -99,55 +100,21 @@ meta:
         <div class="aboutstaff-s2-container">
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
-                    <a href="https://www.openstack.org/community/members/profile/59601" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/acathrow"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://www.linkedin.com/in/andrewcathrow" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://www.openstack.org/community/members/profile/33567" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/spotzz_"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/andrewcathrow.jpg" alt="">
+                                    <img src="https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/Uploads/_resampled/ScaleWidthWzEwMF0/amymarrich.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
-                                <p class="title is-4 card-text-color">Andrew Cathrow</p>
-                                <p class="is-6">Platinum Representative<br/>Rackspace</p>
-                                <p class="is-6">Andrew has over 20 years of experience in enterprise software and services with diverse roles covering consulting, development, operations, product management, product marketing, and sales engineering.</p>
-                                <p>With over 12 years working in the Open Source world Andrew has extensive experience working with open source communities and in successfully taking open source projects to market including Red Hat's KVM hypervisor and OpenStack.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- PERSON  -->
-        <div class="aboutstaff-s2-container">
-            <div class="aboutstaff-s2-container-border">
-                <div class="card-social-container-icons">
-                    <a href="https://www.openstack.org/community/members/profile/38639" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image is-128x128">
-                                    <img src="/images/board/annis-photo.PNG" alt="">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4 card-text-color">Anni Lai</p>
-                                <p class="is-6">Platinum Representative<br/>Huawei</p>
-                                <p class="is-6">I am an IT technology professional with a passion for community and partnership building.</p>
-                                <p>I'm very fortunate to live in the Silicon Valley area where I obtained a graduate degree in Computer Science, and extensive training in both engineering and business from successful companies such as Sun Microsystems, Oracle, Salesforce.com, Savvis/Centurylink, and now Huawei. For the last 10+ years, I've chosen technology evangelism, partner enablement, and developer empowerment to be the focus of my career.  Over the last 5+ years, I've traveled to 30+ countries visiting telco and enterprise partners and customers in EMEA, APAC, and Latin America to discuss ICT and Cloud initiatives, evangelized OpenStack to both enterprise and telco communities, and presented the latest Cloud/OpenStack technologies and business trends at various industry conferences and forums.</p>
-                                <p>I formally joined the OpenStack community in July 2015 and I've been a regular speaker for the last 3 summits (Tokyo, Austin, and Barcelona). I have conducted one sponsored keynote, several session presentations, and hosted various panels in the area of telco trends, containers, and community. In 2016, I served as an OpenStack Board Director, participated in various OpenStack work groups, helped organize the 1st OpenStack Days: China event with 3500+ registrants, 2400+ attendees and multiple hackathons/bug smash events in China.  With my engineering and business background and training in Enterprise IT and Telco, I would like to continue contributing to the OpenStack community in the following areas:</p>
-                                <p>1. Generate mindshare and increase telco and service provider adoption in OpenStack<br/>
-                                    2. Bring enterprise and telco customer requirements/perspectives to OpenStack community<br/>
-                                    3. Enable the global developer and ISV communities to build interesting apps for OpenStack<br/>
-                                    4. Help woman developers and engineers grow using OpenStack as a platform<br/>
-                                    5. Help OpenStack embrace diversity and make OpenStack a true global movement<br/>
-                                    6. Foster more collaboration and partnerships among OpenStack members and various regional communities</p>
+                                <p class="title is-4 card-text-color">Amy Marrich</p>
+                                <p class="is-6">Individual Representative<br/>O.A.T</p>
+                                <p class="is-6">Amy Marrich is the Open Source Community and Global Training Manager at O.A.T and previously was the OpenStack Instructor at Linux Academy, a Linux System Engineer on the Platform Engineering Cloud Operations team at Rackspace. She is an active member of the Openstack Ansible project and currently serves as the chair both the User Committee and the Diversity and Inclusion Working Group. She has been working in various positions in the IT world for over 20 years, her experience ranges from management and engineering in regards to software development, linux operations, and cloud computing. She lives in New Braunfels, TX with her spouse, three dogs, and two horses. </p>
                             </div>
                         </div>
                     </div>
@@ -174,34 +141,6 @@ meta:
                                 <p class="is-6">Gold Representative<br/>Dell EMC</p>
                                 <p class="is-6">Arkady has been a member of OpenStack since Grizzly. He is director of engineering leading a team of developers responsible for development of DellEMC OpenStack solutions.  Arkady has PhD. in CS from UIUC.  He straddled academic, research, architect, developer, and product owner roles.  Arkady roles included  but not limited to, research publications and Program committee member for various conferences like FAST (<a href="https://www.usenix.org/legacy/events/fast11/organizers.html" target="_blank">https://www.usenix.org/legacy/events/fast11/organizers.html</a>), Chair or board member  of several standard activities, like DAT (http://www.datcollaborative.org),  OpenFabric (<a href="https://www.openfabrics.org/index.php" target="_blank">https://www.openfabrics.org/index.php</a>) and MPI-RT (<a href="http://www.cse.msstate.edu/~yogi/dandass-mpirt-2004.pdf" target="_blank">http://www.cse.msstate.edu/~yogi/dandass-mpirt-2004.pdf</a>) to product delivery, like EMC Atmos, Dell OpenStack solutions among others.</p>
                                 <p>Arkady represents Dell Technologies at OpenStack, including Dell EMC, VMware, Pivotal, VirtuStream.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- PERSON  -->
-        <div class="aboutstaff-s2-container">
-            <div class="aboutstaff-s2-container-border">
-                <div class="card-social-container-icons">
-                    <a href="https://www.openstack.org/community/members/profile/14945" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/ChangBoGuo"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://www.linkedin.com/in/changbo-guo-90123285" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image is-128x128">
-                                    <img src="/images/board/changboguo.JPG" alt="">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4 card-text-color">ChangBo Guo</p>
-                                <p class="is-6">Individual Representative<br/>EasyStack</p>
-                                <p class="is-6">ChangBo Guo serves as Individual Director of OpenStack Foundation in 2017/2018 and Oslo PTL for Pike and Queens. He worked on Linux and AIX for several years. He is one of the earliest OpenStack contributors in China. He has been working on the OpenStack since 2012, when he worked on the PowerVM driver under Nova to support IBM Power Systems. He is Oslo core reviewer and have been contributing several projects like Nova, Neutron, Ironic, Oslo, etc. He is one of top contributors in China, has submitted 1000+ commits, with more than 45000 LOCs.  As founding engineer of EasyStack, he attended the earliest of large-scale OpenStack adoptions in China, such as Lenovo, Postal Savings Bank of China, China Telecom, State Grid, etc. He was involved in the whole adoption, including platform design,  implementation and solving key issues for these customers.</p>
-                                <p>He is also an active OpenStack evangelists in China. He is organizer of China OpenStack user group, and promote OpenStack technologies in several meet-ups in China including Beijing, Xi'an, Chengdu, Shenzhen, etc. He is honored to be the host of Beijing OpenStack meet-up from November 2016 and on. He is also keen to help others learn how to contribute in upstream and delivered presentation about upstream contribution for several companies. He leads a upstream team to make OpenStack better and more popular. He attended several design summits and delivered presentations. He served as track chair of upstream development in Barcelona, Boston and Sydney design summit.
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -266,22 +205,19 @@ meta:
         <div class="aboutstaff-s2-container">
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
-                    <a href="https://www.openstack.org/community/members/profile/3106" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/eglute" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://www.openstack.org/community/members/profile/61513" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/eglesigler.png" alt="">
+                                    <img src="https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/generic-profile-photo.png" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
-                                <p class="title is-4 card-text-color">Egle Sigler</p>
-                                <p class="is-6">Individual Representative<br/>Rackspace</p>
-                                <p class="is-6">Egle Sigler is a principal architect on Rackspace's OpenStack Private Cloud team and an OpenStack Foundation board member. As part of the board, Egle is co-chair of the Interop Working Group (formerly known as DefCore committee). Egle has co-authored two books, DevOps for VMware Administrators and OpenStack Cloud Computing Cookbook.</p>
-                                <p>Egle wants OpenStack to be regarded as one of the most successful open source projects, with a great community to back it. During the past year, Egle has been co-chair of Interop WG (DefCore committee), where she has seen that the impact interop has on OpenStack is crucial. Interoperability is one of the top OpenStack priorities, and she  continues leading the efforts to increase it.</p>
+                                <p class="title is-4 card-text-color">Daniel Becker</p>
+                                <p class="is-6">Platinum Representative <br/>Red Hat </p>
                             </div>
                         </div>
                     </div>
@@ -292,23 +228,25 @@ meta:
         <div class="aboutstaff-s2-container">
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
-                    <a href="https://www.openstack.org/community/members/profile/14812" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://www.openstack.org/community/members/profile/50676" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/liyongle" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/imad.jpg" alt="">
+                                    <img src="https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/_resampled/ScaleWidthWzEwMF0/fred-1.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
-                                <p class="title is-4 card-text-color">Imad Sousou</p>
-                                <p class="is-6">Platinum Representative<br/>Intel</p>
-                                <p class="is-6">Imad Sousou is vice president in the Software and Services Group and general manager of the Open Source Technology Center at Intel Corp. He established the center in 2003 and is responsible for driving Intel's efforts in open source software and architecture across technologies and market segments, including enterprise and carrier-grade Linux and related technologies, virtualization technologies, embedded market segments, and client Linux programs and related technologies.</p>
-                                <p>Imad joined Intel in 1994 as a senior software engineer. Before moving into his current role, he served as director of telecom software programs in the Intel Communications Group and as director of client software engineering in the Home Products Group.</p>
-                                <p>Prior to joining Intel, Imad was a software engineer at Central Point Software working on system utilities for the Apple Mac OS.</p>
-                                <p>Imad holds a bachelor's degree in computer science and mathematics from Portland State University.</p>
+                                <p class="title is-4 card-text-color">Fred LI</p>
+                                <p class="is-6">Platinum Representative<br/>Huawei</p>
+                                <p class="is-6">I am leading OpenStack upstream development team in Huawei, one of the Platinum member of OpenStack.</p>
+                                <p>Since joining OpenStack community in 2015, I have been working to connect customers to OpenStack cumminty, by introducing customers requirements to community, implementing in upstream and helping downstream team to deliver product to customers.</p>
+                                <p>I am also one of the organizers in China Bug Smash events, which happen every 6 months to cooperate with all the developers in China and some outside of China to improve OpenStack software quality by fixing bugs.</p>
+                                <p>I had the opportunity to work as a volunteer in OpenStack Days China, which has more then 2000 attendees.</p>
+                                <p>With my experience of enginneering and management, under support from my team and employer, I am happy to work with all the memebers to improve and promote OpenStack.</p>
                             </div>
                         </div>
                     </div>
@@ -327,7 +265,7 @@ meta:
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/johan.png" alt="">
+                                    <img src="https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/_resampled/ScaleWidthWzEwMF0/SmallProfilePic1.png" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -347,23 +285,25 @@ meta:
         <div class="aboutstaff-s2-container">
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
-                    <a href="https://www.openstack.org/community/members/profile/78867" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://tw.linkedin.com/in/joseph-wang-b75b95108" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://www.openstack.org/community/members/profile/19088" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/ashinclouds" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://www.linkedin.com/in/juliaashleykreger" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/josephwang.jpg" alt="">
+                                    <img src="https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/_resampled/ScaleWidthWzEwMF0/MG-5121-1.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
-                                <p class="title is-4 card-text-color">Joseph Wang</p>
-                                <p class="is-6">Gold Representative<br/>inwinSTACK</p>
-                                <p class="is-6">Joseph is the Vice General Manager at inwinSTACK. He is responsible for marketing and community development. During the last 10 years, he has been involved with technology innovation as an experienced IT industry evangelist.</p>
-                                <p>Predicting the potential of OpenStack, he has led a cloud R&D team since 2012 inside the InWin Group. This team was spun off and became inwinSTACK in 2014. inwinSTACK is an Asia-Pacific Cloud services company focused on OpenStack, Ceph and Kubernetes/Docker. inwinSTACK is also a regular contributor and sponsor for Open Source solutions like OpenStack, Ceph, Kubernetes,Python, etc.</p>
-                                <p>Joseph is engaged in promoting and establishing the OpenStack ecosystem in Asian countries like Taiwan and Japan as well as the countries of South East Asia.  He has served as board director for OpenStack foundation and Linux foundation Edge project Akraino during last years. He is committed to the success of OpenStack and the future of inwinSTACK.</p>
+                                <p class="title is-4 card-text-color">Julia Kreger</p>
+                                <p class="is-6">Individual Representative <br/>Red Hat</p>
+                                <p class="is-6">I started my working career in technology close to twenty years ago. It has surely not been an average career, but a career where I've continually learned and evolved to fulfill the need. In a sense, it all started with Linux and answering some questions about installing Linux. This started a journey into computer networking and eventually shifted to a systems engineering focus with a stop-over in data center operations.</p>
+                                <p>The DevOps movement lead me more into software development and the operationalization of software due to the need to automate large scale systems deployments. This required bringing an operational perspective while bridging to the requirements, and often required digging deep into the underlying code to solve the problem of the day.</p>
+                                <p>In a sense, I found a home in OpenStack in 2014 and the Ironic project in 2015 because of many years spent working with physical hardware in data centers.</p>
+                                <p>I presently work for Red Hat as a Principal Software Engineer, where my upstream focus has been Ironic for the past few years, and my downstream focus has been on helping lead adoption and use of Ironic. </p>
                             </div>
                         </div>
                     </div>
@@ -400,23 +340,26 @@ meta:
         <div class="aboutstaff-s2-container">
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
-                    <a href="https://www.openstack.org/community/members/profile/48" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/markmc_" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://ie.linkedin.com/in/markbmc/" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://www.openstack.org/community/members/profile/6804" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://de.linkedin.com/pub/kurt-garloff/" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/markmc.jpg" alt="">
+                                    <img src="https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/_resampled/ScaleWidthWzEwMF0/11-11-Garloff-Kurt-3b.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
-                                <p class="title is-4 card-text-color">Mark McLoughlin</p>
-                                <p class="is-6">Platinum Representative<br/>Red Hat </p>
-                                <p class="is-6">Mark McLoughlin has spent over 15 years contributing to and leading open source projects such as GNOME, Fedora, KVM, qemu, libvirt, oVirt, and OpenStack.</p>
-                                <p>Mark is Senior Director of Engineering for OpenStack at Red Hat, and has lead Red Hat’s OpenStack efforts since 2011. As an OpenStack contributor, he created the Oslo project, contributed heavily to Nova, and was elected both to the OpenStack Technical Committee and the OpenStack Foundation Board of Directors.</p>
+                                <p class="title is-4 card-text-color">Kurt Garloff</p>
+                                <p class="is-6">Individual Representative <br/>Red Hat </p>
+                                <p class="is-6">I'm currently working on a building a European Cloud initiative - this will be my professional focus starting 2020 after leaving SUSE following their change in direction.</p>
+                                <p>Dec 2018 - Dec 2019, I was responsible for the Cloud and Storage Departments in SUSE R&D.</p>
+                                <p>SUSE builds and maintains the SUSE and Helion OpenStack Cloud Products, is a platinum member of the Foundation and a strong upstream contributor.</p>
+                                <p>Before SUSE, I was leading the architecture, community and consulting teams in Deutsche Telekom's Open Telekom Cloud Team.</p>
+                                <p>DT has been a vocal supporter of OpenStack since I joined in early 2012 -- we have been able to run several OpenStack projects. We have participated in most OpenStack Summits and are active in a few working groups. I personally support the InterOp Workig Group, a key area for OpenStack's success given the centrifugal forces in such a large project. DT has become gold member of the OpenStack Foundation in 2016 and has been headline sponsor for a few summits (Barcelona, Boston, Berlin). I was serving in the board in most of 2018 until I handed over to Clemens Hardewig.</p>
+                                <p>Before joining DT end of 2011 I was a long-time contributor to the Linux kernel, which also gave me the privilege of building up and leading SUSE Labs and work with a number of great engineers in- and outside my company, contributing to the success of the Open Source technology.</p>
                             </div>
                         </div>
                     </div>
@@ -428,22 +371,46 @@ meta:
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/72" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/e_monty" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://www.linkedin.com/in/montytaylor" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="/images/board/montytaylor.jpg" alt="">
+                                    <img src="https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/_resampled/ScaleWidthWzEwMF0/Me2010.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="media-content">
-                                <p class="title is-4 card-text-color">Monty Taylor</p>
-                                <p class="is-6">Individual Representative<br/>Red Hat, Open Infrastructure</p>
-                                <p class="is-6">Monty currently leads the team that works on the Zuul project for CI/CD in Red Hat's CTO Office. He's the founder, core member and past PTL of the OpenStack Infra team which runs CI and developer tooling for OpenStack. He's a member of the OpenStack Foundation Board of Directors, a Python Fellow and past member the OpenStack Technical Committee. Monty is the PTL of the openstacksdk project and is the maintainer of the Ansible modules for consuming OpenStack. Before his OpenStack days he was a core developer on Drizzle and was a Senior Consultant for MySQL, Inc.</p>
-                                <p>Monty has a degree in Theatre Directing and went to grad school at CalArts in lighting design. The intersection of fields has led him to start more than one business around developing technology for and related to live performance. Recently Monty served as an Adjunct Professor at NYU's Tisch School of the Arts teaching a class on programming related to lighting design. If you let him, he'll talk to you WAY too much about Scuba Diving.</p>
+                                <p class="title is-4 card-text-color">Li Kai</p>
+                                <p class="is-6">Gold Representative<br/>99Cloud</p>
+                                <p class="is-6">I am Kai and am the CSO/Co-founder from 99CLOUD. I had been devoting myself for OpenStack for more than 7 years from 2012. 99CLOUD is  the NO.3 code committer. We believe with Open Infra tech, we can some how change the world and help client better in their IT and bussiness transformation. Prior to 99CLOUD, I worked for Intel from 2006~2012 as a SW engineer and Accenture 2012~2014 as Cloud Manager.  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PERSON  -->
+        <div class="aboutstaff-s2-container">
+            <div class="aboutstaff-s2-container-border">
+                <div class="card-social-container-icons">
+                    <a href="https://www.openstack.org/community/members/profile/8899" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://twitter.com/_mnaser" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
+                    <a href="https://linkedin.com/in/mdnaser" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-128x128">
+                                    <img src="https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/_resampled/ScaleWidthWzEwMF0/mnaser.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4 card-text-color">Mohammed Naser</p>
+                                <p class="is-6">Individual Representative<br/>VEXXHOST, Inc.</p>
+                                <p class="is-6">Over the past 10 years, I’m happy to have watched the hosting industry transform and be part of the transformation process as it evolved from traditional physical hardware to cloud-native infrastructure, powered by OpenStack.  Since the creation of VEXXHOST, I have had the chance to work with different sorts of customers, ranging from growing small businesses to helping architect solutions for large Fortune 500 companies, based on OpenStack.  I've helped integrate other open infrastructure projects into our commercial offering.</p>
+                                <p>By fostering OpenStack at it’s early days in 2011, it has helped improve the project and our service as a whole. I’ve been a contributor to the project since and I have contributed code to almost every release of OpenStack since then.  I've also served as PTL for Puppet OpenStack, continue to serve as a PTL for OpenStack-Ansible and serve on the technical commitee, chairing tthe commitee for a term.</p>
                             </div>
                         </div>
                     </div>
@@ -469,34 +436,6 @@ meta:
                                 <p class="title is-4 card-text-color">Prakash Ramchandran</p>
                                 <p class="is-6">Individual Representative<br/>Dell</p>
                                 <p class="is-6">Prakash has 35+ years of Telco/ICT experience with MSEE from IIT Bombay. He is a current Board of Director for Openstack 2018, IEEE SCW SC Vice Chair, NFIC-2018 Chair, and has been a veteran consultant on NFV, MANO, VIM, Virtualization, Conatainerization, Microservices, 5G Core/Edge/Access, Network Slicing and Vertical Industry solutions. The companies he has served for include Micronic Devices, IDM, Microdata Consultants, Intelligent System, Tandem, WinVision, AT&T Mobility, seven.com, coverity.com, AT&T Labs, Futurewei/Huawei Technologies and currently at Dell. He was also part of Valley start-ups and other IT /Internet Data Center ventures in late 90's and early 2000. He brought to table the experience building Platform PoCs using OpenStack ecosystems. He has been a regular attendee of OpenStack, OPNFV, 3GPP NFV/MEC,IEEE forums over the last several years in the Bay Area as well as globally in US, China & India.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- PERSON  -->
-        <div class="aboutstaff-s2-container">
-            <div class="aboutstaff-s2-container-border">
-                <div class="card-social-container-icons">
-                    <a href="https://www.openstack.org/community/members/profile/2805" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/robesker" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://www.linkedin.com/in/resker" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image is-128x128">
-                                    <img src="/images/board/robertesker.jpg" alt="">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4 card-text-color">Robert Esker</p>
-                                <p class="is-6">Gold Representative<br/>NetApp</p>
-                                <p class="is-6">Rob's been involved in the OpenStack community dating to its origin in 2010. He founded NetApp’s OpenStack effort and is presently serving in his fourth term as a member of the foundation's Board of Directors. He's contributed to the community and overall adoption of OpenStack in capacities ranging from having co-founded the Manila project, to architecting some of the earliest OpenStack on NetApp deployments, to co-chairing the Board's membership committee, as a summit track curator, to frequently speaking at design summits, conferences and user groups globally.   His tenure at NetApp has spanned from co-founder of NetApp’s cloud architecture team, to currently leading product & strategy for Open Ecoystem projects and technologies.</p>
-                                <p>In addition to his role in the OpenStack community he's also served in a similar capacity on the Cloud Native Computing Foundation's (CNCF) Governing Board. </p>
-                                <p>Prior to NetApp, Rob was at Apple from 1998-2006.  He served in a variety of roles including as Technical Attaché to the CEO and the Board of Directors reporting directly to Steve Jobs. He’s a former U.S. Marine, and resides in Austin, Texas with his wife & two daughters.</p>
                             </div>
                         </div>
                     </div>
@@ -585,33 +524,6 @@ meta:
         <div class="aboutstaff-s2-container">
             <div class="aboutstaff-s2-container-border">
                 <div class="card-social-container-icons">
-                    <a href="https://www.openstack.org/community/members/profile/19313" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://twitter.com/SeanTMcGinnis" target="_blank"><img src="/images/symbols/icon-3.svg" class="card-social-icons" alt="icon"></a>
-                    <a href="https://www.linkedin.com/in/ryanvanwyk" target="_blank"><img src="/images/symbols/icon-4.svg" class="card-social-icons" alt="icon"></a>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image is-128x128">
-                                    <img src="/images/board/seanmcginnis.png" alt="">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4 card-text-color">Sean McGinnis</p>
-                                <p class="is-6">Individual Representative<br/>Huawei</p>
-                                <p class="is-6">Sean is a Principal Architect in Huawei’s Cloud Open Source Development Team involved in OpenStack and other Cloud related open source projects with a focus on storage related integration.</p>
-                                <p>Sean is currently a member of the OpenStack Technical Committee (TC), the Project Team Lead (PTL) for the Release Management team, the former PTL of the Cinder block storage project, and a core in a number of OpenStack projects. He also serves as the Community and Release Manager for the Linux Foundation OpenSDS project and is an open source liaison with the Storage Network Industry Association (SNIA).</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- PERSON  -->
-        <div class="aboutstaff-s2-container">
-            <div class="aboutstaff-s2-container-border">
-                <div class="card-social-container-icons">
                     <a href="https://www.openstack.org/community/members/profile/4843" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
                 </div>
                 <div class="card">
@@ -682,6 +594,31 @@ meta:
                                 <p>Prior to Google, Vijoy served in numerous CTO capacities including CTO of Networking at IBM Cloud and at IBM Systems and Software Group; CTO of Blade Network Technologies, and has led global Engineering teams at Blade Network Technologies, Nortel and Alteon.</p>
                                 <p>Vijoy has led the industry’s automation and data analytics efforts for cloud-scale networks, and was instrumental in delivering many industry firsts – including the first intent-driven e2e automation framework at Cloud scale, the first Open Source SDN controller; the first VM-aware switch, and the first low-latency HFT/HPC switch.</p>
                                 <p>He has a Ph.D. in Computer Science, and holds over 60 patents in distributed systems & networking.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PERSON  -->
+        <div class="aboutstaff-s2-container">
+            <div class="aboutstaff-s2-container-border">
+                <div class="card-social-container-icons">
+                    <a href="https://www.openstack.org/community/members/profile/119260" target="_blank"><img src="/images/symbols/icon-1.svg" class="card-social-icons" alt="icon"></a>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-128x128">
+                                    <img src="/images/board/vijoypandey.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4 card-text-color">Xin Zhong</p>
+                                <p class="is-6">Gold Representative<br/>China Unicom Wo Cloud </p>
+                                <p class="is-6">Xin Zhong got his Master Degree from Tsinghua University in 2003. He has nearly 20 years of open source related experience. He is an expert in Linux OS, distributed storage and cloud computing. He has been involved in development and operation of several large-scale internet and enterprise cloud platform as technical director or chief architect.Currently, he is the CTO of Wo Cloud for China Unicom.He is in charge of the development team with nearly 200 engineers who are working for public cloud, private cloud and multi-cloud management products.
                                 </p>
                             </div>
                         </div>

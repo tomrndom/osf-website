@@ -187,7 +187,7 @@ meta:
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Clark Boylan</p>
-                                <p class="is-6">Principal Engineer</p>
+                                <p class="is-6">Senior Principal Engineer</p>
                                 <p class="is-6">It all started as a volunteer sysadmin at Portland State University. Since then Clark has operated large network infrastructures, built radios for airplanes, and is now a core member of the OpenStack project infrastructure team. When not in front of a keyboard, Clark enjoys brewing beer and barbecuing brisket in his brother's back yard.</p>
                             </div>
                         </div>
@@ -315,7 +315,7 @@ meta:
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Ashlee Ferguson</p>
-                                <p class="is-6">Marketing Associate</p>
+                                <p class="is-6">Community and Event Coordinator</p>
                                 <p class="is-6">Ashlee Ferguson joined the OpenStack Foundation as a Marketing Associate after interning with the Marketing Team for a year. She graduated from the University of Texas at Austin with a Bachelor's degree in Corporate Communication and a Business Minor. Prior to joining the OpenStack Foundation, she worked in event coordination for SXSW Interactive. Outside of work, Ashlee enjoys Austin’s live music scene, coffee shops, and breakfast taco joints.</p>
                             </div>
                         </div>
@@ -341,7 +341,7 @@ meta:
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 card-text-color">Claire Massey</p>
-                                <p class="is-6">Senior Marketing Manager</p>
+                                <p class="is-6">Director of Strategic Partnerships</p>
                                 <p class="is-6">Claire Massey is a Senior Marketing Manager for the OpenStack Foundation. Claire oversees the onboarding of new projects to the Foundation and building the programs around these projects.  In past endeavors, she has managed OpenStack Summits, OpenStack Days, hackathons, technical events and the Foundation's presence at industry events.  She has also specialized in the management of social media strategy for global brands, managed donor stewardship and grant writing for The University of Texas at Austin, and event planning for non-profits and a state agency. In her free time, she enjoys pilates, traveling and ordering at restaurants rather than cooking.</p>
                             </div>
                         </div>

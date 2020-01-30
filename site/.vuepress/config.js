@@ -40,7 +40,7 @@ module.exports = {
               "text": "About", "img": "/images/menu/menu_about.jpg", "fixcss":"margin-left:-422px;",
               "items": [
                 { "text": '4 Opens', "link": '/about/four-opens/' },
-                { "text": 'Annual report', "link": 'https://www.openstack.org/foundation/2018-openstack-foundation-annual-report' },
+                { "text": 'Annual report', "link": 'https://www.openstack.org/foundation/2019-openstack-foundation-annual-report' },
                 { "text": 'Foundation Staff', "link": '/about/staff/' },
                 { "text": 'Board of Directors', "link": '/about/board/' },
               ]
