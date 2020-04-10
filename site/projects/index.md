@@ -51,6 +51,63 @@ meta:
 
   <div class="projects-s1-container columns">
     <div class="column is-2">
+      <img src="/images/projects/logo2.svg" alt="" class="projetcs-s1-container-child">
+    </div>
+      <div class="projetcs-s1-container-child column is-7 is-full-mobile">
+          <h2>AIRSHIP</h2>
+          <h3 id="projects-s2-h3">Making lifecycle management for open infrastructure simple, repeatable & resilent.</h3>
+          <p>Airship is a collection of interoperable and loosely coupled open source tools that Provide for automated cloud provisioning and life cycle managemente in a completely Declarative and predictable way. The focus of this project is the implementation of a declarative platform to introduce openstack on kubernets, and the lifecycle Management of the resulting cloud.</p>
+          <div class="columns">
+              <div class="column is-three-fifths">
+                  <p><img src="/images/home/icon1.svg" alt=""> EDGE COMPUTING</p>
+                  <p><img src="/images/home/icon3.svg" alt=""> CONTAINER INFRASTRUCTURE</p>
+              </div>
+              <div class="column">
+              <p>IMPORTANT LINKS:</p><br/>
+              <p><a href="http://lists.airshipit.org/cgi-bin/mailman/listinfo">Mailing Lists</a></p>
+              <p><a href="https://airship-treasuremap.readthedocs.io/en/latest/">Documentation</a></p>
+              <p><a href="https://git.airshipit.org/cgit">Code</a></p>
+              </div>
+          </div>        
+      </div>
+      <div class="projetcs-s1-container-child column is-3">
+          <a href="https://airshipit.org" class="button button-red projects-btn" id="projects-s2-btn">
+              <span>airshipit.org <img src="/images/symbols/arrow-left.svg" alt="" /></span>
+         </a>
+      </div>
+  </div>
+  
+  <div class="projects-s1-container columns">
+    <div class="column is-2">
+      <img src="/images/projects/logo3.svg" alt="" class="projetcs-s1-container-child">
+    </div>
+    <div class="projetcs-s1-container-child column is-7 is-full-mobile">
+        <h2>KATA CONTAINERS</h2>
+        <h3 id="projects-s3-h3">Secure, lightweight CRI compatible virtualized containers.</h3>
+        <p>Kata containers is an open source project delivering increased container security and Workload isolation through an implementation of lightweight virtual machines.</p>
+        <div class="columns">
+            <div class="column is-three-fifths">
+                <p><img src="/images/home/icon3.svg" alt=""> CONTAINER INFRASTRUCTURE</p>
+            </div>
+            <div class="column">
+            <p>IMPORTANT LINKS:</p><br/>
+            <p><a href="http://lists.katacontainers.io/cgi-bin/mailman/listinfo">Mailing Lists</a></p>
+            <p><a href="https://katacontainers.io/docs/">Documentation</a></p>
+            <p><a href="https://github.com/kata-containers/runtime/releases/">Releases</a></p>
+            <p><a href="https://katacontainers.io/community/">Blog</a></p>
+            <p><a href="https://github.com/kata-containers">Code</a></p>
+            </div>
+        </div>        
+    </div>
+    <div class="projetcs-s1-container-child column is-3">
+        <a href="https://katacontainers.io" class="button button-red projects-btn"  id="projects-s3-btn">
+            <span>katacontainers.io <img src="/images/symbols/arrow-left.svg" alt="" /></span>
+        </a>
+    </div>
+  </div>
+
+  <div class="projects-s1-container columns">
+    <div class="column is-2">
       <img src="/images/projects/logo1.svg" alt="" class="projetcs-s1-container-child">
     </div>
     <div class="projetcs-s1-container-child column is-7 is-full-mobile">
@@ -79,34 +136,6 @@ meta:
       <a href="https://www.openstack.org" class="button button-red projects-btn">
         <span>openstack.org <img src="/images/symbols/arrow-left.svg" alt="" /></span>
       </a>
-    </div>
-  </div>
-  <div class="projects-s1-container columns">
-    <div class="column is-2">
-      <img src="/images/projects/logo3.svg" alt="" class="projetcs-s1-container-child">
-    </div>
-    <div class="projetcs-s1-container-child column is-7 is-full-mobile">
-        <h2>KATA CONTAINERS</h2>
-        <h3 id="projects-s3-h3">Secure, lightweight CRI compatible virtualized containers.</h3>
-        <p>Kata containers is an open source project delivering increased container security and Workload isolation through an implementation of lightweight virtual machines.</p>
-        <div class="columns">
-            <div class="column is-three-fifths">
-                <p><img src="/images/home/icon3.svg" alt=""> CONTAINER INFRASTRUCTURE</p>
-            </div>
-            <div class="column">
-            <p>IMPORTANT LINKS:</p><br/>
-            <p><a href="http://lists.katacontainers.io/cgi-bin/mailman/listinfo">Mailing Lists</a></p>
-            <p><a href="https://katacontainers.io/docs/">Documentation</a></p>
-            <p><a href="https://github.com/kata-containers/runtime/releases/">Releases</a></p>
-            <p><a href="https://katacontainers.io/community/">Blog</a></p>
-            <p><a href="https://github.com/kata-containers">Code</a></p>
-            </div>
-        </div>        
-    </div>
-    <div class="projetcs-s1-container-child column is-3">
-        <a href="https://katacontainers.io" class="button button-red projects-btn"  id="projects-s3-btn">
-            <span>katacontainers.io <img src="/images/symbols/arrow-left.svg" alt="" /></span>
-        </a>
     </div>
   </div>
 
@@ -140,34 +169,6 @@ meta:
   </div>
 
   <h3 class="itemtitle">PILOT PROJECTS</h3>
-
-  <div class="projects-s1-container columns">
-    <div class="column is-2">
-      <img src="/images/projects/logo2.svg" alt="" class="projetcs-s1-container-child">
-    </div>
-      <div class="projetcs-s1-container-child column is-7 is-full-mobile">
-          <h2>AIRSHIP</h2>
-          <h3 id="projects-s2-h3">Making lifecycle management for open infrastructure simple, repeatable & resilent.</h3>
-          <p>Airship is a collection of interoperable and loosely coupled open source tools that Provide for automated cloud provisioning and life cycle managemente in a completely Declarative and predictable way. The focus of this project is the implementation of a declarative platform to introduce openstack on kubernets, and the lifecycle Management of the resulting cloud.</p>
-          <div class="columns">
-              <div class="column is-three-fifths">
-                  <p><img src="/images/home/icon1.svg" alt=""> EDGE COMPUTING</p>
-                  <p><img src="/images/home/icon3.svg" alt=""> CONTAINER INFRASTRUCTURE</p>
-              </div>
-              <div class="column">
-              <p>IMPORTANT LINKS:</p><br/>
-              <p><a href="http://lists.airshipit.org/cgi-bin/mailman/listinfo">Mailing Lists</a></p>
-              <p><a href="https://airship-treasuremap.readthedocs.io/en/latest/">Documentation</a></p>
-              <p><a href="https://git.airshipit.org/cgit">Code</a></p>
-              </div>
-          </div>        
-      </div>
-      <div class="projetcs-s1-container-child column is-3">
-          <a href="https://airshipit.org" class="button button-red projects-btn" id="projects-s2-btn">
-              <span>airshipit.org <img src="/images/symbols/arrow-left.svg" alt="" /></span>
-         </a>
-      </div>
-  </div>
 
   <div class="projects-s1-container columns">
     <div class="column is-2">
