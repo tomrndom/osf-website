@@ -1,0 +1,63 @@
+/* ------------------------------------------------------------ *\
+    Bulma Styles
+\* ------------------------------------------------------------ */
+
+@import "./bulma/sass/utilities/_all";
+@import "./modules/variables";
+@import "./bulma";
+// @import "~buefy/src/scss/buefy";
+
+/* ------------------------------------------------------------ *\
+    Modules
+\* ------------------------------------------------------------ */
+
+@import "./modules/base";
+@import "./modules/form-elements";
+@import "./modules/container";
+@import "./modules/wrapper";
+@import "./modules/main";
+@import "./modules/content";
+@import "./modules/sidebar";
+@import "./modules/header";
+@import "./modules/bar";
+@import "./modules/btn";
+@import "./modules/link";
+@import "./modules/nav";
+@import "./modules/hero";
+@import "./modules/section";
+@import "./modules/list";
+@import "./modules/box";
+@import "./modules/footer";
+@import "./modules/form";
+@import "./modules/widget";
+@import "./modules/pagination";
+@import "./modules/default-page";
+@import "./modules/search";
+@import "./modules/carousel";
+
+@import "./modules/basestructure";
+@import "./modules/home";
+@import "./modules/projects";
+@import "./modules/about";
+@import "./modules/aboutstaff";
+@import "./modules/companies";
+@import url("https://cloud.typography.com/7369076/7111412/css/fonts.css");
+/*
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0px;
+  padding: 30px;
+  width: 100%;
+  max-width: unset;
+}
+
+section {
+  margin: 0px;
+  padding: 30px;
+  width: 100%;
+  max-width: unset;
+}*/

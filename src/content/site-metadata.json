@@ -1,0 +1,11 @@
+{
+  "siteMetadata": {
+    "title": "OpenStack Foundation",
+    "titleTemplate": "%s | OpenStack Foundation",
+    "description": "Projects further the OSF mission of supporting the development and adoption of production infrastructure with open source components.",
+    "url": "https://osf.dev/",
+    "image": "/img/osficon-social.png",
+    "twitterUsername": "@openstack",
+    "themeColor": "#f15b3e"
+  }
+}
