@@ -1,0 +1,432 @@
+backend:
+  name: github
+  repo: OpenStackweb/osf-website
+  branch: master
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: '[skip ci] Upload “{{path}}”'
+    deleteMedia: '[skip ci] Delete “{{path}}”'
+
+media_folder: static/img
+public_folder: /img
+
+collections:  
+  - name: "configurations"
+    label: "Configurations"
+    editor:
+      preview: false
+    files:
+      - file: "src/content/navbar.json"
+        label: "Navbar"
+        name: "navbar"
+        fields:
+          - {label: "Pages", name: "nav", widget: list, fields: [
+              {label: "Text", name: "text", widget: string},
+              {label: "Link", name: "link", widget: string}
+            ]}
+      - file: "src/content/footer-nav.json"
+        label: "Footer"
+        name: "footer"
+        fields:
+          - {label: "Sections", name: "sections", widget: list, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Items", name: "nav", widget: list, fields: [
+                {label: "Text", name: "text", widget: string},
+                {label: "Link", name: "link", widget: string}
+              ]}
+            ]}
+      - file: "src/content/top-bar.json"
+        label: "Top Bar"
+        name: "topBar"
+        fields:
+          - {label: "Bar Info", name: "bar", widget: object, fields: [
+              {label: "Text", name: "text", widget: string},
+              {label: "Link", name: "link", widget: string},
+              {label: "Button", name: "button", widget: string},
+            ]}
+      - file: "src/content/site-metadata.json"
+        label: "Site Metadata"
+        name: "siteMetadata"
+        fields:
+          - {label: "Metadata", name: "siteMetadata", widget: "object", fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Title Template", name: "titleTemplate", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+              {label: "Theme Color", name: "themeColor", widget: string},
+          ]}        
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/index.md"
+        label: "Landing Page"
+        name: "index"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}
+          - {label: Header, name: header, widget: object, fields: [
+              {label: Upper Title, name: upperTitle, widget: string},
+              {label: Title, name: title, widget: string},
+              {label: Subtitle, name: subTitle, widget: text},              
+              {label: Buttons, name: buttons, widget: list, fields: [
+                {label: Text, name: text, widget: string}, 
+                {label: Link, name: link, widget: string}
+              ]}              
+            ]}          
+          - {label: Mainpitch, name: mainpitch, widget: object, fields: [
+              {label: First Row, name: row1, widget: object, fields: [
+                {label: Title, name: title, widget: string}, 
+                {label: Text, name: text, widget: text},
+                {label: Images, name: images, widget: list, fields: [
+                  {label: Image, name: image, widget: image},
+                  {label: Width, name: width, widget: string},
+                  {label: Height, name: height, widget: string}
+                ]}
+              ]},
+              {label: Second Row, name: row2, widget: object, fields: [
+                {label: Title, name: title, widget: string}, 
+                {label: Text, name: text, widget: text},
+                {label: Images, name: images, widget: list, fields: [
+                  {label: Image, name: image, widget: image}
+                ]}
+              ]}
+            ]}
+          - {label: Why Expand Section, name: whyExpand, widget: object, fields: [
+              {label: Title, name: title, widget: string},
+              {label: Text, name: text, widget: text},
+              {label: Icons, name: icons, widget: list, fields: [
+                {label: Icon, name: image, widget: image},
+                {label: Title, name: text, widget: string},
+              ]}
+          ]}
+          - {label: Projects Section, name: projects, widget: object, fields: [
+              {label: Title, name: title, widget: string},
+              {label: Text, name: text, widget: text},
+              {label: Icons, name: images, widget: list, fields: [
+                {label: Icon, name: image, widget: image},
+              ]},
+              {label: Button, name: button, widget: object, fields: [
+                {label: Text, name: text, widget: string}, 
+                {label: Link, name: link, widget: string}
+              ]}
+            ]}
+          - {label: People Section, name: people, widget: object, fields: [
+              {label: Title, name: title, widget: string},
+              {label: Review, name: review, widget: list, fields: [
+                {label: Name, name: name, widget: string},
+                {label: User, name: user, widget: string},
+                {label: picture, name: picture, widget: string},
+                {label: Opinion, name: text, widget: text}
+              ]}
+            ]}
+          - {label: Companies Section, name: sponsor, widget: object, fields: [
+              {label: Title, name: title, widget: string},
+              {label: Platinum Members, name: platinum, widget: object, fields: [
+                {label: Title, name: title, widget: string},
+                {label: Company List, name: companyList, widget: list, fields: [
+                  {label: Image, name: image, widget: image},
+                  {label: Name, name: alt, widget: string}
+                ]},
+              ]},
+              {label: Gold Members, name: gold, widget: object, fields: [
+                {label: Title, name: title, widget: string},
+                {label: Company List, name: companyList, widget: list, fields: [
+                  {label: Image, name: image, widget: image},
+                  {label: Name, name: alt, widget: string}
+                ]},
+              ]}
+            ]}
+      - file: "src/pages/about/board/index.md"
+        label: "Board"
+        name: "board"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "board-page"}
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}
+          - {label: Header, name: header, widget: object, fields: [
+              {label: "Title", name: title, widget: string},
+              {label: "Sub Title", name: subTitle, widget: string}
+            ]}
+          - {label: "Members", name: members, widget: list, fields: [
+              {label: Name, name: name, widget: string},
+              {label: Picture, name: picture, widget: image},
+              {label: Title, name: title, widget: string},
+              {label: Company, name: company, widget: string},
+              {label: Description, name: description, widget: text},
+              {label: OpenStack Profile, name: openStack, widget: string},
+              {label: Twitter Profile, name: twitter, widget: string},
+              {label: Linkedin Profile, name: linkedin, widget: string},
+            ]}
+      - file: "src/pages/about/fourOpens/index.md"
+        label: "Four Opens"
+        name: "fourOpens"
+        fields:
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fourOpens-page"}
+            - {label: SEO, name: seo, widget: object, fields: [
+                {label: "Title", name: "title", widget: string},
+                {label: "Description", name: "description", widget: string},
+                {label: "Url", name: "url", widget: string},
+                {label: "Image", name: "image", widget: image},
+                {label: "Twitter Username", name: "twitterUsername", widget: string},
+              ]}
+            - {label: Header, name: header, widget: object, fields: [
+                {label: "Title", name: title, widget: string},
+                {label: "Sub Title", name: subTitle, widget: string}
+              ]}
+            - {label: "Body", name: body, widget: markdown}
+      - file: "src/pages/about/staff/index.md"
+        label: "Staff"
+        name: "staff"
+        fields:
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "staff-page"}
+            - {label: SEO, name: seo, widget: object, fields: [
+                {label: "Title", name: "title", widget: string},
+                {label: "Description", name: "description", widget: string},
+                {label: "Url", name: "url", widget: string},
+                {label: "Image", name: "image", widget: image},
+                {label: "Twitter Username", name: "twitterUsername", widget: string},
+              ]}
+            - {label: Header, name: header, widget: object, fields: [
+                {label: "Title", name: title, widget: string},
+                {label: "Sub Title", name: subTitle, widget: text}
+              ]}
+            - {label: Banner, name: banner, widget: object, fields: [
+                {label: "Title", name: title, widget: string},
+                {label: "Sub Title", name: subTitle, widget: text},
+                {label: Image, name: image, widget: image},
+                {label: Button, name: button, widget: object, fields: [
+                  {label: Text, name: text, widget: string},
+                  {label: Url, name: url, widget: string},
+                ]}
+              ]}
+            - {label: "Members", name: members, widget: list, fields: [
+                {label: Name, name: name, widget: string},
+                {label: Picture, name: picture, widget: image},
+                {label: Title, name: title, widget: string},                
+                {label: Description, name: description, widget: text},
+                {label: OpenStack Profile, name: openStack, widget: string},
+                {label: Twitter Profile, name: twitter, widget: string},
+                {label: Linkedin Profile, name: linkedin, widget: string},
+              ]}
+            - {label: "Support Members", name: support, widget: object, fields: [
+                {label: Title, name: title, widget: string},
+                {label: Members, name: members, widget: list, fields: [
+                  {label: Name, name: name, widget: string},
+                  {label: Picture, name: picture, widget: image},
+                  {label: Title, name: title, widget: string},
+                  {label: Description, name: description, widget: text},
+                  {label: OpenStack Profile, name: openStack, widget: string},                  
+                ]}
+              ]}
+      - file: "src/pages/companies/index.md"
+        label: "Companies"
+        name: "companies"
+        fields:
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "companies-page"}
+            - {label: SEO, name: seo, widget: object, fields: [
+                {label: "Title", name: "title", widget: string},
+                {label: "Description", name: "description", widget: string},
+                {label: "Url", name: "url", widget: string},
+                {label: "Image", name: "image", widget: image},
+                {label: "Twitter Username", name: "twitterUsername", widget: string},
+              ]}
+            - {label: Header, name: header, widget: object, fields: [
+                {label: "Title", name: title, widget: string},
+                {label: "Sub Title", name: subTitle, widget: string},
+                {label: Link, name: link, widget: object, fields: [
+                  {label: Text, name: text, widget: string},
+                  {label: Url, name: url, widget: string}
+                ]}
+              ]}
+            - {label: "Companies", name: companies, widget: list, fields: [
+                {label: Title, name: title, widget: string},
+                {label: Text, name: text, widget: text},
+                {label: Company List, name: companyList, widget: list, fields: [
+                  {label: Logo, name: image, widget: image},
+                  {label: Name, name: alt, widget: string},
+                ]}
+              ]}
+      - file: "src/pages/projects/index.md"
+        label: "Projects"
+        name: "projects"
+        fields:
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "projects-page"}
+            - {label: SEO, name: seo, widget: object, fields: [
+                {label: "Title", name: "title", widget: string},
+                {label: "Description", name: "description", widget: string},
+                {label: "Url", name: "url", widget: string},
+                {label: "Image", name: "image", widget: image},
+                {label: "Twitter Username", name: "twitterUsername", widget: string},
+              ]}
+            - {label: Header, name: header, widget: object, fields: [
+                {label: "Title", name: title, widget: string},
+                {label: "Sub Title", name: subTitle, widget: string}                
+              ]}
+            - {label: "Confirmed Projects", name: confirmed, widget: object, fields: [
+                {label: Title, name: title, widget: string},                
+                {label: Project List, name: projectList, widget: list, fields: [
+                  {label: Logo, name: logo, widget: image},
+                  {label: Title, name: title, widget: string},
+                  {label: Subtitle, name: subTitle, widget: string},
+                  {label: CSS Class, name: class, widget: string},
+                  {label: Description, name: description, widget: text},
+                  {label: Button, name: button, widget: object, fields: [
+                    {label: Text, name: text, widget: string},
+                    {label: Link, name: link, widget: string}
+                  ]},
+                  {label: Features, name: features, widget: list, fields: [
+                    {label: Text, name: text, widget: string},
+                    {label: Icon, name: icon, widget: image}
+                  ]},
+                  {label: Links, name: links, widget: object, fields: [
+                    {label: Text, name: text, widget: string},
+                    {label: Link, name: link, widget: string}
+                  ]},
+                ]}
+              ]}
+            - {label: "Pilot Projects", name: pilot, widget: object, fields: [
+                {label: Title, name: title, widget: string},                
+                {label: Project List, name: projectList, widget: list, fields: [
+                  {label: Logo, name: logo, widget: image},
+                  {label: Title, name: title, widget: string},
+                  {label: Subtitle, name: subTitle, widget: string},
+                  {label: CSS Class, name: class, widget: string},
+                  {label: Description, name: description, widget: text},
+                  {label: Button, name: button, widget: object, fields: [
+                    {label: Text, name: text, widget: string},
+                    {label: Link, name: link, widget: string}
+                  ]},
+                  {label: Features, name: features, widget: list, fields: [
+                    {label: Text, name: text, widget: string},
+                    {label: Icon, name: icon, widget: image}
+                  ]},
+                  {label: Links, name: links, widget: object, fields: [
+                    {label: Text, name: text, widget: string},
+                    {label: Link, name: link, widget: string}
+                  ]},
+                ]}
+              ]}
+      - file: "src/pages/projects/hosting/index.md"
+        label: "Hosting"
+        name: "hosting"
+        fields:
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "hosting-page"}
+            - {label: SEO, name: seo, widget: object, fields: [
+                {label: "Title", name: "title", widget: string},
+                {label: "Description", name: "description", widget: string},
+                {label: "Url", name: "url", widget: string},
+                {label: "Image", name: "image", widget: image},
+                {label: "Twitter Username", name: "twitterUsername", widget: string},
+              ]}
+            - {label: Header, name: header, widget: object, fields: [
+                {label: "Title", name: title, widget: string},
+                {label: "Sub Title", name: subTitle, widget: string}
+              ]}
+            - {label: First Row, name: row1, widget: object, fields: [
+                {label: "Title", name: title, widget: string},
+                {label: "Text", name: text1, widget: string},
+                {label: List, name: list, widget: list, fields: [
+                  {label: "Item", name: item, widget: string},
+                ]},
+                {label: "Text", name: text2, widget: string},
+                {label: "Text", name: text3, widget: string},
+                {label: "Email", name: email, widget: object, fields: [
+                  {label: "Text", name: text, widget: string},
+                  {label: "Link", name: link, widget: string},
+                ]},
+                {label: Images, name: images, widget: list, fields: [
+                  {label: Image, name: image, widget: image}
+                ]}
+              ]}
+            - {label: Second Row, name: row2, widget: object, fields: [
+                {label: "Title", name: title, widget: string},
+                {label: "Text", name: text1, widget: string},
+                {label: "Text", name: text2, widget: string},
+                {label: Images, name: images, widget: list, fields: [
+                  {label: Image, name: image, widget: image}
+                ]}
+              ]}
+      - file: "src/pages/projects/services/index.md"
+        label: "Services"
+        name: "services"
+        fields:
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "services-page"}
+            - {label: SEO, name: seo, widget: object, fields: [
+                {label: "Title", name: "title", widget: string},
+                {label: "Description", name: "description", widget: string},
+                {label: "Url", name: "url", widget: string},
+                {label: "Image", name: "image", widget: image},
+                {label: "Twitter Username", name: "twitterUsername", widget: string},
+              ]}
+            - {label: Header, name: header, widget: object, fields: [
+                {label: "Title", name: title, widget: string},
+                {label: "Sub Title", name: subTitle, widget: string}
+              ]}
+            - {label: First Row, name: row1, widget: object, fields: [
+                {label: "Title", name: title1, widget: string},
+                {label: "Text", name: text1, widget: string},                
+                {label: "Title", name: title2, widget: string},
+                {label: "Text", name: text2, widget: string},                
+                {label: Images, name: images, widget: list, fields: [
+                  {label: Image, name: image, widget: image}
+                ]}
+              ]}
+            - {label: Second Row, name: row2, widget: object, fields: [
+                {label: "Title", name: title, widget: string},
+                {label: "Text", name: text, widget: string},
+                {label: Image, name: image, widget: image}
+              ]}
+            - {label: Third Row, name: row3, widget: object, fields: [
+                {label: "Title", name: title, widget: string},
+                {label: "Text", name: text, widget: string},
+                {label: Image, name: image, widget: image}
+              ]}
+            - {label: Fourth Row, name: row4, widget: object, fields: [
+                {label: "Title", name: title, widget: string},
+                {label: "Text", name: text1, widget: string},
+                {label: "Text", name: text2, widget: string},
+                {label: "Link", name: link, widget: object, fields: [
+                  {label: "Text", name: text, widget: string},
+                  {label: "Url", name: url, widget: string},
+                ]},
+                {label: Image, name: image, widget: image}
+              ]}
+            - {label: Fifth Row, name: row5, widget: object, fields: [
+                {label: "Title", name: title, widget: string},
+                {label: "Text", name: text1, widget: string},
+                {label: "Link", name: link1, widget: object, fields: [
+                  {label: "Text", name: text, widget: string},
+                  {label: "Url", name: url, widget: string},
+                ]},
+                {label: "Text", name: text2, widget: string},
+                {label: "Link", name: link2, widget: object, fields: [
+                  {label: "Text", name: text, widget: string},
+                  {label: "Url", name: url, widget: string},
+                ]},
+                {label: "Text", name: text3, widget: string},
+                {label: Images, name: images, widget: list, fields: [
+                  {label: Image, name: image, widget: image}
+                ]}
+              ]}              
+            - {label: Sixth Row, name: row6, widget: object, fields: [
+                {label: "Title", name: title1, widget: string},
+                {label: "Text", name: text1, widget: string},
+                {label: "Title", name: title2, widget: string},
+                {label: "Text", name: text2, widget: string},                
+                {label: Image, name: image, widget: image}
+              ]}              

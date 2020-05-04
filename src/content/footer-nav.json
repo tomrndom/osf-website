@@ -1,0 +1,83 @@
+{
+  "sections": [
+    {
+      "title": "Projects",
+      "nav": [
+        {
+          "text": "All projects",
+          "link": "/projects/"
+        },
+        {
+          "text": "Services",
+          "link": "/projects/services/"
+        },
+        {
+          "text": "Host at OSF",
+          "link": "/projects/hosting/"
+        }
+      ]
+    },
+    {
+      "title": "Membership",
+      "nav": [
+        {
+          "text": "Supporting Companies",
+          "link": "/companies/"
+        },
+        {
+          "text": "Join OSF",
+          "link": "https://www.openstack.org/join"
+        }        
+      ]
+    },
+    {
+      "title": "Events",
+      "nav": [
+        {
+          "text": "Open Infra Summit",
+          "link": "https://www.openstack.org/summit/"
+        },
+        {
+          "text": "Open Infra Days",
+          "link": "https://www.openstack.org/community/events/#openstack_days"
+        },
+        {
+          "text": "Community Meetups",
+          "link": "https://www.meetup.com/pro/osf"
+        }
+      ]
+    },
+    {
+      "title": "About",
+      "nav": [
+        {
+          "text": "4 Opens",
+          "link": "/about/fourOpens/"
+        },
+        {
+          "text": "Annual report",
+          "link": "https://www.openstack.org/foundation/2019-openstack-foundation-annual-report"
+        },
+        {
+          "text": "Foundation Staff",
+          "link": "/about/staff/"
+        },
+        {
+          "text": "Board of Directors",
+          "link": "/about/board/"
+        }
+      ]
+    }
+  ],
+  "footerBar": {
+    "privacy": {
+      "text": "Privacy Policy",
+      "url": "https://openstack.org/privacy/"
+    },
+    "legal": {
+      "text": "Legal",
+      "url": "https://openstack.org/legal/"
+    },
+    "text": "OPENSTACK FOUNDATION ©2019"
+  }
+}

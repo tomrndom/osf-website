@@ -1,0 +1,44 @@
+{
+  "images": [
+    {
+      "image": "/img/about-staff/picture2.jpg",
+      "id": "aboutstaff-s3-id-pic2",
+      "width": "601",
+      "height": "380"
+    },
+    {
+      "image": "/img/about-staff/picture3b.jpg",
+      "id": "aboutstaff-s3-id-pic3",
+      "width": "500",
+      "height": "348"
+    }
+  ],
+  "contactInfo": {
+    "name": "OpenStack Foundation",
+    "poBox": "P.O. Box 1903",
+    "location": "Austin TX, 78767",
+    "phone": "512-827-8633"
+  },
+  "links": [
+    {
+      "text": "Board of Directors",
+      "url": "https://osf.dev/about/board/"
+    },
+    {
+      "text": "Technical Committee",
+      "url": "https://www.openstack.org/foundation/tech-committee/"
+    },
+    {
+      "text": "User Committee",
+      "url": "https://www.openstack.org/foundation/user-committee/"
+    },
+    {
+      "text": "Member Directory",
+      "url": "https://www.openstack.org/community/members/"
+    },
+    {
+      "text": "Supporting Companies",
+      "url": "https://osf.dev/companies/"
+    }
+  ]
+}
