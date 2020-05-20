@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway  
+  name: git-gateway
   branch: fix-cms-errors
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
@@ -22,8 +22,13 @@ collections:
         name: "navbar"
         fields:
           - {label: "Pages", name: "nav", widget: list, fields: [
-              {label: "Text", name: "text", widget: string},
-              {label: "Link", name: "link", widget: string}
+              {label: "Title", name: "title", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Left Margin", name: "marginLeft", widget: string, required: false},
+              {label: "Links", name: "links", widget: list: fields: [
+                {label: "Text", name: "text", widget: string},
+                {label: "Link", name: "url", widget: string}
+              ]}
             ]}
       - file: "src/content/footer-nav.json"
         label: "Footer"
@@ -258,6 +263,7 @@ collections:
                 {label: Company List, name: companyList, widget: list, fields: [
                   {label: Logo, name: image, widget: image},
                   {label: Name, name: alt, widget: string},
+                  {label: Width, name: width, widget: hidden, required: false}
                 ]}
               ]}
       - file: "src/pages/projects/index.md"
@@ -282,7 +288,7 @@ collections:
                   {label: Logo, name: logo, widget: image},
                   {label: Title, name: title, widget: string},
                   {label: Subtitle, name: subTitle, widget: string},
-                  {label: CSS Class, name: class, widget: string},
+                  {label: CSS Class, name: class, widget: string, required: false},
                   {label: Description, name: description, widget: text},
                   {label: Button, name: button, widget: object, fields: [
                     {label: Text, name: text, widget: string},
