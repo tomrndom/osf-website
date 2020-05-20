@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: fix-cms-errors
+  branch: fix-cms-erros
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
