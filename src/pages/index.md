@@ -2,8 +2,8 @@
 templateKey: index-page
 seo:
   description: The Home of Open Infrastructure
-  image: /img/og-image.jpg
-  title: 'OpenStack Foundation '
+  image: /img/android-chrome-192x192.png
+  title: 'OpenStack Foundation (OSF): Open Source Software Foundation'
   twitterUsername: '@openstack'
   url: 'https://osf.dev/'
 header:
