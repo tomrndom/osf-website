@@ -8,7 +8,7 @@
     "@ncwidgets/id": "^0.5.1",
     "axios": "^0.19.2",
     "bulma": "^0.8.1",
-    "gatsby": "^2.20.12",
+    "gatsby": "^2.22.4",
     "gatsby-cli": "^2.11.5",
     "gatsby-image": "^2.3.1",
     "gatsby-plugin-google-analytics": "^2.2.2",
@@ -52,7 +52,7 @@
   "scripts": {
     "clean": "gatsby clean",
     "start": "npm run develop",
-    "build": "npm run clean && gatsby build",
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "develop": "npm run clean && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"

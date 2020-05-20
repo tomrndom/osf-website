@@ -171,6 +171,7 @@ companies:
         image: /img/companies/logi-strp-rgb2.jpg
       - alt: NetApp
         image: /img/companies/logo-netapp.jpg
+        width: 138px
       - alt: NetScout
         image: /img/companies/Netscout-logo-trans150.png
       - alt: Nokia
