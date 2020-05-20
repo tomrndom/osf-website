@@ -63,8 +63,8 @@ collections:
               {label: "Twitter Username", name: "twitterUsername", widget: string},
               {label: "Theme Color", name: "themeColor", widget: string},
           ]}        
-  - name: "pages"
-    label: "Pages"
+  - name: "indexPages"
+    label: "Index Page"
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
@@ -150,6 +150,9 @@ collections:
                 ]},
               ]}
             ]}
+  - name: "aboutPages"
+    label: "About Pages"
+    files:
       - file: "src/pages/about/board/index.md"
         label: "Board"
         name: "board"
@@ -237,6 +240,9 @@ collections:
                   {label: OpenStack Profile, name: openStack, widget: string},                  
                 ]}
               ]}
+  - name: "membershipPages"
+    label: "Membership Pages"
+    files:
       - file: "src/pages/companies/index.md"
         label: "Companies"
         name: "companies"
@@ -266,6 +272,9 @@ collections:
                   {label: Width, name: width, widget: hidden, required: false}
                 ]}
               ]}
+  - name: "projectPages"
+    label: "Projects Pages"
+    files:              
       - file: "src/pages/projects/index.md"
         label: "Projects"
         name: "projects"
