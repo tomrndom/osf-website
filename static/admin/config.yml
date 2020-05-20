@@ -23,8 +23,13 @@ collections:
         name: "navbar"
         fields:
           - {label: "Pages", name: "nav", widget: list, fields: [
-              {label: "Text", name: "text", widget: string},
-              {label: "Link", name: "link", widget: string}
+              {label: "Title", name: "title", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Left Margin", name: "marginLeft", widget: string, required: false},
+              {label: "Links", name: "links", widget: list, fields: [
+                {label: "Text", name: "text", widget: string},
+                {label: "Link", name: "url", widget: string}
+              ]}
             ]}
       - file: "src/content/footer-nav.json"
         label: "Footer"
@@ -59,8 +64,8 @@ collections:
               {label: "Twitter Username", name: "twitterUsername", widget: string},
               {label: "Theme Color", name: "themeColor", widget: string},
           ]}        
-  - name: "pages"
-    label: "Pages"
+  - name: "indexPages"
+    label: "Index Page"
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
@@ -146,6 +151,9 @@ collections:
                 ]},
               ]}
             ]}
+  - name: "aboutPages"
+    label: "About Pages"
+    files:
       - file: "src/pages/about/board/index.md"
         label: "Board"
         name: "board"
@@ -233,6 +241,9 @@ collections:
                   {label: OpenStack Profile, name: openStack, widget: string},                  
                 ]}
               ]}
+  - name: "membershipPages"
+    label: "Membership Pages"
+    files:
       - file: "src/pages/companies/index.md"
         label: "Companies"
         name: "companies"
@@ -259,8 +270,12 @@ collections:
                 {label: Company List, name: companyList, widget: list, fields: [
                   {label: Logo, name: image, widget: image},
                   {label: Name, name: alt, widget: string},
+                  {label: Width, name: width, widget: hidden, required: false}
                 ]}
               ]}
+  - name: "projectPages"
+    label: "Projects Pages"
+    files:              
       - file: "src/pages/projects/index.md"
         label: "Projects"
         name: "projects"
@@ -283,7 +298,7 @@ collections:
                   {label: Logo, name: logo, widget: image},
                   {label: Title, name: title, widget: string},
                   {label: Subtitle, name: subTitle, widget: string},
-                  {label: CSS Class, name: class, widget: string},
+                  {label: CSS Class, name: class, widget: string, required: false},
                   {label: Description, name: description, widget: text},
                   {label: Button, name: button, widget: object, fields: [
                     {label: Text, name: text, widget: string},
@@ -293,7 +308,7 @@ collections:
                     {label: Text, name: text, widget: string},
                     {label: Icon, name: icon, widget: image}
                   ]},
-                  {label: Links, name: links, widget: object, fields: [
+                  {label: Links, name: links, widget: list, fields: [
                     {label: Text, name: text, widget: string},
                     {label: Link, name: link, widget: string}
                   ]},
@@ -315,7 +330,7 @@ collections:
                     {label: Text, name: text, widget: string},
                     {label: Icon, name: icon, widget: image}
                   ]},
-                  {label: Links, name: links, widget: object, fields: [
+                  {label: Links, name: links, widget: list, fields: [
                     {label: Text, name: text, widget: string},
                     {label: Link, name: link, widget: string}
                   ]},

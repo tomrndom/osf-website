@@ -63,7 +63,7 @@ export const ServicesPageTemplate = ({
                 <div className="column">                  
                   {row1.images.map((image, index) => {                    
                     return (
-                      <img src={image.image.childImageSharp.fluid.src} id={index < 1 ? 'about-s1-id-pic4' : 'about-s1-id-pic5'} alt=""  key={index}/>
+                      <img src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image} id={index < 1 ? 'about-s1-id-pic4' : 'about-s1-id-pic5'} alt=""  key={index}/>
                     )
                   })}
                 </div>
@@ -80,12 +80,12 @@ export const ServicesPageTemplate = ({
                   <p className="fix-h5">{row2.text}</p>
                 </div>
                 <div className="column">
-                  <img src={row2.image.childImageSharp.fluid.src} id='about-s1-id-pic6' alt="" />
+                  <img src={!!row2.image.childImageSharp ? row2.image.childImageSharp.fluid.src : row2.image} id='about-s1-id-pic6' alt="" />
                 </div>
               </div>
               <div className="columns">
                 <div className="column">
-                  <img src={row3.image.childImageSharp.fluid.src} id='about-s1-id-pic7' alt="" />
+                  <img src={!!row3.image.childImageSharp ? row3.image.childImageSharp.fluid.src : row3.image} id='about-s1-id-pic7' alt="" />
                 </div>
                 <div className="column">
                   <h3 className="fix-h3">{row3.title}</h3> 
@@ -101,15 +101,15 @@ export const ServicesPageTemplate = ({
                     {row4.text2}
                   </p>
                 </div>
-                <div className="column">
-                  <img src={row4.image.childImageSharp.fluid.src} id='about-s1-id-pic8' alt="" />
+                <div className="column">                  
+                  <img src={!!row4.image.childImageSharp ? row4.image.childImageSharp.fluid.src : row4.image} id='about-s1-id-pic8' alt="" />
                 </div>
               </div>
               <div className="columns">
                 <div className="column">
                   {row5.images.map((image, index) => {                    
                     return (
-                      <img src={image.image.childImageSharp.fluid.src} id={index < 1 ? 'about-s1-id-pic1' : 'about-s1-id-pic2'} alt=""  key={index}/>
+                      <img src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image} id={index < 1 ? 'about-s1-id-pic1' : 'about-s1-id-pic2'} alt=""  key={index}/>                      
                     )
                   })}                  
                 </div>
@@ -132,7 +132,7 @@ export const ServicesPageTemplate = ({
                   <p className="fix-h5">{row6.text2}</p>
                 </div>
                 <div className="column">
-                  <img src={row6.image.childImageSharp.fluid.src} id='about-s1-id-pic3' alt="" />
+                  <img src={!!row6.image.childImageSharp ? row6.image.childImageSharp.fluid.src : row6.image} id='about-s1-id-pic3' alt="" />
                 </div>
               </div>
             </div>
