@@ -1,9 +1,11 @@
 ---
 templateKey: hosting-page
 seo:
-  description: The Home of Open Infrastructure
+  description: >-
+    As an open source software host, the OSF dedicates resources towards
+    advancing the project community's goals and growing adoption. 
   image: /img/osficon-social.png
-  title: Open Source Project Hosting Website - OpenStack Foundation OFS
+  title: Open Source Project Hosting Website
   twitterUsername: '@openstack'
   url: 'https://osf.dev/projects/hosting/'
 header:
