@@ -2,7 +2,7 @@
   "nav": [
     {
       "title": "Projects",
-      "image": "/img/menu/menu_projects.jpg",      
+      "image": "/img/menu/menu_projects.jpg",
       "links": [
         {
           "text": "All projects ",
@@ -15,7 +15,7 @@
         {
           "text": "Host at OSF ",
           "url": "/projects/hosting/"
-        }      
+        }
       ]
     },
     {
@@ -74,10 +74,28 @@
           "url": "/about/board/"
         }
       ]
+    },
+    {
+      "title": "Four Opens",
+      "image": "/img/image3.jpg",
+      "links": [
+        {
+          "text": "Open Source",
+          "url": "/four-opens/open-source/"
+        },
+        {
+          "text": "Open Development",
+          "url": "/four-opens/open-development/"
+        },
+        {
+          "text": "Open Community",
+          "url": "/four-opens/open-community/"
+        },
+        {
+          "text": "Open Design",
+          "url": "/four-opens/open-design/"
+        }
+      ]
     }
-  ],
-  "button": {
-    "text": "Join the OSF",
-    "url": "https://www.openstack.org/join"
-  }
+  ]
 }
