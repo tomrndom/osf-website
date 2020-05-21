@@ -1,8 +1,10 @@
 ---
 templateKey: index-page
 seo:
-  description: The Home of Open Infrastructure
-  image: /img/android-chrome-192x192.png
+  description: >-
+    The OSF is an open source foundation supporting a global community of
+    100,000 individuals to build and operate open infrastructure software. 
+  image: /img/osficon-social.png
   title: 'OpenStack Foundation (OSF): Open Source Software Foundation'
   twitterUsername: '@openstack'
   url: 'https://osf.dev/'
