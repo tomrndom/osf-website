@@ -2,6 +2,7 @@
   "nav": [
     {
       "title": "Projects",
+      "display": true,
       "image": "/img/menu/menu_projects.jpg",
       "links": [
         {
@@ -20,6 +21,7 @@
     },
     {
       "title": "Membership",
+      "display": true,
       "image": "/img/menu/menu_membership.jpg",
       "marginLeft": "-408px",
       "links": [
@@ -35,6 +37,7 @@
     },
     {
       "title": "Events",
+      "display": true,
       "image": "/img/home/image3.jpg",
       "marginLeft": "-346px",
       "links": [
@@ -54,6 +57,7 @@
     },
     {
       "title": "About",
+      "display": true,
       "image": "/img/menu/menu_about.jpg",
       "marginLeft": "-422px",
       "links": [
@@ -77,7 +81,9 @@
     },
     {
       "title": "Four Opens",
+      "display": false,
       "image": "/img/image3.jpg",
+      "marginLeft": "-346px",
       "links": [
         {
           "text": "Open Source",
@@ -97,5 +103,9 @@
         }
       ]
     }
-  ]
+  ],
+  "button": {	
+    "text": "Join the OSF",	
+    "url": "https://www.openstack.org/join"	
+  }
 }
