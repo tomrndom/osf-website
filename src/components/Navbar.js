@@ -53,33 +53,35 @@ const Navbar = class extends React.Component {
             <div className={`nav-content menu-container ${this.state.navBarActiveClass}`}>
               <ul className="nav-menu menu-item">
                 {Menu.nav.map((li, index) => {
-                  return (
-                    <li key={index}>
-                      <div className="dropdown is-hoverable">
-                        <div className="dropdown-trigger">
-                          <button aria-haspopup="true" aria-controls="dropdown-menu" className="button">
-                            <span>{li.title}</span>
-                          </button>
-                        </div>
-                        <div id="dropdown-menu" role="menu" className="dropdown-menu">
-                          <div className="dropdown-content">
-                            <div className="nested-menu-image">
-                              <img src={li.image} alt="" style={li.marginLeft ? { marginLeft: li.marginLeft } : {}} />
+                  if(li.display) {
+                    return (
+                      <li key={index}>
+                        <div className="dropdown is-hoverable">
+                          <div className="dropdown-trigger">
+                            <button aria-haspopup="true" aria-controls="dropdown-menu" className="button">
+                              <span>{li.title}</span>
+                            </button>
+                          </div>
+                          <div id="dropdown-menu" role="menu" className="dropdown-menu">
+                            <div className="dropdown-content">
+                              <div className="nested-menu-image">
+                                <img src={li.image} alt="" style={li.marginLeft ? { marginLeft: li.marginLeft } : {}} />
+                              </div>
+                              {li.links.map((link, index) => {
+                                return (
+                                  <div className="menuitemeffect" key={index}>
+                                    <LinkComponent href={link.url} className="dropdown-item">
+                                      <span>{link.text} </span>
+                                    </LinkComponent>
+                                  </div>
+                                )
+                              })}
                             </div>
-                            {li.links.map((link, index) => {
-                              return (
-                                <div className="menuitemeffect" key={index}>
-                                  <LinkComponent href={link.url} className="dropdown-item">
-                                    <span>{link.text} </span>
-                                  </LinkComponent>
-                                </div>
-                              )
-                            })}                            
                           </div>
                         </div>
-                      </div>
-                    </li>
-                  )
+                      </li>
+                    )
+                  }
                 })}                
                 <li>
                   <LinkComponent href={Menu.button.url} className="bar-button">{Menu.button.text}</LinkComponent>
