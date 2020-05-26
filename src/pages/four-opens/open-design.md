@@ -6,10 +6,9 @@ seo:
   url: https://osf.dev/
   image: /img/og-image.jpg
   twitterUsername: "@openstack"  
-header:
-  title: Open Design
-  subTitle: >- 
-    We at the OpenStack Foundation consider The Four Opens our guiding principles in everything we do.
+title: Open Design
+subTitle: >- 
+  We at the OpenStack Foundation consider The Four Opens our guiding principles in everything we do.
 ---
 
 ## Open Design

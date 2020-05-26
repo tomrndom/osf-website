@@ -13,7 +13,8 @@ import metadata from '../content/site-metadata.json'
 
 export const FourOpensPageTemplate = ({
   seo,
-  header,  
+  title,
+  subTitle,  
   content, 
   contentComponent
 }) => {
@@ -45,8 +46,8 @@ export const FourOpensPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar />
-        <Header title={header.title} subTitle={header.subTitle}/>
-      </div>    
+        <Header title={title} subTitle={subTitle}/>
+      </div>
       
       <main className="main">
         <div className="content">          
@@ -67,9 +68,10 @@ export const FourOpensPageTemplate = ({
 }
 
 FourOpensPageTemplate.propTypes = {  
-  seo: PropTypes.object,
-  header: PropTypes.object,
-  companies: PropTypes.object,  
+  seo: PropTypes.object,  
+  companies: PropTypes.object,
+  title: PropTypes.string,
+  subTitle: PropTypes.string
 }
 
 const FourOpensPage = ({ data }) => {
@@ -80,7 +82,8 @@ const FourOpensPage = ({ data }) => {
       <FourOpensPageTemplate
         contentComponent={HTMLContent}
         seo={post.frontmatter.seo}
-        header={post.frontmatter.header}
+        title={post.frontmatter.title}
+        subTitle={post.frontmatter.subTitle}
         content={post.html}
       />
     </Layout>
@@ -112,10 +115,8 @@ export const fourOpensPageQuery = graphql`
           }
           twitterUsername
         }
-        header {
-          title
-          subTitle
-        }           
+        title
+        subTitle
       }
     }
   }
