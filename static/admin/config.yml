@@ -452,10 +452,11 @@ collections:
               ]}              
   - name: "fourOpensPages"
     label: "Four Opens Pages"
+    create: true
     files:
-      - file: "src/pages/four-opens/open-community/index.md"
-        label: "Four Opens"
-        name: "fourOpens"
+      - file: "src/pages/four-opens/open-community.md"
+        label: "Open Community"
+        name: "openCommunity"
         fields:
             - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fourOpens-page"}
             - {label: SEO, name: seo, widget: object, fields: [
@@ -470,9 +471,9 @@ collections:
                 {label: "Sub Title", name: subTitle, widget: string}
               ]}
             - {label: "Body", name: body, widget: markdown}
-      - file: "src/pages/four-opens/open-design/index.md"
-        label: "Four Opens"
-        name: "fourOpens"
+      - file: "src/pages/four-opens/open-design.md"
+        label: "Open Design"
+        name: "openDesign"
         fields:
             - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fourOpens-page"}
             - {label: SEO, name: seo, widget: object, fields: [
@@ -487,9 +488,9 @@ collections:
                 {label: "Sub Title", name: subTitle, widget: string}
               ]}
             - {label: "Body", name: body, widget: markdown}
-      - file: "src/pages/four-opens/open-development/index.md"
-        label: "Four Opens"
-        name: "fourOpens"
+      - file: "src/pages/four-opens/open-development.md"
+        label: "Open Development"
+        name: "openDevelopment"
         fields:
             - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fourOpens-page"}
             - {label: SEO, name: seo, widget: object, fields: [
@@ -504,9 +505,9 @@ collections:
                 {label: "Sub Title", name: subTitle, widget: string}
               ]}
             - {label: "Body", name: body, widget: markdown}
-      - file: "src/pages/four-opens/open-source/index.md"
-        label: "Four Opens"
-        name: "fourOpens"
+      - file: "src/pages/four-opens/open-source.md"
+        label: "Open Source"
+        name: "openSource"
         fields:
             - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fourOpens-page"}
             - {label: SEO, name: seo, widget: object, fields: [
