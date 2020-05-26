@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: tomrndom/osf-website
-  branch: fix-cms-route
+  branch: fix-cms-routes
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
