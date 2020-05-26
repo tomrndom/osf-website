@@ -32,7 +32,7 @@ const TemplateWrapper = ({ children }) => {
           sizes="16x16"
         />
 
-        <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7369076/7111412/css/fonts.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7369076/7111412/css/fonts.css" />
       </Helmet>
       <SEO />      
       <div>{children}</div>      
