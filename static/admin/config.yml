@@ -452,73 +452,20 @@ collections:
               ]}              
   - name: "fourOpensPages"
     label: "Four Opens Pages"
+    folder: "src/pages/four-opens/"
     create: true
-    files:
-      - file: "src/pages/four-opens/open-community.md"
-        label: "Open Community"
-        name: "openCommunity"
-        fields:
-            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fourOpens-page"}
-            - {label: SEO, name: seo, widget: object, fields: [
-                {label: "Title", name: "title", widget: string},
-                {label: "Description", name: "description", widget: string},
-                {label: "Url", name: "url", widget: string},
-                {label: "Image", name: "image", widget: image},
-                {label: "Twitter Username", name: "twitterUsername", widget: string},
-              ]}
-            - {label: Header, name: header, widget: object, fields: [
-                {label: "Title", name: title, widget: string},
-                {label: "Sub Title", name: subTitle, widget: string}
-              ]}
-            - {label: "Body", name: body, widget: markdown}
-      - file: "src/pages/four-opens/open-design.md"
-        label: "Open Design"
-        name: "openDesign"
-        fields:
-            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fourOpens-page"}
-            - {label: SEO, name: seo, widget: object, fields: [
-                {label: "Title", name: "title", widget: string},
-                {label: "Description", name: "description", widget: string},
-                {label: "Url", name: "url", widget: string},
-                {label: "Image", name: "image", widget: image},
-                {label: "Twitter Username", name: "twitterUsername", widget: string},
-              ]}
-            - {label: Header, name: header, widget: object, fields: [
-                {label: "Title", name: title, widget: string},
-                {label: "Sub Title", name: subTitle, widget: string}
-              ]}
-            - {label: "Body", name: body, widget: markdown}
-      - file: "src/pages/four-opens/open-development.md"
-        label: "Open Development"
-        name: "openDevelopment"
-        fields:
-            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fourOpens-page"}
-            - {label: SEO, name: seo, widget: object, fields: [
-                {label: "Title", name: "title", widget: string},
-                {label: "Description", name: "description", widget: string},
-                {label: "Url", name: "url", widget: string},
-                {label: "Image", name: "image", widget: image},
-                {label: "Twitter Username", name: "twitterUsername", widget: string},
-              ]}
-            - {label: Header, name: header, widget: object, fields: [
-                {label: "Title", name: title, widget: string},
-                {label: "Sub Title", name: subTitle, widget: string}
-              ]}
-            - {label: "Body", name: body, widget: markdown}
-      - file: "src/pages/four-opens/open-source.md"
-        label: "Open Source"
-        name: "openSource"
-        fields:
-            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fourOpens-page"}
-            - {label: SEO, name: seo, widget: object, fields: [
-                {label: "Title", name: "title", widget: string},
-                {label: "Description", name: "description", widget: string},
-                {label: "Url", name: "url", widget: string},
-                {label: "Image", name: "image", widget: image},
-                {label: "Twitter Username", name: "twitterUsername", widget: string},
-              ]}
-            - {label: Header, name: header, widget: object, fields: [
-                {label: "Title", name: title, widget: string},
-                {label: "Sub Title", name: subTitle, widget: string}
-              ]}
-            - {label: "Body", name: body, widget: markdown}            
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fourOpens-page"}
+      - {label: SEO, name: seo, widget: object, fields: [
+          {label: "Title", name: "title", widget: string},
+          {label: "Description", name: "description", widget: string},
+          {label: "Url", name: "url", widget: string},
+          {label: "Image", name: "image", widget: image},
+          {label: "Twitter Username", name: "twitterUsername", widget: string},
+        ]}
+      - {label: Header, name: header, widget: object, fields: [
+          {label: "Title", name: title, widget: string},
+          {label: "Sub Title", name: subTitle, widget: string}
+        ]}
+      - {label: "Body", name: body, widget: markdown}
+    
