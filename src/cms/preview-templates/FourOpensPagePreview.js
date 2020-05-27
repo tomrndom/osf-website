@@ -11,7 +11,7 @@ const FourOpensPagePreview = ({ entry, widgetFor }) => {
       <FourOpensPageTemplate
         title={entry.getIn(['data', 'title'])}
         subTitle={entry.getIn(['data', 'subTitle'])}        
-        content={widgetFor('body')}        
+        content={widgetFor('body')}
       />
     )
   } else {

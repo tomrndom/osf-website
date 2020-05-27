@@ -60,7 +60,9 @@ export const FourOpensPageTemplate = ({
               </div>
             </div>              
           </section>
-          <ContributeFourOpens />
+          {seo && 
+            <ContributeFourOpens />
+          }
         </div>
       </main>
     </div>
