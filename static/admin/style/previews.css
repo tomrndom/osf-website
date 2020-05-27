@@ -1,0 +1,46 @@
+.about-s1-container h2 {
+  font-size: 26px;
+  color: #133e68;
+  text-align: left;
+  line-height: 31px;
+  margin-top: 90px;
+  margin-bottom: 40px;
+
+  padding: 0;
+  margin: 0 0 15px;
+
+  text-transform: uppercase;
+
+  font-weight: 600;
+}
+
+.about-s1-container h3 {
+  font-size: 26px;
+  color: #133e68;
+  text-align: left;
+  line-height: 31px;
+  margin-top: 90px;
+  margin-bottom: 40px;
+
+  padding: 0;
+  margin: 0 0 15px;
+
+  text-transform: uppercase;
+
+  font-weight: 600;
+}
+
+.about-s1-container .columns .column p {
+  color: #000102;
+  line-height: 21px;
+
+  padding: 0;
+  margin: 0 0 15px;
+
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.content p:not(:last-child), .content ul:not(:last-child) {
+  margin-bottom: 1em;
+} 
