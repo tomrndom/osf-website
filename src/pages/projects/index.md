@@ -100,9 +100,6 @@ confirmed:
       logo: /img/projects-img/logo-zuul.svg
       subTitle: CI/CD platform for gating changes across multiple systems/repos.
       title: ZUUL
-  title: CONFIRMED PROJECTS
-pilot:
-  projectList:
     - button:
         link: 'https://airshipit.org/'
         text: airshipit.org
@@ -115,9 +112,9 @@ pilot:
         introduce openstack on kubernets, and the lifecycle  Management of the
         resulting cloud.
       features:
-        - icon: /img/home/icon1.svg
+        - icon: /img/icon1.svg
           text: EDGE COMPUTING
-        - icon: /img/home/icon3.svg
+        - icon: /img/icon3.svg
           text: CONTAINER INFRASTRUCTURE
       links:
         - link: 'http://lists.airshipit.org/cgi-bin/mailman/listinfo'
@@ -126,11 +123,14 @@ pilot:
           text: Documentation
         - link: 'https://git.airshipit.org/cgit'
           text: Code
-      logo: /img/projects-img/logo-airship.svg
+      logo: /img/logo-airship.svg
       subTitle: >-
         Making lifecycle management for open infrastructure simple, repeatable &
         resilent.
       title: AIRSHIP
+  title: CONFIRMED PROJECTS
+pilot:
+  projectList:
     - button:
         link: 'https://starlingx.io/'
         text: starlingx.io
