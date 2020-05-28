@@ -1,6 +1,34 @@
 {
   "nav": [
     {
+      "title": "Four Opens",
+      "display": true,
+      "image": "/img/image3.jpg",
+      "marginLeft": "-346px",
+      "links": [
+        {
+          "text": "The Four Opens",
+          "url": "/four-opens/"
+        },
+        {
+          "text": "Open Source",
+          "url": "/four-opens/open-source/"
+        },
+        {
+          "text": "Open Development",
+          "url": "/four-opens/open-development/"
+        },
+        {
+          "text": "Open Community",
+          "url": "/four-opens/open-community/"
+        },
+        {
+          "text": "Open Design",
+          "url": "/four-opens/open-design/"
+        }
+      ]
+    },
+    {
       "title": "Projects",
       "display": true,
       "image": "/img/menu/menu_projects.jpg",
@@ -72,34 +100,6 @@
         {
           "text": "Board of Directors ",
           "url": "/about/board/"
-        }
-      ]
-    },
-    {
-      "title": "Four Opens",
-      "display": true,
-      "image": "/img/image3.jpg",
-      "marginLeft": "-346px",
-      "links": [
-        {
-          "text": "The Four Opens",
-          "url": "/four-opens/"
-        },
-        {
-          "text": "Open Source",
-          "url": "/four-opens/open-source/"
-        },
-        {
-          "text": "Open Development",
-          "url": "/four-opens/open-development/"
-        },
-        {
-          "text": "Open Community",
-          "url": "/four-opens/open-community/"
-        },
-        {
-          "text": "Open Design",
-          "url": "/four-opens/open-design/"
         }
       ]
     }
