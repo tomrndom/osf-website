@@ -81,10 +81,14 @@
     },
     {
       "title": "Four Opens",
-      "display": false,
+      "display": true,
       "image": "/img/image3.jpg",
       "marginLeft": "-346px",
       "links": [
+        {
+          "text": "The Four Opens",
+          "url": "/four-opens/"
+        },
         {
           "text": "Open Source",
           "url": "/four-opens/open-source/"
@@ -104,8 +108,8 @@
       ]
     }
   ],
-  "button": {	
-    "text": "Join the OSF",	
-    "url": "https://www.openstack.org/join"	
+  "button": {
+    "text": "Join the OSF",
+    "url": "https://www.openstack.org/join"
   }
 }
