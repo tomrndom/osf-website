@@ -6,12 +6,18 @@ const FourOpensPagePreview = ({ entry, widgetFor }) => {
 
   const data = entry.getIn(['data']).toJS()
 
-  if(data) {
+  if (data) {
     return (
       <FourOpensPageTemplate
         title={entry.getIn(['data', 'title'])}
-        subTitle={entry.getIn(['data', 'subTitle'])}        
-        content={widgetFor('body')}        
+        subTitle={entry.getIn(['data', 'subTitle'])}
+        footer={{
+          title: entry.getIn(['data', 'footer', 'title']),
+          subTitle: entry.getIn(['data', 'footer', 'subTitle']),
+          button: entry.getIn(['data', 'footer', 'button']),
+          buttonText: entry.getIn(['data', 'footer', 'buttonText']),
+        }}
+        content={widgetFor('body')}
       />
     )
   } else {

@@ -9,9 +9,15 @@ seo:
 title: Open Design
 subTitle: >- 
   We at the OpenStack Foundation consider The Four Opens our guiding principles in everything we do.
+footer:
+  title: "INTERESTED IN CONTRIBUTING TO THE FOUR OPENS?"
+  subTitle: "Do you have a passion for open source? Share your knowledge with the world and contribute to the Four Opens."
+  button: "https://opendev.org/osf/four-opens/"
+  buttonText: "Contribute"
+  display: true  
 ---
 
-## Open Design
+### Open Design
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel ipsum nec turpis tincidunt semper. Donec placerat velit id efficitur tempor. In hac habitasse platea dictumst. Aenean vel porta eros. Aenean cursus, est sed fermentum porta, enim neque gravida risus, ac accumsan sem nibh a lectus. Morbi tristique mauris vitae risus congue euismod pharetra id dui. Aliquam erat volutpat. Nulla quis convallis nibh, vitae lobortis velit. Sed tellus leo, consequat non facilisis id, laoreet vitae nibh. Aliquam gravida nisl rhoncus imperdiet molestie. Quisque nec diam dui. Aenean posuere augue sit amet lorem congue, eget vestibulum nisi venenatis. Nulla vel fermentum felis.
 

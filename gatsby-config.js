@@ -61,7 +61,8 @@ module.exports = {
             resolve: `gatsby-remark-classes`,
             options: {
               classMap: {
-                "heading[depth=3]": "fix-h3",                
+                "heading[depth=3]": "fix-h3",
+                "heading[depth=2]": "fix-h2",
                 paragraph: "fix-h5",
               }
             }
