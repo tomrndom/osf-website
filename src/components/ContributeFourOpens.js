@@ -1,23 +1,29 @@
 import React from 'react'
 
-import content from '../content/contribute-four-opens.json'
 import LinkComponent from './LinkComponent'
 
 const ContributeFourOpens = class extends React.Component {
   render() {
-    return (
-      <section className="projects-s2-main">
-        <div className="container">
-          <h4 className="itemtitle">{content.title}</h4>
-          <div className="fix-h5">
-          {content.subTitle}
-          </div> 
-          <LinkComponent href={content.email} className="button button-red">
-              <span>{content.email_text}</span>
+
+    const { footer: { title, subTitle, button, buttonText, display } } = this.props;
+
+    if (display) {
+      return (
+        <section className="projects-s2-main">
+          <div className="container">
+            <h4 className="itemtitle">{title}</h4>
+            <div className="fix-h5">
+              {subTitle}
+            </div>
+            <LinkComponent href={button} className="button button-red">
+              <span>{buttonText}</span>
             </LinkComponent>
-        </div>
-      </section>
-    )
+          </div>
+        </section>
+      )
+    } else {
+      return null
+    }
   }
 }
 

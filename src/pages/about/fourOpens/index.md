@@ -9,6 +9,12 @@ seo:
 title: THE 4 OPENS
 subTitle: >-
   We at the OpenStack Foundation consider The Four Opens our guiding principles in everything we do.
+footer:
+  title: "INTERESTED IN CONTRIBUTING TO THE FOUR OPENS?"
+  subTitle: "Do you have a passion for open source? Share your knowledge with the world and contribute to the Four Opens."
+  button: "https://opendev.org/osf/four-opens/"
+  buttonText: "Contribute"
+  display: true
 ---
 
 ### The Four Opens
