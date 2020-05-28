@@ -14,7 +14,8 @@ import metadata from '../content/site-metadata.json'
 export const FourOpensPageTemplate = ({
   seo,
   title,
-  subTitle,  
+  subTitle,
+  footer,  
   content, 
   contentComponent
 }) => {
@@ -60,7 +61,7 @@ export const FourOpensPageTemplate = ({
               </div>
             </div>              
           </section>
-          {seo && <ContributeFourOpens />}          
+          <ContributeFourOpens footer={footer}/>
         </div>
       </main>
     </div>
@@ -71,7 +72,8 @@ FourOpensPageTemplate.propTypes = {
   seo: PropTypes.object,  
   companies: PropTypes.object,
   title: PropTypes.string,
-  subTitle: PropTypes.string
+  subTitle: PropTypes.string,
+  footer: PropTypes.object,
 }
 
 const FourOpensPage = ({ data }) => {
@@ -84,6 +86,7 @@ const FourOpensPage = ({ data }) => {
         seo={post.frontmatter.seo}
         title={post.frontmatter.title}
         subTitle={post.frontmatter.subTitle}
+        footer={post.frontmatter.footer}
         content={post.html}
       />
     </Layout>
@@ -117,6 +120,13 @@ export const fourOpensPageQuery = graphql`
         }
         title
         subTitle
+        footer {
+          title
+          subTitle
+          button
+          buttonText
+          display
+        }
       }
     }
   }

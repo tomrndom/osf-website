@@ -199,6 +199,13 @@ collections:
               ]}            
             - {label: "Title", name: title, widget: string}
             - {label: "Sub Title", name: subTitle, widget: string}
+            - {label: "Footer", name: footer, widget: object, fields: [
+                {label: "Title", name: title, widget: string},
+                {label: "Sub Title", name: subTitle, widget: string},
+                {label: "Button Link", name: button, widget: string},
+                {label: "Button Text", name: buttonText, widget: string},
+                {label: "Display", name: display, widget: boolean}
+              ]}
             - {label: "Body", name: body, widget: markdown}
       - file: "src/pages/about/staff/index.md"
         label: "Staff"
