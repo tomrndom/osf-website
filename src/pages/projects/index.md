@@ -20,6 +20,34 @@ header:
 confirmed:
   projectList:
     - button:
+        link: 'https://airshipit.org/'
+        text: airshipit.org
+      class: projects-s2
+      description: >-
+        Airship is a collection of interoperable and loosely coupled open source
+        tools that  Provide for automated cloud provisioning and life cycle
+        managemente in a completely  Declarative and predictable way. The focus
+        of this project is the implementation of  a declarative platform to
+        introduce openstack on kubernets, and the lifecycle  Management of the
+        resulting cloud.
+      features:
+        - icon: /img/icon1.svg
+          text: EDGE COMPUTING
+        - icon: /img/icon3.svg
+          text: CONTAINER INFRASTRUCTURE
+      links:
+        - link: 'http://lists.airshipit.org/cgi-bin/mailman/listinfo'
+          text: Mailing Lists
+        - link: 'https://airship-treasuremap.readthedocs.io/en/latest/'
+          text: Documentation
+        - link: 'https://git.airshipit.org/cgit'
+          text: Code
+      logo: /img/logo-airship.svg
+      subTitle: >-
+        Making lifecycle management for open infrastructure simple, repeatable &
+        resilent.
+      title: AIRSHIP
+    - button:
         link: 'https://www.openstack.org/'
         text: openstack.org
       class: ''
@@ -100,34 +128,6 @@ confirmed:
       logo: /img/projects-img/logo-zuul.svg
       subTitle: CI/CD platform for gating changes across multiple systems/repos.
       title: ZUUL
-    - button:
-        link: 'https://airshipit.org/'
-        text: airshipit.org
-      class: projects-s2
-      description: >-
-        Airship is a collection of interoperable and loosely coupled open source
-        tools that  Provide for automated cloud provisioning and life cycle
-        managemente in a completely  Declarative and predictable way. The focus
-        of this project is the implementation of  a declarative platform to
-        introduce openstack on kubernets, and the lifecycle  Management of the
-        resulting cloud.
-      features:
-        - icon: /img/icon1.svg
-          text: EDGE COMPUTING
-        - icon: /img/icon3.svg
-          text: CONTAINER INFRASTRUCTURE
-      links:
-        - link: 'http://lists.airshipit.org/cgi-bin/mailman/listinfo'
-          text: Mailing Lists
-        - link: 'https://airship-treasuremap.readthedocs.io/en/latest/'
-          text: Documentation
-        - link: 'https://git.airshipit.org/cgit'
-          text: Code
-      logo: /img/logo-airship.svg
-      subTitle: >-
-        Making lifecycle management for open infrastructure simple, repeatable &
-        resilent.
-      title: AIRSHIP
   title: CONFIRMED PROJECTS
 pilot:
   projectList:
