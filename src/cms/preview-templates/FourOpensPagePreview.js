@@ -16,6 +16,7 @@ const FourOpensPagePreview = ({ entry, widgetFor }) => {
           subTitle: entry.getIn(['data', 'footer', 'subTitle']),
           button: entry.getIn(['data', 'footer', 'button']),
           buttonText: entry.getIn(['data', 'footer', 'buttonText']),
+          display: entry.getIn(['data', 'footer', 'display']),
         }}
         content={widgetFor('body')}
       />
