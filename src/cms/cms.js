@@ -11,6 +11,8 @@ import StaffPagePreview from './preview-templates/StaffPagePreview'
 
 CMS.registerPreviewStyle('style/styles.scss');
 
+CMS.registerPreviewStyle('style/previews.css');
+
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('board', BoardPagePreview)
 CMS.registerPreviewTemplate('companies', CompaniesPagePreview)
