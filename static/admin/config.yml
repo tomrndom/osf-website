@@ -1,7 +1,9 @@
 backend:
-  name: github
-  repo: OpenStackweb/osf-website
-  branch: master
+  # name: github
+  # repo: OpenStackweb/osf-website
+  # branch: master
+  name: git-gateway
+  branch: fix-cms-project-features
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -314,7 +316,7 @@ collections:
                     {label: Text, name: text, widget: string},
                     {label: Link, name: link, widget: string}
                   ]},
-                  {label: Features, name: features, widget: list, fields: [
+                  {label: Features, name: features, widget: list, required: false, fields: [
                     {label: Text, name: text, widget: string},
                     {label: Icon, name: icon, widget: image}
                   ]},
@@ -336,7 +338,7 @@ collections:
                     {label: Text, name: text, widget: string},
                     {label: Link, name: link, widget: string}
                   ]},
-                  {label: Features, name: features, widget: list, fields: [
+                  {label: Features, name: features, widget: list, required: false, fields: [
                     {label: Text, name: text, widget: string},
                     {label: Icon, name: icon, widget: image}
                   ]},
