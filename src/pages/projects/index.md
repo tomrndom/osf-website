@@ -138,6 +138,9 @@ confirmed:
         engineers across large enterprises, telecoms and technology vendors
         working to define and advance edge cloud computing. The focus is open
         infrastructure technologies, not exclusive to OpenStack.
+      features:
+        - icon: /img/icon1.svg
+          text: EDGE COMPUTING
       links:
         - link: >-
             https://etherpad.openstack.org/p/2017_edge_computing_working_sessions
