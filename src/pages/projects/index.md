@@ -16,7 +16,7 @@ header:
     our project have a strategic focus,  vision & scope that furthers the OSF
     mission of supporting the development and adoption  of production
     infrastructure with open source components.
-  title: OSF PROJECTS
+  title: Projects & Communities at OSF
 confirmed:
   projectList:
     - button:
@@ -128,6 +128,25 @@ confirmed:
       logo: /img/projects-img/logo-zuul.svg
       subTitle: CI/CD platform for gating changes across multiple systems/repos.
       title: ZUUL
+    - button:
+        link: >-
+          https://www.openstack.org/assets/edge/OpenStack-EdgeWhitepaper-v3-online.pdf
+        text: Edge Whitepaper
+      class: projects-s5
+      description: >-
+        The Edge Computing Group is a working group comprised of architects and
+        engineers across large enterprises, telecoms and technology vendors
+        working to define and advance edge cloud computing. The focus is open
+        infrastructure technologies, not exclusive to OpenStack.
+      links:
+        - link: >-
+            https://etherpad.openstack.org/p/2017_edge_computing_working_sessions
+          text: Weekly Meetings
+        - link: 'http://lists.openstack.org/cgi-bin/mailman/listinfo/edge-computing'
+          text: Join the Mailing List
+      logo: /img/earth2.jpg
+      subTitle: OSF Board approved working group
+      title: Edge Computing Group
   title: CONFIRMED PROJECTS
 pilot:
   projectList:
