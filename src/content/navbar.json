@@ -62,10 +62,6 @@
       "marginLeft": "-422px",
       "links": [
         {
-          "text": "4 Opens ",
-          "url": "/about/fourOpens/"
-        },
-        {
           "text": "Annual report ",
           "url": "https://www.openstack.org/foundation/2019-openstack-foundation-annual-report"
         },
