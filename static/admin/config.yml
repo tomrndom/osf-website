@@ -1,9 +1,7 @@
 backend:
-  # name: github
-  # repo: OpenStackweb/osf-website
-  # branch: master
-  name: git-gateway
-  branch: fix-cms-project-features
+  name: github
+  repo: OpenStackweb/osf-website
+  branch: master  
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
