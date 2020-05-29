@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: OpenStackweb/osf-website
-  branch: master
+  branch: master  
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -185,9 +185,9 @@ collections:
               {label: Twitter Profile, name: twitter, widget: string, required: false},
               {label: Linkedin Profile, name: linkedin, widget: string, required: false},
             ]}
-      - file: "src/pages/about/fourOpens/index.md"
-        label: "Four Opens"
-        name: "fourOpens"
+      - file: "src/pages/about/index.md"
+        label: "About"
+        name: "about"
         fields:
             - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fourOpens-page"}
             - {label: SEO, name: seo, widget: object, fields: [
@@ -314,7 +314,7 @@ collections:
                     {label: Text, name: text, widget: string},
                     {label: Link, name: link, widget: string}
                   ]},
-                  {label: Features, name: features, widget: list, fields: [
+                  {label: Features, name: features, widget: list, required: false, fields: [
                     {label: Text, name: text, widget: string},
                     {label: Icon, name: icon, widget: image}
                   ]},
@@ -336,7 +336,7 @@ collections:
                     {label: Text, name: text, widget: string},
                     {label: Link, name: link, widget: string}
                   ]},
-                  {label: Features, name: features, widget: list, fields: [
+                  {label: Features, name: features, widget: list, required: false, fields: [
                     {label: Text, name: text, widget: string},
                     {label: Icon, name: icon, widget: image}
                   ]},

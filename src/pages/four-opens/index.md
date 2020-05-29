@@ -10,6 +10,12 @@ seo:
   url: 'https://osf.dev/four-opens/'
 title: The Four Opens
 subTitle: Our Philosophy on Open Source
+footer:
+  title: "INTERESTED IN CONTRIBUTING TO THE FOUR OPENS?"
+  subTitle: "Do you have a passion for open source? Share your knowledge with the world and contribute to the Four Opens."
+  button: "https://opendev.org/osf/four-opens/"
+  buttonText: "Contribute"
+  display: true  
 ---
 The Four Opens are a set of principles guidelines that were created by the OpenStack community as a way to guarantee that the users get all the benefits associated with open source software, including the ability to engage with the community and influence future evolution of the software.
 
