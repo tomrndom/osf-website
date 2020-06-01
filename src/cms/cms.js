@@ -16,7 +16,7 @@ CMS.registerPreviewStyle('style/previews.css');
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('board', BoardPagePreview)
 CMS.registerPreviewTemplate('companies', CompaniesPagePreview)
-CMS.registerPreviewTemplate('fourOpens', FourOpensPagePreview)
+CMS.registerPreviewTemplate('about', FourOpensPagePreview)
 CMS.registerPreviewTemplate('fourOpensPages', FourOpensPagePreview)
 CMS.registerPreviewTemplate('hosting', HostingPagePreview)
 CMS.registerPreviewTemplate('projects', ProjectsPagePreview)
