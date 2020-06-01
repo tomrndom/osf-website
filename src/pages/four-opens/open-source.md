@@ -1,5 +1,5 @@
 ---
-templateKey: fourOpens-page
+templateKey: generic-page
 seo:
   description: >-
     The OSF is committed to creating truly open source software that is usable,

@@ -7,11 +7,11 @@ import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
-import ContributeFourOpens from '../components/ContributeFourOpens'
+import Hero from '../components/Hero'
 
 import metadata from '../content/site-metadata.json'
 
-export const FourOpensPageTemplate = ({
+export const GenericPageTemplate = ({
   seo,
   title,
   subTitle,
@@ -61,14 +61,14 @@ export const FourOpensPageTemplate = ({
               </div>
             </div>              
           </section>
-          <ContributeFourOpens footer={footer}/>
+          <Hero content={footer}/>
         </div>
       </main>
     </div>
   )
 }
 
-FourOpensPageTemplate.propTypes = {  
+GenericPageTemplate.propTypes = {  
   seo: PropTypes.object,  
   companies: PropTypes.object,
   title: PropTypes.string,
@@ -76,12 +76,12 @@ FourOpensPageTemplate.propTypes = {
   footer: PropTypes.object,
 }
 
-const FourOpensPage = ({ data }) => {
+const GenericPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <FourOpensPageTemplate
+      <GenericPageTemplate
         contentComponent={HTMLContent}
         seo={post.frontmatter.seo}
         title={post.frontmatter.title}
@@ -93,14 +93,14 @@ const FourOpensPage = ({ data }) => {
   )
 }
 
-FourOpensPage.propTypes = {
+GenericPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default FourOpensPage
+export default GenericPage
 
-export const fourOpensPageQuery = graphql`
-  query FourOpensPage($id: String!) {
+export const genericPageQuery = graphql`
+  query GenericPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

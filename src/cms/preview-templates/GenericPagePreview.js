@@ -1,14 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { FourOpensPageTemplate } from '../../templates/fourOpens-page'
+import { GenericPageTemplate } from '../../templates/generic-page'
 
-const FourOpensPagePreview = ({ entry, widgetFor }) => {
+const GenericPagePreview = ({ entry, widgetFor }) => {
 
   const data = entry.getIn(['data']).toJS()
 
   if (data) {
     return (
-      <FourOpensPageTemplate
+      <GenericPageTemplate
         title={entry.getIn(['data', 'title'])}
         subTitle={entry.getIn(['data', 'subTitle'])}
         footer={{
@@ -26,7 +26,7 @@ const FourOpensPagePreview = ({ entry, widgetFor }) => {
   }
 }
 
-FourOpensPagePreview.propTypes = {
+GenericPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
@@ -34,4 +34,4 @@ FourOpensPagePreview.propTypes = {
   widgetFor: PropTypes.func,
 }
 
-export default FourOpensPagePreview
+export default GenericPagePreview

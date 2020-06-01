@@ -2,10 +2,10 @@ import React from 'react'
 
 import LinkComponent from './LinkComponent'
 
-const ContributeFourOpens = class extends React.Component {
+const Hero = class extends React.Component {
   render() {
 
-    const { footer: { title, subTitle, button, buttonText, display } } = this.props;
+    const { content: { title, subTitle, button, buttonText, display } } = this.props;
 
     if (display) {
       return (
@@ -27,4 +27,4 @@ const ContributeFourOpens = class extends React.Component {
   }
 }
 
-export default ContributeFourOpens
+export default Hero

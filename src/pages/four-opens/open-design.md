@@ -1,5 +1,5 @@
 ---
-templateKey: fourOpens-page
+templateKey: generic-page
 seo:
   description: >-
     Open Design guarantees a transparent and open process for planning and

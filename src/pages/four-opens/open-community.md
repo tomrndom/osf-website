@@ -1,5 +1,5 @@
 ---
-templateKey: fourOpens-page
+templateKey: generic-page
 seo:
   description: >-
     An Open Community balances the roles of open source developers, users and

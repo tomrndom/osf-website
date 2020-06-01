@@ -189,7 +189,7 @@ collections:
         label: "About"
         name: "about"
         fields:
-            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fourOpens-page"}
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "generic-page"}
             - {label: SEO, name: seo, widget: object, fields: [
                 {label: "Title", name: "title", widget: string},
                 {label: "Description", name: "description", widget: string},
@@ -198,13 +198,13 @@ collections:
                 {label: "Twitter Username", name: "twitterUsername", widget: string},
               ]}            
             - {label: "Title", name: title, widget: string}
-            - {label: "Sub Title", name: subTitle, widget: string}
-            - {label: "Footer", name: footer, widget: object, fields: [
-                {label: "Title", name: title, widget: string},
-                {label: "Sub Title", name: subTitle, widget: string},
-                {label: "Button Link", name: button, widget: string},
-                {label: "Button Text", name: buttonText, widget: string},
-                {label: "Display", name: display, widget: boolean}
+            - {label: "Sub Title", name: subTitle, widget: string, required: false}
+            - {label: "Footer", name: footer, widget: object, required: false, fields: [
+                {label: "Title", name: title, widget: string, required: false },
+                {label: "Sub Title", name: subTitle, widget: string, required: false},
+                {label: "Button Link", name: button, widget: string, required: false},
+                {label: "Button Text", name: buttonText, widget: string, required: false},
+                {label: "Display", name: display, widget: boolean, required: false}
               ]}
             - {label: "Body", name: body, widget: markdown}
       - file: "src/pages/about/staff/index.md"
@@ -460,7 +460,7 @@ collections:
     folder: "src/pages/four-opens/"
     create: true
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fourOpens-page"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "generic-page"}
       - {label: SEO, name: seo, widget: object, fields: [
           {label: "Title", name: "title", widget: string},
           {label: "Description", name: "description", widget: string},
@@ -471,4 +471,11 @@ collections:
       - {label: "Title", name: title, widget: string}
       - {label: "Sub Title", name: subTitle, widget: string}
       - {label: "Body", name: body, widget: markdown}
+      - {label: "Footer", name: footer, widget: object, required: false, fields: [
+          {label: "Title", name: title, widget: string, required: false },
+          {label: "Sub Title", name: subTitle, widget: string, required: false},
+          {label: "Button Link", name: button, widget: string, required: false},
+          {label: "Button Text", name: buttonText, widget: string, required: false},
+          {label: "Display", name: display, widget: boolean, required: false}
+        ]}
     

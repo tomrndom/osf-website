@@ -1,5 +1,5 @@
 ---
-templateKey: fourOpens-page
+templateKey: generic-page
 seo:
   description: >-
     Open Development, the adoption of transparent and inclusive open source

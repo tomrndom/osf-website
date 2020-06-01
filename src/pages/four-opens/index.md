@@ -1,5 +1,5 @@
 ---
-templateKey: fourOpens-page
+templateKey: generic-page
 seo:
   description: >-
     The Four Opens are guiding principles to successfully grow an open source
