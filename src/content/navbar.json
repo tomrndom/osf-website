@@ -100,6 +100,14 @@
         {
           "text": "Board of Directors ",
           "url": "/about/board/"
+        },
+        {
+          "text": "Open Infrastructure 101",
+          "url": "/about/open-infrastructure/"
+        },
+        {
+          "text": "What is the OSF?",
+          "url": "/about/what-is-the-osf/"
         }
       ]
     },
