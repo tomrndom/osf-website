@@ -105,7 +105,7 @@
     },
     {
       "title": "Open Infrastructure 101",
-      "display": true,
+      "display": false,
       "image": "/img/image3.jpg",
       "links": [
         {
