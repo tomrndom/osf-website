@@ -102,6 +102,17 @@
           "url": "/about/board/"
         }
       ]
+    },
+    {
+      "title": "Open Infrastructure 101",
+      "display": true,
+      "image": "/img/image3.jpg",
+      "links": [
+        {
+          "text": "Open Infrastructure 101",
+          "url": "/open-infrastructure/"
+        }
+      ]
     }
   ],
   "button": {
