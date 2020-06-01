@@ -159,6 +159,28 @@ collections:
   - name: "aboutPages"
     label: "About Pages"
     files:
+      - file: "src/pages/about/index.md"
+        label: "About"
+        name: "about"
+        fields:
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "generic-page"}
+            - {label: SEO, name: seo, widget: object, fields: [
+                {label: "Title", name: "title", widget: string},
+                {label: "Description", name: "description", widget: string},
+                {label: "Url", name: "url", widget: string},
+                {label: "Image", name: "image", widget: image},
+                {label: "Twitter Username", name: "twitterUsername", widget: string},
+              ]}            
+            - {label: "Title", name: title, widget: string}
+            - {label: "Sub Title", name: subTitle, widget: string, required: false}
+            - {label: "Footer", name: footer, widget: object, required: false, fields: [
+                {label: "Title", name: title, widget: string, required: false },
+                {label: "Sub Title", name: subTitle, widget: string, required: false},
+                {label: "Button Link", name: button, widget: string, required: false},
+                {label: "Button Text", name: buttonText, widget: string, required: false},
+                {label: "Display", name: display, widget: boolean, required: false}
+              ]}
+            - {label: "Body", name: body, widget: markdown}
       - file: "src/pages/about/board/index.md"
         label: "Board"
         name: "board"
@@ -185,28 +207,6 @@ collections:
               {label: Twitter Profile, name: twitter, widget: string, required: false},
               {label: Linkedin Profile, name: linkedin, widget: string, required: false},
             ]}
-      - file: "src/pages/about/index.md"
-        label: "About"
-        name: "about"
-        fields:
-            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "generic-page"}
-            - {label: SEO, name: seo, widget: object, fields: [
-                {label: "Title", name: "title", widget: string},
-                {label: "Description", name: "description", widget: string},
-                {label: "Url", name: "url", widget: string},
-                {label: "Image", name: "image", widget: image},
-                {label: "Twitter Username", name: "twitterUsername", widget: string},
-              ]}            
-            - {label: "Title", name: title, widget: string}
-            - {label: "Sub Title", name: subTitle, widget: string, required: false}
-            - {label: "Footer", name: footer, widget: object, required: false, fields: [
-                {label: "Title", name: title, widget: string, required: false },
-                {label: "Sub Title", name: subTitle, widget: string, required: false},
-                {label: "Button Link", name: button, widget: string, required: false},
-                {label: "Button Text", name: buttonText, widget: string, required: false},
-                {label: "Display", name: display, widget: boolean, required: false}
-              ]}
-            - {label: "Body", name: body, widget: markdown}
       - file: "src/pages/about/staff/index.md"
         label: "Staff"
         name: "staff"
