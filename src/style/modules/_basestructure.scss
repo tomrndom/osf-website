@@ -23,6 +23,7 @@
   font-size: 32px;
   line-height: 33px;
   text-transform: uppercase;
+    
   @media screen and(max-width: $screen-md-min) {
     font-size: 26px;
     line-height: 32px;
@@ -448,7 +449,7 @@ div.content.custom > main > section > div > div > div > h3 {
     }
 
     .menuitemeffect {
-      height: 49px;
+      height: 39px;
       @media (max-width: 769px) {
         //small screen pantalla
         height: 30px;
