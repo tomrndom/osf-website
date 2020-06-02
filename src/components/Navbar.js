@@ -8,7 +8,7 @@ const Navbar = class extends React.Component {
     super(props)
     this.state = {
       active: false,
-      navBarActiveClass: '',
+      navBarActiveClass: ''
     }
   }
 
@@ -58,9 +58,18 @@ const Navbar = class extends React.Component {
                       <li key={index}>
                         <div className="dropdown is-hoverable">
                           <div className="dropdown-trigger">
-                            <button aria-haspopup="true" aria-controls="dropdown-menu" className="button">
-                              <span>{li.title}</span>
-                            </button>
+                            { li.url &&
+                                  <button aria-haspopup="true" aria-controls="dropdown-menu" className="button">
+                                    <LinkComponent href={li.url}>
+                                      <span>{li.title}</span>
+                                    </LinkComponent>
+                                  </button>
+                            }
+                            { !li.url &&                              
+                                <button aria-haspopup="true" aria-controls="dropdown-menu" className="button">
+                                  <span>{li.title}</span>
+                                </button>
+                            }
                           </div>
                           <div id="dropdown-menu" role="menu" className="dropdown-menu">
                             <div className="dropdown-content">

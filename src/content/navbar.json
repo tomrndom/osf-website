@@ -5,11 +5,8 @@
       "display": true,
       "image": "/img/image3.jpg",
       "marginLeft": "-346px",
+      "url": "/four-opens/",
       "links": [
-        {
-          "text": "The Four Opens",
-          "url": "/four-opens/"
-        },
         {
           "text": "Open Source",
           "url": "/four-opens/open-source/"
