@@ -2,7 +2,7 @@
 templateKey: staff-page
 seo:
   description: The Home of Open Infrastructure
-  image: /img/og-image.jpg
+  image: /img/osficon-social.png
   title: The OpenStack Foundation Staff
   twitterUsername: '@openstack'
   url: 'https://osf.dev/'
@@ -17,7 +17,7 @@ banner:
   button:
     text: Job Openings
     url: 'https://www.openstack.org/community/jobs/?foundation=1'
-  image: /img/about/about-picture5.jpg
+  image: /img/crew-100.jpg
   subTitle: >-
     The Open Infrastructure community includes over 100,000 individuals across
     187 countries and over 600 organizations. Developers, users, and the entire
