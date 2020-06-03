@@ -34,7 +34,7 @@
   font-weight: 400;
   font-size: 17px;
   line-height: 21px;
-  color: #000102;
+  color: #133e68;
   margin: 0px;
   padding: 0px;
   margin-bottom: 15px;
@@ -421,14 +421,18 @@ div.content.custom > main > section > div > div > div > h3 {
     color: $back-darkest;
     border-radius: 0px;
     box-shadow: 0 2px 3px rgba(34, 34, 34, 0.1), 0 0 0 1px rgba(34, 34, 34, 0.1);
-    padding-bottom: 0.5rem;
-    padding-top: 2.5rem;
     margin-top: 22px;
-    height: 267px;
+    @media (min-width: 769px) {
+      height: 267px;
+      padding-bottom: 0.5rem;
+      padding-top: 2.5rem;
+    }
     left: 50%;
     @media (max-width: 769px) {
       //small screen pantalla
       margin-top: 5px;
+      padding-bottom: 1.5rem;
+      padding-top: 1.5rem;
     }
     a span {
       color: #133e68;

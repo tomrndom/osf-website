@@ -22,7 +22,7 @@
       padding: 5rem 2rem 2rem;
     }
     @media (max-width:320px) {
-      padding: 10rem 2rem 2rem;
+      padding: 6rem 2rem 2rem;
     }
     .hero-title {
       @media (max-width: $screen-md-min) {
@@ -37,7 +37,6 @@
 .hero-title,
 .hero-project-title{
   max-width: 50%;
-  padding-right: 24px;
   font-size: 42px;
   font-weight: 500;
   @media (max-width: 768px) {
@@ -55,7 +54,6 @@
 .hero-title,
 .hero-project-title{
   max-width: 50%;
-  padding-right: 24px;
   font-size: 42px;
   font-weight: 500;
   @media (max-width: 768px) {
