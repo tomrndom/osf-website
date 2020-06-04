@@ -9,9 +9,7 @@ seo:
   twitterUsername: '@openstack'
   url: 'https://osf.dev/about/'
 title: About
-subTitle: >-
-  The OpenStack Foundation (OSF) helps people build and operate open
-  infrastructure. 
+subTitle: ''
 footer:
   button: ''
   buttonText: ''
@@ -20,6 +18,8 @@ footer:
   subTitle: ''
 ---
 When the OSF formed to govern the OpenStack project in 2012, clouds mainly offered virtual machines in a datacenter. The Foundation evolved as datacenter composition evolved into a mix of bare metal, VMs, and containers. While the OpenStack project is seen as the de facto open source platform for operating cloud infrastructure around the world, the Foundation realized more technology is needed to meet all of the diverse use cases, and we want to make sure it’s developed in the open, using the same proven approach to open source.
+
+The OpenStack Foundation (OSF) helps people build and operate open infrastructure. 
 
 For this reason, we expanded our focus as a foundation and are helping to establish new open source communities to advance areas where technology can successfully contribute to the development of open infrastructure: AI/Machine Learning, CI/CD, Container Infrastructure, Edge Computing and of course, Public, Private and Hybrid Clouds.
 
