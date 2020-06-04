@@ -32,10 +32,6 @@
       "display": true,
       "links": [
         {
-          "text": "All projects ",
-          "url": "/projects/"
-        },
-        {
           "text": "Services ",
           "url": "/projects/services/"
         },
