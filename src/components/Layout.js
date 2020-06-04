@@ -32,7 +32,7 @@ const TemplateWrapper = ({ children }) => {
           sizes="16x16"
         />
 
-        <link rel="stylesheet" type="text/css" href="https://osf.dev/proxied/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="/cloud-typography/fonts.css" />
       </Helmet>
       <SEO />      
       <div>{children}</div>      

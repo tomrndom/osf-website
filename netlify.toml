@@ -9,6 +9,6 @@
 [headers.values]
   Cache-Control = "public, max-age=360000" 
 [[redirects]]
-  from = "/proxied/fonts.css"
+  from = "/cloud-typography/fonts.css"
   to = "https://cloud.typography.com/7369076/7111412/css/fonts.css"
   status = 200
