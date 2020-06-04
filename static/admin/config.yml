@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: gcutrini/osf-website
+  repo: OpenStackweb/osf-website
   branch: master  
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
