@@ -88,10 +88,6 @@
       "display": true,
       "links": [
         {
-          "text": "Annual report ",
-          "url": "https://www.openstack.org/foundation/2019-openstack-foundation-annual-report"
-        },
-        {
           "text": "Foundation Staff ",
           "url": "/about/staff/"
         },
