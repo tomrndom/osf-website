@@ -2,10 +2,10 @@
   "nav": [
     {
       "title": "Four Opens",
-      "display": true,
       "image": "/img/image3.jpg",
       "marginLeft": "-346px",
       "url": "/four-opens/",
+      "display": true,
       "links": [
         {
           "text": "Open Source",
@@ -27,8 +27,8 @@
     },
     {
       "title": "Projects",
-      "display": true,
       "image": "/img/menu/menu_projects.jpg",
+      "display": true,
       "links": [
         {
           "text": "All projects ",
@@ -46,9 +46,9 @@
     },
     {
       "title": "Membership",
-      "display": true,
       "image": "/img/menu/menu_membership.jpg",
       "marginLeft": "-408px",
+      "display": true,
       "links": [
         {
           "text": "Supporting Companies ",
@@ -62,9 +62,9 @@
     },
     {
       "title": "Events",
-      "display": true,
       "image": "/img/home/image3.jpg",
       "marginLeft": "-346px",
+      "display": true,
       "links": [
         {
           "text": "Open Infra Summit ",
@@ -82,9 +82,10 @@
     },
     {
       "title": "About",
-      "display": true,
       "image": "/img/menu/menu_about.jpg",
       "marginLeft": "-422px",
+      "url": "/about-us/",
+      "display": true,
       "links": [
         {
           "text": "Annual report ",
@@ -101,17 +102,13 @@
         {
           "text": "Open Infrastructure 101",
           "url": "/about/open-infrastructure/"
-        },
-        {
-          "text": "What is the OSF?",
-          "url": "/about/what-is-the-osf/"
         }
       ]
     },
     {
       "title": "Open Infrastructure 101",
-      "display": false,
       "image": "/img/image3.jpg",
+      "display": false,
       "links": [
         {
           "text": "Open Infrastructure 101",
