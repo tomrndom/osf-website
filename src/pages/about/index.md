@@ -5,7 +5,7 @@ seo:
   image: /img/osf_logo_pill.png
   title: About
   twitterUsername: '@openstack'
-  url: 'https://osf.dev/about-us/'
+  url: 'https://osf.dev/about/'
 title: About
 footer:
   button: ''
