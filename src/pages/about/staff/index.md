@@ -1,11 +1,14 @@
 ---
 templateKey: staff-page
 seo:
-  description: The Home of Open Infrastructure
+  description: >-
+    "The OSF staff serves developers, users, and ecosystem by providing a set of
+    shared resources to help organizations build and operate open
+    infrastructure.  "
   image: /img/osficon-social.png
-  title: The OpenStack Foundation Staff
+  title: Staff
   twitterUsername: '@openstack'
-  url: 'https://osf.dev/'
+  url: 'https://osf.dev/about/staff/'
 header:
   subTitle: >
     The OpenStack Foundation (OSF) staff supports the development and adoption
