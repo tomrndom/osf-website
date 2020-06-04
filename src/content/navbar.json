@@ -28,6 +28,7 @@
     {
       "title": "Projects",
       "image": "/img/menu/menu_projects.jpg",
+      "url": "/projects/",
       "display": true,
       "links": [
         {
