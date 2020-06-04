@@ -8,7 +8,7 @@ seo:
   image: /img/osficon-social.png
   title: Open Source Software Community Projects
   twitterUsername: '@openstack'
-  url: 'https://osf.dev'
+  url: 'https://osf.dev/projects/'
 header:
   subTitle: >-
     Projects that call OSF their home each value open collaboration and
