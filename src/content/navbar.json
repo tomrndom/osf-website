@@ -104,17 +104,6 @@
           "url": "/about/open-infrastructure/"
         }
       ]
-    },
-    {
-      "title": "Open Infrastructure 101",
-      "image": "/img/image3.jpg",
-      "display": false,
-      "links": [
-        {
-          "text": "Open Infrastructure 101",
-          "url": "/open-infrastructure/"
-        }
-      ]
     }
   ],
   "button": {
