@@ -2,7 +2,7 @@
 templateKey: staff-page
 seo:
   description: >-
-    "The OSF staff serves developers, users, and ecosystem by providing a set of
+    The OSF staff serves developers, users, and ecosystem by providing a set of
     shared resources to help organizations build and operate open
     infrastructure.  "
   image: /img/osficon-social.png
