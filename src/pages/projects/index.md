@@ -113,7 +113,7 @@ confirmed:
         other use  cases. Based on Mature production software deployed in
         mission critical applications,  newly open sourced StarlingX code is the
         base for edge implementations in  scalable solutions that Can be
-        productized now.
+        productized now. 
       features:
         - icon: /img/home/icon1.svg
           text: EDGE COMPUTING
@@ -183,8 +183,7 @@ confirmed:
       subTitle: OSF Board approved working group
       title: Edge Computing Group
   title: CONFIRMED PROJECTS
-
 pilot:
-  projectList:
   title: PILOT PROJECTS
 ---
+
