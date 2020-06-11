@@ -104,6 +104,38 @@ confirmed:
       subTitle: 'Secure, lightweight CRI compatible virtualized containers.'
       title: KATA CONTAINERS
     - button:
+        link: 'https://starlingx.io/'
+        text: starlingx.io
+      class: projects-s4
+      description: >-
+        StarlingX is a complete cloud infrastructure software stack for the edge
+        used  by the Most demanding applications in industrial iot, telecom, and
+        other use  cases. Based on Mature production software deployed in
+        mission critical applications,  newly open sourced StarlingX code is the
+        base for edge implementations in  scalable solutions that Can be
+        productized now.
+      features:
+        - icon: /img/home/icon1.svg
+          text: EDGE COMPUTING
+        - icon: /img/home/icon3.svg
+          text: CONTAINER INFRASTRUCTURE
+      links:
+        - link: 'http://lists.starlingx.io/'
+          text: Mailing Lists
+        - link: 'https://wiki.openstack.org/wiki/StarlingX'
+          text: Documentation
+        - link: 'https://wiki.openstack.org/wiki/StarlingX#Releases'
+          text: Releases
+        - link: 'https://wiki.openstack.org/wiki/StarlingX/Meetings'
+          text: Standing Meetings
+        - link: 'https://git.starlingx.io/cgit'
+          text: Code
+      logo: /img/projects-img/logo-starlingx.svg
+      subTitle: >-
+        Edge cloud computing infrastructure for high performance, ultra-low
+        latency applications.
+      title: STARLING X
+    - button:
         link: 'https://zuul-ci.org/'
         text: zuul-ci.org
       class: projects-s5
@@ -151,40 +183,5 @@ confirmed:
       subTitle: OSF Board approved working group
       title: Edge Computing Group
   title: CONFIRMED PROJECTS
-pilot:
-  projectList:
-    - button:
-        link: 'https://starlingx.io/'
-        text: starlingx.io
-      class: projects-s4
-      description: >-
-        StarlingX is a complete cloud infrastructure software stack for the edge
-        used  by the Most demanding applications in industrial iot, telecom, and
-        other use  cases. Based on Mature production software deployed in
-        mission critical applications,  newly open sourced StarlingX code is the
-        base for edge implementations in  scalable solutions that Can be
-        productized now.
-      features:
-        - icon: /img/home/icon1.svg
-          text: EDGE COMPUTING
-        - icon: /img/home/icon3.svg
-          text: CONTAINER INFRASTRUCTURE
-      links:
-        - link: 'http://lists.starlingx.io/'
-          text: Mailing Lists
-        - link: 'https://wiki.openstack.org/wiki/StarlingX'
-          text: Documentation
-        - link: 'https://wiki.openstack.org/wiki/StarlingX#Releases'
-          text: Releases
-        - link: 'https://wiki.openstack.org/wiki/StarlingX/Meetings'
-          text: Standing Meetings
-        - link: 'https://git.starlingx.io/cgit'
-          text: Code
-      logo: /img/projects-img/logo-starlingx.svg
-      subTitle: >-
-        Edge cloud computing infrastructure for high performance, ultra-low
-        latency applications.
-      title: STARLING X
-  title: PILOT PROJECTS
 ---
 
