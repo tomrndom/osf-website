@@ -400,7 +400,7 @@ support:
         concept, but don’t know where to begin? Reach out to FNTECH today for
         ideas and advice! 
       name: FNTech
-      picture: /img/about-staff/fntech.jpg
+      picture: /img/fntech-sm.png
       title: Events Management Partner
     - description: >
         Cathey.co has served the OpenStack Foundation since 2013, providing
@@ -427,7 +427,7 @@ support:
 
 
       name: Tipit
-      picture: /img/tipitlogo.svg
+      picture: /img/tipitlogo.jpg
       title: Web Development Partner
   title: SUPPORTING CAST
 ---
