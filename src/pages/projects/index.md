@@ -183,5 +183,7 @@ confirmed:
       subTitle: OSF Board approved working group
       title: Edge Computing Group
   title: CONFIRMED PROJECTS
+  
+pilot:
+  title: PILOT PROJECTS
 ---
-
