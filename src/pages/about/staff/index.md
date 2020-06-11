@@ -412,7 +412,7 @@ support:
         strategic counsel through tactical implementation of programming and
         supporting the efforts of the OSF's comms teams in APAC and EMEA.
       name: Cathey.co
-      picture: /img/catheyco_logo.png
+      picture: /img/cathey.jpg
       title: Public Relations / Analyst Relations Partner
     - description: >+
         Tipit is a web development agency with a focus on creating highly usable
