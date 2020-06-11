@@ -391,11 +391,14 @@ support:
       picture: /img/about-staff/deniseridolofo.jpg
       title: Marketing Consultant
     - description: >-
-        FNtech is the Foundation's events production partner working behind the
-        scenes to produce our  global OpenStack Summits. Based in Los Angeles
-        and San Francisco, FNtech specializes in sponsor  fulfillment,
-        audio/video, lighting, staging and full-service production for corporate
-        and live events.
+        FNTECH is the long-time production partner behind some of our more
+        significant Foundation events, including the Open Infrastructure Summit,
+        OpenDev, and Project Teams Gathering (PTG). With headquarters in both
+        Southern and Northern California, FNTECH specializes in all types of
+        events: simple meetings to extremely complex conferences. Domestic and
+        abroad. In-person, virtual and everything in-between. Have an event
+        concept, but don’t know where to begin? Reach out to FNTECH today for
+        ideas and advice! 
       name: FNTech
       picture: /img/about-staff/fntech.jpg
       title: Events Management Partner
