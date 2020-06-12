@@ -18,154 +18,157 @@ export const ProjectsPageTemplate = ({
   header,
   confirmed,
   pilot,
-  content, 
+  content,
   contentComponent
 }) => {
   const PageContent = contentComponent || Content
 
   return (
     <div>
-      {seo && 
-      <Helmet title={seo.title ? seo.title : metadata.siteMetadata.title} titleTemplate={metadata.siteMetadata.titleTemplate}>        
-        {seo.description && <meta name="description" content={seo.description} />}
-        {seo.image && <meta name="image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}        
-        {seo.url && <meta property="og:url" content={seo.url} />}
-        {seo.title && <meta property="og:title" content={seo.title} />}
-        {seo.description && (
-          <meta property="og:description" content={seo.description} />
-        )}
-        {seo.image && <meta property="og:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-        <meta name="twitter:card" content="summary_large_image" />
-        {seo.twitterUsername && (
-          <meta name="twitter:creator" content={seo.twitterUsername} />
-        )}        
-        {seo.title && <meta name="twitter:title" content={seo.title} />}
-        {seo.description && (
-          <meta name="twitter:description" content={seo.description} />
-        )}
-        {seo.image && <meta name="twitter:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}          
-      </Helmet>
+      {seo &&
+        <Helmet title={seo.title ? seo.title : metadata.siteMetadata.title} titleTemplate={metadata.siteMetadata.titleTemplate}>
+          {seo.description && <meta name="description" content={seo.description} />}
+          {seo.image && <meta name="image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
+          {seo.url && <meta property="og:url" content={seo.url} />}
+          {seo.title && <meta property="og:title" content={seo.title} />}
+          {seo.description && (
+            <meta property="og:description" content={seo.description} />
+          )}
+          {seo.image && <meta property="og:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
+          <meta name="twitter:card" content="summary_large_image" />
+          {seo.twitterUsername && (
+            <meta name="twitter:creator" content={seo.twitterUsername} />
+          )}
+          {seo.title && <meta name="twitter:title" content={seo.title} />}
+          {seo.description && (
+            <meta name="twitter:description" content={seo.description} />
+          )}
+          {seo.image && <meta name="twitter:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
+        </Helmet>
       }
       <div className="wrapper project-background">
         <TopBar />
         <Navbar />
         <Header title={header.title} subTitle={header.subTitle} />
-      </div>    
-      
+      </div>
+
       <main className="main">
         <div className="content">
-          <section className="projects-s1-main container">          
-            <h3 className="itemtitle">{confirmed.title}</h3> 
+          <section className="projects-s1-main container">
+            <h3 className="itemtitle">{confirmed.title}</h3>
             {confirmed.projectList.map((project, index) => {
-              return (
-                <div className="projects-s1-container columns" key={index}>
-                  <div className="column is-2">
-                    {project.logo.extension === 'svg' && !project.logo.childImageSharp ?                    
-                      <img src={!!project.logo.publicURL ? project.logo.publicURL : project.logo} alt='' className="projetcs-s1-container-child" />
-                      :
-                      <img src={!!project.logo.childImageSharp ? project.logo.childImageSharp.fluid.src : project.logo } alt='' className="projetcs-s1-container-child" />                  
-                    }                    
-                  </div> 
-                  <div className="projetcs-s1-container-child column is-7 is-full-mobile">
-                    <h2>{project.title}</h2> 
-                    <h3 id={project.class ? `${project.class}-h3`:''}>{project.subTitle}</h3> 
-                    <p>
-                      {project.description}
-                    </p> 
-                    <div className="columns">
-                      <div className="column is-three-fifths">
-                        {project.features.map((feature, index) => {
-                          return (                            
-                            <p key={index}>
-                              <img 
-                                src={feature.icon.extension === 'svg' && !feature.icon.childImageSharp ? 
-                                feature.icon.publicURL 
-                                : 
-                                !!feature.icon.childImageSharp ? feature.icon.childImageSharp.fluid.src : feature.icon} 
-                                alt="" /> 
-                              {feature.text}
-                            </p> 
-                          )
-                        })}
-                      </div>
-                      <div className="column">
-                        <p>IMPORTANT LINKS:</p>
-                        <br/>
-                        {project.links.map((link, index) => {
-                          return (
-                            <p key={index}>
-                              <LinkComponent href={link.link}>{link.text}</LinkComponent>
-                            </p> 
-                          )
-                        })}
-                      </div>
-                    </div>
-                  </div> 
-                  <div className="projetcs-s1-container-child column is-3">
-                    <LinkComponent href={project.button.link} className="button button-red projects-btn" id={project.class ? `${project.class}-btn`:''}>
-                      <span>{project.button.text} <img src={leftArrow} alt=""/></span>
-                    </LinkComponent>
-                  </div>
-                </div>
-              )
-            })}
-          </section>        
-          <section className="projects-s1-main container">          
-            <h3 className="itemtitle">{pilot.title}</h3> 
-            {pilot.projectList.map((project, index) => {
               return (
                 <div className="projects-s1-container columns" key={index}>
                   <div className="column is-2">
                     {project.logo.extension === 'svg' && !project.logo.childImageSharp ?
                       <img src={!!project.logo.publicURL ? project.logo.publicURL : project.logo} alt='' className="projetcs-s1-container-child" />
                       :
-                      <img src={!!project.logo.childImageSharp ? project.logo.childImageSharp.fluid.src : project.logo } alt='' className="projetcs-s1-container-child" />                  
-                    }                    
-                  </div> 
+                      <img src={!!project.logo.childImageSharp ? project.logo.childImageSharp.fluid.src : project.logo} alt='' className="projetcs-s1-container-child" />
+                    }
+                  </div>
                   <div className="projetcs-s1-container-child column is-7 is-full-mobile">
-                    <h2>{project.title}</h2> 
-                    <h3 id={project.class ? `${project.class}-h3`:''}>{project.subTitle}</h3> 
+                    <h2>{project.title}</h2>
+                    <h3 id={project.class ? `${project.class}-h3` : ''}>{project.subTitle}</h3>
                     <p>
                       {project.description}
-                    </p> 
+                    </p>
                     <div className="columns">
                       <div className="column is-three-fifths">
                         {project.features.map((feature, index) => {
-                          return (                            
+                          return (
                             <p key={index}>
-                              <img 
-                                src={feature.icon.extension === 'svg' && !feature.icon.childImageSharp ? 
-                                feature.icon.publicURL 
-                                : 
-                                !!feature.icon.childImageSharp ? feature.icon.childImageSharp.fluid.src : feature.icon} 
+                              <img
+                                src={feature.icon.extension === 'svg' && !feature.icon.childImageSharp ?
+                                  feature.icon.publicURL
+                                  :
+                                  !!feature.icon.childImageSharp ? feature.icon.childImageSharp.fluid.src : feature.icon}
                                 alt="" />
                               {feature.text}
-                            </p> 
+                            </p>
                           )
                         })}
                       </div>
                       <div className="column">
                         <p>IMPORTANT LINKS:</p>
-                        <br/>
+                        <br />
                         {project.links.map((link, index) => {
                           return (
                             <p key={index}>
                               <LinkComponent href={link.link}>{link.text}</LinkComponent>
-                            </p> 
+                            </p>
                           )
                         })}
                       </div>
                     </div>
-                  </div> 
+                  </div>
                   <div className="projetcs-s1-container-child column is-3">
-                    <LinkComponent href={project.button.link} className="button button-red projects-btn" id={project.class ? `${project.class}-btn`:''}>
-                      <span>{project.button.text} <img src={leftArrow} alt=""/></span>
+                    <LinkComponent href={project.button.link} className="button button-red projects-btn" id={project.class ? `${project.class}-btn` : ''}>
+                      <span>{project.button.text} <img src={leftArrow} alt="" /></span>
                     </LinkComponent>
                   </div>
                 </div>
               )
-            })} 
+            })}
+          </section>
+          {pilot.projectList &&
+            <section className="projects-s1-main container">
+              <h3 className="itemtitle">{pilot.title}</h3>
+              {pilot.projectList.map((project, index) => {
+                return (
+                  <div className="projects-s1-container columns" key={index}>
+                    <div className="column is-2">
+                      {project.logo.extension === 'svg' && !project.logo.childImageSharp ?
+                        <img src={!!project.logo.publicURL ? project.logo.publicURL : project.logo} alt='' className="projetcs-s1-container-child" />
+                        :
+                        <img src={!!project.logo.childImageSharp ? project.logo.childImageSharp.fluid.src : project.logo} alt='' className="projetcs-s1-container-child" />
+                      }
+                    </div>
+                    <div className="projetcs-s1-container-child column is-7 is-full-mobile">
+                      <h2>{project.title}</h2>
+                      <h3 id={project.class ? `${project.class}-h3` : ''}>{project.subTitle}</h3>
+                      <p>
+                        {project.description}
+                      </p>
+                      <div className="columns">
+                        <div className="column is-three-fifths">
+                          {project.features.map((feature, index) => {
+                            return (
+                              <p key={index}>
+                                <img
+                                  src={feature.icon.extension === 'svg' && !feature.icon.childImageSharp ?
+                                    feature.icon.publicURL
+                                    :
+                                    !!feature.icon.childImageSharp ? feature.icon.childImageSharp.fluid.src : feature.icon}
+                                  alt="" />
+                                {feature.text}
+                              </p>
+                            )
+                          })}
+                        </div>
+                        <div className="column">
+                          <p>IMPORTANT LINKS:</p>
+                          <br />
+                          {project.links.map((link, index) => {
+                            return (
+                              <p key={index}>
+                                <LinkComponent href={link.link}>{link.text}</LinkComponent>
+                              </p>
+                            )
+                          })}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="projetcs-s1-container-child column is-3">
+                      <LinkComponent href={project.button.link} className="button button-red projects-btn" id={project.class ? `${project.class}-btn` : ''}>
+                        <span>{project.button.text} <img src={leftArrow} alt="" /></span>
+                      </LinkComponent>
+                    </div>
+                  </div>
+                )
+              })}
             </section>
+          }
+
           <PageContent content={content} />
           <HostingProject />
         </div>
@@ -174,11 +177,11 @@ export const ProjectsPageTemplate = ({
   )
 }
 
-ProjectsPageTemplate.propTypes = {  
+ProjectsPageTemplate.propTypes = {
   seo: PropTypes.object,
   header: PropTypes.object,
   confirmed: PropTypes.object,
-  pilot: PropTypes.object,    
+  pilot: PropTypes.object,
 }
 
 const ProjectsPage = ({ data }) => {
@@ -186,10 +189,10 @@ const ProjectsPage = ({ data }) => {
 
   return (
     <Layout>
-      <ProjectsPageTemplate        
+      <ProjectsPageTemplate
         contentComponent={HTMLContent}
         seo={post.frontmatter.seo}
-        header={post.frontmatter.header}        
+        header={post.frontmatter.header}
         confirmed={post.frontmatter.confirmed}
         pilot={post.frontmatter.pilot}
         content={post.html}
