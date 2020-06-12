@@ -119,12 +119,7 @@ module.exports = {
         display: `standalone`,
       },
     },
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        precachePages: [``],
-      },
-    },
+    `gatsby-plugin-remove-serviceworker`,
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
