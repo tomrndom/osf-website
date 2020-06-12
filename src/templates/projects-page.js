@@ -266,42 +266,7 @@ export const projectsPageQuery = graphql`
           }
         }
         pilot {
-          title
-          projectList {
-            logo {
-              childImageSharp {
-                fluid(maxWidth: 640, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-              extension
-              publicURL
-            }
-            title
-            subTitle
-            class
-            description
-            button {
-              text
-              link
-            }
-            features {
-              icon {
-                childImageSharp {
-                  fluid(maxWidth: 640, quality: 64) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-                extension
-                publicURL
-              }
-              text
-            }
-            links {
-              link
-              text
-            }
-          }
+          title          
         }
       }
     }
