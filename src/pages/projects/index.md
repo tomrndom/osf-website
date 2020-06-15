@@ -162,8 +162,8 @@ confirmed:
       title: ZUUL
     - button:
         link: >-
-          https://www.openstack.org/assets/edge/OpenStack-EdgeWhitepaper-v3-online.pdf
-        text: Edge Whitepaper
+          https://www.openstack.org/edge-computing/edge-computing-next-steps-in-architecture-design-and-testing
+        text: 'Edge Whitepaper #2'
       class: projects-s5
       description: >-
         The Edge Computing Group is a working group comprised of architects and
@@ -179,6 +179,9 @@ confirmed:
           text: Weekly Meetings
         - link: 'http://lists.openstack.org/cgi-bin/mailman/listinfo/edge-computing'
           text: Join the Mailing List
+        - link: >-
+            https://www.openstack.org/edge-computing/cloud-edge-computing-beyond-the-data-center?lang=en_US
+          text: 'Cloud Edge Computing: Beyond the Data Center White Paper'
       logo: /img/earth2.jpg
       subTitle: OSF Board approved working group
       title: Edge Computing Group
