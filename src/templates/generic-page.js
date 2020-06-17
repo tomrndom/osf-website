@@ -61,7 +61,9 @@ export const GenericPageTemplate = ({
               </div>
             </div>              
           </section>
-          <Hero content={footer}/>
+          {footer &&
+            <Hero content={footer}/>
+          }
         </div>
       </main>
     </div>
