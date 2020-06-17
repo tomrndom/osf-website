@@ -8,7 +8,7 @@ seo:
   image: /img/osficon-social.png
   title: OpenStack Foundation Services for Projects
   twitterUsername: '@openstack'
-  url: 'https://osf.dev'
+  url: 'https://osf.dev/projects/services/'
 header:
   subTitle: >-
     These are the activities open source projects need in order to effectively

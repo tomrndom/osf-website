@@ -7,7 +7,7 @@ seo:
   image: /img/osficon-social.png
   title: 'Open Source Infrastructure Management: What Is It?'
   twitterUsername: '@openstack'
-  url: 'https://osf.dev/about/open-infrastructure-101/'
+  url: 'https://osf.dev/about/open-infrastructure/'
 title: Open Infrastructure 101
 subTitle: What is open infrastructure?
 ---

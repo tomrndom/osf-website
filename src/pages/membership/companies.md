@@ -5,7 +5,7 @@ seo:
   image: /img/osficon-social.png
   title: Supporting Companies - OpenStack Foundation OSF
   twitterUsername: '@openstack'
-  url: 'https://osf.dev'
+  url: 'https://osf.dev/companies/'
 header:
   link:
     text: >-

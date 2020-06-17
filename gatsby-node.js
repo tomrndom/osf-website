@@ -16,6 +16,9 @@ exports.createPages = ({ actions, graphql }) => {
             }
             frontmatter {
               templateKey
+              seo {
+                url
+              }
             }
           }
         }
@@ -32,9 +35,8 @@ exports.createPages = ({ actions, graphql }) => {
 
     pages.forEach(edge => {
       const id = edge.node.id
-      var slug = edge.node.fields.slug
-      // renames /projects/confirmed-project to /projects for SEO purposes
-      slug = slug.replace('/confirmed-projects', '')
+      const SEO = edge.node.frontmatter.seo
+      const slug = SEO.url.replace('https://osf.dev', '')
       createPage({
         path: slug,
         category: edge.node.frontmatter.category,
