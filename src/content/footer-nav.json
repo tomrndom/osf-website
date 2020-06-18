@@ -4,7 +4,7 @@
       "title": "Projects",
       "nav": [
         {
-          "text": "All projects",
+          "text": "Projects",
           "link": "/projects/"
         },
         {
@@ -27,7 +27,7 @@
         {
           "text": "Join OSF",
           "link": "https://www.openstack.org/join"
-        }        
+        }
       ]
     },
     {
@@ -51,33 +51,51 @@
       "title": "About",
       "nav": [
         {
-          "text": "4 Opens",
-          "link": "/about/fourOpens/"
-        },
-        {
-          "text": "Annual report",
-          "link": "https://www.openstack.org/foundation/2019-openstack-foundation-annual-report"
-        },
-        {
           "text": "Foundation Staff",
           "link": "/about/staff/"
         },
         {
           "text": "Board of Directors",
           "link": "/about/board/"
+        },
+        {
+          "text": "Foundation Staff",
+          "link": "/about/staff/"
+        },
+        {
+          "text": "Open Infrastructure 101",
+          "link": "/about/open-infrastructure/"
+        },
+        {
+          "text": "Partnerships",
+          "link": "/about/osf-partnerships/"
+        }
+      ]
+    },
+    {
+      "title": "Four Opens",
+      "nav": [
+        {
+          "text": "Our Philosophy",
+          "link": "/four-opens/"
+        },
+        {
+          "text": "Open Source",
+          "link": "/four-opens/open-source/"
+        },
+        {
+          "text": "Open Development",
+          "link": "/four-opens/open-development/"
+        },
+        {
+          "text": "Open Community",
+          "link": "/four-opens/open-community/"
+        },
+        {
+          "text": "Open Design",
+          "link": "/four-opens/open-design/"
         }
       ]
     }
-  ],
-  "footerBar": {
-    "privacy": {
-      "text": "Privacy Policy",
-      "url": "https://openstack.org/privacy/"
-    },
-    "legal": {
-      "text": "Legal",
-      "url": "https://openstack.org/legal/"
-    },
-    "text": "OPENSTACK FOUNDATION ©2019"
-  }
+  ]
 }
