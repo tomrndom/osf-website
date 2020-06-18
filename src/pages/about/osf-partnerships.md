@@ -16,7 +16,7 @@ subTitle: >-
   open infrastructure.
 ---
 
-<a href="http://www.cc.cesi.cn/english.aspx"><img src="blob:https://osf.dev/38caf529-edd2-2c40-bf8c-6c4f6321e630" style="width:20%;"></a>
+<a href="http://www.cc.cesi.cn/english.aspx"><img src="blob:https://osf.dev/38caf529-edd2-2c40-bf8c-6c4f6321e630" style="width:30%;"></a>
 
 The OSF and **China Electronics Standardization Institute (CESI)** announced a strategic partnership to implement new technology, assessment and certification for OpenStack software in China. The collaboration highlights the validation of OpenStack as the open source infrastructure cloud standard in China partnered with the OSF’s commitment to the growing OpenStack community in China, a region expecting significant growth in a global market valued at 53.9 billion yuan ($7.7 billion USD) in 2023. (source: 451 Research). 
 
@@ -32,7 +32,7 @@ They also encouraging and developing other collaborative activities, including t
 
 <hr/>
 
-<a href="https://opensource.org/"><img src="blob:https://osf.dev/ca95d3a4-fe6f-544c-962c-9bf88923a929" style="width:20%;"></a>
+<a href="https://opensource.org/"><img src="blob:https://osf.dev/ca95d3a4-fe6f-544c-962c-9bf88923a929" style="width:15%;"></a>
 
 **The Open Source Initiative** is a non-profit organization stewarding the open source definition, educating individuals and organizations on the economic and strategic advantages of adopting open source software. The OSF is an affiliate organization of OSI, fully supporting their mission of defending the meaning of open source and maintaining clarity on open source licensing.
 
