@@ -24,7 +24,7 @@ Under the collaboration, the OSF and CESI will define the standards for OpenStac
 
 <hr/>
 
-<a href="https://www.etsi.org/"><img src="blob:https://osf.dev/65821d90-6341-024d-8929-19f03a4ac44d" style="width:60%;"></a>
+<a href="https://www.etsi.org/"><img src="blob:https://osf.dev/65821d90-6341-024d-8929-19f03a4ac44d" style="width:50%;"></a>
 
 **ETSI** and the OSF are collaborating in technical areas which are subject of ETSI standardization work and which are in scope of OSF Open Infrastructure projects. OSF projects may consider implementation of the relevant ETSI specifications as part of their work and establishing a formal link between the communities of experts on both sides will facilitate the exchange of information in accordance with the policies and practices of both organizations.
 
@@ -32,13 +32,13 @@ They also encouraging and developing other collaborative activities, including t
 
 <hr/>
 
-<a href="https://opensource.org/"><img src="blob:https://osf.dev/ca95d3a4-fe6f-544c-962c-9bf88923a929" style="width:40%;"></a>
+<a href="https://opensource.org/"><img src="blob:https://osf.dev/ca95d3a4-fe6f-544c-962c-9bf88923a929" style="width:30%;"></a>
 
 **The Open Source Initiative** is a non-profit organization stewarding the open source definition, educating individuals and organizations on the economic and strategic advantages of adopting open source software. The OSF is an affiliate organization of OSI, fully supporting their mission of defending the meaning of open source and maintaining clarity on open source licensing.
 
 <hr/>
 
-<a href="https://www.ow2.org/"><img src="blob:https://osf.dev/d26a1e55-536e-8645-a4e4-5528737bb7f6" style="width:40%;"></a>
+<a href="https://www.ow2.org/"><img src="blob:https://osf.dev/34ac1c40-ad98-3842-ac5e-4088dded0563" style="width:40%;"></a>
 
 **OW2** is a non-profit consortium promoting the development of industry-grade open source middleware. The OSF is an associate organization of OW2, supporting their mission of creating a vibrant and innovative open source ecosystem.
 
