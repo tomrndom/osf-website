@@ -1,6 +1,31 @@
 {
   "sections": [
     {
+      "title": "Four Opens",
+      "nav": [
+        {
+          "text": "Our Philosophy",
+          "link": "/four-opens/"
+        },
+        {
+          "text": "Open Source",
+          "link": "/four-opens/open-source/"
+        },
+        {
+          "text": "Open Development",
+          "link": "/four-opens/open-development/"
+        },
+        {
+          "text": "Open Community",
+          "link": "/four-opens/open-community/"
+        },
+        {
+          "text": "Open Design",
+          "link": "/four-opens/open-design/"
+        }
+      ]
+    },
+    {
       "title": "Projects",
       "nav": [
         {
@@ -69,31 +94,6 @@
         {
           "text": "Partnerships",
           "link": "/about/osf-partnerships/"
-        }
-      ]
-    },
-    {
-      "title": "Four Opens",
-      "nav": [
-        {
-          "text": "Our Philosophy",
-          "link": "/four-opens/"
-        },
-        {
-          "text": "Open Source",
-          "link": "/four-opens/open-source/"
-        },
-        {
-          "text": "Open Development",
-          "link": "/four-opens/open-development/"
-        },
-        {
-          "text": "Open Community",
-          "link": "/four-opens/open-community/"
-        },
-        {
-          "text": "Open Design",
-          "link": "/four-opens/open-design/"
         }
       ]
     }
