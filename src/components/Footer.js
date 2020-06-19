@@ -48,6 +48,7 @@ const Footer = class extends React.Component {
           </div>
         </div>
       </footer>
+      { footerBar &&
       <div className="bar-footer is-dark-gray">
         <div className="container">
           <div className="bar-footer-inner">
@@ -60,6 +61,7 @@ const Footer = class extends React.Component {
           </div>
         </div>
       </div>
+      } 
     </React.Fragment>
     )
   }
