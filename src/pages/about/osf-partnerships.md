@@ -16,7 +16,7 @@ subTitle: >-
   open infrastructure.
 ---
 
-<a href="http://www.cc.cesi.cn/english.aspx"><img src="/img/cesi.png" style="width:30%;"></a>
+<a href="http://www.cc.cesi.cn/english.aspx"><img src="https://osf.dev/img/cesi.png" style="width:30%;"></a>
 
 The OSF and **China Electronics Standardization Institute (CESI)** announced a strategic partnership to implement new technology, assessment and certification for OpenStack software in China. The collaboration highlights the validation of OpenStack as the open source infrastructure cloud standard in China partnered with the OSF’s commitment to the growing OpenStack community in China, a region expecting significant growth in a global market valued at 53.9 billion yuan ($7.7 billion USD) in 2023. (source: 451 Research). 
 
@@ -24,7 +24,7 @@ Under the collaboration, the OSF and CESI will define the standards for OpenStac
 
 <hr/>
 
-<a href="https://www.etsi.org/"><img src="/img/etsi.png" style="width:20%;"></a>
+<a href="https://www.etsi.org/"><img src="https://osf.dev/img/etsi.png" style="width:20%;"></a>
 
 **ETSI** and the OSF are collaborating in technical areas which are subject of ETSI standardization work and which are in scope of OSF Open Infrastructure projects. OSF projects may consider implementation of the relevant ETSI specifications as part of their work and establishing a formal link between the communities of experts on both sides will facilitate the exchange of information in accordance with the policies and practices of both organizations.
 
@@ -32,18 +32,18 @@ They also encouraging and developing other collaborative activities, including t
 
 <hr/>
 
-<a href="https://opensource.org/"><img src="/img/osi.png" style="width:15%;"></a>
+<a href="https://opensource.org/"><img src="https://osf.dev/img/osi.png" style="width:15%;"></a>
 
 **The Open Source Initiative** is a non-profit organization stewarding the open source definition, educating individuals and organizations on the economic and strategic advantages of adopting open source software. The OSF is an affiliate organization of OSI, fully supporting their mission of defending the meaning of open source and maintaining clarity on open source licensing.
 
 <hr/>
 
-<a href="https://www.ow2.org/"><img src="/img/ow2.png" style="width:20%;"></a>
+<a href="https://www.ow2.org/"><img src="https://osf.dev/img/ow2.png" style="width:20%;"></a>
 
 **OW2** is a non-profit consortium promoting the development of industry-grade open source middleware. The OSF is an associate organization of OW2, supporting their mission of creating a vibrant and innovative open source ecosystem.
 
 <hr/>
 
-<a href="https://opencontainers.org/"><img src="/img/oci.png" style="width:20%;"></a>
+<a href="https://opencontainers.org/"><img src="https://osf.dev/img/oci.png" style="width:20%;"></a>
 
 **The Open Container Initiative** maintains vendor-neutral, portable and open specifications, reference implementations, and tools that deliver on the promise of containers as a source of application portability. The OSF is an OCI Member, and as such participates in the OCI Trademark Board activities.
