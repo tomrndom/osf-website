@@ -16,7 +16,7 @@ subTitle: >-
   open infrastructure.
 ---
 
-<a href="http://www.cc.cesi.cn/english.aspx"><img src="https://osf.dev/img/cesi.png" style="width:30%;"></a>
+<a href="http://www.cc.cesi.cn/english.aspx"><img src="https://osf.dev/img/cesi.png" style="width:40%;"></a>
 
 The OSF and **China Electronics Standardization Institute (CESI)** announced a strategic partnership to implement new technology, assessment and certification for OpenStack software in China. The collaboration highlights the validation of OpenStack as the open source infrastructure cloud standard in China partnered with the OSF’s commitment to the growing OpenStack community in China, a region expecting significant growth in a global market valued at 53.9 billion yuan ($7.7 billion USD) in 2023. (source: 451 Research). 
 
@@ -24,7 +24,7 @@ Under the collaboration, the OSF and CESI will define the standards for OpenStac
 
 <hr/>
 
-<a href="https://www.etsi.org/"><img src="https://osf.dev/img/etsi.png" style="width:20%;"></a>
+<a href="https://www.etsi.org/"><img src="https://osf.dev/img/etsi.png" style="width:30%;"></a>
 
 **ETSI** and the OSF are collaborating in technical areas which are subject of ETSI standardization work and which are in scope of OSF Open Infrastructure projects. OSF projects may consider implementation of the relevant ETSI specifications as part of their work and establishing a formal link between the communities of experts on both sides will facilitate the exchange of information in accordance with the policies and practices of both organizations.
 
