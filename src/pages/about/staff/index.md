@@ -141,7 +141,7 @@ members:
       enjoys live music shows, a good workout, riding his fixie  and SF Giants
       Baseball.
     linkedin: 'https://www.linkedin.com/in/danny-carreno-379ba646'
-    name: Danny Carenno
+    name: Danny Carreno
     openStack: 'https://www.openstack.org/community/members/profile/35643'
     picture: /img/about-staff/dc.png
     title: Ecosystem Manager
