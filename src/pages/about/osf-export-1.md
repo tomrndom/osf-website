@@ -9,7 +9,7 @@ seo:
 title: OSF Export ZH
 subTitle: We help people Build & Operate Open Infrastructure
 footer:
-  display: true
+  display: false
 ---
 <p class="fix-h5">开源加密软件源代码由美国商务部，工业和安全局（BIS）于2016年9月20日重新分类为“公开可用”，不再“受EAR约束。”[2] 每个开源项目仍然需要向BIS和NSA发送URL通知，以满足EAR中15 CFR § 742.15(b)处对于“公开可用”的通知要求。</p>
         <p class="fix-h5">OpenStack基金会（OSF）将继续与我们的项目合作，以确保项目的通知是最新的，并在将来被持续维护。</p>
