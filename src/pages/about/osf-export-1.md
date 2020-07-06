@@ -6,7 +6,7 @@ seo:
   title: OSF Export
   twitterUsername: '@openstack'
   url: 'https://osf.dev/exportzh/'
-title: OSF Export
+title: OSF Export ZH
 subTitle: We help people Build & Operate Open Infrastructure
 footer:
   display: true
