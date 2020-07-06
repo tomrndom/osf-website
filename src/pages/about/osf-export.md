@@ -9,7 +9,7 @@ seo:
 title: OSF Export
 subTitle: We help people Build & Operate Open Infrastructure
 footer:
-  display: true
+  display: false
   title: ''
 ---
 <p class="fix-h5">Open source encryption software source code was reclassified by the US Department of Commerce, Bureau of Industry and Security (BIS) effective September 20, 2016 as "publicly available" and no longer “subject to the EAR.”[2] Each open source project is still required to send a notice of the URL to BIS and NSA to satisfy the "publicly available" notice requirement in the EAR at 15 CFR § 742.15(b).</p>
