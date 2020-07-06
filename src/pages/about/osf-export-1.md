@@ -56,3 +56,4 @@ footer:
         <p class="fix-h5">如果您对OpenStack基金会项目的状态有任何疑问，请联系：<br>
 执行总监：Jonathan Bryce: <a href="mailto:jonathan@openstack.org">jonathan@openstack.org</a><br>
 首席运营官：Mark Collier <a href="mailto:mark@openstack.org">mark@openstack.org</a></p>
+<p class="fix-h5"><a href="/export/">Original English version</a>.</p>
