@@ -30,8 +30,6 @@ We at OSF consider The Four Opens our guiding principles in everything we do.
 * [Open Development](/four-opens/open-development/)
 * [Open Community](/four-opens/open-community/)
 
-How we practiced the Four Opens has evolved over time and incorporates many practices: public code reviews, design summits, technical committee, and lazy consensus. The Four Opens, as practiced by the OpenStack Project, is described and officially maintained in the OpenStack governance website.
-
-After eight years, the Four Opens proved pretty resilient, consistently managing to capture the “OpenStack Way” of doing upstream open source development. They are instrumental in the success, the quality and the visibility of the OpenStack software. Earlier this year, the OpenStack Foundation started the Four Opens Book as a way to share these learnings and how the Four Opens were initially intended for upstream, and how they proved applicable to downstream activities such as user feedback gathering, marketing, or event management. As the OpenStack Foundation grows to more generally support Open Infrastructure, the Four Opens will grow alongside it.
+How we practiced the Four Opens has evolved over time and incorporates many practices: public code reviews, design summits, technical committee, and lazy consensus.  Earlier this year, the OpenStack Foundation started the Four Opens Book as a way to share these learnings and how the Four Opens were initially intended for upstream, and how they proved applicable to downstream activities such as user feedback gathering, marketing, or event management. As the OpenStack Foundation grows to more generally support Open Infrastructure, the Four Opens will grow alongside it.
 
 We welcome you to [read the book](https://opendev.org/osf/four-opens/src/branch/master/doc/source/introduction.rst) or [contribute](https://opendev.org/osf/four-opens) and share your open source learnings as this book continues to evolve and reflect our values.
