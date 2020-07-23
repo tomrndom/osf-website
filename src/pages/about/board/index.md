@@ -132,6 +132,11 @@ members:
     picture: /img/board/clemenshardewig.jpeg
     title: Gold Representative
   - company: Red Hat
+    description: >-
+      Based in Ireland; Daniel leads a global engineering team at Red Hat
+      encompassing Openstack and other adjacent infrastructure and telco
+      initiatives. Prior to joining Red Hat  5 years ago, Daniel held a variety
+      of technology leadership roles for companies over the last 20 years.
     name: Daniel Becker
     openStack: 'https://www.openstack.org/community/members/profile/61513'
     picture: /img/board/generic-profile-photo.png
