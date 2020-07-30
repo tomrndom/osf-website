@@ -185,6 +185,9 @@ confirmed:
       logo: /img/earth2.jpg
       subTitle: OSF Board approved working group
       title: Edge Computing Group
+  title: CONFIRMED PROJECTS
+pilot:
+  projectList:
     - button:
         link: 'https://openinfralabs.org/'
         text: View Website
@@ -212,8 +215,6 @@ confirmed:
       logo: /img/openinfralabs-logo-rgb-stacked.svg
       subTitle: Connecting open source projects to production
       title: OpenInfra Labs
-  title: CONFIRMED PROJECTS
-pilot:
   title: PILOT PROJECTS
 ---
 
