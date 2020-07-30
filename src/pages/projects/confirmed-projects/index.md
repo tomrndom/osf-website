@@ -185,6 +185,33 @@ confirmed:
       logo: /img/earth2.jpg
       subTitle: OSF Board approved working group
       title: Edge Computing Group
+    - button:
+        link: 'https://openinfralabs.org/'
+        text: View Website
+      class: projects-s5
+      description: >-
+        OpenInfra Labs is a community, created by and for infrastructure
+        providers and operators, integrating and optimizing different layers of
+        the infrastructure, running open source code in production, publishing
+        complete, reproducible stacks for existing and emerging workloads, to
+        advance open source infrastructure.
+      features:
+        - icon: /img/icon5.svg
+          text: 'Public, Private, and Hybrid Cloud'
+        - icon: /img/icon3.svg
+          text: Container Infrastructure
+      links:
+        - link: 'http://lists.opendev.org/cgi-bin/mailman/listinfo/openinfralabs'
+          text: Mailing List
+        - link: 'https://gitlab.com/open-infrastructure-labs'
+          text: Code Repository
+        - link: 'https://gitlab.com/open-infrastructure-labs/nerc-architecture'
+          text: Meeting Notes
+        - link: 'https://openinfralabs.org/operate-first-community-manifesto/'
+          text: Operate First Community Manifesto
+      logo: /img/openinfralabs-logo-rgb-stacked.svg
+      subTitle: Connecting open source projects to production
+      title: OpenInfra Labs
   title: CONFIRMED PROJECTS
 pilot:
   title: PILOT PROJECTS
