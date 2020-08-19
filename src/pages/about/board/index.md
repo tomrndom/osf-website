@@ -421,14 +421,13 @@ members:
     title: Gold Representative
   - company: Huawei
     description: >-
-      <p class="is-6">Bill Ren holds an EMBA and Master Degree from PeKing
-      University, and a CS Bachelor Degree from Shanghai Jiaotong University.
-      Since Joining Huawei in 2000，Bill served as an Intelligent Network
-      Research and Development Engineer, Product Manager and Architect of India
-      Branch, General Manager of Business OSS, Vice President of Network OSS,
-      Vice President of Network OSS Strategy and MKT, Vice President of Solution
-      MKTG, etc. We have accumulated rich experience in R&D, marketing and
-      product management.</p>
+      <p>Bill Ren holds an EMBA and Master Degree from PeKing University, and a
+      CS Bachelor Degree from Shanghai Jiaotong University. Since Joining Huawei
+      in 2000，Bill served as an Intelligent Network Research and Development
+      Engineer, Product Manager and Architect of India Branch, General Manager
+      of Business OSS, Vice President of Network OSS, Vice President of Network
+      OSS Strategy and MKT, Vice President of Solution MKTG, etc. We have
+      accumulated rich experience in R&D, marketing and product management.</p>
 
 
       <p>Mr. Ren Xudong（Bill Ren）serves as the General Manager of ICT
