@@ -387,6 +387,22 @@ members:
     openStack: 'https://www.openstack.org/community/members/profile/4843'
     picture: /img/board/shanewang.png
     title: Individual Representative
+  - company: Cisco
+    description: >-
+      Shannon McFarland, CCIE #5245, is a Distinguished Engineer at Cisco and is
+      focused on private/public cloud deployment and container networking. He
+      has authored many technical papers, Cisco Validated Design guides, a
+      contributor to Cisco Press books and is a frequent speaker at Cisco Live
+      and other industry conferences. He is a multi-time Distinguished Speaker
+      and a recipient of the Cisco Live Hall of Fame Elite award. He has
+      co-authored a Cisco Press book titled "IPv6 in the Enterprise". Shannon
+      has been at Cisco for 18 years.
+    linkedin: ''
+    name: Shannon McFarland
+    openStack: 'https://www.openstack.org/community/members/profile/1356'
+    picture: /img/shannondistspeaker.jpg
+    title: Gold Representative
+    twitter: 'https://twitter.com/@eyepv6'
   - company: CERN
     description: >-
       Tim is responsible for the group at CERN, the European Laboratory for
@@ -409,22 +425,6 @@ members:
     picture: /img/board/timbell.jpg
     title: Individual Representative
     twitter: 'https://twitter.com/noggin143'
-  - company: Cisco
-    description: >-
-      Shannon McFarland, CCIE #5245, is a Distinguished Engineer at Cisco and is
-      focused on private/public cloud deployment and container networking. He
-      has authored many technical papers, Cisco Validated Design guides, a
-      contributor to Cisco Press books and is a frequent speaker at Cisco Live
-      and other industry conferences. He is a multi-time Distinguished Speaker
-      and a recipient of the Cisco Live Hall of Fame Elite award. He has
-      co-authored a Cisco Press book titled "IPv6 in the Enterprise". Shannon
-      has been at Cisco for 18 years.
-    linkedin: ''
-    name: Shannon McFarland
-    openStack: 'https://www.openstack.org/community/members/profile/1356'
-    picture: /img/shannondistspeaker.jpg
-    title: Gold Representative
-    twitter: 'https://twitter.com/@eyepv6'
   - company: China Unicom Wo Cloud
     description: >-
       Xin Zhong got his Master Degree from Tsinghua University in 2003. He has
