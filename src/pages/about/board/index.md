@@ -369,18 +369,25 @@ members:
     title: Individual Representative
   - company: Cisco
     description: >-
-      Shannon McFarland, CCIE #5245, is a Distinguished Engineer at Cisco and is
-      focused on private/public cloud deployment and container networking. He
-      has authored many technical papers, Cisco Validated Design guides, a
-      contributor to Cisco Press books and is a frequent speaker at Cisco Live
-      and other industry conferences. He is a multi-time Distinguished Speaker
-      and a recipient of the Cisco Live Hall of Fame Elite award. He has
-      co-authored a Cisco Press book titled "IPv6 in the Enterprise". Shannon
-      has been at Cisco for 18 years.
+      Shannon is a Distinguished Engineer and Cloud Architect for Cloud Native
+      and Application Infrastructure technologies at Cisco. He has been at Cisco
+      for 20+ years. Shannon worked as a systems engineer at a system integrator
+      for many years and as an end-user engineer in the medical industry prior
+      to that.</p>
+
+
+      <p>Shannon has been involved, as a technical contributor in the OpenStack
+      (Since Diablo), Kubernetes and Istio communities, with a distinct focus on
+      all-things networking. He is an author (“IPv6 for Enterprise Networks”)
+      and a frequent speaker at various industry and community conferences to
+      include OpenStack/Open Infrastructure Summits, Cisco Live, etc.</p>
+
+
+      <p>LinkedIn: https://www.linkedin.com/in/smcfarland/
     linkedin: ''
     name: Shannon McFarland
     openStack: 'https://www.openstack.org/community/members/profile/1356'
-    picture: /img/shannondistspeaker.jpg
+    picture: /img/shannonmcfarland.jpg
     title: Gold Representative
     twitter: 'https://twitter.com/@eyepv6'
   - company: CERN
