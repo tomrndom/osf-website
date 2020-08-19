@@ -421,23 +421,23 @@ members:
     title: Gold Representative
   - company: Huawei
     description: >-
-      <p>Bill Ren holds an EMBA and Master Degree from PeKing University, and a
-      CS Bachelor Degree from Shanghai Jiaotong University. Since Joining Huawei
-      in 2000，Bill served as an Intelligent Network Research and Development
+      Bill Ren holds an EMBA and Master Degree from PeKing University, and a CS
+      Bachelor Degree from Shanghai Jiaotong University. Since Joining Huawei in
+      2000，Bill served as an Intelligent Network Research and Development
       Engineer, Product Manager and Architect of India Branch, General Manager
       of Business OSS, Vice President of Network OSS, Vice President of Network
       OSS Strategy and MKT, Vice President of Solution MKTG, etc. We have
-      accumulated rich experience in R&D, marketing and product management.</p>
+      accumulated rich experience in R&D, marketing and product management.
 
 
-      <p>Mr. Ren Xudong（Bill Ren）serves as the General Manager of ICT
+      Mr. Ren Xudong（Bill Ren）serves as the General Manager of ICT
       Infrastructure Open Source Business at Huawei Technologies Co. Ltd, and as
       the chief liaison officer of Huawei. In this role，he is fully responsible
       for responsible for the implementation of open source solutions for
       operators/enterprises in the network automation industry, using open
       source means to build industrial ecology, expand industrial space, build a
       healthy and harmonious industrial environment, and support the success of
-      the company's business.</p>
+      the company's business
     name: Xudong Ren
     openStack: 'https://www.openstack.org/community/members/profile/124742'
     picture: /img/billren.jpg
