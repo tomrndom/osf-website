@@ -434,10 +434,10 @@ members:
       Engineer, Product Manager and Architect of India Branch, General Manager
       of Business OSS, Vice President of Network OSS, Vice President of Network
       OSS Strategy and MKT, Vice President of Solution MKTG, etc. We have
-      accumulated rich experience in R&D, marketing and product management.
+      accumulated rich experience in R&D, marketing and product management.</p>
 
 
-      Mr. Ren Xudong（Bill Ren）serves as the General Manager of ICT
+      <p>Mr. Ren Xudong（Bill Ren）serves as the General Manager of ICT
       Infrastructure Open Source Business at Huawei Technologies Co. Ltd, and as
       the chief liaison officer of Huawei. In this role，he is fully responsible
       for responsible for the implementation of open source solutions for
