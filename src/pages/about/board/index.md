@@ -411,28 +411,20 @@ members:
     twitter: 'https://twitter.com/noggin143'
   - company: Cisco
     description: >-
-      Vijoy is the VP and CTO of Cloud at Cisco, having recently joined Cisco in
-      August 2018. <p>Vijoy was previously at Google where he has held various
-      leadership roles in the architecture,  engineering and operations of
-      Google's global data center networking footprint, Cloud networking,  and
-      their two global WAN networks. He also led the development of software and
-      systems for  intent-driven zero-touch automation, diagnostic telemetry,
-      data analytics and ML/AI and  application-level awareness in the
-      infrastructure.</p> <p>Prior to Google, Vijoy served in numerous CTO
-      capacities including CTO of Networking at  IBM Cloud and at IBM Systems
-      and Software Group; CTO of Blade Network Technologies, and has  led global
-      Engineering teams at Blade Network Technologies, Nortel and Alteon.</p>
-      <p>Vijoy has led the industry’s automation and data analytics efforts for
-      cloud-scale networks,  and was instrumental in delivering many industry
-      firsts – including the first intent-driven e2e  automation framework at
-      Cloud scale, the first Open Source SDN controller; the first VM-aware 
-      switch, and the first low-latency HFT/HPC switch.</p> <p>He has a Ph.D. in
-      Computer Science, and holds over 60 patents in distributed systems &amp; 
-      networking.</p>
-    name: Vijoy Pandey
-    openStack: 'https://www.openstack.org/community/members/profile/109654'
-    picture: /img/board/vijoypandey.jpg
+      Shannon McFarland, CCIE #5245, is a Distinguished Engineer at Cisco and is
+      focused on private/public cloud deployment and container networking. He
+      has authored many technical papers, Cisco Validated Design guides, a
+      contributor to Cisco Press books and is a frequent speaker at Cisco Live
+      and other industry conferences. He is a multi-time Distinguished Speaker
+      and a recipient of the Cisco Live Hall of Fame Elite award. He has
+      co-authored a Cisco Press book titled "IPv6 in the Enterprise". Shannon
+      has been at Cisco for 18 years.
+    linkedin: ''
+    name: Shannon McFarland
+    openStack: 'https://www.openstack.org/community/members/profile/1356'
+    picture: /img/shannondistspeaker.jpg
     title: Gold Representative
+    twitter: 'https://twitter.com/@eyepv6'
   - company: China Unicom Wo Cloud
     description: >-
       Xin Zhong got his Master Degree from Tsinghua University in 2003. He has
