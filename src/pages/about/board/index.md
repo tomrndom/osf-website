@@ -417,7 +417,7 @@ members:
       cloud, private cloud and  multi-cloud management products.
     name: Xin Zhong
     openStack: 'https://www.openstack.org/community/members/profile/119260'
-    picture: /img/board/vijoypandey.jpg
+    picture: /img/xinzhong.jpg
     title: Gold Representative
   - company: Huawei
     description: >-
