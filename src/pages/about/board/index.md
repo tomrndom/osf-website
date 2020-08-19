@@ -141,26 +141,6 @@ members:
     openStack: 'https://www.openstack.org/community/members/profile/61513'
     picture: /img/board/generic-profile-photo.png
     title: Platinum Representative
-  - company: Huawei
-    description: >-
-      <p class="is-6">I am leading OpenStack upstream development team in
-      Huawei, one of the Platinum  member of OpenStack.</p> <p>Since joining
-      OpenStack community in 2015, I have been working to connect customers to
-      OpenStack  cumminty, by introducing customers requirements to community,
-      implementing in upstream and helping  downstream team to deliver product
-      to customers.</p> <p>I am also one of the organizers in China Bug Smash
-      events, which happen every 6 months to cooperate  with all the developers
-      in China and some outside of China to improve OpenStack software quality
-      by  fixing bugs.</p> <p>I had the opportunity to work as a volunteer in
-      OpenStack Days China, which has more then 2000 attendees.</p> <p>With my
-      experience of enginneering and management, under support from my team and
-      employer, I am  happy to work with all the memebers to improve and promote
-      OpenStack.</p>
-    name: Fred LI
-    openStack: 'https://www.openstack.org/community/members/profile/50676'
-    picture: /img/board/fred-1.jpg
-    title: Platinum Representative
-    twitter: 'https://twitter.com/liyongle'
   - company: City Network Hosting AB
     description: >-
       <p class="is-6">Johan Christenson is a serial entrepreneur whom has
@@ -439,5 +419,30 @@ members:
     openStack: 'https://www.openstack.org/community/members/profile/119260'
     picture: /img/board/vijoypandey.jpg
     title: Gold Representative
+  - company: Huawei
+    description: >-
+      <p class="is-6">Bill Ren holds an EMBA and Master Degree from PeKing
+      University, and a CS Bachelor Degree from Shanghai Jiaotong University.
+      Since Joining Huawei in 2000，Bill served as an Intelligent Network
+      Research and Development Engineer, Product Manager and Architect of India
+      Branch, General Manager of Business OSS, Vice President of Network OSS,
+      Vice President of Network OSS Strategy and MKT, Vice President of Solution
+      MKTG, etc. We have accumulated rich experience in R&D, marketing and
+      product management.</p>
+
+
+      <p>Mr. Ren Xudong（Bill Ren）serves as the General Manager of ICT
+      Infrastructure Open Source Business at Huawei Technologies Co. Ltd, and as
+      the chief liaison officer of Huawei. In this role，he is fully responsible
+      for responsible for the implementation of open source solutions for
+      operators/enterprises in the network automation industry, using open
+      source means to build industrial ecology, expand industrial space, build a
+      healthy and harmonious industrial environment, and support the success of
+      the company's business.</p>
+    name: Xudong Ren
+    openStack: 'https://www.openstack.org/community/members/profile/124742'
+    picture: /img/billren.jpg
+    title: Platinum Representative
+    twitter: ''
 ---
 
