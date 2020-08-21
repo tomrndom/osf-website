@@ -9,7 +9,7 @@ seo:
   twitterUsername: '@openstack'
   url: 'https://osf.dev/about/'
 title: About
-subTitle: ''
+subTitle: About the OSF
 footer:
   button: ''
   buttonText: ''
@@ -29,8 +29,8 @@ Staying true to its mission of helping people build and operate open infrastruct
 
 For more insight into OpenStack Foundation activities and progress, please read the annual reports:
 
-* [2019 annual report](https://www.openstack.org/foundation/2019-openstack-foundation-annual-report)
-* [2018 annual report](https://www.openstack.org/foundation/2018-openstack-foundation-annual-report)
+* [2019 annual report](https://www.openstack.org/annual-reports/2019-openstack-foundation-annual-report)
+* [2018 annual report](https://www.openstack.org/annual-reports/2018-openstack-foundation-annual-report)
 * [2017 annual report](https://www.openstack.org/assets/reports/OpenStack-AnnualReport2017.pdf)
 * [2016 annual report](https://www.openstack.org/assets/reports/OpenStack-2016-Annual-Report-final-draft.pdf)
 * [2015 annual report](https://www.openstack.org/assets/reports/osf-annual-report-2015-FINAL.pdf)
