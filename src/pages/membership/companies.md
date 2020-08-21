@@ -78,8 +78,6 @@ companies:
         image: /img/companies/troila-new-sm.jpg
       - alt: 'New H3C Technologies Co., Limited'
         image: /img/companies/H3C-lg.jpg
-      - alt: UnitedStack Inc.
-        image: /img/companies/unitedstack-sp-lg.jpg
       - alt: ZTE Corporation
         image: /img/companies/zte-lg.jpg
     text: >-
@@ -1416,6 +1414,8 @@ companies:
         image: /img/companies/Screen-Shot-2014-11-14-at-18.png
       - alt: Zwise s.a.
         image: /img/companies/ZW-logo.jpg
+      - alt: UnitedStack
+        image: /img/unitedstack-sp-lg.jpg
     text: >-
       The resources provided by the Members and Sponsors are critical to making
       the OpenStack Foundation  successful, but there are many ways to support
