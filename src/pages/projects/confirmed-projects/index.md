@@ -175,7 +175,7 @@ confirmed:
           text: EDGE COMPUTING
       links:
         - link: >-
-            https://etherpad.openstack.org/p/2017_edge_computing_working_sessions
+            https://wiki.openstack.org/wiki/Edge_Computing_Group?_ga=2.89217689.361772780.1598227486-61533541.1515512744
           text: Weekly Meetings
         - link: 'http://lists.openstack.org/cgi-bin/mailman/listinfo/edge-computing'
           text: Join the Mailing List
