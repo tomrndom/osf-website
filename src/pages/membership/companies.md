@@ -25,7 +25,7 @@ companies:
       - alt: Huawei
         image: /img/companies/huawei-new-lg.jpg
       - alt: Intel
-        image: /img/companies/intel-xlg.jpg
+        image: /img/intel-lg.png
       - alt: Rackspace
         image: /img/companies/rackspace-lg-2016.jpg
       - alt: 'Red Hat, Inc.'
