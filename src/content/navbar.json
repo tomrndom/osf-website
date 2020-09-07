@@ -107,7 +107,7 @@
       "image": "/img/menu/menu_about.jpg",
       "marginLeft": "-422px",
       "url": "/blog/",
-      "display": true,
+      "display": false,
       "links": [
         {
           "text": "News & Announcements",
