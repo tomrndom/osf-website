@@ -1,5 +1,5 @@
 ---
 templateKey: 'tags'
-authorName: Chris Hoge
+authorName: Author
 company: OpenStack Foundation
 ---
