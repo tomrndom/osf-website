@@ -101,6 +101,27 @@
           "url": "/about/osf-partnerships/"
         }
       ]
+    },
+    {
+      "title": "Blog",
+      "image": "/img/menu/menu_about.jpg",
+      "marginLeft": "-422px",
+      "url": "/blog/",
+      "display": true,
+      "links": [
+        {
+          "text": "News & Announcements",
+          "url": "/blog/category/news-announcements/"
+        },
+        {
+          "text": "Features & Updates",
+          "url": "/blog/category/features-updates/"
+        },
+        {
+          "text": "Annual Report",
+          "url": "/blog/category/annual-report/"
+        }
+      ]
     }
   ],
   "button": {

@@ -4,8 +4,8 @@ title: Congratulations To The Newly Elected Airship Technical Committee!
 author: Chris Hoge
 date: 2019-07-25T09:00:00.000Z
 category: 
-  - label: Election
-    id: category-A7xLnYrE1
+  - label: News & Announcements
+    id: category-A7fnZYrE1
 ---
 The Airship team is excited to announce the completion of its first [Technical
 Committee election](http://lists.airshipit.org/pipermail/airship-discuss/2019-July/000514.html)

@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: tomrndom/osf-website
-  branch: add-blog-news
+  repo: OpenStackweb/osf-website
+  branch: master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -80,6 +80,20 @@ collections:
               {label: "Twitter Username", name: "twitterUsername", widget: string},
               {label: "Theme Color", name: "themeColor", widget: string},
           ]}
+      - file: "src/content/blog-config.json"
+        label: "Blog Configuration"
+        name: "blogConfig"
+        fields:
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Subtitle", name: "subTitle", widget: string}
+          - {label: "Categories", name: "categories", widget: "list", fields: [
+              {label: "Label", name: "text", widget: "string"},
+              {label: "ID", name: "id", widget: ncw-id, prefix: category}
+            ]}
+          - {label: "Links", name: "connect", widget: list, fields: [
+              {label: "Text", name: "text", widget: string },
+              {label: "Link", name: "link", widget: string },
+            ]}
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"

@@ -1,23 +1,19 @@
 {
   "title": "Blog",
-  "subTitle": "Airship news, announcements, best practices, use cases and more.",
+  "subTitle": "OSF news, announcements, best practices, use cases and more.",
   "categories": [
     {
       "text": "News & Announcements",
       "id": "category-A7fnZYrE1"
     },
     {
-      "text": "Election",
+      "text": "Features & Updates",
       "id": "category-A7xLnYrE1"
     },
     {
-      "text": "Summit",
+      "text": "Annual Report",
       "id": "category-BJknZYrE1"
-    },
-    {
-      "text": "Airship 2.0",
-      "id": "category-C98iZYrE1"
-    }
+    }    
   ],
   "connect": [
     {

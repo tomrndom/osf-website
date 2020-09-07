@@ -68,7 +68,7 @@ exports.createPages = ({ actions, graphql }) => {
 
     // Make category pages
     categories.forEach(category => {
-      const categoriePath = `/category/${_.kebabCase(category)}/`
+      const categoriePath = `/blog/category/${_.kebabCase(category)}/`
 
       createPage({
         path: categoriePath,
@@ -92,7 +92,7 @@ exports.createPages = ({ actions, graphql }) => {
 
     // Make category pages
     authors.forEach(author => {
-      const authorPath = `/author/${_.kebabCase(author)}/`
+      const authorPath = `blog/author/${_.kebabCase(author)}/`
 
       createPage({
         path: authorPath,
