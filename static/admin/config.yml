@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: OpenStackweb/osf-website
-  branch: master  
+  repo: tomrndom/osf-website
+  branch: add-blog-news
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -12,7 +12,17 @@ backend:
 media_folder: static/img
 public_folder: /img
 
-collections:  
+collections:
+  - name: "authors"
+    label: "Authors"
+    folder: "/src/pages/author"
+    create: true    
+    editor:
+      preview: false
+    identifier_field: authorName
+    fields:
+      - {label: "Name", name: authorName, widget: string}
+      - {label: "Company", name: company, widget: string}
   - name: "configurations"
     label: "Configurations"
     editor:
