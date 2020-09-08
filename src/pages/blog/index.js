@@ -1,0 +1,82 @@
+import React from 'react'
+import Helmet from 'react-helmet'
+import { kebabCase } from 'lodash'
+import { Link, withPrefix } from 'gatsby'
+
+import Layout from '../../components/Layout'
+import Header from '../../components/Header'
+import TopBar from '../../components/TopBar';
+import Navbar from '../../components/Navbar';
+import BlogRoll from '../../components/BlogRoll'
+
+import blogConfig from '../../content/blog-config.json'
+import metadata from '../../content/site-metadata.json'
+
+export default class BlogIndexPage extends React.Component {
+
+
+  render() {
+    const { filter } = this.props;
+    return (
+      <Layout>
+        <div>
+          <Helmet title={blogConfig.seo.title} titleTemplate={blogConfig.seo.titleTemplate}>
+            <meta name="description" content={blogConfig.seo.description} />
+            <meta name="image" content={`${withPrefix('/')}${blogConfig.seo.image}`} />
+            <meta property="og:url" content={blogConfig.seo.url} />
+            <meta property="og:title" content={blogConfig.seo.title} />          
+            <meta property="og:description" content={blogConfig.seo.description} />            
+            <meta property="og:image" content={`${withPrefix('/')}${blogConfig.seo.image}`} />
+            <meta name="theme-color" content={blogConfig.seo.themeColor} />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:creator" content={blogConfig.seo.twitterUsername} />            
+            <meta name="twitter:title" content={blogConfig.seo.title} />
+            <meta name="twitter:description" content={blogConfig.seo.description} />            
+            <meta name="twitter:image" content={`${withPrefix('/')}${blogConfig.seo.image}`} />
+          </Helmet>
+          <div className="wrapper project-background">
+            <TopBar />
+            <Navbar />
+            <Header title={blogConfig.title} subTitle={blogConfig.subTitle} />
+          </div>
+          <main className="main">
+            <div className="content">
+              <section className="section blog-s1-main">
+                <div className="container blog-s1-container">
+                  <div className="columns">
+                    <div className="column is-three-quarters">
+                      <div className="content">
+                        <div>
+                          <BlogRoll customFilter={filter ? filter : null} />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="column">
+                      <aside>
+                        <ul className="widgets">
+                          <li className="widget item-no-bullet">
+                            <div className="widget-head">
+                              <h4 className="widget-title">Categories</h4>
+                            </div>
+                            <div className="widget-body">
+                              <ul className="widget-list">
+                                {blogConfig.categories.map(category => <li><Link to={`/category/${kebabCase(category.text)}/`}>{category.text}</Link></li>)}
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </aside>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              {/* {footer &&
+                  <Hero content={footer} />
+                } */}
+            </div>
+          </main>
+        </div>
+      </Layout>
+    )
+  }
+}

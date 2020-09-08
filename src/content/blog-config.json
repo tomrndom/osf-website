@@ -1,0 +1,45 @@
+{
+  "title": "Blog",
+  "subTitle": "OSF news, announcements, best practices, use cases and more.",
+  "categories": [
+    {
+      "text": "News & Announcements",
+      "id": "category-A7fnZYrE1"
+    },
+    {
+      "text": "Features & Updates",
+      "id": "category-A7xLnYrE1"
+    },
+    {
+      "text": "Annual Report",
+      "id": "category-BJknZYrE1"
+    }    
+  ],
+  "connect": [
+    {
+      "text": "Mailing Lists",
+      "link": "http://lists.airshipit.org/cgi-bin/mailman/listinfo"
+    },
+    {
+      "text": "Weekly Calls",
+      "link": "https://wiki.openstack.org/wiki/Airship#Get_in_Touch"
+    },
+    {
+      "text": "Freenode IRC: #airshipit",
+      "link": "https://wiki.openstack.org/wiki/Airship#Get_in_Touch"
+    },
+    {
+      "text": "Twitter",
+      "link": "https://twitter.com/airshipproject"
+    }
+  ],
+  "seo": {
+    "title": "Blog",
+    "titleTemplate": "%s  - OpenStack Foundation OSF",
+    "description": "Projects further the OSF mission of supporting the development and adoption of production infrastructure with open source components.",
+    "url": "https://osf.dev/blog/",
+    "image": "/img/osficon-social.png",
+    "twitterUsername": "@openstack",
+    "themeColor": "#f15b3e"
+  }
+}
