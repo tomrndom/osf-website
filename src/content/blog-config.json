@@ -32,5 +32,14 @@
       "text": "Twitter",
       "link": "https://twitter.com/airshipproject"
     }
-  ]
+  ],
+  "seo": {
+    "title": "Blog",
+    "titleTemplate": "%s  - OpenStack Foundation OSF",
+    "description": "Projects further the OSF mission of supporting the development and adoption of production infrastructure with open source components.",
+    "url": "https://osf.dev/blog/",
+    "image": "/img/osficon-social.png",
+    "twitterUsername": "@openstack",
+    "themeColor": "#f15b3e"
+  }
 }

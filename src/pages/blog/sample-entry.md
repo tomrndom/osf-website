@@ -6,6 +6,12 @@ date: 2019-07-25T09:00:00.000Z
 category: 
   - label: News & Announcements
     id: category-A7fnZYrE1
+seo:  
+  title: "Sample Entry" 
+  description: "Example of a blog post"
+  url: 'https://osf.dev/blog/sample-entry'  
+  image: /img/osficon-social.png  
+  twitterUsername: '@openstack'  
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac ipsum at urna molestie porta. Nulla tincidunt felis vel rhoncus tempus. Morbi nec leo diam. Proin pellentesque ante non ligula maximus, vel porta enim convallis. Sed tristique arcu eu orci viverra vulputate. Quisque elementum diam non odio pellentesque blandit et quis neque. Maecenas commodo ipsum velit, at pharetra lacus facilisis quis. Integer consequat odio sed ornare pulvinar. Duis erat ex, cursus sit amet dolor vel, scelerisque gravida enim. Morbi id tempus felis. Donec commodo venenatis dolor, eget aliquet ex imperdiet vitae.

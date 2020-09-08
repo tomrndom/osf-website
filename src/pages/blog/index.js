@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { kebabCase } from 'lodash'
-import { Link } from 'gatsby'
+import { Link, withPrefix } from 'gatsby'
 
 import Layout from '../../components/Layout'
 import Header from '../../components/Header'
@@ -20,47 +20,26 @@ export default class BlogIndexPage extends React.Component {
     return (
       <Layout>
         <div>
-          {/* {seo &&
-            <Helmet title={seo.title ? seo.title : metadata.siteMetadata.title} titleTemplate={metadata.siteMetadata.titleTemplate}>
-              {seo.description && <meta name="description" content={seo.description} />}
-              {seo.image && <meta name="image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-              {seo.url && <meta property="og:url" content={seo.url} />}
-              {seo.title && <meta property="og:title" content={seo.title} />}
-              {seo.description && (
-                <meta property="og:description" content={seo.description} />
-              )}
-              {seo.image && <meta property="og:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-              <meta name="twitter:card" content="summary_large_image" />
-              {seo.twitterUsername && (
-                <meta name="twitter:creator" content={seo.twitterUsername} />
-              )}
-              {seo.title && <meta name="twitter:title" content={seo.title} />}
-              {seo.description && (
-                <meta name="twitter:description" content={seo.description} />
-              )}
-              {seo.image && <meta name="twitter:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-            </Helmet>
-          } */}
+          <Helmet title={blogConfig.seo.title} titleTemplate={blogConfig.seo.titleTemplate}>
+            <meta name="description" content={blogConfig.seo.description} />
+            <meta name="image" content={`${withPrefix('/')}${blogConfig.seo.image}`} />
+            <meta property="og:url" content={blogConfig.seo.url} />
+            <meta property="og:title" content={blogConfig.seo.title} />          
+            <meta property="og:description" content={blogConfig.seo.description} />            
+            <meta property="og:image" content={`${withPrefix('/')}${blogConfig.seo.image}`} />
+            <meta name="theme-color" content={blogConfig.seo.themeColor} />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:creator" content={blogConfig.seo.twitterUsername} />            
+            <meta name="twitter:title" content={blogConfig.seo.title} />
+            <meta name="twitter:description" content={blogConfig.seo.description} />            
+            <meta name="twitter:image" content={`${withPrefix('/')}${blogConfig.seo.image}`} />
+          </Helmet>
           <div className="wrapper project-background">
             <TopBar />
             <Navbar />
             <Header title={blogConfig.title} subTitle={blogConfig.subTitle} />
           </div>
           <main className="main">
-            {blogConfig &&
-              <Helmet title={blogConfig.title ? blogConfig.title : metadata.siteMetadata.title} titleTemplate={metadata.siteMetadata.titleTemplate}>
-                {blogConfig.subTitle && <meta name="description" content={blogConfig.subTitle} />}
-                {blogConfig.title && <meta property="og:title" content={blogConfig.title} />}
-                {blogConfig.subTitle && (
-                  <meta property="og:description" content={blogConfig.subTitle} />
-                )}
-                <meta name="twitter:card" content="summary_large_image" />
-                {blogConfig.title && <meta name="twitter:title" content={blogConfig.title} />}
-                {blogConfig.subTitle && (
-                  <meta name="twitter:description" content={blogConfig.subTitle} />
-                )}
-              </Helmet>
-            }
             <div className="content">
               <section className="section blog-s1-main">
                 <div className="container blog-s1-container">

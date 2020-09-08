@@ -94,6 +94,15 @@ collections:
               {label: "Text", name: "text", widget: string },
               {label: "Link", name: "link", widget: string },
             ]}
+          - {label: "SEO", name: "seo", widget: object: fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Title Template", name: "titleTemplate", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+              {label: "Theme Color", name: "themeColor", widget: string},
+            ]}
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
@@ -105,6 +114,14 @@ collections:
       - {label: "Author", name: "author", widget: "relation", collection: "authors", searchFields: ["authorName"], valueField: "authorName" }
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Category", name: "category", widget: ncw-file-relation, collection: configurations, file: blogConfig, target_field: categories, id_field: id, display_fields: text }      
+      - {label: "SEO", name: "seo", widget: object: fields: [
+          {label: "Title", name: "title", widget: string},
+          {label: "Title Template", name: "titleTemplate", widget: string},
+          {label: "Description", name: "description", widget: string},
+          {label: "Url", name: "url", widget: string},
+          {label: "Image", name: "image", widget: image},
+          {label: "Twitter Username", name: "twitterUsername", widget: string},
+        ]}
       - {label: "Body", name: "body", widget: "markdown"}          
   - name: "indexPages"
     label: "Index Page"

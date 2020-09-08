@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
+import { graphql, Link, withPrefix } from 'gatsby'
 import { kebabCase } from 'lodash'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
@@ -24,27 +24,7 @@ export const BlogPostTemplate = ({
 
   return (
     <div>
-      {/* {seo &&
-        <Helmet title={seo.title ? seo.title : metadata.siteMetadata.title} titleTemplate={metadata.siteMetadata.titleTemplate}>
-          {seo.description && <meta name="description" content={seo.description} />}
-          {seo.image && <meta name="image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-          {seo.url && <meta property="og:url" content={seo.url} />}
-          {seo.title && <meta property="og:title" content={seo.title} />}
-          {seo.description && (
-            <meta property="og:description" content={seo.description} />
-          )}
-          {seo.image && <meta property="og:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-          <meta name="twitter:card" content="summary_large_image" />
-          {seo.twitterUsername && (
-            <meta name="twitter:creator" content={seo.twitterUsername} />
-          )}
-          {seo.title && <meta name="twitter:title" content={seo.title} />}
-          {seo.description && (
-            <meta name="twitter:description" content={seo.description} />
-          )}
-          {seo.image && <meta name="twitter:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-        </Helmet>
-      } */}
+      {helmet}
       <div className="wrapper project-background">
         <TopBar />
         <Navbar />
@@ -73,9 +53,9 @@ export const BlogPostTemplate = ({
                 </div>
               </div>
             </div>
-          </section>          
+          </section>
         </div>
-      </main>      
+      </main>
     </div>
   )
 }
@@ -100,13 +80,24 @@ const BlogPost = ({ data }) => {
         contentComponent={HTMLContent}
         helmet={
           <Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
+            <title>{`${post.frontmatter.seo.title ? post.frontmatter.seo.title : post.frontmatter.title}`}</title>
             <meta
               name="description"
-              content={`${post.frontmatter.description}`}
+              content={`${post.frontmatter.seo.description}`}
             />
+            <meta name="image" content={`${withPrefix('/')}${post.frontmatter.seo.image.publicURL ? post.frontmatter.seo.image.publicURL : metadata.siteMetadata.image}`} />
             <meta property="og:type" content="article" />
+            <meta property="og:title" content={`${post.frontmatter.seo.title ? post.frontmatter.seo.title : post.frontmatter.title}`} />
+            <meta property="og:url" content={`${post.frontmatter.seo.url ? post.frontmatter.seo.url : metadata.siteMetadata.url}`} />
+            <meta property="og:description" content={`${post.frontmatter.seo.description ? post.frontmatter.seo.description : metadata.siteMetadata.description}`} />
+            <meta property="og:image" content={`${withPrefix('/')}${post.frontmatter.seo.image.publicURL ? post.frontmatter.seo.image.publicURL : metadata.siteMetadata.image}`} />
             <meta property="article:published_time" content={`${post.frontmatter.date}`} />
+            <meta property="article:author" content={`${post.frontmatter.author}`} />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:creator" content={post.frontmatter.seo.twitterUsername ? post.frontmatter.seo.twitterUsername : metadata.siteMetadata.twitterUsername} />
+            <meta name="twitter:title" content={`${post.frontmatter.seo.title ? post.frontmatter.seo.title : post.frontmatter.title}`} />
+            <meta name="twitter:description" content={`${post.frontmatter.seo.description ? post.frontmatter.seo.description : metadata.siteMetadata.description}`} />
+            <meta name="twitter:image" content={`${withPrefix('/')}${post.frontmatter.seo.image.publicURL ? post.frontmatter.seo.image.publicURL : metadata.siteMetadata.image}`} />
           </Helmet>
         }
         title={post.frontmatter.title}
@@ -134,6 +125,20 @@ export const pageQuery = graphql`
         date (formatString: "DD/MM/YYYY", locale: "en_us")
         title
         author
+        seo {
+          title
+          description
+          url
+          image {
+            childImageSharp {
+              fluid(maxWidth: 640, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+            publicURL
+          }
+          twitterUsername
+        }
       }
     }
   }
