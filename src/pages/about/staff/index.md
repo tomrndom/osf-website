@@ -251,17 +251,6 @@ members:
     title: Software Engineer
     twitter: 'https://twitter.com/knelson92'
   - description: >-
-      Scott looks after a variety of OpenStack Foundation’s operations
-      activities including Finance,  Legal, Insurance, and Human Resources. He
-      began his career with Deloitte and also worked in a  variety of Finance
-      roles at BHP Billiton Petroleum. He now lives in the community of Rockne, 
-      TX with his wife and family. There are few things he enjoys more than
-      hiking the mountains of  Colorado or floating a Texas river.
-    name: Scott Raschke
-    openStack: 'https://www.openstack.org/community/members/profile/26518'
-    picture: /img/about-staff/ScottRaschke.jpg
-    title: Operations Manager
-  - description: >-
       A long-time computer hobbyist and technology generalist, Jeremy's worked
       as a Unix and GNU/Linux  sysadmin for more than two decades focusing on
       information security, Internet services and data  center automation. He's
