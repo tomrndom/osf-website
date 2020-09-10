@@ -94,7 +94,7 @@ collections:
               {label: "Text", name: "text", widget: string },
               {label: "Link", name: "link", widget: string },
             ]}
-          - {label: "SEO", name: "seo", widget: object: fields: [
+          - {label: "SEO", name: "seo", widget: object, fields: [
               {label: "Title", name: "title", widget: string},
               {label: "Title Template", name: "titleTemplate", widget: string},
               {label: "Description", name: "description", widget: string},
@@ -114,7 +114,7 @@ collections:
       - {label: "Author", name: "author", widget: "relation", collection: "authors", searchFields: ["authorName"], valueField: "authorName" }
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Category", name: "category", widget: ncw-file-relation, collection: configurations, file: blogConfig, target_field: categories, id_field: id, display_fields: text }      
-      - {label: "SEO", name: "seo", widget: object: fields: [
+      - {label: "SEO", name: "seo", widget: object, fields: [
           {label: "Title", name: "title", widget: string},
           {label: "Title Template", name: "titleTemplate", widget: string},
           {label: "Description", name: "description", widget: string},
