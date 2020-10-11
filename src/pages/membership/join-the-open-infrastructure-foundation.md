@@ -7,91 +7,102 @@ seo:
     source is the best way to develop technology that is broadly available for
     use around the world.
   image: /img/osficon-social.png
-  title: Join The Open Infrastructure Foundation
+  title: Community Code of Conduct
   twitterUsername: '@openinfra'
-  url: 'https://openinfra.dev/join'
-title: Join The Open Infrastructure Foundation
-subTitle: Help us with our mission
+  url: 'https://openinfra.dev/community-code-of-conduct'
+title: 'Community Code of Conduct '
+subTitle: Open Infrastructure Foundation
 ---
-We believe digital infrastructure is core to human progress in every country, company and industry. We also believe that community driven open source is the best way to develop technology that is broadly available for use around the world.
+The Open Infrastructure Foundation community is made up of a mixture of professionals and volunteers from all over the world, working on every aspect of the Open Infrastructure Foundation's mission. We strongly believe diversity is our strength and want to promote an inclusive and safe environment.To that end, we have a few ground rules for engaging in the community. The Open Infrastructure Foundation (“Foundation”) has adopted the following code of conduct (“OIF Code of Conduct”) which applies equally to all community participants, including board members, committee members, project team leads, core contributors, mentors, user group leaders and participants, and those seeking help and guidance. Because of the laws governing employees which would supersede any contract, in some circumstances, the Foundation staff may be subject to a separate procedure.
 
-We build open source communities that write software that runs in production
+This OIF Code of Conduct also applies to all spaces managed by the Foundation or authorized by the Foundation, including IRC channels, the mailing lists, issue trackers, Foundation sponsored events and any other forums the Foundation community uses which are managed by the Foundation (“OIF Venues”), including without limitation the Open Infrastructure Projects. In addition, violations of this OIF Code of Conduct outside of OSF Venues may affect a person's ability to participate within them after appropriate investigation. For the annual Open Infrastructure Summit, please also see the event-specific code of conduct on the Summit website with additional details for speakers, sponsors and attendees.
 
-## COMMUNITIES WE SUPPORT
+We do not tolerate harassment in any form. If you believe someone is violating the OIF Code of Conduct, please see our Reporting Guidelines below.
 
-Staying true to our mission of helping people build and operate open infrastructure, OIF supports open source projects that contribute to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “Four Opens”.
+## **Open Infrastructure Foundation community members strive to**
 
-<div class="section-bg-green-logos-container"><div class="section-bg-green-logo"><img src="/static/dda05fdc559fb506c18be2821bed8ce4/logo1.svg" alt=""></div><div class="section-bg-green-logo"><img src="/static/87d97c0d5108d0f5d5ce1e595712d1b0/logo2.svg" alt=""></div><div class="section-bg-green-logo"><img src="/static/16413ed1d5bcd68928cc66a1aa4ffa8f/logo3.svg" alt=""></div><div class="section-bg-green-logo"><img src="/static/040e76fb8696e0f2c9a5c2d67e68e478/logo4.svg" alt=""></div><div class="section-bg-green-logo"><img src="/static/9bb374065e83baab2e20414042a9a48e/logo5.svg" alt=""></div></div>
+* **Be friendly**, patient and welcoming. We strive to be a community that welcomes and supports people of all backgrounds and identities. This includes, but is not limited to, members of any race, ethnicity, culture, national origin, colour, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion and mental and physical ability.
+* **Be considerate**. Our work will be used by other people, and we in turn will depend on the work of others. Any decision we take will affect users and colleagues, and we should take those consequences into account when making decisions. Remember that we're a world-wide community and we have a global base of users and of contributors. Even if it's not obvious at the time, our contributions to projects managed by the OpenStack Foundation will impact the work of others.
+* **Be respectful**. Not all of us will agree all the time, but disagreement is no excuse for poor behavior and poor manners. We might all experience some frustration now and then, but we cannot allow that frustration to turn into a personal attack. It’s important to remember that a community where people feel uncomfortable or threatened is not a productive one. Members of the community should be respectful when dealing with other contributors as well as with people outside of the community and with users of the projects managed by the OpenStack Foundation.
+* **Collaborate openly**. Collaboration is central to projects managed by the OpenStack Foundation and to the larger free software community. This collaboration involves individuals working within teams, cross-project collaboration within the OpenStack Foundation and working with other projects outside of the OpenStack Foundation community. This collaboration reduces redundancy, and improves the quality of our work. Internally and externally, we should always be open to collaboration. Wherever possible, we should work closely with upstream and downstream projects and others in the free software community to coordinate our technical, advocacy, documentation and other work. Our work should be done transparently and we should involve as many interested parties as early as possible. If we decide to take a different approach than others, we will let them know early, document our work and inform others regularly of our progress. We do not create private forms of communication that take away transparency or exclude other contributors and collaborators.
+* **When we disagree, try to understand why**. Disagreements, both social and technical, happen all the time and the OpenStack Foundation community is no exception. It is important that we resolve disagreements and differing views constructively. Remember that we’re different. The strength of the OpenStack Foundation community comes from its varied members, people from a wide range of backgrounds. Different people have different perspectives on issues. Being unable to understand why someone holds a viewpoint doesn’t mean that they’re wrong. Focus on helping to resolve issues and learning from mistakes. It is important that we resolve disagreements and differing views constructively and with the help of the community and community processes. We have a series of governance bodies which help to guide the right course for projects managed by the OpenStack Foundation. When our goals differ dramatically, we encourage the creation of alternative implementations, so that the community can test new ideas and contribute to the discussion.
+* **When we are unsure, we ask for help**. Nobody knows everything, and nobody is expected to be perfect in the OpenStack Foundation community. Asking questions avoids many problems down the road, and so questions are encouraged. Those who are asked questions should be responsive and helpful. However, when asking a question, care must be taken to do so in an appropriate forum.
 
-## Become a Member
+## We take the following very seriously, and any violations may impact your ability to participate in the OpenStack Foundation community
 
-Individuals & Companies can be members of the Open Infrastructure Foundation.
+* **Be careful with your words and actions**. We are a community of professionals, and we conduct ourselves professionally. Do not insult or put down other participants. Harassment and other exclusionary behavior is not acceptable and should be reported. This includes but is not limited to:
+  * Violent threats or language directed against another person.        
+  * Discriminatory jokes and language.        
+  * Posting sexually suggestive, explicit or violent material.        
+  * Posting (or threatening to post) other people's personally identifying information ("doxing").        
+  * Personal insults, especially those using racist or sexist terms.        
+  * Unwelcome sexual attention.        
+  * Advocating for, or encouraging, any of the above behavior.        
+  * Repeated harassment of others. In general, if someone asks you to stop, then stop.
+* **Respect the election process**. Members of the OpenStack Foundation community should not attempt to manipulate election results. Open debate is welcome, but vote trading, ballot stuffing and other forms of abuse are not acceptable.
 
-<hr/>
+## Reporting Guidelines
 
-## Individual Registration
+If you believe that the OIF Code of Conduct is being violated, you are being harassed, or have any other concerns, please contact a member of the Foundation staff immediately via phone or email.
 
-All Individual Account holders agree to the [OpenStack Community Code of Conduct](https://www.openstack.org/legal/community-code-of-conduct/).
+The Foundation staff (“Staff”) who manage these issues have the following contact information:
 
-#### Foundation Member: Free
+**Jonathan Bryce**, <mailto:jonathan@openstack.org>, cell # +1-210-317-2438\
+**Allison Price**, <mailto:allison@openstack.org>, cell # +1-214-686-6821
 
-The Foundation Member level has substantial responsibilities as a member of the Open Infrastructure Foundation. Here's a quick summary:
+#### Process to file complaint
 
-* Have a Profile on Foundation web properties
-* Vote on Foundation Board Member Elections - Required*
-* Run for office in Technical or Architectural Committees
-* Run for the Open Infrastructure Foundation Board
-* Participate in certain Project-Level Governance Initiatives
-* Submit Proposed Summit Talks
-* Vote on Proposed Summit Talks
-* Participate in Community Events
+Please report violations of the OIF Code of Conduct at the OSF Venues immediately to Staff.
 
-[JOIN AS AN INDIVIDUAL FOUNDATION MEMBER](https://www.openstack.org/join/register/?membership-type=foundation)
+Please be prepared to provide as much of the following information as possible about the alleged violation:
 
-<p style="font-size:-2em;">* Foundation Members are required to vote regularly in Board elections, or their membership can be suspended. Note that new Foundation Members must be members for 180 days before they are eligible to vote in Board Member elections. Inactive Foundation Member accounts are moved to Community Account level automatically after a period of inactivity. You may also log into your profile at any time and adjust your membership level.</p>
+* Identifying/contact information of the person you believe is violating the OIF Code of Conduct
+* Contact information of the complainant or the person who was the target of the violation        
+  * The behavior that was in violation, approximate time and circumstances        
+  * Other people involved in the incident        
+  * Whether or not you would prefer to have your complaint be kept anonymous in the situation
+*  Staff will be responsible for notifying the alleged offender of complaint, investigating the complaint, determining the violation, if any, determining the appropriate penalty and communicating the resolution to the alleged offender and the target of the violation of the OIF Code of Conduct
+* Best Practices for participants:
+  * You should not feel the need to engage directly or further with the alleged offender, the Staff is there to support you or bring in additional resources.        
+  * If you feel your safety is in jeopardy please do not hesitate to contact law enforcement.        
+  * When reporting the incident to Staff, try to gather as much information as available, but do not interview people about the incident.    
+  * Staff will assist you in writing the report/collecting information.
 
-#### Community Account: Free
+## Staff response procedure
 
-With an OpenStack Community Account, you can still participate in all of our community activities.  However, you’ll be prevented from running for office, voting in elections, etc... Here's a quick summary:
+* Staff are well-informed of OIF Code of Conduct and response procedures.
+* Staff will gather details of the complaint to make an initial report, including:
+  * Whether or not there is immediate or physical danger, in which case Staff should contact local authorities        
+  * Identifying information of the person accused of violation of the OIF Code of Conduct
+  * The behavior at issue, approximate time and circumstances        
+  * Other people involved in the incident        
+  * Whether or not the reporting party prefers to remain anonymous
+* Staff will try to get as much information on the incident in written form by the reporter, or will otherwise record the information about the incident as it was told to them.
+* Staff will make an initial response to the complainant which will include:
+  * Do they need help?        
+  * Do they need to be connected with a safe person, friend or family member?       
+  * Do they need a safe space?
+* Staff will make the complainant aware of the response procedure and next steps to feel confident action is being taken, but avoid the following:
+  * Do not overtly invite them to withdraw the complaint or mention that withdrawal is OK. This suggests that you want them to do so, and is therefore coercive. "If you're OK with it \[pursuing the complaint]" suggests that you are by default pursuing it and is not coercive.        
+  * Do not ask for their advice on how to deal with the complaint. This is a Staff responsibility        
+  * Do not offer them input into penalties. In certain cases, it may be appropriate to ask complainant what it would take for the alleged offender to “make it right” such as an apology. However, the determination of any penalties, including restrictions on future participation in the OSF Venues is at the sole discretion of the Staff.
+* After taking any initial action required to care for the complainant, Staff will notify Foundation Executive Director, who will determine:
+  * If there is a need to bring in legal counsel, authorities or additional resources        
+  * If public communications are required in the case of a public incident        
+  * If additional information gathering is required from witnesses, Staff or other parties
+* Staff or Executive Director will notify the alleged offender of the complaint and allow for response as part of the investigation and before reaching conclusion or applying any penalty. In the meantime, the alleged offender and complainant (or target of the violation) should not have any contact.
+* Following the conversation, Staff will convene to review the available information and consider appropriate action, which may include:
+  * Reaching a conclusion about a violation of the OIF Code of Conduct occurred     
+  * Determining whether it is appropriate to ask/suggest that the complainant and alleged offender consider a joint meeting in the presence of a neutral third party to address their perspectives
+* Where violation of the OIF Code of Conduct is found, the Staff may take any one or more of the following actions:
+  * Direct the offender to cease the behavior and warn that any further violations will result in sanctions        
+  * Requiring the offender to avoid any interaction with, and physical proximity to, the complainant anywhere in the OSF Venues        
+  * Banning the offender from IRC channels or mailing lists or other communications channels controlled by the Foundation        
+  * Ending any volunteer responsibilities or privileges that the offender holds from the Foundation (either indefinitely or for a certain time period)        
+  * Requiring that the offender immediately leave a Foundation sponsored event and not return        
+  * Banning the offender from future Foundation sponsored events (either indefinitely or for a certain time period)        
+  * Removing the offender from membership of the Foundation and OpenStack Foundation community roles and responsibilities
+* Staff will then inform the offender of what action, if any, will be taken against them.
+* Staff will then inform complainant (and other involved persons, to the extent appropriate) of the resolution, and record the outcome.
 
-* Submit Proposed Summit Talks
-* Vote on Proposed Summit Talks
-* Participate in Community Events
-
-[CREATE A COMMUNITY ACCOUNT](https://www.openstack.org/join/register/?membership-type=community)
-
-<hr/>
-
-## CORPORATE MEMBERSHIP
-
-#### Platinum Membership
-
-The foundation has Platinum Members as specified in the bylaws, who play an important role in providing support that makes the foundation's work possible. Organizations can apply now to become new Platinum Members, and will become Members subject to board approval. Contact us if you are interested in becoming a Platinum Member. And be sure to review the criteria published by the board as a guide, and review the bylaws and other legal documents for more details. The Platinum Members each contribute $350k USD per year to the foundation and must also have the equivalent of 2 full time employees contributing to OIF projects. 
-
-[Contact Us](mailto:ecosystem@openstack.org) **to become a Platinum Member**.  
-
-#### Gold Membership
-
-Established Company: $150k/year | Start Up: $50k/year
-
-Organizations can apply now to become new Gold Members. At the start of their term, new Gold Members will immediately be represented by the Gold Directors already in office, who make up 1/3 of the board and represent the entire Gold class (not the companies who employ them). New Gold Members will be eligible to vote in future elections starting in January.
-
-[Contact Us](mailto:ecosystem@openstack.org) **to become a Gold Member**.  
-
-#### Silver Membership
-
-Established Company: $15k/year | Start Up: $5k/year
-
-* Access to OIF projects restricted use logos for commercial use if and as long as product meets technical requirements (your support helps the foundation promote and protect the project brand)
-* Designation as Silver Member with corporate logo placement in supporters section ofopeninfra.dev
-* Profile on openinfra.dev detailing your organization's support for OIF projects, with link to your site 
-* OIF Silver Member badge available for corporate website or marketing materials
-* Opportunity to be included in OIF newsletter
-* Potential to promote your qualifying product in the OIF project specific marketplace.
-* Early access to selected Summit sponsorships.
-
-[Contact Us](mailto:ecosystem@openstack.org) **to become a Silver Member**.
-
-<hr/>
-
-The bylaws, member agreements and other legal documents are online at [www.openstack.org/legal/](https://www.openstack.org/legal/)
+_Portions of the OIF Code of Conduct are derived from the PyCon Conference Code of Conduct, licensed under Creative Commons Attribution 3.0 Unported License, and the Django Project Code of Conduct._
