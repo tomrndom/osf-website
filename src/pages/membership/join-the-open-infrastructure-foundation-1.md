@@ -9,7 +9,7 @@ seo:
   image: /img/osficon-social.png
   title: Join The Open Infrastructure Foundation
   twitterUsername: '@openinfra'
-  url: 'https://openinfra.dev/join'
+  url: 'https://openinfra.dev/membership/join'
 title: Join The Open Infrastructure Foundation
 subTitle: Help us with our mission
 ---
