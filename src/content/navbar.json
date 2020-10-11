@@ -54,6 +54,10 @@
         {
           "text": "Join OSF ",
           "url": "https://www.openstack.org/join"
+        },
+        {
+          "text": "Community Code of Conduct",
+          "url": "/membership/community-code-of-conduct/"
         }
       ]
     },
