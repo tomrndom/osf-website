@@ -9,7 +9,7 @@ seo:
   image: /img/osficon-social.png
   title: Community Code of Conduct
   twitterUsername: '@openinfra'
-  url: 'https://openinfra.dev/community-code-of-conduct'
+  url: 'https://osf.dev/membership/community-code-of-conduct'
 title: 'Community Code of Conduct '
 subTitle: Open Infrastructure Foundation
 ---
