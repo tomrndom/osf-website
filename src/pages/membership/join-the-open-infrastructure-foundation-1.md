@@ -7,10 +7,10 @@ seo:
     source is the best way to develop technology that is broadly available for
     use around the world.
   image: /img/osficon-social.png
-  title: Join The Open Infrastructure Foundation
+  title: Join The OpenStack Foundation
   twitterUsername: '@openinfra'
   url: 'https://osf.dev/membership/join'
-title: Join The Open Infrastructure Community
+title: Join The OpenStack Foundation
 subTitle: Help us with our mission
 ---
 We believe digital infrastructure is core to human progress in every country, company and industry. We also believe that community driven open source is the best way to develop technology that is broadly available for use around the world.
