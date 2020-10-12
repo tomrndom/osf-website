@@ -20,7 +20,6 @@ We build open source communities that write software that runs in production
 ## COMMUNITIES WE SUPPORT
 
 Staying true to our mission of helping people build and operate open infrastructure, OSF supports open source projects that contribute to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “Four Opens”.
-
 <div class="section-bg-green-logos-container"><div class="section-bg-green-logo"><img src="https://osf.dev/static/dda05fdc559fb506c18be2821bed8ce4/logo1.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://osf.dev/static/87d97c0d5108d0f5d5ce1e595712d1b0/logo2.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://osf.dev/static/16413ed1d5bcd68928cc66a1aa4ffa8f/logo3.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://osf.dev/static/040e76fb8696e0f2c9a5c2d67e68e478/logo4.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://osf.dev/static/9bb374065e83baab2e20414042a9a48e/logo5.svg" alt=""></div></div>
 
 ## Become a Member
