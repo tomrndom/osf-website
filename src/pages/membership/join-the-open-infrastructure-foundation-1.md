@@ -9,7 +9,7 @@ seo:
   image: /img/osficon-social.png
   title: Join The OpenStack Foundation
   twitterUsername: '@openinfra'
-  url: 'https://osf.dev/membership/join'
+  url: 'https://osf.dev/join'
 title: Join The OpenStack Foundation
 subTitle: Help us with our mission
 ---
