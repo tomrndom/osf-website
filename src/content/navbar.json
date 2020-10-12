@@ -118,6 +118,6 @@
   ],
   "button": {
     "text": "Join the OSF",
-    "url": "https://www.openstack.org/join"
+    "url": "https://osf.dev/join"
   }
 }
