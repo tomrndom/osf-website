@@ -46,9 +46,9 @@ The Foundation Member level has substantial responsibilities as a member of the 
 <li>Participate in Community Events</li>
 </ul>
 
-[JOIN AS AN INDIVIDUAL FOUNDATION MEMBER](https://www.openstack.org/join/register/?membership-type=foundation)
+[JOIN AS AN INDIVIDUAL FOUNDATION MEMBER](https://openstackid.org/auth/register?redirect_uri=https%3A%2F%2Fwww.openinfra.dev%2FSecurity%2Flogin%3FBackURL%3Djoin%252Fregister%252F%253Fmembership-type%253Dfoundation%26BackURL%3Dhttps%253A%252F%252Fwww.osf.dev%252F)
 
-<p style="font-size:-2em;">* Foundation Members are required to vote regularly in Board elections, or their membership can be suspended. Note that new Foundation Members must be members for 180 days before they are eligible to vote in Board Member elections. Inactive Foundation Member accounts are moved to Community Account level automatically after a period of inactivity. You may also log into your profile at any time and adjust your membership level.</p>
+<p style="font-size:-3em;">* Foundation Members are required to vote regularly in Board elections, or their membership can be suspended. Note that new Foundation Members must be members for 180 days before they are eligible to vote in Board Member elections. Inactive Foundation Member accounts are moved to Community Account level automatically after a period of inactivity. You may also log into your profile at any time and adjust your membership level.</p>
 
 #### Community Account: Free
 
@@ -59,7 +59,7 @@ With an OpenStack Community Account, you can still participate in all of our com
 <li>Participate in Community Events</li>
 </ul>
 
-[CREATE A COMMUNITY ACCOUNT](https://www.openstack.org/join/register/?membership-type=community)
+[CREATE A COMMUNITY ACCOUNT](https://openstackid.org/auth/register?redirect_uri=https%3A%2F%2Fwww.openinfra.dev%2FSecurity%2Flogin%3FBackURL%3Djoin%252Fregister%252F%253Fmembership-type%253Dcommunity%26BackURL%3Dhttps%253A%252F%252Fwww.osf.dev%252F)
 
 <hr/>
 
