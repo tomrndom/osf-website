@@ -100,25 +100,6 @@
       }
     }
   }
-
-  .bar-link {
-    flex: 0 0 auto;
-    display: inline-block;
-    vertical-align: middle;
-    font-weight: 400;
-    font-size: 15px;
-    color: $white;
-    text-align: left;
-    line-height: 18px;
-    text-decoration: underline;
-    margin-left: 10px;
-    transition: background 0.3s, border-color 0.3s;
-    &:hover {
-      background: $primary;
-      border-color: $primary;
-      color: $white;
-    }
-  }
 }
 
 i {

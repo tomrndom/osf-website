@@ -43,14 +43,15 @@ $column-gap: 24px;
 
 $back-darkest: #0a2743;
 
-$family-primary: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif;
+$family-primary: "Roboto", "Helvetica", sans-serif;
+// $family-primary: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif;
 $body-size: 14px;
 $body-line-height: 1.2;
 
 $primary: #2a394e;
 $primary-invert: findColorInvert($primary);
 
-$dark-gray: #ee1e48; //#333
+$dark-gray: #e61e24; //#333
 $dark-gray-invert: findColorInvert($dark);
 
 $primary-blue: #133e68;
@@ -59,7 +60,7 @@ $primary-blue-invert: findColorInvert($primary-blue);
 $purple-light: #c0a9f7;
 $purple-light-invert: findColorInvert($purple-light);
 
-$dark: #133e68; // #0c0016
+$dark: #161616; // #0c0016
 $dark-invert: findColorInvert($dark);
 
 $danger: #d91a31;
