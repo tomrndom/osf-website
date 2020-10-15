@@ -3,7 +3,7 @@
 \* ------------------------------------------------------------ */
 
 .nav {
-  padding: 22px 0 18px;
+  padding: 20px 0 20px;
   background-color: black;
 
   .nav-content,
@@ -30,6 +30,8 @@
   .nav-content{
     .dropdown{
       .button{
+        font-size: 14px;
+        letter-spacing: 1px;
         text-transform: uppercase;
       }
     }
@@ -49,13 +51,14 @@
     a {
       transition: color 0.3s;
       display: inline-block;
-      padding: 0.5em;
+      padding: 5px;
       &:hover {
-        color: $primary-blue;
-        background: $white;
+        // color: $white;
+        // background: $white;
       }
       &.bar-button {
         color: $white !important;
+        padding: 12px;
         &:hover{
           background-color: darken(#EE1E48, 20%);
           border-color: darken(#EE1E48, 20%);
@@ -139,15 +142,19 @@
       display: block;
       font-size: 14px;
       button {
+ 
         a {
           padding: 5px;
-          color: $primary-blue !important;
-          font-size: 16px;
+          color: $white !important;
+          font-size: 14px;
+          border: 2px solid red;
+          border-radius: 25px;
         }
       }
       a {
         &.bar-button {
           margin-bottom: 10px;
+          
         }
       }
 
