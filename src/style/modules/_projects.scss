@@ -73,25 +73,26 @@
 
 .projetcs-s1-container-child {
   margin-top: 30px;
-  color: $primary;
+  color: #161616;
   margin-bottom: 30px;
   padding-bottom: 50px;
 
   h2 {
-    color: $primary;
+    color: #161616;
   }
   h3 {
-    color: $dark-gray;
+    color: #161616;
     font-size: 16px;
   }
   p {
-    color: $back-darkest;
+    color: #161616;
   }
   .columns {
     margin-top: 30px;
     .column {
       padding: 0 2em;
       p {
+        color: #161616;
         font-size: 14px;
         img {
           max-width: 30px;
@@ -227,6 +228,7 @@
 }
 
 .projetcs-s1-container-child {
+  color: #161616;
   .button-red {
     width: 100%;
     &.projects-btn {
