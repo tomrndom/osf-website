@@ -180,22 +180,24 @@ sponsor:
     title: Gold Members
   platinum:
     companyList:
+      - alt: Ant Group
+        image: /img/companies/_New/Platinum/Sponsor-Logos_AntGroup.png
       - alt: AT&T
-        image: /img/companies/att-lg2.jpg
+        image: /img/companies/_New/Platinum/Sponsor-Logos_AT&T.png
       - alt: Ericsson
-        image: /img/companies/ericsson-lg.jpg
+        image: /img/companies/_New/Platinum/Sponsor-Logos_Ericsson.png
+      - alt: Facebook Connectivity
+        image: /img/companies/_New/Platinum/Sponsor-Logos_FBC.png
+      - alt: FiberHome
+        image: /img/companies/_New/Platinum/Sponsor-Logos_FiberHome.png
       - alt: Huawei
-        image: /img/companies/huawei-new-lg.jpg
-      - alt: Intel
-        image: /img/companies/intel-xlg.jpg
-      - alt: Rackspace
-        image: /img/companies/rackspace-lg-2016.jpg
-      - alt: 'Red Hat, Inc.'
-        image: /img/companies/redhat-sp-lg.jpg
-      - alt: SUSE
-        image: /img/companies/suse-sp-lg.jpg
+        image: /img/companies/_New/Platinum/Sponsor-Logos_Huawei.png
+      - alt: Red Hat
+        image: /img/companies/_New/Platinum/Sponsor-Logos_RedHat.png
       - alt: Tencent Cloud
-        image: /img/companies/Tencent-vert-lg.jpg
+        image: //img/companies/_New/Platinum/Sponsor-Logos_TencentCloud.png
+      - alt: Wind River
+        image: //img/companies/_New/Platinum/Sponsor-Logos_WindRiver.png
     title: Platinum Members
   title: Companies supporting the OpenStack Foundation
 ---
