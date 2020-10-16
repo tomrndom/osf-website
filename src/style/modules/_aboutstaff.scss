@@ -45,7 +45,6 @@
     }
   }
   #aboutstaff-s1-id-pic1 {
-    margin-top: -240px;
     margin-left: 20px;
 
     @media (max-width: $screen-md-min) {
@@ -181,23 +180,24 @@
 .aboutstaff-s3-main {
   color: $back-darkest;
   background-color: #1c6ebf;
-  padding-top: 3em;
+  padding: 3em 0 3em 0;
 
   #aboutstaff-s3-id-pic2 {
-    margin-top: -70px;
-    margin-left: -10px;
-    z-index: 300;
+    padding-right: 3em;
   }
 
+//Below image would display under .aboutstaff-s3-main 
+
   #aboutstaff-s3-id-pic3 {
+    display: none;
     margin-top: -80px;
     margin-left: 190px;
+    margin-bottom: 3em;
     z-index: 200;
-    margin-bottom: 30px;
     @media (max-width: $screen-sm-min) {
       margin-left: 0px;
     }
-  }
+  } 
 
   .fix-h3 {
     font-size: 26px;
