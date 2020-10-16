@@ -3,7 +3,7 @@ templateKey: companies-page
 seo:
   description: The Home of Open Infrastructure
   image: /img/osficon-social.png
-  title: Supporting Companies - OpenStack Foundation OSF
+  title: Supporting Companies - Open Infrastructure Foundation OIF
   twitterUsername: '@openstack'
   url: 'https://osf.dev/companies/'
 header:
@@ -40,7 +40,7 @@ companies:
       OpenStack Foundation Platinum Members provide a significant portion of the
       funding to achieve the Foundation's mission of protecting, empowering and
       promoting the Open Infrastructure community and open source software
-      projects. Each Platinum Member's company strategy aligns with the OSF
+      projects. Each Platinum Member's company strategy aligns with the OIF
       mission and is responsible for committing full-time resources toward the
       project. There are eight Platinum Sponsors at any given time, each of
       which holds a seat on the Board of  Directors. Thank you to the following
@@ -86,7 +86,7 @@ companies:
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
     text: >-
       OpenStack Foundation Gold Members provide funding and pledge strategic
-      alignment to the OSF mission.  There can be up to twenty-four Gold Members
+      alignment to the OIF mission.  There can be up to twenty-four Gold Members
       at any given time, subject to board approval. If your organization  is
       highly involved with the Open Infrastructure community and interested in
       becoming a Gold Member, read more about joining the  Foundation. Thank you
@@ -153,13 +153,11 @@ companies:
       - alt: Whitestack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png         
     text: >-
-      OpenStack Foundation Gold Members provide funding and pledge strategic
-      alignment to the OSF mission.  There can be up to twenty-four Gold Members
-      at any given time, subject to board approval. If your organization  is
-      highly involved with the Open Infrastructure community and interested in
-      becoming a Gold Member, read more about joining the  Foundation. Thank you
-      to the following Gold Sponsors who are critical to the global community's
-      success. 
+      OpenStack Foundation Silver Members provide funding and pledge strategic
+      alignment to the OIF mission. If your organization  is highly involved with 
+      the Open Infrastructure community and interested in becoming a Silver Member, 
+      read more about joining the  Foundation. Thank you to the following Silver 
+      Sponsors who are critical to the global community's success. 
     title: SILVER SPONSORS  
   - companyList:
       - alt: Rackspace
@@ -1490,8 +1488,8 @@ companies:
         image: /img/unitedstack-sp-lg.jpg
     text: >-
       The resources provided by the Members and Sponsors are critical to making
-      the OpenStack Foundation  successful, but there are many ways to support
-      the OSF mission, whether you're contributing  code, building a product or
+      the Open Infrastructure Foundation  successful, but there are many ways to support
+      the OIF mission, whether you're contributing  code, building a product or
       helping build the community. Below are companies who are  actively
       involved in making the Open Infrastructure community successful. If you
       would like your company listed here, please  complete the <a
