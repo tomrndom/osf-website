@@ -24,10 +24,10 @@ const MainPitchSection = class extends React.Component {
           <div className="home-s1-col">
             <div className="home-s1-col-content-right">
               <div className="home-s1-text">
-                <div className="fix-h3-white">{row1.title}</div>                     
+                <div className="fix-h3">{row1.title}</div>                     
                   {row1.text.split("\n").map((p, index) => {
                     return (
-                      <p className="fix-h5-white" key={index}>
+                      <p className="fix-h5" key={index}>
                         {p}
                       </p>
                     )
@@ -40,10 +40,10 @@ const MainPitchSection = class extends React.Component {
           <div className="home-s1-col">
             <div className="home-s1-col-content-left">
               <div className="home-s1-text">
-                <div className="fix-h3-white">{row2.title}</div> 
+                <div className="fix-h3">{row2.title}</div> 
                 {row2.text.split("\n").map((p, index) => {
                     return (
-                      <p className="fix-h5-white" key={index}>
+                      <p className="fix-h5" key={index}>
                         {p}
                       </p>
                     )
