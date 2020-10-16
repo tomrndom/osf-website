@@ -9,7 +9,7 @@ const TopBar = class extends React.Component {
   render() {
     if(content.bar) {
       return (      
-        <div className="bar-red">
+        <div className="bar-news">
           <div className="container">
             <div className="bar-inner">
               <div className="bar-entry">

@@ -200,6 +200,7 @@
     justify-content: center;
   
     .fix-h3 {
+      font-family: "Jura", "Roboto", sans-serif;;
       text-align: center;
       margin-left: 0px; 
       margin-right: 0px;
@@ -260,6 +261,7 @@
     }
     .fix-h3 {
       text-align: center;
+      font-weight: 600;
       width: 80%;
       margin: 0 auto;
       margin-top: 1em;
@@ -394,14 +396,13 @@
 
 
 .section-bg-green {
+  background-color: white;
     color: $dark;
-    background-image:url('/img/background-shapes-green.svg');
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 0px;
-    padding-bottom: 60px;
     @media (max-width: $screen-md) { //small screen
       background-image: unset;
       background-color: $white;
@@ -410,7 +411,6 @@
   .section-bg-green-child {
     color: $dark;
     background-color: $white;
-    margin-bottom: 70px;
     h4 {
       // font-size: 22pt;
       color: $dark;
@@ -637,11 +637,10 @@
 
 
 .home-s7-main {
-  color: $dark;
-  background-image:url('/img/background-shapes-lightblue.svg');
+  background-color: #28a4db;
   background-size: cover;
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   @media (max-width: $screen-md-min){
     padding-top: 60px;
     padding-bottom: 60px;
@@ -722,7 +721,7 @@
     margin: 0 auto;
     margin-bottom: 1em;
     text-transform: uppercase;
-    font-weight:500; 
+    font-weight:600; 
     @media screen and(max-width: $screen-md-min){
       width: 100%;
       font-size: 26px;

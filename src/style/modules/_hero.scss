@@ -7,6 +7,8 @@
   line-height: 1.25;
 
   .hero-title {
+    font-family: "Jura", "Roboto", sans-serif;
+    font-weight: 700;
     color: $primary;
     text-transform: uppercase;
   }
@@ -176,9 +178,10 @@
 .hero-subhead {
   padding-bottom: 5px;
   font-size: 18px;
-  color: #28a4db;
+  color: white;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .hero-entry {
