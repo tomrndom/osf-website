@@ -8,6 +8,7 @@
 .about-s1-main {
   color: $white;
   margin-bottom: 40px;
+  background-color: white;
 
   // .itemtitle {
   //   color: $white;
@@ -21,6 +22,7 @@
   background-color: $white;
   padding-left: 4em;
   padding-right: 4em;
+  color: #161616;
 
   @media (max-width: $screen-md-min) {
     margin-left: 1em;
@@ -67,7 +69,7 @@
   }
 
   .fix-h5 {
-    color: #133e68;
+    color: #161616;
     line-height: 21px;
 
     &:last-child {

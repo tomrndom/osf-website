@@ -67,6 +67,10 @@
   margin-bottom: 15px;
 }
 
+p.fix-h5{
+  color: #161616;
+}
+
 .bar {
   background: #ee1e48;
   color: #fff;
@@ -483,3 +487,9 @@ ul {
     }
   }
 }
+
+.column {
+  padding: unset;
+  color: #161616;
+}
+
