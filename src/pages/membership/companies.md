@@ -94,6 +94,74 @@ companies:
       success. 
     title: GOLD SPONSORS
   - companyList:
+      - alt: Ampere
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Ampere.png
+      - alt: AW Cloud
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_AWCloud.png
+      - alt: Bluvalt
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_bluvalt.png
+      - alt: CDAC
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_CDAC.png
+      - alt: Cloudbase Solutions
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_CloudbaseSolutions.png
+      - alt: Cloudical
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Cloudical.png
+      - alt: DevStack
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_DevStack.png 
+      - alt: Elastx
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Elastx.png
+      - alt: FredomFi
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_FreedomFi.png
+      - alt: Fujitsu
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Fujitsu.png
+      - alt: G-Research
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_GResearch.png
+      - alt: IBM
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_IBM.png
+      - alt: InMotion Hosting
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_inmotionhosting.png
+      - alt: Juniper Networks
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_JuniperNetworks.png
+      - alt: NetApp
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NetApp.png
+      - alt: NTT
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NTT.png
+      - alt: NTT TechnoCross
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NTT-TX.png
+      - alt: Orange
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_orange.png
+      - alt: OVH
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_OVH.png   
+      - alt: Samsung
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Samsung.png
+      - alt: Sardina
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Sardina.png
+      - alt: Saudi Telecom
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_SaudiTelecom.png
+      - alt: SecuStack
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_secustack.png
+      - alt: Societe Generale
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_SocieteGenerale.png
+      - alt: StackHPC
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_StackHPC.png
+      - alt: SUSE
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_SUSE.png 
+      - alt: Ultimum Technologies
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_UltimumTechnologies.png
+      - alt: Vexxhost 
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Vexxhost.png
+      - alt: Whitestack
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png         
+    text: >-
+      OpenStack Foundation Gold Members provide funding and pledge strategic
+      alignment to the OSF mission.  There can be up to twenty-four Gold Members
+      at any given time, subject to board approval. If your organization  is
+      highly involved with the Open Infrastructure community and interested in
+      becoming a Gold Member, read more about joining the  Foundation. Thank you
+      to the following Gold Sponsors who are critical to the global community's
+      success. 
+    title: SILVER SPONSORS  
+  - companyList:
       - alt: Rackspace
         image: /img/companies/rackspace-lg-2016.jpg
       - alt: 'VEXXHOST, Inc.'
