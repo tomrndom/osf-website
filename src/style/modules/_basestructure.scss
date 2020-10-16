@@ -390,12 +390,12 @@ div.content.custom > main > section > div > div > div > h3 {
     cursor: default;
     @media (max-width: 769px) {
       //small screen pantalla
-      color: #133e68;
+      color: #161616;
     }
   }
   .dropdown-content {
     background-color: $white;
-    color: $back-darkest;
+    color: #161616;
     border-radius: 0px;
     box-shadow: 0 2px 3px rgba(34, 34, 34, 0.1), 0 0 0 1px rgba(34, 34, 34, 0.1);
     margin-top: 22px;
@@ -412,7 +412,7 @@ div.content.custom > main > section > div > div > div > h3 {
       padding-top: 1.5rem;
     }
     a span {
-      color: #133e68;
+      color: #161616;
       border-bottom: 2px solid $white;
       margin-top: 15px;
       margin-bottom: 5px;
