@@ -18,22 +18,24 @@ header:
   title: COMPANIES SUPPORTING THE OPENSTACK FOUNDATION
 companies:
   - companyList:
+      - alt: Ant Group
+        image: /img/companies/_New/Platinum/Sponsor-Logos_AntGroup.png
       - alt: AT&T
-        image: /img/companies/att-lg2.jpg
+        image: /img/companies/_New/Platinum/Sponsor-Logos_AT&T.png
       - alt: Ericsson
-        image: /img/companies/ericsson-lg.jpg
+        image: /img/companies/_New/Platinum/Sponsor-Logos_Ericsson.png
+      - alt: Facebook Connectivity
+        image: /img/companies/_New/Platinum/Sponsor-Logos_FBC.png
+      - alt: FiberHome
+        image: /img/companies/_New/Platinum/Sponsor-Logos_FiberHome.png
       - alt: Huawei
-        image: /img/companies/huawei-new-lg.jpg
-      - alt: Intel
-        image: /img/intel-sm-osf.png
-      - alt: Rackspace
-        image: /img/companies/rackspace-lg-2016.jpg
-      - alt: 'Red Hat, Inc.'
-        image: /img/companies/redhat-sp-lg.jpg
-      - alt: SUSE
-        image: /img/companies/suse-sp-lg.jpg
+        image: /img/companies/_New/Platinum/Sponsor-Logos_Huawei.png
+      - alt: Red Hat
+        image: /img/companies/_New/Platinum/Sponsor-Logos_RedHat.png
       - alt: Tencent Cloud
-        image: /img/companies/Tencent-vert-lg.jpg
+        image: //img/companies/_New/Platinum/Sponsor-Logos_TencentCloud.png
+      - alt: Wind River
+        image: //img/companies/_New/Platinum/Sponsor-Logos_WindRiver.png
     text: >-
       OpenStack Foundation Platinum Members provide a significant portion of the
       funding to achieve the Foundation's mission of protecting, empowering and
@@ -47,39 +49,41 @@ companies:
     title: PLATINUM SPONSORS
   - companyList:
       - alt: 99Cloud Inc.
-        image: /img/companies/logo-99cloud-lg2.jpg
-      - alt: Canonical
-        image: /img/companies/ubuntu-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_99Cloud.png
       - alt: China Mobile
-        image: /img/companies/ChinaMobile-logo-02-sm.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ChinaMobile.png
       - alt: China Telecom
-        image: /img/companies/CT-sm.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ChinaTelecom.png
       - alt: China Unicom
-        image: /img/companies/China-Unicom.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ChinaUnicom.png
       - alt: Cisco
-        image: /img/companies/cisco-new-lg.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Cisco.png
       - alt: City Network
-        image: /img/companies/CityNetwork-Logo-Regular-500px-RGB.png
-      - alt: Dell EMC
-        image: /img/companies/EMC-lg.jpg
-      - alt: Deutsche Telekom
-        image: /img/companies/deutschetelekom-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_CityNetwork.png
+      - alt: Dell Technologies
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_DellTechnologies.png        
       - alt: EasyStack
-        image: /img/companies/easystack-lg2.jpg
-      - alt: FiberHome
-        image: /img/companies/fiberhome-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_EasyStack.png
+      - alt: H3C
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_H3C.png
       - alt: Inspur
-        image: /img/companies/inspur-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Inspur.png
+      - alt: Intel
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Intel.png
       - alt: Mirantis
-        image: /img/companies/mirantis-lg-van.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Mirantis.png
       - alt: NEC
-        image: /img/companies/nec-headline-large.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_NEC.png
+      - alt: T-Systems
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_T-Systems.png
       - alt: Troila
-        image: /img/companies/troila-new-sm.jpg
-      - alt: 'New H3C Technologies Co., Limited'
-        image: /img/companies/H3C-lg.jpg
-      - alt: ZTE Corporation
-        image: /img/companies/zte-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Troila.png
+      - alt: Ubuntu
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Ubuntu.png
+      - alt: vmware
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_vmware.png
+      - alt: ZTE
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
     text: >-
       OpenStack Foundation Gold Members provide funding and pledge strategic
       alignment to the OSF mission.  There can be up to twenty-four Gold Members
