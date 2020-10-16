@@ -10,7 +10,7 @@
 }
 
 .column.aboutstaff-s1-1-container {
-  background-color: #1c6ebf;
+  background-color: #f6f6f6;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -27,7 +27,7 @@
   }
   .fix-h3 {
     font-size: 26px;
-    color: $white;
+    color: #161616;
     text-align: left;
     line-height: 31px;
     margin-top: 90px;
@@ -38,7 +38,7 @@
   }
 
   .fix-h5 {
-    color: $white;
+    color: #161616;
     line-height: 21px;
     &:last-child {
       margin-bottom: 40px;
@@ -54,7 +54,7 @@
 }
 
 .aboutstaff-s1-container {
-  background-color: #1c6ebf;
+  background-color: #f6f6f6;
   width: 100%;
   margin-top: 70px;
   margin-bottom: 24px;
@@ -179,7 +179,7 @@
 
 .aboutstaff-s3-main {
   color: $back-darkest;
-  background-color: #1c6ebf;
+  background-color: #28a4db;
   padding: 3em 0 3em 0;
 
   #aboutstaff-s3-id-pic2 {
