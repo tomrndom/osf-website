@@ -140,43 +140,41 @@ sponsor:
   gold:
     companyList:
       - alt: 99Cloud Inc.
-        image: /img/companies/logo-99cloud-lg2.jpg
-      - alt: Canonical
-        image: /img/companies/ubuntu-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_99Cloud.png
       - alt: China Mobile
-        image: /img/companies/ChinaMobile-logo-02-sm.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ChinaMobile.png
       - alt: China Telecom
-        image: /img/companies/CT-sm.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ChinaTelecom.png
       - alt: China Unicom
-        image: /img/companies/China-Unicom.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ChinaUnicom.png
       - alt: Cisco
-        image: /img/companies/cisco-new-lg.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Cisco.png
       - alt: City Network
-        image: /img/companies/CityNetwork-Logo-Regular-500px-RGB.png
-      - alt: Dell EMC
-        image: /img/companies/EMC-lg.jpg
-      - alt: Deutsche Telekom
-        image: /img/companies/deutschetelekom-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_CityNetwork.png
+      - alt: Dell Technologies
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_DellTechnologies.png        
       - alt: EasyStack
-        image: /img/companies/easystack-lg2.jpg
-      - alt: FiberHome
-        image: /img/companies/fiberhome-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_EasyStack.png
+      - alt: H3C
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_H3C.png
       - alt: Inspur
-        image: /img/companies/inspur-lg.jpg
-      - alt: inwinSTACK
-        image: /img/companies/inwinstack-lg2.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Inspur.png
+      - alt: Intel
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Intel.png
       - alt: Mirantis
-        image: /img/companies/mirantis-lg-van.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Mirantis.png
       - alt: NEC
-        image: /img/companies/nec-headline-large.png
-      - alt: NetApp
-        image: /img/companies/netapp-sp-lg4.jpg
-      - alt: 'New H3C Technologies Co., Limited'
-        image: /img/companies/H3C-lg.jpg
-      - alt: UnitedStack Inc.
-        image: /img/companies/unitedstack-sp-lg.jpg
-      - alt: ZTE Corporation
-        image: /img/companies/zte-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_NEC.png
+      - alt: T-Systems
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_T-Systems.png
+      - alt: Troila
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Troila.png
+      - alt: Ubuntu
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Ubuntu.png
+      - alt: vmware
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_vmware.png
+      - alt: ZTE
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
     title: Gold Members
   platinum:
     companyList:
