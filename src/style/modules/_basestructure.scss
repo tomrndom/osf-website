@@ -173,6 +173,7 @@ footer {
   background-image: url("/img/home/openstack-foundation-hero-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  
   @media (max-width: $screen-sm-min) {
     background-position-y: 12em;
     background-size: 114%;
@@ -210,7 +211,7 @@ footer {
   }
 }
 .button-red {
-  background: #ee1e48;
+  background: #e61e24;
   border: 0;
   color: #fff !important;
   border-radius: 0px;
@@ -352,15 +353,6 @@ div.content.custom > main > section > div > div > div > h3 {
   font-size: 17px;
   color: #ffffff;
   line-height: 21px;
-}
-
-.hero-subhead {
-  padding-bottom: 5px;
-  font-size: 18px;
-  color: #ee1e48;
-  font-weight: 500;
-  font-size: 22px;
-  color: #ec1944;
 }
 
 .nav .nav-menu a {
