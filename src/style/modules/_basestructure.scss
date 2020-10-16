@@ -149,17 +149,18 @@ i {
 }
 footer {
   .logo-containter-child-img {
+    width: 60px;
     @media (max-width: $screen-md-min) {
       margin-right: 1em;
-      width: 200px;
+      width: 60px;
     }
     @media (max-width: $screen-sm-min) {
       margin-right: 0em;
-      width: 150px;
+      width: 60px;
     }
     @media (max-width: 320px) {
       margin-right: 0em;
-      width: 100px;
+      width: 60px;
       position: absolute;
       left: 1.2em;
     }
