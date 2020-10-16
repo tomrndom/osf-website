@@ -29,10 +29,12 @@
   }
   .nav-content{
     .dropdown{
+      
       .button{
         font-size: 14px;
         letter-spacing: 1px;
         text-transform: uppercase;
+        color: white;
       }
     }
   }
@@ -147,7 +149,7 @@
           padding: 5px;
           color: $white !important;
           font-size: 14px;
-          border: 2px solid red;
+          // border: 2px solid red;
           border-radius: 25px;
         }
       }
@@ -183,6 +185,7 @@
         opacity: 1;
         visibility: visible;
         z-index: 30;
+        background-color: #161616;
       }
     }
   }

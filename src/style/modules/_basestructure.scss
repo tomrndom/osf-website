@@ -119,6 +119,11 @@ i {
 
 .logo-containter {
   display: flex;
+
+  @media (max-width: $screen-md) {
+    justify-content: center;
+  }
+
 }
 
 .nav .nav-menu a {
