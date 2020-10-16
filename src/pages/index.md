@@ -2,10 +2,10 @@
 templateKey: index-page
 seo:
   description: >-
-    The OSF is an open source foundation supporting a global community of
+    The OIF is an open source foundation supporting a global community of
     100,000 individuals to build and operate open infrastructure software. 
   image: /img/osficon-social.png
-  title: 'OpenStack Foundation (OSF): Open Source Software Foundation'
+  title: 'Open Infrastructure Foundation (OIF): Open Source Infrastructure Foundation'
   twitterUsername: '@openstack'
   url: 'https://osf.dev/'
 header:
@@ -15,7 +15,7 @@ header:
     - link: 'https://www.openstack.org/join#sponsor'
       text: Support the OSF
   subTitle: >-
-    With over 100,000 members in 187 countries, the OSF helps open source
+    With over 100,000 members in 187 countries, the OIF helps open source
     communities build the  tools infrastructure operators need for Data Center
     Clouds, 5G, Edge, Containers, CI/CD and beyond.  
   title: Open Infrastructure
