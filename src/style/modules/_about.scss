@@ -36,10 +36,9 @@
 
   .fix-h3 {
     font-size: 26.0px;
-    color: rgba(19, 62, 104, 1.0);
+    color: #28a4db;
     text-align: left;
     line-height: 31.0px;
-    margin-top: 90px;
     margin-bottom: 40px;
 
     @media (max-width: $screen-md-min) {
@@ -51,7 +50,7 @@
   .columns {
     .column {
       p {
-        color: $primary-blue;
+        color: #161616;
         line-height: 21px;
 
         &:last-child {
@@ -94,23 +93,24 @@
 
 
   #about-s1-id-pic1 {
-    margin-top: -70px;
-    z-index: 200;
-
+    margin-bottom: 30px;
+    padding-right: 20px;
     @media (max-width: $screen-md-min) {
       margin-top: 0px;
     }
   }
 
+// The image below is hidden but would display underneath #about-s1-id-pic1
+
   #about-s1-id-pic2 {
-    margin-top: -25px;
-    margin-left: 5%;
-    z-index: 100;
+    margin-bottom: 30px;
+    display: none;
   }
 
   #about-s1-id-pic3 {
     margin-top: 30px;
     z-index: 100;
+    padding-left: 20px;
 
     @media screen and (max-width:$screen-md-min) {
       margin-top: -30px;
@@ -198,9 +198,12 @@
     }
 
     .columns.column {
-      padding: unset;
+
     }
 
   }
+
+}
+.column {
 
 }
