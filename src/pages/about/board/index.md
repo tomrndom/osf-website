@@ -2,7 +2,7 @@
 templateKey: board-page
 seo:
   description: >-
-    The Board of Directors provides strategic and financial oversight of OSF
+    The Board of Directors provides strategic and financial oversight of OIF
     resources and staff.
   image: /img/osficon-social.png
   title: Board of Directors
@@ -10,7 +10,7 @@ seo:
   url: 'https://osf.dev/about/board/'
 header:
   subTitle: >-
-    The Board of Directors provides strategic and financial oversight of OSF
+    The Board of Directors provides strategic and financial oversight of OIF
     resources and staff.
   title: BOARD OF DIRECTORS
 members:
@@ -30,7 +30,7 @@ members:
       Technology, The Perl Foundation, Onyx Neon, Inc.
     description: >-
       Allison is a software developer and open source strategist. She is a board
-      member of the  OpenStack Foundation, a board member of the Software
+      member of the  Open Infrastructure Foundation, a board member of the Software
       Freedom Conservancy, a board member  of the Perl Foundation, and
       co-founder of the FLOSS Foundations group for open source leaders.  She
       previously served as President of the Open Source Initiative, President of
@@ -193,7 +193,7 @@ members:
       Research Center, China Mobile Research Institute, China Mobile Research
       Institute
     description: >-
-      <p class="is-6">JunWei Liu serves as Director Of OpenStack Foundation in
+      <p class="is-6">JunWei Liu serves as Director Of Open Infrastructure Foundation in
       2017. He works at China Mobile for  eight years and he is the vice General
       Manager of Cloud Product Deparment,China Mobile SuZhou R&amp;D Center. 
       Over the last 8+ years,he has worked on developing and building China
@@ -235,7 +235,7 @@ members:
       projects. We have participated in most OpenStack Summits and are active in
       a  few working groups. I personally support the InterOp Workig Group, a
       key area for OpenStack's  success given the centrifugal forces in such a
-      large project. DT has become gold member of the  OpenStack Foundation in
+      large project. DT has become gold member of the  Open Infrastructure Foundation in
       2016 and has been headline sponsor for a few summits (Barcelona, Boston, 
       Berlin). I was serving in the board in most of 2018 until I handed over to
       Clemens Hardewig.</p> <p>Before joining DT end of 2011 I was a long-time
@@ -347,7 +347,7 @@ members:
     twitter: 'https://twitter.com/@ryanvanwyk'
   - company: Intel
     description: >-
-      Shane Wang has been an individual board member of OpenStack Foundation
+      Shane Wang has been an individual board member of Open Infrastructure Foundation
       since 2015 and an  engineering manager in Networking and Storage team at
       the Open Source Technology Center  (OTC), Intel. Shane joined Intel in
       2004 after he graduated from Fudan University and got  his Ph.D. degree in
