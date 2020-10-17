@@ -7,7 +7,7 @@ seo:
   image: /img/oif_logo_pill.png
   title: About
   twitterUsername: '@openstack'
-  url: '/about/'
+  url: 'https://osf.dev/about/'
 title: About
 subTitle: About the OIF
 footer:
