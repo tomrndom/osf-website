@@ -37,7 +37,7 @@
           "link": "/projects/services/"
         },
         {
-          "text": "Host at OSF",
+          "text": "Host at OIF",
           "link": "/projects/hosting/"
         }
       ]
@@ -50,7 +50,7 @@
           "link": "/companies/"
         },
         {
-          "text": "Join OSF",
+          "text": "Join OIF",
           "link": "https://www.openstack.org/join"
         }
       ]

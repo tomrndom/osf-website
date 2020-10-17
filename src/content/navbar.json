@@ -36,7 +36,7 @@
           "url": "/projects/services/"
         },
         {
-          "text": "Host at OSF ",
+          "text": "Host at OIF ",
           "url": "/projects/hosting/"
         }
       ]
@@ -52,7 +52,7 @@
           "url": "/companies/"
         },
         {
-          "text": "Join OSF ",
+          "text": "Join OIF ",
           "url": "/join"
         }
       ]
@@ -117,7 +117,7 @@
     }
   ],
   "button": {
-    "text": "Join the OSF",
+    "text": "Join the OIF",
     "url": "https://osf.dev/join"
   }
 }
