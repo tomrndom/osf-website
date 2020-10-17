@@ -38,13 +38,13 @@
       max-width: 100%;
       position: relative;
       margin-bottom: 60px;
-      @media(max-width: $screen-md-min){
-        margin-top: 30px;
+      @media (max-width: $screen-md-min){
+        z-index: 0;
+        width: 100%;
       }
       @media (max-width: $screen-sm-min){
+        margin-top: 30px;
         margin-left: 0;
-        margin-right: 0;
-        max-width: unset;
         width: 100%;
       }
     }
@@ -252,7 +252,7 @@
     }
     @media screen and(max-width: $screen-md-min){
       width: 100%;
-      margin-top: 60px;
+      margin-top: 0px;
       margin-bottom: 0;
       padding:0;
     }
