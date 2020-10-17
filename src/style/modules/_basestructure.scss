@@ -184,8 +184,7 @@ footer {
   background-repeat: no-repeat;
   
   @media (max-width: $screen-sm-min) {
-    background-position-y: 12em;
-    background-size: 114%;
+    background-size: cover;
     background-position-x: 50%;
   }   
   @media (max-width: 320px) {
