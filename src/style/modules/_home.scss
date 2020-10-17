@@ -10,6 +10,7 @@
     background-color: white;
     /*images*/
     .home-picture1{
+      display: none;
       position:relative;
       z-index: 1;
       @media (max-width: $screen-md-min){
@@ -22,14 +23,10 @@
       }
     }
     .home-picture2 {
-      margin-top: -100px;
-      margin-left: -110px;
-      position: relative;
-
+  
       @media (max-width: $screen-md-min){
-        margin-top: -42%;
-        margin-left: 24%;
-        width: 80%;
+        margin-top: 30px;
+        width: 100%;
       }
       @media (max-width: $screen-sm-min){
         margin-top: 30px;
@@ -38,14 +35,11 @@
       }
     }
     .home-picture3{
-      margin-top: -70%;
-      margin-right: -14%;
-      max-width: 110%;
+      max-width: 100%;
       position: relative;
+      margin-bottom: 60px;
       @media(max-width: $screen-md-min){
-        margin-top: 5%;
-        margin-left: -7%;
-        max-width: 65%;
+        margin-top: 30px;
       }
       @media (max-width: $screen-sm-min){
         margin-left: 0;
@@ -55,13 +49,14 @@
       }
     }
     .home-picture4 {
+      display: none;
       margin-right: -40px;
       margin-top: -20%;
       position: relative;
       width: 90%;
       @media (max-width: 1000px) { //small screen pantalla 
         margin: 0px;
-        display: flex;
+        display: none;
         justify-content: center;
       }
       @media (max-width: $screen-md-min){
@@ -81,7 +76,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         flex-flow: wrap;
-        padding-top: 80px;
+        padding-top: 60px;
         @media (max-width: $screen-md-min){
           padding-top:0;
         }
@@ -146,7 +141,6 @@
       padding: 0px;
       .home-picture3 {
         width: 45%;
-        margin-top: -200px;
         //position: relative;
         @media (max-width: $screen-md-min){
           max-width: 71%;
@@ -179,7 +173,6 @@
     background-image:url('/img/background-shapes-white.svg');
     background-size: cover;
     background-color: #f6f6f6;
-    margin-top: -100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -247,7 +240,7 @@
   
   .section-bg-white-center {
     color: $back-darkest;
-    padding:90px;
+    padding: 20px 0 60px 0;
     width: 80%;
     margin: 0 auto;
     text-align: center;
