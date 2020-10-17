@@ -5,10 +5,10 @@ seo:
     Open Development, the adoption of transparent and inclusive open source
     software development processes, enables everyone to participate as an
     equal. 
-  image: /img/osf_logo_pill.png
+  image: /img/oif_logo_pill.png
   title: Open Source Software Development
-  twitterUsername: '@openstack'
-  url: 'https://osf.dev/four-opens/open-development/'
+  twitterUsername: '@OpenInfraDev'
+  url: 'https://openinfra.dev/four-opens/open-development/'
 title: Open Development
 subTitle: The Four Opens
 footer:

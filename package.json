@@ -1,8 +1,8 @@
 {
   "name": "osf-website",
-  "description": "https://osf.dev",
+  "description": "https://openinfra.dev",
   "version": "1.0.0",
-  "author": "OpenStack Foundation",
+  "author": "Open Infrastructure Foundation",
   "dependencies": {
     "@ncwidgets/file-relation": "^0.5.2",
     "@ncwidgets/id": "^0.5.1",

@@ -20,7 +20,7 @@ const ContactInformation = class extends React.Component {
               <div className="columns">
                 <div id="aboutstaff-s3-col-1" className="column aboutstaff-s3-col">
                   <div className="fix-h3">CONTACT INFORMATION</div> 
-                  <div className="fix-h5">OpenStack Foundation</div> 
+                  <div className="fix-h5">Open Infrastructure Foundation</div> 
                   <div className="fix-h5">P.O. Box 1903</div> 
                   <div className="fix-h5">Austin TX, 78767</div> 
                   <div className="fix-h5">512-827-8633</div>

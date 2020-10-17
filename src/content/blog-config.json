@@ -1,6 +1,6 @@
 {
   "title": "Blog",
-  "subTitle": "OSF news, announcements, best practices, use cases and more.",
+  "subTitle": "OIF news, announcements, best practices, use cases and more.",
   "categories": [
     {
       "text": "News & Announcements",
@@ -35,11 +35,11 @@
   ],
   "seo": {
     "title": "Blog",
-    "titleTemplate": "%s  - OpenStack Foundation OSF",
-    "description": "Projects further the OSF mission of supporting the development and adoption of production infrastructure with open source components.",
-    "url": "https://osf.dev/blog/",
-    "image": "/img/osficon-social.png",
-    "twitterUsername": "@openstack",
+    "titleTemplate": "%s  - Open Infrastructure Foundation OIF",
+    "description": "Projects further the OIF mission of supporting the development and adoption of production infrastructure with open source components.",
+    "url": "https://openinfra.dev/blog/",
+    "image": "/img/oificon-social.png",
+    "twitterUsername": "@OpenInfraDev",
     "themeColor": "#f15b3e"
   }
 }

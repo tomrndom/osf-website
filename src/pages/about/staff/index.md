@@ -7,8 +7,8 @@ seo:
     infrastructure.  "
   image: /img/osficon-social.png
   title: Staff
-  twitterUsername: '@openstack'
-  url: 'https://osf.dev/about/staff/'
+  twitterUsername: '@OpenInfraDev'
+  url: 'https://openinfra.dev/about/staff/'
 header:
   subTitle: >
     The Open Infrastructure Foundation (OIF) staff supports the development and adoption
@@ -59,7 +59,7 @@ members:
       source cloud  computing project called OpenStack, in partnership with NASA
       and 25 other organizations globally.  OpenStack quickly became one of the
       fastest growing open source projects in history. In 2012, Mark  co-founded
-      the OpenStack Foundation to manage the growth of the project, where he now
+      the Open Infrastructure Foundation to manage the growth of the project, where he now
       serves at  the COO. Today, OpenStack is one of the 3 most actively
       developed open source projects in the world,  along with the Linux kernel
       and Chromium.</p> <p>Mark is now helping to expand and evolve the
@@ -132,7 +132,7 @@ members:
     picture: /img/about-staff/SunnyCai.jpg
     title: Marketing Associate
   - description: >-
-      Danny is the Ecosystem Manager for the OpenStack Foundation, from Tyler,
+      Danny is the Ecosystem Manager for the Open Infrastructure Foundation, from Tyler,
       TX. He attended The  University of Texas at San Antonio and spent close to
       seven years at Rackspace where he held  Support, Business Development and
       Marketing roles. He has joined the Foundation team to focus  on nurturing
@@ -301,7 +301,7 @@ support:
         Horace is currently working as China Community Manager @ Open Infrastructure
         Foundation, to accelerate  China OpenStack ecosystem growing up, and
         Open Infrastructure focused open source projects  landing in China.
-        Before joining OpenStack Foundation, Horace worked in Intel Open Source 
+        Before joining Open Infrastructure Foundation, Horace worked in Intel Open Source 
         Technology Center for 13 years, as technical account manager to support
         open source community  projects engagement in China, including both
         Cloud Computing, DataCenter and Client Computing business. Outside of

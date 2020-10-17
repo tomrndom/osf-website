@@ -5,10 +5,10 @@ seo:
     An Open Community balances the roles of open source developers, users and
     ecosystem, ensuring the community is a cohesive, inclusive, level playing
     ground. 
-  image: /img/osf_logo_pill.png
+  image: /img/oif_logo_pill.png
   title: Open Source Project Community
-  twitterUsername: '@openstack'
-  url: 'https://osf.dev/four-opens/open-community/'
+  twitterUsername: '@OpenInfraDev'
+  url: 'https://openinfra.dev/four-opens/open-community/'
 title: Open Community
 subTitle: >-
   We at the OpenStack Foundation consider The Four Opens our guiding principles

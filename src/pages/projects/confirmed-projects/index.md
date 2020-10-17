@@ -5,10 +5,10 @@ seo:
     The OIF supports the growth of open source software projects and communities
     around use cases including CI/CD, Containers, Edge Computing, and Cloud
     Computing
-  image: /img/osficon-social.png
+  image: /img/oificon-social.png
   title: Open Source Software Community Projects
   twitterUsername: '@openstack'
-  url: 'https://osf.dev/projects/'
+  url: 'https://openinfra.dev/projects/'
 header:
   subTitle: >-
     Projects that call OIF their home each value open collaboration and

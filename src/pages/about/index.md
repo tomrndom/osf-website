@@ -6,8 +6,8 @@ seo:
     100,000 individuals to build and operate open infrastructure software. 
   image: /img/oif_logo_pill.png
   title: About
-  twitterUsername: '@openstack'
-  url: 'https://osf.dev/about/'
+  twitterUsername: '@OpenInfraDev'
+  url: 'https://opneinfra.dev/about/'
 title: About
 subTitle: About the OIF
 footer:
@@ -25,9 +25,9 @@ Now, the OIF supports the development and adoption of open infrastructure global
 
 Staying true to its mission of helping people build and operate open infrastructure, OIF hosts open source projects that contribute to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “Four Opens.” These projects include [OpenStack](https://www.openstack.org), [Airship](https://airshipit.org), [Kata Containers](https://katacontainers.io/), [OpenInfra Labs](https://openinfralabs.org/), [StarlingX](https://starlingx.io), and [Zuul](https://zuul-ci.org/). Additional initiatives supported by the OIF include [OpenDev](https://opendev.org/), project hosting, continuous integration tooling, and virtual collaboration spaces for open source software projects and Superuser, an online publication where users and developers share how they're combining software from OIF communities with other popular open source tools like Kubernetes, Ceph, Cloud Foundry, OVS, OpenContrail, Open Switch, OPNFV and more to power their open infrastructure.
 
-[Individual membership of the OpenStack Foundation](https://www.openstack.org/join/) is free for anyone with an interest in open infrastructure. Individual Members are expected to participate in the community through technical contributions or community building efforts, and vote in an annual election for the Board of Directors.
+[Individual membership of the Open Infrastructure Foundation](/join/) is free for anyone with an interest in open infrastructure. Individual Members are expected to participate in the community through technical contributions or community building efforts, and vote in an annual election for the Board of Directors.
 
-For more insight into OpenStack Foundation activities and progress, please read the annual reports:
+For more insight into Open Infrastructure Foundation activities and progress, please read the annual reports:
 
 * [2019 annual report](https://www.openstack.org/annual-reports/2019-openstack-foundation-annual-report)
 * [2018 annual report](https://www.openstack.org/annual-reports/2018-openstack-foundation-annual-report)

@@ -4,10 +4,10 @@ seo:
   description: >-
     As an open source software host, the OIF dedicates resources towards
     advancing the project community's goals and growing adoption. 
-  image: /img/osficon-social.png
+  image: /img/oificon-social.png
   title: Open Source Project Hosting Website
   twitterUsername: '@openstack'
-  url: 'https://osf.dev/projects/hosting/'
+  url: 'https://openinfra.dev/projects/hosting/'
 header:
   subTitle: >-
     The OIF supports active, global, and engaged open source infrastructure

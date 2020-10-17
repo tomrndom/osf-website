@@ -6,8 +6,8 @@ seo:
     resources and staff.
   image: /img/osficon-social.png
   title: Board of Directors
-  twitterUsername: '@openstack'
-  url: 'https://osf.dev/about/board/'
+  twitterUsername: '@OpenInfraDev'
+  url: 'https://openinfra.dev/about/board/'
 header:
   subTitle: >-
     The Board of Directors provides strategic and financial oversight of OIF

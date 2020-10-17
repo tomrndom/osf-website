@@ -4,10 +4,10 @@ seo:
   description: >-
     Open Design guarantees a transparent and open process for planning and
     designing open source software. 
-  image: /img/osf_logo_pill.png
+  image: /img/oif_logo_pill.png
   title: Open Source Design
-  twitterUsername: '@openstack'
-  url: 'https://osf.dev/four-opens/open-design/'
+  twitterUsername: '@OpenInfraDev'
+  url: 'https://openinfra.dev/four-opens/open-design/'
 title: Open Design
 subTitle: The Four Opens
 footer:

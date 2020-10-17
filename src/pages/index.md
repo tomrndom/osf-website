@@ -4,10 +4,10 @@ seo:
   description: >-
     The OIF is an open source foundation supporting a global community of
     100,000 individuals to build and operate open infrastructure software. 
-  image: /img/osficon-social.png
+  image: /img/oificon-social.png
   title: 'Open Infrastructure Foundation (OIF): Open Source Infrastructure Foundation'
-  twitterUsername: '@openstack'
-  url: 'https://osf.dev/'
+  twitterUsername: '@OpenInfraDev'
+  url: 'https://openinfra.dev/'
 header:
   buttons:
     - link: /projects/
@@ -125,7 +125,7 @@ people:
         THANKS to 1,400+ contributors from 150+ orgs who made OpenStack Stein
         (#19!) a reality.  There are a lot of OSS projects dominated by one
         company, who are changing models right  now to control the benefits($).
-        At OSF #fouropens mean more opportunity, IMHO.
+        At OIF #fouropens mean more opportunity, IMHO.
       user: '@sparkycollier'
     - name: Tim Bell
       picture: >-

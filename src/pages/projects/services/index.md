@@ -5,7 +5,7 @@ seo:
     Open source project communities require these common services in order to
     successfully build a broad community and drive the effectiveness of their
     software.
-  image: /img/osficon-social.png
+  image: /img/oificon-social.png
   title: Open Infrastructure Foundation Services for Projects
   twitterUsername: '@openstack'
   url: 'https://osf.dev/projects/services/'

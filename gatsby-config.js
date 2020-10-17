@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'OpenStack Foundation',
+    title: 'Open Infrastructure Foundation',
     description:
       'The Home of Open Infrastructure',
   },
@@ -110,8 +110,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `OpenStack Foundation`,
-        short_name: `OpenStack Foundation`,
+        name: `Open Infrastructure Foundation`,
+        short_name: `Open Infrastructure Foundation`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#f15b3e`,
@@ -138,7 +138,7 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify', // make sure to keep it last in the array,
       options: {
         enableIdentityWidget: true,
-        htmlTitle: `OpenStack Foundation | Content Manager`,
+        htmlTitle: `Open Infrastructure Foundation | Content Manager`,
         includeRobots: false, 
       }
     }    

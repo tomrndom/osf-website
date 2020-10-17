@@ -4,8 +4,8 @@ seo:
   description: The Home of Open Infrastructure
   image: /img/oificon-social.png
   title: Supporting Companies - Open Infrastructure Foundation OIF
-  twitterUsername: '@openstack'
-  url: 'https://osf.dev/companies/'
+  twitterUsername: '@OpenInfraDev'
+  url: 'https://openinfra.dev/companies/'
 header:
   link:
     text: >-
@@ -37,7 +37,7 @@ companies:
       - alt: Wind River
         image: //img/companies/_New/Platinum/Sponsor-Logos_WindRiver.png
     text: >-
-      OpenStack Foundation Platinum Members provide a significant portion of the
+      Open Infrastructure Foundation Platinum Members provide a significant portion of the
       funding to achieve the Foundation's mission of protecting, empowering and
       promoting the Open Infrastructure community and open source software
       projects. Each Platinum Member's company strategy aligns with the OIF
@@ -85,7 +85,7 @@ companies:
       - alt: ZTE
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
     text: >-
-      OpenStack Foundation Gold Members provide funding and pledge strategic
+      Open Infrastructure Foundation Gold Members provide funding and pledge strategic
       alignment to the OIF mission.  There can be up to twenty-four Gold Members
       at any given time, subject to board approval. If your organization  is
       highly involved with the Open Infrastructure community and interested in
@@ -153,7 +153,7 @@ companies:
       - alt: Whitestack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png         
     text: >-
-      OpenStack Foundation Silver Members provide funding and pledge strategic
+      Open Infrastructure Foundation Silver Members provide funding and pledge strategic
       alignment to the OIF mission. If your organization  is highly involved with 
       the Open Infrastructure community and interested in becoming a Silver Member, 
       read more about joining the  Foundation. Thank you to the following Silver 
@@ -325,9 +325,9 @@ companies:
       Corporate Sponsors provide additional funding to support the Foundation's
       mission of protecting,  empowering and promoting OpenStack. If you are
       interested in becoming a corporate sponsor, read  more about <a
-      href="https://www.openstack.org/join/#sponsor">supporting the
+      href="/join/#sponsor">supporting the
       Foundation</a>. Thank  you to the following corporate sponsors for
-      supporting the OpenStack Foundation.
+      supporting the Open Infrastructure Foundation.
     title: CORPORATE SPONSORS
   - companyList:
       - alt: 2 Twelve Solutions

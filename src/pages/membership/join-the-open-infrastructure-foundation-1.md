@@ -6,10 +6,10 @@ seo:
     country, company and industry. We also believe that community driven open
     source is the best way to develop technology that is broadly available for
     use around the world.
-  image: /img/osficon-social.png
+  image: /img/oificon-social.png
   title: Join The Open Infrastructure Foundation
-  twitterUsername: '@openinfra'
-  url: 'https://osf.dev/join'
+  twitterUsername: '@OpenInfraDev'
+  url: 'https://openinfra.dev/join'
 title: Join The Open Infrastructure Foundation
 subTitle: Help us with our mission
 ---
@@ -20,7 +20,7 @@ We build open source communities that write software that runs in production
 ## COMMUNITIES WE SUPPORT
 
 Staying true to our mission of helping people build and operate open infrastructure, OIF supports open source projects that contribute to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “Four Opens”.
-<div class="section-bg-green-logos-container"><div class="section-bg-green-logo"><img src="https://osf.dev/img/home/logo1.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://osf.dev/img/home/logo2.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://osf.dev/img/home/logo3.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://osf.dev/img/home/logo4.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://osf.dev/img/home/logo5.svg" alt=""></div></div>
+<div class="section-bg-green-logos-container"><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo1.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo2.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo3.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo4.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://osf.dev/img/home/logo5.svg" alt=""></div></div>
 
 ## Become a Member
 
@@ -46,7 +46,7 @@ The Foundation Member level has substantial responsibilities as a member of the 
 <li>Participate in Community Events</li>
 </ul>
 
-[JOIN AS AN INDIVIDUAL FOUNDATION MEMBER](https://openstackid.org/auth/register?redirect_uri=https%3A%2F%2Fwww.openinfra.dev%2FSecurity%2Flogin%3FBackURL%3Djoin%252Fregister%252F%253Fmembership-type%253Dfoundation%26BackURL%3Dhttps%253A%252F%252Fwww.osf.dev%252F)
+[JOIN AS AN INDIVIDUAL FOUNDATION MEMBER](https://openstackid.org/auth/register?redirect_uri=https%3A%2F%2Fwww.openinfra.dev%2FSecurity%2Flogin%3FBackURL%3Djoin%252Fregister%252F%253Fmembership-type%253Dfoundation%26BackURL%3Dhttps%253A%252F%252Fwww.openinfra.dev%252F)
 
 <p style="font-size:-3em;">* Foundation Members are required to vote regularly in Board elections, or their membership can be suspended. Note that new Foundation Members must be members for 180 days before they are eligible to vote in Board Member elections. Inactive Foundation Member accounts are moved to Community Account level automatically after a period of inactivity. You may also log into your profile at any time and adjust your membership level.</p>
 
@@ -59,7 +59,7 @@ With an OpenStack Community Account, you can still participate in all of our com
 <li>Participate in Community Events</li>
 </ul>
 
-[CREATE A COMMUNITY ACCOUNT](https://openstackid.org/auth/register?redirect_uri=https%3A%2F%2Fwww.openinfra.dev%2FSecurity%2Flogin%3FBackURL%3Djoin%252Fregister%252F%253Fmembership-type%253Dcommunity%26BackURL%3Dhttps%253A%252F%252Fwww.osf.dev%252F)
+[CREATE A COMMUNITY ACCOUNT](https://openstackid.org/auth/register?redirect_uri=https%3A%2F%2Fwww.openinfra.dev%2FSecurity%2Flogin%3FBackURL%3Djoin%252Fregister%252F%253Fmembership-type%253Dcommunity%26BackURL%3Dhttps%253A%252F%252Fwww.openinfra.dev%252F)
 
 <hr/>
 
