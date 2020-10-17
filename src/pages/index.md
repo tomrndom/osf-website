@@ -97,6 +97,7 @@ projects:
   images:
     - image: /img/home/logo1.svg
     - image: /img/home/logo2.svg
+    - image: /img/home/logo7.svg
     - image: /img/home/logo3.svg
     - image: /img/home/logo4.svg
     - image: /img/home/logo5.svg
