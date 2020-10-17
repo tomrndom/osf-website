@@ -5,7 +5,7 @@ seo:
   image: /img/oificon-social.png
   title: Supporting Companies - Open Infrastructure Foundation OIF
   twitterUsername: '@openstack'
-  url: '/companies/'
+  url: 'https://osf.dev/companies/'
 header:
   link:
     text: >-
