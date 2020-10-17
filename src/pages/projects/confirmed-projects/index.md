@@ -2,7 +2,7 @@
 templateKey: projects-page
 seo:
   description: >-
-    The OSF supports the growth of open source software projects and communities
+    The OIF supports the growth of open source software projects and communities
     around use cases including CI/CD, Containers, Edge Computing, and Cloud
     Computing
   image: /img/osficon-social.png
@@ -11,12 +11,12 @@ seo:
   url: 'https://osf.dev/projects/'
 header:
   subTitle: >-
-    Projects that call OSF their home each value open collaboration and
+    Projects that call OIF their home each value open collaboration and
     exemplify the Four  Opens (source, design, development, community). All of
-    our project have a strategic focus,  vision & scope that furthers the OSF
+    our project have a strategic focus,  vision & scope that furthers the OIF
     mission of supporting the development and adoption  of production
     infrastructure with open source components.
-  title: Projects & Communities at OSF
+  title: Projects & Communities at OIF
 confirmed:
   projectList:
     - button:
@@ -183,7 +183,7 @@ confirmed:
             https://www.openstack.org/edge-computing/cloud-edge-computing-beyond-the-data-center?lang=en_US
           text: 'Cloud Edge Computing: Beyond the Data Center White Paper'
       logo: /img/earth2.jpg
-      subTitle: OSF Board approved working group
+      subTitle: OIF Board approved working group
       title: Edge Computing Group
   title: CONFIRMED PROJECTS
 pilot:
