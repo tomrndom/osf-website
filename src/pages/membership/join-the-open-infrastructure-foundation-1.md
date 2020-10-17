@@ -17,12 +17,14 @@ The Open Infrastructure Foundation builds open source communities that write sof
 
 Meet the global community you can join today. 
 
+[![Join the OpenInfrastructure Foundation](http://img.youtube.com/vi/o2Ztq7pYMNk/0.jpg)](http://www.youtube.com/watch?v=o2Ztq7pYMNk "Join the OpenInfrastructure Foundation")
+
 We believe digital infrastructure is core to human progress in every country, company and industry. We’ve created a community driven open source approach which is the best way to openly develop technology that is broadly available for use around the world.
 
 ## Open Source Communities the OIF Supports
 
 Staying true to our mission of helping people build and operate open infrastructure, OIF supports open source projects contributing to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “[Four Opens](/four-opens/)”.
-<div class="section-bg-green-logos-container"><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo1.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo2.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo3.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo4.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://osf.dev/img/home/logo5.svg" alt=""></div></div>
+<div class="section-bg-green-logos-container"><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo1.svg" alt=""><br/><a href="https://airshipit.org">Airship</a></div><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo2.svg" alt=""><a href="https://katacontainers.io">Kata Containers</a></div><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo3.svg" alt=""><br/><a href="https://openstack.org">OpenStack</a></div><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo4.svg" alt=""><br/><a href="https://starlingx.io">StarlingX</a></div><div class="section-bg-green-logo"><img src="https://osf.dev/img/home/logo5.svg" alt=""><br/><a href="https://zuul-ci.org">Zuul</a></div></div>
 
 The OIF also nurtures cross-community collaboration with other open source communities like Ansible, Ceph, Gerrit, Kubernetes, Magma, Open vSwitch, rust-vmm and more. 
 
