@@ -2,16 +2,16 @@
 templateKey: companies-page
 seo:
   description: The Home of Open Infrastructure
-  image: /img/osficon-social.png
+  image: /img/oificon-social.png
   title: Supporting Companies - Open Infrastructure Foundation OIF
   twitterUsername: '@openstack'
-  url: 'https://osf.dev/companies/'
+  url: '/companies/'
 header:
   link:
     text: >-
       Learn more about how your company can support the Open Infrastructure
       community
-    url: 'https://www.openstack.org/join/#sponsor'
+    url: '/join/'
   subTitle: >-
     The Open Infrastructure Foundation would not exist without the support of the
     Platinum, Gold, and Corporate Sponsors listed below.
