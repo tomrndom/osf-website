@@ -180,7 +180,7 @@ footer {
 }
 
 .hero-background {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("/img/home/hero-image.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), 35%, rgba(0, 0, 0, 0)) 10%, url("/img/home/hero-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   
