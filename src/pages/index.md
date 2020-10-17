@@ -197,6 +197,6 @@ sponsor:
       - alt: Wind River
         image: //img/companies/_New/Platinum/Sponsor-Logos_WindRiver.png
     title: Platinum Members
-  title: Companies supporting the OpenStack Foundation
+  title: Companies supporting the Open Infrastructure Foundation
 ---
 
