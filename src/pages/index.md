@@ -11,9 +11,9 @@ seo:
 header:
   buttons:
     - link: /projects/
-      text: OSF projects
+      text: OIF projects
     - link: 'https://www.openstack.org/join#sponsor'
-      text: Support the OSF
+      text: Support the OIF
   subTitle: >-
     With over 100,000 members in 187 countries, the OIF helps open source
     communities build the  tools infrastructure operators need for Data Center
@@ -36,7 +36,7 @@ mainpitch:
       source technologies enabling everyone to provide infrastructure for
       others  to build solutions on.
 
-      OSF and its 100,000 members from 187 countries exist to ensure each open
+      OIF and its 100,000 members from 187 countries exist to ensure each open
       source component is  built and tested together, collaboratively, with a
       radical approach to openness we call the  Four Opens: Open Source,
       Development, Design and Community.
@@ -93,7 +93,7 @@ whyExpand:
 projects:
   button:
     link: /projects/
-    text: See all OSF projects
+    text: See all OIF projects
   images:
     - image: /img/home/logo1.svg
     - image: /img/home/logo2.svg
@@ -102,7 +102,7 @@ projects:
     - image: /img/home/logo5.svg
   text: >-
     Staying true to our mission of helping people build and operate open
-    infrastructure, OSF hosts  open source projects that contribute to the
+    infrastructure, OIF hosts  open source projects that contribute to the
     advancement of today’s infrastructure. From cloud  hosting to the driving
     force behind 5G, these projects are code first and operate under the
     guiding  principles we call the “Four Opens”.
