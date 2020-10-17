@@ -7,10 +7,10 @@ seo:
     source is the best way to develop technology that is broadly available for
     use around the world.
   image: /img/osficon-social.png
-  title: Join The OpenStack Foundation
+  title: Join The Open Infrastructure Foundation
   twitterUsername: '@openinfra'
   url: 'https://osf.dev/join'
-title: Join The OpenStack Foundation
+title: Join The Open Infrastructure Foundation
 subTitle: Help us with our mission
 ---
 We believe digital infrastructure is core to human progress in every country, company and industry. We also believe that community driven open source is the best way to develop technology that is broadly available for use around the world.
@@ -19,12 +19,12 @@ We build open source communities that write software that runs in production
 
 ## COMMUNITIES WE SUPPORT
 
-Staying true to our mission of helping people build and operate open infrastructure, OSF supports open source projects that contribute to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “Four Opens”.
+Staying true to our mission of helping people build and operate open infrastructure, OIF supports open source projects that contribute to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “Four Opens”.
 <div class="section-bg-green-logos-container"><div class="section-bg-green-logo"><img src="https://osf.dev/img/home/logo1.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://osf.dev/img/home/logo2.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://osf.dev/img/home/logo3.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://osf.dev/img/home/logo4.svg" alt=""></div><div class="section-bg-green-logo"><img src="https://osf.dev/img/home/logo5.svg" alt=""></div></div>
 
 ## Become a Member
 
-Individuals & Companies can be members of the OpenStack Foundation.
+Individuals & Companies can be members of the Open Infrastructure Foundation.
 
 <hr/>
 
@@ -34,7 +34,7 @@ All Individual Account holders agree to the [OpenStack Community Code of Conduct
 
 #### Foundation Member: Free
 
-The Foundation Member level has substantial responsibilities as a member of the OpenStack Foundation. Here's a quick summary:
+The Foundation Member level has substantial responsibilities as a member of the Open Infrastructure Foundation. Here's a quick summary:
 
 <ul style="color:#133e68;"><li>Have a Profile on Foundation web properties</li>
 <li>Vote on Foundation Board Member Elections - Required*</li>
@@ -83,8 +83,8 @@ Organizations can apply now to become new Gold Members. At the start of their te
 
 Established Company: $15k/year | Start Up: $5k/year
 
-<ul style="color:#133e68;"><li>Access to OSF projects restricted use logos for commercial use if and as long as product meets technical requirements (your support helps the foundation promote and protect the project brand)</li>
-<li>Designation as Silver Member with corporate logo placement in supporters section of osf.dev</li>
+<ul style="color:#133e68;"><li>Access to OIF projects restricted use logos for commercial use if and as long as product meets technical requirements (your support helps the foundation promote and protect the project brand)</li>
+<li>Designation as Silver Member with corporate logo placement in supporters section of openinfra.dev</li>
 <li>Profile on openstack.org detailing your organization's support for OIF projects, with link to your site </li>
 <li>OIF Silver Member badge available for corporate website or marketing materials</li>
 <li>Opportunity to be included in OIF newsletter</li>

@@ -13,9 +13,9 @@ header:
       community
     url: 'https://www.openstack.org/join/#sponsor'
   subTitle: >-
-    The OpenStack Foundation would not exist without the support of the
+    The Open Infrastructure Foundation would not exist without the support of the
     Platinum, Gold, and Corporate Sponsors listed below.
-  title: COMPANIES SUPPORTING THE OPENSTACK FOUNDATION
+  title: Companies Supporting The Open Infrastructure Foundation
 companies:
   - companyList:
       - alt: Ant Group
