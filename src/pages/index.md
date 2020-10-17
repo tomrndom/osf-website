@@ -12,7 +12,7 @@ header:
   buttons:
     - link: /projects/
       text: OIF projects
-    - link: 'https://www.openstack.org/join#sponsor'
+    - link: /join/
       text: Support the OIF
   subTitle: >-
     With over 100,000 members in 187 countries, the OIF helps open source

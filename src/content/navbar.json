@@ -118,6 +118,6 @@
   ],
   "button": {
     "text": "Join the OIF",
-    "url": "https://osf.dev/join"
+    "url": "/join/"
   }
 }
