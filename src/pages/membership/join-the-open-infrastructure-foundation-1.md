@@ -24,7 +24,7 @@ We believe digital infrastructure is core to human progress in every country, co
 ## Open Source Communities the OIF Supports
 
 Staying true to our mission of helping people build and operate open infrastructure, OIF supports open source projects contributing to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “[Four Opens](/four-opens/)”.
-<div class="section-bg-green-logos-container"><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo1.svg" alt=""><br/><a href="https://airshipit.org">Airship</a></div><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo2.svg" alt=""><a href="https://katacontainers.io">Kata Containers</a></div><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo3.svg" alt=""><br/><a href="https://openstack.org">OpenStack</a></div><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo4.svg" alt=""><br/><a href="https://starlingx.io">StarlingX</a></div><div class="section-bg-green-logo"><img src="https://osf.dev/img/home/logo5.svg" alt=""><br/><a href="https://zuul-ci.org">Zuul</a></div></div>
+<div class="section-bg-green-logos-container"><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo1.svg" alt=""><br/><a href="https://airshipit.org">Airship</a></div><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo2.svg" alt=""><a href="https://katacontainers.io">Kata Containers</a></div><div class="section-bg-green-logo"><img src="/static/24c41a231e81a73a8964d482f47c69e8/logo7.svg" alt=""><br/><a href="https://openinfralabs.org">OpenInfra Labs</a></div><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo3.svg" alt=""><br/><a href="https://openstack.org">OpenStack</a></div><div class="section-bg-green-logo"><img src="https://openinfra.dev/img/home/logo4.svg" alt=""><br/><a href="https://starlingx.io">StarlingX</a></div><div class="section-bg-green-logo"><img src="https://osf.dev/img/home/logo5.svg" alt=""><br/><a href="https://zuul-ci.org">Zuul</a></div></div>
 
 The OIF also nurtures cross-community collaboration with other open source communities like Ansible, Ceph, Gerrit, Kubernetes, Magma, Open vSwitch, rust-vmm and more. 
 
@@ -76,15 +76,15 @@ Here's how you can participate as an Open Infrastructure Community Member:
 
 ### Join as a Platinum, Gold or Silver Member
 
-The Open Infrastructure Foundation was announced as the successor to the OpenStack Foundation on October 19, 2020, and will be fully operational on Jan 1, 2021. Over 60 organizations have already signed on as OIF members, and there’s still time for your company to join as Founding Member of OIF. [Contact us](mailto:community@openinfra.dev) **by November 30, 2020 to discuss membership for 2021**. 
+The Open Infrastructure Foundation was announced as the successor to the OpenStack Foundation on October 19, 2020, and will be fully operational on Jan 1, 2021. [Over 60 organizations have already signed on as OIF members](/companies/), and there’s still time for your company to join as Founding Member of OIF. [Contact us](mailto:community@openinfra.dev) **by November 30, 2020 to discuss membership for 2021**. 
 
-Meet the global community you have the opportunity to support, and hear straight from the Founding Open Infrastructure Foundation Members on why they’re supporting the global community. 
+[Meet the global community](https://youtu.be/o2Ztq7pYMNk) you have the opportunity to support, and hear straight from the Founding Open Infrastructure Foundation Members on why they’re supporting the global community. 
  
 If you are interested in joining as a founding corporate member for the OIF, please [Contact us](mailto:community@openinfra.dev). 
 
 #### Platinum Membership
 
-The Open Infrastructure Foundation has Platinum Members as specified in the bylaws, who play a critical role in providing support that makes the community’s work possible. Organizations are highlighted as the community members who are collaborating with the global Open Infrastructure community to advance open source. 
+The Open Infrastructure Foundation has [Platinum Members](/companies/) as specified in the bylaws, who play a critical role in providing support that makes the community’s work possible. Organizations are highlighted as the community members who are collaborating with the global Open Infrastructure community to advance open source. 
 
 Four new organizations joined the OIF in October, 2020 and other organizations can still apply to become a founding Platinum Member*. Contact us if you are interested in becoming a Platinum Member. Review the criteria published by the OIF Board of Directors as a guide, as well as the bylaws and other legal documents for more details. The Platinum Members each contribute $350k USD per year to the Foundation to support the global community and must also have the equivalent of 2 full time employees contributing to OIF projects.
 
@@ -94,7 +94,7 @@ Four new organizations joined the OIF in October, 2020 and other organizations c
 
 #### Gold Membership
 
-Open Infrastructure Foundation Gold Members play an important role in helping the Foundation achieve its mission of building open source communities that write software to run in production. Organizations can apply now to become founding Gold Members of the new Open Infrastructure Foundation.
+Open Infrastructure Foundation [Gold Members](/companies/) play an important role in helping the Foundation achieve its mission of building open source communities that write software to run in production. Organizations can apply now to become founding Gold Members of the new Open Infrastructure Foundation.
 
 At the start of their term, new Gold Members will immediately be represented by the Gold Directors already in office, who make up 1/3 of the board and represent the entire Gold class (not the companies who employ them). New Gold Members will be eligible to vote in future elections starting in January the following year.
 
