@@ -15,7 +15,7 @@ header:
   title: HOST YOUR PROJECT AT OIF
 row1:
   email:
-    link: 'mailto:community@openstack.org'
+    link: 'mailto:community@openinfra.dev'
     text: Contact us
   images:
     - image: /img/projects-img/hosting1.jpg
