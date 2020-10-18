@@ -79,21 +79,21 @@ Here's how you can participate as an Open Infrastructure Community Member:
 
 ### Join as a Platinum, Gold or Silver Member
 
-The Open Infrastructure Foundation was announced as the successor to the OpenStack Foundation on October 19, 2020, and will be fully operational on Jan 1, 2021. [Over 60 organizations have already signed on as OIF members](/companies/), and there’s still time for your company to join as Founding Member of OIF. [Contact us](mailto:community@openinfra.dev) **by November 30, 2020 to discuss membership for 2021**. 
+The Open Infrastructure Foundation was announced as the successor to the OpenStack Foundation on October 19, 2020, and will be fully operational on Jan 1, 2021. [Over 60 organizations have already signed on as OIF members](/companies/), and there’s still time for your company to join as Founding Member of OIF. [Contact us](mailto:ecosystem@openinfra.dev) **by November 30, 2020 to discuss membership for 2021**. 
 
 [Meet the global community](https://youtu.be/o2Ztq7pYMNk) you have the opportunity to support, and hear straight from the Founding Open Infrastructure Foundation Members on why they’re supporting the global community. 
  
-If you are interested in joining as a founding corporate member for the OIF, please [Contact us](mailto:community@openinfra.dev). 
+If you are interested in joining as a founding corporate member for the OIF, please [Contact us](mailto:ecosystem@openinfra.dev). 
 
 #### Platinum Membership
 
-The Open Infrastructure Foundation has [Platinum Members](/companies/) as specified in the bylaws, who play a critical role in providing support that makes the community’s work possible. Organizations are highlighted as the community members who are collaborating with the global Open Infrastructure community to advance open source. 
+The Open Infrastructure Foundation has [Platinum Members](/companies/) as specified in the bylaws, who play a critical role in providing support that makes the community’s work possible. Organizations are highlighted as the community members who are collaborating with the global Open Infrastructure community to advance open source.  
 
 Four new organizations joined the OIF in October, 2020 and other organizations can still apply to become a founding Platinum Member*. Contact us if you are interested in becoming a Platinum Member. Review the criteria published by the OIF Board of Directors as a guide, as well as the bylaws and other legal documents for more details. The Platinum Members each contribute $350k USD per year to the Foundation to support the global community and must also have the equivalent of 2 full time employees contributing to OIF projects.
 
 <p style="font-size:-3em;">* All Platinum Members are subject to board approval.</p>
 
-[Contact us](mailto:community@openinfra.dev) **to become a Platinum Member**.  
+[Contact us](mailto:ecosystem@openinfra.dev) **to become a Platinum Member**.  
 
 #### Gold Membership
 
@@ -103,7 +103,7 @@ At the start of their term, new Gold Members will immediately be represented by 
 
 Established Company: $150k/year | Start Up: $50k/year
 
-[Contact us](mailto:community@openinfra.dev) **to become a Gold Member**.  
+[Contact us](mailto:ecosystem@openinfra.dev) **to become a Gold Member**.  
 
 #### Silver Membership
 
@@ -111,7 +111,7 @@ If your organization relies on Open Infrastructure to operate, it’s critical t
 
 Established Company: $15k/year | Start Up: $5k/year
 
-[Contact us](mailto:community@openinfra.dev) **to become a Silver Member**.
+[Contact us](mailto:ecosystem@openinfra.dev) **to become a Silver Member**.
 
 
 ### OIF Membership Benefits
