@@ -1,6 +1,5 @@
 ---
 templateKey: 'tags'
-authorName: 'Allison Price '
-company: Open Infrastructure Foundation
+author: Allison Price
+company: OpenInfrastructure Foundation
 ---
-
