@@ -6,7 +6,7 @@ seo:
     advancing the project community's goals and growing adoption. 
   image: /img/oificon-social.png
   title: Open Source Project Hosting Website
-  twitterUsername: '@openstack'
+  twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/projects/hosting/'
 header:
   subTitle: >-
