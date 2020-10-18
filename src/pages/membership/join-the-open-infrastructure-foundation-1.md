@@ -17,7 +17,9 @@ The Open Infrastructure Foundation builds open source communities that write sof
 
 Meet the global community you can join today. 
 
-<p style="text-align: center;">[![Join the OpenInfrastructure Foundation](http://img.youtube.com/vi/o2Ztq7pYMNk/0.jpg)](http://www.youtube.com/watch?v=o2Ztq7pYMNk "Join the OpenInfrastructure Foundation")</p>
+<p style="text-align:center;"> <iframe width="420" height="315"
+src="https://www.youtube.com/embed/o2Ztq7pYMNk">
+</iframe> </p>
 
 We believe digital infrastructure is core to human progress in every country, company and industry. We’ve created a community driven open source approach which is the best way to openly develop technology that is broadly available for use around the world.
 
