@@ -1,5 +1,5 @@
 ---
-templateKey: 'tags'
-author: Mark Collier
+authorName: Mark Collier
 company: OpenInfrastructure Foundation
 ---
+
