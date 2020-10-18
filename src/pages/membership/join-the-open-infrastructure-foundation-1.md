@@ -11,7 +11,7 @@ seo:
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/join'
 title: Join The Open Infrastructure Foundation
-subTitle: Help us with our mission
+subTitle: Help us build open source communities that write software to run in production
 ---
 The Open Infrastructure Foundation builds open source communities that write software to run in production. 
 
@@ -29,7 +29,7 @@ Staying true to our mission of helping people build and operate open infrastruct
 <div class="section-bg-green-logos-container"><div class="section-bg-green-logo" style="margin-bottom:10px;"><img src="https://openinfra.dev/img/home/logo1.svg" alt=""></div><div class="section-bg-green-logo" style="margin-bottom:10px;"><img src="https://openinfra.dev/img/home/logo2.svg" alt=""></div><div class="section-bg-green-logo" style="margin-bottom:10px;"><img src="/static/24c41a231e81a73a8964d482f47c69e8/logo7.svg" alt=""></div><div class="section-bg-green-logo" style="margin-bottom:10px;"><img src="https://openinfra.dev/img/home/logo3.svg" alt=""></div><div class="section-bg-green-logo" style="margin-bottom:10px;"><img src="https://openinfra.dev/img/home/logo4.svg" alt=""></div><div class="section-bg-green-logo" style="margin-bottom:10px;"><img src="https://osf.dev/img/home/logo5.svg" alt=""></div></div>
 <div class="section-bg-green-logos-container"><div class="section-bg-green-logo" style="margin-top:0px;"><a href="https://airshipit.org">Airship</a></div><div class="section-bg-green-logo" style="margin-top:0px;"><a href="https://katacontainers.io">Kata Containers</a></div><div class="section-bg-green-logo" style="margin-top:0px;"><a href="https://openinfralabs.org">OpenInfra Labs</a></div><div class="section-bg-green-logo" style="margin-top:0px;"><a href="https://openstack.org">OpenStack</a></div><div class="section-bg-green-logo" style="margin-top:0px;"><a href="https://starlingx.io">StarlingX</a></div><div class="section-bg-green-logo" style="margin-top:0px;"><a href="https://zuul-ci.org">Zuul</a></div></div>
 
-The OIF also nurtures cross-community collaboration with other open source communities like Ansible, Ceph, Gerrit, Kubernetes, Magma, Open vSwitch, rust-vmm and more. 
+The OIF also nurtures cross-community collaboration with other open source communities like Ansible, Ceph, Gerrit, Kubernetes, [Magma](https://magmacore.org), Open vSwitch, rust-vmm and more. 
 
 ## Open Source Works Better When We Do It Together
 

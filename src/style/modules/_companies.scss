@@ -45,8 +45,10 @@
       color: #161616;
       line-height: 21px;
       margin-left: 60px;
+      width: 120%;
       @media (max-width: $screen-md-min){
         margin-left: 0px;
+        width: 90%;
       }
     }
     .companies-s1-1-container {
