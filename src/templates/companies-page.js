@@ -156,7 +156,6 @@ export const companiesPageQuery = graphql`
               publicURL
             }
             alt
-            width
           }
         }        
       }
