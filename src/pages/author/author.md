@@ -1,5 +1,5 @@
 ---
-templateKey: 'tags'
-author: Author
+authorName: Author
 company: OpenStack Foundation
 ---
+
