@@ -1,7 +1,27 @@
 const path = require('path')
 const _ = require('lodash')
+const fs = require("fs")
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+
+// explicit Frontmatter declaration to make category, author and date, optionals. 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter
+    }
+    type Frontmatter {
+      category: [Category]
+      author: String
+      date: Date @dateformat(formatString: "DD/MM/YYYY")
+    }
+    type Category {
+      label: String
+    }
+  `
+  createTypes(typeDefs)
+}
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -42,6 +62,7 @@ exports.createPages = ({ actions, graphql }) => {
       const id = edge.node.id
       const SEO = edge.node.frontmatter.seo ? edge.node.frontmatter.seo : null;
       const slug = SEO && SEO.url ? SEO.url.replace('https://openinfra.dev', '') : edge.node.fields.slug; 
+      const slug = SEO && SEO.url ? SEO.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : edge.node.fields.slug; 
       createPage({
         path: slug,
         category: edge.node.frontmatter.category,
@@ -55,19 +76,12 @@ exports.createPages = ({ actions, graphql }) => {
       })
     })
 
-    // category pages:
-    let categories = []
-    // Iterate through each post, putting all found categories into `categories`
-    pages.forEach(edge => {
-      if (_.get(edge, `node.frontmatter.category`)) {
-        categories = categories.concat(edge.node.frontmatter.category[0].label)
-      }
-    })
-    // Eliminate duplicate categories
-    categories = _.uniq(categories)
+    // category pages:  
+    let categories = JSON.parse(fs.readFileSync('src/content/blog-config.json')).categories;
 
     // Make category pages
-    categories.forEach(category => {
+    categories.forEach(c => {
+      const category = c.text;
       const categoriePath = `/blog/category/${_.kebabCase(category)}/`
 
       createPage({
@@ -87,12 +101,12 @@ exports.createPages = ({ actions, graphql }) => {
         authors = authors.concat(edge.node.frontmatter.author)
       }
     })
-    // Eliminate duplicate categories
+    // Eliminate duplicate authors
     authors = _.uniq(authors)
 
-    // Make category pages
+    // Make author pages
     authors.forEach(author => {
-      const authorPath = `blog/author/${_.kebabCase(author)}/`
+      const authorPath = `/blog/author/${_.kebabCase(author)}/`
 
       createPage({
         path: authorPath,

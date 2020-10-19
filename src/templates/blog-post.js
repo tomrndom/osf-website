@@ -41,7 +41,7 @@ export const BlogPostTemplate = ({
                     <div className="article-single-head">
                       <h3 className="article-single-title">{title}</h3>
                       <div className="article-single-meta">
-                        <p>By <Link to={`/author/${kebabCase(author)}/`}>{author}</Link> on {date}</p>
+                        <p>By <Link to={`/blog/author/${kebabCase(author)}/`}>{author}</Link> on {date}</p>
                       </div>
                     </div>
                     <div className="article-single-entry">
@@ -81,23 +81,17 @@ const BlogPost = ({ data }) => {
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.seo.title ? post.frontmatter.seo.title : post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.seo.description}`}
-            />
-            <meta name="image" content={`${withPrefix('/')}${post.frontmatter.seo.image.publicURL ? post.frontmatter.seo.image.publicURL : metadata.siteMetadata.image}`} />
+            <meta name="description" content={`${post.frontmatter.seo.description}`} />
             <meta property="og:type" content="article" />
             <meta property="og:title" content={`${post.frontmatter.seo.title ? post.frontmatter.seo.title : post.frontmatter.title}`} />
             <meta property="og:url" content={`${post.frontmatter.seo.url ? post.frontmatter.seo.url : metadata.siteMetadata.url}`} />
             <meta property="og:description" content={`${post.frontmatter.seo.description ? post.frontmatter.seo.description : metadata.siteMetadata.description}`} />
-            <meta property="og:image" content={`${withPrefix('/')}${post.frontmatter.seo.image.publicURL ? post.frontmatter.seo.image.publicURL : metadata.siteMetadata.image}`} />
             <meta property="article:published_time" content={`${post.frontmatter.date}`} />
             <meta property="article:author" content={`${post.frontmatter.author}`} />
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:creator" content={post.frontmatter.seo.twitterUsername ? post.frontmatter.seo.twitterUsername : metadata.siteMetadata.twitterUsername} />
             <meta name="twitter:title" content={`${post.frontmatter.seo.title ? post.frontmatter.seo.title : post.frontmatter.title}`} />
             <meta name="twitter:description" content={`${post.frontmatter.seo.description ? post.frontmatter.seo.description : metadata.siteMetadata.description}`} />
-            <meta name="twitter:image" content={`${withPrefix('/')}${post.frontmatter.seo.image.publicURL ? post.frontmatter.seo.image.publicURL : metadata.siteMetadata.image}`} />
           </Helmet>
         }
         title={post.frontmatter.title}
