@@ -117,7 +117,6 @@ collections:
       - {label: "Category", name: "category", widget: ncw-file-relation, collection: configurations, file: blogConfig, target_field: categories, id_field: id, display_fields: text }      
       - {label: "SEO", name: "seo", widget: object, fields: [
           {label: "Title", name: "title", widget: string},
-          {label: "Title Template", name: "titleTemplate", widget: string},
           {label: "Description", name: "description", widget: string},
           {label: "Url", name: "url", widget: string},
           {label: "Twitter Username", name: "twitterUsername", widget: string},
