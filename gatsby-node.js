@@ -3,6 +3,25 @@ const _ = require('lodash')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
+// explicit Frontmatter declaration to make category, author and date, optionals. 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter
+    }
+    type Frontmatter {
+      category: [Category]
+      author: String
+      date: Date @dateformat(formatString: "DD/MM/YYYY")
+    }
+    type Category {
+      label: String
+    }
+  `
+  createTypes(typeDefs)
+}
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
