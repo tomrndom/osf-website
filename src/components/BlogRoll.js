@@ -7,10 +7,8 @@ class BlogRoll extends React.Component {
   render() {
     const { data, customFilter } = this.props
     const { edges: posts } = data.allMarkdownRemark
-
+    
     let hasPosts = false;
-
-    console.log(posts);
 
     return (
       posts && posts.length === 0 ?
