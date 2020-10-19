@@ -56,6 +56,7 @@ export const ProjectsPageTemplate = ({
         <div className="content">
           <section className="projects-s1-main container">
             <h3 className="itemtitle">{confirmed.title}</h3>
+            <hr className="itemtitle-hr" />
             {confirmed.projectList.map((project, index) => {
               return (
                 <div className="projects-s1-container columns" key={index}>
@@ -113,6 +114,7 @@ export const ProjectsPageTemplate = ({
           {pilot.projectList &&
             <section className="projects-s1-main container">
               <h3 className="itemtitle">{pilot.title}</h3>
+              <hr className="itemtitle-hr" />
               {pilot.projectList.map((project, index) => {
                 return (
                   <div className="projects-s1-container columns" key={index}>

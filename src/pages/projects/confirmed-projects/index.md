@@ -48,6 +48,31 @@ confirmed:
         resilent.
       title: AIRSHIP
     - button:
+        link: 'https://katacontainers.io/'
+        text: katacontainers.io
+      class: projects-s3
+      description: >-
+        Kata containers is an open source project delivering increased container
+        security and  Workload isolation through an implementation of
+        lightweight virtual machines.
+      features:
+        - icon: /img/home/icon3.svg
+          text: CONTAINER INFRASTRUCTURE
+      links:
+        - link: 'http://lists.katacontainers.io/cgi-bin/mailman/listinfo'
+          text: Mailing Lists
+        - link: 'https://katacontainers.io/docs/'
+          text: Documentation
+        - link: 'https://github.com/kata-containers/runtime/releases/'
+          text: Releases
+        - link: 'https://katacontainers.io/community/'
+          text: Blog
+        - link: 'https://github.com/kata-containers'
+          text: Code
+      logo: /img/projects-img/logo-kata.svg
+      subTitle: 'Secure, lightweight CRI compatible virtualized containers.'
+      title: KATA CONTAINERS  
+    - button:
         link: 'https://www.openstack.org/'
         text: openstack.org
       class: ''
@@ -78,31 +103,6 @@ confirmed:
       logo: /img/projects-img/logo-os.svg
       subTitle: 'Programmable infrastructure for VMs, containers and bare metal.'
       title: OPENSTACK
-    - button:
-        link: 'https://katacontainers.io/'
-        text: katacontainers.io
-      class: projects-s3
-      description: >-
-        Kata containers is an open source project delivering increased container
-        security and  Workload isolation through an implementation of
-        lightweight virtual machines.
-      features:
-        - icon: /img/home/icon3.svg
-          text: CONTAINER INFRASTRUCTURE
-      links:
-        - link: 'http://lists.katacontainers.io/cgi-bin/mailman/listinfo'
-          text: Mailing Lists
-        - link: 'https://katacontainers.io/docs/'
-          text: Documentation
-        - link: 'https://github.com/kata-containers/runtime/releases/'
-          text: Releases
-        - link: 'https://katacontainers.io/community/'
-          text: Blog
-        - link: 'https://github.com/kata-containers'
-          text: Code
-      logo: /img/projects-img/logo-kata.svg
-      subTitle: 'Secure, lightweight CRI compatible virtualized containers.'
-      title: KATA CONTAINERS
     - button:
         link: 'https://starlingx.io/'
         text: starlingx.io
