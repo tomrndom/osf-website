@@ -4,10 +4,10 @@ seo:
   description: >-
     The OSF is committed to creating truly open source software that is usable,
     scalable, and available to everyone around the world. 
-  image: /img/osf_logo_pill.png
+  image: /img/oif_logo_pill.png
   title: Open Source Software
-  twitterUsername: '@openstack'
-  url: 'https://osf.dev/four-opens/open-source/'
+  twitterUsername: '@OpenInfraDev'
+  url: 'https://openinfra.dev/four-opens/open-source/'
 title: Open Source
 subTitle: The Four Opens
 footer:

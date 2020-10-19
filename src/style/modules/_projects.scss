@@ -5,7 +5,6 @@
 // ############ project hero
 
 .project-background {
-  background-image: url("/img/background-shapes-blue.svg");
   background-size: cover;
   min-height: unset;
   overflow: visible;
@@ -16,12 +15,15 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: white;
   .hero-project-title {
-    color: $white;
+    color: #161616;
     font-size: 35px;
-    text-transform: uppercase;
+    font-family: "Jura", "Helvetica", sans-serif;
+    margin-top: 40px;
   }
   .hero-project-entry {
+    color: #161616;
     text-align: center;
     max-width: 700px;
     font-size: 17px;
@@ -40,13 +42,22 @@
 
 .projects-s1-main {
   color: $white;
+  text-align: center;
 
   .itemtitle {
-    color: $white;
-    margin-top: 20px;
+    font-family: "Jura", "Roboto", sans-serif;
+    color: #161616;
+    margin-top: 60px;
     margin-bottom: 10px;
-    margin-left: 40px;
   }
+}
+
+.itemtitle-hr {
+  background-color: #888888;
+  margin: 0 auto;
+  width: 100px;
+  margin-top: 30px;
+
 }
 
 .projects-s1-container {
@@ -71,25 +82,26 @@
 
 .projetcs-s1-container-child {
   margin-top: 30px;
-  color: $primary;
+  color: #161616;
   margin-bottom: 30px;
   padding-bottom: 50px;
 
   h2 {
-    color: $primary;
+    color: #161616;
   }
   h3 {
-    color: $dark-gray;
+    color: #161616;
     font-size: 16px;
   }
   p {
-    color: $back-darkest;
+    color: #161616;
   }
   .columns {
     margin-top: 30px;
     .column {
       padding: 0 2em;
       p {
+        color: #161616;
         font-size: 14px;
         img {
           max-width: 30px;
@@ -182,11 +194,12 @@
 
 .button-white {
   border: 0px;
-  color: #133e68;
+  color: #161616;
   &:hover {
-    background-color: #ee1e48;
+    background-color: #e61e24;
     border: 0;
-    color: #133e68;
+    color: #161616;
+    color: white;
   }
 }
 
@@ -198,7 +211,7 @@
   padding-top: 70px;
   padding-bottom: 70px;
   color: $white;
-  background-color: #39ba9c;
+  background-color: #28a4db;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -209,7 +222,8 @@
   }
 
   .itemtitle {
-    color: $white;
+    font-family: "Jura", "Roboto", sans-serif;
+    color: #28a4db;
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 2rem;
@@ -224,6 +238,7 @@
 }
 
 .projetcs-s1-container-child {
+  color: #161616;
   .button-red {
     width: 100%;
     &.projects-btn {

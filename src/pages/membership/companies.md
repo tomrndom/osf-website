@@ -2,43 +2,45 @@
 templateKey: companies-page
 seo:
   description: The Home of Open Infrastructure
-  image: /img/osficon-social.png
-  title: Supporting Companies - OpenStack Foundation OSF
-  twitterUsername: '@openstack'
-  url: 'https://osf.dev/companies/'
+  image: /img/oificon-social.png
+  title: Supporting Companies - Open Infrastructure Foundation OIF
+  twitterUsername: '@OpenInfraDev'
+  url: 'https://openinfra.dev/companies/'
 header:
   link:
     text: >-
       Learn more about how your company can support the Open Infrastructure
       community
-    url: 'https://www.openstack.org/join/#sponsor'
+    url: '/join/'
   subTitle: >-
-    The OpenStack Foundation would not exist without the support of the
+    The Open Infrastructure Foundation would not exist without the support of the
     Platinum, Gold, and Corporate Sponsors listed below.
-  title: COMPANIES SUPPORTING THE OPENSTACK FOUNDATION
+  title: Companies Supporting The Open Infrastructure Foundation
 companies:
   - companyList:
+      - alt: Ant Group
+        image: /img/companies/_New/Platinum/Sponsor-Logos_AntGroup.png
       - alt: AT&T
-        image: /img/companies/att-lg2.jpg
+        image: /img/companies/_New/Platinum/Sponsor-Logos_AT&T.png
       - alt: Ericsson
-        image: /img/companies/ericsson-lg.jpg
+        image: /img/companies/_New/Platinum/Sponsor-Logos_Ericsson.png
+      - alt: Facebook Connectivity
+        image: /img/companies/_New/Platinum/Sponsor-Logos_FBC.png
+      - alt: FiberHome
+        image: /img/companies/_New/Platinum/Sponsor-Logos_FiberHome.png
       - alt: Huawei
-        image: /img/companies/huawei-new-lg.jpg
-      - alt: Intel
-        image: /img/intel-sm-osf.png
-      - alt: Rackspace
-        image: /img/companies/rackspace-lg-2016.jpg
-      - alt: 'Red Hat, Inc.'
-        image: /img/companies/redhat-sp-lg.jpg
-      - alt: SUSE
-        image: /img/companies/suse-sp-lg.jpg
+        image: /img/companies/_New/Platinum/Sponsor-Logos_Huawei.png
+      - alt: Red Hat
+        image: /img/companies/_New/Platinum/Sponsor-Logos_RedHat.png
       - alt: Tencent Cloud
-        image: /img/companies/Tencent-vert-lg.jpg
+        image: //img/companies/_New/Platinum/Sponsor-Logos_TencentCloud.png
+      - alt: Wind River
+        image: //img/companies/_New/Platinum/Sponsor-Logos_WindRiver.png
     text: >-
-      OpenStack Foundation Platinum Members provide a significant portion of the
+      Open Infrastructure Foundation Platinum Members provide a significant portion of the
       funding to achieve the Foundation's mission of protecting, empowering and
       promoting the Open Infrastructure community and open source software
-      projects. Each Platinum Member's company strategy aligns with the OSF
+      projects. Each Platinum Member's company strategy aligns with the OIF
       mission and is responsible for committing full-time resources toward the
       project. There are eight Platinum Sponsors at any given time, each of
       which holds a seat on the Board of  Directors. Thank you to the following
@@ -47,48 +49,118 @@ companies:
     title: PLATINUM SPONSORS
   - companyList:
       - alt: 99Cloud Inc.
-        image: /img/companies/logo-99cloud-lg2.jpg
-      - alt: Canonical
-        image: /img/companies/ubuntu-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_99Cloud.png
       - alt: China Mobile
-        image: /img/companies/ChinaMobile-logo-02-sm.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ChinaMobile.png
       - alt: China Telecom
-        image: /img/companies/CT-sm.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ChinaTelecom.png
       - alt: China Unicom
-        image: /img/companies/China-Unicom.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ChinaUnicom.png
       - alt: Cisco
-        image: /img/companies/cisco-new-lg.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Cisco.png
       - alt: City Network
-        image: /img/companies/CityNetwork-Logo-Regular-500px-RGB.png
-      - alt: Dell EMC
-        image: /img/companies/EMC-lg.jpg
-      - alt: Deutsche Telekom
-        image: /img/companies/deutschetelekom-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_CityNetwork.png
+      - alt: Dell Technologies
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_DellTechnologies.png        
       - alt: EasyStack
-        image: /img/companies/easystack-lg2.jpg
-      - alt: FiberHome
-        image: /img/companies/fiberhome-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_EasyStack.png
+      - alt: H3C
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_H3C.png
       - alt: Inspur
-        image: /img/companies/inspur-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Inspur.png
+      - alt: Intel
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Intel.png
       - alt: Mirantis
-        image: /img/companies/mirantis-lg-van.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Mirantis.png
       - alt: NEC
-        image: /img/companies/nec-headline-large.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_NEC.png
+      - alt: T-Systems
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_T-Systems.png
       - alt: Troila
-        image: /img/companies/troila-new-sm.jpg
-      - alt: 'New H3C Technologies Co., Limited'
-        image: /img/companies/H3C-lg.jpg
-      - alt: ZTE Corporation
-        image: /img/companies/zte-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Troila.png
+      - alt: Ubuntu
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Ubuntu.png
+      - alt: vmware
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_vmware.png
+      - alt: ZTE
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
     text: >-
-      OpenStack Foundation Gold Members provide funding and pledge strategic
-      alignment to the OSF mission.  There can be up to twenty-four Gold Members
+      Open Infrastructure Foundation Gold Members provide funding and pledge strategic
+      alignment to the OIF mission.  There can be up to twenty-four Gold Members
       at any given time, subject to board approval. If your organization  is
       highly involved with the Open Infrastructure community and interested in
       becoming a Gold Member, read more about joining the  Foundation. Thank you
       to the following Gold Sponsors who are critical to the global community's
       success. 
     title: GOLD SPONSORS
+  - companyList:
+      - alt: Ampere
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Ampere.png
+      - alt: AW Cloud
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_AWCloud.png
+      - alt: Bluvalt
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_bluvalt.png
+      - alt: CDAC
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_CDAC.png
+      - alt: Cloudbase Solutions
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_CloudbaseSolutions.png
+      - alt: Cloudical
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Cloudical.png
+      - alt: DevStack
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_DevStack.png 
+      - alt: Elastx
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Elastx.png
+      - alt: FredomFi
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_FreedomFi.png
+      - alt: Fujitsu
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Fujitsu.png
+      - alt: G-Research
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_GResearch.png
+      - alt: Hitachi
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Hitachi.png
+      - alt: IBM
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_IBM.png
+      - alt: InMotion Hosting
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_inmotionhosting.png
+      - alt: Juniper Networks
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_JuniperNetworks.png
+      - alt: NetApp
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NetApp.png
+      - alt: NTT
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NTT.png
+      - alt: NTT TechnoCross
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NTT-TX.png
+      - alt: Orange
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_orange.png
+      - alt: OVH
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_OVH.png   
+      - alt: Samsung
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Samsung.png
+      - alt: Sardina
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Sardina.png
+      - alt: Saudi Telecom
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_SaudiTelecom.png
+      - alt: SecuStack
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_secustack.png
+      - alt: Societe Generale
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_SocieteGenerale.png
+      - alt: StackHPC
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_StackHPC.png
+      - alt: SUSE
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_SUSE.png 
+      - alt: Ultimum Technologies
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_UltimumTechnologies.png
+      - alt: Vexxhost 
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Vexxhost.png
+      - alt: Whitestack
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png         
+    text: >-
+      Open Infrastructure Foundation Silver Members provide funding and pledge strategic
+      alignment to the OIF mission. If your organization  is highly involved with 
+      the Open Infrastructure community and interested in becoming a Silver Member, 
+      read more about joining the  Foundation. Thank you to the following Silver 
+      Sponsors who are critical to the global community's success. 
+    title: SILVER SPONSORS  
   - companyList:
       - alt: Rackspace
         image: /img/companies/rackspace-lg-2016.jpg
@@ -106,159 +178,6 @@ companies:
       are mostly used in our <a href="https://opendev.org">automated  testing
       framework</a> to support OpenStack development efforts.
     title: INFRASTRUCTURE DONORS
-  - companyList:
-      - alt: A10 Networks
-        image: /img/companies/a10-sp-lg.jpg
-      - alt: Arista Networks
-        image: /img/companies/arista-sp-lg.jpg
-      - alt: AWcloud
-        image: /img/companies/awcloud-lg.png
-      - alt: BBVA
-        image: /img/companies/BBVA-sm.png
-      - alt: Bright Computing
-        image: /img/companies/bright-logo-500px.jpg
-      - alt: ChinaCloud
-        image: /img/companies/chinacloud-log2.jpg
-      - alt: Cloudbase Solutions
-        image: /img/companies/cloudbase-lg.jpg
-      - alt: Comcast
-        image: /img/companies/comcast-lg.jpg
-      - alt: Cumulus Networks
-        image: /img/companies/cumulus-networks-lg.jpg
-      - alt: Datang Gohighsec Information Tech
-        image: /img/companies/GoHighSec-sm-copy.jpg
-      - alt: DevStack
-        image: /img/companies/devstack-logo-new-sm.jpg
-      - alt: Elastx AB
-        image: /img/companies/elastx-new-sm.jpg
-      - alt: Enter Cloud Suite
-        image: /img/companies/cloudsuite-lg-2.jpg
-      - alt: Eplexity
-        image: /img/companies/Eplexity-Logo-Revision-B-Light-Long-1024x204.png
-      - alt: F5 Networks
-        image: /img/companies/f5-lg-.jpg
-      - alt: Flex
-        image: /img/companies/Ciii-black-rgb-sml.png
-      - alt: Fujitsu
-        image: /img/companies/lg2.jpg
-      - alt: Genesis Hosting
-        image: /img/companies/genesis-lg.jpg
-      - alt: Google Cloud Platform
-        image: /img/companies/Google-CloudPlatform-VerticalLockup.png
-      - alt: Hitachi Vantra
-        image: /img/companies/hitachi-large.png
-      - alt: IBM
-        image: /img/companies/ibm-xlg2.jpg
-      - alt: INAP
-        image: /img/companies/INAP-vertical-color-TM.png
-      - alt: INFINIDAT
-        image: /img/companies/infinidat-lg.jpg
-      - alt: 'ISA Technologies, Inc.'
-        image: /img/companies/converter.jpg
-      - alt: Juniper Networks
-        image: /img/companies/juniper-sp-lg.jpg
-      - alt: Kontron
-        image: /img/companies/kontron-lg.jpg
-      - alt: Lenovo
-        image: /img/companies/lenovo-lg.jpg
-      - alt: Linaro
-        image: /img/companies/linaro-logo.png
-      - alt: Linux Academy
-        image: /img/companies/linuxacademy-lg.jpg
-      - alt: Linux Foundation
-        image: /img/companies/lf-large.jpg
-      - alt: Logicalis
-        image: /img/companies/logi-strp-rgb2.jpg
-      - alt: NetApp
-        image: /img/companies/logo-netapp.jpg
-        width: 138px
-      - alt: NetScout
-        image: /img/companies/Netscout-logo-trans150.png
-      - alt: Nokia
-        image: /img/companies/nokia-lg.jpg
-      - alt: NTT Communications
-        image: /img/companies/ntt-lg.jpg
-      - alt: NTT TechnoCross
-        image: /img/companies/ntt-tx-sm.png
-      - alt: Nuage Networks
-        image: /img/companies/nuage-lg.jpg
-      - alt: Orange
-        image: /img/companies/orangelogosm3.png
-      - alt: OVH
-        image: /img/companies/ovh-lg.jpg
-      - alt: PayPal
-        image: /img/companies/paypal.png
-      - alt: 'Platform9 Systems, Inc'
-        image: /img/companies/platform9-lg4.png
-      - alt: Produban
-        image: /img/companies/produban-sm.png
-      - alt: Pure Storage
-        image: /img/companies/pure-lg.jpg
-      - alt: QCT (Quanta Cloud Technology)
-        image: /img/companies/qct-sp-lg.jpg
-      - alt: Samsung
-        image: /img/companies/Samsung-letter-mark-blue.png
-      - alt: SAP
-        image: /img/companies/SAP-Logo2.png
-      - alt: Sardina Systems
-        image: /img/companies/sardina-lg.png
-      - alt: Shanghai Anosm Networking Technology Co. LTD
-        image: /img/companies/anosm-sm.png
-      - alt: Sihua Technology
-        image: /img/companies/logo2_002.jpg
-      - alt: SkyAtlas
-        image: /img/companies/skyaltas-logo-lightbg-hires.png
-      - alt: StackHPC
-        image: /img/companies/StackHPC-lg.png
-      - alt: StackVelocity
-        image: /img/companies/stack-velocity.png
-      - alt: SwiftStack Inc
-        image: /img/companies/swiftstack.jpg
-      - alt: SZZT Electronics
-        image: /img/companies/SZZT-sm.jpeg
-      - alt: T2 Cloud
-        image: /img/companies/t2cloulogo1-lg.jpg
-      - alt: Tata Communications
-        image: /img/companies/tata-lg2.jpg
-      - alt: Telefónica
-        image: /img/companies/telefonica-lg2.jpg
-      - alt: Tintri
-        image: /img/companies/Tintri-Logo-Horizontal-Transparent-478w.png
-      - alt: UKCloud
-        image: /img/companies/SKY2094-ukcloud-Primary-Logo-RGB500.png
-      - alt: Ultimum Technologies s.r.o.
-        image: /img/companies/ULTIMUM-TECHNOLOGIES-320x132.png
-      - alt: UOL DIVEO
-        image: /img/companies/logo-uoldiveo.png
-      - alt: Verizon
-        image: /img/companies/verizon-lg.png
-      - alt: 'VEXXHOST, Inc.'
-        image: /img/companies/vexxhost-new-lg.png
-      - alt: Violin Memory
-        image: >-
-          /img/companies/Violin-Memory-Logo-Full-Color-on-White-Backround-PMS431PMS36.jpg
-      - alt: VMware
-        image: /img/companies/vmware-sp-lg.jpg
-      - alt: vScaler Ltd.
-        image: /img/companies/vscaler-lg.jpg
-      - alt: Western Digital Corporation
-        image: /img/companies/WD-Western-Digital4-J-307315-1.jpg
-      - alt: Whitestack
-        image: /img/companies/whitestack-avatar-200.png
-      - alt: Wind River
-        image: /img/companies/windriverlg.jpg
-      - alt: XILINX INC.
-        image: /img/companies/xilinx-sm.jpg
-      - alt: Yangtze Optical Fibre and Cable Joint Stock Limited Company
-        image: /img/companies/YOFC-sm.png
-    text: >-
-      Corporate Sponsors provide additional funding to support the Foundation's
-      mission of protecting,  empowering and promoting OpenStack. If you are
-      interested in becoming a corporate sponsor, read  more about <a
-      href="https://www.openstack.org/join/#sponsor">supporting the
-      Foundation</a>. Thank  you to the following corporate sponsors for
-      supporting the OpenStack Foundation.
-    title: CORPORATE SPONSORS
   - companyList:
       - alt: 2 Twelve Solutions
         image: /img/companies/twelve-solution-lg.png
@@ -1418,8 +1337,8 @@ companies:
         image: /img/unitedstack-sp-lg.jpg
     text: >-
       The resources provided by the Members and Sponsors are critical to making
-      the OpenStack Foundation  successful, but there are many ways to support
-      the OSF mission, whether you're contributing  code, building a product or
+      the Open Infrastructure Foundation  successful, but there are many ways to support
+      the OIF mission, whether you're contributing  code, building a product or
       helping build the community. Below are companies who are  actively
       involved in making the Open Infrastructure community successful. If you
       would like your company listed here, please  complete the <a

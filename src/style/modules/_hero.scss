@@ -7,14 +7,19 @@
   line-height: 1.25;
 
   .hero-title {
+    font-family: "Jura", "Roboto", sans-serif;
+    font-weight: 700;
     color: $primary;
     text-transform: uppercase;
   }
 }
 /*Hero home*/
 .hero-background{
+  
 	 .hero-body {
-    padding: 5rem 2rem;
+
+    padding: 100px 0 100px 35px;
+
     @media (min-width: 1440px) {
       padding: 5rem 2rem;
     }
@@ -61,7 +66,6 @@
   }
 }
   .hero-body {
-    padding: 60px 0 0px;
     background-color: white;
   }
   .hero-entry {
@@ -118,7 +122,6 @@
 
 .hero-main {
   text-align: left;
-
   .hero-title {
     font-size: 40px;
     font-weight: 400;
@@ -173,12 +176,12 @@
 }
 
 .hero-subhead {
-  font-weight: normal;
-  padding-top: 4px;
   padding-bottom: 5px;
   font-size: 18px;
-  color: $dark-gray;
-  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .hero-entry {

@@ -13,16 +13,16 @@
 }
 
 .fix-h3 {
-  color: rgba(19, 62, 104, 1);
+  font-family: "Jura", "Roboto", sans-serif;
+  color: #161616;
   text-align: left;
   margin: 0px;
   padding: 0px;
   margin-bottom: 15px;
 
-  font-weight: 500;
+  font-weight: 600;
   font-size: 32px;
   line-height: 33px;
-  text-transform: uppercase;
     
   @media screen and(max-width: $screen-md-min) {
     font-size: 26px;
@@ -34,20 +34,20 @@
   font-weight: 400;
   font-size: 17px;
   line-height: 21px;
-  color: #133e68;
+  color: #161616;
   margin: 0px;
   padding: 0px;
   margin-bottom: 15px;
 }
 
 .fix-h3-white {
+  font-family: "Jura", "Roboto", sans-serif;
   color: $white;
   text-align: left;
   margin: 0px;
   padding: 0px;
   margin-bottom: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
+  font-weight: 600;
 
   font-size: 32px;
   line-height: 33px;
@@ -66,6 +66,10 @@
   margin: 0px;
   padding: 0px;
   margin-bottom: 15px;
+}
+
+p.fix-h5{
+  color: #161616;
 }
 
 .bar {
@@ -100,25 +104,6 @@
       }
     }
   }
-
-  .bar-link {
-    flex: 0 0 auto;
-    display: inline-block;
-    vertical-align: middle;
-    font-weight: 400;
-    font-size: 15px;
-    color: $white;
-    text-align: left;
-    line-height: 18px;
-    text-decoration: underline;
-    margin-left: 10px;
-    transition: background 0.3s, border-color 0.3s;
-    &:hover {
-      background: $primary;
-      border-color: $primary;
-      color: $white;
-    }
-  }
 }
 
 i {
@@ -135,6 +120,11 @@ i {
 
 .logo-containter {
   display: flex;
+
+  @media (max-width: $screen-md) {
+    justify-content: center;
+  }
+
 }
 
 .nav .nav-menu a {
@@ -165,17 +155,18 @@ i {
 }
 footer {
   .logo-containter-child-img {
+    width: 60px;
     @media (max-width: $screen-md-min) {
       margin-right: 1em;
-      width: 200px;
+      width: 60px;
     }
     @media (max-width: $screen-sm-min) {
       margin-right: 0em;
-      width: 150px;
+      width: 60px;
     }
     @media (max-width: 320px) {
       margin-right: 0em;
-      width: 100px;
+      width: 60px;
       position: absolute;
       left: 1.2em;
     }
@@ -189,12 +180,12 @@ footer {
 }
 
 .hero-background {
-  background-image: url("/img/home/openstack-foundation-hero-image.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), 35%, rgba(0, 0, 0, 0)) 10%, url("/img/home/hero-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  
   @media (max-width: $screen-sm-min) {
-    background-position-y: 12em;
-    background-size: 114%;
+    background-size: cover;
     background-position-x: 50%;
   }   
   @media (max-width: 320px) {
@@ -229,7 +220,7 @@ footer {
   }
 }
 .button-red {
-  background: #ee1e48;
+  background: #e61e24;
   border: 0;
   color: #fff !important;
   border-radius: 0px;
@@ -373,15 +364,6 @@ div.content.custom > main > section > div > div > div > h3 {
   line-height: 21px;
 }
 
-.hero-subhead {
-  padding-bottom: 5px;
-  font-size: 18px;
-  color: #ee1e48;
-  font-weight: 500;
-  font-size: 22px;
-  color: #ec1944;
-}
-
 .nav .nav-menu a {
   font-weight: 500;
   font-size: 15px;
@@ -413,12 +395,12 @@ div.content.custom > main > section > div > div > div > h3 {
     cursor: default;
     @media (max-width: 769px) {
       //small screen pantalla
-      color: #133e68;
+      color: #161616;
     }
   }
   .dropdown-content {
     background-color: $white;
-    color: $back-darkest;
+    color: #161616;
     border-radius: 0px;
     box-shadow: 0 2px 3px rgba(34, 34, 34, 0.1), 0 0 0 1px rgba(34, 34, 34, 0.1);
     margin-top: 22px;
@@ -435,7 +417,7 @@ div.content.custom > main > section > div > div > div > h3 {
       padding-top: 1.5rem;
     }
     a span {
-      color: #133e68;
+      color: #161616;
       border-bottom: 2px solid $white;
       margin-top: 15px;
       margin-bottom: 5px;
@@ -511,3 +493,8 @@ ul {
     }
   }
 }
+
+.column {
+  color: #161616;
+}
+

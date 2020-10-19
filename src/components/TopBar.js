@@ -9,16 +9,16 @@ const TopBar = class extends React.Component {
   render() {
     if(content.bar) {
       return (      
-        <div className="bar is-dark-gray">
+        <div className="bar-news">
           <div className="container">
             <div className="bar-inner">
               <div className="bar-entry">
-                <p>
-                  {content.bar.text}
+                <div className="bar-text">
+                  {content.bar.text} 
                   <LinkComponent href={content.bar.link} className="bar-link">
                     {content.bar.button} <i className="right"></i>
                   </LinkComponent>
-                </p>
+                </div>
               </div>
             </div>
           </div>

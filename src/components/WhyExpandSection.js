@@ -50,7 +50,7 @@ const WhyExpandSection = class extends React.Component {
                       return (
                         <div key={index} className={
                             `${rowIndex < 1 ? 'section-bg-white-icons-child1':'section-bg-white-icons-child2'} ${rowIndex === 0 && index === 0? '':'icons'}` }>
-                          <img src={
+                          <img style={{height: "70px"}} src={
                             (icon.image.extension === 'svg' || icon.image.extension === 'gif') && !icon.image.childImageSharp ?
                               icon.image.publicURL                              
                               :                              

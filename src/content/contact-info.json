@@ -14,7 +14,7 @@
     }
   ],
   "contactInfo": {
-    "name": "OpenStack Foundation",
+    "name": "Open Infrastructure Foundation",
     "poBox": "P.O. Box 1903",
     "location": "Austin TX, 78767",
     "phone": "512-827-8633"
@@ -22,15 +22,11 @@
   "links": [
     {
       "text": "Board of Directors",
-      "url": "https://osf.dev/about/board/"
+      "url": "https://openinfra.dev/about/board/"
     },
     {
       "text": "Technical Committee",
       "url": "https://www.openstack.org/foundation/tech-committee/"
-    },
-    {
-      "text": "User Committee",
-      "url": "https://www.openstack.org/foundation/user-committee/"
     },
     {
       "text": "Member Directory",
@@ -38,7 +34,7 @@
     },
     {
       "text": "Supporting Companies",
-      "url": "https://osf.dev/companies/"
+      "url": "https://openinfra.dev/companies/"
     }
   ]
 }

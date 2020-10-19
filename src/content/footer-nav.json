@@ -37,7 +37,7 @@
           "link": "/projects/services/"
         },
         {
-          "text": "Host at OSF",
+          "text": "Host at OIF",
           "link": "/projects/hosting/"
         }
       ]
@@ -50,8 +50,8 @@
           "link": "/companies/"
         },
         {
-          "text": "Join OSF",
-          "link": "https://www.openstack.org/join"
+          "text": "Join OIF",
+          "link": "/join/"
         }
       ]
     },
@@ -59,11 +59,11 @@
       "title": "Events",
       "nav": [
         {
-          "text": "Open Infra Summit",
+          "text": "OpenInfra Summit",
           "link": "https://www.openstack.org/summit/"
         },
         {
-          "text": "Open Infra Days",
+          "text": "OpenInfra Days",
           "link": "https://www.openstack.org/community/events/#openstack_days"
         },
         {

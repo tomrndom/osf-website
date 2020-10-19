@@ -4,10 +4,10 @@ seo:
   description: >-
     Open source infrastructure, IT infrastructure using open source components,
     relies on project integration efforts and cross-community collaboration. 
-  image: /img/osficon-social.png
+  image: /img/oificon-social.png
   title: 'Open Source Infrastructure Management: What Is It?'
-  twitterUsername: '@openstack'
-  url: 'https://osf.dev/about/open-infrastructure/'
+  twitterUsername: '@OpenInfraDev'
+  url: 'https://openinfra.dev/about/open-infrastructure/'
 title: Open Infrastructure 101
 subTitle: What is open infrastructure?
 ---

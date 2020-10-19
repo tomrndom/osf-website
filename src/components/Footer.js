@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo from '../img/svg/OSF_logo.svg'
+import logo from '../img/svg/OIF-Icon.svg'
 
 import content from '../content/footer-nav.json'
 import LinkComponent from './LinkComponent'
@@ -40,7 +40,7 @@ const Footer = class extends React.Component {
               <LinkComponent href="/" className="router-link-active">
                 <div className="logo-containter">
                   <div className="logo-containter-child logo-containter-child-img">
-                    <img src={logo} alt="OpenStack Foundation" />
+                    <img src={logo} alt="Open Infrastructure Foundation" />
                   </div>
                 </div>
               </LinkComponent>

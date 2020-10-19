@@ -36,7 +36,7 @@
           "url": "/projects/services/"
         },
         {
-          "text": "Host at OSF ",
+          "text": "Host at OIF ",
           "url": "/projects/hosting/"
         }
       ]
@@ -52,23 +52,23 @@
           "url": "/companies/"
         },
         {
-          "text": "Join OSF ",
+          "text": "Join OIF ",
           "url": "/join"
         }
       ]
     },
     {
       "title": "Events",
-      "image": "/img/home/image3.jpg",
+      "image": "/img/home/image3-taller.jpg",
       "marginLeft": "-346px",
       "display": true,
       "links": [
         {
-          "text": "Open Infra Summit ",
+          "text": "OpenInfra Summit ",
           "url": "https://www.openstack.org/summit/"
         },
         {
-          "text": "Open Infra Days ",
+          "text": "OpenInfra Days ",
           "url": "https://www.openstack.org/community/events/#openstack_days"
         },
         {
@@ -117,7 +117,7 @@
     }
   ],
   "button": {
-    "text": "Join the OSF",
-    "url": "https://osf.dev/join"
+    "text": "Join the OIF",
+    "url": "/join/"
   }
 }

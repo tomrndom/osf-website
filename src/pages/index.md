@@ -2,20 +2,20 @@
 templateKey: index-page
 seo:
   description: >-
-    The OSF is an open source foundation supporting a global community of
+    The OIF is an open source foundation supporting a global community of
     100,000 individuals to build and operate open infrastructure software. 
-  image: /img/osficon-social.png
-  title: 'OpenStack Foundation (OSF): Open Source Software Foundation'
-  twitterUsername: '@openstack'
-  url: 'https://osf.dev/'
+  image: /img/oificon-social.png
+  title: 'Open Infrastructure Foundation (OIF): Open Source Infrastructure Foundation'
+  twitterUsername: '@OpenInfraDev'
+  url: 'https://openinfra.dev/'
 header:
   buttons:
     - link: /projects/
-      text: OSF projects
-    - link: 'https://www.openstack.org/join#sponsor'
-      text: Support the OSF
+      text: OIF projects
+    - link: /join/
+      text: Support the OIF
   subTitle: >-
-    With over 100,000 members in 187 countries, the OSF helps open source
+    With over 100,000 members in 187 countries, the OIF helps open source
     communities build the  tools infrastructure operators need for Data Center
     Clouds, 5G, Edge, Containers, CI/CD and beyond.  
   title: Open Infrastructure
@@ -36,7 +36,7 @@ mainpitch:
       source technologies enabling everyone to provide infrastructure for
       others  to build solutions on.
 
-      OSF and its 100,000 members from 187 countries exist to ensure each open
+      OIF and its 100,000 members from 187 countries exist to ensure each open
       source component is  built and tested together, collaboratively, with a
       radical approach to openness we call the  Four Opens: Open Source,
       Development, Design and Community.
@@ -93,16 +93,17 @@ whyExpand:
 projects:
   button:
     link: /projects/
-    text: See all OSF projects
+    text: See all OIF projects
   images:
     - image: /img/home/logo1.svg
     - image: /img/home/logo2.svg
+    - image: /img/home/logo7.svg
     - image: /img/home/logo3.svg
     - image: /img/home/logo4.svg
     - image: /img/home/logo5.svg
   text: >-
     Staying true to our mission of helping people build and operate open
-    infrastructure, OSF hosts  open source projects that contribute to the
+    infrastructure, OIF hosts  open source projects that contribute to the
     advancement of today’s infrastructure. From cloud  hosting to the driving
     force behind 5G, these projects are code first and operate under the
     guiding  principles we call the “Four Opens”.
@@ -124,7 +125,7 @@ people:
         THANKS to 1,400+ contributors from 150+ orgs who made OpenStack Stein
         (#19!) a reality.  There are a lot of OSS projects dominated by one
         company, who are changing models right  now to control the benefits($).
-        At OSF #fouropens mean more opportunity, IMHO.
+        At OIF #fouropens mean more opportunity, IMHO.
       user: '@sparkycollier'
     - name: Tim Bell
       picture: >-
@@ -140,63 +141,63 @@ sponsor:
   gold:
     companyList:
       - alt: 99Cloud Inc.
-        image: /img/companies/logo-99cloud-lg2.jpg
-      - alt: Canonical
-        image: /img/companies/ubuntu-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_99Cloud.png
       - alt: China Mobile
-        image: /img/companies/ChinaMobile-logo-02-sm.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ChinaMobile.png
       - alt: China Telecom
-        image: /img/companies/CT-sm.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ChinaTelecom.png
       - alt: China Unicom
-        image: /img/companies/China-Unicom.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ChinaUnicom.png
       - alt: Cisco
-        image: /img/companies/cisco-new-lg.png
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Cisco.png
       - alt: City Network
-        image: /img/companies/CityNetwork-Logo-Regular-500px-RGB.png
-      - alt: Dell EMC
-        image: /img/companies/EMC-lg.jpg
-      - alt: Deutsche Telekom
-        image: /img/companies/deutschetelekom-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_CityNetwork.png
+      - alt: Dell Technologies
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_DellTechnologies.png        
       - alt: EasyStack
-        image: /img/companies/easystack-lg2.jpg
-      - alt: FiberHome
-        image: /img/companies/fiberhome-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_EasyStack.png
+      - alt: H3C
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_H3C.png
       - alt: Inspur
-        image: /img/companies/inspur-lg.jpg
-      - alt: inwinSTACK
-        image: /img/companies/inwinstack-lg2.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Inspur.png
+      - alt: Intel
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Intel.png
       - alt: Mirantis
-        image: /img/companies/mirantis-lg-van.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Mirantis.png
       - alt: NEC
-        image: /img/companies/nec-headline-large.png
-      - alt: NetApp
-        image: /img/companies/netapp-sp-lg4.jpg
-      - alt: 'New H3C Technologies Co., Limited'
-        image: /img/companies/H3C-lg.jpg
-      - alt: UnitedStack Inc.
-        image: /img/companies/unitedstack-sp-lg.jpg
-      - alt: ZTE Corporation
-        image: /img/companies/zte-lg.jpg
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_NEC.png
+      - alt: T-Systems
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_T-Systems.png
+      - alt: Troila
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Troila.png
+      - alt: Ubuntu
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Ubuntu.png
+      - alt: vmware
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_vmware.png
+      - alt: ZTE
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
     title: Gold Members
   platinum:
     companyList:
+      - alt: Ant Group
+        image: /img/companies/_New/Platinum/Sponsor-Logos_AntGroup.png
       - alt: AT&T
-        image: /img/companies/att-lg2.jpg
+        image: /img/companies/_New/Platinum/Sponsor-Logos_AT&T.png
       - alt: Ericsson
-        image: /img/companies/ericsson-lg.jpg
+        image: /img/companies/_New/Platinum/Sponsor-Logos_Ericsson.png
+      - alt: Facebook Connectivity
+        image: /img/companies/_New/Platinum/Sponsor-Logos_FBC.png
+      - alt: FiberHome
+        image: /img/companies/_New/Platinum/Sponsor-Logos_FiberHome.png
       - alt: Huawei
-        image: /img/companies/huawei-new-lg.jpg
-      - alt: Intel
-        image: /img/companies/intel-xlg.jpg
-      - alt: Rackspace
-        image: /img/companies/rackspace-lg-2016.jpg
-      - alt: 'Red Hat, Inc.'
-        image: /img/companies/redhat-sp-lg.jpg
-      - alt: SUSE
-        image: /img/companies/suse-sp-lg.jpg
+        image: /img/companies/_New/Platinum/Sponsor-Logos_Huawei.png
+      - alt: Red Hat
+        image: /img/companies/_New/Platinum/Sponsor-Logos_RedHat.png
       - alt: Tencent Cloud
-        image: /img/companies/Tencent-vert-lg.jpg
+        image: //img/companies/_New/Platinum/Sponsor-Logos_TencentCloud.png
+      - alt: Wind River
+        image: //img/companies/_New/Platinum/Sponsor-Logos_WindRiver.png
     title: Platinum Members
-  title: Companies supporting the OpenStack Foundation
+  title: Companies supporting the Open Infrastructure Foundation
 ---
 

@@ -2,20 +2,20 @@
 templateKey: staff-page
 seo:
   description: >-
-    The OSF staff serves developers, users, and ecosystem by providing a set of
+    The OIF staff serves developers, users, and ecosystem by providing a set of
     shared resources to help organizations build and operate open
     infrastructure.  "
   image: /img/osficon-social.png
   title: Staff
-  twitterUsername: '@openstack'
-  url: 'https://osf.dev/about/staff/'
+  twitterUsername: '@OpenInfraDev'
+  url: 'https://openinfra.dev/about/staff/'
 header:
   subTitle: >
-    The OpenStack Foundation (OSF) staff supports the development and adoption
+    The Open Infrastructure Foundation (OIF) staff supports the development and adoption
     of Open Infrastructure globally by hosting open source projects and
     communities of practice, including datacenter cloud, edge computing, NFV,
     CI/CD and container infrastructure. 
-  title: OPENSTACK FOUNDATION STAFF
+  title: Open Infrastructure Foundation
 banner:
   button:
     text: Job Openings
@@ -24,14 +24,14 @@ banner:
   subTitle: >-
     The Open Infrastructure community includes over 100,000 individuals across
     187 countries and over 600 organizations. Developers, users, and the entire
-    ecosystem all contribute to the success of OSF's open source projects and
+    ecosystem all contribute to the success of OIF's open source projects and
     initiatives. 
   title: COMMUNITY ENGAGEMENT AND DEVELOPMENT
 members:
   - description: >-
       Jonathan Bryce, who has spent his career building the cloud, is Executive
-      Director of the OpenStack  Foundation. Previously he was a founder of The
-      Rackspace Cloud. <p>He started his career working as a web developer for
+      Director of the Open Infrastructure Foundation. Previously he was a founder of The
+      Rackspace Cloud. He started his career working as a web developer for
       Rackspace, and during his tenure, he and  co-worker Todd Morey had a
       vision to build a sophisticated web hosting environment where users and 
       businesses alike could turn to design, develop and deploy their ideal web
@@ -59,7 +59,7 @@ members:
       source cloud  computing project called OpenStack, in partnership with NASA
       and 25 other organizations globally.  OpenStack quickly became one of the
       fastest growing open source projects in history. In 2012, Mark  co-founded
-      the OpenStack Foundation to manage the growth of the project, where he now
+      the Open Infrastructure Foundation to manage the growth of the project, where he now
       serves at  the COO. Today, OpenStack is one of the 3 most actively
       developed open source projects in the world,  along with the Linux kernel
       and Chromium.</p> <p>Mark is now helping to expand and evolve the
@@ -75,12 +75,13 @@ members:
     title: Chief Operating Officer
     twitter: 'https://twitter.com/sparkycollier'
   - description: >-
-      Thierry Carrez is the Vice-President of Engineering at the OpenStack
+      <p>Thierry Carrez is the Vice-President of Engineering at the Open Infrastructure
       Foundation, in charge of the  long-term health of the open source projects
       under the Foundation. A long-time elected member of  the OpenStack
       Technical Committee, he has been a Release Manager for the OpenStack
       project since  its inception, coordinating the effort and facilitating
-      collaboration between contributors. <p>Thierry spoke about OpenStack, open
+      collaboration between contributors.</p> 
+      <p>Thierry spoke about OpenStack, open
       innovation and open source project management at various  conferences
       around the world, including OSCON, LinuxCon, and FOSDEM. A Python Software
       Foundation  fellow, he was previously the Technical lead for Ubuntu Server
@@ -93,7 +94,7 @@ members:
     title: Vice President of Engineering
     twitter: 'https://twitter.com/tcarrez'
   - description: >-
-      Wes Wilson is Director of Marketing for the OpenStack Foundation. He has
+      Wes Wilson is Director of Marketing for the Open Infrastructure Foundation. He has
       spent the past two decades  in startups including founding Brandstack a
       graphic design marketplace that was acquired in 2011.  Wes’ endeavors have
       always hinged around entrepreneurship, whether it be working in his
@@ -118,7 +119,7 @@ members:
     picture: /img/about-staff/ClarkBoylan.jpg
     title: Senior Principal Engineer
   - description: >-
-      Sunny works for the OpenStack Foundation as a Marketing Associate, after
+      Sunny works for the Open Infrastructure Foundation as a Marketing Associate, after
       working as a Marketing  intern for a year after graudating from the
       University of Washington in Seattle with a Bachelor's  degree in Economics
       and Sociology. During her college career, she served as a student
@@ -131,7 +132,7 @@ members:
     picture: /img/about-staff/SunnyCai.jpg
     title: Marketing Associate
   - description: >-
-      Danny is the Ecosystem Manager for the OpenStack Foundation, from Tyler,
+      Danny is the Ecosystem Manager for the Open Infrastructure Foundation, from Tyler,
       TX. He attended The  University of Texas at San Antonio and spent close to
       seven years at Rackspace where he held  Support, Business Development and
       Marketing roles. He has joined the Foundation team to focus  on nurturing
@@ -146,14 +147,12 @@ members:
     picture: /img/about-staff/dc.png
     title: Ecosystem Manager
   - description: >-
-      James works closely alongside Wes Wilson to communicate the OpenStack
+      James works closely alongside Wes Wilson to communicate the
       Foundation’s visual identity  through print and web design. As a
       multifaceted designer with a strong production background, he has 
       delivered work for boutique ad agencies launching new brands, massive
       agencies promoting established  international businesses, freelance
-      clients, and in-house teams. When he’s not designing for OpenStack,  he
-      enjoys recording music, practicing photography, and adventuring throughout
-      the Pacific Northwest.
+      clients, and in-house teams.
     linkedin: 'https://www.linkedin.com/in/jcoledesign'
     name: James Cole
     openStack: 'https://www.openstack.org/community/members/profile/96706'
@@ -161,7 +160,7 @@ members:
     title: Graphic Designer
     twitter: 'https://twitter.com/JamesColeDesign'
   - description: >-
-      Erin Disney works as a Marketing Manager for the OpenStack Foundation.
+      Erin Disney works as a Marketing Manager for the Open Infrastructure Foundation.
       Prior to joining, Erin ran  events for W2O Group including CES, JPMorgan
       Healthcare, SXSW, and Social Media Week activations.  She also has
       experience in digital marketing strategy, analytics, internal/external
@@ -175,7 +174,7 @@ members:
     title: Senior Event Marketing Manager
     twitter: 'https://twitter.com/erindisney'
   - description: >-
-      Ashlee Ferguson joined the OpenStack Foundation as a Marketing Associate
+      Ashlee Ferguson joined the Open Infrastructure Foundation as a Marketing Associate
       after interning with the  Marketing Team for a year. She graduated from
       the University of Texas at Austin with a Bachelor's  degree in Corporate
       Communication and a Business Minor. Prior to joining the OpenStack
@@ -188,7 +187,7 @@ members:
     picture: /img/about-staff/AFheadshot.png
     title: Community and Event Coordinator
   - description: >-
-      Claire is the Director of Strategic Partnerships for the OpenStack
+      Claire is the Director of Strategic Partnerships for the Open Infrastructure
       Foundation. She is primarily  responsible for stewarding relationships
       with stakeholders at organizations across the global  open source
       ecosystem to engage investors and bring open infrastructure technologies
@@ -204,13 +203,13 @@ members:
     title: Director of Strategic Partnerships
     twitter: 'https://twitter.com/Massey'
   - description: >-
-      In addition to managing the OpenStack Foundation web properties and Summit
+      In addition to managing the Open Infrastructure Foundation web properties and Summit
       mobile application  development, Jimmy works extensively with the
       OpenStack User Committee and Operator community.  Alongside the community,
       he is actively working on ways to close the feedback loop between
       OpenStack  operators and developers including his work on the annual User
       Survey, Ops Meetups, and day-to-day  community management. Outside of
-      wearing many hats at the OpenStack Foundation, he enjoys cooking, 
+      wearing many hats at the Open Infrastructure Foundation, he enjoys cooking, 
       traveling, and having the best chili in Texas.
     linkedin: 'https://www.linkedin.com/in/jimmymcarthur/'
     name: Jimmy McArthur
@@ -233,14 +232,14 @@ members:
     title: Senior Marketing Manager
     twitter: 'https://twitter.com/amprice88'
   - description: >-
-      Kendall is an Upstream Developer Advocate at the OpenStack Foundation
+      <p>Kendall is an Upstream Developer Advocate at the Open Infrastructure Foundation
       based in Seattle, WA.  She first started working on Cinder and os-brick in
       the Liberty release and since then gotten  involved in Release Mangement,
       StoryBoard, the Women of OpenStack (WoO), the First Contact SIG,  the
       Contributor Guide, and OpenStack Upstream Institute. She has also worked
       as an election  official for TC and PTL elections (Pike-Rocky) and served
       as a track chair for the Barcelona,  Boston, Sydney, and Vancouver
-      summits. <p>When she is not evangelizing about the awesomeness of
+      summits.</p> <p>When she is not evangelizing about the awesomeness of
       OpenStack, bringing people into the  community, or working to make
       upstream development a friendlier place, she can be found reading  Harry
       Potter, watching Doctor Who, or out on a photo taking adventure.</p>
@@ -274,7 +273,7 @@ members:
       drives NFV related feature development activities in projects like Nova
       and Cinder.  Beyond code and documentation contributions she is also very
       passionate about on boarding and  training activities, which is one of her
-      focus areas within the OpenStack Foundation.
+      focus areas within the Open Infrastructure Foundation.
     linkedin: 'https://hu.linkedin.com/in/ildiko-vancsa-a963499'
     name: Ildiko Vancsa
     openStack: 'https://www.openstack.org/community/members/profile/14820'
@@ -282,7 +281,7 @@ members:
     title: Ecosystem Technical Lead
     twitter: 'https://twitter.com/IldikoVancsa'
   - description: >-
-      Kendall Waters Perez has joined the OpenStack Foundation as a Marketing
+      Kendall Waters Perez has joined the Open Infrastructure Foundation as a Marketing
       Associate after completing a  spring internship in 2015. She graduated
       from St. Edward s University in Austin, TX with a  Bachelor s degree in
       Digital Media Management. She helps the marketing team organize and
@@ -299,21 +298,21 @@ members:
 support:
   members:
     - description: >-
-        Horace is currently working as China Community Manager @ OpenStack
+        Horace is currently working as China Community Manager @ Open Infrastructure
         Foundation, to accelerate  China OpenStack ecosystem growing up, and
         Open Infrastructure focused open source projects  landing in China.
-        Before joining OpenStack Foundation, Horace worked in Intel Open Source 
+        Before joining Open Infrastructure Foundation, Horace worked in Intel Open Source 
         Technology Center for 13 years, as technical account manager to support
         open source community  projects engagement in China, including both
-        Cloud Computing, DataCenter and Client Computing business. <p>Outside of
+        Cloud Computing, DataCenter and Client Computing business. Outside of
         working area, Horace likes jogging, swimming, music, movie, fashion and
-        art.</p>
+        art.
       name: Horace Li
       openStack: 'https://www.openstack.org/community/members/profile/98596'
       picture: /img/about-staff/horaceli.jpg
       title: China Community Manager
     - description: >-
-        Lisa Miller serves as legal counsel for the OpenStack Foundation. Lisa
+        Lisa Miller serves as legal counsel for the Open Infrastructure Foundation. Lisa
         focuses her practice on  providing quality legal services to corporate
         clients on transactional matters and general  corporate maintenance
         including entity formation, mergers and acquisitions, reorganizations, 
@@ -329,7 +328,7 @@ support:
       picture: /img/about-staff/lisamiller.jpg
       title: Legal Counsel
     - description: >-
-        Mark Radcliffe is a senior partner who practices corporate securities
+        <p>Mark Radcliffe is a senior partner who practices corporate securities
         and intellectual property  at DLA Piper. DLA Piper has over 4200 lawyers
         in more than 30 countries and 65 cities. Mr. Radcliffe’s  practice
         focuses on representing corporations in their intellectual property and
@@ -350,7 +349,7 @@ support:
         Foundation. He was the Chair of Committee C for  the Free Software
         Foundation in reviewing GPLv3 and was the lead drafter for Project
         Harmony. And  in 2012, he became outside general counsel of the Open
-        Stack Foundation. <p>He has spoken on open source issues at the Open
+        Infrastructure Foundation.</p> <p>He has spoken on open source issues at the Open
         Source Business Conference, Silicon Valley  Association of General
         Counsel, American Corporate Counsel Association and O’Reilly Open
         Source  Conference. In April 2009 (the first year of the award), he was
@@ -364,7 +363,7 @@ support:
       picture: /img/about-staff/markradcliffe.jpg
       title: Legal Counsel
     - description: >-
-        Denise Ridolfo works with the OpenStack Foundation events team and is
+        Denise Ridolfo works with the Open Infrastructure Foundation events team and is
         responsible for managing  its presence and participation at various
         global industry events. She is also responsible for  managing the
         OpenStack Day events around the world and works closely with the
@@ -392,14 +391,14 @@ support:
       picture: /img/fntech-lg.png
       title: Events Management Partner
     - description: >
-        Cathey.co has served the OpenStack Foundation since 2013, providing
+        Cathey.co has served the Open Infrastructure Foundation since 2013, providing
         messaging, PR, and AR services and thought leadership programming to
         guide the evolution of the foundation’s flagship OpenStack cloud
         infrastructure software project. Its team specifically worked to elevate
-        the visibility and expert voices of the OSF leadership team. Work has
+        the visibility and expert voices of the OIF leadership team. Work has
         included all aspects of marcom and external communications, from
         strategic counsel through tactical implementation of programming and
-        supporting the efforts of the OSF's comms teams in APAC and EMEA.
+        supporting the efforts of the OIF's comms teams in APAC and EMEA.
       name: Cathey.co
       picture: /img/catehyco.jpg
       title: Public Relations / Analyst Relations Partner
@@ -408,8 +407,8 @@ support:
         web and mobile applications where form meets function, blending design
         and development to generate high code quality with ‘don’t make me think’
         interfaces. Started in 2001 by J.P. Maxwell, Tipit maintains a global
-        team of senior engineers and designers who have partnered with the OSF
-        since 2012 to help develop custom tooling for the OSF's global events,
+        team of senior engineers and designers who have partnered with the OIF
+        since 2012 to help develop custom tooling for the OIF's global events,
         marketing websites, content management systems, and mobile apps. Devoted
         to open source software initiatives, Tipit utilizes open source tooling
         and has released several open source projects.

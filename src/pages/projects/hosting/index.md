@@ -2,20 +2,20 @@
 templateKey: hosting-page
 seo:
   description: >-
-    As an open source software host, the OSF dedicates resources towards
+    As an open source software host, the OIF dedicates resources towards
     advancing the project community's goals and growing adoption. 
-  image: /img/osficon-social.png
+  image: /img/oificon-social.png
   title: Open Source Project Hosting Website
-  twitterUsername: '@openstack'
-  url: 'https://osf.dev/projects/hosting/'
+  twitterUsername: '@OpenInfraDev'
+  url: 'https://openinfra.dev/projects/hosting/'
 header:
   subTitle: >-
-    The OSF supports active, global, and engaged open source infrastructure
+    The OIF supports active, global, and engaged open source infrastructure
     communities.
-  title: HOST YOUR PROJECT AT OSF
+  title: HOST YOUR PROJECT AT OIF
 row1:
   email:
-    link: 'mailto:community@openstack.org'
+    link: 'mailto:community@openinfra.dev'
     text: Contact us
   images:
     - image: /img/projects-img/hosting1.jpg
@@ -26,25 +26,25 @@ row1:
     - item: Open Development
     - item: Open Design
   text1: >-
-    The OSF approach to open source provides a home for Open Infrastructure
+    The OIF approach to open source provides a home for Open Infrastructure
     communities that align with the “Four Opens” philosophy:      
   text2: >-
     Communities want to work with us because we help projects thrive and truly
-    believe that collaboration is the key to success.  The OSF staff is a small
+    believe that collaboration is the key to success.  The OIF staff is a small
     team, but we make a big impact. Collectively we support the largest, most
     active, and engaged open  source infrastructure communities globally.
   text3: >-
-    OSF operates efficiently based on years of experience figuring out what
+    OIF operates efficiently based on years of experience figuring out what
     works and what doesn’t, with a focus on community  development. We dedicate
     our resources towards advancing the project goals and growing adoption. Our
     strength lies in the  communities we serve. Inquire about hosting your
-    project with OSF.
-  title: HOST AT OSF
+    project with OIF.
+  title: HOST AT OIF
 row2:
   images:
     - image: /img/projects-img/hosting3.jpg
   text1: >-
-    At OSF we value project individuality and collaboration. The quality of each
+    At OIF we value project individuality and collaboration. The quality of each
     project is our main focus, not the overall  quantity of projects we host.
     There is no template or a one-size-fits-all model for the way we engage and
     support open  source projects. Each project is unique and each community has

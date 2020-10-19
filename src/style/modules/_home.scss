@@ -7,10 +7,10 @@
 
 .home-s1-main {
     color: $white;
-    background-image:url('/img/background-shapes-blue.svg');
-    background-size: cover;
+    background-color: white;
     /*images*/
     .home-picture1{
+      display: none;
       position:relative;
       z-index: 1;
       @media (max-width: $screen-md-min){
@@ -18,48 +18,45 @@
         width: 55%;
       }
       @media (max-width: $screen-sm-min){
+        display: none;
         width: 80%;
       }
     }
     .home-picture2 {
-      margin-top: -100px;
-      margin-left: -110px;
-      position: relative;
-
+  
       @media (max-width: $screen-md-min){
-        margin-top: -42%;
-        margin-left: 24%;
-        width: 80%;
+        margin-top: 30px;
+        width: 100%;
       }
       @media (max-width: $screen-sm-min){
-        margin-top: -63%;
-        margin-left: 5%;
+        margin-top: 30px;
+        margin-left: 0;
         width: 100%;
       }
     }
     .home-picture3{
-      margin-top: -70%;
-      margin-right: -14%;
-      max-width: 110%;
+      max-width: 100%;
       position: relative;
-      @media(max-width: $screen-md-min){
-        margin-top: 5%;
-        margin-left: -7%;
-        max-width: 65%;
+      margin-bottom: 60px;
+      @media (max-width: $screen-md-min){
+        z-index: 0;
+        width: 100%;
       }
       @media (max-width: $screen-sm-min){
-        margin-right: 0;
+        margin-top: 30px;
+        margin-left: 0;
         width: 100%;
       }
     }
     .home-picture4 {
+      display: none;
       margin-right: -40px;
       margin-top: -20%;
       position: relative;
       width: 90%;
       @media (max-width: 1000px) { //small screen pantalla 
         margin: 0px;
-        display: flex;
+        display: none;
         justify-content: center;
       }
       @media (max-width: $screen-md-min){
@@ -69,6 +66,7 @@
         margin-bottom: 60px;
       }
       @media (max-width: $screen-sm-min){
+        display: none;
         max-width: 73%;
       }
     }
@@ -78,7 +76,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         flex-flow: wrap;
-        padding-top: 80px;
+        padding-top: 60px;
         @media (max-width: $screen-md-min){
           padding-top:0;
         }
@@ -122,7 +120,7 @@
             flex-direction: row;*/
             flex-flow: wrap;
             width: 100%;
-            margin-right: 20px;
+            margin: 0 2px 0 2px;
         }
         .home-s1-text {
             color: $white;
@@ -143,7 +141,6 @@
       padding: 0px;
       .home-picture3 {
         width: 45%;
-        margin-top: -200px;
         //position: relative;
         @media (max-width: $screen-md-min){
           max-width: 71%;
@@ -176,7 +173,6 @@
     background-image:url('/img/background-shapes-white.svg');
     background-size: cover;
     background-color: #f6f6f6;
-    margin-top: -100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,6 +197,7 @@
     justify-content: center;
   
     .fix-h3 {
+      font-family: "Jura", "Roboto", sans-serif;;
       text-align: center;
       margin-left: 0px; 
       margin-right: 0px;
@@ -243,7 +240,7 @@
   
   .section-bg-white-center {
     color: $back-darkest;
-    padding:90px;
+    padding: 20px 0 60px 0;
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -255,12 +252,13 @@
     }
     @media screen and(max-width: $screen-md-min){
       width: 100%;
-      margin-top: 60px;
+      margin-top: 0px;
       margin-bottom: 0;
       padding:0;
     }
     .fix-h3 {
       text-align: center;
+      font-weight: 600;
       width: 80%;
       margin: 0 auto;
       margin-top: 1em;
@@ -395,23 +393,22 @@
 
 
 .section-bg-green {
+  background-color: white;
     color: $dark;
-    background-image:url('/img/background-shapes-green.svg');
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 0px;
-    padding-bottom: 60px;
     @media (max-width: $screen-md) { //small screen
       background-image: unset;
       background-color: $white;
+      margin-bottom: 80px;
     }
   }
   .section-bg-green-child {
     color: $dark;
     background-color: $white;
-    margin-bottom: 70px;
     h4 {
       // font-size: 22pt;
       color: $dark;
@@ -443,6 +440,7 @@
     color: red;
     margin: 30px;
     width: 70px;
+    text-align:center;
   }
 
   // ############### home section 5 - home-s5 #############
@@ -638,11 +636,10 @@
 
 
 .home-s7-main {
-  color: $dark;
-  background-image:url('/img/background-shapes-lightblue.svg');
+  background-color: #28a4db;
   background-size: cover;
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   @media (max-width: $screen-md-min){
     padding-top: 60px;
     padding-bottom: 60px;
@@ -723,7 +720,7 @@
     margin: 0 auto;
     margin-bottom: 1em;
     text-transform: uppercase;
-    font-weight:500; 
+    font-weight:600; 
     @media screen and(max-width: $screen-md-min){
       width: 100%;
       font-size: 26px;
@@ -735,7 +732,7 @@
     color: $primary;
     margin-top: 5em !important;
     font-size: 15px;
-    color: #133E68;
+    color: #161616;
     text-align: center;
      @media screen and (max-width: $screen-sm-min){
       margin-top: 3em !important;
