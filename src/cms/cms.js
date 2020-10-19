@@ -1,5 +1,8 @@
 import CMS from 'netlify-cms-app'
 
+import { Widget as FileRelationWidget } from '@ncwidgets/file-relation'
+import { Widget as IdWidget } from '@ncwidgets/id'
+
 import IndexPagePreview from './preview-templates/IndexPagePreview'
 import GenericPagePreview from './preview-templates/GenericPagePreview'
 import BoardPagePreview from './preview-templates/BoardPagePreview'
@@ -12,6 +15,9 @@ import StaffPagePreview from './preview-templates/StaffPagePreview'
 CMS.registerPreviewStyle('style/styles.scss');
 
 CMS.registerPreviewStyle('style/previews.css');
+
+CMS.registerWidget(IdWidget)
+CMS.registerWidget(FileRelationWidget)
 
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('board', BoardPagePreview)
