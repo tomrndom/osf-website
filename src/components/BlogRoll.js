@@ -8,50 +8,63 @@ class BlogRoll extends React.Component {
     const { data, customFilter } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
-    return (        
-        posts && posts.length === 0 ? 
-          <div>There don't seem to be any posts that match.</div>
+    let hasPosts = false;
+
+    console.log(posts);
+
+    return (
+      posts && posts.length === 0 ?
+        <div>There don't seem to be any posts that match.</div>
         :
-          posts.map(({ node: post }) => {
-            if(customFilter) {
-              if(post.frontmatter.author === customFilter || post.frontmatter.category[0].label === customFilter) {
-                return (            
-                  <div className="article-excerpt" metalink="https://www.google.com/" key={post.id}>
-                    <h5 className="article-excerpt-title">
-                      <a href={post.fields.slug} className="">{post.frontmatter.title}</a>
-                    </h5> 
-                    <div className="article-excerpt-entry">
-                      <div>
-                        <p>{post.excerpt}</p>
-                      </div>
-                    </div> 
-                    <div className="article-excerpt-meta">
-                      <p>By <Link to={`/author/${kebabCase(post.frontmatter.author)}/`}>{post.frontmatter.author}</Link> on {post.frontmatter.date}</p>                
-                    </div>
-                  </div>
-                )
-              } else {
-                return null
-              }
-            } else {
-              return (            
-                <div className="article-excerpt" metalink="https://www.google.com/" key={post.id}>
+        posts.map(({ node: post }, index) => {          
+          if (customFilter) {
+            if (post.frontmatter.author === customFilter || post.frontmatter.category[0].label === customFilter) {
+              hasPosts = true;
+              return (
+                <div className="article-excerpt" key={index}>
                   <h5 className="article-excerpt-title">
-                    <a href={post.fields.slug} className="">{post.frontmatter.title}</a>
-                  </h5> 
+                    <Link to={post.frontmatter.seo?.url ? post.frontmatter.seo?.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : post.fields.slug} className="">{post.frontmatter.title}</Link>
+                  </h5>
                   <div className="article-excerpt-entry">
                     <div>
                       <p>{post.excerpt}</p>
                     </div>
-                  </div> 
-                  <div className="article-excerpt-meta">
-                    <p>By <Link to={`/author/${kebabCase(post.frontmatter.author)}/`}>{post.frontmatter.author}</Link> on {post.frontmatter.date}</p>                
                   </div>
-                </div>                
+                  <div className="article-excerpt-meta">
+                    <p>By <Link to={`/blog/author/${kebabCase(post.frontmatter.author)}/`}>{post.frontmatter.author}</Link> on {post.frontmatter.date}</p>
+                  </div>
+                </div>
               )
-            }              
+            } else if (posts.length === index + 1 && !hasPosts) {
+              return (
+                <div className="article-excerpt" key={index}>
+                  <h5 className="article-excerpt-title">
+                    <div>
+                      <p>There don't seem to be any posts that match.</p>
+                    </div>
+                  </h5>
+                </div>
+              )
+            }
+          } else {
+            return (
+              <div className="article-excerpt" key={index}>
+                <h5 className="article-excerpt-title">
+                  <Link to={post.frontmatter.seo?.url ? post.frontmatter.seo?.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : post.fields.slug} className="">{post.frontmatter.title}</Link>
+                </h5>
+                <div className="article-excerpt-entry">
+                  <div>
+                    <p>{post.excerpt}</p>
+                  </div>
+                </div>
+                <div className="article-excerpt-meta">
+                  <p>By <Link to={`/blog/author/${kebabCase(post.frontmatter.author)}/`}>{post.frontmatter.author}</Link> on {post.frontmatter.date}</p>
+                </div>
+              </div>
+            )
           }
-      )
+        }
+        )
     )
   }
 }
@@ -65,7 +78,7 @@ BlogRoll.propTypes = {
   customFilter: PropTypes.string,
 }
 
-export default ({customFilter}) => (  
+export default ({ customFilter }) => (
   <StaticQuery
     query={graphql`
       query BlogRollQuery {
@@ -88,12 +101,15 @@ export default ({customFilter}) => (
                 category {
                   label
                 }
+                seo {
+                  url
+                }
               }
             }
           }
         }
       }
     `}
-    render={(data, count) => <BlogRoll data={data} count={count} customFilter={customFilter}/>}
+    render={(data, count) => <BlogRoll data={data} count={count} customFilter={customFilter} />}
   />
 )

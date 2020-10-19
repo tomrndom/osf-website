@@ -24,14 +24,14 @@ export default class BlogIndexPage extends React.Component {
             <meta name="description" content={blogConfig.seo.description} />
             <meta name="image" content={`${withPrefix('/')}${blogConfig.seo.image}`} />
             <meta property="og:url" content={blogConfig.seo.url} />
-            <meta property="og:title" content={blogConfig.seo.title} />          
-            <meta property="og:description" content={blogConfig.seo.description} />            
+            <meta property="og:title" content={blogConfig.seo.title} />
+            <meta property="og:description" content={blogConfig.seo.description} />
             <meta property="og:image" content={`${withPrefix('/')}${blogConfig.seo.image}`} />
             <meta name="theme-color" content={blogConfig.seo.themeColor} />
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:creator" content={blogConfig.seo.twitterUsername} />            
+            <meta name="twitter:creator" content={blogConfig.seo.twitterUsername} />
             <meta name="twitter:title" content={blogConfig.seo.title} />
-            <meta name="twitter:description" content={blogConfig.seo.description} />            
+            <meta name="twitter:description" content={blogConfig.seo.description} />
             <meta name="twitter:image" content={`${withPrefix('/')}${blogConfig.seo.image}`} />
           </Helmet>
           <div className="wrapper project-background">
@@ -60,7 +60,11 @@ export default class BlogIndexPage extends React.Component {
                             </div>
                             <div className="widget-body">
                               <ul className="widget-list">
-                                {blogConfig.categories.map(category => <li><Link to={`/category/${kebabCase(category.text)}/`}>{category.text}</Link></li>)}
+                                {blogConfig.categories.map((category, index) => (
+                                  <li key={index}>
+                                    <Link to={`/blog/category/${kebabCase(category.text)}/`}>{category.text}</Link>
+                                  </li>)
+                                )}
                               </ul>
                             </div>
                           </li>
