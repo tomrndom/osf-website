@@ -7,7 +7,7 @@ seo:
   image: /img/oif_logo_pill.png
   title: About
   twitterUsername: '@OpenInfraDev'
-  url: 'https://opneinfra.dev/about/'
+  url: 'https://openinfra.dev/about/'
 title: About
 subTitle: About the OIF
 footer:
