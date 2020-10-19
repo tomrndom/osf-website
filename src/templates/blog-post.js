@@ -41,7 +41,7 @@ export const BlogPostTemplate = ({
                     <div className="article-single-head">
                       <h3 className="article-single-title">{title}</h3>
                       <div className="article-single-meta">
-                        <p>{author} on {date}</p>
+                        <p>By <Link to={`/blog/author/${kebabCase(author)}/`}>{author}</Link> on {date}</p>
                       </div>
                     </div>
                     <div className="article-single-entry">
