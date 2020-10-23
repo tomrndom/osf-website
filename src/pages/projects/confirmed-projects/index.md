@@ -71,7 +71,7 @@ confirmed:
           text: Code
       logo: /img/projects-img/logo-kata.svg
       subTitle: 'Secure, lightweight CRI compatible virtualized containers.'
-      title: KATA CONTAINERS  
+      title: KATA CONTAINERS
     - button:
         link: 'https://www.openstack.org/'
         text: openstack.org
@@ -109,10 +109,10 @@ confirmed:
       class: projects-s4
       description: >-
         StarlingX is a complete cloud infrastructure software stack for the edge
-        used  by the Most demanding applications in industrial iot, telecom, and
-        other use  cases. Based on Mature production software deployed in
+        used  by the most demanding applications in industrial IoT, telecom, and
+        other use  cases. Based on mature production software deployed in
         mission critical applications,  newly open sourced StarlingX code is the
-        base for edge implementations in  scalable solutions that Can be
+        base for edge implementations in scalable solutions that can be
         productized now. 
       features:
         - icon: /img/home/icon1.svg
@@ -122,13 +122,13 @@ confirmed:
       links:
         - link: 'http://lists.starlingx.io/'
           text: Mailing Lists
-        - link: 'https://wiki.openstack.org/wiki/StarlingX'
+        - link: 'https://docs.starlingx.io/'
           text: Documentation
-        - link: 'https://wiki.openstack.org/wiki/StarlingX#Releases'
+        - link: 'https://docs.starlingx.io/releasenotes/index.html'
           text: Releases
-        - link: 'https://wiki.openstack.org/wiki/StarlingX/Meetings'
+        - link: 'https://wiki.openstack.org/wiki/Starlingx/Meetings'
           text: Standing Meetings
-        - link: 'https://git.starlingx.io/cgit'
+        - link: 'https://opendev.org/starlingx'
           text: Code
       logo: /img/projects-img/logo-starlingx.svg
       subTitle: >-
