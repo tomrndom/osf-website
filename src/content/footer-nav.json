@@ -96,6 +96,15 @@
           "link": "/about/osf-partnerships/"
         }
       ]
+    },
+    {
+      "title": "Blog",
+      "nav": [
+        {
+          "text": "Open Infra Blog",
+          "link": "/blog/"
+        }
+      ]
     }
   ]
 }
