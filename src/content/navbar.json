@@ -112,6 +112,10 @@
         {
           "text": "News & Announcements",
           "url": "/blog/category/news-announcements/"
+        },
+        {
+          "text": "Community",
+          "url": "/blog/category/community/"
         }
       ]
     }
