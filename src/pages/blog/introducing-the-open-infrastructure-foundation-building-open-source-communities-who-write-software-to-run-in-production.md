@@ -5,9 +5,9 @@ title: >-
   Communities Who Write Software to Run in Production
 author: Jonathan Bryce
 date: 2020-10-19T13:30:56.289Z
-category: 
-  - label: News & Announcements
-    id: category-A7fnZYrE1
+category:
+  - id: category-A7fnZYrE1
+    label: News & Announcements
 seo:
   description: Building Open Source Communities Who Write Software to Run in Production
   title: Introducing the Open Infrastructure Foundation
