@@ -52,9 +52,9 @@ confirmed:
         text: katacontainers.io
       class: projects-s3
       description: >-
-        Kata containers is an open source project delivering increased container
-        security and  Workload isolation through an implementation of
-        lightweight virtual machines.
+        Kata Containers is an open source project delivering increased container
+        security and workload isolation through an implementation of lightweight
+        virtual machines.
       features:
         - icon: /img/home/icon3.svg
           text: CONTAINER INFRASTRUCTURE
@@ -79,9 +79,9 @@ confirmed:
       description: >-
         OpenStack is an open source software project for creating private and
         public clouds, powering 75 public cloud data centers and thousands of
-        private clouds at a scale of  more than 10 million physical cores
-        worldwide. Since launching in 2012, openstack  has Become one of the
-        largest and most diverse open source projects in history.
+        private clouds at a scale of more than 15 million physical cores
+        worldwide. Since launching in 2012, OpenStack has become one of the top
+        3 most active open source projects in addition to Linux and Chromium. 
       features:
         - icon: /img/home/icon5.svg
           text: 'PUBLIC, PRIVATE &amp; HYBRID CLOUD'
@@ -111,7 +111,7 @@ confirmed:
         StarlingX is a complete cloud infrastructure software stack for the edge
         used  by the most demanding applications in industrial IoT, telecom, and
         other use  cases. Based on mature production software deployed in
-        mission critical applications,  newly open sourced StarlingX code is the
+        mission critical applications, newly open sourced StarlingX code is the
         base for edge implementations in scalable solutions that can be
         productized now. 
       features:
@@ -140,8 +140,8 @@ confirmed:
         text: zuul-ci.org
       class: projects-s5
       description: >-
-        Zuul is an open source ci/cd platform specializing in gating changes
-        across multiple  Systems and applications before landing on a single
+        Zuul is an open source CI/CD platform specializing in gating changes
+        across multiple systems and applications before landing on a single
         patch
       features:
         - icon: /img/home/icon2.svg
