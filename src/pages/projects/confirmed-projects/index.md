@@ -26,9 +26,9 @@ confirmed:
       description: >-
         Airship is a collection of interoperable and loosely coupled open source
         tools that  Provide for automated cloud provisioning and life cycle
-        managemente in a completely  Declarative and predictable way. The focus
+        management in a completely  Declarative and predictable way. The focus
         of this project is the implementation of  a declarative platform to
-        introduce openstack on kubernets, and the lifecycle  Management of the
+        introduce OpenStack on Kubernetes, and the lifecycle Management of the
         resulting cloud.
       features:
         - icon: /img/icon1.svg
