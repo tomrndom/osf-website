@@ -42,9 +42,9 @@ companies:
       empowering and promoting the Open Infrastructure community and open source
       software projects. Each Platinum Member's company strategy aligns with the
       OIF mission and is responsible for committing full-time resources toward
-      the project. There are eight Platinum Sponsors at any given time, each of
+      the project. There are eight Platinum Members at any given time, each of
       which holds a seat on the Board of  Directors. Thank you to the following
-      Platinum Sponsors who are committed to the Open Infrastructure community's
+      Platinum Members who are committed to the Open Infrastructure community's
       success.
     title: PLATINUM MEMBERS
   - companyList:
@@ -90,7 +90,7 @@ companies:
       Gold Members at any given time, subject to board approval. If your
       organization  is highly involved with the Open Infrastructure community
       and interested in becoming a Gold Member, read more about joining the 
-      Foundation. Thank you to the following Gold Sponsors who are critical to
+      Foundation. Thank you to the following Gold Members who are critical to
       the global community's success. 
     title: GOLD MEMBERS
   - companyList:
@@ -160,7 +160,7 @@ companies:
       strategic alignment to the OIF mission. If your organization  is highly
       involved with  the Open Infrastructure community and interested in
       becoming a Silver Member,  read more about joining the  Foundation. Thank
-      you to the following Silver  Sponsors who are critical to the global
+      you to the following Silver  Members who are critical to the global
       community's success. 
     title: SILVER MEMBERS
   - companyList:
@@ -1338,12 +1338,12 @@ companies:
       - alt: UnitedStack
         image: /img/unitedstack-sp-lg.jpg
     text: >-
-      The resources provided by the Members and Sponsors are critical to making
-      the Open Infrastructure Foundation  successful, but there are many ways to
-      support the OIF mission, whether you're contributing  code, building a
-      product or helping build the community. Below are companies who are 
-      actively involved in making the Open Infrastructure community successful.
-      If you would like your company listed here, please  complete the <a
+      The resources provided by the OIF Members are critical to making the Open
+      Infrastructure Foundation  successful, but there are many ways to support
+      the OIF mission, whether you're contributing  code, building a product or
+      helping build the community. Below are companies who are  actively
+      involved in making the Open Infrastructure community successful. If you
+      would like your company listed here, please  complete the <a
       href="https://openstack.echosign.com/public/hostedForm?formid=4TBJIEXJ4M7X2Q">logo 
       authorization form</a> and <a
       href="mailto:supporterlogos@openstack.org">send your logo</a>
