@@ -11,10 +11,10 @@ header:
     text: >-
       Learn more about how your company can support the Open Infrastructure
       community
-    url: '/join/'
+    url: /join/
   subTitle: >-
-    The Open Infrastructure Foundation would not exist without the support of the
-    Platinum, Gold, and Corporate Sponsors listed below.
+    The Open Infrastructure Foundation would not exist without the support of
+    the Platinum, Gold, and Corporate Members listed below.
   title: Companies Supporting The Open Infrastructure Foundation
 companies:
   - companyList:
@@ -37,16 +37,16 @@ companies:
       - alt: Wind River
         image: //img/companies/_New/Platinum/Sponsor-Logos_WindRiver.png
     text: >-
-      Open Infrastructure Foundation Platinum Members provide a significant portion of the
-      funding to achieve the Foundation's mission of protecting, empowering and
-      promoting the Open Infrastructure community and open source software
-      projects. Each Platinum Member's company strategy aligns with the OIF
-      mission and is responsible for committing full-time resources toward the
-      project. There are eight Platinum Sponsors at any given time, each of
+      Open Infrastructure Foundation Platinum Members provide a significant
+      portion of the funding to achieve the Foundation's mission of protecting,
+      empowering and promoting the Open Infrastructure community and open source
+      software projects. Each Platinum Member's company strategy aligns with the
+      OIF mission and is responsible for committing full-time resources toward
+      the project. There are eight Platinum Sponsors at any given time, each of
       which holds a seat on the Board of  Directors. Thank you to the following
       Platinum Sponsors who are committed to the Open Infrastructure community's
       success.
-    title: PLATINUM SPONSORS
+    title: PLATINUM MEMBERS
   - companyList:
       - alt: 99Cloud Inc.
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_99Cloud.png
@@ -61,7 +61,7 @@ companies:
       - alt: City Network
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_CityNetwork.png
       - alt: Dell Technologies
-        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_DellTechnologies.png        
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_DellTechnologies.png
       - alt: EasyStack
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_EasyStack.png
       - alt: H3C
@@ -85,14 +85,14 @@ companies:
       - alt: ZTE
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
     text: >-
-      Open Infrastructure Foundation Gold Members provide funding and pledge strategic
-      alignment to the OIF mission.  There can be up to twenty-four Gold Members
-      at any given time, subject to board approval. If your organization  is
-      highly involved with the Open Infrastructure community and interested in
-      becoming a Gold Member, read more about joining the  Foundation. Thank you
-      to the following Gold Sponsors who are critical to the global community's
-      success. 
-    title: GOLD SPONSORS
+      Open Infrastructure Foundation Gold Members provide funding and pledge
+      strategic alignment to the OIF mission.  There can be up to twenty-four
+      Gold Members at any given time, subject to board approval. If your
+      organization  is highly involved with the Open Infrastructure community
+      and interested in becoming a Gold Member, read more about joining the 
+      Foundation. Thank you to the following Gold Sponsors who are critical to
+      the global community's success. 
+    title: GOLD MEMBERS
   - companyList:
       - alt: Ampere
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Ampere.png
@@ -107,7 +107,7 @@ companies:
       - alt: Cloudical
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Cloudical.png
       - alt: DevStack
-        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_DevStack.png 
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_DevStack.png
       - alt: Elastx
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Elastx.png
       - alt: FredomFi
@@ -133,7 +133,7 @@ companies:
       - alt: Orange
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_orange.png
       - alt: OVH
-        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_OVH.png   
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_OVH.png
       - alt: Samsung
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Samsung.png
       - alt: Sardina
@@ -147,20 +147,22 @@ companies:
       - alt: StackHPC
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_StackHPC.png
       - alt: SUSE
-        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_SUSE.png 
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_SUSE.png
       - alt: Ultimum Technologies
-        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_UltimumTechnologies.png
-      - alt: Vexxhost 
+        image: >-
+          /img/companies/_New/Silver/Sponsor-Logos-Silver_UltimumTechnologies.png
+      - alt: Vexxhost
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Vexxhost.png
       - alt: Whitestack
-        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png         
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png
     text: >-
-      Open Infrastructure Foundation Silver Members provide funding and pledge strategic
-      alignment to the OIF mission. If your organization  is highly involved with 
-      the Open Infrastructure community and interested in becoming a Silver Member, 
-      read more about joining the  Foundation. Thank you to the following Silver 
-      Sponsors who are critical to the global community's success. 
-    title: SILVER SPONSORS  
+      Open Infrastructure Foundation Silver Members provide funding and pledge
+      strategic alignment to the OIF mission. If your organization  is highly
+      involved with  the Open Infrastructure community and interested in
+      becoming a Silver Member,  read more about joining the  Foundation. Thank
+      you to the following Silver  Sponsors who are critical to the global
+      community's success. 
+    title: SILVER MEMBERS
   - companyList:
       - alt: Rackspace
         image: /img/companies/rackspace-lg-2016.jpg
@@ -1337,11 +1339,11 @@ companies:
         image: /img/unitedstack-sp-lg.jpg
     text: >-
       The resources provided by the Members and Sponsors are critical to making
-      the Open Infrastructure Foundation  successful, but there are many ways to support
-      the OIF mission, whether you're contributing  code, building a product or
-      helping build the community. Below are companies who are  actively
-      involved in making the Open Infrastructure community successful. If you
-      would like your company listed here, please  complete the <a
+      the Open Infrastructure Foundation  successful, but there are many ways to
+      support the OIF mission, whether you're contributing  code, building a
+      product or helping build the community. Below are companies who are 
+      actively involved in making the Open Infrastructure community successful.
+      If you would like your company listed here, please  complete the <a
       href="https://openstack.echosign.com/public/hostedForm?formid=4TBJIEXJ4M7X2Q">logo 
       authorization form</a> and <a
       href="mailto:supporterlogos@openstack.org">send your logo</a>
