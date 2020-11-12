@@ -12,3 +12,13 @@
   from = "/cloud-typography/fonts.css"
   to = "https://cloud.typography.com/7369076/7111412/css/fonts.css"
   status = 200
+[[redirects]]
+  from = "/codeofconduct"
+  to = "https://www.openstack.org/legal/community-code-of-conduct/"
+  status = 302
+[[redirects]]
+  from = "/trademark"
+  to = "https://www.openstack.org/brand/openstack-trademark-policy/"
+  status = 302
+  
+ 
