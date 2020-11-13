@@ -91,15 +91,15 @@ members:
     twitter: 'https://twitter.com/arkady_kanevsky'
   - company: 'Ericsson AB, Ericsson Software Technology'
     description: >-
-      <p>I am focused on, and passionate about, open source technologies for
-      next generation networks.  Primarily a developer my career has been
-      focused on building and deploying networking technologies  for global and
-      carrier networks, more recently my attention has turned to open source
-      community  and technology advancement.</p>
+      I am focused on, and passionate about, open source technologies for next
+      generation networks.  Primarily a developer my career has been focused on
+      building and deploying networking technologies  for global and carrier
+      networks, more recently my attention has turned to open source community 
+      and technology advancement.</p>
 
       <p>A strong believer in collaborative development and open technology
       ecosystem enablement I am  fully invested in exposing technology through
-      open source for global adoption and advancement.</p>
+      open source for global adoption and advancement.
     name: Christopher Price
     openStack: 'https://www.openstack.org/community/members/profile/18901'
     picture: /img/board/christopherprice.jpg
@@ -107,7 +107,7 @@ members:
     twitter: 'https://twitter.com/ChrisPriceAB'
   - company: Deutsche Telekom T-Systems
     description: >-
-      <p>Clemens is born in Germany and married with three kids, I have a PhD in
+      Clemens is born in Germany and married with three kids, I have a PhD in
       computer  science and worked in the communication industry in different
       managerial roles in IT.</p> 
 
@@ -128,7 +128,7 @@ members:
       Technology team within T-Systems which builds and  delivers the Open
       Telekom Cloud (OTC), a public cloud offering in Europe based on Openstack
       and  being currently accountable for the teams of architects, engineers,
-      operations and consultants.</p>
+      operations and consultants.
     linkedin: 'https://www.linkedin.com/in/dr-clemens-hardewig-575199/'
     name: Clemens Hardewig
     openStack: 'https://www.openstack.org/community/members/profile/53350'
@@ -146,7 +146,7 @@ members:
     title: Platinum Representative
   - company: City Network Hosting AB
     description: >-
-      <p>Johan Christenson is a serial entrepreneur whom has successfully exited
+      Johan Christenson is a serial entrepreneur whom has successfully exited
       multiple  companies he founded. After receiving a graduate degree in
       Engineering, from Florida Institute of  Technology, his focus turned to
       the digital media space. He has raised money both in the US and  Europe
@@ -160,7 +160,7 @@ members:
       more centralized infrastructure world. He, and the team at City, empower
       new  types of industries and markets to use the power of OpenStack, to
       enable and increase innovation in  their organizations.</p> <p>Johan is
-      based in Sweden.</p>
+      based in Sweden.
     name: Johan Christenson
     openStack: 'https://www.openstack.org/community/members/profile/26794'
     picture: /img/board/johan.png
@@ -168,7 +168,7 @@ members:
     twitter: 'https://twitter.com/@citynetworkjc'
   - company: Red Hat
     description: >-
-      <p>I started my working career in technology close to twenty years ago. It
+      I started my working career in technology close to twenty years ago. It
       has surely not  been an average career, but a career where I've
       continually learned and evolved to fulfill the need. In  a sense, it all
       started with Linux and answering some questions about installing Linux.
@@ -187,7 +187,7 @@ members:
       data centers.</p> <p>I presently work for Red Hat as a Principal Software
       Engineer, where my upstream focus has been Ironic  for the past few years,
       and my downstream focus has been on helping lead adoption and use of
-      Ironic. </p>
+      Ironic. 
     linkedin: 'https://www.linkedin.com/in/juliaashleykreger'
     name: Julia Kreger
     openStack: 'https://www.openstack.org/community/members/profile/19088'
@@ -199,8 +199,8 @@ members:
       Research Center, China Mobile Research Institute, China Mobile Research
       Institute
     description: >-
-      <p>JunWei Liu serves as Director Of Open Infrastructure Foundation in
-      2017. He works at China Mobile for  eight years and he is the vice General
+      JunWei Liu serves as Director Of Open Infrastructure Foundation in 2017.
+      He works at China Mobile for  eight years and he is the vice General
       Manager of Cloud Product Deparment,China Mobile SuZhou R&amp;D Center. 
       Over the last 8+ years,he has worked on developing and building China
       Mobile's cloud products-"Big Cloud",  which is an fully cloud software
@@ -220,7 +220,7 @@ members:
       comes up some unique idea for  OpenStack based the demand of China
       Mobile's customers. He often leads his team to share their experience  for
       China OpenStack users and make OpenStack more mature cooperating China
-      Mobile's partners.</p>
+      Mobile's partners.
     linkedin: 'https://lnkd.in/d6TpVAu'
     name: Junwei Liu
     openStack: 'https://www.openstack.org/community/members/profile/26694'
@@ -228,7 +228,7 @@ members:
     title: Gold Representative
   - company: Red Hat
     description: >-
-      <p>I'm currently working on a building a European Cloud initiative - this
+      I'm currently working on a building a European Cloud initiative - this
       will be my  professional focus starting 2020 after leaving SUSE following
       their change in direction.</p> <p>Dec 2018 - Dec 2019, I was responsible
       for the Cloud and Storage Departments in SUSE R&amp;D.</p> 
@@ -251,7 +251,7 @@ members:
       contributor to the Linux kernel, which also  gave me the privilege of
       building up and leading SUSE Labs and work with a number of great 
       engineers in- and outside my company, contributing to the success of the
-      Open Source technology.</p>
+      Open Source technology.
     linkedin: 'https://de.linkedin.com/pub/kurt-garloff/'
     name: Kurt Garloff
     openStack: 'https://www.openstack.org/community/members/profile/6804'
@@ -271,7 +271,7 @@ members:
     title: Gold Representative
   - company: 'VEXXHOST, Inc.'
     description: >-
-      <p>Over the past 10 years, I’m happy to have watched the hosting industry
+      Over the past 10 years, I’m happy to have watched the hosting industry
       transform  and be part of the transformation process as it evolved from
       traditional physical hardware to  cloud-native infrastructure, powered by
       OpenStack.  Since the creation of VEXXHOST, I have had  the chance to work
@@ -285,7 +285,7 @@ members:
       to the project since and I have contributed code  to almost every release
       of OpenStack since then.  I've also served as PTL for Puppet OpenStack, 
       continue to serve as a PTL for OpenStack-Ansible and serve on the
-      technical commitee,  chairing tthe commitee for a term.</p>
+      technical commitee,  chairing tthe commitee for a term.
     linkedin: 'https://linkedin.com/in/mdnaser'
     name: Mohammed Naser
     openStack: 'https://www.openstack.org/community/members/profile/8899'
@@ -363,17 +363,17 @@ members:
     title: Individual Representative
   - company: Cisco
     description: >-
-      <p>Shannon is a Distinguished Engineer and Cloud Architect for Cloud
-      Native and Application Infrastructure technologies at Cisco. He has been
-      at Cisco for 20+ years. Shannon worked as a systems engineer at a system
-      integrator for many years and as an end-user engineer in the medical
-      industry prior to that.</p>
+      Shannon is a Distinguished Engineer and Cloud Architect for Cloud Native
+      and Application Infrastructure technologies at Cisco. He has been at Cisco
+      for 20+ years. Shannon worked as a systems engineer at a system integrator
+      for many years and as an end-user engineer in the medical industry prior
+      to that.</p>
 
       <p>Shannon has been involved, as a technical contributor in the OpenStack
       (Since Diablo), Kubernetes and Istio communities, with a distinct focus on
       all-things networking. He is an author (“IPv6 for Enterprise Networks”)
       and a frequent speaker at various industry and community conferences to
-      include OpenStack/Open Infrastructure Summits, Cisco Live, etc.</p>
+      include OpenStack/Open Infrastructure Summits, Cisco Live, etc.
     linkedin: 'https://www.linkedin.com/in/smcfarland/'
     name: Shannon McFarland
     openStack: 'https://www.openstack.org/community/members/profile/1356'
@@ -382,7 +382,7 @@ members:
     twitter: 'https://twitter.com/@eyepv6'
   - company: CERN
     description: >-
-      <p>Tim is responsible for the group at CERN, the European Laboratory for
+      Tim is responsible for the group at CERN, the European Laboratory for
       Particle Physics,  which manages the compute infrastructure for 13,000
       physicists around the world to support  fundamental research. He
       previously worked as a Unix kernel developer at IBM along with  managing
@@ -398,7 +398,7 @@ members:
 
       <p>Tim has been an elected individual director of the OpenStack management
       board since 2012  and was a member of the OpenStack user committee from
-      2013-2015. </p>
+      2013-2015.
     linkedin: 'https://www.linkedin.com/in/timbell143'
     name: Tim Bell
     openStack: 'https://www.openstack.org/community/members/profile/88'
@@ -435,14 +435,13 @@ members:
     title: Gold Representative
   - company: Huawei
     description: >-
-      <p>Bill Ren holds an EMBA and Master Degree from PeKing University, and a
-      CS Bachelor Degree from Shanghai Jiaotong University. Since Joining Huawei
-      in 2000，Bill served as an Intelligent Network Research and Development
+      Bill Ren holds an EMBA and Master Degree from PeKing University, and a CS
+      Bachelor Degree from Shanghai Jiaotong University. Since Joining Huawei in
+      2000，Bill served as an Intelligent Network Research and Development
       Engineer, Product Manager and Architect of India Branch, General Manager
       of Business OSS, Vice President of Network OSS, Vice President of Network
       OSS Strategy and MKT, Vice President of Solution MKTG, etc. We have
       accumulated rich experience in R&D, marketing and product management.</p>
-
 
       <p>Mr. Ren Xudong（Bill Ren）serves as the General Manager of ICT
       Infrastructure Open Source Business at Huawei Technologies Co. Ltd, and as
@@ -451,7 +450,7 @@ members:
       operators/enterprises in the network automation industry, using open
       source means to build industrial ecology, expand industrial space, build a
       healthy and harmonious industrial environment, and support the success of
-      the company's business</p>
+      the company's business.
     name: Xudong Ren
     openStack: 'https://www.openstack.org/community/members/profile/124742'
     picture: /img/billren.jpg
