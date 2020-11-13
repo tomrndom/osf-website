@@ -30,8 +30,8 @@ members:
       Technology, The Perl Foundation, Onyx Neon, Inc.
     description: >-
       Allison is a software developer and open source strategist. She is a board
-      member of the  Open Infrastructure Foundation, a board member of the Software
-      Freedom Conservancy, a board member  of the Perl Foundation, and
+      member of the  Open Infrastructure Foundation, a board member of the
+      Software Freedom Conservancy, a board member  of the Perl Foundation, and
       co-founder of the FLOSS Foundations group for open source leaders.  She
       previously served as President of the Open Source Initiative, President of
       the Perl  Foundation, board member at the Python Software Foundation,
@@ -193,28 +193,28 @@ members:
       Research Center, China Mobile Research Institute, China Mobile Research
       Institute
     description: >-
-      <p class="is-6">JunWei Liu serves as Director Of Open Infrastructure Foundation in
-      2017. He works at China Mobile for  eight years and he is the vice General
-      Manager of Cloud Product Deparment,China Mobile SuZhou R&amp;D Center. 
-      Over the last 8+ years,he has worked on developing and building China
-      Mobile's cloud products-"Big Cloud",  which is an fully cloud software
-      stack including computing,storage,network,security and cloud management 
-      platform. As the cheif architect of Big Cloud, Junwei leads a team more
-      than 400 people to construct China  Mobile's public cloud (It‘s one of the
-      biggest public cloud based openstack including 4000 physical nodes)  and
-      private cloud (It's one of the biggest private cloud based openstack
-      including 24000 physical nodes,  20000 baremetal nodes base ironic). So
-      junwei has rich experience in cloud R&amp;D and operation, especially  for
-      openstack. His team won OpenStack SuperUser in 2016 and they give back
-      their experience to OpenStack  Community all the time, for example telecom
-      demand about availability and scalability, real demand for  end-user, deep
-      customization for workload.</p> <p>JunWei Liu is also very active for
-      OpenStack's promotion and landing in China. For example, he is an 
-      organizer of  China OpenStack Hackathon and Meet-up in SuZhou. He always
-      comes up some unique idea for  OpenStack based the demand of China
-      Mobile's customers. He often leads his team to share their experience  for
-      China OpenStack users and make OpenStack more mature cooperating China
-      Mobile's partners.</p>
+      <p class="is-6">JunWei Liu serves as Director Of Open Infrastructure
+      Foundation in 2017. He works at China Mobile for  eight years and he is
+      the vice General Manager of Cloud Product Deparment,China Mobile SuZhou
+      R&amp;D Center.  Over the last 8+ years,he has worked on developing and
+      building China Mobile's cloud products-"Big Cloud",  which is an fully
+      cloud software stack including computing,storage,network,security and
+      cloud management  platform. As the cheif architect of Big Cloud, Junwei
+      leads a team more than 400 people to construct China  Mobile's public
+      cloud (It‘s one of the biggest public cloud based openstack including 4000
+      physical nodes)  and private cloud (It's one of the biggest private cloud
+      based openstack including 24000 physical nodes,  20000 baremetal nodes
+      base ironic). So junwei has rich experience in cloud R&amp;D and
+      operation, especially  for openstack. His team won OpenStack SuperUser in
+      2016 and they give back their experience to OpenStack  Community all the
+      time, for example telecom demand about availability and scalability, real
+      demand for  end-user, deep customization for workload.</p> <p>JunWei Liu
+      is also very active for OpenStack's promotion and landing in China. For
+      example, he is an  organizer of  China OpenStack Hackathon and Meet-up in
+      SuZhou. He always comes up some unique idea for  OpenStack based the
+      demand of China Mobile's customers. He often leads his team to share their
+      experience  for China OpenStack users and make OpenStack more mature
+      cooperating China Mobile's partners.</p>
     linkedin: 'https://lnkd.in/d6TpVAu'
     name: Junwei Liu
     openStack: 'https://www.openstack.org/community/members/profile/26694'
@@ -235,14 +235,14 @@ members:
       projects. We have participated in most OpenStack Summits and are active in
       a  few working groups. I personally support the InterOp Workig Group, a
       key area for OpenStack's  success given the centrifugal forces in such a
-      large project. DT has become gold member of the  Open Infrastructure Foundation in
-      2016 and has been headline sponsor for a few summits (Barcelona, Boston, 
-      Berlin). I was serving in the board in most of 2018 until I handed over to
-      Clemens Hardewig.</p> <p>Before joining DT end of 2011 I was a long-time
-      contributor to the Linux kernel, which also  gave me the privilege of
-      building up and leading SUSE Labs and work with a number of great 
-      engineers in- and outside my company, contributing to the success of the
-      Open Source technology.</p>
+      large project. DT has become gold member of the  Open Infrastructure
+      Foundation in 2016 and has been headline sponsor for a few summits
+      (Barcelona, Boston,  Berlin). I was serving in the board in most of 2018
+      until I handed over to Clemens Hardewig.</p> <p>Before joining DT end of
+      2011 I was a long-time contributor to the Linux kernel, which also  gave
+      me the privilege of building up and leading SUSE Labs and work with a
+      number of great  engineers in- and outside my company, contributing to the
+      success of the Open Source technology.</p>
     linkedin: 'https://de.linkedin.com/pub/kurt-garloff/'
     name: Kurt Garloff
     openStack: 'https://www.openstack.org/community/members/profile/6804'
@@ -313,22 +313,6 @@ members:
     openStack: 'https://www.openstack.org/community/members/profile/19791'
     picture: /img/board/ruanhe.jpg
     title: Platinum Representative
-  - company: Canonical
-    description: >-
-      Ryan is Engineering Manager on the Ubuntu OpenStack Engineering Team, a
-      global open source  software development team at Canonical, the company
-      behind Ubuntu Linux. He focuses on  application modeling, cloud operations
-      modeling and software engineering process automation. <p>Ryan joined
-      Canonical in 2014.  His background is in network engineering and open
-      source  system integration.  Previously, as Operations Director for a US
-      ISP/telecom, he lead the private  cloud engineering and deployment efforts
-      for that carrier and its clients.</p>
-    linkedin: 'https://www.linkedin.com/in/ryanbeisner'
-    name: Ryan Beisner
-    openStack: 'https://www.openstack.org/community/members/profile/19835'
-    picture: /img/board/ryanbeisner.png
-    title: Gold Representative
-    twitter: 'https://twitter.com/ryanbeisner'
   - company: AT&T
     description: >-
       Assistant Vice President (AVP) of Network Cloud Engineering. 21 years of
@@ -347,22 +331,22 @@ members:
     twitter: 'https://twitter.com/@ryanvanwyk'
   - company: Intel
     description: >-
-      Shane Wang has been an individual board member of Open Infrastructure Foundation
-      since 2015 and an  engineering manager in Networking and Storage team at
-      the Open Source Technology Center  (OTC), Intel. Shane joined Intel in
-      2004 after he graduated from Fudan University and got  his Ph.D. degree in
-      Computer Science, and since 2007 has been working on open source 
-      technologies, spanning low-level Virtualization Technology (VT) in Xen and
-      KVM, maintaining  tboot - an open source trusted boot solution, Yocto, and
-      managing embedded solutions. Since  2012 Shane has focused on OpenStack,
-      with his team working on Nova, Ironic, TripleO, Magnum,  Congress,
-      Watcher, Horizon, Keystone, Neutron, Ceilometer, Cinder, Glance, and the
-      3rd  party CIs. Right now, besides OpenStack, he is focusing on storage
-      and network technologies,  such as Ceph, ODL, OPNFV, ONAP and an edge
-      computing project called StarlingX. He used  to be the PTL of Stor4NFV
-      project under OPNFV. He also led the team and co-authored two  books
-      OpenStack Design and Implementation in 2015 and System Virtualization in
-      2009.  Shane is based in Shanghai, China.
+      Shane Wang has been an individual board member of Open Infrastructure
+      Foundation since 2015 and an  engineering manager in Networking and
+      Storage team at the Open Source Technology Center  (OTC), Intel. Shane
+      joined Intel in 2004 after he graduated from Fudan University and got  his
+      Ph.D. degree in Computer Science, and since 2007 has been working on open
+      source  technologies, spanning low-level Virtualization Technology (VT) in
+      Xen and KVM, maintaining  tboot - an open source trusted boot solution,
+      Yocto, and managing embedded solutions. Since  2012 Shane has focused on
+      OpenStack, with his team working on Nova, Ironic, TripleO, Magnum, 
+      Congress, Watcher, Horizon, Keystone, Neutron, Ceilometer, Cinder, Glance,
+      and the 3rd  party CIs. Right now, besides OpenStack, he is focusing on
+      storage and network technologies,  such as Ceph, ODL, OPNFV, ONAP and an
+      edge computing project called StarlingX. He used  to be the PTL of
+      Stor4NFV project under OPNFV. He also led the team and co-authored two 
+      books OpenStack Design and Implementation in 2015 and System
+      Virtualization in 2009.  Shane is based in Shanghai, China.
     name: Shane Wang
     openStack: 'https://www.openstack.org/community/members/profile/4843'
     picture: /img/board/shanewang.png
@@ -412,6 +396,20 @@ members:
     picture: /img/board/timbell.jpg
     title: Individual Representative
     twitter: 'https://twitter.com/noggin143'
+  - company: Canonical
+    description: >-
+      As a Product Manager at Canonical, Tytus drives the evolution of
+      Canonical’s products and services in the data centre space. Tytus received
+      his PhD with honours in telecommunications in 2018. His background is data
+      centre administration and cloud engineering. His research interests focus
+      on 5G networks, network functions virtualisation, container network
+      functions and unikernels.
+    linkedin: 'https://www.linkedin.com/in/tkurek'
+    name: Tytus Kurek
+    openStack: 'https://www.openstack.org/community/members/profile/70331'
+    picture: /img/tytuskurek.jpg
+    title: Gold Representative
+    twitter: ''
   - company: China Unicom Wo Cloud
     description: >-
       Xin Zhong got his Master Degree from Tsinghua University in 2003. He has
