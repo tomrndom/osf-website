@@ -68,23 +68,20 @@ members:
     twitter: 'https://twitter.com/spotzz_'
   - company: Dell EMC
     description: >-
-      <p>Arkady has been a member of OpenStack since Grizzly. He is director of
+      Arkady has been a member of OpenStack since Grizzly. He is director of
       engineering leading a team of  developers responsible for development of
       DellEMC OpenStack solutions. Arkady has PhD. in CS from UIUC.  He
       straddled academic, research, architect, developer, and product owner
       roles. Arkady roles included  but not limited to, research publications
-      and Program committee member for various conferences like  FAST (<a
-      href="https://www.usenix.org/legacy/events/fast11/organizers.html"
-      target="_blank">
-      https://www.usenix.org/legacy/events/fast11/organizers.html</a>), Chair or
-      board member of several  standard activities, like DAT
-      (http://www.datcollaborative.org),  OpenFabric  (<a
-      href="https://www.openfabrics.org/index.php"
-      target="_blank">https://www.openfabrics.org/index.php</a>)  and MPI-RT (<a
+      and Program committee member for various conferences like  <a
+      href="https://www.usenix.org/legacy/events/fast11/organizers.html">FAST</a>,
+      Chair or board member of several  standard activities, like <a
+      href="http://www.datcollaborative.org">DAT</a>,  <a
+      href="https://www.openfabrics.org/index.php">OpenFabric</a> and <a
       href="http://www.cse.msstate.edu/~yogi/dandass-mpirt-2004.pdf"
-      target="_blank">
-      http://www.cse.msstate.edu/~yogi/dandass-mpirt-2004.pdf</a>) to product
-      delivery, like EMC Atmos,  Dell OpenStack solutions among others.</p>
+      target="_blank">MPI-RT</a> to product delivery, like EMC Atmos,  Dell
+      OpenStack solutions among others.</p> 
+
       <p>Arkady represents Dell Technologies at OpenStack, including Dell EMC,
       VMware, Pivotal, VirtuStream.</p>
     name: Arkady Kanevsky
