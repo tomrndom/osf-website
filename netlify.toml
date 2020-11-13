@@ -20,5 +20,15 @@
   from = "/trademark"
   to = "https://www.openstack.org/brand/openstack-trademark-policy/"
   status = 302
+[[redirects]]
+  from = "https://www.osf.dev/*"
+  to = "https://openinfra.dev/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://osf.dev/*"
+  to = "https://openinfra.dev/:splat"
+  status = 301
+  force = true
   
  
