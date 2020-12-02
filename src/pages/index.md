@@ -2,22 +2,25 @@
 templateKey: index-page
 seo:
   description: >-
-    The OIF is an open source foundation supporting a global community of
-    100,000 individuals to build and operate open infrastructure software. 
+    The OpenInfra Foundation is an open source foundation supporting a global
+    community of 100,000 individuals to build and operate open infrastructure
+    software. 
   image: /img/oificon-social.png
-  title: 'Open Infrastructure Foundation (OIF): Open Source Infrastructure Foundation'
+  title: >-
+    Open Infrastructure Foundation (OpenInfra Foundation): Open Source
+    Infrastructure Foundation
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/'
 header:
   buttons:
     - link: /projects/
-      text: OIF projects
+      text: OpenInfra Foundation projects
     - link: /join/
-      text: Support the OIF
+      text: Support the OpenInfra Foundation
   subTitle: >-
-    With over 100,000 members in 187 countries, the OIF helps open source
-    communities build the  tools infrastructure operators need for Data Center
-    Clouds, 5G, Edge, Containers, CI/CD and beyond.  
+    With over 100,000 members in 187 countries, the OpenInfra Foundation helps
+    open source communities build the  tools infrastructure operators need for
+    Data Center Clouds, 5G, Edge, Containers, CI/CD and beyond.  
   title: Open Infrastructure
   upperTitle: WE HELP PEOPLE BUILD & OPERATE
 mainpitch:
@@ -30,16 +33,16 @@ mainpitch:
         image: /img/home/image2.jpg
         width: '2670'
     text: >-
-      Modern apps rely on automated infrastructure, from massive datacenter
+      Modern apps rely on automated infrastructure, from massive data center
       clouds to the smallest edge  nodes for IoT and 5G, and none of it is
       possible without open source software. This is Open  Infrastructure: open
       source technologies enabling everyone to provide infrastructure for
       others  to build solutions on.
 
-      OIF and its 100,000 members from 187 countries exist to ensure each open
-      source component is  built and tested together, collaboratively, with a
-      radical approach to openness we call the  Four Opens: Open Source,
-      Development, Design and Community.
+      OpenInfra Foundation and its 100,000 members from 187 countries exist to
+      ensure each open source component is  built and tested together,
+      collaboratively, with a radical approach to openness we call the  Four
+      Opens: Open Source, Development, Design and Community.
 
       From Community, where anyone is welcome to contribute; to Design, where
       diverse ideas are shared  before the coding begins; to Development, when
@@ -93,7 +96,7 @@ whyExpand:
 projects:
   button:
     link: /projects/
-    text: See all OIF projects
+    text: See all OpenInfra Foundation projects
   images:
     - image: /img/home/logo1.svg
     - image: /img/home/logo2.svg
@@ -103,10 +106,10 @@ projects:
     - image: /img/home/logo5.svg
   text: >-
     Staying true to our mission of helping people build and operate open
-    infrastructure, OIF hosts  open source projects that contribute to the
-    advancement of today’s infrastructure. From cloud  hosting to the driving
-    force behind 5G, these projects are code first and operate under the
-    guiding  principles we call the “Four Opens”.
+    infrastructure, OpenInfra Foundation hosts  open source projects that
+    contribute to the advancement of today’s infrastructure. From cloud  hosting
+    to the driving force behind 5G, these projects are code first and operate
+    under the guiding  principles we call the “Four Opens”.
   title: THE PROJECTS BEHIND OPEN INFRASTRUCTURE
 people:
   review:
@@ -153,7 +156,7 @@ sponsor:
       - alt: City Network
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_CityNetwork.png
       - alt: Dell Technologies
-        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_DellTechnologies.png        
+        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_DellTechnologies.png
       - alt: EasyStack
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_EasyStack.png
       - alt: H3C
