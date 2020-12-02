@@ -36,7 +36,7 @@
           "url": "/projects/services/"
         },
         {
-          "text": "Host at OIF ",
+          "text": "Host at OpenInfra Foundation ",
           "url": "/projects/hosting/"
         }
       ]
@@ -52,7 +52,7 @@
           "url": "/companies/"
         },
         {
-          "text": "Join OIF ",
+          "text": "Join OpenInfra Foundation ",
           "url": "/join"
         }
       ]
@@ -121,7 +121,7 @@
     }
   ],
   "button": {
-    "text": "Join the OIF",
+    "text": "Join the OpenInfra Foundation",
     "url": "/join/"
   }
 }
