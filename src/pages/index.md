@@ -14,9 +14,9 @@ seo:
 header:
   buttons:
     - link: /projects/
-      text: OpenInfra Foundation projects
+      text: Projects
     - link: /join/
-      text: Support the OpenInfra Foundation
+      text: Join Us
   subTitle: >-
     With over 100,000 members in 187 countries, the OpenInfra Foundation helps
     open source communities build the  tools infrastructure operators need for
