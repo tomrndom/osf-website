@@ -37,7 +37,7 @@
           "link": "/projects/services/"
         },
         {
-          "text": "Host at OIF",
+          "text": "Host at OpenInfra Foundation",
           "link": "/projects/hosting/"
         }
       ]
@@ -50,7 +50,7 @@
           "link": "/companies/"
         },
         {
-          "text": "Join OIF",
+          "text": "Join OpenInfra Foundation",
           "link": "/join/"
         }
       ]
@@ -101,7 +101,7 @@
       "title": "Blog",
       "nav": [
         {
-          "text": "Open Infra Blog",
+          "text": "OpenInfra Blog",
           "link": "/blog/"
         }
       ]
