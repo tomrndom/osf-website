@@ -128,7 +128,7 @@ people:
         THANKS to 1,400+ contributors from 150+ orgs who made OpenStack Stein
         (#19!) a reality.  There are a lot of OSS projects dominated by one
         company, who are changing models right  now to control the benefits($).
-        At OIF #fouropens mean more opportunity, IMHO.
+        At Open Infra Foundation #fouropens mean more opportunity, IMHO.
       user: '@sparkycollier'
     - name: Tim Bell
       picture: >-
