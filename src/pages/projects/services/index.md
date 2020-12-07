@@ -13,13 +13,13 @@ header:
   subTitle: >-
     These are the activities open source projects need in order to effectively
     build a broad community and drive the  effectiveness of their software.
-  title: OIF PROJECT SERVICES
+  title: OpenInfra Foundation PROJECT SERVICES
 row1:
   images:
     - image: /img/about/about-picture4.jpg
     - image: /img/about/about-picture5.jpg
   text1: >-
-    We believe that communities thrive by focusing on relationships. OIF staff
+    We believe that communities thrive by focusing on relationships. OpenInfra Foundation staff
     are active members of each community  that we support with a hands-on
     approach. We not only devote resources, energy and attention to helping
     each  project succeed, but also take the success and health of each
@@ -65,7 +65,7 @@ row4:
     text: Open Infrastructure Summits
     url: 'https://www.openstack.org/summit'
   text1: >-
-    All projects hosted at OIF are featured at global events, including
+    All projects hosted at OpenInfra Foundation are featured at global events, including
     community-lead events, local open  infrastructure meetups, industry events,
     and the global     
   text2: >-
@@ -87,7 +87,7 @@ row5:
   text1: We believe that free software should be built using free tools.
   text2: >-
     is an openly-operated set of free software tools to sustain collaborative
-    open source development.  All projects hosted at OIF are invited to use and
+    open source development.  All projects hosted at OpenInfra Foundation are invited to use and
     contribute to the OpenDev project which includes  tooling such as mailing
     lists, etherpads, wikis and a full software development workflow powered  by
     git, gerrit, and
@@ -100,7 +100,7 @@ row6:
     paperwork, secure global  trademarks and make sure all of the details are
     buttoned up.
   text2: >-
-    Each project has specific needs and goals that the OIF team is here to
+    Each project has specific needs and goals that the OpenInfra Foundation team is here to
     support. Depending on  community needs, there are many other services that
     our team can offer, and we are ready to  customize the deliverables based on
     the community’s needs. In addition to the above listed  services, examples

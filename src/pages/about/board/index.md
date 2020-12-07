@@ -2,7 +2,7 @@
 templateKey: board-page
 seo:
   description: >-
-    The Board of Directors provides strategic and financial oversight of OIF
+    The Board of Directors provides strategic and financial oversight of OpenInfra Foundation
     resources and staff.
   image: /img/osficon-social.png
   title: Board of Directors
@@ -10,7 +10,7 @@ seo:
   url: 'https://openinfra.dev/about/board/'
 header:
   subTitle: >-
-    The Board of Directors provides strategic and financial oversight of OIF
+    The Board of Directors provides strategic and financial oversight of OpenInfra Foundation
     resources and staff.
   title: BOARD OF DIRECTORS
 members:

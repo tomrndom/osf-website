@@ -23,13 +23,13 @@ src="https://www.youtube.com/embed/o2Ztq7pYMNk">
 
 We believe digital infrastructure is core to human progress in every country, company and industry. We’ve created a community driven open source approach which is the best way to openly develop technology that is broadly available for use around the world.
 
-## Open Source Communities the OIF Supports
+## Open Source Communities the OpenInfra Foundation Supports
 
-Staying true to our mission of helping people build and operate open infrastructure, OIF supports open source projects contributing to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “[Four Opens](/four-opens/)”.
+Staying true to our mission of helping people build and operate open infrastructure, OpenInfra Foundation supports open source projects contributing to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “[Four Opens](/four-opens/)”.
 <div class="section-bg-green-logos-container"><div class="section-bg-green-logo" style="margin-bottom:10px;"><img src="https://openinfra.dev/img/home/logo1.svg" alt=""></div><div class="section-bg-green-logo" style="margin-bottom:10px;"><img src="https://openinfra.dev/img/home/logo2.svg" alt=""></div><div class="section-bg-green-logo" style="margin-bottom:10px;"><img src="/static/24c41a231e81a73a8964d482f47c69e8/logo7.svg" alt=""></div><div class="section-bg-green-logo" style="margin-bottom:10px;"><img src="https://openinfra.dev/img/home/logo3.svg" alt=""></div><div class="section-bg-green-logo" style="margin-bottom:10px;"><img src="https://openinfra.dev/img/home/logo4.svg" alt=""></div><div class="section-bg-green-logo" style="margin-bottom:10px;"><img src="https://osf.dev/img/home/logo5.svg" alt=""></div></div>
 <div class="section-bg-green-logos-container"><div class="section-bg-green-logo" style="margin-top:0px;"><a href="https://airshipit.org">Airship</a></div><div class="section-bg-green-logo" style="margin-top:0px;"><a href="https://katacontainers.io">Kata Containers</a></div><div class="section-bg-green-logo" style="margin-top:0px;"><a href="https://openinfralabs.org">OpenInfra Labs</a></div><div class="section-bg-green-logo" style="margin-top:0px;"><a href="https://openstack.org">OpenStack</a></div><div class="section-bg-green-logo" style="margin-top:0px;"><a href="https://starlingx.io">StarlingX</a></div><div class="section-bg-green-logo" style="margin-top:0px;"><a href="https://zuul-ci.org">Zuul</a></div></div>
 
-The OIF also nurtures cross-community collaboration with other open source communities like Ansible, Ceph, Gerrit, Kubernetes, [Magma](https://magmacore.org), Open vSwitch, rust-vmm and more. 
+The OpenInfra Foundation also nurtures cross-community collaboration with other open source communities like Ansible, Ceph, Gerrit, Kubernetes, [Magma](https://magmacore.org), Open vSwitch, rust-vmm and more. 
 
 ## Open Source Works Better When We Do It Together
 
@@ -43,7 +43,7 @@ Join over 100,000 community members from 187 countries to advance the future of 
 
 #### It’s free to participate as an individual Foundation member. 
 
-A Foundation Member level has substantial opportunity as a member of the Open Infrastructure Foundation to impact the future direction of OIF supported projects and initiatives.
+A Foundation Member level has substantial opportunity as a member of the Open Infrastructure Foundation to impact the future direction of OpenInfra Foundation supported projects and initiatives.
 
 Here's how you can participate as an Open Infrastructure Foundation Individual Member: 
 
@@ -63,7 +63,7 @@ PARTICIPATE [AS AN INDIVIDUAL FOUNDATION MEMBER](https://openstackid.org/auth/re
 
 #### Community Account: Free
 
-With a community account, you still have the opportunity to participate in all of the OIF’s community activities. However, to run for leadership positions and vote in elections, you will need to upgrade your account to an Open Infrastructure Foundation account (please see above). 
+With a community account, you still have the opportunity to participate in all of the OpenInfra Foundation's community activities. However, to run for leadership positions and vote in elections, you will need to upgrade your account to an Open Infrastructure Foundation account (please see above). 
 
 Here's how you can participate as an Open Infrastructure Community Member:
 
@@ -79,17 +79,17 @@ Here's how you can participate as an Open Infrastructure Community Member:
 
 ### Join as a Platinum, Gold or Silver Member
 
-The Open Infrastructure Foundation was announced as the successor to the OpenStack Foundation on October 19, 2020, and will be fully operational on Jan 1, 2021. [Over 60 organizations have already signed on as OIF members](/companies/), and there’s still time for your company to join as Founding Member of OIF. [Contact us](mailto:ecosystem@openinfra.dev) **by November 30, 2020 to discuss membership for 2021**. 
+The Open Infrastructure Foundation was announced as the successor to the OpenStack Foundation on October 19, 2020, and will be fully operational on Jan 1, 2021. [Over 60 organizations have already signed on as OpenInfra Foundation members](/companies/), and there’s still time for your company to join as Founding Member of OpenInfra Foundation. [Contact us](mailto:ecosystem@openinfra.dev) **by November 30, 2020 to discuss membership for 2021**. 
 
 [Meet the global community](https://youtu.be/o2Ztq7pYMNk) you have the opportunity to support, and hear straight from the Founding Open Infrastructure Foundation Members on why they’re supporting the global community. 
  
-If you are interested in joining as a founding corporate member for the OIF, please [Contact us](mailto:ecosystem@openinfra.dev). 
+If you are interested in joining as a founding corporate member for the OpenInfra Foundation, please [Contact us](mailto:ecosystem@openinfra.dev). 
 
 #### Platinum Membership
 
 The Open Infrastructure Foundation has [Platinum Members](/companies/) as specified in the bylaws, who play a critical role in providing support that makes the community’s work possible. Organizations are highlighted as the community members who are collaborating with the global Open Infrastructure community to advance open source.  
 
-Four new organizations joined the OIF in October, 2020 and other organizations can still apply to become a founding Platinum Member*. Contact us if you are interested in becoming a Platinum Member. Review the criteria published by the OIF Board of Directors as a guide, as well as the bylaws and other legal documents for more details. The Platinum Members each contribute $350k USD per year to the Foundation to support the global community and must also have the equivalent of 2 full time employees contributing to OIF projects.
+Four new organizations joined the OpenInfra Foundation in October, 2020 and other organizations can still apply to become a founding Platinum Member*. Contact us if you are interested in becoming a Platinum Member. Review the criteria published by the OpenInfra Foundation Board of Directors as a guide, as well as the bylaws and other legal documents for more details. The Platinum Members each contribute $350k USD per year to the Foundation to support the global community and must also have the equivalent of 2 full time employees contributing to OpenInfra Foundation projects.
 
 <p style="font-size:-3em;">* All Platinum Members are subject to board approval.</p>
 
@@ -114,16 +114,16 @@ Established Company: $15k/year | Start Up: $5k/year
 [Contact us](mailto:ecosystem@openinfra.dev) **to become a Silver Member**.
 
 
-### OIF Membership Benefits
+### OpenInfra Foundation Membership Benefits
 
 Platinum, Silver, and Gold Members of the Open Infrastructure Foundation all receive: 
 
-<ul style="color:#133e68;"><li>Access to OIF projects restricted use logos for commercial use if and as long as product meets technical requirements (your support helps the Foundation promote and protect the project brand)</li>
+<ul style="color:#133e68;"><li>Access to OpenInfra Foundation projects restricted use logos for commercial use if and as long as product meets technical requirements (your support helps the Foundation promote and protect the project brand)</li>
 <li>Designation as a Member with corporate logo placement in supporters section of openinfra.dev</li>
-<li>Profile on OIF project websites detailing your organization's support for OIF projects, with link to your site</li>
-<li>OIF Member badge available for corporate website or marketing materials</li>
-<li>Opportunity to be included in OIF newsletter</li>
-<li>Potential to promote your qualifying product in the OIF project specific marketplace.</li>
+<li>Profile on OpenInfra Foundation project websites detailing your organization's support for OpenInfra Foundation projects, with link to your site</li>
+<li>OpenInfra Foundation Member badge available for corporate website or marketing materials</li>
+<li>Opportunity to be included in OpenInfra Foundation newsletter</li>
+<li>Potential to promote your qualifying product in the OpenInfra Foundation project specific marketplace.</li>
 <li>Early access to selected Summit sponsorships.</li>
 </ul>
 

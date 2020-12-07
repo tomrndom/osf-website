@@ -23,7 +23,7 @@ The Four Opens are a set of principles guidelines that were created by the OpenS
 
 Under these guidelines, the OpenStack community grew from tens of contributors to thousands, creating one of the top three most active open source projects in the world behind the Linux Kernel and Chromium. The Four Opens were instrumental not only in this success but also in building a thriving, global community.
 
-We at OIF consider The Four Opens our guiding principles in everything we do.
+We at OpenInfra Foundation consider The Four Opens our guiding principles in everything we do.
 
 * [Open Source](/four-opens/open-source/)
 * [Open Design](/four-opens/open-design/)

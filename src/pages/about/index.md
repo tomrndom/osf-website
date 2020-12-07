@@ -2,14 +2,14 @@
 templateKey: generic-page
 seo:
   description: >-
-    The OIF is an open source foundation supporting a global community of
+    The OpenInfra Foundation is an open source foundation supporting a global community of
     100,000 individuals to build and operate open infrastructure software. 
   image: /img/oif_logo_pill.png
   title: About
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/about/'
 title: About
-subTitle: About the OIF
+subTitle: About the OpenInfra Foundation
 footer:
   button: ''
   buttonText: ''
@@ -17,13 +17,13 @@ footer:
   title: ''
   subTitle: ''
 ---
-When the OIF formed to govern the OpenStack project in 2012, clouds mainly offered virtual machines in a datacenter. The Foundation evolved as datacenter composition evolved into a mix of bare metal, VMs, and containers. While the OpenStack project is seen as the de facto open source platform for operating cloud infrastructure around the world, the Foundation realized more technology is needed to meet all of the diverse use cases, and we want to make sure it’s developed in the open, using the same proven approach to open source.
+When the OpenInfra Foundation formed to govern the OpenStack project in 2012, clouds mainly offered virtual machines in a datacenter. The Foundation evolved as datacenter composition evolved into a mix of bare metal, VMs, and containers. While the OpenStack project is seen as the de facto open source platform for operating cloud infrastructure around the world, the Foundation realized more technology is needed to meet all of the diverse use cases, and we want to make sure it’s developed in the open, using the same proven approach to open source.
 
 For this reason, we expanded our focus as a foundation and are helping to establish new open source communities to advance areas where technology can successfully contribute to the development of open infrastructure: AI/Machine Learning, CI/CD, Container Infrastructure, Edge Computing and of course, Public, Private and Hybrid Clouds.
 
-Now, the OIF supports the development and adoption of open infrastructure globally, across a community of over 100,000 individuals in 187 countries, by hosting open source projects and communities of practice.
+Now, the OpenInfra Foundation supports the development and adoption of open infrastructure globally, across a community of over 100,000 individuals in 187 countries, by hosting open source projects and communities of practice.
 
-Staying true to its mission of helping people build and operate open infrastructure, OIF hosts open source projects that contribute to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “Four Opens.” These projects include [OpenStack](https://www.openstack.org), [Airship](https://airshipit.org), [Kata Containers](https://katacontainers.io/), [OpenInfra Labs](https://openinfralabs.org/), [StarlingX](https://starlingx.io), and [Zuul](https://zuul-ci.org/). Additional initiatives supported by the OIF include [OpenDev](https://opendev.org/), project hosting, continuous integration tooling, and virtual collaboration spaces for open source software projects and Superuser, an online publication where users and developers share how they're combining software from OIF communities with other popular open source tools like Kubernetes, Ceph, Cloud Foundry, OVS, OpenContrail, Open Switch, OPNFV and more to power their open infrastructure.
+Staying true to its mission of helping people build and operate open infrastructure, OpenInfra Foundation hosts open source projects that contribute to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “Four Opens.” These projects include [OpenStack](https://www.openstack.org), [Airship](https://airshipit.org), [Kata Containers](https://katacontainers.io/), [OpenInfra Labs](https://openinfralabs.org/), [StarlingX](https://starlingx.io), and [Zuul](https://zuul-ci.org/). Additional initiatives supported by the OpenInfra Foundation include [OpenDev](https://opendev.org/), project hosting, continuous integration tooling, and virtual collaboration spaces for open source software projects and Superuser, an online publication where users and developers share how they're combining software from OpenInfra Foundation communities with other popular open source tools like Kubernetes, Ceph, Cloud Foundry, OVS, OpenContrail, Open Switch, OPNFV and more to power their open infrastructure.
 
 [Individual membership of the Open Infrastructure Foundation](/join/) is free for anyone with an interest in open infrastructure. Individual Members are expected to participate in the community through technical contributions or community building efforts, and vote in an annual election for the Board of Directors.
 

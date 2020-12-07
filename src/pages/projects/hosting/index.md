@@ -2,7 +2,7 @@
 templateKey: hosting-page
 seo:
   description: >-
-    As an open source software host, the OIF dedicates resources towards
+    As an open source software host, the OpenInfra Foundation dedicates resources towards
     advancing the project community's goals and growing adoption. 
   image: /img/oificon-social.png
   title: Open Source Project Hosting Website
@@ -10,9 +10,9 @@ seo:
   url: 'https://openinfra.dev/projects/hosting/'
 header:
   subTitle: >-
-    The OIF supports active, global, and engaged open source infrastructure
+    The OpenInfra Foundation supports active, global, and engaged open source infrastructure
     communities.
-  title: HOST YOUR PROJECT AT OIF
+  title: HOST YOUR PROJECT AT OpenInfra Foundation
 row1:
   email:
     link: 'mailto:community@openinfra.dev'
@@ -26,25 +26,25 @@ row1:
     - item: Open Development
     - item: Open Design
   text1: >-
-    The OIF approach to open source provides a home for Open Infrastructure
+    The OpenInfra Foundation approach to open source provides a home for Open Infrastructure
     communities that align with the “Four Opens” philosophy:      
   text2: >-
     Communities want to work with us because we help projects thrive and truly
-    believe that collaboration is the key to success.  The OIF staff is a small
+    believe that collaboration is the key to success.  The OpenInfra Foundation staff is a small
     team, but we make a big impact. Collectively we support the largest, most
     active, and engaged open  source infrastructure communities globally.
   text3: >-
-    OIF operates efficiently based on years of experience figuring out what
+    OpenInfra Foundation operates efficiently based on years of experience figuring out what
     works and what doesn’t, with a focus on community  development. We dedicate
     our resources towards advancing the project goals and growing adoption. Our
     strength lies in the  communities we serve. Inquire about hosting your
-    project with OIF.
-  title: HOST AT OIF
+    project with OpenInfra Foundation.
+  title: HOST AT OpenInfra Foundation
 row2:
   images:
     - image: /img/projects-img/hosting3.jpg
   text1: >-
-    At OIF we value project individuality and collaboration. The quality of each
+    At OpenInfra Foundation we value project individuality and collaboration. The quality of each
     project is our main focus, not the overall  quantity of projects we host.
     There is no template or a one-size-fits-all model for the way we engage and
     support open  source projects. Each project is unique and each community has

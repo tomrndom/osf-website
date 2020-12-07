@@ -2,7 +2,7 @@
 templateKey: staff-page
 seo:
   description: >-
-    The OIF staff serves developers, users, and ecosystem by providing a set of
+    The OpenInfra Foundation staff serves developers, users, and ecosystem by providing a set of
     shared resources to help organizations build and operate open
     infrastructure.  "
   image: /img/osficon-social.png
@@ -11,7 +11,7 @@ seo:
   url: 'https://openinfra.dev/about/staff/'
 header:
   subTitle: >
-    The Open Infrastructure Foundation (OIF) staff supports the development and adoption
+    The Open Infrastructure Foundation (OpenInfra Foundation) staff supports the development and adoption
     of Open Infrastructure globally by hosting open source projects and
     communities of practice, including datacenter cloud, edge computing, NFV,
     CI/CD and container infrastructure. 
@@ -24,7 +24,7 @@ banner:
   subTitle: >-
     The Open Infrastructure community includes over 100,000 individuals across
     187 countries and over 600 organizations. Developers, users, and the entire
-    ecosystem all contribute to the success of OIF's open source projects and
+    ecosystem all contribute to the success of OpenInfra Foundation's open source projects and
     initiatives. 
   title: COMMUNITY ENGAGEMENT AND DEVELOPMENT
 members:
@@ -395,10 +395,10 @@ support:
         messaging, PR, and AR services and thought leadership programming to
         guide the evolution of the foundation’s flagship OpenStack cloud
         infrastructure software project. Its team specifically worked to elevate
-        the visibility and expert voices of the OIF leadership team. Work has
+        the visibility and expert voices of the OpenInfra Foundation leadership team. Work has
         included all aspects of marcom and external communications, from
         strategic counsel through tactical implementation of programming and
-        supporting the efforts of the OIF's comms teams in APAC and EMEA.
+        supporting the efforts of the OpenInfra Foundation's comms teams in APAC and EMEA.
       name: Cathey.co
       picture: /img/catehyco.jpg
       title: Public Relations / Analyst Relations Partner
@@ -407,8 +407,8 @@ support:
         web and mobile applications where form meets function, blending design
         and development to generate high code quality with ‘don’t make me think’
         interfaces. Started in 2001 by J.P. Maxwell, Tipit maintains a global
-        team of senior engineers and designers who have partnered with the OIF
-        since 2012 to help develop custom tooling for the OIF's global events,
+        team of senior engineers and designers who have partnered with the OpenInfra Foundation
+        since 2012 to help develop custom tooling for the OpenInfra Foundation's global events,
         marketing websites, content management systems, and mobile apps. Devoted
         to open source software initiatives, Tipit utilizes open source tooling
         and has released several open source projects.

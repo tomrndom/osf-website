@@ -1,6 +1,6 @@
 {
   "title": "Blog",
-  "subTitle": "OIF news, announcements, best practices, use cases and more.",
+  "subTitle": "OpenInfra Foundation news, announcements, best practices, use cases and more.",
   "categories": [
     {
       "text": "News & Announcements",
@@ -31,8 +31,8 @@
   ],
   "seo": {
     "title": "Blog",
-    "titleTemplate": "%s  - Open Infrastructure Foundation OIF",
-    "description": "Projects further the OIF mission of supporting the development and adoption of production infrastructure with open source components.",
+    "titleTemplate": "%s  - Open Infrastructure Foundation",
+    "description": "Projects further the OpenInfra Foundation mission of supporting the development and adoption of production infrastructure with open source components.",
     "url": "https://openinfra.dev/blog/",
     "image": "/img/oificon-social.png",
     "twitterUsername": "@OpenInfraDev",

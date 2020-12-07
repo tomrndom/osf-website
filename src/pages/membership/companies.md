@@ -3,7 +3,7 @@ templateKey: companies-page
 seo:
   description: The Home of Open Infrastructure
   image: /img/oificon-social.png
-  title: Supporting Companies - Open Infrastructure Foundation OIF
+  title: Supporting Companies - Open Infrastructure Foundation (OpenInfra Foundation)
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/companies/'
 header:
@@ -41,7 +41,7 @@ companies:
       portion of the funding to achieve the Foundation's mission of protecting,
       empowering and promoting the Open Infrastructure community and open source
       software projects. Each Platinum Member's company strategy aligns with the
-      OIF mission and is responsible for committing full-time resources toward
+      OpenInfra Foundation mission and is responsible for committing full-time resources toward
       the project. There are eight Platinum Members at any given time, each of
       which holds a seat on the Board of  Directors. Thank you to the following
       Platinum Members who are committed to the Open Infrastructure community's
@@ -86,7 +86,7 @@ companies:
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
     text: >-
       Open Infrastructure Foundation Gold Members provide funding and pledge
-      strategic alignment to the OIF mission.  There can be up to twenty-four
+      strategic alignment to the OpenInfra Foundation mission.  There can be up to twenty-four
       Gold Members at any given time, subject to board approval. If your
       organization  is highly involved with the Open Infrastructure community
       and interested in becoming a Gold Member, read more about joining the 
@@ -157,7 +157,7 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png
     text: >-
       Open Infrastructure Foundation Silver Members provide funding and pledge
-      strategic alignment to the OIF mission. If your organization  is highly
+      strategic alignment to the OpenInfra Foundation mission. If your organization  is highly
       involved with  the Open Infrastructure community and interested in
       becoming a Silver Member,  read more about joining the  Foundation. Thank
       you to the following Silver  Members who are critical to the global
@@ -1338,10 +1338,8 @@ companies:
       - alt: UnitedStack
         image: /img/unitedstack-sp-lg.jpg
     text: >-
-      The resources provided by the OIF Members are critical to making the Open
-      Infrastructure Foundation  successful, but there are many ways to support
-      the OIF mission, whether you're contributing  code, building a product or
-      helping build the community. Below are companies who are  actively
+      The resources provided by the OpenInfra Foundation Members are critical to making the Open Infrastructure Foundation successful, but there are many ways to support
+      the OpenInfra Foundation mission, whether you're contributing  code, building a product or helping build the community. Below are companies who are  actively
       involved in making the Open Infrastructure community successful. If you
       would like your company listed here, please  complete the <a
       href="https://openstack.echosign.com/public/hostedForm?formid=4TBJIEXJ4M7X2Q">logo 
