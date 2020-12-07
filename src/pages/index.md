@@ -1,37 +1,34 @@
 ---
 templateKey: index-page
 seo:
-  description: >-
-    The OpenInfra Foundation is an open source foundation supporting a global
-    community of 100,000 individuals to build and operate open infrastructure
-    software. 
+  description: "The OpenInfra Foundation is an open source foundation supporting a
+    global community of 100,000 individuals to build and operate open
+    infrastructure software. "
   image: /img/oificon-social.png
-  title: >-
-    Open Infrastructure Foundation (OpenInfra Foundation): Open Source
-    Infrastructure Foundation
-  twitterUsername: '@OpenInfraDev'
-  url: 'https://openinfra.dev/'
+  title: "Open Infrastructure Foundation (OpenInfra Foundation): Open Source
+    Infrastructure Foundation"
+  twitterUsername: "@OpenInfraDev"
+  url: https://openinfra.dev/
 header:
   buttons:
     - link: /projects/
       text: Projects
     - link: /join/
       text: Join Us
-  subTitle: >-
-    With over 100,000 members in 187 countries, the OpenInfra Foundation helps
-    open source communities build the  tools infrastructure operators need for
-    Data Center Clouds, 5G, Edge, Containers, CI/CD and beyond.  
+  subTitle: "With over 100,000 members in 187 countries, the OpenInfra Foundation
+    helps open source communities build the  tools infrastructure operators need
+    for Data Center Clouds, 5G, Edge, Containers, CI/CD and beyond.  "
   title: Open Infrastructure
   upperTitle: WE HELP PEOPLE BUILD & OPERATE
 mainpitch:
   row1:
     images:
-      - height: '2067'
+      - height: "2067"
         image: /img/home/image1.jpg
-        width: '1691'
-      - height: '1671'
+        width: "1691"
+      - height: "1671"
         image: /img/home/image2.jpg
-        width: '2670'
+        width: "2670"
     text: >-
       Modern apps rely on automated infrastructure, from massive data center
       clouds to the smallest edge  nodes for IoT and 5G, and none of it is
@@ -39,17 +36,10 @@ mainpitch:
       source technologies enabling everyone to provide infrastructure for
       others  to build solutions on.
 
-      OpenInfra Foundation and its 100,000 members from 187 countries exist to
-      ensure each open source component is  built and tested together,
-      collaboratively, with a radical approach to openness we call the  Four
-      Opens: Open Source, Development, Design and Community.
+      OpenInfra Foundation and its 100,000 members from 187 countries exist to ensure each open source component is  built and tested together, collaboratively, with a radical approach to openness we call the  Four Opens: Open Source, Development, Design and Community.
 
-      From Community, where anyone is welcome to contribute; to Design, where
-      diverse ideas are shared  before the coding begins; to Development, when
-      every patch is visible and tested before it lands;  to the Source code
-      itself, which is shared with the world: each is critical to how we
-      deliver  open source.
-    title: 'BUILT BY THE FOUR OPENS, BUILT BY THE COMMUNITY'
+      From Community, where anyone is welcome to contribute; to Design, where diverse ideas are shared  before the coding begins; to Development, when every patch is visible and tested before it lands;  to the Source code itself, which is shared with the world: each is critical to how we deliver  open source.
+    title: BUILT BY THE FOUR OPENS, BUILT BY THE COMMUNITY
   row2:
     images:
       - image: /img/home/image3.jpg
@@ -61,9 +51,7 @@ mainpitch:
       massively popular games like Overwatch™ to the largest power company  in
       the world in China, to Workday, to ATT's 5G networks and beyond.
 
-      Now we're ready to share this radically open method for developing open
-      source software with  the world beyond OpenStack, helping people build and
-      operate open infrastructure.
+      Now we're ready to share this radically open method for developing open source software with  the world beyond OpenStack, helping people build and operate open infrastructure.
     title: WHY OPEN SOURCE?
 whyExpand:
   icons:
@@ -87,11 +75,7 @@ whyExpand:
     to make sure it’s developed in the  open, using the same proven approach to
     open source.
 
-    For this reason, we have expanded our focus as a foundation and are helping
-    to establish new open  source communities to advance areas where technology
-    can successfully contribute to the development  of open infrastructure:
-    AI/Machine Learning, CI/CD, Container Infrastructure, Edge Computing and  of
-    course, Public, Private and Hybrid Clouds.
+    For this reason, we have expanded our focus as a foundation and are helping to establish new open  source communities to advance areas where technology can successfully contribute to the development  of open infrastructure: AI/Machine Learning, CI/CD, Container Infrastructure, Edge Computing and  of course, Public, Private and Hybrid Clouds.
   title: Why expand beyond the OpenStack project?
 projects:
   button:
@@ -104,8 +88,7 @@ projects:
     - image: /img/home/logo3.svg
     - image: /img/home/logo4.svg
     - image: /img/home/logo5.svg
-  text: >-
-    Staying true to our mission of helping people build and operate open
+  text: Staying true to our mission of helping people build and operate open
     infrastructure, OpenInfra Foundation hosts  open source projects that
     contribute to the advancement of today’s infrastructure. From cloud  hosting
     to the driving force behind 5G, these projects are code first and operate
@@ -114,31 +97,25 @@ projects:
 people:
   review:
     - name: Guillaume Chenuet
-      picture: >-
-        https://pbs.twimg.com/profile_images/1060472215286833152/cqMbWgDq_bigger.jpg
-      text: >-
-        Today was a great day for @ZuulCI and @OpenStack at @leboncoinEng!
+      picture: https://pbs.twimg.com/profile_images/1060472215286833152/cqMbWgDq_bigger.jpg
+      text: "Today was a great day for @ZuulCI and @OpenStack at @leboncoinEng!
         Testing the load capacity  of our primary #OpenStack cluster. Excited to
-        add the second one tomorrow and perform more  #ZuulCI builds on them!
-      user: '@gchenuet'
+        add the second one tomorrow and perform more  #ZuulCI builds on them!"
+      user: "@gchenuet"
     - name: Mark Collier
-      picture: >-
-        https://pbs.twimg.com/profile_images/795298621965144064/rbQvkw0c_bigger.jpg
-      text: >-
-        THANKS to 1,400+ contributors from 150+ orgs who made OpenStack Stein
+      picture: https://pbs.twimg.com/profile_images/795298621965144064/rbQvkw0c_bigger.jpg
+      text: "THANKS to 1,400+ contributors from 150+ orgs who made OpenStack Stein
         (#19!) a reality.  There are a lot of OSS projects dominated by one
         company, who are changing models right  now to control the benefits($).
-        At Open Infra Foundation #fouropens mean more opportunity, IMHO.
-      user: '@sparkycollier'
+        At OpenInfra Foundation #fouropens mean more opportunity, IMHO."
+      user: "@sparkycollier"
     - name: Tim Bell
-      picture: >-
-        https://pbs.twimg.com/profile_images/556073063888850945/xCO4x5vO_bigger.jpeg
-      text: >-
-        Thanks to the #openstack infra team for the help to debug a mailing list
+      picture: https://pbs.twimg.com/profile_images/556073063888850945/xCO4x5vO_bigger.jpeg
+      text: "Thanks to the #openstack infra team for the help to debug a mailing list
         issue. It's easy  to forget how much effort goes into an open source
         community above writing the code:  ticket handling, user registration,
-        test infrastructure, web outreach and collaboration tools.
-      user: '@noggin143'
+        test infrastructure, web outreach and collaboration tools."
+      user: "@noggin143"
   title: WHAT PEOPLE ARE SAYING
 sponsor:
   gold:
@@ -203,4 +180,3 @@ sponsor:
     title: Platinum Members
   title: Companies supporting the Open Infrastructure Foundation
 ---
-
