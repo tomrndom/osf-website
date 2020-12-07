@@ -107,7 +107,7 @@ people:
       text: "THANKS to 1,400+ contributors from 150+ orgs who made OpenStack Stein
         (#19!) a reality.  There are a lot of OSS projects dominated by one
         company, who are changing models right  now to control the benefits($).
-        At OpenInfra Foundation #fouropens mean more opportunity, IMHO.
+        At OpenInfra Foundation #fouropens mean more opportunity, IMHO."
       user: '@sparkycollier'
     - name: Tim Bell
       picture: https://pbs.twimg.com/profile_images/556073063888850945/xCO4x5vO_bigger.jpeg
