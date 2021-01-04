@@ -1,15 +1,14 @@
 ---
 templateKey: generic-page
 seo:
-  description: >-
-    We believe digital infrastructure is core to human progress in every
-    country, company and industry. We also believe that community driven open
-    source is the best way to develop technology that is broadly available for
-    use around the world.
+  description: We believe digital infrastructure is core to human progress in
+    every country, company and industry. We also believe that community driven
+    open source is the best way to develop technology that is broadly available
+    for use around the world.
   image: /img/oificon-social.png
   title: Join The Open Infrastructure Foundation
-  twitterUsername: '@OpenInfraDev'
-  url: 'https://openinfra.dev/join'
+  twitterUsername: "@OpenInfraDev"
+  url: https://openinfra.dev/join
 title: Join The Open Infrastructure Foundation
 subTitle: Help us build open source communities that write software to run in production
 ---
@@ -79,7 +78,7 @@ Here's how you can participate as an Open Infrastructure Community Member:
 
 ### Join as a Platinum, Gold or Silver Member
 
-The Open Infrastructure Foundation was announced as the successor to the OpenStack Foundation on October 19, 2020, and will be fully operational on Jan 1, 2021. [Over 60 organizations have already signed on as OpenInfra Foundation members](/companies/), and there’s still time for your company to join as Founding Member of OpenInfra Foundation. [Contact us](mailto:ecosystem@openinfra.dev) **by November 30, 2020 to discuss membership for 2021**. 
+The Open Infrastructure Foundation was announced as the successor to the OpenStack Foundation on October 19, 2020, and will be fully operational on Jan 1, 2021. [Over 60 organizations have already signed on as OpenInfra Foundation members](/companies/), and there’s still time for your company to join as Founding Member of OpenInfra Foundation.
 
 [Meet the global community](https://youtu.be/o2Ztq7pYMNk) you have the opportunity to support, and hear straight from the Founding Open Infrastructure Foundation Members on why they’re supporting the global community. 
  
