@@ -13,7 +13,7 @@ const BecomeSponsor = class extends React.Component {
             {content.subTitle}
           </div>
           <LinkComponent href={content.email} className="button button-white">
-            <span>{content.email_text}</span>
+            <span>{content.emailText}</span>
           </LinkComponent>          
         </div>
       </section>

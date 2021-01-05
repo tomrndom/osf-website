@@ -104,6 +104,14 @@ collections:
               {label: "Twitter Username", name: "twitterUsername", widget: string},
               {label: "Theme Color", name: "themeColor", widget: string},
             ]}
+      - file: "src/content/become-sponsor.json"
+        label: "Sponsor Banner"
+        name: "sponsorBanner"
+        fields:
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Sub Title", name: "subTitle", widget: text}
+          - {label: "Email Button Text", name: "emailText", widget: string}
+          - {label: "Email", name: "email", widget: string}
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
