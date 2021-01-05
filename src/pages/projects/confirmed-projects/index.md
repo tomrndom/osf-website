@@ -98,8 +98,6 @@ confirmed:
           text: Getting Started
         - link: 'https://www.openstack.org/foundation/tech-committee/'
           text: Technical Committee
-        - link: 'https://www.openstack.org/foundation/user-committee/'
-          text: User Committee
       logo: /img/projects-img/logo-os.svg
       subTitle: 'Programmable infrastructure for VMs, containers and bare metal.'
       title: OPENSTACK
