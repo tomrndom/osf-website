@@ -192,16 +192,23 @@ members:
     openStack: https://www.openstack.org/community/members/profile/26694
     picture: /img/board/junweiliu.jpg
     title: Gold Representative
-  - company: Red Hat
+  - company: European Cloud initiative
     description: >-
       I'm currently working on a building a European Cloud initiative - this
-      will be my  professional focus starting 2020 after leaving SUSE following
-      their change in direction.</p> <p>Dec 2018 - Dec 2019, I was responsible
-      for the Cloud and Storage Departments in SUSE R&amp;D.</p> 
+      will be my professional focus starting 2020 after leaving SUSE following
+      their change in direction.
 
-      <p>SUSE builds and maintains the SUSE and Helion OpenStack Cloud Products, is a platinum member of the Foundation and a strong upstream contributor.</p>  <p>Before SUSE, I was leading the architecture, community and consulting teams in Deutsche Telekom's  Open Telekom Cloud Team.</p> 
 
-      <p>DT has been a vocal supporter of OpenStack since I joined in early 2012 -- we have been able to  run several OpenStack projects. We have participated in most OpenStack Summits and are active in a  few working groups. I personally support the InterOp Workig Group, a key area for OpenStack's  success given the centrifugal forces in such a large project. DT has become gold member of the  Open Infrastructure Foundation in 2016 and has been headline sponsor for a few summits (Barcelona, Boston,  Berlin). I was serving in the board in most of 2018 until I handed over to Clemens Hardewig.</p> <p>Before joining DT end of 2011 I was a long-time contributor to the Linux kernel, which also  gave me the privilege of building up and leading SUSE Labs and work with a number of great  engineers in- and outside my company, contributing to the success of the Open Source technology.
+      Dec 2018 - Dec 2019, I was responsible for the Cloud and Storage Departments in SUSE R&D. SUSE builds and maintains the SUSE and Helion OpenStack Cloud Products, is a platinum member of the Foundation and a strong upstream contributor.
+
+
+      Before SUSE, I was leading the architecture, community and consulting teams in Deutsche Telekom's Open Telekom Cloud Team.
+
+
+      DT has been a vocal supporter of OpenStack since I joined in early 2012 -- we have been able to run several OpenStack projects. We have participated in most OpenStack Summits and are active in a few working groups. I personally support the InterOp Workig Group, a key area for OpenStack's success given the centrifugal forces in such a large project. DT has become gold member of the OpenStack Foundation in 2016 and has been headline sponsor for a few summits (Barcelona, Boston, Berlin). I was serving in the board in most of 2018 until I handed over to Clemens Hardewig.
+
+
+      Before joining DT end of 2011 I was a long-time contributor to the Linux kernel, which also gave me the privilege of building up and leading SUSE Labs and work with a number of great engineers in- and outside my company, contributing to the success of the Open Source technology.
     linkedin: https://de.linkedin.com/pub/kurt-garloff/
     name: Kurt Garloff
     openStack: https://www.openstack.org/community/members/profile/6804
