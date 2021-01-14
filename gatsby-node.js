@@ -4,6 +4,11 @@ const fs = require("fs")
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
+const myEnv = require("dotenv").config({
+  path: `.env`,
+})
+
+
 // explicit Frontmatter declaration to make category, author and date, optionals. 
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
@@ -122,7 +127,6 @@ exports.createPages = ({ actions, graphql }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
   fmImagesToRelative(node) // convert image paths for gatsby images
-
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
     createNodeField({
@@ -131,4 +135,17 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
   }
+}
+
+exports.onCreateWebpackConfig = ({ actions, plugins, loaders }) => {
+  actions.setWebpackConfig({
+    // canvas is a jsdom external dependency
+    externals: ['canvas'],
+    plugins: [
+      plugins.define({
+        'global.GENTLY': false,
+        'global.BLOB': false
+      })
+    ]
+  })
 }
