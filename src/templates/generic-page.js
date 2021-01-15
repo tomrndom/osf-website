@@ -10,8 +10,10 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
 
 import metadata from '../content/site-metadata.json'
+import {connect} from "react-redux";
 
 export const GenericPageTemplate = ({
+  isLoggedUser,
   seo,
   title,
   subTitle,
@@ -46,7 +48,7 @@ export const GenericPageTemplate = ({
       }
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar />
+        <Navbar isLoggedUser={isLoggedUser}/>
         <Header title={title} subTitle={subTitle}/>
       </div>
       
@@ -78,12 +80,13 @@ GenericPageTemplate.propTypes = {
   footer: PropTypes.object,
 }
 
-const GenericPage = ({ data }) => {
+const GenericPage = ({isLoggedUser, data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
       <GenericPageTemplate
+        isLoggedUser={isLoggedUser}
         contentComponent={HTMLContent}
         seo={post.frontmatter.seo}
         title={post.frontmatter.title}
@@ -99,7 +102,9 @@ GenericPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default GenericPage
+export default connect(state => ({
+  isLoggedUser: state.loggedUserState.isLoggedUser
+}), null)(GenericPage)
 
 export const genericPageQuery = graphql`
   query GenericPage($id: String!) {

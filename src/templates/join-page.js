@@ -84,7 +84,8 @@ const JoinPage = ({ data }) => {
     const handleOnClick = useCallback(event => {
         event.preventDefault();
         let origin = window.location.origin;
-        let url = `${envVariables.IDP_BASE_URL}/auth/register?client_id=${envVariables.OAUTH2_CLIENT_ID}&redirect_uri=${encodeURI(`${origin}/a/registration#membership_type=foundation`)}`;
+        let membershipType = event.currentTarget.dataset.membershipType;
+        let url = `${envVariables.IDP_BASE_URL}/auth/register?client_id=${envVariables.OAUTH2_CLIENT_ID}&redirect_uri=${encodeURI(`${origin}/a/registration#membership_type=${membershipType}`)}`;
         window.location = url;
     }, []);
 

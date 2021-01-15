@@ -11,42 +11,41 @@
  * limitations under the License.
  **/
 import React from 'react';
-import { connect } from 'react-redux';
 import { navigate } from "gatsby"
 import URI from "urijs"
 
-import { doLogout, initLogOut } from 'openstack-uicore-foundation/lib/methods'
-
 export class LogOutCallbackRoute extends React.Component {
 
-  componentDidMount() {
-    let { location } = this.props;
+  constructor(props){
+    const { doLogout, location } = props;
+    const storedState = window.localStorage.getItem('post_logout_state');
+    const query = URI.parseQuery(location.search);
 
-    let postLogoutState = window.localStorage.getItem('post_logout_state')
-    if (postLogoutState) {
-      window.localStorage.removeItem('post_logout_state');
-      let query = URI.parseQuery(location.search);
-      if (query.hasOwnProperty("state") && query["state"] === postLogoutState) {
-        this.props.doLogout();
-      }
-      let backUrl = window.localStorage.getItem('post_logout_redirect_path');
-      window.localStorage.removeItem('post_logout_redirect_path');
-      navigate(backUrl ? backUrl : '/');
-    } else {
-      let backUrl = location.state?.backUrl ? location.state.backUrl : '/';
-      window.localStorage.setItem('post_logout_redirect_path', backUrl);
-      initLogOut();
+    window.localStorage.removeItem('post_logout_state');
+
+    super(props);
+
+    this.state = {
+      error: null
+    };
+
+    if (!query.hasOwnProperty("state")) {
+      this.state.error = 'Missing State.';
+    } else if (query["state"] !== storedState) {
+      this.state.error = 'Invalid State.';
     }
+
+    doLogout();
+    navigate("/");
   }
 
   render() {
+    if(this.state.error != null){
+      return (<p>${this.state.error}</p>)
+    }
     return null;
   }
+
 }
 
-export default connect(
-  null,
-  {
-    doLogout
-  }
-)(LogOutCallbackRoute)
+export default LogOutCallbackRoute

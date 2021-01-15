@@ -21,7 +21,7 @@ const App = ({ isLoggedUser, user }) => {
 
 const mapStateToProps = ({ loggedUserState, userState }) => ({
   isLoggedUser: loggedUserState.isLoggedUser,
-  user: userState
+  user: loggedUserState.member
 })
 
 export default connect(mapStateToProps)(withSessionChecker(App))

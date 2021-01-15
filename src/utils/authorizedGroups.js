@@ -1,5 +1,3 @@
-const isAuthorizedUser = (user) => {
+export const isAuthorizedUser = (user) => {
   return true;
 }
-
-export default isAuthorizedUser;

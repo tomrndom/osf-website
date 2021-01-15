@@ -11,8 +11,10 @@ import Content, { HTMLContent } from '../components/Content'
 
 import metadata from '../content/site-metadata.json'
 import blogConfig from '../content/blog-config.json'
+import {connect} from "react-redux";
 
 export const BlogPostTemplate = ({
+  isLoggedUser,
   content,
   contentComponent,
   title,
@@ -27,7 +29,7 @@ export const BlogPostTemplate = ({
       {helmet}
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar />
+        <Navbar isLoggedUser={isLoggedUser}/>
         <Header title={blogConfig.title} subTitle={blogConfig.subTitle} />
       </div>
 
@@ -70,12 +72,13 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ isLoggedUser, data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
       <BlogPostTemplate
+        isLoggedUser={isLoggedUser}
         content={post.html}
         contentComponent={HTMLContent}
         helmet={
@@ -108,7 +111,9 @@ BlogPost.propTypes = {
   }),
 }
 
-export default BlogPost
+export default connect(state => ({
+  isLoggedUser: state.loggedUserState.isLoggedUser
+}), null)(BlogPost)
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {

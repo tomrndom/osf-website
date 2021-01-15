@@ -56,7 +56,7 @@ Here's how you can participate as an Open Infrastructure Foundation Individual M
 <li>Participate in Community Events</li>
 </ul>
 
-PARTICIPATE <a href="#" class="membership_action" id="foundation_membership">AS AN INDIVIDUAL FOUNDATION MEMBER</a>
+PARTICIPATE <a href="#" class="membership_action" id="foundation_membership" data-membership-type="foundation" >AS AN INDIVIDUAL FOUNDATION MEMBER</a>
 <p style="font-size:-3em;">*  Foundation Members are required to vote regularly in Board elections, or their membership will be transitioned to a Community account (please see below). Note that new Foundation Members must be members for 180 days before they are eligible to vote in Board Member elections. Inactive Foundation Member accounts are transitioned to Community Account level automatically after a period of inactivity. You may also log into your profile at any time and adjust your membership level.</p>
 
 #### Community Account: Free
@@ -71,7 +71,7 @@ Here's how you can participate as an Open Infrastructure Community Member:
 <li>Participate in Community Events</li>
 </ul>
 
-<a href="#" class="membership_action" id="community_membership">CREATE A COMMUNITY ACCOUNT</a>
+<a href="#" class="membership_action" id="community_membership" data-membership-type="community">CREATE A COMMUNITY ACCOUNT</a>
 
 <hr/>
 

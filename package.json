@@ -43,7 +43,7 @@
     "react-medium-image-zoom": "^4.3.0",
     "slick-carousel": "^1.8.1",
     "dotenv": "^8.2.0",
-    "openstack-uicore-foundation": "2.0.82",
+    "openstack-uicore-foundation": "2.0.84",
     "video.js": "^7.8.2",
     "history": "^4.10.1",
     "i18n-react": "^0.6.4",

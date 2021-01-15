@@ -13,7 +13,7 @@
 
 import React from 'react'
 import URI from "urijs"
-import { Redirect, navigate } from '@reach/router'
+import { navigate } from '@reach/router'
 import { connect } from 'react-redux';
 import { AbstractAuthorizationCallbackRoute } from "openstack-uicore-foundation/lib/components";
 import { getIDPProfile } from '../actions/user-actions'
@@ -30,12 +30,14 @@ class AuthorizationCallbackRoute extends AbstractAuthorizationCallbackRoute {
   }
 
   _redirect2Error(error) {
-    return (
-      <div render={props => {
-        return <Redirect to={`/error?error=${error}`} />
-      }} />
-    )
+    navigate('/', {
+      state: {
+        error: error
+      }
+    })
+    return null
   }
+
 }
 
 const mapStateToProps = ({ loggedUserState }) => ({

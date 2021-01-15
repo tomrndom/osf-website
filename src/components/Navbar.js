@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../img/svg/OIF-logo.svg'
 import Menu from "../content/navbar.json"
 import LinkComponent from './LinkComponent'
+import {doLogin, initLogOut} from 'openstack-uicore-foundation/lib/methods'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -10,6 +11,19 @@ const Navbar = class extends React.Component {
       active: false,
       navBarActiveClass: ''
     }
+
+    this.onClickLogin = this.onClickLogin.bind(this);
+    this.onClickLogout = this.onClickLogout.bind(this);
+  }
+
+  onClickLogin(evt){
+    evt.preventDefault();
+    doLogin('/a/profile');
+  }
+
+  onClickLogout(evt){
+    evt.preventDefault();
+    initLogOut();
   }
 
   toggleHamburger = () => {
@@ -33,6 +47,7 @@ const Navbar = class extends React.Component {
   }
 
   render() {
+    let {isLoggedUser} = this.props;
     return (
       <nav className="nav">
         <div className="container">
@@ -91,10 +106,23 @@ const Navbar = class extends React.Component {
                       </li>
                     )
                   }
-                })}                
+                })}
+                { !isLoggedUser &&
+                  <li>
+                    <LinkComponent href="/join/" className="bar-button">Join</LinkComponent>
+                  </li>
+                }
+                { !isLoggedUser &&
                 <li>
-                  <LinkComponent href={Menu.button.url} className="bar-button">{Menu.button.text}</LinkComponent>
+                  <LinkComponent href="#" className="bar-button" onClick={this.onClickLogin}>Log in</LinkComponent>
                 </li>
+                }
+                { isLoggedUser &&
+                <li>
+                  <LinkComponent href="#" className="bar-button" onClick={this.onClickLogout}>Log out</LinkComponent>
+                </li>
+                }
+
               </ul>
             </div>
           </div>
