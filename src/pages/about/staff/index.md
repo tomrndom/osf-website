@@ -141,20 +141,6 @@ members:
     openStack: https://www.openstack.org/community/members/profile/101709
     picture: /img/about-staff/SunnyCai.jpg
     title: Marketing Associate
-  - description: Danny is the Ecosystem Manager for the Open Infrastructure
-      Foundation, from Tyler, TX. He attended The  University of Texas at San
-      Antonio and spent close to seven years at Rackspace where he
-      held  Support, Business Development and Marketing roles. He has joined the
-      Foundation team to focus  on nurturing the OpenStack partner ecosystem,
-      assist with on boarding new sponsors and building  relationships with
-      community members. He’s known to be a prolific coffee drinker and keeps
-      up  to date with the latest tunes. He enjoys live music shows, a good
-      workout, riding his fixie  and SF Giants Baseball.
-    linkedin: https://www.linkedin.com/in/danny-carreno-379ba646
-    name: Danny Carreno
-    openStack: https://www.openstack.org/community/members/profile/35643
-    picture: /img/about-staff/dc.png
-    title: Ecosystem Manager
   - description: James works closely alongside Wes Wilson to communicate the
       Foundation’s visual identity  through print and web design. As a
       multifaceted designer with a strong production background, he
@@ -194,12 +180,12 @@ members:
     title: Community and Event Coordinator
   - description: In addition to managing the Open Infrastructure Foundation web
       properties and Summit mobile application  development, Jimmy works
-      extensively with the Zuul community.  Alongside the community, he is actively 
-      working on ways to close the feedback loop between OpenStack  operators and 
-      developers including his work on the annual User Survey, Ops Meetups, and
-      day-to-day  community management. Outside of wearing many hats at the Open
-      Infrastructure Foundation, he enjoys cooking,  traveling, and having the
-      best award winning chili in Texas.
+      extensively with the Zuul community.  Alongside the community, he is
+      actively working on ways to close the feedback loop between
+      OpenStack  operators and developers including his work on the annual User
+      Survey, Ops Meetups, and day-to-day  community management. Outside of
+      wearing many hats at the Open Infrastructure Foundation, he enjoys
+      cooking,  traveling, and having the best award winning chili in Texas.
     linkedin: https://www.linkedin.com/in/jimmymcarthur/
     name: Jimmy McArthur
     openStack: https://www.openstack.org/community/members/profile/1395
