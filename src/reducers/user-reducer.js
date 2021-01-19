@@ -1,4 +1,4 @@
-import { LOGOUT_USER } from "openstack-uicore-foundation/lib/actions";
+import { LOGOUT_USER, RECEIVE_USER_INFO } from "openstack-uicore-foundation/lib/actions";
 
 import {
   GET_IDP_PROFILE,
@@ -9,6 +9,8 @@ import {
 const DEFAULT_STATE = {
   loadingIDP: false,
   idpProfile: null,
+  currentMembershipType:null,
+  currentAffiliations:[],
 }
 
 const userReducer = (state = DEFAULT_STATE, action) => {
@@ -23,6 +25,13 @@ const userReducer = (state = DEFAULT_STATE, action) => {
       return { ...state, loadingIDP: false };
     case GET_IDP_PROFILE:
       return { ...state, idpProfile: payload.response }
+    case RECEIVE_USER_INFO:
+      let { response } = action.payload;
+      let affiliations = response.affiliations.map((a) => {
+        return {...a};
+      });
+
+      return {...state, currentMembershipType: response.membership_type, currentAffiliations: affiliations };
     default:
       return state;
   }

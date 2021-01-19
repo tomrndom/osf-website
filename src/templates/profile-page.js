@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from "react"
 import { connect } from 'react-redux'
 import { navigate } from "gatsby"
 import Layout from '../components/Layout'
@@ -10,8 +10,11 @@ import ProfileForm from "../components/ProfileForm"
 import Affiliations from "../components/Affiliations";
 import URI from "urijs";
 import {MEMBERSHIP_TYPE_NONE} from "../actions/user-actions";
+import 'openstack-uicore-foundation/lib/css/components.css';
 
-export const ProfilePageTemplate = ({ member, idpProfile, isLoggedUser, location }) => {
+export const ProfilePageTemplate = ({ currentMember, initialMembershipType, currentAffiliations, idpProfile, isLoggedUser, location }) => {
+
+    const [currentMembershipType, setCurrentMembershipType] = useState(initialMembershipType);
 
     const handleConvertCommunityMember = () => {
         navigate('/a/membership-community')
@@ -27,13 +30,13 @@ export const ProfilePageTemplate = ({ member, idpProfile, isLoggedUser, location
 
     const onSelectMembershipType = (type) => {
         console.log(`selected type ${type}`);
+        setCurrentMembershipType(type);
     }
 
     let query = URI.parseQuery(location.search);
-    let membershipType = null;
 
-    if (query.hasOwnProperty("membership_type")) {
-        membershipType = query["membership_type"];
+    if (query.hasOwnProperty("membership_type") && initialMembershipType === MEMBERSHIP_TYPE_NONE ) {
+        setCurrentMembershipType(query["membership_type"]);
     }
 
     return (
@@ -50,18 +53,24 @@ export const ProfilePageTemplate = ({ member, idpProfile, isLoggedUser, location
                         <div className="container about-s1-container">
                             <div className="columns">
                                 <div className="column">
-                                    <MembershipType type={member.membership_type}
-                                                    selectedType={membershipType}
+                                    <MembershipType currentType={currentMembershipType}
+                                                    initialType={initialMembershipType}
                                                     handleConvertCommunityMember={() => handleConvertCommunityMember()}
                                                     handleConvertFoundationMember={() => handleConvertFoundationMember()}
                                                     handleResign={() => handleResign()}
                                                     onSelectMembershipType={(type)=> onSelectMembershipType(type)}
                                     />
-                                    <ProfileForm profile={idpProfile}/>
-                                    <Affiliations profile={member}/>
                                     {
-                                        member.membership_type === MEMBERSHIP_TYPE_NONE &&
-                                            <button role="button" className="btn">Submit my Application</button>
+                                        currentMembershipType !== MEMBERSHIP_TYPE_NONE &&
+                                        <ProfileForm profile={idpProfile}/>
+                                    }
+                                    {
+                                        currentMembershipType !== MEMBERSHIP_TYPE_NONE &&
+                                        <Affiliations affiliations={currentAffiliations} ownerId={currentMember.id}/>
+                                    }
+                                    {
+                                        currentMembershipType !== MEMBERSHIP_TYPE_NONE && initialMembershipType === MEMBERSHIP_TYPE_NONE &&
+                                        <button role="button" className="btn">Submit my Application</button>
                                     }
                                 </div>
                             </div>
@@ -73,11 +82,13 @@ export const ProfilePageTemplate = ({ member, idpProfile, isLoggedUser, location
     )
 }
 
-const ProfilePage = ({ member, idpProfile, isLoggedUser, location }) => {
+const ProfilePage = ({ currentMember, initialMembershipType, currentAffiliations, idpProfile, isLoggedUser, location }) => {
     return (
         <Layout>
             <ProfilePageTemplate
-                member={member}
+                currentMember={currentMember}
+                initialMembershipType={initialMembershipType}
+                currentAffiliations={currentAffiliations}
                 idpProfile={idpProfile}
                 location={location}
                 isLoggedUser={isLoggedUser}
@@ -88,6 +99,8 @@ const ProfilePage = ({ member, idpProfile, isLoggedUser, location }) => {
 
 export default connect(state => ({
     isLoggedUser: state.loggedUserState.isLoggedUser,
-    member: state.loggedUserState.member,
+    currentMember:state.loggedUserState.member,
+    initialMembershipType: state.userState.currentMembershipType,
+    currentAffiliations:state.userState.currentAffiliations,
     idpProfile: state.userState.idpProfile,
 }), null)(ProfilePage)
