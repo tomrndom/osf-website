@@ -11,8 +11,10 @@ import ContactInformation from '../components/ContactInformation'
 
 import metadata from '../content/site-metadata.json'
 import LinkComponent from '../components/LinkComponent'
+import {connect} from "react-redux";
 
 export const BoardPageTemplate = ({
+  isLoggedUser,
   seo,
   header,
   members,
@@ -46,7 +48,7 @@ export const BoardPageTemplate = ({
       }
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar />
+        <Navbar isLoggedUser={isLoggedUser}/>
         <Header title={header.title} subTitle={header.subTitle} link={header.link}/>
       </div>    
       
@@ -109,12 +111,13 @@ BoardPageTemplate.propTypes = {
   members: PropTypes.array,
 }
 
-const BoardPage = ({ data }) => {
+const BoardPage = ({BoardPage, data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
       <BoardPageTemplate
+        BoardPage={BoardPage}
         contentComponent={HTMLContent}
         seo={post.frontmatter.seo}
         header={post.frontmatter.header}
@@ -129,7 +132,10 @@ BoardPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default BoardPage
+export default connect(state => ({
+  isLoggedUser: state.loggedUserState.isLoggedUser
+}), null)(BoardPage)
+
 
 export const boardPageQuery = graphql`
   query BoardPage($id: String!) {

@@ -11,6 +11,7 @@ import HostingProject from '../components/HostingProject'
 
 import metadata from '../content/site-metadata.json'
 import LinkComponent from '../components/LinkComponent'
+import {connect} from "react-redux";
 
 export const HostingPageTemplate = ({
   seo,
@@ -145,7 +146,9 @@ HostingPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default HostingPage
+export default connect(state => ({
+  isLoggedUser: state.loggedUserState.isLoggedUser
+}), null)(HostingPage)
 
 export const hostingPageQuery = graphql`
   query HostingPage($id: String!) {

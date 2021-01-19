@@ -3,6 +3,7 @@ import logo from '../img/svg/OIF-logo.svg'
 import Menu from "../content/navbar.json"
 import LinkComponent from './LinkComponent'
 import {doLogin, initLogOut} from 'openstack-uicore-foundation/lib/methods'
+import PropTypes from "prop-types";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -108,21 +109,25 @@ const Navbar = class extends React.Component {
                   }
                 })}
                 { !isLoggedUser &&
-                  <li>
+                  <li key={"join"}>
                     <LinkComponent href="/join/" className="bar-button">Join</LinkComponent>
                   </li>
                 }
                 { !isLoggedUser &&
-                <li>
+                <li key={"login"}>
                   <LinkComponent href="#" className="bar-button" onClick={this.onClickLogin}>Log in</LinkComponent>
                 </li>
                 }
                 { isLoggedUser &&
-                <li>
+                <li key={"profile"}>
+                  <LinkComponent href="/a/profile" className="bar-button">Profile</LinkComponent>
+                </li>
+                }
+                { isLoggedUser &&
+                <li key={"logout"}>
                   <LinkComponent href="#" className="bar-button" onClick={this.onClickLogout}>Log out</LinkComponent>
                 </li>
                 }
-
               </ul>
             </div>
           </div>
@@ -130,6 +135,10 @@ const Navbar = class extends React.Component {
       </nav>
     )
   }
+}
+
+Navbar.propTypes = {
+  isLoggedUser: PropTypes.bool.isRequired,
 }
 
 export default Navbar

@@ -1,17 +1,15 @@
 import { connect } from 'react-redux'
 import { navigate } from "gatsby"
 import Layout from '../components/Layout'
-import envVariables from '../utils/envVariables'
 import React, { useEffect } from "react"
-
+import URI from "urijs"
 
 import { doLogin } from 'openstack-uicore-foundation/lib/methods'
 
 export const RegistrationPageTemplate = ({ loggedUserState, location }) => {
 
     if (loggedUserState.isLoggedUser) {
-        let defaultPath = envVariables.AUTHORIZED_DEFAULT_PATH ? envVariables.AUTHORIZED_DEFAULT_PATH : '/a/';
-        navigate(defaultPath);
+        navigate('/a/profile');
         return null
     }
 
@@ -21,8 +19,14 @@ export const RegistrationPageTemplate = ({ loggedUserState, location }) => {
 const RegistrationPage = ({ loggedUserState, location }) => {
 
     useEffect(() => {
-        doLogin('/a/profile')
-    }, [loggedUserState]);
+        let query = URI.parseQuery(location.search);
+        let membershipType = null;
+        if (query.hasOwnProperty("membership_type")) {
+            membershipType = query["membership_type"];
+        }
+
+        doLogin(`/a/profile?membership_type=${membershipType}`)
+    }, [loggedUserState, location]);
 
     return (
         <Layout>

@@ -13,6 +13,9 @@ import { customErrorHandler } from '../utils/customErrorHandler';
 export const START_LOADING_IDP_PROFILE = 'START_LOADING_IDP_PROFILE';
 export const STOP_LOADING_IDP_PROFILE  = 'STOP_LOADING_IDP_PROFILE';
 export const GET_IDP_PROFILE           = 'GET_IDP_PROFILE';
+export const MEMBERSHIP_TYPE_COMMUNITY = 'Community';
+export const MEMBERSHIP_TYPE_FOUNDATION = 'Foundation';
+export const MEMBERSHIP_TYPE_NONE = 'None';
 
 export const getIDPProfile = () => (dispatch, getState) => {
 

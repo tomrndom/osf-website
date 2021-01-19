@@ -10,8 +10,10 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
 import envVariables from '../utils/envVariables'
 import metadata from '../content/site-metadata.json'
+import {connect} from "react-redux";
 
 export const JoinPageTemplate = ({
+                                        isLoggedUser,
                                         seo,
                                         title,
                                         subTitle,
@@ -46,7 +48,7 @@ export const JoinPageTemplate = ({
             }
             <div className="wrapper project-background">
                 <TopBar />
-                <Navbar />
+                <Navbar isLoggedUser={isLoggedUser}/>
                 <Header title={title} subTitle={subTitle}/>
             </div>
 
@@ -78,14 +80,14 @@ JoinPageTemplate.propTypes = {
     footer: PropTypes.object,
 }
 
-const JoinPage = ({ data }) => {
+const JoinPage = ({ isLoggedUser, data }) => {
     const { markdownRemark: post } = data
 
     const handleOnClick = useCallback(event => {
         event.preventDefault();
         let origin = window.location.origin;
         let membershipType = event.currentTarget.dataset.membershipType;
-        let url = `${envVariables.IDP_BASE_URL}/auth/register?client_id=${envVariables.OAUTH2_CLIENT_ID}&redirect_uri=${encodeURI(`${origin}/a/registration#membership_type=${membershipType}`)}`;
+        let url = `${envVariables.IDP_BASE_URL}/auth/register?client_id=${envVariables.OAUTH2_CLIENT_ID}&redirect_uri=${encodeURI(`${origin}/a/registration?membership_type=${membershipType}`)}`;
         window.location = url;
     }, []);
 
@@ -110,6 +112,7 @@ const JoinPage = ({ data }) => {
     return (
         <Layout>
             <JoinPageTemplate
+                isLoggedUser={isLoggedUser}
                 contentComponent={HTMLContent}
                 seo={post.frontmatter.seo}
                 title={post.frontmatter.title}
@@ -125,7 +128,10 @@ JoinPage.propTypes = {
     data: PropTypes.object.isRequired,
 }
 
-export default JoinPage
+export default connect(state => ({
+    isLoggedUser: state.loggedUserState.isLoggedUser
+}), null)(JoinPage)
+
 
 export const joinPageQuery = graphql`
   query JoinPage($id: String!) {

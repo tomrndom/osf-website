@@ -11,8 +11,10 @@ import HostingProject from '../components/HostingProject'
 import LinkComponent from '../components/LinkComponent'
 
 import metadata from '../content/site-metadata.json'
+import {connect} from "react-redux";
 
 export const ServicesPageTemplate = ({
+  isLoggedUser,
   seo,
   header,
   row1,
@@ -51,7 +53,7 @@ export const ServicesPageTemplate = ({
       }
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar />
+        <Navbar isLoggedUser={isLoggedUser}/>
         <Header title={header.title} subTitle={header.subTitle} />
       </div>    
       
@@ -156,12 +158,13 @@ ServicesPageTemplate.propTypes = {
   row6: PropTypes.object,
 }
 
-const ServicesPage = ({ data }) => {
+const ServicesPage = ({ isLoggedUser, data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <ServicesPageTemplate        
+      <ServicesPageTemplate
+        isLoggedUser={isLoggedUser}
         contentComponent={HTMLContent}
         seo={post.frontmatter.seo}
         header={post.frontmatter.header}        
@@ -180,7 +183,9 @@ ServicesPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default ServicesPage
+export default connect(state => ({
+  isLoggedUser: state.loggedUserState.isLoggedUser
+}), null)(ServicesPage)
 
 export const servicesPageQuery = graphql`
   query ServicesPage($id: String!) {

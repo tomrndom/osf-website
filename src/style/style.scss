@@ -34,6 +34,7 @@
 @import "./modules/default-page";
 @import "./modules/search";
 @import "./modules/carousel";
+@import "./modules/membership-type";
 
 @import "./modules/basestructure";
 @import "./modules/home";
@@ -61,3 +62,7 @@ section {
   width: 100%;
   max-width: unset;
 }*/
+
+.btn{
+  height: 42px;
+}

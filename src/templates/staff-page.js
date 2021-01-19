@@ -12,8 +12,10 @@ import HeaderStaff from '../components/HeaderStaff'
 
 import metadata from '../content/site-metadata.json'
 import LinkComponent from '../components/LinkComponent'
+import {connect} from "react-redux";
 
 export const StaffPageTemplate = ({
+  isLoggedUser,
   seo,
   header, 
   banner,
@@ -49,7 +51,7 @@ export const StaffPageTemplate = ({
       }
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar />
+        <Navbar isLoggedUser={isLoggedUser}/>
         <Header title={header.title} subTitle={header.subTitle} link={header.link}/>
       </div>    
       
@@ -150,12 +152,13 @@ StaffPageTemplate.propTypes = {
   support: PropTypes.object,
 }
 
-const StaffPage = ({ data }) => {
+const StaffPage = ({ isLoggedUser, data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
       <StaffPageTemplate
+        isLoggedUser={isLoggedUser}
         contentComponent={HTMLContent}
         seo={post.frontmatter.seo}
         header={post.frontmatter.header}
@@ -172,7 +175,9 @@ StaffPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default StaffPage
+export default connect(state => ({
+  isLoggedUser: state.loggedUserState.isLoggedUser
+}), null)(StaffPage)
 
 export const staffPageQuery = graphql`
   query StaffPage($id: String!) {

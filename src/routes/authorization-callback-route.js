@@ -30,11 +30,8 @@ class AuthorizationCallbackRoute extends AbstractAuthorizationCallbackRoute {
   }
 
   _redirect2Error(error) {
-    navigate('/', {
-      state: {
-        error: error
-      }
-    })
+    console.log(`AuthorizationCallbackRoute::_redirect2Error error ${error}`);
+    navigate(`/a/error?error=${error}`);
     return null
   }
 
