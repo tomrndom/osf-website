@@ -24,8 +24,8 @@ companies:
         image: /img/companies/_New/Platinum/Sponsor-Logos_AT&T.png
       - alt: Ericsson
         image: /img/companies/_New/Platinum/Sponsor-Logos_Ericsson.png
-      - alt: Facebook Connectivity
-        image: /img/companies/_New/Platinum/Sponsor-Logos_FBC.png
+      - alt: Facebook
+        image: /img/companies/_New/Platinum/Sponsor-Logos_FBC-new.png
       - alt: FiberHome
         image: /img/companies/_New/Platinum/Sponsor-Logos_FiberHome.png
       - alt: Huawei
