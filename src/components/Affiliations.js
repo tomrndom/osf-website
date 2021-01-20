@@ -42,10 +42,11 @@ const Affiliations = class extends React.Component {
     }
 
     onHandleSave(entity) {
+        debugger;
         this.setState({...this.state, showModal: false, selectedAffiliation: null});
-        entity.owner_id = this.props.ownerId;
         if(entity.id){
             this.props.saveAffiliation(entity)
+            return;
         }
         this.props.addAffiliation(entity);
     }
@@ -58,7 +59,7 @@ const Affiliations = class extends React.Component {
                 <h2>Affiliations</h2>
                 <button role="button" onClick={this.onAddHandle}>Add new Affiliation</button>
                 {this.state.showModal &&
-                <AffiliationForm onClose={this.onHandleClose} onSave={this.onHandleSave} currentAffiliation={this.state.selectedAffiliation}/>
+                <AffiliationForm onClose={this.onHandleClose} onSave={this.onHandleSave} currentAffiliation={this.state.selectedAffiliation} onAddOrganization={this.props.addOrganization}/>
                 }
                 <table>
                     <thead>
@@ -88,6 +89,12 @@ const Affiliations = class extends React.Component {
                 }
                 </tbody>
                 </table>
+                <p>
+                    For our purposes, an affiliation is defined as any company where you are an officer, director or
+                    employee, or any person or company that has paid you more than $60,000 USD as an independent
+                    contractor in the last 12 months. Please list all affiliations which meet this criteria. If you're
+                    not being paid to work on OpenStack please put "Unaffiliated".
+                </p>
             </div>
         );
     }

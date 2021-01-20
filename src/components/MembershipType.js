@@ -19,12 +19,16 @@ const MembershipType = class extends React.Component {
         let{initialType, currentType, handleResign, handleConvertFoundationMember, handleConvertCommunityMember} = this.props;
         if(initialType === MEMBERSHIP_TYPE_COMMUNITY){
             return(<div className="membership-type-container">
+                <div>You are logged in as <b>{this.props.userName}</b></div>
+                <div>Current Member Level: <b>{this.props.currentType}</b></div>
                 <button role="button" id="resign" onClick={handleResign}>Resign Membership</button>&nbsp;<button role="button" id="foundation" onClick={handleConvertFoundationMember}>Make Me a Foundation Member</button>
             </div>);
         }
         if(initialType === MEMBERSHIP_TYPE_FOUNDATION){
             return(<div className="membership-type-container">
-            <button role="button" id="resign" onClick={handleResign}>Resign Membership</button>&nbsp;<button role="button" id="community" onClick={handleConvertCommunityMember}>Change to Community Member</button>
+                <div>You are logged in as <b>{this.props.userName}</b></div>
+                <div>Current Member Level: <b>{this.props.currentType}</b></div>
+                <button role="button" id="resign" onClick={handleResign}>Resign Membership</button>&nbsp;<button role="button" id="community" onClick={handleConvertCommunityMember}>Change to Community Member</button>
             </div>);
         }
         if(initialType === MEMBERSHIP_TYPE_NONE){
@@ -58,6 +62,7 @@ const MembershipType = class extends React.Component {
 
 MembershipType.propTypes = {
     currentType: PropTypes.string.isRequired,
+    userName: PropTypes.string.isRequired,
     handleResign:PropTypes.func.isRequired,
     handleConvertFoundationMember: PropTypes.func.isRequired,
     handleConvertCommunityMember: PropTypes.func.isRequired,

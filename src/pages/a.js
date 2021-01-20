@@ -6,6 +6,7 @@ import withSessionChecker from "../utils/withSessionChecker"
 import ProfilePage from "../templates/profile-page";
 import RegistrationPage from "../templates/registration-page";
 import ErrorPage from "../templates/error-page";
+import MembershipResignPage from "../templates/membership-resign";
 
 const App = ({ isLoggedUser, user }) => {
   return (
@@ -13,6 +14,7 @@ const App = ({ isLoggedUser, user }) => {
       {({ location }) => (
           <Router basepath="/a" >
             <PrivateRoute path="/profile" component={ProfilePage} isLoggedIn={isLoggedUser} user={user} location={location} />
+            <PrivateRoute path="/profile/membership/resign" component={MembershipResignPage} isLoggedIn={isLoggedUser} user={user} location={location}/>
             <RegistrationPage path="/registration" location={location} isLoggedIn={isLoggedUser} />
             <ErrorPage path="/error" location={location} isLoggedIn={isLoggedUser}/>
           </Router>

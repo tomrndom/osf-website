@@ -64,6 +64,11 @@ section {
   max-width: unset;
 }*/
 
-.btn{
+.btn {
   height: 42px;
+}
+
+.validation_error{
+  color: red;
+  font-size: smaller;
 }

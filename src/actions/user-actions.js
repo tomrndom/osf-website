@@ -14,6 +14,7 @@ import { customErrorHandler } from '../utils/customErrorHandler';
 export const START_LOADING_IDP_PROFILE = 'START_LOADING_IDP_PROFILE';
 export const STOP_LOADING_IDP_PROFILE  = 'STOP_LOADING_IDP_PROFILE';
 export const GET_IDP_PROFILE           = 'GET_IDP_PROFILE';
+export const MEMBERSHIP_TYPE_UPDATED   = 'MEMBERSHIP_TYPE_UPDATED';
 export const MEMBERSHIP_TYPE_COMMUNITY = 'Community';
 export const MEMBERSHIP_TYPE_FOUNDATION = 'Foundation';
 export const MEMBERSHIP_TYPE_NONE = 'None';
@@ -21,7 +22,6 @@ export const AFFILIATION_SAVED        = 'AFFILIATION_SAVED';
 export const AFFILIATION_DELETED      = 'AFFILIATION_DELETED';
 export const AFFILIATION_ADDED        = 'AFFILIATION_ADDED';
 export const ORGANIZATION_ADDED       = 'ORGANIZATION_ADDED';
-
 
 export const getIDPProfile = () => (dispatch, getState) => {
 
@@ -41,6 +41,7 @@ export const getIDPProfile = () => (dispatch, getState) => {
   )(params)(dispatch)
     .then(() => dispatch(dispatch(createAction(STOP_LOADING_IDP_PROFILE))));
 }
+
 
 /******************************  AFFILIATIONS **************************************************/
 
@@ -65,7 +66,6 @@ export const addOrganization = (organization, callback) => (dispatch, getState) 
     dispatch(stopLoading());
     callback(payload.response);
   });
-
 }
 
 
@@ -85,7 +85,7 @@ export const addAffiliation = (affiliation) => (dispatch, getState) => {
   postRequest(
       null,
       createAction(AFFILIATION_ADDED),
-      `${window.API_BASE_URL}/api/v1/members/${affiliation.owner_id}/affiliations`,
+      `${window.API_BASE_URL}/api/v1/members/me/affiliations`,
       normalizedEntity,
       authErrorHandler,
       affiliation
@@ -101,7 +101,6 @@ export const saveAffiliation = (affiliation) => (dispatch, getState) => {
 
   dispatch(startLoading());
 
-
   const params = {
     access_token : accessToken,
   };
@@ -111,17 +110,16 @@ export const saveAffiliation = (affiliation) => (dispatch, getState) => {
   putRequest(
       null,
       createAction(AFFILIATION_SAVED),
-      `${window.API_BASE_URL}/api/v1/members/${affiliation.owner_id}/affiliations/${affiliation.id}`,
+      `${window.API_BASE_URL}/api/v1/members/me/affiliations/${affiliation.id}`,
       normalizedEntity,
       authErrorHandler
   )(params)(dispatch)
       .then((payload) => {
         dispatch(stopLoading());
       });
-
 }
 
-export const deleteAffiliation = (ownerId, affiliationId) => (dispatch, getState) => {
+export const deleteAffiliation = (affiliationId) => (dispatch, getState) => {
 
   const { loggedUserState } = getState();
   const { accessToken }     = loggedUserState;
@@ -133,7 +131,7 @@ export const deleteAffiliation = (ownerId, affiliationId) => (dispatch, getState
   return deleteRequest(
       null,
       createAction(AFFILIATION_DELETED)({affiliationId}),
-      `${window.API_BASE_URL}/api/v1/members/${ownerId}/affiliations/${affiliationId}`,
+      `${window.API_BASE_URL}/api/v1/members/me/affiliations/${affiliationId}`,
       null,
       authErrorHandler
   )(params)(dispatch).then(() => {
@@ -152,4 +150,48 @@ const normalizeEntity = (entity) => {
 
   return normalizedEntity;
 
+}
+
+export const updateMembershipType = (type) => (dispatch, getState) => {
+  const { loggedUserState } = getState();
+  const { accessToken }     = loggedUserState;
+
+  dispatch(startLoading());
+
+  const params = {
+    access_token : accessToken,
+  };
+
+  return putRequest(
+      null,
+      createAction(MEMBERSHIP_TYPE_UPDATED),
+      `${window.API_BASE_URL}/api/v1/members/me/membership/${type.toString().toLowerCase()}`,
+      {},
+      authErrorHandler
+  )(params)(dispatch)
+      .then((payload) => {
+        dispatch(stopLoading());
+      });
+}
+
+export const resignMembershipType = () => (dispatch, getState) => {
+  const { loggedUserState } = getState();
+  const { accessToken }     = loggedUserState;
+
+  dispatch(startLoading());
+
+  const params = {
+    access_token : accessToken,
+  };
+
+  return deleteRequest(
+      null,
+      createAction(MEMBERSHIP_TYPE_UPDATED),
+      `${window.API_BASE_URL}/api/v1/members/me/membership/resign`,
+      {},
+      authErrorHandler
+  )(params)(dispatch)
+      .then((payload) => {
+        dispatch(stopLoading());
+      });
 }

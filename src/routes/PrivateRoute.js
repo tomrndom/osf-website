@@ -4,7 +4,6 @@ import { navigate } from "gatsby"
 import { isAuthorizedUser } from '../utils/authorizedGroups';
 
 const PrivateRoute = ({ component: Component, isLoggedIn, location, user, ...rest }) => {
-
   if (!isLoggedIn) {
     navigate('/', {
       state: {

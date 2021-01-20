@@ -7,6 +7,7 @@ const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
 const myEnv = require("dotenv").config({
   path: `.env`,
+  expand: true
 })
 
 exports.onPreBootstrap = async () => {
