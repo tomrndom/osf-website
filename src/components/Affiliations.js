@@ -31,6 +31,7 @@ const Affiliations = class extends React.Component {
 
     onHandleDelete(ev){
         let id = parseInt(ev.target.dataset.id);
+        this.props.deleteAffiliation(id);
     }
 
     onAddHandle() {
@@ -58,9 +59,16 @@ const Affiliations = class extends React.Component {
             <div className="affiliations">
                 <h2>Affiliations</h2>
                 <button role="button" onClick={this.onAddHandle}>Add new Affiliation</button>
-                {this.state.showModal &&
-                <AffiliationForm onClose={this.onHandleClose} onSave={this.onHandleSave} currentAffiliation={this.state.selectedAffiliation} onAddOrganization={this.props.addOrganization}/>
+                { this.state.showModal &&
+                <div className="modal is-active">
+                    <div className="modal-background"/>
+                    <div className="modal-content">
+                        <AffiliationForm onSave={this.onHandleSave} currentAffiliation={this.state.selectedAffiliation} onAddOrganization={this.props.addOrganization}/>
+                    </div>
+                    <button className="modal-close is-large" onClick={this.onHandleClose} aria-label="close"/>
+                </div>
                 }
+                {affiliations.length > 0 &&
                 <table>
                     <thead>
                     <tr>
@@ -73,22 +81,28 @@ const Affiliations = class extends React.Component {
                     </tr>
                     </thead>
                     <tbody>
-                {
-                    affiliations.map((a, idx) => {
-                        return (
-                            <tr id={a.id} key={`row_${a.id}`} role="row">
-                                <td key="job_title">{a.job_title ? a.job_title : 'TBD'}</td>
-                                <td key="organization">{a.organization ? a.organization.name : 'TBD'}</td>
-                                <td key="start_date">{formatEpoch(a.start_date, "YYYY-MM-DD")}</td>
-                                <td key="end_date">{formatEpoch(a.end_date, "YYYY-MM-DD")}</td>
-                                <td key="is_current">{a.is_current ? 'Yes' : 'No'}</td>
-                                <td><button role="button" data-id={a.id} onClick={this.onHandleEdit}>Edit</button>&nbsp;<button role="button" data-id={a.id} onClick={this.onHandleDelete}>Delete</button></td>
-                            </tr>
-                        )
-                    })
-                }
-                </tbody>
+                    {
+                        affiliations.map((a, idx) => {
+                            return (
+                                <tr id={a.id} key={`row_${a.id}`} role="row">
+                                    <td key="job_title">{a.job_title ? a.job_title : 'TBD'}</td>
+                                    <td key="organization">{a.organization ? a.organization.name : 'TBD'}</td>
+                                    <td key="start_date">{formatEpoch(a.start_date, "YYYY-MM-DD")}</td>
+                                    <td key="end_date">{formatEpoch(a.end_date, "YYYY-MM-DD")}</td>
+                                    <td key="is_current">{a.is_current ? 'Yes' : 'No'}</td>
+                                    <td>
+                                        <button role="button" data-id={a.id} onClick={this.onHandleEdit}>Edit</button>
+                                        &nbsp;
+                                        <button role="button" data-id={a.id} onClick={this.onHandleDelete}>Delete
+                                        </button>
+                                    </td>
+                                </tr>
+                            )
+                        })
+                    }
+                    </tbody>
                 </table>
+                }
                 <p>
                     For our purposes, an affiliation is defined as any company where you are an officer, director or
                     employee, or any person or company that has paid you more than $60,000 USD as an independent

@@ -35,11 +35,11 @@ export const ProfilePageTemplate = ({
     const [validationError, setValidationError] = useState(null);
 
     const handleConvertCommunityMember = () => {
-        navigate('/a/membership-community')
+        navigate('/a/profile/membership/community')
     };
 
     const handleConvertFoundationMember = () => {
-        navigate('/a/membership-foundation')
+        navigate('/a/profile/membership/foundation')
     }
 
     const handleResign = () => {
@@ -52,7 +52,7 @@ export const ProfilePageTemplate = ({
     }
 
     const onSubmitApplication = () => {
-        if(currentAffiliations.length === 0 && currentMembershipType === MEMBERSHIP_TYPE_FOUNDATION){
+        if(currentAffiliations.length === 0){
             setValidationError('* You need at least one affiliation');
             return;
         }
@@ -85,7 +85,10 @@ export const ProfilePageTemplate = ({
 
                                     {
                                         currentMembershipType !== MEMBERSHIP_TYPE_NONE &&
-                                        <ProfileForm profile={idpProfile}/>
+                                        <React.Fragment>
+                                            <hr/>
+                                            <ProfileForm idpProfile={idpProfile} memberProfile={currentMember}/>
+                                        </React.Fragment>
                                     }
                                     {
                                         currentMembershipType !== MEMBERSHIP_TYPE_NONE &&
