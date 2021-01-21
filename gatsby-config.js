@@ -128,6 +128,8 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
+        // @see https://github.com/netlify/netlify-cms/issues/1690#issuecomment-465078677
+        enableIdentityWidget: false
       },
     },
     {
