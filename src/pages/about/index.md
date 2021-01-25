@@ -1,21 +1,21 @@
 ---
 templateKey: generic-page
 seo:
-  description: >-
-    The OpenInfra Foundation is an open source foundation supporting a global community of
-    100,000 individuals to build and operate open infrastructure software. 
+  description: "The OpenInfra Foundation is an open source foundation supporting a
+    global community of 100,000 individuals to build and operate open
+    infrastructure software. "
   image: /img/oif_logo_pill.png
   title: About
-  twitterUsername: '@OpenInfraDev'
-  url: 'https://openinfra.dev/about/'
+  twitterUsername: "@OpenInfraDev"
+  url: https://openinfra.dev/about/
 title: About
 subTitle: About the OpenInfra Foundation
 footer:
-  button: ''
-  buttonText: ''
+  button: ""
+  buttonText: ""
   display: false
-  title: ''
-  subTitle: ''
+  title: ""
+  subTitle: ""
 ---
 When the OpenInfra Foundation formed to govern the OpenStack project in 2012, clouds mainly offered virtual machines in a datacenter. The Foundation evolved as datacenter composition evolved into a mix of bare metal, VMs, and containers. While the OpenStack project is seen as the de facto open source platform for operating cloud infrastructure around the world, the Foundation realized more technology is needed to meet all of the diverse use cases, and we want to make sure it’s developed in the open, using the same proven approach to open source.
 
@@ -29,6 +29,7 @@ Staying true to its mission of helping people build and operate open infrastruct
 
 For more insight into Open Infrastructure Foundation activities and progress, please read the annual reports:
 
+* [2020 annual report](https://www.openstack.org/annual-reports/2020-openstack-foundation-annual-report)
 * [2019 annual report](https://www.openstack.org/annual-reports/2019-openstack-foundation-annual-report)
 * [2018 annual report](https://www.openstack.org/annual-reports/2018-openstack-foundation-annual-report)
 * [2017 annual report](https://www.openstack.org/assets/reports/OpenStack-AnnualReport2017.pdf)
