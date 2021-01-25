@@ -10,7 +10,7 @@ seo:
   title: Magma Developer Conference
   description: Magma Developer Conference - February 3rd, 2021
   twitterUsername: magmacore
-  url: https://openinfra.dev/blog/
+  url: https://openinfra.dev/blog/magma-developer-conference
 ---
 One week from today on February 3, the Magma community will be hosting the Magma Developers Conference. This virtual conference will be an opportunity to hear from Magma developers as they share more about the growing Magma community and how the platform enables service providers and systems integrators to deploy faster and more efficient networks. The schedule includes Magma use cases, a 5G demo, and other talks about the state of the project.  I am excited to be emceeing this conference with Phil Ritter, an active member of the Magma project. Personally, I am the most excited for the 5G FWA demo. It’s a use case that cloud native architecture is ideally suited for, with local break out. The demo will take place at 11:15am PST so make sure to [register for free now](https://magmadevelopersconference.splashthat.com/) so you don’t miss it.
 
