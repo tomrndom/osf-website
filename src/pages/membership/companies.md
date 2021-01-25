@@ -102,6 +102,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_bluvalt.png
       - alt: CDAC
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_CDAC.png
+      - alt: Cloud & Heat
+        image: /img/companies/_New/Silver/cloudandheat-sponsor.png
       - alt: Cloudbase Solutions
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_CloudbaseSolutions.png
       - alt: Cloudical
