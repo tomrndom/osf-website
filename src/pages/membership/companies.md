@@ -122,6 +122,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_IBM.png
       - alt: InMotion Hosting
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_inmotionhosting.png
+      - alt: iVolve
+        image: /img/companies/_New/Silver/sponsor-ivolve.png
       - alt: Juniper Networks
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_JuniperNetworks.png
       - alt: NetApp
