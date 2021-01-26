@@ -83,7 +83,7 @@ members:
     twitter: https://twitter.com/arkady_kanevsky
   - name: ChangBo Guo
     picture: /img/gcb.jpg
-    title: Individual Director
+    title: Gold Director
     company: EasyStack
     description: >
       ChangBo Guo serves as Individual Director of OpenStack Foundation in 2017-
