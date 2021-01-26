@@ -15,11 +15,11 @@ members:
   - company: "Open Usage Commons, Software Freedom Conservancy, Eigenstate Ltd,
       Ericsson Software Technology, The Perl Foundation, Onyx Neon, Inc. "
     description: Allison is a software developer and open source strategist. She is
-      a board member of the OpenStack Foundation, a board member of the Software
-      Freedom Conservancy, a board member of the Perl Foundation, and co-founder
-      of the FLOSS Foundations group for open source leaders. She previously
-      served as President of the Open Source Initiative, President of the Perl
-      Foundation, board member at the Python Software Foundation, Chief
+      the Chair of the Board of the OpenInfra Foundation, a board member of the
+      Software Freedom Conservancy, a board member of the Perl Foundation, and
+      co-founder of the FLOSS Foundations group for open source leaders. She
+      previously served as President of the Open Source Initiative, President of
+      the Perl Foundation, board member at the Python Software Foundation, Chief
       Architect of the Parrot virtual machine, Chairman of the Board at the
       Parrot Foundation, Open Source Evangelist at O'Reilly Media, Conference
       Chair of OSCON, Technical Architect of Ubuntu, Open Source Advisor at
@@ -32,7 +32,7 @@ members:
     name: Allison Randal
     openStack: https://www.openstack.org/community/members/profile/2813
     picture: /img/board/allisonrandall.png
-    title: Individual Director
+    title: Chair
     twitter: https://twitter.com/allisonrandal
   - name: Amar Padmanabhan
     company: Facebook
@@ -48,7 +48,7 @@ members:
       Luxembourg where she was the Open Source Community and Global Training
       Manager.  Previously she was the OpenStack Instructor at Linux Academy and
       a Linux System Engineer on the Platform Engineering Cloud Operations team
-      at Rackspace. She currently serves on the OpenStack Board, is an active
+      at Rackspace. She currently serves on the OpenInfra Board, is an active
       member of the Openstack Ansible project, chair of the OpenInfra Foundation
       Diversity and Inclusion Working Group, and previously the chair of the
       OpenStack User Committee. Amy spends her free time competing in
@@ -86,7 +86,7 @@ members:
     title: Gold Director
     company: EasyStack
     description: >
-      ChangBo Guo serves as Individual Director of OpenStack Foundation in 2017-
+      ChangBo Guo serves as Individual Director of OpenInfra Foundation in 2017-
       2019 and Oslo PTL for Pike and Queens. He worked on Linux and AIX for
       several years. He is one of the earliest OpenStack contributors in China.
       He has been working on the OpenStack since 2012, when he worked on the
@@ -245,7 +245,7 @@ members:
       Before SUSE, I was leading the architecture, community and consulting teams in Deutsche Telekom's Open Telekom Cloud Team.
 
 
-      DT has been a vocal supporter of OpenStack since I joined in early 2012 -- we have been able to run several OpenStack projects. We have participated in most OpenStack Summits and are active in a few working groups. I personally support the InterOp Workig Group, a key area for OpenStack's success given the centrifugal forces in such a large project. DT has become gold member of the OpenStack Foundation in 2016 and has been headline sponsor for a few summits (Barcelona, Boston, Berlin). I was serving in the board in most of 2018 until I handed over to Clemens Hardewig.
+      DT has been a vocal supporter of OpenStack since I joined in early 2012 -- we have been able to run several OpenStack projects. We have participated in most OpenInfra Summits and are active in a few working groups. I personally support the InterOp Workig Group, a key area for OpenStack's success given the centrifugal forces in such a large project. DT has become gold member of the OpenInfra Foundation in 2016 and has been headline sponsor for a few summits (Barcelona, Boston, Berlin). I was serving in the board in most of 2018 until I handed over to Clemens Hardewig.
 
 
       Before joining DT end of 2011 I was a long-time contributor to the Linux kernel, which also gave me the privilege of building up and leading SUSE Labs and work with a number of great engineers in- and outside my company, contributing to the success of the Open Source technology.
@@ -345,7 +345,7 @@ members:
       across the company.
 
 
-      Sean is currently a community representative on the OpenStack Foundation Board of Directors. He has served on the OpenStack Technical Committee (TC), was the Project Team Lead (PTL) for the Cinder block storage project and the Release Management team, and is currently a core reviewer in a number of OpenStack projects.
+      Sean is currently a community representative on the OpenInfra Foundation Board of Directors. He has served on the OpenStack Technical Committee (TC), was the Project Team Lead (PTL) for the Cinder block storage project and the Release Management team, and is currently a core reviewer in a number of OpenStack projects.
     name: Sean McGinnis
     openStack: https://www.openstack.org/community/members/profile/4843
     picture: /img/sean-mcginnis3-square.jpg
@@ -358,14 +358,13 @@ members:
       Intel System Software Engineering group. He has participated in or led his
       team on research and development of open source software projects such as
       Xen, tboot, Yocto and OpenStack. He has been serving as an Individual
-      Director of OpenStack Foundation Board (now Open Infrastructure Board)
-      since 2015, with years of commitment to community development and
-      building. Currently he and his team are focusing on cloud native,
-      software-defined networking (SDN) and software-defined storage (SDS)
-      technologies, edge computing, and NFV-related domains, including
-      OpenStack, Kubernetes, Ceph, SODA, Istio/Envoy, Akraino, and so forth. He
-      is keen on cloud computing and has been working on this domain for many
-      years.
+      Director of OpenInfra Foundation Board since 2015, with years of
+      commitment to community development and building. Currently he and his
+      team are focusing on cloud native, software-defined networking (SDN) and
+      software-defined storage (SDS) technologies, edge computing, and
+      NFV-related domains, including OpenStack, Kubernetes, Ceph, SODA,
+      Istio/Envoy, Akraino, and so forth. He is keen on cloud computing and has
+      been working on this domain for many years.
 
 
       He got his PhD degree on Computer Science from Fudan University at Shanghai in 2004, and joined Intel after graduating from the school.
