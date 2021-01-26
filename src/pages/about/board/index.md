@@ -49,11 +49,11 @@ members:
       Manager.  Previously she was the OpenStack Instructor at Linux Academy and
       a Linux System Engineer on the Platform Engineering Cloud Operations team
       at Rackspace. She currently serves on the OpenStack Board, is an active
-      member of the Openstack Ansible project, chair of the OSF Diversity and
-      Inclusion Working Group, and previously the chair of the OpenStack User
-      Committee. Amy spends her free time competing in performance events
-      (agility, FASt Cat, and dock diving) with her Dalmatians and competing in
-      Dressage with her Connemara pony.
+      member of the Openstack Ansible project, chair of the OpenInfra Foundation
+      Diversity and Inclusion Working Group, and previously the chair of the
+      OpenStack User Committee. Amy spends her free time competing in
+      performance events (agility, FASt Cat, and dock diving) with her
+      Dalmatians and competing in Dressage with her Connemara pony.
     name: Amy Marrich
     openStack: https://www.openstack.org/community/members/profile/33567
     picture: /img/board/amymarrich.jpg
