@@ -12,8 +12,10 @@ import HostingProject from '../components/HostingProject'
 import metadata from '../content/site-metadata.json'
 import leftArrow from '../img/svg/arrow-left.svg'
 import LinkComponent from '../components/LinkComponent'
+import {connect} from "react-redux";
 
 export const ProjectsPageTemplate = ({
+  isLoggedUser,
   seo,
   header,
   confirmed,
@@ -48,7 +50,7 @@ export const ProjectsPageTemplate = ({
       }
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar />
+        <Navbar isLoggedUser={isLoggedUser}/>
         <Header title={header.title} subTitle={header.subTitle} />
       </div>
 
@@ -186,12 +188,13 @@ ProjectsPageTemplate.propTypes = {
   pilot: PropTypes.object,
 }
 
-const ProjectsPage = ({ data }) => {
+const ProjectsPage = ({isLoggedUser, data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
       <ProjectsPageTemplate
+        isLoggedUser={isLoggedUser}
         contentComponent={HTMLContent}
         seo={post.frontmatter.seo}
         header={post.frontmatter.header}
@@ -207,7 +210,9 @@ ProjectsPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default ProjectsPage
+export default connect(state => ({
+  isLoggedUser: state.loggedUserState.isLoggedUser
+}), null)(ProjectsPage)
 
 export const projectsPageQuery = graphql`
   query ProjectsPage($id: String!) {

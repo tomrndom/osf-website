@@ -13,8 +13,10 @@ import PeopleSection from '../components/PeopleSection'
 import ProjectSection from '../components/ProjectSection'
 import WhyExpandSection from '../components/WhyExpandSection'
 import MainPitchSection from '../components/MainPitchSection'
+import {connect} from "react-redux";
 
 export const IndexPageTemplate = ({
+  isLoggedUser,
   seo,
   header,
   mainpitch,
@@ -47,7 +49,7 @@ export const IndexPageTemplate = ({
     }
     <div className="wrapper hero-background">
       <TopBar />
-      <Navbar />
+      <Navbar isLoggedUser={isLoggedUser}/>
       <Header upperTitle={header.upperTitle} title={header.title} subTitle={header.subTitle} image={header.image} buttons={header.buttons} isHome={true} />
     </div>
     
@@ -79,19 +81,20 @@ IndexPageTemplate.propTypes = {
   sponsor: PropTypes.object,
 }
 
-const IndexPage = ({ data }) => {
+const IndexPage = ({isLoggedUser, data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
       <IndexPageTemplate
-        seo={frontmatter.seo}
-        header={frontmatter.header}        
-        mainpitch={frontmatter.mainpitch}
-        whyExpand={frontmatter.whyExpand}
-        projects={frontmatter.projects}
-        people={frontmatter.people}
-        sponsor={frontmatter.sponsor}
+          isLoggedUser={isLoggedUser}
+          seo={frontmatter.seo}
+          header={frontmatter.header}
+          mainpitch={frontmatter.mainpitch}
+          whyExpand={frontmatter.whyExpand}
+          projects={frontmatter.projects}
+          people={frontmatter.people}
+          sponsor={frontmatter.sponsor}
       />
     </Layout>
   )
@@ -105,7 +108,10 @@ IndexPage.propTypes = {
   }),
 }
 
-export default IndexPage
+export default connect(state => ({
+  isLoggedUser: state.loggedUserState.isLoggedUser
+}), null)(IndexPage)
+
 
 export const pageQuery = graphql`
   query IndexPage {

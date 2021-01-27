@@ -71,6 +71,10 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-create-client-paths`,
+      options: { prefixes: [`/auth/*`, `/a/*`] },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
@@ -124,6 +128,8 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
+        // @see https://github.com/netlify/netlify-cms/issues/1690#issuecomment-465078677
+        enableIdentityWidget: false
       },
     },
     {

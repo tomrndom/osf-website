@@ -6,23 +6,23 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics'
 const LinkComponent = class extends React.Component {
   render() {
 
-    let { href, children, className, id } = this.props;
+    let { href, children, className, id, ...rest } = this.props;
 
     if(href.match(/^(http:\/\/|https:\/\/|www\.)/)){
       return (
-        <OutboundLink href={href} id={id} className={className} target="_blank" rel="noopener noreferrer">
+        <OutboundLink href={href} id={id} className={className} target="_blank" rel="noopener noreferrer" {...rest}>
           {children}
         </OutboundLink>
       )
     } else if (href.match(/mailto:/)){
       return (
-        <a href={href} id={id} className={className}>
+        <a href={href} id={id} className={className} {...rest}>
           {children}
         </a>
       )
     } else {
       return (
-        <Link to={href} id={id} className={className}>
+        <Link to={href} id={id} className={className} {...rest}>
           {children}
         </Link>
       )

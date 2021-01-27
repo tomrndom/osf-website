@@ -1,5 +1,5 @@
 ---
-templateKey: generic-page
+templateKey: join-page
 seo:
   description: We believe digital infrastructure is core to human progress in
     every country, company and industry. We also believe that community driven
@@ -56,8 +56,7 @@ Here's how you can participate as an Open Infrastructure Foundation Individual M
 <li>Participate in Community Events</li>
 </ul>
 
-PARTICIPATE [AS AN INDIVIDUAL FOUNDATION MEMBER](https://openstackid.org/auth/register?redirect_uri=https%3A%2F%2Fwww.openstack.org%2FSecurity%2Flogin%3FBackURL%3Djoin%252Fregister%252F%253Fmembership-type%253Dfoundation%26BackURL%3Dhttps%253A%252F%252Fwww.openstack.org%252F&client_id=7tdfQq8hu5SbLqGRXtQk0lwfD4mHBnTt.openstack.client)
-
+PARTICIPATE <a href="#" class="membership_action" id="foundation_membership" data-membership-type="foundation" >AS AN INDIVIDUAL FOUNDATION MEMBER</a>
 <p style="font-size:-3em;">*  Foundation Members are required to vote regularly in Board elections, or their membership will be transitioned to a Community account (please see below). Note that new Foundation Members must be members for 180 days before they are eligible to vote in Board Member elections. Inactive Foundation Member accounts are transitioned to Community Account level automatically after a period of inactivity. You may also log into your profile at any time and adjust your membership level.</p>
 
 #### Community Account: Free
@@ -72,7 +71,7 @@ Here's how you can participate as an Open Infrastructure Community Member:
 <li>Participate in Community Events</li>
 </ul>
 
-[CREATE A COMMUNITY ACCOUNT](https://openstackid.org/auth/register?redirect_uri=https%3A%2F%2Fwww.openstack.org%2FSecurity%2Flogin%3FBackURL%3Djoin%252Fregister%252F%253Fmembership-type%253Dcommunity%26BackURL%3Dhttps%253A%252F%252Fwww.openstack.org%252F&client_id=7tdfQq8hu5SbLqGRXtQk0lwfD4mHBnTt.openstack.client)
+<a href="#" class="membership_action" id="community_membership" data-membership-type="community">CREATE A COMMUNITY ACCOUNT</a>
 
 <hr/>
 

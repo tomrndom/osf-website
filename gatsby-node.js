@@ -1,8 +1,28 @@
 const path = require('path')
 const _ = require('lodash')
 const fs = require("fs")
+const axios = require('axios')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+
+const myEnv = require("dotenv").config({
+  path: `.env`,
+  expand: true
+})
+
+exports.onPreBootstrap = async () => {
+  const legalDocument = await axios.get(
+      `${process.env.GATSBY_API_BASE_URL}/api/public/v1/legal-documents/422`,
+      {
+      }).then((response) => response.data)
+      .catch(e => console.log('ERROR: ', e));
+
+  fs.writeFileSync('src/content/legal-document.json', JSON.stringify(legalDocument), 'utf8', function (err) {
+    if (err) throw err;
+    console.log(`wrote legal document 422`);
+  });
+}
+
 
 // explicit Frontmatter declaration to make category, author and date, optionals. 
 exports.createSchemaCustomization = ({ actions }) => {
@@ -122,7 +142,6 @@ exports.createPages = ({ actions, graphql }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
   fmImagesToRelative(node) // convert image paths for gatsby images
-
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
     createNodeField({
@@ -131,4 +150,17 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
   }
+}
+
+exports.onCreateWebpackConfig = ({ actions, plugins, loaders }) => {
+  actions.setWebpackConfig({
+    // canvas is a jsdom external dependency
+    externals: ['canvas'],
+    plugins: [
+      plugins.define({
+        'global.GENTLY': false,
+        'global.BLOB': false
+      })
+    ]
+  })
 }

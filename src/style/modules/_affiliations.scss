@@ -1,0 +1,24 @@
+.affiliations{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  p{
+    padding-top: 10px;
+  }
+  .affiliation-form {
+    min-height: 400px;
+    background-color: white;
+
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    table{
+      border: 0;
+      td{
+        border: 0;
+      }
+    }
+  }
+}
+

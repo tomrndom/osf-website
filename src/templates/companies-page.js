@@ -10,8 +10,10 @@ import Navbar from '../components/Navbar';
 import BecomeSponsor from '../components/BecomeSponsor'
 
 import metadata from '../content/site-metadata.json'
+import {connect} from "react-redux";
 
 export const CompaniesPageTemplate = ({
+  isLoggedUser,
   seo,
   header,  
   companies,  
@@ -45,7 +47,7 @@ export const CompaniesPageTemplate = ({
       }
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar />
+        <Navbar isLoggedUser={isLoggedUser}/>
         <Header title={header.title} subTitle={header.subTitle} link={header.link}/>
       </div>    
       
@@ -94,12 +96,13 @@ CompaniesPageTemplate.propTypes = {
   companies: PropTypes.array,
 }
 
-const CompaniesPage = ({ data }) => {
+const CompaniesPage = ({isLoggedUser, data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <CompaniesPageTemplate        
+      <CompaniesPageTemplate
+        isLoggedUser={isLoggedUser}
         contentComponent={HTMLContent}
         seo={post.frontmatter.seo}
         header={post.frontmatter.header}        
@@ -113,7 +116,9 @@ CompaniesPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default CompaniesPage
+export default connect(state => ({
+  isLoggedUser: state.loggedUserState.isLoggedUser
+}), null)(CompaniesPage)
 
 export const companiesPageQuery = graphql`
   query CompaniesPage($id: String!) {

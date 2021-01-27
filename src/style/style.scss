@@ -5,6 +5,8 @@
 @import "./bulma/sass/utilities/_all";
 @import "./modules/variables";
 @import "./bulma";
+@import "./bulma/sass/components/_all";
+@import "./bulma/sass/elements/_all";
 // @import "~buefy/src/scss/buefy";
 
 /* ------------------------------------------------------------ *\
@@ -34,6 +36,9 @@
 @import "./modules/default-page";
 @import "./modules/search";
 @import "./modules/carousel";
+@import "./modules/membership-type";
+@import "./modules/affiliations";
+@import "./modules/profile_form";
 
 @import "./modules/basestructure";
 @import "./modules/home";
@@ -61,3 +66,13 @@ section {
   width: 100%;
   max-width: unset;
 }*/
+
+.btn {
+  height: 42px;
+}
+
+.validation_error{
+  color: red !important;
+  font-size: smaller !important;
+  margin: 0 !important;
+}
