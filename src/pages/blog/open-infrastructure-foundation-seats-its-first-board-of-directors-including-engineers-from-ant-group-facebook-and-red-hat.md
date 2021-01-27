@@ -11,7 +11,7 @@ seo:
   title: Open Infrastructure Foundation Seats Its First Board of Directors,
     Including Engineers from Ant Group, Facebook and Red Hat
   twitterUsername: "@OpenInfraDev"
-  url: openinfra.dev
+  url: openinfra-board-ant-group-facebook-red-hat
   description: More than 60 corporate members, 110,000 community members support
     Open Infrastructure Foundation mission to build the next decade of
     infrastructure for AI, Containers, 5G, Edge
