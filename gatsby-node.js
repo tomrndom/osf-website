@@ -11,7 +11,7 @@ const myEnv = require("dotenv").config({
 })
 
 exports.onPreBootstrap = async () => {
-  const legalDocument = await axios.get(
+/*  const legalDocument = await axios.get(
       `${process.env.GATSBY_API_BASE_URL}/api/public/v1/legal-documents/422`,
       {
       }).then((response) => response.data)
@@ -20,7 +20,7 @@ exports.onPreBootstrap = async () => {
   fs.writeFileSync('src/content/legal-document.json', JSON.stringify(legalDocument), 'utf8', function (err) {
     if (err) throw err;
     console.log(`wrote legal document 422`);
-  });
+  });*/
 }
 
 
