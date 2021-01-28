@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Join Us in Building the Next Decade of Open Infrasrtructure
+title: Join Us in Building the Next Decade of Open Infrastructure
 author: Jonathan Bryce
 date: 2021-01-28T15:00:00.000Z
 category:
