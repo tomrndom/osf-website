@@ -29,7 +29,7 @@ const SEO = () => {
         {description && (
           <meta property="og:description" content={description} />
         )}
-        {image && <meta property="og:image" content={`${withPrefix('/')}${image}`} />}
+        {image && <meta property="og:image" content={`${withPrefix('/')}${image.substring(1)}`} />}
         <meta name="twitter:card" content="summary_large_image" />
         {twitterUsername && (
           <meta name="twitter:creator" content={twitterUsername} />
@@ -39,7 +39,7 @@ const SEO = () => {
         {description && (
           <meta name="twitter:description" content={description} />
         )}
-        {image && <meta name="twitter:image" content={`${withPrefix('/')}${image}`} />}          
+        {image && <meta name="twitter:image" content={`${withPrefix('/')}${image.substr(1)}`} />}          
       </Helmet>
     </>
   )
