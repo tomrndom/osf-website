@@ -284,9 +284,14 @@ members:
     title: Individual Director
     twitter: https://twitter.com/_mnaser
   - company: Wind River
-    description: >-2
-       A technology executive with extensive experience in leading complex high technology solutions development, product management, evangelization and team leadership. Entrepreneurial drive and energy combined with deep technical skills used to motivate cross-functional teams and drive products...
-      see more 
+    description: "A technology executive with extensive experience in leading
+      complex high technology solutions development, product management,
+      evangelization and team leadership. Entrepreneurial drive and energy
+      combined with deep technical skills used to motivate cross-functional
+      teams and drive products and solutions from concept to production.
+      Experienced and effective at being the voice of the business to industry
+      forums, customers and internal teams. A demonstrated history of business
+      effective product innovation and inventorship. "
     linkedin: https://www.linkedin.com/in/telecomcto/
     name: Paul Miller
     openStack: https://www.openstack.org/community/members/profile/128770
