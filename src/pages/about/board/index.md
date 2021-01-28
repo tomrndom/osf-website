@@ -142,6 +142,20 @@ members:
     openStack: https://www.openstack.org/community/members/profile/61513
     picture: /img/board/generic-profile-photo.png
     title: Platinum Director
+  - name: Gang Chen
+    title: Platinum Director
+    company: Fiberhome
+    description: >-
+      As the Chief Architect of FiberHome, Gang Chen focuses on IT
+      Infrastructure, Cloud Computing and Big Data, and he is one of the
+      earliest evangelists of OpenStack in China. Gang Chen has more than 20
+      years of experience in architecture design, product management and
+      technical consulting in the field of information technology.
+
+
+      Prior to joining FiberHome, Chen taught at Huazhong University of Science and Technology and served as a senior consultant and chief IT architect of China HP.
+    openStack: https://www.openstack.org/community/members/profile/131481
+    picture: /img/image-from-ios-3-.jpg
   - name: Grace Lian
     title: Gold Director
     picture: /img/grace-lian-02-web-3.jpg
@@ -454,18 +468,4 @@ members:
     picture: /img/billren.jpg
     title: Platinum Director
     twitter: ""
-  - name: Gang Chen
-    title: Platinum Director
-    company: Fiberhome
-    description: >-
-      As the Chief Architect of FiberHome, Gang Chen focuses on IT
-      Infrastructure, Cloud Computing and Big Data, and he is one of the
-      earliest evangelists of OpenStack in China. Gang Chen has more than 20
-      years of experience in architecture design, product management and
-      technical consulting in the field of information technology.
-
-
-      Prior to joining FiberHome, Chen taught at Huazhong University of Science and Technology and served as a senior consultant and chief IT architect of China HP.
-    openStack: https://www.openstack.org/community/members/profile/131481
-    picture: /img/image-from-ios-3-.jpg
 ---
