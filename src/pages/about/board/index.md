@@ -155,7 +155,7 @@ members:
 
       Prior to joining FiberHome, Chen taught at Huazhong University of Science and Technology and served as a senior consultant and chief IT architect of China HP.
     openStack: https://www.openstack.org/community/members/profile/131481
-    picture: /img/image-from-ios-3-.jpg
+    picture: /img/gangchen-lg.jpg
   - name: Grace Lian
     title: Gold Director
     picture: /img/grace-lian-02-web-3.jpg
