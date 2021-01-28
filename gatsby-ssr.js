@@ -2,6 +2,26 @@ import ReduxWrapper from "./src/state/ReduxWrapper"
 // @see https://www.gatsbyjs.com/docs/adding-redux-store/
 export const wrapRootElement = ReduxWrapper
 
+export const onPreRenderHTML = function onPreRenderHTML({
+    getHeadComponents,
+    replaceHeadComponents,
+}) {
+    const headComponents = getHeadComponents();
+    headComponents.sort((a, b) => {
+        if (a.type === b.type || (a.type !== 'style' && b.type !== 'style')) {
+            return 0;
+        }
+        if (a.type === 'style') {
+            return 1;
+        } else if (b.type === 'style') {
+            return -1;
+        }
+        return 0;
+    });
+
+    replaceHeadComponents(headComponents);
+};
+
 import { JSDOM } from 'jsdom'
 import { Blob } from 'blob-polyfill';
 import { XMLHttpRequest } from 'xmlhttprequest';
@@ -11,11 +31,11 @@ global.window = dom.window
 global.document = dom.window.document
 global.navigator = global.window.navigator
 
-global.window.matchMedia = function() {
+global.window.matchMedia = function () {
     return {
         matches: false,
-        addListener: function() {},
-        removeListener: function() {}
+        addListener: function () { },
+        removeListener: function () { }
     }
 }
 
