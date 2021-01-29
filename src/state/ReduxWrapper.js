@@ -44,7 +44,9 @@ const persistor = persistStore(store, null, onRehydrateComplete);
 export default ({ element }) => (
   <Provider store={store}>
     <PersistGate onBeforeLift={onBeforeLift} persistor={persistor}>
-      {element}
+      <SEO>
+        {element}
+      </SEO>
     </PersistGate>
   </Provider>
 );
