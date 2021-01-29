@@ -30,7 +30,7 @@ const SEO = () => {
           <meta property="og:description" content={description} />
         )}
         {image && <meta property="og:image" content={`${withPrefix('/')}${image.substring(1)}`} />}
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary" />
         {twitterUsername && (
           <meta name="twitter:creator" content={twitterUsername} />
         )}
