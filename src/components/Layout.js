@@ -34,7 +34,6 @@ const TemplateWrapper = ({ children }) => {
 
         <link rel="stylesheet" type="text/css" href="/cloud-typography/fonts.css" />
       </Helmet>
-      <SEO />
       <div>{children}</div>      
       <Footer />
     </div>
