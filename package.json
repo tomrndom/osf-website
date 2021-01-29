@@ -59,7 +59,7 @@
     "react-dom": "^16.13.1",
     "react-dropzone": "^4.3.0",
     "react-google-maps": "^9.4.5",
-    "react-helmet": "^5.2.0",
+    "react-helmet": "^6.1.0",
     "react-medium-image-zoom": "^4.3.0",
     "react-redux": "^7.2.0",
     "react-rte-ref-fix": "^0.16.2",
