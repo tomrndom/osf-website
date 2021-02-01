@@ -1,17 +1,18 @@
-import SEO from "./src/components/SEO"
+import React from 'react';
 import ReduxWrapper from "./src/state/ReduxWrapper"
 // @see https://www.gatsbyjs.com/docs/adding-redux-store/
-export const wrapRootElement = ({ element }) => {
+export const wrapRootElement = ReduxWrapper
+
+export const replaceRenderer = ({ wrapRootElement }) => {
     <SEO>
-        <ReduxWrapper>
-            {element}
-        </ReduxWrapper>
+        {wrapRootElement}
     </SEO>
 }
 
 import { JSDOM } from 'jsdom'
 import { Blob } from 'blob-polyfill';
 import { XMLHttpRequest } from 'xmlhttprequest';
+import SEO from "./src/components/SEO"
 
 global.dom = new JSDOM(`...`)
 global.window = dom.window
