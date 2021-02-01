@@ -9,10 +9,7 @@ export const replaceRenderer = ({ wrapRootElement }) => {
     </SEO>
 }
 
-export const onPreRenderHTML = function onPreRenderHTML({
-    getHeadComponents,
-    replaceHeadComponents,
-}) {
+export const onPreRenderHTML = ({ getHeadComponents, replaceHeadComponents }) => {
     const headComponents = getHeadComponents();
     headComponents.sort((a, b) => {
         if (a.type === b.type || (a.type !== 'style' && b.type !== 'style')) {
@@ -27,13 +24,6 @@ export const onPreRenderHTML = function onPreRenderHTML({
 
         return 0;
     });
-    
-    headComponents.forEach(head => {
-		if (head.props && head.props['data-react-helmet']) {
-			delete head.props['data-react-helmet'];
-		}
-	});
-
     replaceHeadComponents(headComponents);
 };
 
