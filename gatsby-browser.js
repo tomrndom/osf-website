@@ -1,6 +1,6 @@
 import ReduxWrapper from "./src/state/ReduxWrapper"
 // @see wrapRootElement
-export const wrapRootElement = ReduxWrapper
+// export const wrapRootElement = ReduxWrapper
 
 window.IDP_BASE_URL = process.env.GATSBY_IDP_BASE_URL;
 window.OAUTH2_CLIENT_ID = process.env.GATSBY_OAUTH2_CLIENT_ID;
