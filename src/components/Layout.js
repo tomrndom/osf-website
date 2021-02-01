@@ -2,7 +2,6 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import SEO from '../components/SEO'
 import '../style/style.scss'
 import { withPrefix } from 'gatsby'
 import TopBar from './TopBar'
@@ -33,8 +32,7 @@ const TemplateWrapper = ({ children }) => {
         />
 
         <link rel="stylesheet" type="text/css" href="/cloud-typography/fonts.css" />
-      </Helmet>
-      <SEO />
+      </Helmet>      
       <div>{children}</div>      
       <Footer />
     </div>
