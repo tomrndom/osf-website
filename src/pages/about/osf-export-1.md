@@ -2,7 +2,7 @@
 templateKey: generic-page
 seo:
   description: We help people Build & Operate Open Infrastructure
-  image: /img/oificon-social.png
+  image: /img/OpenInfra-icon-white.jpg
   title: OpenInfra Foundation Export
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/exportzh/'

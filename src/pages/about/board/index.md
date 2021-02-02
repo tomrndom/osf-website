@@ -3,7 +3,7 @@ templateKey: board-page
 seo:
   description: The Board of Directors provides strategic and financial oversight
     of OpenInfra Foundation resources and staff.
-  image: /img/osficon-social.png
+  image: /img/OpenInfra-icon-white.jpg
   title: Board of Directors
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/about/board/

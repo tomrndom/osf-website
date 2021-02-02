@@ -5,7 +5,7 @@ seo:
     The OpenInfra Foundation partners with global standardization bodies and open source
     organizations to further their mission of helping people build and operate
     open infrastructure. 
-  image: /img/oificon-social.png
+  image: /img/OpenInfra-icon-white.jpg
   title: Partnerships
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/about/osf-partnerships/'

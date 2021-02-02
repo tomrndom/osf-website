@@ -5,7 +5,7 @@ seo:
     Open Development, the adoption of transparent and inclusive open source
     software development processes, enables everyone to participate as an
     equal. 
-  image: /img/oif_logo_pill.png
+  image: /img/OpenInfra-icon-white.jpg
   title: Open Source Software Development
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/four-opens/open-development/'

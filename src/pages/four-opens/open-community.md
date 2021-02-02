@@ -5,7 +5,7 @@ seo:
     An Open Community balances the roles of open source developers, users and
     ecosystem, ensuring the community is a cohesive, inclusive, level playing
     ground. 
-  image: /img/oif_logo_pill.png
+  image: /img/OpenInfra-icon-white.jpg
   title: Open Source Project Community
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/four-opens/open-community/'

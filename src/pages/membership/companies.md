@@ -2,7 +2,7 @@
 templateKey: companies-page
 seo:
   description: The Home of Open Infrastructure
-  image: /img/oificon-social.png
+  image: /img/OpenInfra-icon-white.jpg
   title: Supporting Companies - Open Infrastructure Foundation (OpenInfra Foundation)
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/companies/'

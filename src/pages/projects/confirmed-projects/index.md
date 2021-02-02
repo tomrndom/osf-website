@@ -5,7 +5,7 @@ seo:
     The OpenInfra Foundation supports the growth of open source software projects and communities
     around use cases including CI/CD, Containers, Edge Computing, and Cloud
     Computing
-  image: /img/oificon-social.png
+  image: /img/OpenInfra-icon-white.jpg
   title: Open Source Software Community Projects
   twitterUsername: '@openstack'
   url: 'https://openinfra.dev/projects/'

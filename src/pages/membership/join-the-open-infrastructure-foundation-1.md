@@ -5,7 +5,7 @@ seo:
     every country, company and industry. We also believe that community driven
     open source is the best way to develop technology that is broadly available
     for use around the world.
-  image: /img/oificon-social.png
+  image: /img/OpenInfra-icon-white.jpg
   title: Join The Open Infrastructure Foundation
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/join

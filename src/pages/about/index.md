@@ -4,7 +4,7 @@ seo:
   description: "The OpenInfra Foundation is an open source foundation supporting a
     global community of 100,000 individuals to build and operate open
     infrastructure software. "
-  image: /img/oif_logo_pill.png
+  image: /img/OpenInfra-icon-white.jpg
   title: About
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/about/

@@ -2,7 +2,7 @@
 templateKey: generic-page
 seo:
   description: Open Infrastructure Foundation Export
-  image: /img/oificon-social.png
+  image: /img/OpenInfra-icon-white.jpg
   title: Open Infrastructure Foundation Export
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/export'

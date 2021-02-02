@@ -4,7 +4,7 @@ seo:
   description: >-
     As an open source software host, the OpenInfra Foundation dedicates resources towards
     advancing the project community's goals and growing adoption. 
-  image: /img/oificon-social.png
+  image: /img/OpenInfra-icon-white.jpg
   title: Open Source Project Hosting Website
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/projects/hosting/'

@@ -4,7 +4,7 @@ seo:
   description: >-
     The Four Opens are guiding principles to successfully grow an open source
     community: open source, open design, open community, and open development. 
-  image: /img/oificon-social.png
+  image: /img/OpenInfra-icon-white.jpg
   title: 'Our Philosophy: The Four Opens'
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/four-opens/'
