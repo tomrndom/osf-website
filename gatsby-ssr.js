@@ -32,7 +32,6 @@ export const onPreRenderHTML = ({
 import { JSDOM } from 'jsdom'
 import { Blob } from 'blob-polyfill';
 import { XMLHttpRequest } from 'xmlhttprequest';
-import SEO from "./src/components/SEO"
 
 global.dom = new JSDOM(`...`)
 global.window = dom.window
