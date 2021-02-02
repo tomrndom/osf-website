@@ -8,6 +8,7 @@ import thunk from 'redux-thunk';
 import { persistStore, persistCombineReducers } from 'redux-persist'
 import storage from 'redux-persist/es/storage' // default: localStorage if web, AsyncStorage if react-native
 import { PersistGate } from 'redux-persist/integration/react';
+import SEO from '../components/SEO';
 
 const onBeforeLift = () => {
   console.log("reading state ...")
@@ -41,9 +42,12 @@ const onRehydrateComplete = () => {
 const persistor = persistStore(store, null, onRehydrateComplete);
 
 export default ({ element }) => (
-  <Provider store={store}>
-    <PersistGate onBeforeLift={onBeforeLift} persistor={persistor}>
-      {element}
-    </PersistGate>
-  </Provider>
+  <>
+    <SEO />
+    <Provider store={store}>
+      <PersistGate onBeforeLift={onBeforeLift} persistor={persistor}>
+        {element}
+      </PersistGate>
+    </Provider>
+  </>
 );
