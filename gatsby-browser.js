@@ -1,13 +1,6 @@
-import React from 'react';
 import ReduxWrapper from "./src/state/ReduxWrapper"
 // @see wrapRootElement
-export const wrapRootElement = ReduxWrapper
-
-export const replaceRenderer = ({ wrapRootElement }) => {
-    <SEO>
-        {wrapRootElement}
-    </SEO>
-}
+export const wrapRootElement = ReduxWrapper;
 
 export const onPreRenderHTML = ({
     getHeadComponents,
