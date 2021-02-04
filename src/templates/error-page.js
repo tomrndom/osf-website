@@ -6,6 +6,8 @@ import React, { useEffect } from "react"
 
 
 import { doLogin } from 'openstack-uicore-foundation/lib/methods'
+import TopBar from '../components/TopBar'
+import Navbar from '../components/Navbar'
 
 export const ErrorPageTemplate = ({ loggedUserState, location }) => {
 
@@ -17,6 +19,10 @@ const ErrorPage = ({ loggedUserState, location }) => {
 
     return (
         <Layout>
+            <div className="wrapper project-background">
+                <TopBar />
+                <Navbar isLoggedUser={false} />                
+            </div>
             <ErrorPageTemplate
                 loggedUserState={loggedUserState}
                 location={location}
