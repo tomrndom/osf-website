@@ -9,7 +9,6 @@ import { doLogin } from 'openstack-uicore-foundation/lib/methods'
 
 export const ErrorPageTemplate = ({ loggedUserState, location }) => {
 
-
     return <div>ERROR</div>;
 }
 

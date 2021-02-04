@@ -9,6 +9,7 @@ import ErrorPage from "../templates/error-page";
 import MembershipResignPage from "../templates/membership-resign";
 import MembershipCommunityPage from "../templates/membership-community";
 import MembershipFoundationPage from "../templates/membership-foundation";
+import NotFoundPage from "./404"
 
 const App = ({ isLoggedUser, user }) => {
   return (
@@ -21,6 +22,7 @@ const App = ({ isLoggedUser, user }) => {
             <PrivateRoute path="/profile/membership/foundation" component={MembershipFoundationPage} isLoggedIn={isLoggedUser} user={user} location={location}/>
             <RegistrationPage path="/registration" location={location} isLoggedIn={isLoggedUser} />
             <ErrorPage path="/error" location={location} isLoggedIn={isLoggedUser}/>
+            <NotFoundPage default />
           </Router>
       )}
     </Location>
