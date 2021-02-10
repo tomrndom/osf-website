@@ -1,0 +1,35 @@
+{
+    "articles": [{
+            "title": "Open Infrastructure Foundation Seats Its First Board of Directors, Including Engineers from Ant Group, Facebook and Red Hat",
+            "site": "superuser",
+            "link": "https://superuser.com/",
+            "date": "2020-10-19T13:30:56.289Z",
+            "image": "/img/press/techcrunch.png",
+            "featured": true
+        },
+        {
+            "title": "Join Us in Building the Next Decade of Open Infrastructure",
+            "site": "TechCrunch",
+            "link": "https://www.techcrunch.com",
+            "date": "2021-01-21T13:30:56.289Z",
+            "image": "/img/press/cnet.png",
+            "featured": true
+        },
+        {
+            "title": "Introducing the Open Infrastructure Foundation: Building Open Source Communities Who Write Software to Run in Production",
+            "site": "TechCrunch",
+            "link": "https://www.techcrunch.com",
+            "date": "2021-10-22T13:30:56.289Z",
+            "image": "/img/press/techcrunch.png",
+            "featured": false
+        },
+        {
+            "title": "Magma Developer Conference",
+            "site": "CNet",
+            "link": "https://www.cnet.com",
+            "date": "2021-10-23T13:30:56.289Z",
+            "image": "/img/press/cnet.png",
+            "featured": false
+        }
+    ]
+}

@@ -130,6 +130,23 @@ collections:
           {label: "Twitter Username", name: "twitterUsername", widget: string},
         ]}
       - {label: "Body", name: "body", widget: "markdown"}          
+  - name: "press"
+    label: "Press and Media"
+    editor:
+      preview: false
+    files: 
+      - file: "src/content/press-media.json"        
+        name: "articles"
+        label: "Articles"
+        fields:      
+          - {label: "Articles", name: "articles", widget: "list", fields: [
+              {label: "Title", name: "title", widget: "text"},
+              {label: "Site", name: "site", widget: "string"},
+              {label: "Date", name: "date", widget: "datetime"},
+              {label: "Link", name: "link", widget: string},
+              {label: "Featured", name: "featured", widget: boolean, required: false},
+              {label: "Image", name: "image", widget: image, required: false},
+          ]}
   - name: "indexPages"
     label: "Index Page"
     files:
