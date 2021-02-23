@@ -430,7 +430,7 @@ collections:
                   {label: Link, name: link, widget: string}
                 ]},
               ]}
-      - file: "src/pages/projects/confirmed-projects/categories.json"
+      - file: "src/content/project-categories.json"
         label: "Projects Categories"
         name: "projectsCategories"
         fields:
