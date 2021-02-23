@@ -18,8 +18,7 @@ export const ProjectsPageTemplate = ({
   isLoggedUser,
   seo,
   header,
-  confirmed,
-  pilot,
+  projectList,  
   content,
   contentComponent
 }) => {
@@ -57,9 +56,9 @@ export const ProjectsPageTemplate = ({
       <main className="main">
         <div className="content">
           <section className="projects-s1-main container">
-            <h3 className="itemtitle">{confirmed.title}</h3>
+            <h3 className="itemtitle">CONFIRMED PROJECTS</h3>
             <hr className="itemtitle-hr" />
-            {confirmed.projectList.map((project, index) => {
+            {projectList.filter(project => project.isPilot === false).map((project, index) => {
               return (
                 <div className="projects-s1-container columns" key={index}>
                   <div className="column is-2">
@@ -113,11 +112,11 @@ export const ProjectsPageTemplate = ({
               )
             })}
           </section>
-          {pilot.projectList &&
+          {projectList.filter(project => project.isPilot === true).length > 0 &&
             <section className="projects-s1-main container">
-              <h3 className="itemtitle">{pilot.title}</h3>
+              <h3 className="itemtitle">PILOT PROJECTS</h3>
               <hr className="itemtitle-hr" />
-              {pilot.projectList.map((project, index) => {
+              {projectList.filter(project => project.isPilot === true).map((project, index) => {
                 return (
                   <div className="projects-s1-container columns" key={index}>
                     <div className="column is-2">
@@ -198,8 +197,7 @@ const ProjectsPage = ({isLoggedUser, data }) => {
         contentComponent={HTMLContent}
         seo={post.frontmatter.seo}
         header={post.frontmatter.header}
-        confirmed={post.frontmatter.confirmed}
-        pilot={post.frontmatter.pilot}
+        projectList={post.frontmatter.projectList}        
         content={post.html}
       />
     </Layout>
@@ -236,11 +234,28 @@ export const projectsPageQuery = graphql`
         header {
           title
           subTitle
-        }
-        confirmed {
+        }        
+        projectList {
+          logo {
+            childImageSharp {
+              fluid(maxWidth: 640, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+            extension
+            publicURL
+          }
           title
-          projectList {
-            logo {
+          subTitle
+          isPilot
+          class
+          description
+          button {
+            text
+            link
+          }
+          features {
+            icon {
               childImageSharp {
                 fluid(maxWidth: 640, quality: 64) {
                   ...GatsbyImageSharpFluid
@@ -249,70 +264,13 @@ export const projectsPageQuery = graphql`
               extension
               publicURL
             }
-            title
-            subTitle
-            class
-            description
-            button {
-              text
-              link
-            }
-            features {
-              icon {
-                childImageSharp {
-                  fluid(maxWidth: 640, quality: 64) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-                extension
-                publicURL
-              }
-              text
-            }
-            links {
-              link
-              text
-            }
+            text
           }
-        }
-        pilot {
-          title
-          projectList {
-            logo {
-              childImageSharp {
-                fluid(maxWidth: 640, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-              extension
-              publicURL
-            }
-            title
-            subTitle
-            class
-            description
-            button {
-              text
-              link
-            }
-            features {
-              icon {
-                childImageSharp {
-                  fluid(maxWidth: 640, quality: 64) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-                extension
-                publicURL
-              }
-              text
-            }
-            links {
-              link
-              text
-            }
+          links {
+            link
+            text
           }
-        }
+        }        
       }
     }
   }
