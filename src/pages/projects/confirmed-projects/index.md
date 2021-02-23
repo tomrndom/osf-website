@@ -17,6 +17,11 @@ header:
     mission of supporting the development and adoption  of production
     infrastructure with open source components.
   title: Projects & Communities at OpenInfra Foundation
+projectCategories:
+  - label: CONFIRMED PROJECTS
+    categoryId: confirmed
+  - label: PILOT PROJECTS
+    categoryId: pilot
 projectList:
   - button:
       link: 'https://airshipit.org/'
@@ -42,7 +47,7 @@ projectList:
       - link: 'https://git.airshipit.org/cgit'
         text: Code
     logo: /img/logo-airship.svg
-    isPilot: false
+    category: confirmed
     subTitle: >-
       Making lifecycle management for open infrastructure simple, repeatable &
       resilent.
@@ -70,7 +75,7 @@ projectList:
       - link: 'https://github.com/kata-containers'
         text: Code
     logo: /img/projects-img/logo-kata.svg
-    isPilot: false
+    category: confirmed
     subTitle: 'Secure, lightweight CRI compatible virtualized containers.'
     title: KATA CONTAINERS
   - button:
@@ -100,7 +105,7 @@ projectList:
       - link: 'https://www.openstack.org/foundation/tech-committee/'
         text: Technical Committee
     logo: /img/projects-img/logo-os.svg
-    isPilot: false
+    category: confirmed
     subTitle: 'Programmable infrastructure for VMs, containers and bare metal.'
     title: OPENSTACK
   - button:
@@ -131,7 +136,7 @@ projectList:
       - link: 'https://opendev.org/starlingx'
         text: Code
     logo: /img/projects-img/logo-starlingx.svg
-    isPilot: false
+    category: confirmed
     subTitle: >-
       Edge cloud computing infrastructure for high performance, ultra-low
       latency applications.
@@ -159,7 +164,7 @@ projectList:
       - link: 'https://git.zuul-ci.org/'
         text: Source Code
     logo: /img/projects-img/logo-zuul.svg
-    isPilot: false
+    category: confirmed
     subTitle: CI/CD platform for gating changes across multiple systems/repos.
     title: ZUUL
   - button:
@@ -185,7 +190,7 @@ projectList:
           https://www.openstack.org/edge-computing/cloud-edge-computing-beyond-the-data-center?lang=en_US
         text: 'Cloud Edge Computing: Beyond the Data Center White Paper'
     logo: /img/earth2.jpg
-    isPilot: false
+    category: confirmed
     subTitle: OpenInfra Foundation Board approved working group
     title: Edge Computing Group
   - button:
@@ -214,7 +219,7 @@ projectList:
         text: Operate First Community Manifesto
     logo: /img/openinfralabs-logo-rgb-stacked.svg
     subTitle: Connecting open source projects to production
-    isPilot: false
+    category: pilot
     title: OpenInfra Labs
 ---
 
