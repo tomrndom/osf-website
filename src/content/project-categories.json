@@ -1,0 +1,10 @@
+{
+  "projectCategories": [{
+    "label": "CONFIRMED PROJECTS",
+    "categoryId": "confirmed"
+  }, {
+
+    "label": "PILOT PROJECTS",
+    "categoryId": "pilot"
+  }]
+}

@@ -409,16 +409,12 @@ collections:
             - {label: Header, name: header, widget: object, fields: [
                 {label: "Title", name: title, widget: string},
                 {label: "Sub Title", name: subTitle, widget: string}
-              ]}
-            - {label: "Project Categories", name: projectCategories, widget: list, fields: [
-                {label: "Label", name: label, widget: string},
-                {label: "Category Id", name: categoryId, widget: string},
-              ]}
+              ]}            
             - {label: "Projects", name: projectList, widget: list, fields: [                
                 {label: Logo, name: logo, widget: image},
                 {label: Title, name: title, widget: string},
                 {label: Subtitle, name: subTitle, widget: string},
-                {label: Category, name: category, widget: relation, collection: projectCategories, value_field: categoryId, search_fields: ['label'], display_fields: ['label']},
+                {label: Category, name: category, widget: relation, collection: projectCategories, value_field: categoryId, search_fields: ['label']},
                 {label: CSS Class, name: class, widget: string, required: false},
                 {label: Description, name: description, widget: text},
                 {label: Button, name: button, widget: object, fields: [
@@ -433,7 +429,15 @@ collections:
                   {label: Text, name: text, widget: string},
                   {label: Link, name: link, widget: string}
                 ]},
-              ]}                        
+              ]}
+      - file: "src/pages/projects/confirmed-projects/categories.json"
+        label: "Projects Categories"
+        name: "projectsCategories"
+        fields:
+          - {label: "Project Categories", name: projectCategories, widget: list, fields: [
+              {label: "Label", name: label, widget: string},
+              {label: "Category Id", name: categoryId, widget: string},
+            ]}
       - file: "src/pages/projects/hosting/index.md"
         label: "Hosting"
         name: "hosting"

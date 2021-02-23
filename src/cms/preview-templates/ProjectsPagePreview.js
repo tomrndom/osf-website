@@ -2,15 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { ProjectsPageTemplate } from '../../templates/projects-page'
 
+import projectCategories from '../../content/project-categories.json';
+
 const ProjectsPagePreview = ({ entry, widgetFor }) => {
 
-  const data = entry.getIn(['data']).toJS()
+  const data = entry.getIn(['data']).toJS()  
 
-  const entryConfirmed = entry.getIn(['data', 'confirmed', 'projectList'])
-  const confirmedList = entryConfirmed ? entryConfirmed.toJS() : []
-
-  const entryPilot = entry.getIn(['data', 'pilot', 'projectList'])
-  const pilotList = entryPilot ? entryPilot.toJS() : []
+  const entryProjectList = entry.getIn(['data', 'projectList'])
+  const projectList = entryProjectList ? entryProjectList.toJS() : []
 
   if(data) {
     return (
@@ -19,14 +18,8 @@ const ProjectsPagePreview = ({ entry, widgetFor }) => {
           title: entry.getIn(['data', 'header', 'title']),
           subTitle: entry.getIn(['data', 'header', 'subTitle']),
         }}
-        confirmed={{
-          title: entry.getIn(['data', 'confirmed', 'title']),
-          projectList: confirmedList
-        }}
-        pilot={{
-          title: entry.getIn(['data', 'pilot', 'title']),
-          projectList: pilotList
-        }}
+        projectCategories={projectCategories}
+        projectList={projectList}
       />
     )
   } else {

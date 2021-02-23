@@ -17,11 +17,6 @@ header:
     mission of supporting the development and adoption  of production
     infrastructure with open source components.
   title: Projects & Communities at OpenInfra Foundation
-projectCategories:
-  - label: CONFIRMED PROJECTS
-    categoryId: confirmed
-  - label: PILOT PROJECTS
-    categoryId: pilot
 projectList:
   - button:
       link: 'https://airshipit.org/'
