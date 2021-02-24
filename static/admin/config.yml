@@ -418,7 +418,16 @@ collections:
                 {label: Logo, name: logo, widget: image},
                 {label: Title, name: title, widget: string},
                 {label: Subtitle, name: subTitle, widget: string},
-                {label: Category, name: category, widget: relation, collection: custom-project-pages, file: projects, value_field: projectCategories.categoryId, search_fields: ['projectCategories.label']},
+                {
+                  label: Category, 
+                  name: category, 
+                  widget: relation, 
+                  collection: custom-project-pages, 
+                  file: projects, 
+                  value_field: "projectCategories.*.categoryId",
+                  search_fields: ["projectCategories.*.label"],
+                  display_fields: ["projectCategories.*.label"]
+                },
                 {label: CSS Class, name: class, widget: string, required: false},
                 {label: Description, name: description, widget: text},
                 {label: Button, name: button, widget: object, fields: [
