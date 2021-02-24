@@ -1,12 +1,35 @@
 {
-  "articles": [
-    {
-      "date": "2021-02-24T21:04:52.432Z",
-      "title": "Testing",
-      "site": "The Wall Street Jouranl",
-      "link": "https://www.google.com",
-      "featured": true,
-      "image": "/img/1528776640793.jpg"
-    }
-  ]
+    "articles": [{
+            "title": "Press Media 1",
+            "site": "superuser",
+            "link": "https://superuser.com/",
+            "date": "2020-10-19T13:30:56.289Z",
+            "image": "/img/press/techcrunch.png",
+            "featured": true
+        },
+        {
+            "title": "Press Media 2",
+            "site": "TechCrunch",
+            "link": "https://www.techcrunch.com",
+            "date": "2021-01-21T13:30:56.289Z",
+            "image": "/img/press/cnet.png",
+            "featured": true
+        },
+        {
+            "title": "Press Media 1",
+            "site": "TechCrunch",
+            "link": "https://www.techcrunch.com",
+            "date": "2021-10-22T13:30:56.289Z",
+            "image": "/img/press/techcrunch.png",
+            "featured": false
+        },
+        {
+            "title": "Press Media 2",
+            "site": "CNet",
+            "link": "https://www.cnet.com",
+            "date": "2021-10-23T13:30:56.289Z",
+            "image": "/img/press/cnet.png",
+            "featured": false
+        }
+    ]
 }
