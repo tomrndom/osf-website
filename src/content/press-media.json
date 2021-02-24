@@ -1,0 +1,12 @@
+{
+  "articles": [
+    {
+      "date": "2021-02-24T21:04:52.432Z",
+      "title": "Testing",
+      "site": "The Wall Street Jouranl",
+      "link": "https://www.google.com",
+      "featured": true,
+      "image": "/img/1528776640793.jpg"
+    }
+  ]
+}
