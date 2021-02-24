@@ -2,11 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { ProjectsPageTemplate } from '../../templates/projects-page'
 
-import projectCategories from '../../content/project-categories.json';
-
 const ProjectsPagePreview = ({ entry, widgetFor }) => {
 
-  const data = entry.getIn(['data']).toJS()  
+  const data = entry.getIn(['data']).toJS()
+  
+  const entryProjectCategories = entry.getIn(['data', 'projectCategories'])
+  const projectCategories = entryProjectCategories ? entryProjectCategories.toJS() : []
 
   const entryProjectList = entry.getIn(['data', 'projectList'])
   const projectList = entryProjectList ? entryProjectList.toJS() : []

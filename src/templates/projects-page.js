@@ -14,12 +14,11 @@ import leftArrow from '../img/svg/arrow-left.svg'
 import LinkComponent from '../components/LinkComponent'
 import { connect } from "react-redux";
 
-import projectCategories from '../content/project-categories.json';
-
 export const ProjectsPageTemplate = ({
   isLoggedUser,
   seo,
-  header,  
+  header,
+  projectCategories,
   projectList,
   content,
   contentComponent
@@ -145,6 +144,7 @@ const ProjectsPage = ({ isLoggedUser, data }) => {
         contentComponent={HTMLContent}
         seo={post.frontmatter.seo}
         header={post.frontmatter.header}
+        projectCategories={post.frontmatter.projectCategories}
         projectList={post.frontmatter.projectList}
         content={post.html}
       />
@@ -182,6 +182,10 @@ export const projectsPageQuery = graphql`
         header {
           title
           subTitle
+        }        
+        projectCategories {
+          label
+          categoryId
         }
         projectList {
           logo {
