@@ -4,17 +4,15 @@ seo:
   description: The Home of Open Infrastructure
   image: /img/OpenInfra-icon-white.jpg
   title: Supporting Companies - Open Infrastructure Foundation (OpenInfra Foundation)
-  twitterUsername: '@OpenInfraDev'
-  url: 'https://openinfra.dev/companies/'
+  twitterUsername: "@OpenInfraDev"
+  url: https://openinfra.dev/companies/
 header:
   link:
-    text: >-
-      Learn more about how your company can support the Open Infrastructure
+    text: Learn more about how your company can support the Open Infrastructure
       community
     url: /join/
-  subTitle: >-
-    The Open Infrastructure Foundation would not exist without the support of
-    the Platinum, Gold, and Corporate Members listed below.
+  subTitle: The Open Infrastructure Foundation would not exist without the support
+    of the Platinum, Gold, and Corporate Members listed below.
   title: Companies Supporting The Open Infrastructure Foundation
 companies:
   - companyList:
@@ -36,16 +34,15 @@ companies:
         image: //img/companies/_New/Platinum/Sponsor-Logos_TencentCloud.png
       - alt: Wind River
         image: //img/companies/_New/Platinum/Sponsor-Logos_WindRiver.png
-    text: >-
-      Open Infrastructure Foundation Platinum Members provide a significant
+    text: Open Infrastructure Foundation Platinum Members provide a significant
       portion of the funding to achieve the Foundation's mission of protecting,
       empowering and promoting the Open Infrastructure community and open source
       software projects. Each Platinum Member's company strategy aligns with the
-      OpenInfra Foundation mission and is responsible for committing full-time resources toward
-      the project. There are eight Platinum Members at any given time, each of
-      which holds a seat on the Board of  Directors. Thank you to the following
-      Platinum Members who are committed to the Open Infrastructure community's
-      success.
+      OpenInfra Foundation mission and is responsible for committing full-time
+      resources toward the project. There are eight Platinum Members at any
+      given time, each of which holds a seat on the Board of  Directors. Thank
+      you to the following Platinum Members who are committed to the Open
+      Infrastructure community's success.
     title: PLATINUM MEMBERS
   - companyList:
       - alt: 99Cloud Inc.
@@ -84,14 +81,13 @@ companies:
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_vmware.png
       - alt: ZTE
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
-    text: >-
-      Open Infrastructure Foundation Gold Members provide funding and pledge
-      strategic alignment to the OpenInfra Foundation mission.  There can be up to twenty-four
-      Gold Members at any given time, subject to board approval. If your
-      organization  is highly involved with the Open Infrastructure community
-      and interested in becoming a Gold Member, read more about joining the 
-      Foundation. Thank you to the following Gold Members who are critical to
-      the global community's success. 
+    text: "Open Infrastructure Foundation Gold Members provide funding and pledge
+      strategic alignment to the OpenInfra Foundation mission.  There can be up
+      to twenty-four Gold Members at any given time, subject to board approval.
+      If your organization  is highly involved with the Open Infrastructure
+      community and interested in becoming a Gold Member, read more about
+      joining the  Foundation. Thank you to the following Gold Members who are
+      critical to the global community's success. "
     title: GOLD MEMBERS
   - companyList:
       - alt: Ampere
@@ -111,7 +107,7 @@ companies:
       - alt: DevStack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_DevStack.png
       - alt: Elastx
-        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Elastx.png
+        image: /img/elastx-oi.png
       - alt: FredomFi
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_FreedomFi.png
       - alt: Fujitsu
@@ -155,24 +151,22 @@ companies:
       - alt: SUSE
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_SUSE.png
       - alt: Ultimum Technologies
-        image: >-
-          /img/companies/_New/Silver/Sponsor-Logos-Silver_UltimumTechnologies.png
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_UltimumTechnologies.png
       - alt: Vexxhost
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Vexxhost.png
       - alt: Whitestack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png
-    text: >-
-      Open Infrastructure Foundation Silver Members provide funding and pledge
-      strategic alignment to the OpenInfra Foundation mission. If your organization  is highly
-      involved with  the Open Infrastructure community and interested in
-      becoming a Silver Member,  read more about joining the  Foundation. Thank
-      you to the following Silver  Members who are critical to the global
-      community's success. 
+    text: "Open Infrastructure Foundation Silver Members provide funding and pledge
+      strategic alignment to the OpenInfra Foundation mission. If your
+      organization  is highly involved with  the Open Infrastructure community
+      and interested in becoming a Silver Member,  read more about joining
+      the  Foundation. Thank you to the following Silver  Members who are
+      critical to the global community's success. "
     title: SILVER MEMBERS
   - companyList:
       - alt: Rackspace
         image: /img/companies/rackspace-lg-2016.jpg
-      - alt: 'VEXXHOST, Inc.'
+      - alt: VEXXHOST, Inc.
         image: /img/companies/vexxhost-new-lg.png
       - alt: OVH
         image: /img/companies/ovh-lg.jpg
@@ -180,8 +174,7 @@ companies:
         image: /img/companies/INAP-vertical-color-TM.png
       - alt: Limestone Networks
         image: /img/companies/lsn-sm.png
-    text: >-
-      Infrastructure donors are companies running OpenStack clouds, donating
+    text: Infrastructure donors are companies running OpenStack clouds, donating
       cloud resources to the OpenStack project infrastructure. Those resources
       are mostly used in our <a href="https://opendev.org">automated  testing
       framework</a> to support OpenStack development efforts.
@@ -275,7 +268,7 @@ companies:
         image: /img/companies/apalia-hd.png
       - alt: Apcera
         image: /img/companies/apcera.jpg
-      - alt: 'AppDynamics, Inc.'
+      - alt: AppDynamics, Inc.
         image: /img/companies/appdynamics.png
       - alt: AppFirst
         image: /img/companies/AppFirst-Updated-Palette-small.png
@@ -297,7 +290,7 @@ companies:
         image: /img/companies/array-logo-pms-large.png
       - alt: Arrow Electronics
         image: /img/companies/Arrow-Logo-Black.png
-      - alt: 'ASEANLABS, Inc.'
+      - alt: ASEANLABS, Inc.
         image: /img/companies/aseanlabs-logo.png
       - alt: Asosiasi Cloud Computing Indonesia
         image: /img/companies/icca.png
@@ -353,7 +346,7 @@ companies:
         image: /img/companies/BRCMRedBlackwTagPMS.png
       - alt: Btech
         image: /img/companies/btech-logo-sm.png
-      - alt: 'BurstIQ, LLC'
+      - alt: BurstIQ, LLC
         image: /img/companies/burstIQ-logo.png
       - alt: ByteSource
         image: /img/companies/bytesource-sm.jpg
@@ -411,7 +404,7 @@ companies:
         image: /img/companies/cevo1.png
       - alt: Cloud Niners Ltd.
         image: /img/companies/cloud9ers.jpg
-      - alt: 'Cloud Technology Partners, Inc.'
+      - alt: Cloud Technology Partners, Inc.
         image: /img/companies/image.png
       - alt: Cloud VPS
         image: /img/companies/LogoCloudVPSRGB1.png
@@ -562,15 +555,14 @@ companies:
       - alt: Diamanti
         image: /img/companies/diamanti-lg.jpg
       - alt: Digital Pacific
-        image: >-
-          /img/companies/Digital-Pacific-Logo-Square-Full-Colour-without-Gradient.png
+        image: /img/companies/Digital-Pacific-Logo-Square-Full-Colour-without-Gradient.png
       - alt: Digital Q
         image: /img/companies/digitalqlogo-copy.jpg
-      - alt: 'Digitivy Technology Solutions, Inc.'
+      - alt: Digitivy Technology Solutions, Inc.
         image: /img/companies/digitivylogo.jpg
       - alt: DNS Europe Ltd
         image: /img/companies/DE-logo.png
-      - alt: 'DOCOMO Innovations, Inc'
+      - alt: DOCOMO Innovations, Inc
         image: /img/companies/DOCOMO-Innovations-by-Naoi-20110805a.png
       - alt: Dome9
         image: /img/companies/Dome9.jpg
@@ -636,7 +628,7 @@ companies:
         image: /img/companies/FastConnect-logo.png
       - alt: FathomDB
         image: /img/companies/fathomdb.jpg
-      - alt: 'FEELingK co., LTD'
+      - alt: FEELingK co., LTD
         image: /img/companies/flk.jpg
       - alt: Fleio
         image: /img/companies/simple-fleio-logo-openstack.png
@@ -664,7 +656,7 @@ companies:
         image: /img/companies/gladinet.jpg
       - alt: Gladinet
         image: /img/companies/FullLogoBlackGlow-copy.png
-      - alt: 'GMO Internet, Inc.'
+      - alt: GMO Internet, Inc.
         image: /img/companies/ConoHa-logo.png
       - alt: GoDaddy
         image: /img/companies/GoDaddy-Logo-RGB-Full-B-copy.png
@@ -678,7 +670,7 @@ companies:
         image: /img/companies/Greenet-logo.png
       - alt: Grid Dynamics
         image: /img/companies/griddynamics.jpg
-      - alt: 'GuoXinYun Technology Co., Ltd.'
+      - alt: GuoXinYun Technology Co., Ltd.
         image: /img/companies/hotdoor-sm.png
       - alt: Hammer
         image: /img/companies/Hammer-Logo-2CT.png
@@ -706,7 +698,7 @@ companies:
         image: /img/companies/hypertection-logo-250-100-h.png
       - alt: hystax
         image: /img/companies/hystax-sm.png
-      - alt: 'I.M. Systems Group, Inc.'
+      - alt: I.M. Systems Group, Inc.
         image: /img/companies/imsg-logo-copy.png
       - alt: IA&amp;A Technologies
         image: /img/companies/Screen-Shot-2014-03-19-at-14.png
@@ -728,7 +720,7 @@ companies:
         image: /img/companies/Infocular-E-Technologies-logo.png
       - alt: Informology Sdn Bhd
         image: /img/companies/logo-update-openstack-portal.png
-      - alt: 'Infortrend Technology, Inc.'
+      - alt: Infortrend Technology, Inc.
         image: /img/companies/IFT-logo.jpg
       - alt: Infranics
         image: /img/companies/infranicsBluelogo-copy.png
@@ -739,8 +731,7 @@ companies:
       - alt: Innova
         image: /img/companies/InnovaSolutions-Logo-copy.png
       - alt: Innovate IT Ltd.
-        image: >-
-          /img/companies/scalecloud-logo-v4-registered-trademark-with-slogan-495x223.jpg
+        image: /img/companies/scalecloud-logo-v4-registered-trademark-with-slogan-495x223.jpg
       - alt: Innovazone
         image: /img/companies/2385db0.jpg
       - alt: Inocybe Technologies
@@ -777,7 +768,7 @@ companies:
         image: /img/companies/Screen-Shot-2014-08-04-at-15.png
       - alt: Izel Technologies
         image: /img/companies/Screen-Shot-2014-12-19-at-12.png
-      - alt: 'IzumoBASE, INC.'
+      - alt: IzumoBASE, INC.
         image: /img/companies/BASE-Inc-Logo.png
       - alt: J2Company
         image: /img/companies/j2company-copy.png
@@ -841,7 +832,7 @@ companies:
         image: /img/companies/MaldivicaOfficial.jpeg
       - alt: Marketing Solutions Ink
         image: /img/companies/marketinglogoFINAL-copy.jpg
-      - alt: 'Marko Sluga, Independent Trainer'
+      - alt: Marko Sluga, Independent Trainer
         image: /img/companies/markocloud-500.jpg
       - alt: Maxta
         image: /img/companies/maxta.jpg
@@ -861,7 +852,7 @@ companies:
         image: /img/companies/Screen-Shot-2014-11-14-at-15.png
       - alt: Microchild Technologies
         image: /img/companies/microchildlogo.jpg
-      - alt: 'Microsemi, a Microchip Company'
+      - alt: Microsemi, a Microchip Company
         image: /img/companies/Microsemi-Subsidiary-Logo-sm.png
       - alt: Midokura
         image: /img/companies/midokura.jpg
@@ -885,7 +876,7 @@ companies:
         image: /img/companies/nasa2.jpg
       - alt: National Institute of Informatics
         image: /img/companies/NII.jpg
-      - alt: 'NCORA INFORMATION TECHNOLOGY, S.L'
+      - alt: NCORA INFORMATION TECHNOLOGY, S.L
         image: /img/companies/Ncora-logo.png
       - alt: Nebulaworks
         image: /img/companies/nebulaworks-logo-500x500.png
@@ -951,7 +942,7 @@ companies:
         image: /img/companies/on-premise-feedback-Custom-2.png
       - alt: One Convergence
         image: /img/companies/one-convergence.jpg
-      - alt: 'One Off Endeavors, LLC'
+      - alt: One Off Endeavors, LLC
         image: /img/companies/OOE-Full.png
       - alt: OneCloud Consulting
         image: /img/companies/OneCloud-Logo-copy2.jpg
@@ -995,6 +986,8 @@ companies:
         image: /img/companies/Logo-writing-below-x150.png
       - alt: Palo Alto Networks
         image: /img/companies/PaloAlto-Logo.png
+      - image: /img/paramaah.png
+        alt: Paramaah
       - alt: Paxterra Software Solutions Pvt Ltd
         image: /img/companies/Paxterra-Logo.png
       - alt: Percona
@@ -1043,7 +1036,7 @@ companies:
         image: /img/companies/recastITOpenStack-150.jpg
       - alt: Reconnix
         image: /img/companies/ReconnixRGB-copy.png
-      - alt: 'Red Flag Software Co.,Ltd.'
+      - alt: Red Flag Software Co.,Ltd.
         image: /img/companies/RF-word-LOGO.jpg
       - alt: Red5
         image: /img/companies/www.png
@@ -1123,7 +1116,7 @@ companies:
         image: /img/companies/siaras.jpg
       - alt: Sightline Innovation Inc.
         image: /img/companies/SL-Logo-copy.jpg
-      - alt: 'Silicon Mechanics, Inc'
+      - alt: Silicon Mechanics, Inc
         image: /img/companies/SiliconMechanicsLogo.png
       - alt: SimOnlyDiscount
         image: /img/companies/simonlydiscount-copy.jpg
@@ -1343,14 +1336,15 @@ companies:
         image: /img/companies/ZW-logo.jpg
       - alt: UnitedStack
         image: /img/unitedstack-sp-lg.jpg
-    text: >-
-      The resources provided by the OpenInfra Foundation Members are critical to making the Open Infrastructure Foundation successful, but there are many ways to support
-      the OpenInfra Foundation mission, whether you're contributing  code, building a product or helping build the community. Below are companies who are  actively
-      involved in making the Open Infrastructure community successful. If you
-      would like your company listed here, please  complete the <a
-      href="https://openstack.echosign.com/public/hostedForm?formid=4TBJIEXJ4M7X2Q">logo 
-      authorization form</a> and <a
-      href="mailto:supporterlogos@openstack.org">send your logo</a>
+    text: The resources provided by the OpenInfra Foundation Members are critical to
+      making the Open Infrastructure Foundation successful, but there are many
+      ways to support the OpenInfra Foundation mission, whether you're
+      contributing  code, building a product or helping build the community.
+      Below are companies who are  actively involved in making the Open
+      Infrastructure community successful. If you would like your company listed
+      here, please  complete the <a
+      href="https://openstack.echosign.com/public/hostedForm?formid=4TBJIEXJ4M7X2Q">logo  authorization
+      form</a> and <a href="mailto:supporterlogos@openstack.org">send your
+      logo</a>
     title: SUPPORTING ORGANIZATIONS
 ---
-
