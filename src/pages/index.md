@@ -176,7 +176,7 @@ sponsor:
       - alt: Tencent Cloud
         image: //img/companies/_New/Platinum/Sponsor-Logos_TencentCloud.png
       - alt: Wind River
-        image: //img/companies/_New/Platinum/Sponsor-Logos_WindRiver.png
+        image: //img/companies/_New/Platinum/WNDRVR.png
     title: Platinum Members
   title: Companies supporting the Open Infrastructure Foundation
 ---

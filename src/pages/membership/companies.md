@@ -31,9 +31,9 @@ companies:
       - alt: Red Hat
         image: /img/companies/_New/Platinum/Sponsor-Logos_RedHat.png
       - alt: Tencent Cloud
-        image: //img/companies/_New/Platinum/Sponsor-Logos_TencentCloud.png
-      - alt: Wind River
-        image: //img/companies/_New/Platinum/Sponsor-Logos_WindRiver-new.png
+        image: /img/companies/_New/Platinum/Sponsor-Logos_TencentCloud.png
+      - alt: Tencent Cloud
+        image: /img/companies/_New/Platinum/WNDRVR.png
     text: Open Infrastructure Foundation Platinum Members provide a significant
       portion of the funding to achieve the Foundation's mission of protecting,
       empowering and promoting the Open Infrastructure community and open source
@@ -986,8 +986,8 @@ companies:
         image: /img/companies/Logo-writing-below-x150.png
       - alt: Palo Alto Networks
         image: /img/companies/PaloAlto-Logo.png
-      - image: /img/paramaah.png
-        alt: Paramaah
+      - alt: Paramaah
+        image: /img/paramaah.png
       - alt: Paxterra Software Solutions Pvt Ltd
         image: /img/companies/Paxterra-Logo.png
       - alt: Percona

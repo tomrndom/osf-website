@@ -150,7 +150,7 @@ export const companiesPageQuery = graphql`
         companies {
           title
           text
-          companyList {            
+          companyList {  
             image {
               childImageSharp {
                 fluid(maxWidth: 640, quality: 64) {
