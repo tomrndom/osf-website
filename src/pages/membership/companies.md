@@ -33,7 +33,7 @@ companies:
       - alt: Tencent Cloud
         image: //img/companies/_New/Platinum/Sponsor-Logos_TencentCloud.png
       - alt: Wind River
-        image: //img/companies/_New/Platinum/Sponsor-Logos_WindRiver.png
+        image: //img/companies/_New/Platinum/Sponsor-Logos_WindRiver-new.png
     text: Open Infrastructure Foundation Platinum Members provide a significant
       portion of the funding to achieve the Foundation's mission of protecting,
       empowering and promoting the Open Infrastructure community and open source
