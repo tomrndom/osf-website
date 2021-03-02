@@ -1,7 +1,7 @@
 {
   "bar": {
-    "text": "Check out the accomplishments of the global OpenInfra community in 2020 in the annual report",
-    "link": "https://www.openstack.org/annual-reports/2020-openinfra-foundation-annual-report/",
-    "button": "Read Now"
+    "text": "Join the OpenInfra Foundation and help us build open source communities that write software to run in production! ",
+    "link": "https://openinfra.dev/join/",
+    "button": "Join Now"
   }
 }
