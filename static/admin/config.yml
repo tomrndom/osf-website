@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: OpenStackweb/osf-website
-  branch: master
+  repo: tomrndom/osf-website
+  branch: companies-pages
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -385,6 +385,25 @@ collections:
                   {label: Width, name: width, widget: hidden, required: false}
                 ]}
               ]}
+  - name: "companiesProfiles"
+    label: "Companies Profile"
+    folder: "src/pages/membership/profile"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "companies-page"}
+      - {label: SEO, name: seo, widget: object, fields: [
+          {label: "Title", name: "title", widget: string},
+          {label: "Description", name: "description", widget: string},
+          {label: "Url", name: "url", widget: string},
+          {label: "Image", name: "image", widget: image},
+          {label: "Twitter Username", name: "twitterUsername", widget: string},
+        ]}
+      - {label: "Title", name: name, widget: string}
+      - {label: "Logo", name: logo, widget: image}
+      - {label: "Description", name: description, widget: markdown}
+      - {label: "Contributions to Openstack", name: contributions, widget: markdown}
+      - {label: "Products & Services", name: productsServices, widget: markdown}
+      - {label: "More information", name: moreInformation, widget: markdown}
   - name: "generic-projects-pages"
     label: "Projects Pages"
     folder: "src/pages/projects/"
