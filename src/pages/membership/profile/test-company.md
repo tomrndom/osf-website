@@ -1,5 +1,5 @@
 ---
-templateKey: companies-page
+templateKey: company-profile-page
 seo:
   title: title test
   description: description

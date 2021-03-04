@@ -7,15 +7,26 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: About
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/companies/profile/company
-name: Company
+  url: 
+title: Company
 logo: /img/OpenInfra-icon-white.jpg
-description: > 
-  asdasdas asdasda *asdasda *   
-contributions: >
+description: |-
+  *asdasdas asdasda asdasda*    
+
+  **create: true**
+
+  test
+
+  \
+  * 1
+
+  \* 2
+
+  \* 3
+contributions: |
+  asdasdas asdasda **asdasda**
+productsServices: |
   asdasdas asdasda *asdasda *
-productsServices: >
-  asdasdas asdasda *asdasda *
-moreInformation: >
+moreInformation: |
   asdasdas asdasda *asdasda *
 ---

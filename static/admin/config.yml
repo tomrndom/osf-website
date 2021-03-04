@@ -2,6 +2,8 @@ backend:
   name: github
   repo: tomrndom/osf-website
   branch: companies-pages
+  publish_mode: editorial_workflow
+  open_authoring: true
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -394,11 +396,11 @@ collections:
       - {label: SEO, name: seo, widget: object, fields: [
           {label: "Title", name: "title", widget: string},
           {label: "Description", name: "description", widget: string},
-          {label: "Url", name: "url", widget: string},
-          {label: "Image", name: "image", widget: image},
-          {label: "Twitter Username", name: "twitterUsername", widget: string},
+          {label: "Url", name: "url", widget: hidden},
+          {label: "Image", name: "image", widget: hidden, default: '/img/OpenInfra-icon-white.jpg'},
+          {label: "Twitter Username", name: "twitterUsername", widget: hidden, default: '@OpenInfraDev'},
         ]}
-      - {label: "Title", name: name, widget: string}
+      - {label: "Name", name: title, widget: string}
       - {label: "Logo", name: logo, widget: image}
       - {label: "Description", name: description, widget: markdown}
       - {label: "Contributions to Openstack", name: contributions, widget: markdown}

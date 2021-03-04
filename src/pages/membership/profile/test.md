@@ -1,12 +1,12 @@
 ---
-templateKey: companies-page
+templateKey: company-profile-page
 seo:
   title: Other Company
   description: description
-  url: https://openinfra.dev/companies/profile/other-company
+  url: 
   twitterUsername: "@openinfra"
   image: /img/OpenInfra-icon-white.jpg
-name: Other company
+title: Test
 logo: /img/bar-logo.svg
 description: "12345"
 contributions: yyyyyyyy

@@ -12,6 +12,16 @@ import Hero from '../components/Hero'
 import metadata from '../content/site-metadata.json'
 import {connect} from "react-redux";
 
+import MarkdownIt from "markdown-it";
+
+const parser = new MarkdownIt({
+  html: false,
+  breaks: true,
+  linkify: true,
+  xhtmlOut: true,
+  typographer: true,
+});
+
 export const CompanyProfilePageTemplate = ({
   isLoggedUser,
   seo,
@@ -53,7 +63,15 @@ export const CompanyProfilePageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser}/>
-        <Header title={name} subTitle='Company Profile'/>        
+        <Header title={name} subTitle='Company Profile'/>      
+        <div className="company-profile-logo">
+          <img src={
+            (logo.extension === 'svg' || logo.extension === 'gif') && !logo.childImageSharp ?
+            logo.publicURL 
+            :                        
+            !!logo.childImageSharp ? logo.childImageSharp.fluid.src : logo
+            } alt={`${name}-logo`} />
+        </div>
       </div>
       
       <main className="main">
@@ -62,14 +80,14 @@ export const CompanyProfilePageTemplate = ({
             <div className="container about-s1-container">
               <div className="columns">
                 <div className="column">
-                  <h3>Description</h3>
-                  {description}
-                  <h3>Contributions To OpenStack From {name}</h3>
-                  {contributions}
-                  <h3>SoProducts & Services</h3>
-                  {productsServices}
-                  <h3>For More Information</h3>
-                  {moreInformation}
+                  <h2>Description</h2>
+                  <span dangerouslySetInnerHTML={{ __html: parser.render(description) }} />                  
+                  <h2>Contributions To OpenStack From {name}</h2>                  
+                  <span dangerouslySetInnerHTML={{ __html: parser.render(contributions) }} />                  
+                  <h2>SoProducts & Services</h2>                  
+                  <span dangerouslySetInnerHTML={{ __html: parser.render(productsServices) }} />                  
+                  <h2>For More Information</h2>                  
+                  <span dangerouslySetInnerHTML={{ __html: parser.render(moreInformation) }} />                  
                   <PageContent content={content} />
                 </div>
               </div>
@@ -85,11 +103,14 @@ export const CompanyProfilePageTemplate = ({
 }
 
 CompanyProfilePageTemplate.propTypes = {  
-  seo: PropTypes.object,  
-  companies: PropTypes.object,
+  seo: PropTypes.object,    
   title: PropTypes.string,
-  subTitle: PropTypes.string,
-  footer: PropTypes.object,
+  name: PropTypes.string,
+  logo: PropTypes.object,
+  description: PropTypes.string,
+  contributions: PropTypes.string,
+  productsServices: PropTypes.string,
+  moreInformation: PropTypes.string,  
 }
 
 const CompanyProfilePage = ({isLoggedUser, data }) => {
@@ -101,13 +122,12 @@ const CompanyProfilePage = ({isLoggedUser, data }) => {
         isLoggedUser={isLoggedUser}
         contentComponent={HTMLContent}
         seo={post.frontmatter.seo}
-        name={post.frontmatter.name}
+        name={post.frontmatter.title}
         logo={post.frontmatter.logo}        
         description={post.frontmatter.description}
         contributions={post.frontmatter.contributions}
         productsServices={post.frontmatter.productsServices}
         moreInformation={post.frontmatter.moreInformation}
-        footer={post.frontmatter.footer}        
         content={post.html}
       />
     </Layout>
@@ -141,13 +161,14 @@ export const companyProfilePageQuery = graphql`
           }
           twitterUsername
         }
-        name
+        title
         logo {
             childImageSharp {
                 fluid(maxWidth: 640, quality: 64) {
                   ...GatsbyImageSharpFluid
                 }
             }
+            publicURL
         }
         description
         contributions
