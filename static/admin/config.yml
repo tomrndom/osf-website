@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: tomrndom/osf-website
-  branch: companies-pages
+  branch: company-profile-page
   #publish_mode: editorial_workflow
   #open_authoring: true
   commit_messages:
