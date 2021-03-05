@@ -18,6 +18,7 @@ companies:
   - companyList:
       - alt: Ant Group
         image: /img/companies/_New/Platinum/Sponsor-Logos_AntGroup.png
+        profileLink: www.antgroup.com
       - alt: AT&T
         image: /img/companies/_New/Platinum/Sponsor-Logos_AT&T.png
       - alt: Ericsson

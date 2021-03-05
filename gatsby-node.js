@@ -15,9 +15,9 @@ exports.onPreBootstrap = async () => {
   try {
 
     const legalDocument = await axios.get(
-        `${process.env.GATSBY_API_BASE_URL}/api/public/v1/legal-documents/422`,
-        {}).then((response) => response.data)
-        .catch(e => console.log('ERROR: ', e));
+      `${process.env.GATSBY_API_BASE_URL}/api/public/v1/legal-documents/422`,
+      {}).then((response) => response.data)
+      .catch(e => console.log('ERROR: ', e));
 
     if (legalDocument) {
 
@@ -27,7 +27,7 @@ exports.onPreBootstrap = async () => {
       });
     }
   }
-  catch (e){
+  catch (e) {
     console.log(e);
   }
 }
@@ -44,9 +44,15 @@ exports.createSchemaCustomization = ({ actions }) => {
       category: [Category]
       author: String
       date: Date @dateformat(formatString: "DD/MM/YYYY")
+      companyList: [CompanyList]
     }
     type Category {
       label: String
+    }
+    type CompanyList {
+      alt: String
+      image: String
+      profileLink: String
     }
   `
   createTypes(typeDefs)
@@ -68,6 +74,7 @@ exports.createPages = ({ actions, graphql }) => {
               category {
                 label
               }
+              title
               author
               templateKey
               seo {
@@ -90,7 +97,13 @@ exports.createPages = ({ actions, graphql }) => {
     pages.forEach(edge => {
       const id = edge.node.id
       const SEO = edge.node.frontmatter.seo ? edge.node.frontmatter.seo : null;
-      const slug = SEO && SEO.url ? SEO.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : edge.node.fields.slug; 
+      let slug = SEO && SEO.url ? SEO.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : edge.node.fields.slug
+      if (edge.node.frontmatter.templateKey === 'company-profile-page') {
+        console.log(edge.node.frontmatter)
+        slug = `/companies/profile/${_.kebabCase(edge.node.frontmatter.title)}`;
+        edge.node.frontmatter.seo.url = `https://openinfra.dev/companies/profile/${slug}`;
+        console.log('here', slug, edge.node.frontmatter.title)
+      }
       createPage({
         path: slug,
         category: edge.node.frontmatter.category,

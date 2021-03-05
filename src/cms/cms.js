@@ -11,6 +11,7 @@ import HostingPagePreview from './preview-templates/HostingPagePreview'
 import ProjectsPagePreview from './preview-templates/ProjectsPagePreview'
 import ServicesPagePreview from './preview-templates/ServicesPagePreview'
 import StaffPagePreview from './preview-templates/StaffPagePreview'
+import CompanyProfilePagePreview from './preview-templates/CompanyProfilePagePreview'
 
 CMS.registerPreviewStyle('style/styles.scss');
 
@@ -28,5 +29,6 @@ CMS.registerPreviewTemplate('projects', ProjectsPagePreview)
 CMS.registerPreviewTemplate('services', ServicesPagePreview)
 CMS.registerPreviewTemplate('generic-about-pages', GenericPagePreview)
 CMS.registerPreviewTemplate('generic-projects-pages', GenericPagePreview)
-CMS.registerPreviewTemplate('generic-membership-pages', GenericPagePreview)
+CMS.registerPreviewTemplate('generic-companies-pages', GenericPagePreview)
 CMS.registerPreviewTemplate('generic-four-open-pages', GenericPagePreview)
+CMS.registerPreviewTemplate('companiesProfiles', CompanyProfilePagePreview)

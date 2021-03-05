@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { withPrefix, graphql } from 'gatsby'
 import { Helmet } from "react-helmet"
+import { kebabCase } from 'lodash'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
@@ -66,20 +67,30 @@ export const CompaniesPageTemplate = ({
                       </div>
                       <div className="companies-s1-1-container">
                         {tier.companyList.map((company, index) => {
-                          return (                      
-                            <img src={
-                              (company.image.extension === 'svg' || company.image.extension === 'gif') && !company.image.childImageSharp ?
-                              company.image.publicURL 
+                          return (
+                            company.profileLink ? 
+                              <a href={`/companies/profile/${kebabCase(company.profileLink)}`}>
+                                <img src={
+                                  (company.image.extension === 'svg' || company.image.extension === 'gif') && !company.image.childImageSharp ?
+                                  company.image.publicURL 
+                                  :
+                                  !! company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
+                                } alt={company.alt} width={company.width ? company.width : null} key={index} /> 
+                              </a>
                               :
-                              !! company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
-                            } alt={company.alt} width={company.width ? company.width : null} key={index} /> 
+                              <img src={
+                                (company.image.extension === 'svg' || company.image.extension === 'gif') && !company.image.childImageSharp ?
+                                company.image.publicURL 
+                                :
+                                !! company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
+                              } alt={company.alt} width={company.width ? company.width : null} key={index} />
                           )
                         })}
                       </div>
-                    </div>              
-                  </div>   
+                    </div>
+                  </div>
                 )
-              })}           
+              })}
             </section>
           </div>
           <PageContent content={content} />
@@ -160,6 +171,7 @@ export const companiesPageQuery = graphql`
               extension
               publicURL
             }
+            profileLink
             alt
           }
         }        

@@ -72,6 +72,15 @@ section {
   height: 42px;
 }
 
+.company-profile-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  img {
+    max-height: 200px;
+  }
+}
+
 .validation_error{
   color: red !important;
   font-size: smaller !important;

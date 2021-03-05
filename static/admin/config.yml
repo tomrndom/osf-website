@@ -1,7 +1,9 @@
 backend:
   name: github
-  repo: OpenStackweb/osf-website
-  branch: master
+  repo: tomrndom/osf-website
+  branch: companies-pages
+  #publish_mode: editorial_workflow
+  #open_authoring: true
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -257,6 +259,25 @@ collections:
           {label: "Button Text", name: buttonText, widget: string, required: false},
           {label: "Display", name: display, widget: boolean, required: false}
         ]}
+  - name: "companiesProfiles"
+    label: "Companies Profile"
+    folder: "src/pages/membership/profile"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "companies-page"}
+      - {label: SEO, name: seo, widget: object, fields: [
+          {label: "Title", name: "title", widget: string},
+          {label: "Description", name: "description", widget: string},
+          {label: "Url", name: "url", widget: hidden},
+          {label: "Image", name: "image", widget: hidden, default: '/img/OpenInfra-icon-white.jpg'},
+          {label: "Twitter Username", name: "twitterUsername", widget: hidden, default: '@OpenInfraDev'},
+        ]}
+      - {label: "Name", name: title, widget: string}
+      - {label: "Logo", name: logo, widget: image}
+      - {label: "Description", name: description, widget: markdown}
+      - {label: "Contributions to Openstack", name: contributions, widget: markdown}
+      - {label: "Products & Services", name: productsServices, widget: markdown}
+      - {label: "More information", name: moreInformation, widget: markdown}        
   - name: "custom-about-pages"
     label: "About Custom Pages"
     files:
@@ -353,8 +374,8 @@ collections:
           {label: "Button Text", name: buttonText, widget: string, required: false},
           {label: "Display", name: display, widget: boolean, required: false}
         ]}
-  - name: "custom-membership-pages"
-    label: "Membership Custom Pages"
+  - name: "custom-companies-pages"
+    label: "Supporting Companies Pages"
     files:
       - file: "src/pages/membership/companies.md"
         label: "Companies"
@@ -382,9 +403,18 @@ collections:
                 {label: Company List, name: companyList, widget: list, fields: [
                   {label: Logo, name: image, widget: image},
                   {label: Name, name: alt, widget: string},
+                  {
+                    label: Profile Link, 
+                    name: profileLink, 
+                    widget: relation, 
+                    collection: companiesProfiles, 
+                    searchFields: ["title"],
+                    valueField: "title",
+                    required: false
+                  },
                   {label: Width, name: width, widget: hidden, required: false}
                 ]}
-              ]}
+              ]}  
   - name: "generic-projects-pages"
     label: "Projects Pages"
     folder: "src/pages/projects/"
