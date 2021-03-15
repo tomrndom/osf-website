@@ -103,19 +103,19 @@
       ]
     },
     {
-      "title": "Blog",
+      "title": "News",
       "image": "/img/menu/menu_about.jpg",
       "marginLeft": "-422px",
       "url": "/blog/",
       "display": true,
       "links": [
         {
-          "text": "News & Announcements",
-          "url": "/blog/category/news-announcements/"
+          "text": "OpenInfra Blog",
+          "url": "/blog/"
         },
         {
-          "text": "Community",
-          "url": "/blog/category/community/"
+          "text": "Press & Media",
+          "url": "/press/"
         }
       ]
     }
