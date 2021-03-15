@@ -26,11 +26,35 @@
     },
     {
       "title": "OpenStack celebrates 10th birthday with more than 20,000 code changes ",
-      "site": "ZDNet",
+      "site": "SiliconAngle",
       "link": "https://siliconangle.com/2020/10/14/openstack-celebrates-10th-birthday-across-board-updates/",
       "date": "2020-10-14T13:30:56.289Z",
       "image": "/img/press/cnet.png",
       "featured": false
+    },
+    {
+      "date": "2020-02-20T19:49:00.000Z",
+      "site": "ZDNet",
+      "link": "https://www.zdnet.com/article/red-hat-openstack-lives-on-in-a-new-release/",
+      "title": "Red Hat OpenStack lives on in a new release"
+    },
+    {
+      "date": "2020-10-14T18:49:21.892Z",
+      "title": "AT&T, Verizon 5G Deployments Boost OpenStack Work",
+      "site": "SDXCentral",
+      "link": "https://www.sdxcentral.com/articles/news/att-verizon-5g-deployments-boost-openstack-work/2020/10/"
+    },
+    {
+      "date": "2021-02-18T21:30:00.000Z",
+      "title": "Rackspace beats Q4 estimates with multi-cloud growth",
+      "site": "ZDNet",
+      "link": "https://www.zdnet.com/article/rackspace-beats-q4-estimates-with-multi-cloud-growth/"
+    },
+    {
+      "date": "2021-02-02T14:30:00.000Z",
+      "link": "https://blocksandfiles.com/2021/02/02/veritas-netbackup-9-openstack-trilio/",
+      "title": "Veritas stirs Trilio OpenStack into NetBackup 9.0 mix",
+      "site": "BlocksandFiles"
     }
   ]
 }
