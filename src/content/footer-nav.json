@@ -98,11 +98,15 @@
       ]
     },
     {
-      "title": "Blog",
+      "title": "News",
       "nav": [
         {
           "text": "OpenInfra Blog",
           "link": "/blog/"
+        },
+        {
+          "text": "Press & Media",
+          "link": "/press/"
         }
       ]
     }
