@@ -151,7 +151,7 @@ members:
     name: James Cole
     openStack: https://www.openstack.org/community/members/profile/96706
     picture: /img/about-staff/jamescole.jpg
-    title: Lead Designer
+    title: Design Lead
     twitter: https://twitter.com/JamesColeDesign
   - description: Erin Disney works as a Marketing Manager for the Open
       Infrastructure Foundation. Prior to joining, Erin ran  events for W2O
