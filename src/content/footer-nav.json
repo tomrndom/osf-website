@@ -76,10 +76,6 @@
       "title": "About",
       "nav": [
         {
-          "text": "Foundation Staff",
-          "link": "/about/staff/"
-        },
-        {
           "text": "Board of Directors",
           "link": "/about/board/"
         },
