@@ -87,6 +87,7 @@ const AffiliationForm = class extends React.Component {
                     <div className="control">
                         <OrganizationInput
                             id="organization"
+                            placeholder="Type something and select..."
                             value={this.state.organization}
                             onChange={this.onHandleChangeCell}
                             allowCreate
