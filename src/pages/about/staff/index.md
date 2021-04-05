@@ -221,7 +221,7 @@ members:
     name: Kendall Nelson
     openStack: https://www.openstack.org/community/members/profile/35859/kendall-nelson
     picture: /img/about-staff/kendallnelson.jpg
-    title: Software Engineer
+    title: Upstream Developer Advocate
     twitter: https://twitter.com/knelson92
   - description: A long-time computer hobbyist and technology generalist, Jeremy's
       worked as a Unix and GNU/Linux  sysadmin for more than two decades
