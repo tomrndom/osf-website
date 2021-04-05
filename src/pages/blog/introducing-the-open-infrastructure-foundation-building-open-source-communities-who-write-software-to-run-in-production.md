@@ -1,18 +1,17 @@
 ---
 templateKey: blog-post
-title: >-
-  Introducing the Open Infrastructure Foundation: Building Open Source
-  Communities Who Write Software to Run in Production
+title: "Introducing the Open Infrastructure Foundation: Building Open Source
+  Communities Who Write Software to Run in Production"
 author: Jonathan Bryce
-date: 2020-10-19T13:30:56.289Z
+date: 2021-06-25T13:30:56.289Z
 category:
   - id: category-A7fnZYrE1
     label: News & Announcements
 seo:
   description: Building Open Source Communities Who Write Software to Run in Production
   title: Introducing the Open Infrastructure Foundation
-  twitterUsername: '@OpenInfraDev'
-  url: 'https://openinfra.dev/blog/introducing-the-open-infrastructure-foundation'
+  twitterUsername: "@OpenInfraDev"
+  url: https://openinfra.dev/blog/introducing-the-open-infrastructure-foundation
 ---
 The [Open Infrastructure Foundation (OpenInfra Foundation)](https://t.e2ma.net/click/2rkzoc/ygpkur/uhjhno) was just announced as the successor to the OpenStack Foundation (OSF) by Jonathan Bryce, executive director of the OpenInfra Foundation during the Open Infrastructure Summit keynotes. Together with over 60 founding members and more than 100,000 community members, the Foundation will continue to build open source communities that write infrastructure software in production.
 
