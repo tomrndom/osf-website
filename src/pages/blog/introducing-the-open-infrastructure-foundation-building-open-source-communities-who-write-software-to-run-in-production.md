@@ -3,7 +3,7 @@ templateKey: blog-post
 title: "Introducing the Open Infrastructure Foundation: Building Open Source
   Communities Who Write Software to Run in Production"
 author: Jonathan Bryce
-date: 2021-06-25T13:30:56.289Z
+date: 2020-10-19T13:30:00.000Z
 category:
   - id: category-A7fnZYrE1
     label: News & Announcements
