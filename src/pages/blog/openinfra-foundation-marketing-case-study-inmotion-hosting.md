@@ -27,7 +27,7 @@ OpenInfra Foundation also has a large audience in the China community on WeChat,
 
 The Foundation’s Marketing & Community team worked closely with the InMotion Hosting staff to promote its product launch on Twitter, Facebook, LinkedIn and WeChat, which generated over 25,000 total impressions with an average of 1.2% engagement rate. 
 
-![Social promotion screenshots](/img/untitled_artwork.jpg)
+![Social promotion screenshots](/img/image-1.jpg)
 
 <br/>
 
@@ -35,19 +35,19 @@ The Foundation’s Marketing & Community team worked closely with the InMotion H
 
 The OpenInfra Foundation hosts a vendor-neutral publication called [Superuser Magazine](https://superuser.openstack.org/), which attracts 30,000-40,000 unique visitors per month. Superuser Magazine provides an online platform for the Member companies and the OpenInfra community to share open infrastructure ecosystem news, case studies, event recaps, product updates and announcements, project release, and more.
 
-![Superuser article InMotion Hosting](/img/superuser.png)
+![Superuser article InMotion Hosting](/img/image-2.png)
 
 <br/>
 
 An article about InMotion Hosting’s product launch and its collaboration with the OpenInfra Foundation was published on Superuser Magazine in March, and the article was translated into Chinese and published on WeChat to provide easier access for the OpenInfra China community. 
 
-![WeChat article InMotion Hosting](/img/wechat.png)
+![WeChat article InMotion Hosting](/img/image-3.png)
 
 <br/>
 
 The [OpenStack Blog](https://www.openstack.org/blog) provides a space for OpenStack enthusiasts to catch up with the latest OpenStack-specific news, announcements, best practices, use cases, and more. The press release of Flex Metal Cloud was subsequently published on OpenStack Blog for the segment of audience who are interested in the project-specific news.
 
-![OpenStack blog InMotion Hosting](/img/openstack-blog.png)
+![OpenStack blog InMotion Hosting](/img/image-4.png "OpenStack blog InMotion Hosting")
 
 <br/>
 
@@ -67,7 +67,7 @@ To amplify the importance of private cloud and the evolution of OpenStack privat
 
 The [OpenStack Marketplace](https://www.openstack.org/marketplace/) highlights the variety of products that will help users to make an informed decision, whether building a cloud, looking to use one, or pursuing a hybrid model. On the product launch day, InMotion Hosting’s Flex Metal Cloud was listed on OpenStack Marketplace as a [hosted private cloud provider](https://www.openstack.org/marketplace/hosted-private-clouds/). Along with other cloud providers, the Marketplace helps users to find the right help and expertise from various companies in the OpenInfra community. 
 
-![Marketplace InMotion Hosting](/img/marketplace.png)
+![Marketplace InMotion Hosting](/img/image-5.png "Marketplace InMotion Hosting")
 
 <br/>
 
