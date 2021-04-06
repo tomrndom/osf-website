@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: OpenInfra Foundation Marketing Case Study - InMotion Hosting
 author: Sunny Cai
-date: 2021-04-06T14:28:02.374Z
+date: 2021-04-06T16:13:20.542Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
