@@ -16,4 +16,4 @@ We would like to announce OpenInfra Live, a weekly hour long interactive content
 * [Airship](https://airshipit.org) 2.0 Release 
 * A Global Connectivity conversation to highlight [Magma](https://magmacore.org) and OIF’s involvement in the community
 * The [StarlingX](https://starlingx.io) 5.0 Release
-* [Zuul](https://zuul-ci.org) automotive user stories
+* [Zuul](https://zuul-ci.org) in Production User Story
