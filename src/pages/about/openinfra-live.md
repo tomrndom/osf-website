@@ -9,11 +9,11 @@ seo:
 title: OpenInfra Live
 subTitle: Conversations around all things open infrastructure
 footer:
-  title: "Join the OpenInfra Foundation "
-  subTitle: "Learn how you can get involved in initiatives around open
-    infrastructure. If you’d like to host an OpenInfra Live episode, share your
-    ideas! "
-  buttonText: JOIN US
+  title: ""
+  subTitle: "Join the OpenInfra Foundation to learn how you can get involved in
+    initiatives around open infrastructure. If you’d like to host an OpenInfra
+    Live episode, share your ideas! "
+  buttonText: JOIN
   button: https://openinfra.dev/join/
   display: true
 ---
@@ -29,3 +29,6 @@ We are kicking this off on Thursday, April 15th with a Community meeting on the 
 * May 13th: [Large Scale SIG](https://wiki.openstack.org/wiki/Large_Scale_SIG)
 * May 20th: The [StarlingX](https://starlingx.io) 5.0 Release
 * May 27th: [Zuul](https://zuul-ci.org) in Production User Story
+
+<div style="text-align: center;"><a href="https://www.youtube.com/channel/UCQ74G2gKXdpwZkXEsclzcrA" class="button button-red" target="_blank" rel="noopener noreferrer"><span>Check Out OpenInfra Live</span></a></div>
+
