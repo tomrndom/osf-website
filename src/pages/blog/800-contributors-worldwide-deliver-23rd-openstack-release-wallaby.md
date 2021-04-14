@@ -48,12 +48,13 @@ The OpenInfra Foundation will be hosting the next Project Teams Gathering (PTG) 
 
 OpenStack is the only open source integration engine that provides APIs to orchestrate bare metal, virtual machines and container resources on a single network. The same OpenStack code powers a global network of public and private clouds, backed by the industry’s largest ecosystem of technology providers, to enable cost savings, control and portability. A global community of more than 100,000 individuals in 188 countries work together on the OpenStack project. [www.openstack.org](http://www.openstack.org) 
 
-##### \
-About the Open Infrastructure Foundation
+#### About the Open Infrastructure Foundation
 
 The [OpenInfra Foundation](http://openinfra.dev) builds communities that write open source infrastructure software that runs in production. With the support of over 110,000 individuals in 187 countries, the OpenInfra Foundation hosts open source projects and communities of practice, including infrastructure for AI, container native apps, edge computing and datacenter clouds. [Join the OpenInfra movement](https://openinfra.dev/join). [www.openinfra.dev](http://www.openinfra.dev)  
 
-\### 
+
+
+<hr/>
 
 Media Contacts:\
 Robert Cathey[\
