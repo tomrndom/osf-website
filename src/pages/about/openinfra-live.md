@@ -30,5 +30,8 @@ We are kicking this off on Thursday, April 15th with a Community meeting on the 
 * May 20th: The [StarlingX](https://starlingx.io) 5.0 Release
 * May 27th: [Zuul](https://zuul-ci.org) in Production User Story
 
-<div style="text-align: center;"><a href="https://www.youtube.com/channel/UCQ74G2gKXdpwZkXEsclzcrA" class="button button-red" target="_blank" rel="noopener noreferrer"><span>Check Out OpenInfra Live</span></a></div>
+<div style="text-align: center;margin-bottom:30px;"><p><a href="https://www.youtube.com/channel/UCQ74G2gKXdpwZkXEsclzcrA" class="button button-red" target="_blank" rel="noopener noreferrer"><span>Check Out OpenInfra Live</span></a></p>
+<p>Interested in more content from the OpenInfrastructure Foundation? <a href="https://app.e2ma.net/app2/audience/signup/1900249/1771360">Sign up for our newsletter</a></p></div>
+
+
 
