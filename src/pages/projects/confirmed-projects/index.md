@@ -160,28 +160,6 @@ projectList:
       - icon: /img/home/icon2.svg
         text: CI/CD
     category: confirmed
-  - logo: /img/earth2.jpg
-    button:
-      link: https://www.openstack.org/edge-computing/edge-computing-next-steps-in-architecture-design-and-testing
-      text: "Edge Whitepaper #2"
-    class: projects-s5
-    title: Edge Computing Group
-    subTitle: OpenInfra Foundation Board approved working group
-    links:
-      - link: https://wiki.openstack.org/wiki/Edge_Computing_Group?_ga=2.89217689.361772780.1598227486-61533541.1515512744
-        text: Weekly Meetings
-      - link: http://lists.openstack.org/cgi-bin/mailman/listinfo/edge-computing
-        text: Join the Mailing List
-      - link: https://www.openstack.org/edge-computing/cloud-edge-computing-beyond-the-data-center?lang=en_US
-        text: "Cloud Edge Computing: Beyond the Data Center White Paper"
-    description: The Edge Computing Group is a working group comprised of architects
-      and engineers across large enterprises, telecoms and technology vendors
-      working to define and advance edge cloud computing. The focus is open
-      infrastructure technologies, not exclusive to OpenStack.
-    features:
-      - icon: /img/icon1.svg
-        text: EDGE COMPUTING
-    category: confirmed
   - logo: /img/openinfralabs-logo-rgb-stacked.svg
     button:
       link: https://openinfralabs.org/
@@ -209,4 +187,26 @@ projectList:
       - icon: /img/icon3.svg
         text: Container Infrastructure
     category: pilot
+  - logo: /img/earth2.jpg
+    button:
+      link: https://www.openstack.org/edge-computing/edge-computing-next-steps-in-architecture-design-and-testing
+      text: "Edge Whitepaper #2"
+    class: projects-s5
+    title: Edge Computing Group
+    subTitle: OpenInfra Foundation Board approved working group
+    links:
+      - link: https://wiki.openstack.org/wiki/Edge_Computing_Group?_ga=2.89217689.361772780.1598227486-61533541.1515512744
+        text: Weekly Meetings
+      - link: http://lists.openstack.org/cgi-bin/mailman/listinfo/edge-computing
+        text: Join the Mailing List
+      - link: https://www.openstack.org/edge-computing/cloud-edge-computing-beyond-the-data-center?lang=en_US
+        text: "Cloud Edge Computing: Beyond the Data Center White Paper"
+    description: The Edge Computing Group is a working group comprised of architects
+      and engineers across large enterprises, telecoms and technology vendors
+      working to define and advance edge cloud computing. The focus is open
+      infrastructure technologies, not exclusive to OpenStack.
+    features:
+      - icon: /img/icon1.svg
+        text: EDGE COMPUTING
+    category: working-groups
 ---
