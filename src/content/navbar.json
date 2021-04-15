@@ -64,6 +64,10 @@
       "display": true,
       "links": [
         {
+          "text": "OpenInfra Live",
+          "url": "https://openinfra.dev/live"
+        },
+        {
           "text": "OpenInfra Summit ",
           "url": "https://www.openstack.org/summit/"
         },
