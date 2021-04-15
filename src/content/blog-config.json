@@ -9,6 +9,30 @@
     {
       "text": "Community",
       "id": "category-h2Ztx9rpD"
+    },
+    {
+      "id": "category-KMY0e6q9N",
+      "text": "OpenStack"
+    },
+    {
+      "id": "category-9iYoBMgnQ",
+      "text": "OpenInfra Labs"
+    },
+    {
+      "id": "category-v9OKHS5k-",
+      "text": "Kata Containers"
+    },
+    {
+      "id": "category-tSSGVXjvn",
+      "text": "Airship"
+    },
+    {
+      "id": "category-x3TAX-MsU",
+      "text": "StarlingX"
+    },
+    {
+      "id": "category-v0TJrjtpU",
+      "text": "Zuul"
     }
   ],
   "connect": [
