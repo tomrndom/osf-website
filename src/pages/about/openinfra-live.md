@@ -32,7 +32,7 @@ Streaming to the [OpenInfra YouTube channel](https://www.youtube.com/playlist?li
 If you have any topics you would like to propose for an upcoming episode, please [share your ideas with us](https://openinfrafoundation.formstack.com/forms/openinfralive)!
 
 <div style="text-align: center;margin-bottom:30px;"><p><a href="https://www.youtube.com/playlist?list=PLKqaoAnDyfgo5sOi98QlbMVMhgI_lxFPA" class="button button-red" target="_blank" rel="noopener noreferrer"><span>Check Out OpenInfra Live</span></a></p>
-<p>Interested in more content from the OpenInfrastructure Foundation? <a href="https://app.e2ma.net/app2/audience/signup/1900249/1771360">Sign up for our newsletter</a></p></div>
+<p>Interested in more content from the OpenInfrastructure Foundation? <a href="https://www.openstack.org/community/email-signup">Sign up for our newsletter</a></p></div>
 
 
 
