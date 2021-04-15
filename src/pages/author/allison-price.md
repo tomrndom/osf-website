@@ -1,6 +1,5 @@
 ---
-templateKey: 'tags'
+templateKey: tags
 authorName: Allison Price
-company: OpenInfrastructure Foundation
+company: OpenInfra Foundation
 ---
-
