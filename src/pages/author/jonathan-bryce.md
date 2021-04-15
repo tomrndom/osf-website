@@ -1,6 +1,5 @@
 ---
-templateKey: 'tags'
+templateKey: tags
 authorName: Jonathan Bryce
-company: OpenInfrastructure Foundation
+company: OpenInfra Foundation
 ---
-
