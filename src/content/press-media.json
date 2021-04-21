@@ -7,11 +7,42 @@
       "link": "https://the-report.cloud/openstack-wallaby-enhances-security-and-cross-project-integration-with-other-open-source-technologies#more-6093"
     },
     {
+      "date": "2021-04-21T18:48:45.851Z",
+      "title": "OpenStack Wallaby is ready",
+      "site": "Linux Magazine",
+      "link": "https://www.linux-magazin.de/news/openstack-wallaby-ist-fertig/"
+    },
+    {
+      "date": "2021-04-21T18:30:33.968Z",
+      "title": "OpenStack Wallaby Extends Open-Source Cloud Infrastructure",
+      "link": "https://www.itprotoday.com/iaaspaas/openstack-wallaby-extends-open-source-cloud-infrastructure",
+      "site": "IT Pro Today"
+    },
+    {
+      "date": "2021-04-21T18:49:27.856Z",
+      "title": "OpenStack Wallaby bounds ahead with security enhancements, integration with other projects",
+      "site": "DevClass",
+      "link": "https://devclass.com/2021/04/15/openstack-wallaby-bounds-ahead-with-security-enhancements-and-integration-with-other-projects/"
+    },
+    {
+      "date": "2021-04-21T18:49:36.790Z",
+      "title": "New OpenStack version improves security and integrations",
+      "link": "https://www.techzine.eu/news/cloud/58573/new-openstack-version-improves-security-and-integrations/",
+      "site": "Techzine"
+    },
+    {
       "title": "The Open Infrastructure Foundation announces its first board",
       "site": "ZDNet",
       "link": "https://www.zdnet.com/article/the-open-infrastructure-foundation-announces-its-first-board/",
       "date": "2020-01-27T14:30:56.289Z",
       "image": "/img/press/techcrunch.png",
+      "featured": false
+    },
+    {
+      "date": "2021-04-21T18:49:37.747Z",
+      "title": "OpenStack community tweaks offerings with Wallaby launch",
+      "link": "https://dutchitchannel.nl/671428/openstack-community-tweakt-aanbod-met-wallaby-lancering.html",
+      "site": "Dutch IT Channel",
       "featured": false
     },
     {
@@ -92,37 +123,6 @@
       "link": "https://www.zdnet.com/article/top-open-source-tech-smart-board-ready-women-executives/",
       "title": "Top open source, tech-smart, board-ready women executives",
       "site": "ZDNet",
-      "featured": false
-    },
-    {
-      "date": "2021-04-21T18:30:33.968Z",
-      "title": "OpenStack Wallaby Extends Open-Source Cloud Infrastructure",
-      "link": "https://www.itprotoday.com/iaaspaas/openstack-wallaby-extends-open-source-cloud-infrastructure",
-      "site": "IT Pro Today"
-    },
-    {
-      "date": "2021-04-21T18:48:45.851Z",
-      "title": "OpenStack Wallaby is ready",
-      "site": "Linux Magazine",
-      "link": "https://www.linux-magazin.de/news/openstack-wallaby-ist-fertig/"
-    },
-    {
-      "date": "2021-04-21T18:49:27.856Z",
-      "title": "OpenStack Wallaby bounds ahead with security enhancements, integration with other projects",
-      "site": "DevClass",
-      "link": "https://devclass.com/2021/04/15/openstack-wallaby-bounds-ahead-with-security-enhancements-and-integration-with-other-projects/"
-    },
-    {
-      "date": "2021-04-21T18:49:36.790Z",
-      "title": "New OpenStack version improves security and integrations",
-      "link": "https://www.techzine.eu/news/cloud/58573/new-openstack-version-improves-security-and-integrations/",
-      "site": "Techzine"
-    },
-    {
-      "date": "2021-04-21T18:49:37.747Z",
-      "title": "OpenStack community tweaks offerings with Wallaby launch",
-      "link": "https://dutchitchannel.nl/671428/openstack-community-tweakt-aanbod-met-wallaby-lancering.html",
-      "site": "Dutch IT Channel",
       "featured": false
     }
   ],
