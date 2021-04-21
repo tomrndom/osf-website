@@ -1,6 +1,12 @@
 {
   "articles": [
     {
+      "date": "2021-04-21T18:42:56.866Z",
+      "title": "OpenStack Wallaby Enhances Security and Cross-Project Integration with Other Open Source Technologies",
+      "site": "The Cloud Report",
+      "link": "https://the-report.cloud/openstack-wallaby-enhances-security-and-cross-project-integration-with-other-open-source-technologies#more-6093"
+    },
+    {
       "title": "The Open Infrastructure Foundation announces its first board",
       "site": "ZDNet",
       "link": "https://www.zdnet.com/article/the-open-infrastructure-foundation-announces-its-first-board/",
@@ -95,12 +101,6 @@
       "site": "IT Pro Today"
     },
     {
-      "date": "2021-04-21T18:42:56.866Z",
-      "title": "OpenStack Wallaby Enhances Security and Cross-Project Integration with Other Open Source Technologies",
-      "site": "The Cloud Report",
-      "link": "https://the-report.cloud/openstack-wallaby-enhances-security-and-cross-project-integration-with-other-open-source-technologies#more-6093"
-    },
-    {
       "date": "2021-04-21T18:48:45.851Z",
       "title": "OpenStack Wallaby is ready",
       "site": "Linux Magazin",
@@ -122,7 +122,8 @@
       "date": "2021-04-21T18:49:37.747Z",
       "title": "OpenStack community tweaks offerings with Wallaby launch",
       "link": "https://dutchitchannel.nl/671428/openstack-community-tweakt-aanbod-met-wallaby-lancering.html",
-      "site": "Dutch IT Channel"
+      "site": "Dutch IT Channel",
+      "featured": false
     }
   ],
   "seo": {
