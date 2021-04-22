@@ -147,6 +147,15 @@ collections:
               {label: "Featured", name: "featured", widget: boolean, required: false, default: false},
               {label: "Image", name: "image", widget: image, required: false},
           ]}
+          - {label: "SEO", name: "seo", widget: "object", fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Title Template", name: "titleTemplate", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+              {label: "Theme Color", name: "themeColor", widget: string},
+          ]}
   - name: "indexPages"
     label: "Index Page"
     files:
