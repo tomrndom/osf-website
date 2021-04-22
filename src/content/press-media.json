@@ -11,19 +11,22 @@
       "date": "2021-04-21T18:42:56.866Z",
       "title": "OpenStack Wallaby Enhances Security and Cross-Project Integration with Other Open Source Technologies",
       "site": "The Cloud Report",
-      "link": "https://the-report.cloud/openstack-wallaby-enhances-security-and-cross-project-integration-with-other-open-source-technologies#more-6093"
+      "link": "https://the-report.cloud/openstack-wallaby-enhances-security-and-cross-project-integration-with-other-open-source-technologies#more-6093",
+      "featured": false
     },
     {
       "date": "2021-04-21T18:30:33.968Z",
       "title": "OpenStack Wallaby Extends Open-Source Cloud Infrastructure",
       "link": "https://www.itprotoday.com/iaaspaas/openstack-wallaby-extends-open-source-cloud-infrastructure",
-      "site": "IT Pro Today"
+      "site": "IT Pro Today",
+      "featured": false
     },
     {
       "date": "2021-04-21T18:48:45.851Z",
       "title": "OpenStack Wallaby is ready",
       "site": "Linux Magazine",
-      "link": "https://www.linux-magazin.de/news/openstack-wallaby-ist-fertig/"
+      "link": "https://www.linux-magazin.de/news/openstack-wallaby-ist-fertig/",
+      "featured": false
     },
     {
       "date": "2021-04-21T18:49:27.856Z",
@@ -35,7 +38,8 @@
       "date": "2021-04-21T18:49:36.790Z",
       "title": "New OpenStack version improves security and integrations",
       "link": "https://www.techzine.eu/news/cloud/58573/new-openstack-version-improves-security-and-integrations/",
-      "site": "Techzine"
+      "site": "Techzine",
+      "featured": false
     },
     {
       "title": "The Open Infrastructure Foundation announces its first board",
