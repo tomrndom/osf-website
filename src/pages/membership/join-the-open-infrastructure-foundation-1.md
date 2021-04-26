@@ -92,7 +92,7 @@ Four new organizations joined the OpenInfra Foundation in October, 2020 and othe
 <p style="font-size:-3em;">* All Platinum Members are subject to board approval.</p>
 
 
-<a href="mailto:ecosystem@openinfra.dev?subject=I'm interested in becoming a Platinum Member of the Open Infra Foundation" class="button button-red">BECOME A PLATINUM MEMBER</a><br/><br/> 
+<a href="mailto:ecosystem@openinfra.dev?subject=I'm interested in becoming a Platinum Member of the OpenInfra Foundation" class="button button-red">BECOME A PLATINUM MEMBER</a><br/><br/> 
 
 ## Gold Membership
 
@@ -102,7 +102,7 @@ At the start of their term, new Gold Members will immediately be represented by 
 
 Established Company: $150k/year | Start Up: $50k/year
 
-<a href="mailto:ecosystem@openinfra.dev?subject=I'm interested in becoming a Gold Member of the Open Infra Foundation" class="button button-red">BECOME A GOLD MEMBER</a><br/><br/>
+<a href="mailto:ecosystem@openinfra.dev?subject=I'm interested in becoming a Gold Member of the OpenInfra Foundation" class="button button-red">BECOME A GOLD MEMBER</a><br/><br/>
 
 ## Silver Membership
 
@@ -111,7 +111,7 @@ If your organization relies on Open Infrastructure to operate, it’s critical t
 Established Company: $15k/year | Start Up: $5k/year
 
 
-<a href="mailto:ecosystem@openinfra.dev?subject=I'm interested in becoming a Silver Member of the Open Infra Foundation" class="button button-red">BECOME A SILVER MEMBER</a><br/>
+<a href="mailto:ecosystem@openinfra.dev?subject=I'm interested in becoming a Silver Member of the OpenInfra Foundation" class="button button-red">BECOME A SILVER MEMBER</a><br/>
 
 
 ### OpenInfra Foundation Membership Benefits
