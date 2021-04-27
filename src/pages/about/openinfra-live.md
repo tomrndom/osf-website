@@ -23,11 +23,11 @@ Streaming to the [OpenInfra YouTube channel](https://www.youtube.com/playlist?li
 
 * April 15th: [OpenStack Wallaby Release Community Meeting](https://www.youtube.com/watch?v=tZ2bfdF0fOg)
 * April 22nd: [A behind the scenes look at the OpenStack TC meeting at the PTG](https://www.youtube.com/watch?v=s4HOyAdQx8A)
-* April 29th: [Airship](https://airshipit.org) 2.0 Release 
+* April 29th: PTG Community Recap 
 * May 6th: A Global Connectivity conversation to highlight [Magma](https://magmacore.org) and OIF’s involvement in the community
-* May 13th: [Large Scale SIG](https://wiki.openstack.org/wiki/Large_Scale_SIG)
-* May 20th: The [StarlingX](https://starlingx.io) 5.0 Release
-* May 27th: [Zuul](https://zuul-ci.org) in Production User Story
+* May 13th: The [StarlingX](https://starlingx.io) 5.0 Release
+* May 20th: [Large Scale SIG](https://wiki.openstack.org/wiki/Large_Scale_SIG)
+* May 27th: [Zuul](https://zuul-ci.org) - Automotive in Production
 
 If you have any topics you would like to propose for an upcoming episode, please [share your ideas with us](https://openinfrafoundation.formstack.com/forms/openinfralive)!
 
