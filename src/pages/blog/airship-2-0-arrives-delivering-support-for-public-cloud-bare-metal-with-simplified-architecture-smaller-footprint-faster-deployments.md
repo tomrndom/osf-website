@@ -14,7 +14,7 @@ seo:
     cluster API multi-cloud provisioning and other cloud-native tools; Helm 3
     and the Flux Helm Controller are integrated, offering better security
     posture.
-  url: https://openstack.org/blog/airship-2-arrives
+  url: https://openinfra.dev/blog/airship-2-arrives
   twitterUsername: "@openinfradev"
 ---
 *All-new control plane in Airship 2.0 is built on Kubernetes, with cluster API multi-cloud provisioning and other cloud-native tools; Helm 3 and the Flux Helm Controller are integrated, offering better security posture.*
