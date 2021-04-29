@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+hidePost: false
 title: Airship 2.0 Arrives, Delivering Support for Public Cloud, Bare Metal With
   Simplified Architecture, Smaller Footprint, Faster Deployments
 author: Allison Price

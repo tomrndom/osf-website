@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+hidePost: false
 title: "Introducing the Open Infrastructure Foundation: Building Open Source
   Communities Who Write Software to Run in Production"
 author: Jonathan Bryce

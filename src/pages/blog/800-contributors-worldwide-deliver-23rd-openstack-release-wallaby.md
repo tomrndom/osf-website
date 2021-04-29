@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+hidePost: false
 title: 800+ Contributors Worldwide Deliver 23rd OpenStack Release, Wallaby
 author: Allison Price
 date: 2021-04-14T15:15:00.000Z
