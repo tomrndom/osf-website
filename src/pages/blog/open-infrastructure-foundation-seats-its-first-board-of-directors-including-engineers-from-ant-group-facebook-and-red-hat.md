@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+hidePost: false
 title: "Open Infrastructure Foundation Seats Its First Board of Directors,
   Including Engineers from Ant Group, Facebook and Red Hat "
 author: Allison Price

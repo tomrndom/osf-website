@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+hidePost: false
 title: "Introducing OpenInfraLive: A Weekly, Interactive Webinar Series"
 author: Erin Disney
 date: 2021-04-15T19:30:26.832Z

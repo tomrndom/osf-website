@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+hidePost: false
 title: Red Hat Provides $551.9 Million in Software Subscriptions to Boston
   University, Advancing Mission of OpenInfra Labs
 author: Mark Collier

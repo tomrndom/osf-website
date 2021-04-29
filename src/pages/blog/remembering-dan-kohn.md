@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+hidePost: false
 title: >-
   Remembering Dan Kohn
 author: Jonathan Bryce

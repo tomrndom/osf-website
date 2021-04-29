@@ -5,28 +5,32 @@
       "title": "OpenStack community tweaks offerings with Wallaby launch",
       "link": "https://dutchitchannel.nl/671428/openstack-community-tweakt-aanbod-met-wallaby-lancering.html",
       "site": "Dutch IT Channel",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "date": "2021-04-21T18:42:56.866Z",
       "title": "OpenStack Wallaby Enhances Security and Cross-Project Integration with Other Open Source Technologies",
       "site": "The Cloud Report",
       "link": "https://the-report.cloud/openstack-wallaby-enhances-security-and-cross-project-integration-with-other-open-source-technologies#more-6093",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "date": "2021-04-21T18:30:33.968Z",
       "title": "OpenStack Wallaby Extends Open-Source Cloud Infrastructure",
       "link": "https://www.itprotoday.com/iaaspaas/openstack-wallaby-extends-open-source-cloud-infrastructure",
       "site": "IT Pro Today",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "date": "2021-04-21T18:48:45.851Z",
       "title": "OpenStack Wallaby is ready",
       "site": "Linux Magazine",
       "link": "https://www.linux-magazin.de/news/openstack-wallaby-ist-fertig/",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "date": "2021-04-21T18:49:27.856Z",
@@ -39,7 +43,8 @@
       "title": "New OpenStack version improves security and integrations",
       "link": "https://www.techzine.eu/news/cloud/58573/new-openstack-version-improves-security-and-integrations/",
       "site": "Techzine",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "title": "The Open Infrastructure Foundation announces its first board",
@@ -47,7 +52,8 @@
       "link": "https://www.zdnet.com/article/the-open-infrastructure-foundation-announces-its-first-board/",
       "date": "2020-01-27T14:30:56.289Z",
       "image": "/img/press/techcrunch.png",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "title": "OpenStack keeps stacking along: OpenStack Ussuri cloud arrives",
@@ -55,7 +61,8 @@
       "link": "https://www.zdnet.com/article/openstack-keeps-stacking-along-openstack-ussuri-cloud-arrives/",
       "date": "2020-05-14T12:30:00.000Z",
       "image": "/img/press/cnet.png",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "title": "OpenStack, the open-source cloud at 10",
@@ -63,7 +70,8 @@
       "link": "https://www.zdnet.com/article/openstack-the-open-source-cloud-at-10/",
       "date": "2020-07-15T13:30:56.289Z",
       "image": "/img/press/techcrunch.png",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "title": "OpenStack celebrates 10th birthday with more than 20,000 code changes ",
@@ -71,63 +79,72 @@
       "link": "https://siliconangle.com/2020/10/14/openstack-celebrates-10th-birthday-across-board-updates/",
       "date": "2020-10-14T13:30:56.289Z",
       "image": "/img/press/cnet.png",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "date": "2020-02-20T19:49:00.000Z",
       "site": "ZDNet",
       "link": "https://www.zdnet.com/article/red-hat-openstack-lives-on-in-a-new-release/",
       "title": "Red Hat OpenStack lives on in a new release",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "date": "2020-10-14T18:49:21.892Z",
       "title": "AT&T, Verizon 5G Deployments Boost OpenStack Work",
       "site": "SDXCentral",
       "link": "https://www.sdxcentral.com/articles/news/att-verizon-5g-deployments-boost-openstack-work/2020/10/",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "date": "2021-02-18T21:30:00.000Z",
       "title": "Rackspace beats Q4 estimates with multi-cloud growth",
       "site": "ZDNet",
       "link": "https://www.zdnet.com/article/rackspace-beats-q4-estimates-with-multi-cloud-growth/",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "date": "2021-02-02T14:30:00.000Z",
       "link": "https://blocksandfiles.com/2021/02/02/veritas-netbackup-9-openstack-trilio/",
       "title": "Veritas stirs Trilio OpenStack into NetBackup 9.0 mix",
       "site": "BlocksandFiles",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "date": "2020-10-23T06:00:00.000Z",
       "link": "https://www.telecomtv.com/content/open-networking/whats-in-a-name-openstack-foundation-evolves-to-become-the-open-infrastructure-foundation-39999/",
       "site": "TelecomTV",
       "title": "What's in a name? OpenStack Foundation evolves to become the Open Infrastructure Foundation",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "date": "2020-10-22T04:53:00.000Z",
       "title": "OpenStack Foundation Rebrands as Open Infrastructure Foundation",
       "link": "https://www.itprotoday.com/iaaspaas/openstack-foundation-rebrands-open-infrastructure-foundation",
       "site": "ITProToday",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "date": "2020-10-19T15:15:00.000Z",
       "title": "The OpenStack Foundation becomes the Open Infrastructure Foundation",
       "link": "https://techcrunch.com/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/",
       "site": "TechCrunch",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     },
     {
       "date": "2021-02-08T18:58:00.000Z",
       "link": "https://www.zdnet.com/article/top-open-source-tech-smart-board-ready-women-executives/",
       "title": "Top open source, tech-smart, board-ready women executives",
       "site": "ZDNet",
-      "featured": false
+      "featured": false,
+      "hideArticle": false
     }
   ],
   "seo": {
