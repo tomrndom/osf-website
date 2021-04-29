@@ -17,7 +17,7 @@ class BlogRoll extends React.Component {
         posts.map(({ node: post }, index) => {
           if (!post.frontmatter.hidePost) {
             if (customFilter) {
-              if (post.frontmatter.author === customFilter || post.frontmatter.category[0].label === customFilter) {
+              if (post.frontmatter.author === customFilter || post.frontmatter.category.find(c => c.label === customFilter)) {
                 hasPosts = true;
                 return (
                   <div className="article-excerpt" key={index}>
