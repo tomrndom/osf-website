@@ -3,7 +3,7 @@ templateKey: generic-page
 seo:
   title: OpenInfra Live
   description: Interactive Conversations around All Things Open Infrastructure
-  url: https://openinfra.dev/live
+  url: https://openinfra.dev/live/
   image: /img/oificon-social.png
   twitterUsername: "@OpenInfraDev"
 title: OpenInfra Live

@@ -8,7 +8,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: Join The Open Infrastructure Foundation
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/join
+  url: https://openinfra.dev/join/
 title: Join The Open Infrastructure Foundation
 subTitle: Help us build open source communities that write software to run in production
 ---

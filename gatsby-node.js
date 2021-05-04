@@ -90,7 +90,7 @@ exports.createPages = ({ actions, graphql }) => {
     pages.forEach(edge => {
       const id = edge.node.id
       const SEO = edge.node.frontmatter.seo ? edge.node.frontmatter.seo : null;
-      const slug = SEO && SEO.url ? SEO.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : edge.node.fields.slug; 
+      const slug = SEO && SEO.url ? SEO.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : edge.node.fields.slug;
       createPage({
         path: slug,
         category: edge.node.frontmatter.category,

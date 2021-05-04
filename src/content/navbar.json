@@ -53,7 +53,7 @@
         },
         {
           "text": "Join OpenInfra Foundation ",
-          "url": "/join"
+          "url": "/join/"
         }
       ]
     },
@@ -65,7 +65,7 @@
       "links": [
         {
           "text": "OpenInfra Live",
-          "url": "https://openinfra.dev/live"
+          "url": "/live/"
         },
         {
           "text": "OpenInfra Summit ",
