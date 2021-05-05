@@ -7,51 +7,32 @@ import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
+import SEO from '../components/SEO'
 import HostingProject from '../components/HostingProject'
 
 import metadata from '../content/site-metadata.json'
 import LinkComponent from '../components/LinkComponent'
-import {connect} from "react-redux";
+import { connect } from "react-redux";
 
 export const HostingPageTemplate = ({
   seo,
   header,
   row1,
   row2,
-  content, 
+  content,
   contentComponent
 }) => {
   const PageContent = contentComponent || Content
 
   return (
     <div>
-      {seo && 
-      <Helmet title={seo.title ? seo.title : metadata.siteMetadata.title} titleTemplate={metadata.siteMetadata.titleTemplate}>        
-        {seo.description && <meta name="description" content={seo.description} />}
-        {seo.image && <meta name="image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}        
-        {seo.url && <meta property="og:url" content={seo.url} />}
-        {seo.title && <meta property="og:title" content={seo.title} />}
-        {seo.description && (
-          <meta property="og:description" content={seo.description} />
-        )}
-        {seo.image && <meta property="og:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-        <meta name="twitter:card" content="summary_large_image" />
-        {seo.twitterUsername && (
-          <meta name="twitter:creator" content={seo.twitterUsername} />
-        )}        
-        {seo.title && <meta name="twitter:title" content={seo.title} />}
-        {seo.description && (
-          <meta name="twitter:description" content={seo.description} />
-        )}
-        {seo.image && <meta name="twitter:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}          
-      </Helmet>
-      }
+      <SEO seo={seo ? seo : null} />
       <div className="wrapper project-background">
         <TopBar />
         <Navbar />
         <Header title={header.title} subTitle={header.subTitle} />
-      </div>    
-      
+      </div>
+
       <main className="main">
         <div className="content">
           <section className="section about-s1-main">
@@ -59,54 +40,54 @@ export const HostingPageTemplate = ({
               <div className="columns">
                 <div className="column">
                   {row1.images.map((image, index) => {
-                    return (                      
-                      <img 
-                        src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image} 
-                        id={index < 1 ? `about-s1-id-pic1` : `about-s1-id-pic2`} alt="" 
-                        key={index}/> 
+                    return (
+                      <img
+                        src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image}
+                        id={index < 1 ? `about-s1-id-pic1` : `about-s1-id-pic2`} alt=""
+                        key={index} />
                     )
-                  })}                                    
-                </div> 
+                  })}
+                </div>
                 <div className="column">
-                  <h3 className="fix-h3">{row1.title}</h3> 
+                  <h3 className="fix-h3">{row1.title}</h3>
                   <p className="fix-h5">
                     {row1.text1}
-                  </p> 
+                  </p>
                   <ul className="fix-h5">
                     {row1.list.map((i, index) => {
                       return (
-                        <li key={index}>{i.item}</li> 
+                        <li key={index}>{i.item}</li>
                       )
-                    })}                    
-                  </ul> 
+                    })}
+                  </ul>
                   <p className="fix-h5">
                     {row1.text2}
-                  </p> 
+                  </p>
                   <p className="fix-h5">
-                    {row1.text3} 
+                    {row1.text3}
                     <LinkComponent href={row1.email.link}>&nbsp;{row1.email.text}</LinkComponent>.
                   </p>
                 </div>
-              </div> 
+              </div>
               <div className="columns">
                 <div className="column">
-                  <h3 className="fix-h3">{row2.title}</h3> 
+                  <h3 className="fix-h3">{row2.title}</h3>
                   <p className="fix-h5">
                     {row2.text1}
-                  </p> 
+                  </p>
                   <p className="fix-h5">
                     {row2.text2}
                   </p>
-                </div> 
+                </div>
                 <div className="column">
-                {row2.images.map((image, index) => {
-                  return (
-                    <img 
-                      src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image} 
-                      id="about-s1-id-pic3" alt="" 
-                      key={index}/> 
-                  )
-                })} 
+                  {row2.images.map((image, index) => {
+                    return (
+                      <img
+                        src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image}
+                        id="about-s1-id-pic3" alt=""
+                        key={index} />
+                    )
+                  })}
                 </div>
               </div>
             </div>
@@ -119,7 +100,7 @@ export const HostingPageTemplate = ({
   )
 }
 
-HostingPageTemplate.propTypes = {  
+HostingPageTemplate.propTypes = {
   seo: PropTypes.object,
   header: PropTypes.object,
   row1: PropTypes.object,
@@ -131,10 +112,10 @@ const HostingPage = ({ data }) => {
 
   return (
     <Layout>
-      <HostingPageTemplate        
+      <HostingPageTemplate
         contentComponent={HTMLContent}
         seo={post.frontmatter.seo}
-        header={post.frontmatter.header}        
+        header={post.frontmatter.header}
         row1={post.frontmatter.row1}
         row2={post.frontmatter.row2}
       />

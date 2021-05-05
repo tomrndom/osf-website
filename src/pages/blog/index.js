@@ -22,17 +22,17 @@ export default class BlogIndexPage extends React.Component {
         <div>
           <Helmet title={blogConfig.seo.title} titleTemplate={blogConfig.seo.titleTemplate}>
             <meta name="description" content={blogConfig.seo.description} />
-            <meta name="image" content={`${withPrefix('/')}${blogConfig.seo.image}`} />
+            <meta name="image" content={`${blogConfig.seo.url}${blogConfig.seo.image.slice(1)}`} />
             <meta property="og:url" content={blogConfig.seo.url} />
             <meta property="og:title" content={blogConfig.seo.title} />
             <meta property="og:description" content={blogConfig.seo.description} />
-            <meta property="og:image" content={`${withPrefix('/')}${blogConfig.seo.image}`} />
+            <meta property="og:image" content={`${blogConfig.seo.url}${blogConfig.seo.image.slice(1)}`} />
             <meta name="theme-color" content={blogConfig.seo.themeColor} />
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:creator" content={blogConfig.seo.twitterUsername} />
             <meta name="twitter:title" content={blogConfig.seo.title} />
             <meta name="twitter:description" content={blogConfig.seo.description} />
-            <meta name="twitter:image" content={`${withPrefix('/')}${blogConfig.seo.image}`} />
+            <meta name="twitter:image" content={`${blogConfig.seo.url}${blogConfig.seo.image.slice(1)}`} />
           </Helmet>
           <div className="wrapper project-background">
             <TopBar />

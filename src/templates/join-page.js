@@ -8,48 +8,29 @@ import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
+import SEO from '../components/SEO';
 import envVariables from '../utils/envVariables'
 import metadata from '../content/site-metadata.json'
-import {connect} from "react-redux";
+import { connect } from "react-redux";
 
 export const JoinPageTemplate = ({
-                                        isLoggedUser,
-                                        seo,
-                                        title,
-                                        subTitle,
-                                        footer,
-                                        content,
-                                        contentComponent
-                                    }) => {
+    isLoggedUser,
+    seo,
+    title,
+    subTitle,
+    footer,
+    content,
+    contentComponent
+}) => {
     const PageContent = contentComponent || Content
 
     return (
         <div>
-            {seo &&
-            <Helmet title={seo.title ? seo.title : metadata.siteMetadata.title} titleTemplate={metadata.siteMetadata.titleTemplate}>
-                {seo.description && <meta name="description" content={seo.description} />}
-                {seo.image && <meta name="image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-                {seo.url && <meta property="og:url" content={seo.url} />}
-                {seo.title && <meta property="og:title" content={seo.title} />}
-                {seo.description && (
-                    <meta property="og:description" content={seo.description} />
-                )}
-                {seo.image && <meta property="og:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-                <meta name="twitter:card" content="summary_large_image" />
-                {seo.twitterUsername && (
-                    <meta name="twitter:creator" content={seo.twitterUsername} />
-                )}
-                {seo.title && <meta name="twitter:title" content={seo.title} />}
-                {seo.description && (
-                    <meta name="twitter:description" content={seo.description} />
-                )}
-                {seo.image && <meta name="twitter:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-            </Helmet>
-            }
+            <SEO seo={seo ? seo : null} />
             <div className="wrapper project-background">
                 <TopBar />
-                <Navbar isLoggedUser={isLoggedUser}/>
-                <Header title={title} subTitle={subTitle}/>
+                <Navbar isLoggedUser={isLoggedUser} />
+                <Header title={title} subTitle={subTitle} />
             </div>
 
             <main className="main">
@@ -64,7 +45,7 @@ export const JoinPageTemplate = ({
                         </div>
                     </section>
                     {footer &&
-                    <Hero content={footer}/>
+                        <Hero content={footer} />
                     }
                 </div>
             </main>
@@ -95,14 +76,14 @@ const JoinPage = ({ isLoggedUser, data }) => {
 
         let Anchors = document.getElementsByClassName("membership_action");
 
-        for (var i = 0; i < Anchors.length ; i++) {
+        for (var i = 0; i < Anchors.length; i++) {
             Anchors[i].addEventListener("click", handleOnClick);
         }
 
         return () => {
             let Anchors = document.getElementsByClassName("membership_action");
 
-            for (var i = 0; i < Anchors.length ; i++) {
+            for (var i = 0; i < Anchors.length; i++) {
                 Anchors[i].removeEventListener("click", handleOnClick);
             }
 

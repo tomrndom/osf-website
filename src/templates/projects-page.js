@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
+import SEO from '../components/SEO'
 import HostingProject from '../components/HostingProject'
 
 import metadata from '../content/site-metadata.json'
@@ -27,27 +28,7 @@ export const ProjectsPageTemplate = ({
 
   return (
     <div>
-      {seo &&
-        <Helmet title={seo.title ? seo.title : metadata.siteMetadata.title} titleTemplate={metadata.siteMetadata.titleTemplate}>
-          {seo.description && <meta name="description" content={seo.description} />}
-          {seo.image && <meta name="image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-          {seo.url && <meta property="og:url" content={seo.url} />}
-          {seo.title && <meta property="og:title" content={seo.title} />}
-          {seo.description && (
-            <meta property="og:description" content={seo.description} />
-          )}
-          {seo.image && <meta property="og:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-          <meta name="twitter:card" content="summary_large_image" />
-          {seo.twitterUsername && (
-            <meta name="twitter:creator" content={seo.twitterUsername} />
-          )}
-          {seo.title && <meta name="twitter:title" content={seo.title} />}
-          {seo.description && (
-            <meta name="twitter:description" content={seo.description} />
-          )}
-          {seo.image && <meta name="twitter:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-        </Helmet>
-      }
+      <SEO seo={seo ? seo : null} />
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />

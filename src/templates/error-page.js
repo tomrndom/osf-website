@@ -9,6 +9,7 @@ import { doLogin } from 'openstack-uicore-foundation/lib/methods'
 import TopBar from '../components/TopBar'
 import Navbar from '../components/Navbar'
 import Header from '../components/Header'
+import SEO from '../components/SEO'
 
 export const ErrorPageTemplate = ({ loggedUserState, location }) => {
 
@@ -30,6 +31,7 @@ const ErrorPage = ({ loggedUserState, location }) => {
 
     return (
         <Layout>
+            <SEO />
             <ErrorPageTemplate
                 loggedUserState={loggedUserState}
                 location={location}
