@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
+import SEO from "../components/SEO";
 import MembershipType from "../components/MembershipType";
 import ProfileForm from "../components/ProfileForm"
 import Affiliations from "../components/Affiliations";
@@ -117,6 +118,7 @@ export const ProfilePageTemplate = ({
 const ProfilePage = ({ currentMember, initialMembershipType, currentAffiliations, idpProfile, isLoggedUser, location, updateMembershipType }) => {
     return (
         <Layout>
+            <SEO />
             <ProfilePageTemplate
                 currentMember={currentMember}
                 initialMembershipType={initialMembershipType}

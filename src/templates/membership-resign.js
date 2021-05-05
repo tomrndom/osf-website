@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
+import SEO from "../components/SEO";
 import {resignMembershipType} from "../actions/user-actions"
 import {initLogOut} from 'openstack-uicore-foundation/lib/methods'
 
@@ -58,6 +59,7 @@ export const MembershipResignPageTemplate = ({
 const MembershipResignPage = ({resignMembershipType, isLoggedUser, location}) => {
     return (
         <Layout>
+            <SEO />
             <MembershipResignPageTemplate
                 resignMembershipType={resignMembershipType}
                 location={location}

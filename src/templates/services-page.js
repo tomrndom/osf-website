@@ -7,11 +7,12 @@ import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
+import SEO from '../components/SEO'
 import HostingProject from '../components/HostingProject'
 import LinkComponent from '../components/LinkComponent'
 
 import metadata from '../content/site-metadata.json'
-import {connect} from "react-redux";
+import { connect } from "react-redux";
 
 export const ServicesPageTemplate = ({
   isLoggedUser,
@@ -23,62 +24,42 @@ export const ServicesPageTemplate = ({
   row4,
   row5,
   row6,
-  content, 
+  content,
   contentComponent
 }) => {
   const PageContent = contentComponent || Content
 
   return (
     <div>
-      {seo && 
-      <Helmet title={seo.title ? seo.title : metadata.siteMetadata.title} titleTemplate={metadata.siteMetadata.titleTemplate}>        
-        {seo.description && <meta name="description" content={seo.description} />}
-        {seo.image && <meta name="image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}        
-        {seo.url && <meta property="og:url" content={seo.url} />}
-        {seo.title && <meta property="og:title" content={seo.title} />}
-        {seo.description && (
-          <meta property="og:description" content={seo.description} />
-        )}
-        {seo.image && <meta property="og:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-        <meta name="twitter:card" content="summary_large_image" />
-        {seo.twitterUsername && (
-          <meta name="twitter:creator" content={seo.twitterUsername} />
-        )}        
-        {seo.title && <meta name="twitter:title" content={seo.title} />}
-        {seo.description && (
-          <meta name="twitter:description" content={seo.description} />
-        )}
-        {seo.image && <meta name="twitter:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}          
-      </Helmet>
-      }
+      <SEO seo={seo ? seo : null} />
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser}/>
+        <Navbar isLoggedUser={isLoggedUser} />
         <Header title={header.title} subTitle={header.subTitle} />
-      </div>    
-      
+      </div>
+
       <main className="main">
         <div className="content">
           <section className="section about-s1-main">
             <div className="container about-s1-container">
               <div className="columns">
-                <div className="column">                  
-                  {row1.images.map((image, index) => {                    
+                <div className="column">
+                  {row1.images.map((image, index) => {
                     return (
-                      <img src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image} id={index < 1 ? 'about-s1-id-pic4' : 'about-s1-id-pic5'} alt=""  key={index}/>
+                      <img src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image} id={index < 1 ? 'about-s1-id-pic4' : 'about-s1-id-pic5'} alt="" key={index} />
                     )
                   })}
                 </div>
                 <div className="column">
-                  <h3 className="fix-h3">{row1.title1}</h3> 
-                  <p className="fix-h5">{row1.text1}</p> 
-                  <h3 className="fix-h3">{row1.title2}</h3> 
+                  <h3 className="fix-h3">{row1.title1}</h3>
+                  <p className="fix-h5">{row1.text1}</p>
+                  <h3 className="fix-h3">{row1.title2}</h3>
                   <p className="fix-h5">{row1.text2}</p>
-                </div>                
+                </div>
               </div>
               <div className="columns">
                 <div className="column">
-                  <h3 className="fix-h3">{row2.title}</h3> 
+                  <h3 className="fix-h3">{row2.title}</h3>
                   <p className="fix-h5">{row2.text}</p>
                 </div>
                 <div className="column">
@@ -90,33 +71,33 @@ export const ServicesPageTemplate = ({
                   <img src={!!row3.image.childImageSharp ? row3.image.childImageSharp.fluid.src : row3.image} id='about-s1-id-pic7' alt="" />
                 </div>
                 <div className="column">
-                  <h3 className="fix-h3">{row3.title}</h3> 
+                  <h3 className="fix-h3">{row3.title}</h3>
                   <p className="fix-h5">{row3.text}</p>
-                </div>                
+                </div>
               </div>
               <div className="columns">
                 <div className="column">
-                  <h3 className="fix-h3">{row4.title}</h3> 
+                  <h3 className="fix-h3">{row4.title}</h3>
                   <p className="fix-h5">
                     {row4.text1}
                     <LinkComponent href={row4.link.url}>{row4.link.text}</LinkComponent>.&nbsp;
                     {row4.text2}
                   </p>
                 </div>
-                <div className="column">                  
+                <div className="column">
                   <img src={!!row4.image.childImageSharp ? row4.image.childImageSharp.fluid.src : row4.image} id='about-s1-id-pic8' alt="" />
                 </div>
               </div>
               <div className="columns">
                 <div className="column">
-                  {row5.images.map((image, index) => {                    
+                  {row5.images.map((image, index) => {
                     return (
-                      <img src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image} id={index < 1 ? 'about-s1-id-pic1' : 'about-s1-id-pic2'} alt=""  key={index}/>                      
+                      <img src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image} id={index < 1 ? 'about-s1-id-pic1' : 'about-s1-id-pic2'} alt="" key={index} />
                     )
-                  })}                  
+                  })}
                 </div>
                 <div className="column">
-                  <h3 className="fix-h3">{row5.title}</h3> 
+                  <h3 className="fix-h3">{row5.title}</h3>
                   <p className="fix-h5">
                     {row5.text1}
                     <LinkComponent href={row5.link1.url}> {row5.link1.text}</LinkComponent>&nbsp;
@@ -124,13 +105,13 @@ export const ServicesPageTemplate = ({
                     <LinkComponent href={row5.link2.url}> {row5.link2.text}</LinkComponent>&nbsp;
                     {row5.text3}
                   </p>
-                </div>                
+                </div>
               </div>
               <div className="columns">
                 <div className="column">
-                  <h3 className="fix-h3">{row6.title1}</h3> 
+                  <h3 className="fix-h3">{row6.title1}</h3>
                   <p className="fix-h5">{row6.text1}</p>
-                  <h3 className="fix-h3">{row6.title2}</h3> 
+                  <h3 className="fix-h3">{row6.title2}</h3>
                   <p className="fix-h5">{row6.text2}</p>
                 </div>
                 <div className="column">
@@ -147,7 +128,7 @@ export const ServicesPageTemplate = ({
   )
 }
 
-ServicesPageTemplate.propTypes = {  
+ServicesPageTemplate.propTypes = {
   seo: PropTypes.object,
   header: PropTypes.object,
   row1: PropTypes.object,
@@ -167,7 +148,7 @@ const ServicesPage = ({ isLoggedUser, data }) => {
         isLoggedUser={isLoggedUser}
         contentComponent={HTMLContent}
         seo={post.frontmatter.seo}
-        header={post.frontmatter.header}        
+        header={post.frontmatter.header}
         row1={post.frontmatter.row1}
         row2={post.frontmatter.row2}
         row3={post.frontmatter.row3}

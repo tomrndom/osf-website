@@ -1,6 +1,7 @@
 import { connect } from 'react-redux'
 import { navigate } from "gatsby"
 import Layout from '../components/Layout'
+import SEO from '../components/SEO'
 import React, { useEffect } from "react"
 import URI from "urijs"
 
@@ -30,6 +31,7 @@ const RegistrationPage = ({ loggedUserState, location }) => {
 
     return (
         <Layout>
+            <SEO />
             <RegistrationPageTemplate
                 loggedUserState={loggedUserState}
                 location={location}

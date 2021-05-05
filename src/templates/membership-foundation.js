@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
+import SEO from "../components/SEO";
 import {updateMembershipType, MEMBERSHIP_TYPE_FOUNDATION} from "../actions/user-actions"
 import legalDoc from '../content/legal-document.json';
 
@@ -56,6 +57,7 @@ export const MembershipFoundationPageTemplate = ({
 const MembershipFoundationPage = ({updateMembershipType, isLoggedUser, location}) => {
     return (
         <Layout>
+            <SEO />
             <MembershipFoundationPageTemplate
                 updateMembershipType={updateMembershipType}
                 location={location}

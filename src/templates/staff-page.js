@@ -7,59 +7,40 @@ import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar'
 import Navbar from '../components/Navbar'
+import SEO from '../components/SEO'
 import ContactInformation from '../components/ContactInformation'
 import HeaderStaff from '../components/HeaderStaff'
 
 import metadata from '../content/site-metadata.json'
 import LinkComponent from '../components/LinkComponent'
-import {connect} from "react-redux";
+import { connect } from "react-redux";
 
 export const StaffPageTemplate = ({
   isLoggedUser,
   seo,
-  header, 
+  header,
   banner,
   members,
   support,
   content,
   contentComponent
 }) => {
-  const PageContent = contentComponent || Content  
+  const PageContent = contentComponent || Content
 
   return (
     <div>
-      {seo && 
-      <Helmet title={seo.title ? seo.title : metadata.siteMetadata.title} titleTemplate={metadata.siteMetadata.titleTemplate}>        
-        {seo.description && <meta name="description" content={seo.description} />}
-        {seo.image && <meta name="image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}        
-        {seo.url && <meta property="og:url" content={seo.url} />}
-        {seo.title && <meta property="og:title" content={seo.title} />}
-        {seo.description && (
-          <meta property="og:description" content={seo.description} />
-        )}
-        {seo.image && <meta property="og:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-        <meta name="twitter:card" content="summary_large_image" />
-        {seo.twitterUsername && (
-          <meta name="twitter:creator" content={seo.twitterUsername} />
-        )}        
-        {seo.title && <meta name="twitter:title" content={seo.title} />}
-        {seo.description && (
-          <meta name="twitter:description" content={seo.description} />
-        )}
-        {seo.image && <meta name="twitter:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}          
-      </Helmet>
-      }
+      <SEO seo={seo ? seo : null} />
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser}/>
-        <Header title={header.title} subTitle={header.subTitle} link={header.link}/>
-      </div>    
-      
+        <Navbar isLoggedUser={isLoggedUser} />
+        <Header title={header.title} subTitle={header.subTitle} link={header.link} />
+      </div>
+
       <main className="main">
         <div className="content">
-          <HeaderStaff banner={banner}/>
+          <HeaderStaff banner={banner} />
           <section className="aboutstaff-s2-main container">
-            {members.map((member, index) => {              
+            {members.map((member, index) => {
               return (
                 <div className="aboutstaff-s2-container" key={index}>
                   <div className="aboutstaff-s2-container-border">
@@ -68,28 +49,28 @@ export const StaffPageTemplate = ({
                         <img src="/img/symbols/icon-1.svg" alt="icon" className="card-social-icons" />
                       </LinkComponent>
                       {member.twitter &&
-                      <LinkComponent href={member.twitter}>
-                        <img src="/img/symbols/icon-3.svg" alt="icon" className="card-social-icons" />
-                      </LinkComponent> 
+                        <LinkComponent href={member.twitter}>
+                          <img src="/img/symbols/icon-3.svg" alt="icon" className="card-social-icons" />
+                        </LinkComponent>
                       }
                       {member.linkedin &&
-                      <LinkComponent href={member.linkedin}>
-                        <img src="/img/symbols/icon-4.svg" alt="icon" className="card-social-icons" />
-                      </LinkComponent>
+                        <LinkComponent href={member.linkedin}>
+                          <img src="/img/symbols/icon-4.svg" alt="icon" className="card-social-icons" />
+                        </LinkComponent>
                       }
-                    </div> 
+                    </div>
                     <div className="card">
                       <div className="card-content">
                         <div className="media">
                           <div className="media-left">
-                            <figure className="image is-128x128">                              
-                              <img src={!!member.picture.childImageSharp? member.picture.childImageSharp.fluid.src: member.picture} alt="" />
+                            <figure className="image is-128x128">
+                              <img src={!!member.picture.childImageSharp ? member.picture.childImageSharp.fluid.src : member.picture} alt="" />
                             </figure>
-                          </div> 
+                          </div>
                           <div className="media-content">
-                            <p className="title is-4 card-text-color">{member.name}</p> 
-                            <p className="is-6">{member.title}</p> 
-                            <p className="is-6" dangerouslySetInnerHTML={{__html: member.description}}/>
+                            <p className="title is-4 card-text-color">{member.name}</p>
+                            <p className="is-6">{member.title}</p>
+                            <p className="is-6" dangerouslySetInnerHTML={{ __html: member.description }} />
                           </div>
                         </div>
                       </div>
@@ -97,12 +78,12 @@ export const StaffPageTemplate = ({
                   </div>
                 </div>
               )
-            })}            
+            })}
           </section>
           <section className="aboutstaff-s2-main container">
             <div className="aboutstaff-s2-container">
               <div className="fix-h3">{support.title}</div>
-            </div> 
+            </div>
             {support.members.map((member, index) => {
               return (
                 <div className="aboutstaff-s2-container" key={index}>
@@ -113,29 +94,29 @@ export const StaffPageTemplate = ({
                           <img src="/img/symbols/icon-1.svg" alt="icon" className="card-social-icons" />
                         </LinkComponent>
                       }
-                    </div> 
+                    </div>
                     <div className="card">
                       <div className="card-content">
                         <div className="media">
                           <div className="media-left">
                             <figure className="image is-128x128">
-                              <img src={!!member.picture.childImageSharp? member.picture.childImageSharp.fluid.src: member.picture} alt="" />
+                              <img src={!!member.picture.childImageSharp ? member.picture.childImageSharp.fluid.src : member.picture} alt="" />
                             </figure>
-                          </div> 
+                          </div>
                           <div className="media-content">
-                            <p className="title is-4 card-text-color">{member.name}</p> 
+                            <p className="title is-4 card-text-color">{member.name}</p>
                             {member.title &&
-                              <p className="is-6">{member.title}</p> 
+                              <p className="is-6">{member.title}</p>
                             }
-                            <p className="is-6" dangerouslySetInnerHTML={{__html: member.description}}/>
+                            <p className="is-6" dangerouslySetInnerHTML={{ __html: member.description }} />
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div> 
+                </div>
               )
-            })}            
+            })}
           </section>
           <ContactInformation />
         </div>
@@ -144,7 +125,7 @@ export const StaffPageTemplate = ({
   )
 }
 
-StaffPageTemplate.propTypes = {  
+StaffPageTemplate.propTypes = {
   seo: PropTypes.object,
   header: PropTypes.object,
   banner: PropTypes.object,

@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
+import SEO from "../components/SEO";
 import {updateMembershipType, MEMBERSHIP_TYPE_COMMUNITY} from "../actions/user-actions"
 
 export const MembershipCommunityPageTemplate = ({
@@ -55,6 +56,7 @@ export const MembershipCommunityPageTemplate = ({
 const MembershipCommunityPage = ({updateMembershipType, isLoggedUser, location}) => {
     return (
         <Layout>
+            <SEO />
             <MembershipCommunityPageTemplate
                 updateMembershipType={updateMembershipType}
                 location={location}
