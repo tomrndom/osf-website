@@ -25,7 +25,7 @@ Streaming to the [OpenInfra YouTube channel](https://www.youtube.com/playlist?li
 * April 22nd: [A behind the scenes look at the OpenStack TC meeting at the PTG](https://www.youtube.com/watch?v=s4HOyAdQx8A)
 * April 29th: [PTG Community Recap](https://www.youtube.com/watch?v=yIt4dJvTQVg)
 * May 6th: A Global Connectivity conversation to highlight [Magma](https://magmacore.org) and OIF’s involvement in the community
-* May 13th: The [StarlingX](https://starlingx.io) 5.0 Release
+* May 13th: Open Edge Infrastructure Conundrums and Solutions
 * May 20th: [Large Scale SIG](https://wiki.openstack.org/wiki/Large_Scale_SIG)
 * May 27th: [Zuul](https://zuul-ci.org) - Automotive in Production
 
