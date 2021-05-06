@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { withPrefix, graphql } from 'gatsby'
-import { Helmet } from "react-helmet"
+import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
@@ -10,12 +9,10 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
 import SEO from '../components/SEO'
 
-import metadata from '../content/site-metadata.json'
 import { connect } from "react-redux";
 
 export const GenericPageTemplate = ({
   isLoggedUser,
-  seo,
   title,
   subTitle,
   footer,
@@ -26,7 +23,6 @@ export const GenericPageTemplate = ({
 
   return (
     <div>
-      <SEO seo={seo ? seo : null} />
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
@@ -54,7 +50,6 @@ export const GenericPageTemplate = ({
 }
 
 GenericPageTemplate.propTypes = {
-  seo: PropTypes.object,
   companies: PropTypes.object,
   title: PropTypes.string,
   subTitle: PropTypes.string,
@@ -66,10 +61,10 @@ const GenericPage = ({ isLoggedUser, data }) => {
 
   return (
     <Layout>
+      <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
       <GenericPageTemplate
         isLoggedUser={isLoggedUser}
-        contentComponent={HTMLContent}
-        seo={post.frontmatter.seo}
+        contentComponent={HTMLContent}        
         title={post.frontmatter.title}
         subTitle={post.frontmatter.subTitle}
         footer={post.frontmatter.footer}

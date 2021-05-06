@@ -6,7 +6,7 @@ import { withPrefix } from 'gatsby'
 import metadata from "../content/site-metadata.json"
 
 
-const SEO = ({ seo = {}, wrapper = false }) => {
+const SEO = ({ seo = {} }) => {
 
   const { siteMetadata: {
     title,
@@ -18,56 +18,30 @@ const SEO = ({ seo = {}, wrapper = false }) => {
     themeColor } } = metadata;
 
   return (
-    wrapper ?
-      <>
-        <Helmet title={title} titleTemplate={titleTemplate}>
-          <meta charSet="utf-8" />
-          <meta name="description" content={description} />
-          <meta name="image" content={`${url}${image.slice(1)}`} />
-          <meta name="theme-color" content={themeColor} />
-          {url && <meta property="og:url" content={url} />}
-          {title && <meta property="og:title" content={title} />}
-          {description && (
-            <meta property="og:description" content={description} />
-          )}
-          {image && <meta property="og:image" content={`${url}${image.slice(1)}`} />}
-          <meta name="twitter:card" content="summary" />
-          {twitterUsername && (
-            <meta name="twitter:creator" content={twitterUsername} />
-          )}
-          <meta name="twitter:site" content="@OpenInfraDev" />
-          {title && <meta name="twitter:title" content={title} />}
-          {description && (
-            <meta name="twitter:description" content={description} />
-          )}
-          {image && <meta name="twitter:image" content={`${url}${image.slice(1)}`} />}
-        </Helmet>
-      </>
-      :
-      <>
-        <Helmet title={seo.title ? seo.title : title} titleTemplate={titleTemplate}>
-          <meta charSet="utf-8" />
-          <meta name="description" content={seo.description ? seo.description : description} />
-          <meta name="image" content={seo.image.publicURL ? `${url}${seo.image.publicURL.slice(1)}` : `${url}${image.slice(1)}`} />
-          <meta name="theme-color" content={themeColor} />
-          {url && <meta property="og:url" content={`${seo.url ? seo.url : url}`} />}
-          {title && <meta property="og:title" content={seo.title ? seo.title : title} />}
-          {description && (
-            <meta property="og:description" content={seo.description ? seo.description : description} />
-          )}
-          {image && <meta property="og:image" content={seo.image.publicURL ? `${url}${seo.image.publicURL.slice(1)}` : `${url}${image.slice(1)}`} />}
-          <meta name="twitter:card" content="summary" />
-          {twitterUsername && (
-            <meta name="twitter:creator" content={twitterUsername} />
-          )}
-          <meta name="twitter:site" content="@OpenInfraDev" />
-          {title && <meta name="twitter:title" content={title} />}
-          {description && (
-            <meta name="twitter:description" content={seo.description ? seo.description : description} />
-          )}
-          {image && <meta name="twitter:image" content={seo.image.publicURL ? `${url}${seo.image.publicURL.slice(1)}` : `${url}${image.slice(1)}`} />}
-        </Helmet>
-      </>
+    <>
+      <Helmet title={seo.title ? seo.title : title} titleTemplate={titleTemplate}>
+        <meta charSet="utf-8" />
+        <meta name="description" content={seo.description ? seo.description : description} />
+        <meta name="image" content={seo.image.publicURL ? `${url}${seo.image.publicURL.slice(1)}` : `${url}${image.slice(1)}`} />
+        <meta name="theme-color" content={themeColor} />
+        {url && <meta property="og:url" content={`${seo.url ? seo.url : url}`} />}
+        {title && <meta property="og:title" content={seo.title ? seo.title : title} />}
+        {description && (
+          <meta property="og:description" content={seo.description ? seo.description : description} />
+        )}
+        {image && <meta property="og:image" content={seo.image.publicURL ? `${url}${seo.image.publicURL.slice(1)}` : `${url}${image.slice(1)}`} />}
+        <meta name="twitter:card" content="summary" />
+        {twitterUsername && (
+          <meta name="twitter:creator" content={twitterUsername} />
+        )}
+        <meta name="twitter:site" content="@OpenInfraDev" />
+        {title && <meta name="twitter:title" content={title} />}
+        {description && (
+          <meta name="twitter:description" content={seo.description ? seo.description : description} />
+        )}
+        {image && <meta name="twitter:image" content={seo.image.publicURL ? `${url}${seo.image.publicURL.slice(1)}` : `${url}${image.slice(1)}`} />}
+      </Helmet>
+    </>
   )
 }
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { withPrefix, graphql } from 'gatsby'
-import { Helmet } from "react-helmet"
+import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
@@ -11,12 +10,10 @@ import SEO from '../components/SEO'
 import HostingProject from '../components/HostingProject'
 import LinkComponent from '../components/LinkComponent'
 
-import metadata from '../content/site-metadata.json'
 import { connect } from "react-redux";
 
 export const ServicesPageTemplate = ({
-  isLoggedUser,
-  seo,
+  isLoggedUser,  
   header,
   row1,
   row2,
@@ -31,7 +28,6 @@ export const ServicesPageTemplate = ({
 
   return (
     <div>
-      <SEO seo={seo ? seo : null} />
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
@@ -129,7 +125,6 @@ export const ServicesPageTemplate = ({
 }
 
 ServicesPageTemplate.propTypes = {
-  seo: PropTypes.object,
   header: PropTypes.object,
   row1: PropTypes.object,
   row2: PropTypes.object,
@@ -144,10 +139,10 @@ const ServicesPage = ({ isLoggedUser, data }) => {
 
   return (
     <Layout>
+      <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
       <ServicesPageTemplate
         isLoggedUser={isLoggedUser}
-        contentComponent={HTMLContent}
-        seo={post.frontmatter.seo}
+        contentComponent={HTMLContent}        
         header={post.frontmatter.header}
         row1={post.frontmatter.row1}
         row2={post.frontmatter.row2}
