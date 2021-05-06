@@ -22,14 +22,14 @@ const SEO = ({ seo = {} }) => {
       <Helmet title={seo.title ? seo.title : title} titleTemplate={titleTemplate}>
         <meta charSet="utf-8" />
         <meta name="description" content={seo.description ? seo.description : description} />
-        <meta name="image" content={seo.image.publicURL ? `${url}${seo.image.publicURL.slice(1)}` : `${url}${image.slice(1)}`} />
+        <meta name="image" content={seo.image?.publicURL ? `${url}${seo.image.publicURL.slice(1)}` : `${url}${image.slice(1)}`} />
         <meta name="theme-color" content={themeColor} />
         {url && <meta property="og:url" content={`${seo.url ? seo.url : url}`} />}
         {title && <meta property="og:title" content={seo.title ? seo.title : title} />}
         {description && (
           <meta property="og:description" content={seo.description ? seo.description : description} />
         )}
-        {image && <meta property="og:image" content={seo.image.publicURL ? `${url}${seo.image.publicURL.slice(1)}` : `${url}${image.slice(1)}`} />}
+        {image && <meta property="og:image" content={seo.image?.publicURL ? `${url}${seo.image.publicURL.slice(1)}` : `${url}${image.slice(1)}`} />}
         <meta name="twitter:card" content="summary" />
         {twitterUsername && (
           <meta name="twitter:creator" content={twitterUsername} />
@@ -39,7 +39,7 @@ const SEO = ({ seo = {} }) => {
         {description && (
           <meta name="twitter:description" content={seo.description ? seo.description : description} />
         )}
-        {image && <meta name="twitter:image" content={seo.image.publicURL ? `${url}${seo.image.publicURL.slice(1)}` : `${url}${image.slice(1)}`} />}
+        {image && <meta name="twitter:image" content={seo.image?.publicURL ? `${url}${seo.image.publicURL.slice(1)}` : `${url}${image.slice(1)}`} />}
       </Helmet>
     </>
   )
