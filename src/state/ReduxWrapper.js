@@ -41,10 +41,21 @@ const onRehydrateComplete = () => {
 
 const persistor = persistStore(store, null, onRehydrateComplete);
 
-export default ({ element }) => (
-  <>
-    <Provider store={store}>
-      {element}
-    </Provider>
-  </>
-);
+export default ({ element }) => {
+  if (typeof window === "undefined") {
+    return (
+      <Provider store={store}>
+        {element}
+      </Provider>
+    )
+  }
+  return (
+    <>
+      <Provider store={store}>
+        <PersistGate onBeforeLift={onBeforeLift} persistor={persistor}>
+          {element}
+        </PersistGate>
+      </Provider>
+    </>
+  )
+};
