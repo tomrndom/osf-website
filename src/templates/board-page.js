@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { withPrefix, graphql } from 'gatsby'
-import { Helmet } from "react-helmet"
+import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
@@ -10,13 +9,11 @@ import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
 import ContactInformation from '../components/ContactInformation'
 
-import metadata from '../content/site-metadata.json'
 import LinkComponent from '../components/LinkComponent'
 import { connect } from "react-redux";
 
 export const BoardPageTemplate = ({
   isLoggedUser,
-  seo,
   header,
   members,
   content,
@@ -26,7 +23,6 @@ export const BoardPageTemplate = ({
 
   return (
     <div>
-      <SEO seo={seo ? seo : null} />
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
@@ -87,7 +83,6 @@ export const BoardPageTemplate = ({
 }
 
 BoardPageTemplate.propTypes = {
-  seo: PropTypes.object,
   header: PropTypes.object,
   members: PropTypes.array,
 }
@@ -97,10 +92,10 @@ const BoardPage = ({ BoardPage, data }) => {
 
   return (
     <Layout>
+      <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
       <BoardPageTemplate
         BoardPage={BoardPage}
         contentComponent={HTMLContent}
-        seo={post.frontmatter.seo}
         header={post.frontmatter.header}
         members={post.frontmatter.members}
         content={post.html}

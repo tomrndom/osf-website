@@ -23,7 +23,7 @@ export default class BlogIndexPage extends React.Component {
           <Helmet title={blogConfig.seo.title} titleTemplate={blogConfig.seo.titleTemplate}>
             <meta name="description" content={blogConfig.seo.description} />
             <meta name="image" content={`${blogConfig.seo.url}${blogConfig.seo.image.slice(1)}`} />
-            <meta property="og:url" content={blogConfig.seo.url} />
+            <meta property="og:url" content={`${blogConfig.seo.url}/`} />
             <meta property="og:title" content={blogConfig.seo.title} />
             <meta property="og:description" content={blogConfig.seo.description} />
             <meta property="og:image" content={`${blogConfig.seo.url}${blogConfig.seo.image.slice(1)}`} />

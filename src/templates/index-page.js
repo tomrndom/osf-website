@@ -1,14 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { withPrefix, graphql } from 'gatsby'
-import { Helmet } from "react-helmet"
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar'
 import Navbar from '../components/Navbar'
 import SEO from '../components/SEO'
 
-import metadata from '../content/site-metadata.json'
 import CompaniesSection from '../components/CompaniesSection'
 import PeopleSection from '../components/PeopleSection'
 import ProjectSection from '../components/ProjectSection'
@@ -18,7 +16,6 @@ import { connect } from "react-redux";
 
 export const IndexPageTemplate = ({
   isLoggedUser,
-  seo,
   header,
   mainpitch,
   whyExpand,
@@ -27,7 +24,6 @@ export const IndexPageTemplate = ({
   sponsor,
 }) => (
   <div>
-    <SEO seo={seo ? seo : null} />
     <div className="wrapper hero-background">
       <TopBar />
       <Navbar isLoggedUser={isLoggedUser} />
@@ -53,7 +49,6 @@ export const IndexPageTemplate = ({
 )
 
 IndexPageTemplate.propTypes = {
-  seo: PropTypes.object,
   header: PropTypes.object,
   mainpitch: PropTypes.object,
   whyExpand: PropTypes.object,
@@ -67,9 +62,9 @@ const IndexPage = ({ isLoggedUser, data }) => {
 
   return (
     <Layout>
+      <SEO seo={frontmatter.seo ? frontmatter.seo : null} />
       <IndexPageTemplate
-        isLoggedUser={isLoggedUser}
-        seo={frontmatter.seo}
+        isLoggedUser={isLoggedUser}        
         header={frontmatter.header}
         mainpitch={frontmatter.mainpitch}
         whyExpand={frontmatter.whyExpand}

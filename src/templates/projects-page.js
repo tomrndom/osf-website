@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { withPrefix, graphql } from 'gatsby'
-import { Helmet } from "react-helmet"
+import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
@@ -10,14 +9,12 @@ import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
 import HostingProject from '../components/HostingProject'
 
-import metadata from '../content/site-metadata.json'
 import leftArrow from '../img/svg/arrow-left.svg'
 import LinkComponent from '../components/LinkComponent'
 import { connect } from "react-redux";
 
 export const ProjectsPageTemplate = ({
   isLoggedUser,
-  seo,
   header,
   projectCategories,
   projectList,
@@ -28,7 +25,6 @@ export const ProjectsPageTemplate = ({
 
   return (
     <div>
-      <SEO seo={seo ? seo : null} />
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
@@ -109,7 +105,6 @@ export const ProjectsPageTemplate = ({
 }
 
 ProjectsPageTemplate.propTypes = {
-  seo: PropTypes.object,
   header: PropTypes.object,
   confirmed: PropTypes.object,
   pilot: PropTypes.object,
@@ -120,10 +115,10 @@ const ProjectsPage = ({ isLoggedUser, data }) => {
 
   return (
     <Layout>
+      <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
       <ProjectsPageTemplate
         isLoggedUser={isLoggedUser}
-        contentComponent={HTMLContent}
-        seo={post.frontmatter.seo}
+        contentComponent={HTMLContent}        
         header={post.frontmatter.header}
         projectCategories={post.frontmatter.projectCategories}
         projectList={post.frontmatter.projectList}

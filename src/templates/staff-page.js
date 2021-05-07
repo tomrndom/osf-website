@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { withPrefix, graphql } from 'gatsby'
-import { Helmet } from "react-helmet"
+import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
@@ -11,13 +10,11 @@ import SEO from '../components/SEO'
 import ContactInformation from '../components/ContactInformation'
 import HeaderStaff from '../components/HeaderStaff'
 
-import metadata from '../content/site-metadata.json'
 import LinkComponent from '../components/LinkComponent'
 import { connect } from "react-redux";
 
 export const StaffPageTemplate = ({
   isLoggedUser,
-  seo,
   header,
   banner,
   members,
@@ -29,7 +26,6 @@ export const StaffPageTemplate = ({
 
   return (
     <div>
-      <SEO seo={seo ? seo : null} />
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
@@ -126,7 +122,6 @@ export const StaffPageTemplate = ({
 }
 
 StaffPageTemplate.propTypes = {
-  seo: PropTypes.object,
   header: PropTypes.object,
   banner: PropTypes.object,
   members: PropTypes.array,
@@ -138,10 +133,10 @@ const StaffPage = ({ isLoggedUser, data }) => {
 
   return (
     <Layout>
+      <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
       <StaffPageTemplate
         isLoggedUser={isLoggedUser}
-        contentComponent={HTMLContent}
-        seo={post.frontmatter.seo}
+        contentComponent={HTMLContent}        
         header={post.frontmatter.header}
         banner={post.frontmatter.banner}
         members={post.frontmatter.members}
