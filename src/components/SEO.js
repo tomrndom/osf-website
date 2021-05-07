@@ -35,7 +35,7 @@ const SEO = ({ seo = {} }) => {
           <meta name="twitter:creator" content={twitterUsername} />
         )}
         <meta name="twitter:site" content="@OpenInfraDev" />
-        {title && <meta name="twitter:title" content={title} />}
+        {title && <meta name="twitter:title" content={seo.title ? seo.title : title} />}
         {description && (
           <meta name="twitter:description" content={seo.description ? seo.description : description} />
         )}
