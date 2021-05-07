@@ -1,6 +1,6 @@
 import { SSRWrapper } from "./src/state/ReduxWrapper"
 // @see https://www.gatsbyjs.com/docs/adding-redux-store/
-export const SSRWrapper = ReduxWrapper;
+export const wrapRootElement = SSRWrapper;
 
 import { JSDOM } from 'jsdom'
 import { Blob } from 'blob-polyfill';
