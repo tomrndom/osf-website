@@ -42,11 +42,9 @@ const onRehydrateComplete = () => {
 const persistor = persistStore(store, null, onRehydrateComplete);
 
 export default ({ element }) => (
-  <>    
+  <>
     <Provider store={store}>
-      <PersistGate onBeforeLift={onBeforeLift} persistor={persistor}>
-        {element}
-      </PersistGate>
+      {element}
     </Provider>
   </>
 );
