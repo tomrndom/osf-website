@@ -43,19 +43,20 @@ const persistor = persistStore(store, null, onRehydrateComplete);
 
 export default ({ element }) => {
   if (typeof window === "undefined") {
+    console.log('window undefined')
     return (
       <Provider store={store}>
         {element}
       </Provider>
     )
-  }
-  return (
-    <>
+  } else {
+    console.log('window defined')
+    return (
       <Provider store={store}>
         <PersistGate onBeforeLift={onBeforeLift} persistor={persistor}>
           {element}
         </PersistGate>
       </Provider>
-    </>
-  )
+    )
+  }
 };
