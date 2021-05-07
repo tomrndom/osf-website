@@ -8,7 +8,6 @@ import thunk from 'redux-thunk';
 import { persistStore, persistCombineReducers } from 'redux-persist'
 import storage from 'redux-persist/es/storage' // default: localStorage if web, AsyncStorage if react-native
 import { PersistGate } from 'redux-persist/integration/react';
-import SEO from '../components/SEO';
 
 const onBeforeLift = () => {
   console.log("reading state ...")
@@ -41,22 +40,20 @@ const onRehydrateComplete = () => {
 
 const persistor = persistStore(store, null, onRehydrateComplete);
 
-export default ({ element }) => {
-  if (typeof window === "undefined") {
-    console.log('window undefined')
-    return (
-      <Provider store={store}>
+export const browserWrapper = ({ element }) => {
+  return (
+    <Provider store={store}>
+      <PersistGate onBeforeLift={onBeforeLift} persistor={persistor}>
         {element}
-      </Provider>
-    )
-  } else {
-    console.log('window defined')
-    return (
-      <Provider store={store}>
-        <PersistGate onBeforeLift={onBeforeLift} persistor={persistor}>
-          {element}
-        </PersistGate>
-      </Provider>
-    )
-  }
-};
+      </PersistGate>
+    </Provider>
+  );
+}
+
+export const SSRWrapper = ({ element }) => {
+  return (
+    <Provider store={store}>
+      {element}
+    </Provider>
+  );
+}

@@ -1,9 +1,6 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-
-import ReduxWrapper from "./src/state/ReduxWrapper"
+import { browserWrapper } from "./src/state/ReduxWrapper"
 // @see wrapRootElement
-export const wrapRootElement = ReduxWrapper;
+export const browserWrapper = ReduxWrapper;
 
 window.IDP_BASE_URL = process.env.GATSBY_IDP_BASE_URL;
 window.OAUTH2_CLIENT_ID = process.env.GATSBY_OAUTH2_CLIENT_ID;

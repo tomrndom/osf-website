@@ -1,9 +1,6 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-
-import ReduxWrapper from "./src/state/ReduxWrapper"
+import { SSRWrapper } from "./src/state/ReduxWrapper"
 // @see https://www.gatsbyjs.com/docs/adding-redux-store/
-export const wrapRootElement = ReduxWrapper;
+export const SSRWrapper = ReduxWrapper;
 
 import { JSDOM } from 'jsdom'
 import { Blob } from 'blob-polyfill';
