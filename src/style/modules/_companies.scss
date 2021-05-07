@@ -2,216 +2,213 @@
     COMPANIES
 \* ------------------------------------------------------------ */
 
-
 // ############ SECTION 1 #################
 
 .companies-s1-main {
-    color: $white;
+  color: $white;
+}
+
+.companies-s1-container {
+  background-color: $white;
+  width: calc(100% - 60px);
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 40px;
+  @media (max-width: $screen-md-min) {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    width: 100%;
   }
-  
-  
-  .companies-s1-container {
-    background-color: $white;
-    width: calc(100% - 60px);
-    margin-left: 30px;
-    margin-right: 30px;
+  a {
+    color: #ec1944;
+  }
+  .fix-h3 {
+    font-size: 26px;
+    color: #161616;
+    text-align: left;
+    line-height: 31px;
+    margin-top: 60px;
     margin-bottom: 40px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    padding-right: 40px;
-    @media (max-width: $screen-md-min){
+    // margin-left: 60px;
+    @media (max-width: $screen-md-min) {
       margin-left: 0px;
-      margin-right: 0px;
-      padding-left: 1.5em;
-      padding-right: 1.5em;
-      width: 100%;
-    }
-    a {
-      color: #EC1944;
-    }
-    .fix-h3 {
-      font-size: 26.0px;
-      color: #161616;
-      text-align: left;
-      line-height: 31.0px;
-      margin-top: 60px;
-      margin-bottom: 40px;
-      margin-left: 60px;
-      @media (max-width: $screen-md-min){
-        margin-left: 0px;
-      }
-    }
-    .fix-h5 {
-      color: #161616;
-      line-height: 21px;
-      margin-left: 60px;
-      width: 120%;
-      @media (max-width: $screen-md-min){
-        margin-left: 0px;
-        width: 90%;
-      }
-    }
-    .companies-s1-1-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-items: center;
-      margin-top: 30px;
-       @media (max-width: $screen-md) {
-        margin-left: 60px;
-       }
-      img {
-        margin: 20px 10px;
-      }    
-    }
-    .w4-5 {
-      max-width: 300px;
-    }
-  
-    .companies-s1-columns {
-      .companies-s1-column1 { 
-        width: 73%;
-      }
-    }
-  
-    #companies-s1-picture1 {
-      margin-top: -320px;
-      margin-left: 870px;
-    }
-  
-    @media (max-width: $screen-md) { //small screen pantalla 
-      .companies-s1-columns {
-        .companies-s1-column1 { 
-          width: 100%;
-        }
-      }
-      .fix-h3 {      
-        margin-right: 0px;
-      }
-      .fix-h5 {
-        margin-right: 0px;
-      }
-    }
-  
-  }
-  
-  
-  .companies-s2-container {
-    background-color: $white;
-    width: calc(100% - 60px);
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 40px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    padding-right: 40px;
-    @media (max-width: $screen-md-min){
-      margin-left: 0px;
-      margin-right: 0px;
-      padding-left: 1.5em;
-      padding-right: 1.5em;
-      width: 100%;
-    }
-    .fix-h3 {
-      font-size: 26.0px;
-      color: rgba(19,62,104,1.0);
-      text-align: left;
-      line-height: 31.0px;
-      margin-top: 60px;
-      margin-bottom: 40px;
-      margin-left: 60px;
-      @media (max-width: $screen-md-min){
-        margin-left: 0px;
-      }
-    }
-    .fix-h5 {
-      color: #161616;
-      line-height: 21px;
-      margin-left: 60px;
-      @media (max-width: $screen-md-min){
-        margin-left: 0px;
-      }
-    }
-    .companies-s2-1-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-items: center;      
-      margin-top: 30px;
-      margin-left: 60px;
-       @media (max-width: $screen-md) {
-        margin-left: 0;
-       }
-      img {
-        margin: 20px 10px;
-      }    
-    }
-    .w4-5 {
-      max-width: 300px;
-    }
-    @media (max-width: $screen-md) { //small screen pantalla 
-      .companies-s1-columns {
-        .companies-s1-column1 { 
-          width: 100%;
-        }
-      }
-      .fix-h3 {      
-        margin-right: 0px;
-      }
-      .fix-h5 {
-        margin-right: 0px;
-      }
     }
   }
-  
-  // ############ projects section 2
-  
-  .companies-s2-main {
-    margin-top: 0px;
-    padding-top: 40px;
-    padding-bottom: 50px;
-    color: $white;
-    background-color: #EC1944;
-    text-align: center;
+  .fix-h5 {
+    color: #161616;
+    line-height: 21px;
+    @media (max-width: $screen-md-min) {
+      margin-left: 0px;
+      // width: 90%;
+    }
+  }
+  .companies-s1-1-container {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
-  
-    .itemtitle {
-      color: $white;
-      margin-top: 20px;
-      margin-bottom: 10px;
-      margin-left: 0px;
+    margin-top: 30px;
+    img {
+      margin: 20px 10px;
     }
-    p {
-      max-width: 500px;
+    // Adjusting logo imgs based on membership level
+    .platinum {
     }
-  
-    .fix-h3 {
-      color: $white;
-    }    
-    .fix-h5 {
-      color: $white;
+    .gold {
     }
-  
-    @media (max-width: $screen-md) { //small screen pantalla 
-      .fix-h3 {
-        color: $white;
-        margin-left: 60px;
-        margin-right: 0px;
-        @media (max-width: $screen-md) {
-          margin-left: 0;
-         }
-      }    
-      .fix-h5 {
-        color: $white;
-        margin-left: 60px;
-        margin-right: 0px;
-        @media (max-width: $screen-md) {
-          margin-left: 0;
-         }
+    .silver {
+    }
+    .supporting {
+      max-width: 80px;
+    }
+  }
+  .w4-5 {
+    max-width: 300px;
+  }
+
+  #companies-s1-picture1 {
+    margin-top: -320px;
+    margin-left: 870px;
+  }
+
+  @media (max-width: $screen-md) {
+    //small screen pantalla
+    .companies-s1-columns {
+      .companies-s1-column1 {
+        width: 100%;
       }
     }
-  
+    .fix-h3 {
+      margin-right: 0px;
+    }
+    .fix-h5 {
+      margin-right: 0px;
+    }
   }
+}
+
+.companies-s2-container {
+  background-color: $white;
+  width: calc(100% - 60px);
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 40px;
+  @media (max-width: $screen-md-min) {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    width: 100%;
+  }
+  .fix-h3 {
+    font-size: 26px;
+    color: rgba(19, 62, 104, 1);
+    text-align: left;
+    line-height: 31px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    @media (max-width: $screen-md-min) {
+      margin-left: 0px;
+    }
+  }
+  .fix-h5 {
+    color: #161616;
+    line-height: 21px;
+    margin-left: 60px;
+    @media (max-width: $screen-md-min) {
+      margin-left: 0px;
+    }
+  }
+  .companies-s2-1-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 60px;
+    @media (max-width: $screen-md) {
+      margin-left: 0;
+    }
+    img {
+      margin: 20px 10px;
+    }
+  }
+  .w4-5 {
+    max-width: 300px;
+  }
+  @media (max-width: $screen-md) {
+    //small screen pantalla
+    .companies-s1-columns {
+      .companies-s1-column1 {
+        width: 100%;
+      }
+    }
+    .fix-h3 {
+      margin-right: 0px;
+    }
+    .fix-h5 {
+      margin-right: 0px;
+    }
+  }
+}
+
+// ############ projects section 2
+
+.companies-s2-main {
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  color: $white;
+  background-color: #ec1944;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .itemtitle {
+    color: $white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  p {
+    max-width: 500px;
+  }
+
+  .fix-h3 {
+    color: $white;
+  }
+  .fix-h5 {
+    color: $white;
+  }
+
+  @media (max-width: $screen-md) {
+    //small screen pantalla
+    .fix-h3 {
+      color: $white;
+      margin-left: 60px;
+      margin-right: 0px;
+      @media (max-width: $screen-md) {
+        margin-left: 0;
+      }
+    }
+    .fix-h5 {
+      color: $white;
+      margin-left: 60px;
+      margin-right: 0px;
+      @media (max-width: $screen-md) {
+        margin-left: 0;
+      }
+    }
+  }
+}

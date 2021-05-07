@@ -46,16 +46,23 @@ export const CompaniesPageTemplate = ({
                         </div>
                       </div>
                       <div className="companies-s1-1-container">
-                        {tier.companyList.map((company, index) => {
-                          return (
-                            <img src={
-                              (company.image.extension === 'svg' || company.image.extension === 'gif') && !company.image.childImageSharp ?
-                                company.image.publicURL
-                                :
-                                !!company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
-                            } alt={company.alt} width={company.width ? company.width : null} key={index} />
-                          )
-                        })}
+                        <div className={tier.level}>
+                          {tier.companyList.map((company, index) => {
+                            return (
+                              <img
+                                src={
+                                (company.image.extension === 'svg' || company.image.extension === 'gif') && !company.image.childImageSharp ?
+                                  company.image.publicURL
+                                  :
+                                  !!company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
+                                }
+                                alt={company.alt}
+                                width={company.width ? company.width : null}
+                                key={index}
+                              />
+                            )
+                          })}
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -131,6 +138,7 @@ export const companiesPageQuery = graphql`
         companies {
           title
           text
+          level
           companyList {  
             image {
               childImageSharp {
