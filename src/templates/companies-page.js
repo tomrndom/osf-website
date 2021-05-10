@@ -46,7 +46,7 @@ export const CompaniesPageTemplate = ({
                         </div>
                       </div>
                       <div className="companies-s1-1-container">
-                        <div className={tier.level}>
+                        <div className={`company-level-${tier.level}`}>
                           {tier.companyList.map((company, index) => {
                             return (
                               <img
