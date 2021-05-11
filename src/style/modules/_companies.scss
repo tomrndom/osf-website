@@ -64,7 +64,9 @@
     .company-level-silver {
     }
     .company-level-supporting {
-      max-width: 80px;
+      img {
+        max-width: 80px;
+      }
     }
   }
   .w4-5 {
