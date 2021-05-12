@@ -11,7 +11,8 @@ header:
     text: Learn more about how your company can support the Open Infrastructure
       community
     url: /join/
-  subTitle: The Open Infrastructure Foundation would not exist without the support
+  subTitle:
+    The Open Infrastructure Foundation would not exist without the support
     of the Platinum, Gold, and Corporate Members listed below.
   title: Companies Supporting The Open Infrastructure Foundation
 companies:
@@ -43,6 +44,7 @@ companies:
       given time, each of which holds a seat on the Board of  Directors. Thank
       you to the following Platinum Members who are committed to the Open
       Infrastructure community's success.
+    level: platinum
     title: PLATINUM MEMBERS
   - companyList:
       - alt: 99Cloud Inc.
@@ -81,14 +83,15 @@ companies:
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_vmware.png
       - alt: ZTE
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
-    text: "Open Infrastructure Foundation Gold Members provide funding and pledge
+    text: Open Infrastructure Foundation Gold Members provide funding and pledge
       strategic alignment to the OpenInfra Foundation mission.  There can be up
       to twenty-four Gold Members at any given time, subject to board approval.
       If your organization  is highly involved with the Open Infrastructure
       community and interested in becoming a Gold Member, read more about
       joining the  Foundation. Thank you to the following Gold Members who are
-      critical to the global community's success. "
+      critical to the global community's success.
     title: GOLD MEMBERS
+    level: gold
   - companyList:
       - alt: Ampere
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Ampere.png
@@ -156,13 +159,15 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Vexxhost.png
       - alt: Whitestack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png
-    text: "Open Infrastructure Foundation Silver Members provide funding and pledge
+    text:
+      "Open Infrastructure Foundation Silver Members provide funding and pledge
       strategic alignment to the OpenInfra Foundation mission. If your
       organization  is highly involved with  the Open Infrastructure community
       and interested in becoming a Silver Member,  read more about joining
       the  Foundation. Thank you to the following Silver  Members who are
       critical to the global community's success. "
     title: SILVER MEMBERS
+    level: silver
   - companyList:
       - alt: Rackspace
         image: /img/companies/rackspace-lg-2016.jpg
@@ -1336,7 +1341,8 @@ companies:
         image: /img/companies/ZW-logo.jpg
       - alt: UnitedStack
         image: /img/unitedstack-sp-lg.jpg
-    text: The resources provided by the OpenInfra Foundation Members are critical to
+    text:
+      The resources provided by the OpenInfra Foundation Members are critical to
       making the Open Infrastructure Foundation successful, but there are many
       ways to support the OpenInfra Foundation mission, whether you're
       contributing  code, building a product or helping build the community.
@@ -1347,4 +1353,5 @@ companies:
       form</a> and <a href="mailto:supporterlogos@openstack.org">send your
       logo</a>
     title: SUPPORTING ORGANIZATIONS
+    level: supporting
 ---
