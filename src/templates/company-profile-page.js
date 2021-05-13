@@ -14,6 +14,7 @@ import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 import { connect } from "react-redux";
 
 import LinkComponent from '../components/LinkComponent'
+import { kebabCase } from 'lodash';
 
 export const CompanyProfilePageTemplate = ({
   isLoggedUser,
@@ -33,9 +34,17 @@ export const CompanyProfilePageTemplate = ({
             < Navbar isLoggedUser={isLoggedUser} />
             <Header title={company.name} subTitle='Company Profile' />
             <div className="company-profile-logo">
-              <LinkComponent href={company.url}>
-                <img src={company.big_logo ? company.big_logo : company.logo} alt={`${company.name}-logo`} />
-              </LinkComponent>
+              <img src={company.big_logo ? company.big_logo : company.logo} alt={`${company.name}-logo`} />
+              <br />
+            </div>
+            <div className="company-profile-buttons">
+              {company.url &&
+                <button>
+                  <LinkComponent className="company-profile-link" href={company.url}>
+                    Website
+                  </LinkComponent>
+                </button>
+              }
             </div>
           </div >
 
@@ -43,6 +52,8 @@ export const CompanyProfilePageTemplate = ({
             <div className="content">
               <section className="section about-s1-main">
                 <div className="container about-s1-container">
+                  <h1>{company.industry}</h1>
+                  <h2>{company.city}{company.country ? company.city ? `, ${company.country} ` : company.country : ''}</h2>
                   <div className="columns">
                     <div className="column">
                       {company.description &&
@@ -62,8 +73,12 @@ export const CompanyProfilePageTemplate = ({
                           <span dangerouslySetInnerHTML={{ __html: company.products }} />
                         </>
                       }
-                      {/* <h2>For More Information</h2>
-                  <span dangerouslySetInnerHTML={{ __html: moreInformation }} /> */}
+                      {company.contact_email &&
+                        <>
+                          <h2>For More Information</h2>
+                          <span>Please contact us at <LinkComponent href={`mailto:${company.contact_email}`}>{company.contact_email}</LinkComponent></span>
+                        </>
+                      }
                     </div>
                   </div>
                 </div>
@@ -98,10 +113,10 @@ const CompanyProfilePage = ({ isLoggedUser, location, sponsors }) => {
   const [company, setCompany] = useState({})
   const [loading, setLoading] = useState(true)
 
-  useEffect(() => {    
+  useEffect(() => {
     const sponsorshipType = parseInt(location.pathname.replace('/companies/profile/', '').split('/')[0]);
-    const companyId = parseInt(location.pathname.replace('/companies/profile/', '').split('/')[1]);    
-    setCompany(sponsors.find(type => type.id === sponsorshipType)?.supporting_companies.find(c => c.company.id === companyId)?.company || null);
+    const companyName = location.pathname.replace('/companies/profile/', '').split('/')[1];
+    setCompany(sponsors.find(type => type.id === sponsorshipType)?.supporting_companies.find(c => kebabCase(c.company.name) === companyName)?.company || null);
     setLoading(false);
   }, [])
 

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { graphql, Link } from 'gatsby'
+import { kebabCase } from 'lodash'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
@@ -40,32 +41,36 @@ export const CompaniesPageTemplate = ({
             <section className="companies-s1-main">
 
               {sponsors.map((tier, index) => {
-                return (
-                  <div className="companies-s1-container" key={index}>
-                    <div className="companies-s1-columns">
-                      <div className="companies-s1-column1">
-                        <div className="fix-h3">{tier.name}</div>
-                        <div className="fix-h5" dangerouslySetInnerHTML={{ __html: tier.description }}>
+                if (tier.is_active === true) {
+                  return (
+                    <div className="companies-s1-container" key={index}>
+                      <div className="companies-s1-columns">
+                        <div className="companies-s1-column1">
+                          <div className="fix-h3">{tier.name}</div>
+                          <div className="fix-h5" dangerouslySetInnerHTML={{ __html: tier.description }}>
+                          </div>
                         </div>
-                      </div>
-                      <div className="companies-s1-1-container">
-                        <div className={`company-level-${tier.name}`}>
-                          {tier.supporting_companies.sort((a, b) => a.order - b.order).map(({ company }) => {
-                            return (
-                              <Link to={`/companies/profile/${tier.id}/${company.id}`}>
-                                <img
-                                  src={company.logo}
-                                  alt={company.name}
-                                  key={company.id}
-                                />
-                              </Link>
-                            )
-                          })}
+                        <div className="companies-s1-1-container">
+                          <div className={`company-level-${tier.name}`}>
+                            {tier.supporting_companies.sort((a, b) => a.order - b.order).map(({ company }) => {
+                              if (company.display_on_site === true) {
+                                return (
+                                  <Link to={company?.description?.length > 0 ? `/companies/profile/${tier.id}/${kebabCase(company.name)}` : company.url}>
+                                    <img
+                                      src={company.logo}
+                                      alt={company.name}
+                                      key={company.id}
+                                    />
+                                  </Link>
+                                )
+                              }
+                            })}
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                )
+                  )
+                }
               })}
             </section>
           </div>

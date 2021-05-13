@@ -75,13 +75,22 @@ section {
 .company-profile-logo {
   display: flex;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 25px;
   img {
-    max-height: 200px;
+    width: 300px;
   }
 }
 
-.validation_error{
+.company-profile-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  a {
+    color: $primary;
+  }
+}
+
+.validation_error {
   color: red !important;
   font-size: smaller !important;
   margin: 0 !important;
@@ -90,10 +99,10 @@ section {
 .pagination-list {
   li {
     &::before {
-      content: '';
+      content: "";
     }
     &::marker {
-      content: '';
+      content: "";
     }
   }
 }
