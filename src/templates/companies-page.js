@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
@@ -11,14 +11,18 @@ import SEO from '../components/SEO'
 
 import { connect } from "react-redux";
 
+import { getSponsorhipTypes } from '../actions/sponsor-actions'
+
 export const CompaniesPageTemplate = ({
   isLoggedUser,
-  header,
-  companies,
+  header,  
+  sponsors,
   content,
   contentComponent
 }) => {
   const PageContent = contentComponent || Content
+
+  console.log('sponsors', sponsors);
 
   return (
     <div>
@@ -32,30 +36,27 @@ export const CompaniesPageTemplate = ({
         <div className="content">
           <div className="container">
             <section className="companies-s1-main">
-              {companies.map((tier, index) => {
+
+              {sponsors.map((tier, index) => {
                 return (
                   <div className="companies-s1-container" key={index}>
                     <div className="companies-s1-columns">
                       <div className="companies-s1-column1">
-                        <div className="fix-h3">{tier.title}</div>
-                        <div className="fix-h5" dangerouslySetInnerHTML={{ __html: tier.text }}>
+                        <div className="fix-h3">{tier.name}</div>
+                        <div className="fix-h5" dangerouslySetInnerHTML={{ __html: tier.description }}>
                         </div>
                       </div>
                       <div className="companies-s1-1-container">
-                        <div className={`company-level-${tier.level}`}>
-                          {tier.companyList.map((company, index) => {
+                        <div className={`company-level-${tier.name}`}>
+                          {tier.supporting_companies.sort((a, b) => a.order - b.order).map((company, index) => {
                             return (
-                              <img
-                                src={
-                                (company.image.extension === 'svg' || company.image.extension === 'gif') && !company.image.childImageSharp ?
-                                  company.image.publicURL
-                                  :
-                                  !!company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
-                                }
-                                alt={company.alt}
-                                width={company.width ? company.width : null}
-                                key={index}
-                              />
+                              <Link to={`/companies/profile/${tier.id}/${company.id}`}>
+                                <img
+                                  src={company.company.logo}
+                                  alt={company.company.name}
+                                  key={index}
+                                />
+                              </Link>
                             )
                           })}
                         </div>
@@ -79,17 +80,21 @@ CompaniesPageTemplate.propTypes = {
   companies: PropTypes.array,
 }
 
-const CompaniesPage = ({ isLoggedUser, data }) => {
+const CompaniesPage = ({ isLoggedUser, data, getSponsorhipTypes, sponsors }) => {
   const { markdownRemark: post } = data
+
+  useEffect(() => {
+    getSponsorhipTypes();
+  }, [])
 
   return (
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
       <CompaniesPageTemplate
         isLoggedUser={isLoggedUser}
-        contentComponent={HTMLContent}        
+        contentComponent={HTMLContent}
         header={post.frontmatter.header}
-        companies={post.frontmatter.companies}
+        sponsors={sponsors.sort((a, b) => a.order - b.order)}
       />
     </Layout>
   )
@@ -100,8 +105,11 @@ CompaniesPage.propTypes = {
 }
 
 export default connect(state => ({
-  isLoggedUser: state.loggedUserState.isLoggedUser
-}), null)(CompaniesPage)
+  isLoggedUser: state.loggedUserState.isLoggedUser,
+  sponsors: state.sponsorState.sponsorshipTypes
+}), {
+  getSponsorhipTypes
+})(CompaniesPage)
 
 export const companiesPageQuery = graphql`
   query CompaniesPage($id: String!) {
@@ -128,24 +136,6 @@ export const companiesPageQuery = graphql`
           link {
             url
             text
-          }
-        }        
-        companies {
-          title
-          text
-          level
-          companyList {  
-            image {
-              childImageSharp {
-                fluid(maxWidth: 640, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-              extension
-              publicURL
-            }
-            profileLink
-            alt
           }
         }        
       }

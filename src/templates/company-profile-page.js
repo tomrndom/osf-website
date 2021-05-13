@@ -1,181 +1,123 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
-import { withPrefix, graphql } from 'gatsby'
-import { Helmet } from "react-helmet"
-import Content, { HTMLContent } from '../components/Content'
+
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
 
-import metadata from '../content/site-metadata.json'
-import {connect} from "react-redux";
+import NotFoundPage from "../pages/404"
 
-import MarkdownIt from "markdown-it";
+import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 
-const parser = new MarkdownIt({
-  html: false,
-  breaks: true,
-  linkify: true,
-  xhtmlOut: true,
-  typographer: true,
-});
+import { connect } from "react-redux";
+
+import LinkComponent from '../components/LinkComponent'
 
 export const CompanyProfilePageTemplate = ({
   isLoggedUser,
-  seo,
-  name,  
-  logo,
-  description,
-  contributions,
-  productsServices,
-  moreInformation,
-  footer,  
-  content, 
-  contentComponent
+  company,
+  loading,
+  footer,
 }) => {
-  const PageContent = contentComponent || Content  
 
-  return (
-    <div>
-      {seo && 
-      <Helmet title={seo.title ? seo.title : metadata.siteMetadata.title} titleTemplate={metadata.siteMetadata.titleTemplate}>        
-        {seo.description && <meta name="description" content={seo.description} />}
-        {seo.image && <meta name="image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}        
-        {seo.url && <meta property="og:url" content={seo.url} />}
-        {seo.title && <meta property="og:title" content={seo.title} />}
-        {seo.description && (
-          <meta property="og:description" content={seo.description} />
-        )}
-        {seo.image && <meta property="og:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-        <meta name="twitter:card" content="summary_large_image" />
-        {seo.twitterUsername && (
-          <meta name="twitter:creator" content={seo.twitterUsername} />
-        )}        
-        {seo.title && <meta name="twitter:title" content={seo.title} />}
-        {seo.description && (
-          <meta name="twitter:description" content={seo.description} />
-        )}
-        {seo.image && <meta name="twitter:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}          
-      </Helmet>
-      }
-      <div className="wrapper project-background">
-        <TopBar />
-        <Navbar isLoggedUser={isLoggedUser}/>
-        <Header title={name} subTitle='Company Profile'/>      
-        <div className="company-profile-logo">
-          <img src={
-            (logo.extension === 'svg' || logo.extension === 'gif') && !logo.childImageSharp ?
-            logo.publicURL 
-            :                        
-            !!logo.childImageSharp ? logo.childImageSharp.fluid.src : logo
-            } alt={`${name}-logo`} />
-        </div>
-      </div>
-      
-      <main className="main">
-        <div className="content">          
-          <section className="section about-s1-main">
-            <div className="container about-s1-container">
-              <div className="columns">
-                <div className="column">
-                  <h2>Description</h2>
-                  <span dangerouslySetInnerHTML={{ __html: parser.render(description) }} />                  
-                  <h2>Contributions To OpenStack From {name}</h2>                  
-                  <span dangerouslySetInnerHTML={{ __html: parser.render(contributions) }} />                  
-                  <h2>SoProducts & Services</h2>                  
-                  <span dangerouslySetInnerHTML={{ __html: parser.render(productsServices) }} />                  
-                  <h2>For More Information</h2>                  
-                  <span dangerouslySetInnerHTML={{ __html: parser.render(moreInformation) }} />                  
-                  <PageContent content={content} />
+  if (loading) {
+    return <AjaxLoader relative={true} color={'#ffffff'} show={loading} size={120} />
+  } else {
+    if (company) {
+      return (
+        <div>
+          <div className="wrapper project-background">
+            <TopBar />
+            < Navbar isLoggedUser={isLoggedUser} />
+            <Header title={company.name} subTitle='Company Profile' />
+            <div className="company-profile-logo">
+              <LinkComponent href={company.url}>
+                <img src={company.big_logo ? company.big_logo : company.logo} alt={`${company.name}-logo`} />
+              </LinkComponent>
+            </div>
+          </div >
+
+          <main className="main">
+            <div className="content">
+              <section className="section about-s1-main">
+                <div className="container about-s1-container">
+                  <div className="columns">
+                    <div className="column">
+                      {company.description &&
+                        <>
+                          <h2>Description</h2>
+                          <span dangerouslySetInnerHTML={{ __html: company.description }} />
+                        </>
+                      }
+                      {company.contributions &&
+                        <>
+                          <h2>Contributions To OpenStack From {company.name}</h2>
+                          <span dangerouslySetInnerHTML={{ __html: company.contributions }} />
+                        </>}
+                      {company.products &&
+                        <>
+                          <h2>Products & Services</h2>
+                          <span dangerouslySetInnerHTML={{ __html: company.products }} />
+                        </>
+                      }
+                      {/* <h2>For More Information</h2>
+                  <span dangerouslySetInnerHTML={{ __html: moreInformation }} /> */}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>              
-          </section>
-          {footer &&
-            <Hero content={footer}/>
-          }
-        </div>
-      </main>
-    </div>
-  )
+              </section>
+              {footer &&
+                <Hero content={footer} />
+              }
+            </div>
+          </main>
+        </div >
+      )
+    } else {
+      return <NotFoundPage />
+    }
+  }
+
 }
 
-CompanyProfilePageTemplate.propTypes = {  
-  seo: PropTypes.object,    
+CompanyProfilePageTemplate.propTypes = {
+  seo: PropTypes.object,
   title: PropTypes.string,
   name: PropTypes.string,
   logo: PropTypes.object,
   description: PropTypes.string,
   contributions: PropTypes.string,
   productsServices: PropTypes.string,
-  moreInformation: PropTypes.string,  
+  moreInformation: PropTypes.string,
 }
 
-const CompanyProfilePage = ({isLoggedUser, data }) => {
-  const { markdownRemark: post } = data
+const CompanyProfilePage = ({ isLoggedUser, location, sponsors }) => {
+
+  const [company, setCompany] = useState({})
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {    
+    const sponsorshipType = parseInt(location.pathname.replace('/companies/profile/', '').split('/')[0]);
+    const companyId = parseInt(location.pathname.replace('/companies/profile/', '').split('/')[1]);    
+    setCompany(sponsors.find(type => type.id === sponsorshipType)?.supporting_companies.find(c => c.id === companyId)?.company || null);
+    setLoading(false);
+  }, [])
+
 
   return (
     <Layout>
       <CompanyProfilePageTemplate
         isLoggedUser={isLoggedUser}
-        contentComponent={HTMLContent}
-        seo={post.frontmatter.seo}
-        name={post.frontmatter.title}
-        logo={post.frontmatter.logo}        
-        description={post.frontmatter.description}
-        contributions={post.frontmatter.contributions}
-        productsServices={post.frontmatter.productsServices}
-        moreInformation={post.frontmatter.moreInformation}
-        content={post.html}
+        company={company}
+        loading={loading}
       />
     </Layout>
   )
 }
 
-CompanyProfilePage.propTypes = {
-  data: PropTypes.object.isRequired,
-}
-
 export default connect(state => ({
-  isLoggedUser: state.loggedUserState.isLoggedUser
-}), null)(CompanyProfilePage)
-
-export const companyProfilePageQuery = graphql`
-  query CompanyProfilePage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        seo {
-          title
-          description
-          url
-          image {
-            childImageSharp {
-              fluid(maxWidth: 640, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-            publicURL
-          }
-          twitterUsername
-        }
-        title
-        logo {
-            childImageSharp {
-                fluid(maxWidth: 640, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-            }
-            extension
-            publicURL
-        }
-        description
-        contributions
-        productsServices
-        moreInformation
-      }
-    }
-  }
-`
+  isLoggedUser: state.loggedUserState.isLoggedUser,
+  sponsors: state.sponsorState.sponsorshipTypes
+}), null)(CompanyProfilePage);

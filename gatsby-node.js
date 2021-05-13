@@ -96,13 +96,7 @@ exports.createPages = ({ actions, graphql }) => {
     pages.forEach(edge => {
       const id = edge.node.id
       const SEO = edge.node.frontmatter.seo ? edge.node.frontmatter.seo : null;
-      let slug = SEO && SEO.url ? SEO.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : edge.node.fields.slug
-      if (edge.node.frontmatter.templateKey === 'company-profile-page') {
-        console.log(edge.node.frontmatter)
-        slug = `/companies/profile/${_.kebabCase(edge.node.frontmatter.title)}`;
-        edge.node.frontmatter.seo.url = `https://openinfra.dev/companies/profile/${slug}`;
-        console.log('here', slug, edge.node.frontmatter.title)
-      }
+      let slug = SEO && SEO.url ? SEO.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : edge.node.fields.slug      
       createPage({
         path: slug,
         category: edge.node.frontmatter.category,

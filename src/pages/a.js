@@ -10,20 +10,23 @@ import MembershipResignPage from "../templates/membership-resign";
 import MembershipCommunityPage from "../templates/membership-community";
 import MembershipFoundationPage from "../templates/membership-foundation";
 import NotFoundPage from "./404"
+import PublicRoute from "../routes/PublicRoute"
+import companyProfilePage from "../templates/company-profile-page"
 
 const App = ({ isLoggedUser, user }) => {
   return (
     <Location>
       {({ location }) => (
-          <Router basepath="/a" >
-            <PrivateRoute path="/profile" component={ProfilePage} isLoggedIn={isLoggedUser} user={user} location={location} />
-            <PrivateRoute path="/profile/membership/resign" component={MembershipResignPage} isLoggedIn={isLoggedUser} user={user} location={location}/>
-            <PrivateRoute path="/profile/membership/community" component={MembershipCommunityPage} isLoggedIn={isLoggedUser} user={user} location={location}/>
-            <PrivateRoute path="/profile/membership/foundation" component={MembershipFoundationPage} isLoggedIn={isLoggedUser} user={user} location={location}/>
-            <RegistrationPage path="/registration" location={location} isLoggedIn={isLoggedUser} />
-            <ErrorPage path="/error" location={location} isLoggedIn={isLoggedUser}/>
-            <NotFoundPage default />
-          </Router>
+        <Router basepath="/a" >
+          <PrivateRoute path="/profile" component={ProfilePage} isLoggedIn={isLoggedUser} user={user} location={location} />
+          <PrivateRoute path="/profile/membership/resign" component={MembershipResignPage} isLoggedIn={isLoggedUser} user={user} location={location} />
+          <PrivateRoute path="/profile/membership/community" component={MembershipCommunityPage} isLoggedIn={isLoggedUser} user={user} location={location} />
+          <PrivateRoute path="/profile/membership/foundation" component={MembershipFoundationPage} isLoggedIn={isLoggedUser} user={user} location={location} />
+          <PublicRoute path="/companies/profile/:sponsorshipType/:company" component={companyProfilePage} location={location} />
+          <RegistrationPage path="/registration" location={location} isLoggedIn={isLoggedUser} />
+          <ErrorPage path="/error" location={location} isLoggedIn={isLoggedUser} />
+          <NotFoundPage default />
+        </Router>
       )}
     </Location>
   )

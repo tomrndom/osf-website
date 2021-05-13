@@ -3,6 +3,7 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
 import { loggedUserReducer } from 'openstack-uicore-foundation/lib/reducers';
 import userReducer from '../reducers/user-reducer'
+import sponsorReducer from '../reducers/sponsor-reducer';
 
 import thunk from 'redux-thunk';
 import { persistStore, persistCombineReducers } from 'redux-persist'
@@ -18,11 +19,13 @@ const clientId = typeof window === 'object' ? window.OAUTH2_CLIENT_ID : process.
 const config = {
   key: `root_${clientId}`,
   storage,
+  blacklist: ['sponsorState']
 }
 
 const persistedReducers = persistCombineReducers(config, {
   loggedUserState: loggedUserReducer,
-  userState: userReducer
+  userState: userReducer,
+  sponsorState: sponsorReducer
 });
 
 const composeEnhancers = typeof window === 'object' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : compose;
