@@ -101,7 +101,7 @@ const CompanyProfilePage = ({ isLoggedUser, location, sponsors }) => {
   useEffect(() => {    
     const sponsorshipType = parseInt(location.pathname.replace('/companies/profile/', '').split('/')[0]);
     const companyId = parseInt(location.pathname.replace('/companies/profile/', '').split('/')[1]);    
-    setCompany(sponsors.find(type => type.id === sponsorshipType)?.supporting_companies.find(c => c.id === companyId)?.company || null);
+    setCompany(sponsors.find(type => type.id === sponsorshipType)?.supporting_companies.find(c => c.company.id === companyId)?.company || null);
     setLoading(false);
   }, [])
 

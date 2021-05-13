@@ -27,6 +27,7 @@ export const getSponsorhipTypes = () => (dispatch, getState) => {
         customErrorHandler
     )(params)(dispatch).then((sponsorshipTypes) => {
         dispatch(createAction(RECEIVE_SPONSORSHIP_TYPES)(sponsorshipTypes));
+        dispatch(stopLoading());
     }).catch(e => {
         dispatch(stopLoading());
         return (e);

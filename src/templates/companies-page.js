@@ -11,21 +11,23 @@ import SEO from '../components/SEO'
 
 import { connect } from "react-redux";
 
+import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
+
 import { getSponsorhipTypes } from '../actions/sponsor-actions'
 
 export const CompaniesPageTemplate = ({
   isLoggedUser,
-  header,  
+  header,
   sponsors,
+  loading,
   content,
   contentComponent
 }) => {
   const PageContent = contentComponent || Content
 
-  console.log('sponsors', sponsors);
-
   return (
     <div>
+      <AjaxLoader relative={true} color={'#ffffff'} show={loading} size={120} />
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
@@ -48,13 +50,13 @@ export const CompaniesPageTemplate = ({
                       </div>
                       <div className="companies-s1-1-container">
                         <div className={`company-level-${tier.name}`}>
-                          {tier.supporting_companies.sort((a, b) => a.order - b.order).map((company, index) => {
+                          {tier.supporting_companies.sort((a, b) => a.order - b.order).map(({ company }) => {
                             return (
                               <Link to={`/companies/profile/${tier.id}/${company.id}`}>
                                 <img
-                                  src={company.company.logo}
-                                  alt={company.company.name}
-                                  key={index}
+                                  src={company.logo}
+                                  alt={company.name}
+                                  key={company.id}
                                 />
                               </Link>
                             )
@@ -77,10 +79,10 @@ export const CompaniesPageTemplate = ({
 
 CompaniesPageTemplate.propTypes = {
   header: PropTypes.object,
-  companies: PropTypes.array,
+  sponsors: PropTypes.array,
 }
 
-const CompaniesPage = ({ isLoggedUser, data, getSponsorhipTypes, sponsors }) => {
+const CompaniesPage = ({ isLoggedUser, data, getSponsorhipTypes, sponsors, loading }) => {
   const { markdownRemark: post } = data
 
   useEffect(() => {
@@ -92,9 +94,9 @@ const CompaniesPage = ({ isLoggedUser, data, getSponsorhipTypes, sponsors }) => 
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
       <CompaniesPageTemplate
         isLoggedUser={isLoggedUser}
-        contentComponent={HTMLContent}
         header={post.frontmatter.header}
         sponsors={sponsors.sort((a, b) => a.order - b.order)}
+        loading={loading}
       />
     </Layout>
   )
@@ -106,7 +108,8 @@ CompaniesPage.propTypes = {
 
 export default connect(state => ({
   isLoggedUser: state.loggedUserState.isLoggedUser,
-  sponsors: state.sponsorState.sponsorshipTypes
+  sponsors: state.sponsorState.sponsorshipTypes,
+  loading: state.sponsorState.loading
 }), {
   getSponsorhipTypes
 })(CompaniesPage)
