@@ -1,59 +1,36 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { withPrefix, graphql } from 'gatsby'
-import { Helmet } from "react-helmet"
+import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
+import SEO from '../components/SEO'
 
-import metadata from '../content/site-metadata.json'
-import {connect} from "react-redux";
+import { connect } from "react-redux";
 
 export const GenericPageTemplate = ({
   isLoggedUser,
-  seo,
   title,
   subTitle,
-  footer,  
-  content, 
+  footer,
+  content,
   contentComponent
 }) => {
-  const PageContent = contentComponent || Content  
+  const PageContent = contentComponent || Content
 
   return (
     <div>
-      {seo && 
-      <Helmet title={seo.title ? seo.title : metadata.siteMetadata.title} titleTemplate={metadata.siteMetadata.titleTemplate}>        
-        {seo.description && <meta name="description" content={seo.description} />}
-        {seo.image && <meta name="image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}        
-        {seo.url && <meta property="og:url" content={seo.url} />}
-        {seo.title && <meta property="og:title" content={seo.title} />}
-        {seo.description && (
-          <meta property="og:description" content={seo.description} />
-        )}
-        {seo.image && <meta property="og:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-        <meta name="twitter:card" content="summary_large_image" />
-        {seo.twitterUsername && (
-          <meta name="twitter:creator" content={seo.twitterUsername} />
-        )}        
-        {seo.title && <meta name="twitter:title" content={seo.title} />}
-        {seo.description && (
-          <meta name="twitter:description" content={seo.description} />
-        )}
-        {seo.image && <meta name="twitter:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}          
-      </Helmet>
-      }
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser}/>
-        <Header title={title} subTitle={subTitle}/>
+        <Navbar isLoggedUser={isLoggedUser} />
+        <Header title={title} subTitle={subTitle} />
       </div>
-      
+
       <main className="main">
-        <div className="content">          
+        <div className="content">
           <section className="section about-s1-main">
             <div className="container about-s1-container">
               <div className="columns">
@@ -61,10 +38,10 @@ export const GenericPageTemplate = ({
                   <PageContent content={content} />
                 </div>
               </div>
-            </div>              
+            </div>
           </section>
           {footer &&
-            <Hero content={footer}/>
+            <Hero content={footer} />
           }
         </div>
       </main>
@@ -72,23 +49,22 @@ export const GenericPageTemplate = ({
   )
 }
 
-GenericPageTemplate.propTypes = {  
-  seo: PropTypes.object,  
+GenericPageTemplate.propTypes = {
   companies: PropTypes.object,
   title: PropTypes.string,
   subTitle: PropTypes.string,
   footer: PropTypes.object,
 }
 
-const GenericPage = ({isLoggedUser, data }) => {
+const GenericPage = ({ isLoggedUser, data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
+      <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
       <GenericPageTemplate
         isLoggedUser={isLoggedUser}
-        contentComponent={HTMLContent}
-        seo={post.frontmatter.seo}
+        contentComponent={HTMLContent}        
         title={post.frontmatter.title}
         subTitle={post.frontmatter.subTitle}
         footer={post.frontmatter.footer}

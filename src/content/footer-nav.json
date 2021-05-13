@@ -76,10 +76,6 @@
       "title": "About",
       "nav": [
         {
-          "text": "Foundation Staff",
-          "link": "/about/staff/"
-        },
-        {
           "text": "Board of Directors",
           "link": "/about/board/"
         },
@@ -98,11 +94,15 @@
       ]
     },
     {
-      "title": "Blog",
+      "title": "News",
       "nav": [
         {
           "text": "OpenInfra Blog",
           "link": "/blog/"
+        },
+        {
+          "text": "Press & Media",
+          "link": "/press/"
         }
       ]
     }

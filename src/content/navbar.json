@@ -53,7 +53,7 @@
         },
         {
           "text": "Join OpenInfra Foundation ",
-          "url": "/join"
+          "url": "/join/"
         }
       ]
     },
@@ -63,6 +63,10 @@
       "marginLeft": "-346px",
       "display": true,
       "links": [
+        {
+          "text": "OpenInfra Live",
+          "url": "/live/"
+        },
         {
           "text": "OpenInfra Summit ",
           "url": "https://www.openstack.org/summit/"
@@ -103,19 +107,19 @@
       ]
     },
     {
-      "title": "Blog",
+      "title": "News",
       "image": "/img/menu/menu_about.jpg",
       "marginLeft": "-422px",
       "url": "/blog/",
       "display": true,
       "links": [
         {
-          "text": "News & Announcements",
-          "url": "/blog/category/news-announcements/"
+          "text": "OpenInfra Blog",
+          "url": "/blog/"
         },
         {
-          "text": "Community",
-          "url": "/blog/category/community/"
+          "text": "Press & Media",
+          "url": "/press/"
         }
       ]
     }

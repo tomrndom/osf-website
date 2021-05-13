@@ -87,7 +87,7 @@ const BlogPost = ({ isLoggedUser, data }) => {
             <meta name="description" content={`${post.frontmatter.seo.description}`} />
             <meta property="og:type" content="article" />
             <meta property="og:title" content={`${post.frontmatter.seo.title ? post.frontmatter.seo.title : post.frontmatter.title}`} />
-            <meta property="og:url" content={`${post.frontmatter.seo.url ? post.frontmatter.seo.url : metadata.siteMetadata.url}`} />
+            <meta property="og:url" content={`${post.frontmatter.seo.url ? `${post.frontmatter.seo.url}/` : metadata.siteMetadata.url}`} />
             <meta property="og:description" content={`${post.frontmatter.seo.description ? post.frontmatter.seo.description : metadata.siteMetadata.description}`} />
             <meta property="article:published_time" content={`${post.frontmatter.date}`} />
             <meta property="article:author" content={`${post.frontmatter.author}`} />

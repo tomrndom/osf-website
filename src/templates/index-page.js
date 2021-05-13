@@ -1,23 +1,21 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { withPrefix, graphql } from 'gatsby'
-import { Helmet } from "react-helmet"
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar'
 import Navbar from '../components/Navbar'
+import SEO from '../components/SEO'
 
-import metadata from '../content/site-metadata.json'
 import CompaniesSection from '../components/CompaniesSection'
 import PeopleSection from '../components/PeopleSection'
 import ProjectSection from '../components/ProjectSection'
 import WhyExpandSection from '../components/WhyExpandSection'
 import MainPitchSection from '../components/MainPitchSection'
-import {connect} from "react-redux";
+import { connect } from "react-redux";
 
 export const IndexPageTemplate = ({
   isLoggedUser,
-  seo,
   header,
   mainpitch,
   whyExpand,
@@ -26,53 +24,31 @@ export const IndexPageTemplate = ({
   sponsor,
 }) => (
   <div>
-    {seo && 
-    <Helmet title={seo.title ? seo.title : metadata.siteMetadata.title} titleTemplate={metadata.siteMetadata.titleTemplate}>        
-      {seo.description && <meta name="description" content={seo.description} />}
-      {seo.image && <meta name="image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}        
-      {seo.url && <meta property="og:url" content={seo.url} />}
-      {seo.title && <meta property="og:title" content={seo.title} />}
-      {seo.description && (
-        <meta property="og:description" content={seo.description} />
-      )}
-      {seo.image && <meta property="og:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-      <meta name="twitter:card" content="summary_large_image" />
-      {seo.twitterUsername && (
-        <meta name="twitter:creator" content={seo.twitterUsername} />
-      )}        
-      {seo.title && <meta name="twitter:title" content={seo.title} />}
-      {seo.description && (
-        <meta name="twitter:description" content={seo.description} />
-      )}
-      {seo.image && <meta name="twitter:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}      
-    </Helmet>
-    }
     <div className="wrapper hero-background">
       <TopBar />
-      <Navbar isLoggedUser={isLoggedUser}/>
+      <Navbar isLoggedUser={isLoggedUser} />
       <Header upperTitle={header.upperTitle} title={header.title} subTitle={header.subTitle} image={header.image} buttons={header.buttons} isHome={true} />
     </div>
-    
-      <main className="main">
-        <div className="content">
 
-          <MainPitchSection mainpitch={mainpitch} />          
+    <main className="main">
+      <div className="content">
 
-          <WhyExpandSection whyExpand={whyExpand} />
-          
-          <ProjectSection projects={projects} />
-          
-          <PeopleSection people={people} />                    
+        <MainPitchSection mainpitch={mainpitch} />
 
-          <CompaniesSection sponsor={sponsor} />
-                  
+        <WhyExpandSection whyExpand={whyExpand} />
+
+        <ProjectSection projects={projects} />
+
+        <PeopleSection people={people} />
+
+        <CompaniesSection sponsor={sponsor} />
+
       </div>
     </main>
   </div>
 )
 
-IndexPageTemplate.propTypes = {  
-  seo: PropTypes.object,
+IndexPageTemplate.propTypes = {
   header: PropTypes.object,
   mainpitch: PropTypes.object,
   whyExpand: PropTypes.object,
@@ -81,20 +57,20 @@ IndexPageTemplate.propTypes = {
   sponsor: PropTypes.object,
 }
 
-const IndexPage = ({isLoggedUser, data }) => {
+const IndexPage = ({ isLoggedUser, data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
+      <SEO seo={frontmatter.seo ? frontmatter.seo : null} />
       <IndexPageTemplate
-          isLoggedUser={isLoggedUser}
-          seo={frontmatter.seo}
-          header={frontmatter.header}
-          mainpitch={frontmatter.mainpitch}
-          whyExpand={frontmatter.whyExpand}
-          projects={frontmatter.projects}
-          people={frontmatter.people}
-          sponsor={frontmatter.sponsor}
+        isLoggedUser={isLoggedUser}        
+        header={frontmatter.header}
+        mainpitch={frontmatter.mainpitch}
+        whyExpand={frontmatter.whyExpand}
+        projects={frontmatter.projects}
+        people={frontmatter.people}
+        sponsor={frontmatter.sponsor}
       />
     </Layout>
   )

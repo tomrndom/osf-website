@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+hidePost: false
 title: Magma Developer Conference
 author: Kendall Waters Perez
 date: 2021-01-25T20:20:38.989Z

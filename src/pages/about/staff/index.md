@@ -117,7 +117,7 @@ members:
     name: Wes Wilson
     openStack: https://www.openstack.org/community/members/profile/20997
     picture: /img/about-staff/Wes-headshot.jpg
-    title: Director of Marketing
+    title: Director of Product & Engineering
     twitter: https://twitter.com/iamweswilson
   - description: It all started as a volunteer sysadmin at Portland State
       University. Since then Clark has operated  large network infrastructures,
@@ -140,7 +140,7 @@ members:
     name: Sunny Cai
     openStack: https://www.openstack.org/community/members/profile/101709
     picture: /img/about-staff/SunnyCai.jpg
-    title: Marketing Associate
+    title: Marketing Coordinator
   - description: James works closely alongside Wes Wilson to communicate the
       Foundation’s visual identity  through print and web design. As a
       multifaceted designer with a strong production background, he
@@ -151,7 +151,7 @@ members:
     name: James Cole
     openStack: https://www.openstack.org/community/members/profile/96706
     picture: /img/about-staff/jamescole.jpg
-    title: Graphic Designer
+    title: Design Lead
     twitter: https://twitter.com/JamesColeDesign
   - description: Erin Disney works as a Marketing Manager for the Open
       Infrastructure Foundation. Prior to joining, Erin ran  events for W2O
@@ -190,7 +190,7 @@ members:
     name: Jimmy McArthur
     openStack: https://www.openstack.org/community/members/profile/1395
     picture: /img/about-staff/jimmymcarthur.jpg
-    title: Senior Software Development Manager
+    title: Senior Manager Community & Business Development
     twitter: https://twitter.com/jimmymcarthur
   - description: Allison manages Marketing Content initiatives including case study
       development, advertising  campaigns, the Superuser online publication and
@@ -203,7 +203,7 @@ members:
     name: Allison Price
     openStack: https://www.openstack.org/community/members/profile/17777
     picture: /img/about-staff/AllisonPrice.jpg
-    title: Senior Marketing Manager
+    title: Director of Marketing & Community
     twitter: https://twitter.com/amprice88
   - description: <p>Kendall is an Upstream Developer Advocate at the Open
       Infrastructure Foundation based in Seattle, WA.  She first started working
@@ -221,7 +221,7 @@ members:
     name: Kendall Nelson
     openStack: https://www.openstack.org/community/members/profile/35859/kendall-nelson
     picture: /img/about-staff/kendallnelson.jpg
-    title: Software Engineer
+    title: Upstream Developer Advocate
     twitter: https://twitter.com/knelson92
   - description: A long-time computer hobbyist and technology generalist, Jeremy's
       worked as a Unix and GNU/Linux  sysadmin for more than two decades
@@ -251,7 +251,7 @@ members:
     name: Ildiko Vancsa
     openStack: https://www.openstack.org/community/members/profile/14820
     picture: /img/about-staff/ildikovancsa.png
-    title: Ecosystem Technical Lead
+    title: Senior Manager of Community and Ecosystem
     twitter: https://twitter.com/IldikoVancsa
   - description: Kendall Waters Perez has joined the Open Infrastructure Foundation
       as a Marketing Associate after completing a  spring internship in 2015.
@@ -265,7 +265,7 @@ members:
     name: Kendall Waters Perez
     openStack: https://www.openstack.org/community/members/profile/29123
     picture: /img/about-staff/kendallwaters.jpg
-    title: Marketing & Events Coordinator
+    title: Community Partnerships Manager
     twitter: https://twitter.com/wendallkaters
 support:
   members:

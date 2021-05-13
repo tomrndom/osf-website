@@ -43,8 +43,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Frontmatter {
       category: [Category]
       author: String
-      date: Date @dateformat(formatString: "DD/MM/YYYY")
-      companyList: [CompanyList]
+      date: Date @dateformat
     }
     type Category {
       label: String

@@ -124,7 +124,8 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Author", name: "author", widget: "relation", collection: "authors", searchFields: ["authorName"], valueField: "authorName" }
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Category", name: "category", widget: ncw-file-relation, collection: configurations, file: blogConfig, target_field: categories, id_field: id, display_fields: text }      
+      - {label: "Category", name: "category", widget: ncw-file-relation, collection: configurations, file: blogConfig, target_field: categories, id_field: id, display_fields: text, multiple: true }
+      - {label: "Hide Post", name: "hidePost", widget: boolean, required: false, default: false}
       - {label: "SEO", name: "seo", widget: object, fields: [
           {label: "Title", name: "title", widget: string},
           {label: "Description", name: "description", widget: string},
@@ -146,8 +147,18 @@ collections:
               {label: "Site", name: "site", widget: "string"},
               {label: "Date", name: "date", widget: "datetime"},
               {label: "Link", name: "link", widget: string},
-              {label: "Featured", name: "featured", widget: boolean, required: false},
+              {label: "Featured", name: "featured", widget: boolean, required: false, default: false},
+              {label: "Hide Article", name: "hideArticle", widget: boolean, required: false, default: false},
               {label: "Image", name: "image", widget: image, required: false},
+          ]}
+          - {label: "SEO", name: "seo", widget: "object", fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Title Template", name: "titleTemplate", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+              {label: "Theme Color", name: "themeColor", widget: string},
           ]}
   - name: "indexPages"
     label: "Index Page"

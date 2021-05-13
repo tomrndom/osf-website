@@ -8,7 +8,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: Join The Open Infrastructure Foundation
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/join
+  url: https://openinfra.dev/join/
 title: Join The Open Infrastructure Foundation
 subTitle: Help us build open source communities that write software to run in production
 ---
@@ -75,7 +75,7 @@ Here's how you can participate as an Open Infrastructure Community Member:
 
 <hr/>
 
-### Join as a Platinum, Gold or Silver Member
+# Join as a Platinum, Gold or Silver Member
 
 The Open Infrastructure Foundation was announced as the successor to the OpenStack Foundation on October 19, 2020, and will be fully operational on Jan 1, 2021. [Over 60 organizations have already signed on as OpenInfra Foundation members](/companies/), and there’s still time for your company to join as Founding Member of OpenInfra Foundation.
 
@@ -83,7 +83,7 @@ The Open Infrastructure Foundation was announced as the successor to the OpenSta
  
 If you are interested in joining as a founding corporate member for the OpenInfra Foundation, please [Contact us](mailto:ecosystem@openinfra.dev). 
 
-#### Platinum Membership
+## Platinum Membership
 
 The Open Infrastructure Foundation has [Platinum Members](/companies/) as specified in the bylaws, who play a critical role in providing support that makes the community’s work possible. Organizations are highlighted as the community members who are collaborating with the global Open Infrastructure community to advance open source.  
 
@@ -91,9 +91,10 @@ Four new organizations joined the OpenInfra Foundation in October, 2020 and othe
 
 <p style="font-size:-3em;">* All Platinum Members are subject to board approval.</p>
 
-[Contact us](mailto:ecosystem@openinfra.dev) **to become a Platinum Member**.  
 
-#### Gold Membership
+<a href="mailto:ecosystem@openinfra.dev?subject=I'm interested in becoming a Platinum Member of the OpenInfra Foundation" class="button button-red">BECOME A PLATINUM MEMBER</a><br/><br/> 
+
+## Gold Membership
 
 Open Infrastructure Foundation [Gold Members](/companies/) play an important role in helping the Foundation achieve its mission of building open source communities that write software to run in production. Organizations can apply now to become founding Gold Members of the new Open Infrastructure Foundation.
 
@@ -101,15 +102,16 @@ At the start of their term, new Gold Members will immediately be represented by 
 
 Established Company: $150k/year | Start Up: $50k/year
 
-[Contact us](mailto:ecosystem@openinfra.dev) **to become a Gold Member**.  
+<a href="mailto:ecosystem@openinfra.dev?subject=I'm interested in becoming a Gold Member of the OpenInfra Foundation" class="button button-red">BECOME A GOLD MEMBER</a><br/><br/>
 
-#### Silver Membership
+## Silver Membership
 
 If your organization relies on Open Infrastructure to operate, it’s critical to get your voice heard with the global community. Becoming a founding Silver Member of the Open Infrastructure Foundation is the easiest way to get involved, show your commitment to advancing open source, and collaborate with other organizations who are committed to the mission of building open source communities that write software to run in production. 
 
 Established Company: $15k/year | Start Up: $5k/year
 
-[Contact us](mailto:ecosystem@openinfra.dev) **to become a Silver Member**.
+
+<a href="mailto:ecosystem@openinfra.dev?subject=I'm interested in becoming a Silver Member of the OpenInfra Foundation" class="button button-red">BECOME A SILVER MEMBER</a><br/>
 
 
 ### OpenInfra Foundation Membership Benefits

@@ -1,57 +1,33 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { withPrefix, graphql } from 'gatsby'
-import { Helmet } from "react-helmet"
-import { kebabCase } from 'lodash'
+import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import BecomeSponsor from '../components/BecomeSponsor'
+import SEO from '../components/SEO'
 
-import metadata from '../content/site-metadata.json'
-import {connect} from "react-redux";
+import { connect } from "react-redux";
 
 export const CompaniesPageTemplate = ({
   isLoggedUser,
-  seo,
-  header,  
-  companies,  
-  content, 
+  header,
+  companies,
+  content,
   contentComponent
 }) => {
-  const PageContent = contentComponent || Content  
+  const PageContent = contentComponent || Content
 
   return (
     <div>
-      {seo && 
-      <Helmet title={seo.title ? seo.title : metadata.siteMetadata.title} titleTemplate={metadata.siteMetadata.titleTemplate}>        
-        {seo.description && <meta name="description" content={seo.description} />}
-        {seo.image && <meta name="image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}        
-        {seo.url && <meta property="og:url" content={seo.url} />}
-        {seo.title && <meta property="og:title" content={seo.title} />}
-        {seo.description && (
-          <meta property="og:description" content={seo.description} />
-        )}
-        {seo.image && <meta property="og:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}
-        <meta name="twitter:card" content="summary_large_image" />
-        {seo.twitterUsername && (
-          <meta name="twitter:creator" content={seo.twitterUsername} />
-        )}        
-        {seo.title && <meta name="twitter:title" content={seo.title} />}
-        {seo.description && (
-          <meta name="twitter:description" content={seo.description} />
-        )}
-        {seo.image && <meta name="twitter:image" content={`${withPrefix('/')}${seo.image.publicURL}`} />}          
-      </Helmet>
-      }
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser}/>
-        <Header title={header.title} subTitle={header.subTitle} link={header.link}/>
-      </div>    
-      
+        <Navbar isLoggedUser={isLoggedUser} />
+        <Header title={header.title} subTitle={header.subTitle} link={header.link} />
+      </div>
+
       <main className="main">
         <div className="content">
           <div className="container">
@@ -61,31 +37,28 @@ export const CompaniesPageTemplate = ({
                   <div className="companies-s1-container" key={index}>
                     <div className="companies-s1-columns">
                       <div className="companies-s1-column1">
-                        <div className="fix-h3">{tier.title}</div> 
-                        <div className="fix-h5" dangerouslySetInnerHTML={{__html: tier.text}}>
+                        <div className="fix-h3">{tier.title}</div>
+                        <div className="fix-h5" dangerouslySetInnerHTML={{ __html: tier.text }}>
                         </div>
                       </div>
                       <div className="companies-s1-1-container">
-                        {tier.companyList.map((company, index) => {
-                          return (
-                            company.profileLink ? 
-                              <a href={`/companies/profile/${kebabCase(company.profileLink)}`}>
-                                <img src={
-                                  (company.image.extension === 'svg' || company.image.extension === 'gif') && !company.image.childImageSharp ?
-                                  company.image.publicURL 
-                                  :
-                                  !! company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
-                                } alt={company.alt} width={company.width ? company.width : null} key={index} /> 
-                              </a>
-                              :
-                              <img src={
+                        <div className={`company-level-${tier.level}`}>
+                          {tier.companyList.map((company, index) => {
+                            return (
+                              <img
+                                src={
                                 (company.image.extension === 'svg' || company.image.extension === 'gif') && !company.image.childImageSharp ?
-                                company.image.publicURL 
-                                :
-                                !! company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
-                              } alt={company.alt} width={company.width ? company.width : null} key={index} />
-                          )
-                        })}
+                                  company.image.publicURL
+                                  :
+                                  !!company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
+                                }
+                                alt={company.alt}
+                                width={company.width ? company.width : null}
+                                key={index}
+                              />
+                            )
+                          })}
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -101,23 +74,22 @@ export const CompaniesPageTemplate = ({
   )
 }
 
-CompaniesPageTemplate.propTypes = {  
-  seo: PropTypes.object,
+CompaniesPageTemplate.propTypes = {
   header: PropTypes.object,
   companies: PropTypes.array,
 }
 
-const CompaniesPage = ({isLoggedUser, data }) => {
+const CompaniesPage = ({ isLoggedUser, data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
+      <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
       <CompaniesPageTemplate
         isLoggedUser={isLoggedUser}
-        contentComponent={HTMLContent}
-        seo={post.frontmatter.seo}
-        header={post.frontmatter.header}        
-        companies={post.frontmatter.companies}        
+        contentComponent={HTMLContent}        
+        header={post.frontmatter.header}
+        companies={post.frontmatter.companies}
       />
     </Layout>
   )
@@ -161,6 +133,7 @@ export const companiesPageQuery = graphql`
         companies {
           title
           text
+          level
           companyList {  
             image {
               childImageSharp {

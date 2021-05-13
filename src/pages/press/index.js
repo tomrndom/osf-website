@@ -7,7 +7,6 @@ import TopBar from '../../components/TopBar';
 import Navbar from '../../components/Navbar';
 import NewsRoll from '../../components/NewsRoll'
 
-import blogConfig from '../../content/blog-config.json'
 import pressContent from '../../content/press-media.json' 
 import FeaturedRoll from '../../components/FeaturedRoll'
 
@@ -26,19 +25,19 @@ export default class PressIndexPage extends React.Component {
     return (
       <Layout>
         <div>
-          <Helmet title={blogConfig.seo.title} titleTemplate={blogConfig.seo.titleTemplate}>
-            <meta name="description" content={blogConfig.seo.description} />
-            <meta name="image" content={`${withPrefix('/')}${blogConfig.seo.image}`} />
-            <meta property="og:url" content={blogConfig.seo.url} />
-            <meta property="og:title" content={blogConfig.seo.title} />
-            <meta property="og:description" content={blogConfig.seo.description} />
-            <meta property="og:image" content={`${withPrefix('/')}${blogConfig.seo.image}`} />
-            <meta name="theme-color" content={blogConfig.seo.themeColor} />
+          <Helmet title={pressContent.seo.title} titleTemplate={pressContent.seo.titleTemplate}>
+            <meta name="description" content={pressContent.seo.description} />
+            <meta name="image" content={`${withPrefix('/')}${pressContent.seo.image}`} />
+            <meta property="og:url" content={pressContent.seo.url} />
+            <meta property="og:title" content={pressContent.seo.title} />
+            <meta property="og:description" content={pressContent.seo.description} />
+            <meta property="og:image" content={`${withPrefix('/')}${pressContent.seo.image}`} />
+            <meta name="theme-color" content={pressContent.seo.themeColor} />
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:creator" content={blogConfig.seo.twitterUsername} />
-            <meta name="twitter:title" content={blogConfig.seo.title} />
-            <meta name="twitter:description" content={blogConfig.seo.description} />
-            <meta name="twitter:image" content={`${withPrefix('/')}${blogConfig.seo.image}`} />
+            <meta name="twitter:creator" content={pressContent.seo.twitterUsername} />
+            <meta name="twitter:title" content={pressContent.seo.title} />
+            <meta name="twitter:description" content={pressContent.seo.description} />
+            <meta name="twitter:image" content={`${withPrefix('/')}${pressContent.seo.image}`} />
           </Helmet>
           <div className="wrapper project-background">
             <TopBar />
