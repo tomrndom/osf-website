@@ -48,6 +48,7 @@
 @import "./modules/press";
 @import "./modules/aboutstaff";
 @import "./modules/companies";
+@import "./modules/openinfralive";
 /*
 * {
   padding: 0;
@@ -72,7 +73,7 @@ section {
   height: 42px;
 }
 
-.validation_error{
+.validation_error {
   color: red !important;
   font-size: smaller !important;
   margin: 0 !important;
@@ -81,10 +82,10 @@ section {
 .pagination-list {
   li {
     &::before {
-      content: '';
+      content: "";
     }
     &::marker {
-      content: '';
+      content: "";
     }
   }
 }
