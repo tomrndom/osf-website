@@ -93,6 +93,60 @@ export const OpenInfraLiveTemplate = ({
               </section>
               <section className="more-recent-wrapper">
                 <h2 className="section-title">While you’re waiting, here are a few of the most recent episodes</h2>
+                <div className="more-recent-episodes">
+                  <div className="more-recent-single-left">
+                    <div className="date">Thursday, May 13, 2021</div>
+                      <div className="video">
+                        <div class="videoWrapper">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/Hs8bp8NSYAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div className="details">
+                        <h2>Open Edge Infrastructure Conundrums and Solution</h2>
+                        <p className="description">
+                          As edge computing use cases demand the cloud to break out of large data centers, they also put new challenges on infrastructure and something longer to see if ellipsis works
+                        </p>
+                        <div className="platforms">
+                          <a className="social-links">
+                            <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
+                            Watch on YouTube
+                          </a>
+                          <a className="social-links">
+                            <img src="/img/socials/calendar.svg" className="social-icon" alt="Read the recap on Superuser"/>
+                            Superuser recap
+                          </a>
+                        </div>
+                    </div>
+                  </div>
+                  <div className="more-recent-single-right">
+                    <div className="date">Thursday, May 13, 2021</div>
+                    <div className="video">
+                      <div class="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hs8bp8NSYAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div className="details">
+                      <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                      <p className="description">
+                        How different would your daily life be without constant, reliable high speed access to the Internet? While network access and 4G speeds and something longer to see if ellipsis works
+                      </p>
+                      <div className="platforms">
+                        <a className="social-links">
+                          <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
+                          Watch on YouTube
+                        </a>
+                        <a className="social-links">
+                          <img src="/img/socials/calendar.svg" className="social-icon" alt="Read the recap on Superuser"/>
+                          Superuser recap
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" className="schedule-link">
+                  See all previous episodes
+                   <img src="/img/icons/arrow-down.svg" className="link-icon" alt="See all previous episodes"/>
+                </a>
               </section>
               <PageContent content={content} />
             </div>
