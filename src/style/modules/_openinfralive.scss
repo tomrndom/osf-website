@@ -35,20 +35,15 @@
       margin-left: 0;
     }
     .platforms {
-      display: flex;
-      flex-direction: row;
       align-items: baseline;
       margin-top: 2rem;
       .social-links {
-        flex-basis: auto;
-        flex: 1;
         white-space: nowrap;
         margin-right: 2rem;
         text-align: left;
         font-size: 0.9em;
       }
       @media (max-width: 768px) {
-        flex-direction: column;
         .social-links {
           margin-right: 0;
           margin-bottom: 1rem;
@@ -229,7 +224,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 10%;
-  row-gap: 3rem;
+  row-gap: 5rem;
   margin-top: 3rem;
   .schedule-single {
     color: $primary;
@@ -238,7 +233,8 @@
       flex: 0 100%;
     }
     h2 {
-      font-weight: 400;
+      font-weight: 700;
+      font-family: "Jura", "Helvetica", sans-serif;
     }
     .date {
       color: $gray;
@@ -315,5 +311,63 @@
     left: 0;
     right: 0;
     width: 100%;
+  }
+}
+.all-episode-list {
+  margin-top: 4rem;
+  .all-episode-single {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    margin-bottom: 6rem;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+      row-gap: 2rem;
+    }
+    .video {
+      flex: 70%;
+      @media (max-width: 768px) {
+        flex: 100%;
+      }
+    }
+    .details {
+      h2 {
+        font-family: "Jura", "Helvetica", sans-serif;
+        font-weight: 700;
+        margin-top: 0;
+      }
+      .date {
+        color: $gray;
+        text-transform: uppercase;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-bottom: 1px solid $gray;
+      }
+      .guests {
+        color: $primary;
+        margin-bottom: 2rem;
+        span {
+          font-weight: 700;
+          display: block;
+        }
+      }
+      .social-links {
+        font-size: 1em;
+        margin-right: 1.5rem;
+        .social-icon {
+          max-width: 2rem;
+          margin-right: 0.4rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .social-links {
+    display: block;
+    margin-bottom: 10px;
   }
 }

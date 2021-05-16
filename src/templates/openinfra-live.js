@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
+import Hero from '../components/Hero'
 
 import { connect } from "react-redux";
 
@@ -271,8 +272,163 @@ export const OpenInfraLiveTemplate = ({
           <section className="live-section">
             <div className="container">
               <h2 className="section-title" id="all-episodes">Watch previous episodes</h2>
+              <div className="all-episode-list">
+                {/* Start single episode */}
+                <div className="all-episode-single">
+                   <div className="video">
+                      <div class="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hs8bp8NSYAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div className="details">
+                      <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
+                      <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                      <p className="fix-h5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                      </p>
+                      <p className="guests">
+                        <span>Featuring</span>
+                        Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                      </p>
+                      <div className="platforms">
+                        <a className="social-links">
+                          <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
+                          Watch on YouTube
+                        </a>
+                        <a className="social-links">
+                          <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
+                          Read the Superuser recap
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                {/* End single episode */}
+                {/* Start single episode */}
+                <div className="all-episode-single">
+                   <div className="video">
+                      <div class="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hs8bp8NSYAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div className="details">
+                      <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
+                      <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                      <p className="fix-h5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                      </p>
+                      <p className="guests">
+                        <span>Featuring</span>
+                        Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                      </p>
+                      <div className="platforms">
+                        <a className="social-links">
+                          <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
+                          Watch on YouTube
+                        </a>
+                        <a className="social-links">
+                          <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
+                          Read the Superuser recap
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                {/* End single episode */}
+                {/* Start single episode */}
+                <div className="all-episode-single">
+                   <div className="video">
+                      <div class="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hs8bp8NSYAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div className="details">
+                      <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
+                      <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                      <p className="fix-h5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                      </p>
+                      <p className="guests">
+                        <span>Featuring</span>
+                        Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                      </p>
+                      <div className="platforms">
+                        <a className="social-links">
+                          <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
+                          Watch on YouTube
+                        </a>
+                        <a className="social-links">
+                          <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
+                          Read the Superuser recap
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                {/* End single episode */}
+                {/* Start single episode */}
+                <div className="all-episode-single">
+                   <div className="video">
+                      <div class="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hs8bp8NSYAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div className="details">
+                      <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
+                      <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                      <p className="fix-h5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                      </p>
+                      <p className="guests">
+                        <span>Featuring</span>
+                        Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                      </p>
+                      <div className="platforms">
+                        <a className="social-links">
+                          <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
+                          Watch on YouTube
+                        </a>
+                        <a className="social-links">
+                          <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
+                          Read the Superuser recap
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                {/* End single episode */}
+                {/* Start single episode */}
+                <div className="all-episode-single">
+                   <div className="video">
+                      <div class="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hs8bp8NSYAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div className="details">
+                      <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
+                      <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                      <p className="fix-h5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                      </p>
+                      <p className="guests">
+                        <span>Featuring</span>
+                        Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                      </p>
+                      <div className="platforms">
+                        <a className="social-links">
+                          <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
+                          Watch on YouTube
+                        </a>
+                        <a className="social-links">
+                          <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
+                          Read the Superuser recap
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                {/* End single episode */}
+              </div>
             </div>
           </section>
+          {footer &&
+            <Hero content={footer} />
+          }
         </div>
       </main>
     </div>
@@ -296,6 +452,7 @@ const OpenInfraLivePage = ({ OpenInfraLivePage, data }) => {
         header={post.frontmatter.header}
         members={post.frontmatter.members}
         content={post.html}
+        footer={post.frontmatter.footer}
       />
     </Layout>
   )
@@ -349,6 +506,13 @@ export const OpenInfraLivePageQuery = graphql`
           openStack
           twitter
           linkedin
+        }
+        footer {
+          title
+          subTitle
+          button
+          buttonText
+          display
         }
       }
     }
