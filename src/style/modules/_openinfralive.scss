@@ -237,6 +237,9 @@
     @media (max-width: 768px) {
       flex: 0 100%;
     }
+    h2 {
+      font-weight: 400;
+    }
     .date {
       color: $gray;
       text-transform: uppercase;
@@ -282,6 +285,12 @@
     color: $white;
     font-family: "Jura", "Helvetica", sans-serif;
     font-weight: 700;
+    vertical-align: middle;
+    img {
+      max-height: 25px;
+      margin-right: 0.75rem;
+      margin-top: -5px;
+    }
   }
   a {
     border: 1px solid $white;

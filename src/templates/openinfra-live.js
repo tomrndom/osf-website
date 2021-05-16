@@ -112,7 +112,7 @@ export const OpenInfraLiveTemplate = ({
                             Watch on YouTube
                           </a>
                           <a className="social-links">
-                            <img src="/img/socials/calendar.svg" className="social-icon" alt="Read the recap on Superuser"/>
+                            <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
                             Superuser recap
                           </a>
                         </div>
@@ -136,14 +136,14 @@ export const OpenInfraLiveTemplate = ({
                           Watch on YouTube
                         </a>
                         <a className="social-links">
-                          <img src="/img/socials/calendar.svg" className="social-icon" alt="Read the recap on Superuser"/>
+                          <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
                           Superuser recap
                         </a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <a href="#" className="schedule-link">
+                <a href="#all-episodes" className="schedule-link">
                   See all previous episodes
                    <img src="/img/icons/arrow-down.svg" className="link-icon" alt="See all previous episodes"/>
                 </a>
@@ -253,7 +253,10 @@ export const OpenInfraLiveTemplate = ({
               </div>
               <div className="ideas-banner">
                 <div>
-                  <h2>Have an idea for an episode of OpenInfra Live?</h2>
+                  <h2>
+                    <img src="/img/icons/bulb.svg" alt="Share ideas for OpenInfra Live"/>
+                    Have an idea for an episode of OpenInfra Live?
+                  </h2>
                   <p>We love hearing from the OpenInfra community and want to use OpenInfra Live as a way to do that. If you have an idea for a future epside, we’d love to hear it. If selected, we’ll reach out to you to discuss details. We look forward to hearing your ideas!</p>
                 </div>
                 <div>
@@ -263,6 +266,11 @@ export const OpenInfraLiveTemplate = ({
                 </div>
                 <img src="/img/multi-color border.svg" className="multi-color-border" alt="" />
               </div>
+            </div>
+          </section>
+          <section className="live-section">
+            <div className="container">
+              <h2 className="section-title" id="all-episodes">Watch previous episodes</h2>
             </div>
           </section>
         </div>
