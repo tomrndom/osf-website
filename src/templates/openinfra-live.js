@@ -151,6 +151,120 @@ export const OpenInfraLiveTemplate = ({
               <PageContent content={content} />
             </div>
           </section>
+          <section className="schedule-wrapper">
+            <div className="container">
+              <h2 className="section-title">More upcoming episodes</h2>
+              <div class="schedule-list">
+                <div className="schedule-single">
+                  <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
+                  <div className="details">
+                    <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                    <p className="fix-h5">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                    </p>
+                    <p className="guests">
+                      <span>Featuring</span>
+                      Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                    </p>
+                    <div className="platforms">
+                      <a className="social-links">
+                        <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
+                        Add to calendar
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="schedule-single">
+                  <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
+                  <div className="details">
+                    <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                    <p className="fix-h5">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                    </p>
+                    <p className="guests">
+                      <span>Featuring</span>
+                      Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                    </p>
+                    <div className="platforms">
+                      <a className="social-links">
+                        <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
+                        Add to calendar
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="schedule-single">
+                  <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
+                  <div className="details">
+                    <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                    <p className="fix-h5">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                    </p>
+                    <p className="guests">
+                      <span>Featuring</span>
+                      Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                    </p>
+                    <div className="platforms">
+                      <a className="social-links">
+                        <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
+                        Add to calendar
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="schedule-single">
+                  <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
+                  <div className="details">
+                    <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                    <p className="fix-h5">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                    </p>
+                    <p className="guests">
+                      <span>Featuring</span>
+                      Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                    </p>
+                    <div className="platforms">
+                      <a className="social-links">
+                        <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
+                        Add to calendar
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="schedule-single">
+                  <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
+                  <div className="details">
+                    <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                    <p className="fix-h5">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                    </p>
+                    <p className="guests">
+                      <span>Featuring</span>
+                      Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                    </p>
+                    <div className="platforms">
+                      <a className="social-links">
+                        <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
+                        Add to calendar
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="ideas-banner">
+                <div>
+                  <h2>Have an idea for an episode of OpenInfra Live?</h2>
+                  <p>We love hearing from the OpenInfra community and want to use OpenInfra Live as a way to do that. If you have an idea for a future epside, we’d love to hear it. If selected, we’ll reach out to you to discuss details. We look forward to hearing your ideas!</p>
+                </div>
+                <div>
+                  <a href="#">
+                    Share now
+                  </a>
+                </div>
+                <img src="/img/multi-color border.svg" className="multi-color-border" alt="" />
+              </div>
+            </div>
+          </section>
         </div>
       </main>
     </div>

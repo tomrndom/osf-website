@@ -220,3 +220,91 @@
     margin-left: 0.4rem;
   }
 }
+.schedule-wrapper {
+  background: $white;
+  padding: 6rem 0;
+}
+.schedule-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 10%;
+  row-gap: 3rem;
+  margin-top: 3rem;
+  .schedule-single {
+    color: $primary;
+    flex: 0 40%;
+    @media (max-width: 768px) {
+      flex: 0 100%;
+    }
+    .date {
+      color: $gray;
+      text-transform: uppercase;
+      padding-bottom: 0.5rem;
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid $gray;
+    }
+    .details {
+      .social-links {
+        font-size: 0.8em;
+        margin-right: 0.75rem;
+        .social-icon {
+          max-width: 1.5rem;
+          margin-right: 0.4rem;
+        }
+      }
+      .guests {
+        color: $primary;
+        margin-bottom: 1rem;
+        span {
+          font-weight: 700;
+          display: block;
+        }
+      }
+    }
+  }
+}
+.ideas-banner {
+  display: flex;
+  position: relative;
+  background-color: $dark;
+  color: $white;
+  margin-top: 4rem;
+  padding: 2rem 4rem 3rem;
+  border-radius: 4px;
+  align-items: center;
+  column-gap: 20px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
+  h2 {
+    color: $white;
+    font-family: "Jura", "Helvetica", sans-serif;
+    font-weight: 700;
+  }
+  a {
+    border: 1px solid $white;
+    color: $white;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    text-align: center;
+    white-space: nowrap;
+    display: block;
+    &:hover,
+    &:focus {
+      background: $white;
+      color: $dark;
+    }
+    @media (max-width: 768px) {
+      margin-top: 2rem;
+    }
+  }
+  .multi-color-border {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}
