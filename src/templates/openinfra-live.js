@@ -210,6 +210,7 @@ export const OpenInfraLiveTemplate = ({
                       Need to complete
                     </p>
                     <div className="platforms">
+                      {/* Use https://ical.marudot.com to create calendar invites */}
                       {/* <a className="social-links">
                         <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
                         Add to calendar
