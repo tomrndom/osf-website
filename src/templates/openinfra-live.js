@@ -37,15 +37,15 @@ export const OpenInfraLiveTemplate = ({
                 <p className="fix-h5">Introducing: OpenInfra Live—a weekly hour-long series sharing production case studies, open source demos, industry conversations, and the latest updates from the global open infrastructure community!</p>
                 <p className="fix-h5">Catch every episode on several streaming platforms, airing <strong>Thursdays at 14:00 UTC (9am CT)</strong></p>
                 <div className="platforms">
-                  <a className="social-links">
+                  <a className="social-links" href="//youtube.com/c/OpenStackFoundation?sub_confirmation=1">
                     <img src="/img/socials/youtube.svg" className="social-icon youtube" alt="OpenInfra Live on YouTube"/>
                     Subscribe on YouTube
                   </a>
-                  <a className="social-links">
+                  <a className="social-links" href="//www.linkedin.com/company/open-infrastructure-foundation/">
                     <img src="/img/socials/linkedin.svg" className="social-icon" alt="OpenInfra Live on LinkedIn"/>
                     Follow on LinkedIn
                   </a>
-                  <a className="social-links">
+                  <a className="social-links" href="//www.facebook.com/openinfradev">
                     <img src="/img/socials/facebook.svg" className="social-icon" alt="OpenInfra Live on Facebook"/>
                     Follow on Facebook
                   </a>
@@ -60,32 +60,32 @@ export const OpenInfraLiveTemplate = ({
               <section className="up-next-wrapper">
                 <div className="video">
                   <div class="videoWrapper">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Hs8bp8NSYAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yf5iFiCg_Tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div className="details">
                   <h2>Upgrades in Large Scale OpenStack infrastructure</h2>
                   <p className="fix-h5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet. Nunc eget rhoncus elit. Praesent et arcu dictum, condimentum lectus vitae, maximus nisl.
+                    Keeping up with new #OpenStack releases can be a challenge. At a very large scale, it can be daunting. In this episode of OpenInfra.Live, operators from some of the largest OpenStack deployments at Blizzard Entertainment, OVH, Bloomberg, Workday, Vexxhost or CERN will explain their upgrades methodology, share their experience, and answer the questions of our live audience. 
                   </p>
                   <p className="guests">
                     <span>Featuring</span>
                     Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
                   </p>
                   <div className="platforms">
-                    <a className="social-links">
+                    <a className="social-links" href="/invites/openinfralive-may20.ics">
                       <img src="/img/socials/calendar.svg" className="social-icon" alt="Add OpenInfra Live to your calendar"/>
                       Add to Calendar
                     </a>
-                    <a className="social-links">
+                    <a className="social-links" href="https://www.youtube.com/watch?v=yf5iFiCg_Tw">
                       <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                       Watch on YouTube
                     </a>
-                    <a className="social-links">
+                    <a className="social-links" href="https://www.linkedin.com/posts/open-infrastructure-foundation_openstack-openinfralive-activity-6798703708390719488-WarV/">
                       <img src="/img/socials/linkedin.svg" className="social-icon" alt="OpenInfra Live on LinkedIn"/>
                       Watch on LinkedIn
                     </a>
-                    <a className="social-links">
+                    <a className="social-links" href="https://www.facebook.com/openinfradev">
                       <img src="/img/socials/facebook.svg" className="social-icon" alt="OpenInfra Live on Facebook"/>
                       Watch on Facebook
                     </a>
@@ -105,14 +105,14 @@ export const OpenInfraLiveTemplate = ({
                       <div className="details">
                         <h2>Open Edge Infrastructure Conundrums and Solution</h2>
                         <p className="description">
-                          As edge computing use cases demand the cloud to break out of large data centers, they also put new challenges on infrastructure and something longer to see if ellipsis works
+                          As edge computing use cases demand the cloud to break out of large data centers, they also put new challenges on infrastructure as the scale and geographical distribution is going through a yet unprecedented growth.
                         </p>
                         <div className="platforms">
-                          <a className="social-links">
+                          <a className="social-links" href="//youtu.be/Hs8bp8NSYAM">
                             <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                             Watch on YouTube
                           </a>
-                          <a className="social-links">
+                          <a className="social-links" href="https://superuser.openstack.org/articles/open-edge-infrastructure-conundrums-and-solutions-openinfra-live/">
                             <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
                             Superuser recap
                           </a>
@@ -120,23 +120,23 @@ export const OpenInfraLiveTemplate = ({
                     </div>
                   </div>
                   <div className="more-recent-single-right">
-                    <div className="date">Thursday, May 13, 2021</div>
+                    <div className="date">Thursday, May 6, 2021</div>
                     <div className="video">
                       <div class="videoWrapper">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hs8bp8NSYAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-KeD5RFLNUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
                     <div className="details">
                       <h2>The Future of the Network Depends on Open Infrastructure</h2>
                       <p className="description">
-                        How different would your daily life be without constant, reliable high speed access to the Internet? While network access and 4G speeds and something longer to see if ellipsis works
+                        How different would your daily life be without constant, reliable high speed access to the Internet? While network access and 4G speeds have continued to improve, the speed of those networks is expected to decline for 3.3 billion people.
                       </p>
                       <div className="platforms">
-                        <a className="social-links">
+                        <a className="social-links" href="//youtu.be/-KeD5RFLNUI">
                           <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                           Watch on YouTube
                         </a>
-                        <a className="social-links">
+                        <a className="social-links" href="https://superuser.openstack.org/articles/the-future-of-the-network-depends-on-open-infrastructure/">
                           <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
                           Superuser recap
                         </a>
@@ -149,108 +149,75 @@ export const OpenInfraLiveTemplate = ({
                    <img src="/img/icons/arrow-down.svg" className="link-icon" alt="See all previous episodes"/>
                 </a>
               </section>
-              <PageContent content={content} />
             </div>
           </section>
           <section className="schedule-wrapper">
             <div className="container">
               <h2 className="section-title">More upcoming episodes</h2>
               <div class="schedule-list">
+                {/* Start single episode */}
                 <div className="schedule-single">
                   <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
                   <div className="details">
-                    <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                    <h2>Upgrades in Large Scale OpenStack infrastructure</h2>
                     <p className="fix-h5">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                      Keeping up with new #OpenStack releases can be a challenge. At a very large scale, it can be daunting. In this episode of OpenInfra.Live, operators from some of the largest OpenStack deployments at Blizzard Entertainment, OVH, Bloomberg, Workday, Vexxhost or CERN will explain their upgrades methodology, share their experience, and answer the questions of our live audience.
                     </p>
                     <p className="guests">
                       <span>Featuring</span>
                       Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
                     </p>
                     <div className="platforms">
-                      <a className="social-links">
+                      <a className="social-links" href="/invites/openinfralive-may20.ics">
                         <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
                         Add to calendar
                       </a>
                     </div>
                   </div>
                 </div>
+                {/* End single episode */}
+                {/* Start single episode */}
                 <div className="schedule-single">
-                  <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
+                  <div className="date">Thursday, May 27, 2021 @ 14:00 UTC (9AM CT)</div>
                   <div className="details">
-                    <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                    <h2>Zuul - Automotive in Production</h2>
+                    <p className="fix-h5">
+                      Need to add description here.
+                    </p>
+                    <p className="guests">
+                      <span>Featuring</span>
+                      Need to complete
+                    </p>
+                    <div className="platforms">
+                      <a className="social-links" href="/invites/openinfralive-may27.ics">
+                        <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
+                        Add to calendar
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                {/* End single episode */}
+                {/* Start single episode */}
+                <div className="schedule-single">
+                  <div className="date">Thursday, June 3, 2021 @ 14:00 UTC (9AM CT)</div>
+                  <div className="details">
+                    <h2>Another Future Episode</h2>
                     <p className="fix-h5">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
                     </p>
                     <p className="guests">
                       <span>Featuring</span>
-                      Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                      Need to complete
                     </p>
                     <div className="platforms">
-                      <a className="social-links">
+                      {/* <a className="social-links">
                         <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
                         Add to calendar
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
-                <div className="schedule-single">
-                  <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
-                  <div className="details">
-                    <h2>The Future of the Network Depends on Open Infrastructure</h2>
-                    <p className="fix-h5">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
-                    </p>
-                    <p className="guests">
-                      <span>Featuring</span>
-                      Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
-                    </p>
-                    <div className="platforms">
-                      <a className="social-links">
-                        <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
-                        Add to calendar
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="schedule-single">
-                  <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
-                  <div className="details">
-                    <h2>The Future of the Network Depends on Open Infrastructure</h2>
-                    <p className="fix-h5">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
-                    </p>
-                    <p className="guests">
-                      <span>Featuring</span>
-                      Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
-                    </p>
-                    <div className="platforms">
-                      <a className="social-links">
-                        <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
-                        Add to calendar
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="schedule-single">
-                  <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
-                  <div className="details">
-                    <h2>The Future of the Network Depends on Open Infrastructure</h2>
-                    <p className="fix-h5">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
-                    </p>
-                    <p className="guests">
-                      <span>Featuring</span>
-                      Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
-                    </p>
-                    <div className="platforms">
-                      <a className="social-links">
-                        <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
-                        Add to calendar
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                {/* End single episode */}
               </div>
               <div className="ideas-banner">
                 <div>
@@ -261,7 +228,7 @@ export const OpenInfraLiveTemplate = ({
                   <p>We love hearing from the OpenInfra community and want to use OpenInfra Live as a way to do that. If you have an idea for a future epside, we’d love to hear it. If selected, we’ll reach out to you to discuss details. We look forward to hearing your ideas!</p>
                 </div>
                 <div>
-                  <a href="#">
+                  <a href="//openinfrafoundation.formstack.com/forms/openinfralive">
                     Share now
                   </a>
                 </div>
@@ -281,21 +248,21 @@ export const OpenInfraLiveTemplate = ({
                       </div>
                     </div>
                     <div className="details">
-                      <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
-                      <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                      <div className="date">Thursday, May 13, 2021</div>
+                      <h2>Open Edge Infrastructure Conundrums and Solution</h2>
                       <p className="fix-h5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                        As edge computing use cases demand the cloud to break out of large data centers, they also put new challenges on infrastructure as the scale and geographical distribution is going through a yet unprecedented growth.
                       </p>
                       <p className="guests">
                         <span>Featuring</span>
-                        Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                        Ildiko Vancsa, Gergely Csatari, Greg Waines, Matt Peters, and Mingyuan Qi
                       </p>
                       <div className="platforms">
-                        <a className="social-links">
+                        <a className="social-links" href="//youtu.be/Hs8bp8NSYAM">
                           <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                           Watch on YouTube
                         </a>
-                        <a className="social-links">
+                        <a className="social-links" href="https://superuser.openstack.org/articles/open-edge-infrastructure-conundrums-and-solutions-openinfra-live/">
                           <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
                           Read the Superuser recap
                         </a>
@@ -307,25 +274,28 @@ export const OpenInfraLiveTemplate = ({
                 <div className="all-episode-single">
                    <div className="video">
                       <div class="videoWrapper">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hs8bp8NSYAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-KeD5RFLNUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
                     <div className="details">
-                      <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
+                      <div className="date">Thursday, May 6, 2021</div>
                       <h2>The Future of the Network Depends on Open Infrastructure</h2>
                       <p className="fix-h5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                       How different would your daily life be without constant, reliable high speed access to the Internet? While network access and 4G speeds have continued to improve, the speed of those networks is expected to decline for 3.3 billion people. Bridging this digital divide and improving global connectivity are critical to human progress. What are the possibilities, where will commercial success be found and what needs to change to improve connectivity around the world?
+                      </p>
+                      <p className="fix-h5">
+                        In this episode of OpenInfra Live, Martin Casado, Bruce Davie and Amar Padmanabhan join Jonathan Bryce and Mark Collier to discuss the opportunities around connecting the globe, including leveraging open source technologies like Magma, software-based RAN and OpenStack.
                       </p>
                       <p className="guests">
                         <span>Featuring</span>
-                        Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                        Martin Casado, Bruce Davie, Amar Padmanabhan, Jonathan Bryce, and Mark Collier
                       </p>
                       <div className="platforms">
-                        <a className="social-links">
+                        <a className="social-links" href="//youtu.be/-KeD5RFLNUI">
                           <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                           Watch on YouTube
                         </a>
-                        <a className="social-links">
+                        <a className="social-links" href="https://superuser.openstack.org/articles/the-future-of-the-network-depends-on-open-infrastructure/">
                           <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
                           Read the Superuser recap
                         </a>
@@ -337,25 +307,25 @@ export const OpenInfraLiveTemplate = ({
                 <div className="all-episode-single">
                    <div className="video">
                       <div class="videoWrapper">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hs8bp8NSYAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/yIt4dJvTQVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
                     <div className="details">
-                      <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
-                      <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                      <div className="date">Thursday, April 29, 2021</div>
+                      <h2>OpenInfra Project Teams Gathering Recap</h2>
                       <p className="fix-h5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                        Join for a Project Teams Gathering (PTG) recap! Project leaders from OpenStack, Kata Containers, StarlingX, OpenStack Ironic, the Edge Computing Group, Scientific SIG, and Multi-Arch SIG provide recaps from discussions held at the PTG.
                       </p>
                       <p className="guests">
                         <span>Featuring</span>
-                        Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                        Kendall Waters, Fabiano Fidencio, Rico Lin, Greg Waines, Ildiko Vancsa, Julia Kreger, and Stig Telfer
                       </p>
                       <div className="platforms">
-                        <a className="social-links">
+                        <a className="social-links" href="//www.youtube.com/watch?v=yIt4dJvTQVg">
                           <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                           Watch on YouTube
                         </a>
-                        <a className="social-links">
+                        <a className="social-links" href="//superuser.openstack.org/articles/project-teams-gathering-ptg-recap-openinfra-live/">
                           <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
                           Read the Superuser recap
                         </a>
@@ -367,27 +337,23 @@ export const OpenInfraLiveTemplate = ({
                 <div className="all-episode-single">
                    <div className="video">
                       <div class="videoWrapper">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hs8bp8NSYAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/s4HOyAdQx8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
                     <div className="details">
-                      <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
-                      <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                      <div className="date">Thursday, April 22, 2021</div>
+                      <h2>Behind the scenes of the OpenStack TC</h2>
                       <p className="fix-h5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                        The OpenStack Technical Committee is the governing body of the OpenStack open source project. It is an elected group that represents the contributors to the project, and has oversight on all technical matters. This includes developers, operators and end users of the software. 
                       </p>
                       <p className="guests">
                         <span>Featuring</span>
-                        Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                        Ashlee Ferguson, Ghanshyam Mann, Jay Bryant, Julia Krieger, Thierry Carrez, Dan Smith, Mohammed Naser, Radosław Piliszek, and Belmiro Moreira
                       </p>
                       <div className="platforms">
-                        <a className="social-links">
+                        <a className="social-links" href="//youtu.be/s4HOyAdQx8A">
                           <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                           Watch on YouTube
-                        </a>
-                        <a className="social-links">
-                          <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
-                          Read the Superuser recap
                         </a>
                       </div>
                     </div>
@@ -397,27 +363,23 @@ export const OpenInfraLiveTemplate = ({
                 <div className="all-episode-single">
                    <div className="video">
                       <div class="videoWrapper">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hs8bp8NSYAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tZ2bfdF0fOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
                     <div className="details">
-                      <div className="date">Thursday, May 20, 2021 @ 14:00 UTC (9AM CT)</div>
-                      <h2>The Future of the Network Depends on Open Infrastructure</h2>
+                      <div className="date">Thursday, April 15, 2021</div>
+                      <h2>Wallaby Release Community Meeting</h2>
                       <p className="fix-h5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                        Wallaby, the 23rd release of OpenStack, makes improvements to role-based access control (RBAC) and integration with other open source projects including Ceph, Kubernetes and Prometheus to strengthen open infrastructure for cloud native applications. 
                       </p>
                       <p className="guests">
                         <span>Featuring</span>
-                        Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), Joshua Slater (Blizzard)
+                        Erin Disney, Ghanshyam Mann, Kendall Nelson, Brian Rosmaita, Slawek Kaplonski, Julia Kreger, Balazs Gibizer, Xin-Ran Wang, Radosław Piliszek, and Goutham Pacha Ravi
                       </p>
                       <div className="platforms">
-                        <a className="social-links">
+                        <a className="social-links" href="https://youtu.be/tZ2bfdF0fOg">
                           <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                           Watch on YouTube
-                        </a>
-                        <a className="social-links">
-                          <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
-                          Read the Superuser recap
                         </a>
                       </div>
                     </div>
@@ -426,6 +388,7 @@ export const OpenInfraLiveTemplate = ({
               </div>
             </div>
           </section>
+          <PageContent content={content} />
           {footer &&
             <Hero content={footer} />
           }

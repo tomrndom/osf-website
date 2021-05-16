@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20210516T193304Z
+UID:20210516T193304Z-634766051@marudot.com
+DTSTART:20210527T140000Z
+DTEND:20210527T150000Z
+SUMMARY:OpenInfra LIve: Zuul - Automotive in Production
+URL:https://youtube.com/c/OpenStackFoundation
+DESCRIPTION:Watch this episode of OpenInfra Live:  Zuul - Automotive in Production on YouTube\, Facebook or LinkedIn
+LOCATION:https://youtube.com/c/OpenStackFoundation
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenInfra LIve: Zuul - Automotive in Production
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
