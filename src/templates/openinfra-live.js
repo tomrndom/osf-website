@@ -34,8 +34,15 @@ export const OpenInfraLiveTemplate = ({
               </figure>
               <div className="text">
                 <h1>Conversations around all things open infrastructure</h1>
-                <p className="fix-h5">Introducing: OpenInfra Live—a weekly hour-long series sharing production case studies, open source demos, industry conversations, and the latest updates from the global open infrastructure community!</p>
-                <p className="fix-h5">Catch every episode on several streaming platforms, airing <strong>Thursdays at 14:00 UTC (9am CT)</strong></p>
+                <p className="fix-h5">
+                  Introducing: OpenInfra Live—a weekly hour-long series sharing production case studies, open source demos, industry conversations, and the latest updates from the global open infrastructure community!
+                </p>
+                <p className="fix-h5">
+                  Catch every episode on several streaming platforms, airing <strong>Thursdays at 14:00 UTC (9am CT)</strong>
+                </p>
+                <p className="fix-h5">
+                  Subscribe to the <a href="https://www.openstack.org/community/email-signup">OpenInfra newsletter</a> to hear more about upcoming episodes.
+                </p>
                 <div className="platforms">
                   <a className="social-links" href="//youtube.com/c/OpenStackFoundation?sub_confirmation=1">
                     <img src="/img/socials/youtube.svg" className="social-icon youtube" alt="OpenInfra Live on YouTube"/>
