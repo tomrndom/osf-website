@@ -35,7 +35,7 @@ export const OpenInfraLiveTemplate = ({
               <div className="text">
                 <h1>Conversations around all things open infrastructure</h1>
                 <p className="fix-h5">
-                  Introducing: OpenInfra Live—a weekly hour-long series sharing production case studies, open source demos, industry conversations, and the latest updates from the global open infrastructure community!
+                  Join us on OpenInfra Live — a weekly hour-long series sharing production case studies, open source demos, industry conversations, and the latest updates from the global open infrastructure community!
                 </p>
                 <p className="fix-h5">
                   Catch every episode on several streaming platforms, airing <strong>Thursdays at 14:00 UTC (9am CT)</strong>
@@ -56,13 +56,17 @@ export const OpenInfraLiveTemplate = ({
                     <img src="/img/socials/facebook.svg" className="social-icon" alt="OpenInfra Live on Facebook"/>
                     Follow on Facebook
                   </a>
+                  <a className="social-links" href="//twitter.com/hashtag/OpenInfraLive?src=hashtag_click">
+                    <img src="/img/socials/twitter.svg" className="social-icon" alt="OpenInfra Live on Twitter"/>
+                    Join the conversation
+                  </a>
                 </div>
               </div>
             </section>
           </div>
           <section className="live-section">
             <div className="container">
-              <h2 className="section-title">The next episode is airing soon!</h2>
+              <h2 className="section-title">The Next Episode is Airing Soon!</h2>
               <div className="up-next-highlight">Up Next: Thursday, May 20 @ 14:00 UTC (9AM CT)</div>
               <section className="up-next-wrapper">
                 <div className="video">
@@ -160,7 +164,7 @@ export const OpenInfraLiveTemplate = ({
           </section>
           <section className="schedule-wrapper">
             <div className="container">
-              <h2 className="section-title">More upcoming episodes</h2>
+              <h2 className="section-title">Upcoming OpenInfra Live Episodes</h2>
               <div class="schedule-list">
                 {/* Start single episode */}
                 <div className="schedule-single">
@@ -233,7 +237,9 @@ export const OpenInfraLiveTemplate = ({
                     <img src="/img/icons/bulb.svg" alt="Share ideas for OpenInfra Live"/>
                     Have an idea for an episode of OpenInfra Live?
                   </h2>
-                  <p>We love hearing from the OpenInfra community and want to use OpenInfra Live as a way to do that. If you have an idea for a future epside, we’d love to hear it. If selected, we’ll reach out to you to discuss details. We look forward to hearing your ideas!</p>
+                  <p>
+                    If you have any topics you would like to propose for an upcoming episode, please share your ideas with us! If selected, we’ll reach out to you to discuss details. We look forward to hearing your ideas!
+                  </p>
                 </div>
                 <div>
                   <a href="//openinfrafoundation.formstack.com/forms/openinfralive">
@@ -246,7 +252,7 @@ export const OpenInfraLiveTemplate = ({
           </section>
           <section className="live-section">
             <div className="container">
-              <h2 className="section-title" id="all-episodes">Watch previous episodes</h2>
+              <h2 className="section-title" id="all-episodes">Watch Previous Episodes</h2>
               <div className="all-episode-list">
                 {/* Start single episode */}
                 <div className="all-episode-single">

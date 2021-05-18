@@ -15,8 +15,7 @@ hero:
 footer:
   title: ""
   subTitle: "Join the OpenInfra Foundation to learn how you can get involved in
-    initiatives around open infrastructure. If you’d like to host an OpenInfra
-    Live episode, share your ideas! "
+    initiatives around open infrastructure."
   buttonText: JOIN
   button: https://openinfra.dev/join/
   display: true
