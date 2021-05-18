@@ -58,7 +58,7 @@ export const OpenInfraLiveTemplate = ({
                   </a>
                   <a className="social-links" href="//twitter.com/hashtag/OpenInfraLive?src=hashtag_click">
                     <img src="/img/socials/twitter.svg" className="social-icon" alt="OpenInfra Live on Twitter"/>
-                    Join the conversation
+                    Join the Conversation
                   </a>
                 </div>
               </div>
@@ -125,7 +125,7 @@ export const OpenInfraLiveTemplate = ({
                           </a>
                           <a className="social-links" href="https://superuser.openstack.org/articles/open-edge-infrastructure-conundrums-and-solutions-openinfra-live/">
                             <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
-                            Superuser recap
+                            Superuser Recap
                           </a>
                         </div>
                     </div>
@@ -149,7 +149,7 @@ export const OpenInfraLiveTemplate = ({
                         </a>
                         <a className="social-links" href="https://superuser.openstack.org/articles/the-future-of-the-network-depends-on-open-infrastructure/">
                           <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
-                          Superuser recap
+                          Superuser Recap
                         </a>
                       </div>
                     </div>
@@ -278,7 +278,7 @@ export const OpenInfraLiveTemplate = ({
                         </a>
                         <a className="social-links" href="https://superuser.openstack.org/articles/open-edge-infrastructure-conundrums-and-solutions-openinfra-live/">
                           <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
-                          Read the Superuser recap
+                          Read the Superuser Recap
                         </a>
                       </div>
                     </div>
@@ -311,7 +311,7 @@ export const OpenInfraLiveTemplate = ({
                         </a>
                         <a className="social-links" href="https://superuser.openstack.org/articles/the-future-of-the-network-depends-on-open-infrastructure/">
                           <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
-                          Read the Superuser recap
+                          Read the Superuser Recap
                         </a>
                       </div>
                     </div>
@@ -341,7 +341,7 @@ export const OpenInfraLiveTemplate = ({
                         </a>
                         <a className="social-links" href="//superuser.openstack.org/articles/project-teams-gathering-ptg-recap-openinfra-live/">
                           <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
-                          Read the Superuser recap
+                          Read the Superuser Recap
                         </a>
                       </div>
                     </div>
