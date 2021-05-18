@@ -33,7 +33,7 @@ export const OpenInfraLiveTemplate = ({
                 <img src="/img/OpenInfra-live-logo-RGB.svg" alt="OpenInfra Live"/>
               </figure>
               <div className="text">
-                <h1>Conversations around all things open infrastructure</h1>
+                <h1>Conversations Around All Things Open Infrastructure</h1>
                 <p className="fix-h5">
                   Join us on OpenInfra Live — a weekly hour-long series sharing production case studies, open source demos, industry conversations, and the latest updates from the global open infrastructure community!
                 </p>
@@ -66,7 +66,7 @@ export const OpenInfraLiveTemplate = ({
           </div>
           <section className="live-section">
             <div className="container">
-              <h2 className="section-title">The Next Episode is Airing Soon!</h2>
+              <h2 className="section-title">The Next Episode Is Airing Soon!</h2>
               <div className="up-next-highlight">Up Next: Thursday, May 20 @ 14:00 UTC (9AM CT)</div>
               <section className="up-next-wrapper">
                 <div className="video">
@@ -75,7 +75,7 @@ export const OpenInfraLiveTemplate = ({
                   </div>
                 </div>
                 <div className="details">
-                  <h2>Upgrades in Large Scale OpenStack infrastructure</h2>
+                  <h2>Upgrades In Large Scale OpenStack Infrastructure</h2>
                   <p className="fix-h5">
                     Keeping up with new #OpenStack releases can be a challenge. At a very large scale, it can be daunting. In this episode of OpenInfra.Live, operators from some of the largest OpenStack deployments at Blizzard Entertainment, OVH, Bloomberg, Workday, Vexxhost or CERN will explain their upgrades methodology, share their experience, and answer the questions of our live audience. 
                   </p>
@@ -104,7 +104,7 @@ export const OpenInfraLiveTemplate = ({
                 </div>
               </section>
               <section className="more-recent-wrapper">
-                <h2 className="section-title">While you’re waiting, here are a few of the most recent episodes</h2>
+                <h2 className="section-title">While You’re Waiting, Here Are A Few Of The Most Recent Episodes</h2>
                 <div className="more-recent-episodes">
                   <div className="more-recent-single-left">
                     <div className="date">Thursday, May 13, 2021</div>
@@ -156,7 +156,7 @@ export const OpenInfraLiveTemplate = ({
                   </div>
                 </div>
                 <a href="#all-episodes" className="schedule-link">
-                  See all previous episodes
+                  See All Previous Episodes
                    <img src="/img/icons/arrow-down.svg" className="link-icon" alt="See all previous episodes"/>
                 </a>
               </section>
@@ -209,7 +209,7 @@ export const OpenInfraLiveTemplate = ({
                 </div>
                 {/* End single episode */}
                 {/* Start single episode */}
-                <div className="schedule-single">
+                {/* <div className="schedule-single">
                   <div className="date">Thursday, June 3, 2021 @ 14:00 UTC (9AM CT)</div>
                   <div className="details">
                     <h2>Another Future Episode</h2>
@@ -220,15 +220,15 @@ export const OpenInfraLiveTemplate = ({
                       <span>Featuring</span>
                       Need to complete
                     </p>
-                    <div className="platforms">
+                    <div className="platforms"> */}
                       {/* Use https://ical.marudot.com to create calendar invites */}
                       {/* <a className="social-links">
                         <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
                         Add to calendar
                       </a> */}
-                    </div>
+                    {/* </div>
                   </div>
-                </div>
+                </div> */}
                 {/* End single episode */}
               </div>
               <div className="ideas-banner">
