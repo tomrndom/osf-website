@@ -191,16 +191,16 @@ export const OpenInfraLiveTemplate = ({
                 <div className="schedule-single">
                   <div className="date">Thursday, May 27, 2021 @ 14:00 UTC (9AM CT)</div>
                   <div className="details">
-                    <h2>Zuul - Automotive in Production</h2>
+                    <h2>Large Scale Open Source CI Featuring Zuul </h2>
                     <p className="fix-h5">
-                      Need to add description here.
+                      Don’t merge broken code. Infrastructure at scale relies on quality software that is tested before it’s deployed. Operators rely on open source CI systems like Zuul for gating, scaling across organizations and cross-project dependencies. In this OpenInfra Live episode, Jim Blair, Zuul Maintainer and CEO at Acme Gating, and Mohammed Naser, CEO of Vexxhost will provide an overview of Zuul, the open source CI/CD business case and a demo showing what cross project dependencies look like in production.
                     </p>
                     <p className="guests">
                       <span>Featuring</span>
-                      Need to complete
+                      Jim Blair, Mohammed Naser, and Jimmy McArthur
                     </p>
                     <div className="platforms">
-                      <a className="social-links" href="/invites/openinfralive-may27.ics">
+                      <a className="social-links" href="/invites/openinfralive-may27a.ics">
                         <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
                         Add to calendar
                       </a>
