@@ -107,6 +107,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_CloudbaseSolutions.png
       - alt: Cloudical
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Cloudical.png
+      - alt: Component Soft
+        image: /img/companies/_New/Silver/componentsoft-silver.jpg
       - alt: DevStack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_DevStack.png
       - alt: Elastx
