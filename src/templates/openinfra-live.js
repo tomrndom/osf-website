@@ -123,10 +123,10 @@ export const OpenInfraLiveTemplate = ({
                             <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                             Watch on YouTube
                           </a>
-                          {/* <a className="social-links" href="#">
+                          <a className="social-links" href="//superuser.openstack.org/articles/upgrades-in-large-scale-openstack-infrastructure-openinfra-live-episode-6/">
                             <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
                             Superuser Recap
-                          </a> */}
+                          </a>
                         </div>
                     </div>
                   </div>
