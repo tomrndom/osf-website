@@ -98,6 +98,8 @@ companies:
       - alt: AW Cloud
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_AWCloud.png
       - alt: Bluvalt
+        image: /img/companies/_New/Silver/binero-silver.jpg
+      - alt: Bluvalt
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_bluvalt.png
       - alt: CDAC
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_CDAC.png
