@@ -67,36 +67,36 @@ export const OpenInfraLiveTemplate = ({
           <section className="live-section">
             <div className="container">
               <h2 className="section-title">The Next Episode Is Airing Soon!</h2>
-              <a href="//youtu.be/MptrjDKrKhI" className="up-next-highlight">Up Next: Thursday, May 27 @ 14:00 UTC (9AM CT)</a>
+              <a href="//youtu.be/MptrjDKrKhI" className="up-next-highlight">Up Next: Thursday, June 3 @ 14:00 UTC (9AM CT)</a>
               <section className="up-next-wrapper">
                 <div className="video">
                   <div class="videoWrapper">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MptrjDKrKhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/d5ieK74F804" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div className="details">
-                  <h2>Large Scale Open Source CI Featuring Zuul</h2>
+                  <h2>OpenInfra AMA</h2>
                   <p className="fix-h5">
-                    Don’t merge broken code. Infrastructure at scale relies on quality software that is tested before it’s deployed. Operators rely on open source CI systems like Zuul for gating, scaling across organizations and cross-project dependencies. In this OpenInfra Live episode, Jim Blair, Zuul Maintainer and CEO at Acme Gating, and Mohammed Naser, CEO of Vexxhost will provide an overview of Zuul, the open source CI/CD business case and a demo showing what cross project dependencies look like in production.
+                    Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Join us as Jonathan Bryce (Executive Director, OpenInfra Foundation), Mark Collier (COO, OpenInfra Foundation) and Allison Randal (Board Chair, OpenInfra Foundation) answer all of your toughest questions live on Thursday, June 3rd 14:00 UTC. Share your questions with us in advance on all our social media channels like Twitter, Facebook, and Linked In.
                   </p>
                   <p className="guests">
                     <span>Featuring</span>
-                    Jim Blair, Mohammed Naser, and Jimmy McArthur
+                    Jonathan Bryce, Mark Collier, Allison Randal
                   </p>
                   <div className="platforms">
-                    <a className="social-links" href="/invites/openinfralive-may27a.ics">
+                    <a className="social-links" href="/invites/openinfralive-june3.ics">
                       <img src="/img/socials/calendar.svg" className="social-icon" alt="Add OpenInfra Live to your calendar"/>
                       Add to Calendar
                     </a>
-                    <a className="social-links" href="//youtu.be/MptrjDKrKhI">
+                    <a className="social-links" href="//www.youtube.com/watch?v=d5ieK74F804">
                       <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                       Watch on YouTube
                     </a>
-                    <a className="social-links" href="//www.linkedin.com/feed/update/urn:li:ugcPost:6801184902885834752/">
+                    <a className="social-links" href="//www.linkedin.com/feed/update/urn:li:ugcPost:6803703909434163200/">
                       <img src="/img/socials/linkedin.svg" className="social-icon" alt="OpenInfra Live on LinkedIn"/>
                       Watch on LinkedIn
                     </a>
-                    <a className="social-links" href="//www.facebook.com/104139126308032/posts/3995722013816371/">
+                    <a className="social-links" href="//www.facebook.com/104139126308032/posts/4016718978383341/">
                       <img src="/img/socials/facebook.svg" className="social-icon" alt="OpenInfra Live on Facebook"/>
                       Watch on Facebook
                     </a>
@@ -106,7 +106,34 @@ export const OpenInfraLiveTemplate = ({
               <section className="more-recent-wrapper">
                 <h2 className="section-title">While You’re Waiting, Here Are A Few Of The Most Recent Episodes</h2>
                 <div className="more-recent-episodes">
+                  {/* Start left recent episode */}
                   <div className="more-recent-single-left">
+                    <div className="date">Thursday, May 27, 2021</div>
+                      <div className="video">
+                        <div class="videoWrapper">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/MptrjDKrKhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div className="details">
+                        <h2>Large Scale Open Source CI Featuring Zuul</h2>
+                        <p className="description">
+                          Don’t merge broken code. Infrastructure at scale relies on quality software that is tested before it’s deployed. Operators rely on open source CI systems like Zuul for gating, scaling across organizations and cross-project dependencies.
+                        </p>
+                        <div className="platforms">
+                          <a className="social-links" href="//youtu.be/MptrjDKrKhI">
+                            <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
+                            Watch on YouTube
+                          </a>
+                          {/* <a className="social-links" href="//superuser.openstack.org/articles/upgrades-in-large-scale-openstack-infrastructure-openinfra-live-episode-6/">
+                            <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
+                            Superuser Recap
+                          </a> */}
+                        </div>
+                    </div>
+                  </div>
+                  {/* End left recent episode */}
+                  {/* Start right recent episode */}
+                  <div className="more-recent-single-right">
                     <div className="date">Thursday, May 20, 2021</div>
                       <div className="video">
                         <div class="videoWrapper">
@@ -130,30 +157,7 @@ export const OpenInfraLiveTemplate = ({
                         </div>
                     </div>
                   </div>
-                  <div className="more-recent-single-right">
-                    <div className="date">Thursday, May 13, 2021</div>
-                      <div className="video">
-                        <div class="videoWrapper">
-                          <iframe width="560" height="315" src="https://www.youtube.com/embed/Hs8bp8NSYAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                      </div>
-                      <div className="details">
-                        <h2>Open Edge Infrastructure Conundrums and Solution</h2>
-                        <p className="description">
-                          As edge computing use cases demand the cloud to break out of large data centers, they also put new challenges on infrastructure as the scale and geographical distribution is going through a yet unprecedented growth.
-                        </p>
-                        <div className="platforms">
-                          <a className="social-links" href="//youtu.be/Hs8bp8NSYAM">
-                            <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
-                            Watch on YouTube
-                          </a>
-                          <a className="social-links" href="https://superuser.openstack.org/articles/open-edge-infrastructure-conundrums-and-solutions-openinfra-live/">
-                            <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
-                            Superuser Recap
-                          </a>
-                        </div>
-                    </div>
-                  </div>
+                  {/* End right recent episode */}
                 </div>
                 <a href="#all-episodes" className="schedule-link">
                   See All Previous Episodes
@@ -168,18 +172,18 @@ export const OpenInfraLiveTemplate = ({
               <div class="schedule-list">
                 {/* Start single episode */}
                 <div className="schedule-single">
-                  <div className="date">Thursday, May 27, 2021 @ 14:00 UTC (9AM CT)</div>
+                  <div className="date">Thursday, June 3, 2021 @ 14:00 UTC (9AM CT)</div>
                   <div className="details">
-                    <h2>Large Scale Open Source CI Featuring Zuul </h2>
+                    <h2>OpenInfra AMA</h2>
                     <p className="fix-h5">
-                      Don’t merge broken code. Infrastructure at scale relies on quality software that is tested before it’s deployed. Operators rely on open source CI systems like Zuul for gating, scaling across organizations and cross-project dependencies. In this OpenInfra Live episode, Jim Blair, Zuul Maintainer and CEO at Acme Gating, and Mohammed Naser, CEO of Vexxhost will provide an overview of Zuul, the open source CI/CD business case and a demo showing what cross project dependencies look like in production.
+                      Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Join us as Jonathan Bryce (Executive Director, OpenInfra Foundation), Mark Collier (COO, OpenInfra Foundation) and Allison Randal (Board Chair, OpenInfra Foundation) answer all of your toughest questions live on Thursday, June 3rd 14:00 UTC. Share your questions with us in advance on all our social media channels like Twitter, Facebook, and Linked In.
                     </p>
                     <p className="guests">
                       <span>Featuring</span>
-                      Jim Blair, Mohammed Naser, and Jimmy McArthur
+                      Jonathan Bryce, Mark Collier, Allison Randal
                     </p>
                     <div className="platforms">
-                      <a className="social-links" href="/invites/openinfralive-may27a.ics">
+                      <a className="social-links" href="/invites/openinfralive-june3.ics">
                         <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
                         Add to calendar
                       </a>
@@ -233,6 +237,36 @@ export const OpenInfraLiveTemplate = ({
             <div className="container">
               <h2 className="section-title" id="all-episodes">Watch Previous Episodes</h2>
               <div className="all-episode-list">
+                {/* Start single episode */}
+                <div className="all-episode-single">
+                   <div className="video">
+                      <div class="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MptrjDKrKhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div className="details">
+                      <div className="date">Thursday, May 27, 2021</div>
+                      <h2>Large Scale Open Source CI Featuring Zuul</h2>
+                      <p className="fix-h5">
+                        Don’t merge broken code. Infrastructure at scale relies on quality software that is tested before it’s deployed. Operators rely on open source CI systems like Zuul for gating, scaling across organizations and cross-project dependencies. In this OpenInfra Live episode, Jim Blair, Zuul Maintainer and CEO at Acme Gating, and Mohammed Naser, CEO of Vexxhost will provide an overview of Zuul, the open source CI/CD business case and a demo showing what cross project dependencies look like in production.
+                      </p>
+                      <p className="guests">
+                        <span>Featuring</span>
+                        Jim Blair, Mohammed Naser, and Jimmy McArthur
+                      </p>
+                      <div className="platforms">
+                        <a className="social-links" href="//youtu.be/MptrjDKrKhI">
+                          <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
+                          Watch on YouTube
+                        </a>
+                        {/* <a className="social-links" href="//superuser.openstack.org/articles/upgrades-in-large-scale-openstack-infrastructure-openinfra-live-episode-6/">
+                          <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
+                          Read the Superuser Recap
+                        </a> */}
+                      </div>
+                    </div>
+                </div>
+                {/* End single episode */}
                 {/* Start single episode */}
                 <div className="all-episode-single">
                    <div className="video">
