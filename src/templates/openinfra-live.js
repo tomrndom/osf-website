@@ -92,7 +92,7 @@ export const OpenInfraLiveTemplate = ({
                       <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                       Watch on YouTube
                     </a>
-                    <a className="social-links" href="//www.linkedin.com/feed/update/urn:li:ugcPost:6803703909434163200/">
+                    <a className="social-links" href="//www.linkedin.com/feed/update/urn:li:ugcPost:6803727380516106240/">
                       <img src="/img/socials/linkedin.svg" className="social-icon" alt="OpenInfra Live on LinkedIn"/>
                       Watch on LinkedIn
                     </a>
