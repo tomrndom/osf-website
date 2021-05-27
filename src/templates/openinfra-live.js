@@ -77,7 +77,7 @@ export const OpenInfraLiveTemplate = ({
                 <div className="details">
                   <h2>OpenInfra AMA (Ask Me Anything)</h2>
                   <p className="fix-h5">
-                    Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Join us as Jonathan Bryce (Executive Director, OpenInfra Foundation), Mark Collier (COO, OpenInfra Foundation) and Allison Randal (Board Chair, OpenInfra Foundation) answer all of your toughest questions live on Thursday, June 3rd 14:00 UTC. Share your questions with us in advance on all our social media channels like Twitter, Facebook, and LinkedIn.
+                    Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Join us as Jonathan Bryce (Executive Director, OpenInfra Foundation), Mark Collier (COO, OpenInfra Foundation) and Allison Randal (Board Chair, OpenInfra Foundation) answer all of your toughest questions live on Thursday, June 3rd 14:00 UTC. Share your questions with us in advance in the comments section of our social media channels like <a href="//twitter.com/openinfradev">Twitter</a>, <a href="//www.facebook.com/openinfradev">Facebook</a>, and <a href="https://www.linkedin.com/company/open-infrastructure-foundation/">LinkedIn</a>.
                   </p>
                   <p className="guests">
                     <span>Featuring</span>
@@ -176,7 +176,7 @@ export const OpenInfraLiveTemplate = ({
                   <div className="details">
                     <h2>OpenInfra AMA (Ask Me Anything)</h2>
                     <p className="fix-h5">
-                      Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Join us as Jonathan Bryce (Executive Director, OpenInfra Foundation), Mark Collier (COO, OpenInfra Foundation) and Allison Randal (Board Chair, OpenInfra Foundation) answer all of your toughest questions live on Thursday, June 3rd 14:00 UTC. Share your questions with us in advance on all our social media channels like Twitter, Facebook, and LinkedIn.
+                      Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Join us as Jonathan Bryce (Executive Director, OpenInfra Foundation), Mark Collier (COO, OpenInfra Foundation) and Allison Randal (Board Chair, OpenInfra Foundation) answer all of your toughest questions live on Thursday, June 3rd 14:00 UTC. Share your questions with us in advance in the comments section of our social media channels like <a href="//twitter.com/openinfradev">Twitter</a>, <a href="//www.facebook.com/openinfradev">Facebook</a>, and <a href="https://www.linkedin.com/company/open-infrastructure-foundation/">LinkedIn</a>.
                     </p>
                     <p className="guests">
                       <span>Featuring</span>
