@@ -75,7 +75,7 @@ export const OpenInfraLiveTemplate = ({
                   </div>
                 </div>
                 <div className="details">
-                  <h2>OpenInfra AMA</h2>
+                  <h2>OpenInfra AMA (Ask Me Anything)</h2>
                   <p className="fix-h5">
                     Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Join us as Jonathan Bryce (Executive Director, OpenInfra Foundation), Mark Collier (COO, OpenInfra Foundation) and Allison Randal (Board Chair, OpenInfra Foundation) answer all of your toughest questions live on Thursday, June 3rd 14:00 UTC. Share your questions with us in advance on all our social media channels like Twitter, Facebook, and Linked In.
                   </p>
@@ -174,7 +174,7 @@ export const OpenInfraLiveTemplate = ({
                 <div className="schedule-single">
                   <div className="date">Thursday, June 3, 2021 @ 14:00 UTC (9AM CT)</div>
                   <div className="details">
-                    <h2>OpenInfra AMA</h2>
+                    <h2>OpenInfra AMA (Ask Me Anything)</h2>
                     <p className="fix-h5">
                       Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Join us as Jonathan Bryce (Executive Director, OpenInfra Foundation), Mark Collier (COO, OpenInfra Foundation) and Allison Randal (Board Chair, OpenInfra Foundation) answer all of your toughest questions live on Thursday, June 3rd 14:00 UTC. Share your questions with us in advance on all our social media channels like Twitter, Facebook, and Linked In.
                     </p>
