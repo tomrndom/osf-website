@@ -253,20 +253,6 @@ members:
     picture: /img/about-staff/ildikovancsa.png
     title: Senior Manager of Community and Ecosystem
     twitter: https://twitter.com/IldikoVancsa
-  - description: Kendall Waters Perez has joined the Open Infrastructure Foundation
-      as a Marketing Associate after completing a  spring internship in 2015.
-      She graduated from St. Edward s University in Austin, TX with a  Bachelor
-      s degree in Digital Media Management. She helps the marketing team
-      organize and manage  the twice-annual Summits. Her previous roles have
-      specialized in social media management at  local start-up companies in
-      Austin. In her free time, she likes to ride her bike around town,  attend
-      music festivals, and spend time with her two cats.
-    linkedin: https://www.linkedin.com/in/waterskendall
-    name: Kendall Waters Perez
-    openStack: https://www.openstack.org/community/members/profile/29123
-    picture: /img/about-staff/kendallwaters.jpg
-    title: Community Partnerships Manager
-    twitter: https://twitter.com/wendallkaters
 support:
   members:
     - description: Horace is currently working as China Community Manager @ Open
