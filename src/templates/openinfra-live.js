@@ -127,7 +127,7 @@ export const OpenInfraLiveTemplate = ({
                           <a className="social-links" href="//superuser.openstack.org/articles/large-scale-open-source-ci-featuring-zuul-openinfra-live-episode-7/">
                             <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
                             Superuser Recap
-                          </a>
+                          </a> */}
                         </div>
                     </div>
                   </div>
