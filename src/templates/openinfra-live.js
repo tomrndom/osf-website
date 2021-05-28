@@ -70,14 +70,14 @@ export const OpenInfraLiveTemplate = ({
               <a href="//youtu.be/MptrjDKrKhI" className="up-next-highlight">Up Next: Thursday, June 3 @ 14:00 UTC (9AM CT)</a>
               <section className="up-next-wrapper">
                 <div className="video">
-                  <div class="videoWrapper">
+                  <div className="videoWrapper">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/d5ieK74F804" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div className="details">
                   <h2>OpenInfra AMA (Ask Me Anything)</h2>
                   <p className="fix-h5">
-                    Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Join us as Jonathan Bryce (Executive Director, OpenInfra Foundation), Mark Collier (COO, OpenInfra Foundation) and Allison Randal (Board Chair, OpenInfra Foundation) answer all of your toughest questions live on Thursday, June 3rd 14:00 UTC. Share your questions with us in advance in the comments section of our social media channels like <a href="//twitter.com/openinfradev">Twitter</a>, <a href="//www.facebook.com/openinfradev">Facebook</a>, and <a href="https://www.linkedin.com/company/open-infrastructure-foundation/">LinkedIn</a>.
+                    Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Join us as Jonathan Bryce (Executive Director, OpenInfra Foundation), Mark Collier (COO, OpenInfra Foundation) and Allison Randal (Board Chair, OpenInfra Foundation) answer all of your toughest questions live on Thursday, June 3rd 14:00 UTC. Share your questions with us in advance in the comments section of our social media channels like <a href="//twitter.com/openinfradev">Twitter</a>, <a href="//www.facebook.com/openinfradev">Facebook</a>, and <a href="//www.linkedin.com/company/open-infrastructure-foundation/">LinkedIn</a>.
                   </p>
                   <p className="guests">
                     <span>Featuring</span>
@@ -110,7 +110,7 @@ export const OpenInfraLiveTemplate = ({
                   <div className="more-recent-single-left">
                     <div className="date">Thursday, May 27, 2021</div>
                       <div className="video">
-                        <div class="videoWrapper">
+                        <div className="videoWrapper">
                           <iframe width="560" height="315" src="https://www.youtube.com/embed/MptrjDKrKhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                       </div>
@@ -124,7 +124,7 @@ export const OpenInfraLiveTemplate = ({
                             <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                             Watch on YouTube
                           </a>
-                          {/* <a className="social-links" href="//superuser.openstack.org/articles/upgrades-in-large-scale-openstack-infrastructure-openinfra-live-episode-6/">
+                          <a className="social-links" href="//superuser.openstack.org/articles/large-scale-open-source-ci-featuring-zuul-openinfra-live-episode-7/">
                             <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
                             Superuser Recap
                           </a> */}
@@ -136,7 +136,7 @@ export const OpenInfraLiveTemplate = ({
                   <div className="more-recent-single-right">
                     <div className="date">Thursday, May 20, 2021</div>
                       <div className="video">
-                        <div class="videoWrapper">
+                        <div className="videoWrapper">
                           <iframe width="560" height="315" src="https://www.youtube.com/embed/yf5iFiCg_Tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                       </div>
@@ -169,7 +169,7 @@ export const OpenInfraLiveTemplate = ({
           <section className="schedule-wrapper">
             <div className="container">
               <h2 className="section-title">Upcoming OpenInfra Live Episodes</h2>
-              <div class="schedule-list">
+              <div className="schedule-list">
                 {/* Start single episode */}
                 <div className="schedule-single">
                   <div className="date">Thursday, June 3, 2021 @ 14:00 UTC (9AM CT)</div>
@@ -240,7 +240,7 @@ export const OpenInfraLiveTemplate = ({
                 {/* Start single episode */}
                 <div className="all-episode-single">
                    <div className="video">
-                      <div class="videoWrapper">
+                      <div className="videoWrapper">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/MptrjDKrKhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
@@ -259,10 +259,10 @@ export const OpenInfraLiveTemplate = ({
                           <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                           Watch on YouTube
                         </a>
-                        {/* <a className="social-links" href="//superuser.openstack.org/articles/upgrades-in-large-scale-openstack-infrastructure-openinfra-live-episode-6/">
+                        <a className="social-links" href="//superuser.openstack.org/articles/large-scale-open-source-ci-featuring-zuul-openinfra-live-episode-7/">
                           <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
                           Read the Superuser Recap
-                        </a> */}
+                        </a>
                       </div>
                     </div>
                 </div>
@@ -270,7 +270,7 @@ export const OpenInfraLiveTemplate = ({
                 {/* Start single episode */}
                 <div className="all-episode-single">
                    <div className="video">
-                      <div class="videoWrapper">
+                      <div className="videoWrapper">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/yf5iFiCg_Tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
@@ -300,7 +300,7 @@ export const OpenInfraLiveTemplate = ({
                 {/* Start single episode */}
                 <div className="all-episode-single">
                    <div className="video">
-                      <div class="videoWrapper">
+                      <div className="videoWrapper">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/Hs8bp8NSYAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
@@ -330,7 +330,7 @@ export const OpenInfraLiveTemplate = ({
                 {/* Start single episode */}
                 <div className="all-episode-single">
                    <div className="video">
-                      <div class="videoWrapper">
+                      <div className="videoWrapper">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/-KeD5RFLNUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
@@ -363,7 +363,7 @@ export const OpenInfraLiveTemplate = ({
                 {/* Start single episode */}
                 <div className="all-episode-single">
                    <div className="video">
-                      <div class="videoWrapper">
+                      <div className="videoWrapper">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/yIt4dJvTQVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
@@ -393,7 +393,7 @@ export const OpenInfraLiveTemplate = ({
                 {/* Start single episode */}
                 <div className="all-episode-single">
                    <div className="video">
-                      <div class="videoWrapper">
+                      <div className="videoWrapper">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/s4HOyAdQx8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
@@ -419,7 +419,7 @@ export const OpenInfraLiveTemplate = ({
                 {/* Start single episode */}
                 <div className="all-episode-single">
                    <div className="video">
-                      <div class="videoWrapper">
+                      <div className="videoWrapper">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/tZ2bfdF0fOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
