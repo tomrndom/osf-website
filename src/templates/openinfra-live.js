@@ -192,26 +192,25 @@ export const OpenInfraLiveTemplate = ({
                 </div>
                 {/* End single episode */}
                 {/* Start single episode */}
-                {/* <div className="schedule-single">
-                  <div className="date">Thursday, June 3, 2021 @ 14:00 UTC (9AM CT)</div>
+                <div className="schedule-single">
+                  <div className="date">Thursday, June 10, 2021 @ 14:00 UTC (9AM CT)</div>
                   <div className="details">
-                    <h2>Another Future Episode</h2>
+                    <h2>Upgrades in Large scale OpenStack infrastructure: the discussion</h2>
                     <p className="fix-h5">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lorem rutrum, vehicula quam ultricies, malesuada neque. Mauris congue ante at sodales molestie. Duis ultrices lectus non tempus imperdiet.
+                      Keeping up with new OpenStack releases can be a challenge. In this continuation of the <a href="//www.youtube.com/watch?v=yf5iFiCg_Tw">May 20 OpenInfra Live episode</a>, a panel of large scale OpenStack infrastructure operators from Blizzard Entertainment, OVHcloud, Bloomberg, Workday, Vexxhost and CERN, join us again to further discuss upgrades.
                     </p>
                     <p className="guests">
                       <span>Featuring</span>
-                      Need to complete
+                      Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), and Joshua Slater (Blizzard)
                     </p>
-                    <div className="platforms"> */}
-                      {/* Use https://ical.marudot.com to create calendar invites */}
-                      {/* <a className="social-links">
+                    <div className="platforms">
+                      <a className="social-links" href="/invites/openinfralive-june10.ics">
                         <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
                         Add to calendar
-                      </a> */}
-                    {/* </div>
+                      </a>
+                    </div>
                   </div>
-                </div> */}
+                </div>
                 {/* End single episode */}
               </div>
               <div className="ideas-banner">
