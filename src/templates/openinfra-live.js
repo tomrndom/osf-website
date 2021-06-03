@@ -67,7 +67,7 @@ export const OpenInfraLiveTemplate = ({
           <section className="live-section">
             <div className="container">
               <h2 className="section-title">The Next Episode Is Airing Soon!</h2>
-              <a href="//youtu.be/MptrjDKrKhI" className="up-next-highlight">Up Next: Thursday, June 3 @ 14:00 UTC (9AM CT)</a>
+              <a href="//www.youtube.com/watch?v=d5ieK74F804" className="up-next-highlight">Up Next: Thursday, June 3 @ 14:00 UTC (9AM CT)</a>
               <section className="up-next-wrapper">
                 <div className="video">
                   <div className="videoWrapper">
@@ -197,11 +197,11 @@ export const OpenInfraLiveTemplate = ({
                   <div className="details">
                     <h2>Upgrades in Large scale OpenStack infrastructure: the discussion</h2>
                     <p className="fix-h5">
-                      Keeping up with new OpenStack releases can be a challenge. In this continuation of the <a href="//www.youtube.com/watch?v=yf5iFiCg_Tw">May 20 OpenInfra Live episode</a>, a panel of large scale OpenStack infrastructure operators from Blizzard Entertainment, OVHcloud, Bloomberg, Workday, Vexxhost and CERN, join us again to further discuss upgrades.
+                      Keeping up with new OpenStack releases can be a challenge. In this continuation of the <a href="//www.youtube.com/watch?v=yf5iFiCg_Tw">May 20 OpenInfra Live episode</a>, a panel of large scale OpenStack infrastructure operators from Blizzard Entertainment, OVHcloud, Workday, Vexxhost and CERN, join us again to further discuss upgrades.
                     </p>
                     <p className="guests">
                       <span>Featuring</span>
-                      Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), Chris Morgan (Bloomberg), and Joshua Slater (Blizzard)
+                      Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), and Joshua Slater (Blizzard)
                     </p>
                     <div className="platforms">
                       <a className="social-links" href="/invites/openinfralive-june10.ics">
