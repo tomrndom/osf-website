@@ -67,36 +67,39 @@ export const OpenInfraLiveTemplate = ({
           <section className="live-section">
             <div className="container">
               <h2 className="section-title">The Next Episode Is Airing Soon!</h2>
-              <a href="//www.youtube.com/watch?v=d5ieK74F804" className="up-next-highlight">Up Next: Thursday, June 3 @ 14:00 UTC (9AM CT)</a>
+              <a href="//www.youtube.com/watch?v=C2fSy005lDs" className="up-next-highlight">Up Next: Thursday, June 10 @ 14:00 UTC (9AM CT)</a>
               <section className="up-next-wrapper">
                 <div className="video">
                   <div className="videoWrapper">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/d5ieK74F804" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/C2fSy005lDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div className="details">
-                  <h2>OpenInfra AMA (Ask Me Anything)</h2>
+                  <h2>Upgrades in Large scale OpenStack infrastructure: the discussion</h2>
                   <p className="fix-h5">
-                    Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Join us as Jonathan Bryce (Executive Director, OpenInfra Foundation), Mark Collier (COO, OpenInfra Foundation) and Allison Randal (Board Chair, OpenInfra Foundation) answer all of your toughest questions live on Thursday, June 3rd 14:00 UTC. Share your questions with us in advance in the comments section of our social media channels like <a href="//twitter.com/openinfradev">Twitter</a>, <a href="//www.facebook.com/openinfradev">Facebook</a>, and <a href="//www.linkedin.com/company/open-infrastructure-foundation/">LinkedIn</a>.
+                    Keeping up with new OpenStack releases can be a challenge. In this continuation of the <a href="//www.youtube.com/watch?v=yf5iFiCg_Tw">May 20 OpenInfra Live episode</a>, a panel of large scale OpenStack infrastructure operators from Blizzard Entertainment, OVHcloud, Workday, Vexxhost and CERN, join us again to further discuss upgrades.
+                  </p>
+                  <p className="fix-h5">
+                    Have a question for the panel? <a href="https://openinfrafoundation.formstack.com/forms/oil_questions_upgrades">Submit it ahead of the live show!</a>
                   </p>
                   <p className="guests">
                     <span>Featuring</span>
-                    Jonathan Bryce, Mark Collier, Allison Randal
+                    Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), and Joshua Slater (Blizzard)
                   </p>
                   <div className="platforms">
-                    <a className="social-links" href="/invites/openinfralive-june3.ics">
+                    <a className="social-links" href="/invites/openinfralive-june10a.ics">
                       <img src="/img/socials/calendar.svg" className="social-icon" alt="Add OpenInfra Live to your calendar"/>
                       Add to Calendar
                     </a>
-                    <a className="social-links" href="//www.youtube.com/watch?v=d5ieK74F804">
+                    <a className="social-links" href="//www.youtube.com/watch?v=C2fSy005lDs">
                       <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                       Watch on YouTube
                     </a>
-                    <a className="social-links" href="//www.linkedin.com/feed/update/urn:li:ugcPost:6803727380516106240/">
+                    <a className="social-links" href="//www.linkedin.com/feed/update/urn:li:ugcPost:6806241782301626368/">
                       <img src="/img/socials/linkedin.svg" className="social-icon" alt="OpenInfra Live on LinkedIn"/>
                       Watch on LinkedIn
                     </a>
-                    <a className="social-links" href="//www.facebook.com/104139126308032/posts/4016718978383341/">
+                    <a className="social-links" href="//www.facebook.com/104139126308032/posts/4037348229653749/">
                       <img src="/img/socials/facebook.svg" className="social-icon" alt="OpenInfra Live on Facebook"/>
                       Watch on Facebook
                     </a>
@@ -108,6 +111,32 @@ export const OpenInfraLiveTemplate = ({
                 <div className="more-recent-episodes">
                   {/* Start left recent episode */}
                   <div className="more-recent-single-left">
+                    <div className="date">Thursday, May 27, 2021</div>
+                      <div className="video">
+                        <div className="videoWrapper">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/d5ieK74F804" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div className="details">
+                        <h2>OpenInfra AMA (Ask Me Anything)</h2>
+                        <p className="description">
+                          Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Jonathan Bryce, Mark Collier and Allison Randal  answer all of your toughest questions live.
+                        </p>
+                        <div className="platforms">
+                          <a className="social-links" href="//www.youtube.com/watch?v=d5ieK74F804">
+                            <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
+                            Watch on YouTube
+                          </a>
+                          {/* <a className="social-links" href="//superuser.openstack.org/articles/large-scale-open-source-ci-featuring-zuul-openinfra-live-episode-7/">
+                            <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
+                            Superuser Recap
+                          </a> */}
+                        </div>
+                    </div>
+                  </div>
+                  {/* End left recent episode */}
+                  {/* Start right recent episode */}
+                  <div className="more-recent-single-right">
                     <div className="date">Thursday, May 27, 2021</div>
                       <div className="video">
                         <div className="videoWrapper">
@@ -131,32 +160,6 @@ export const OpenInfraLiveTemplate = ({
                         </div>
                     </div>
                   </div>
-                  {/* End left recent episode */}
-                  {/* Start right recent episode */}
-                  <div className="more-recent-single-right">
-                    <div className="date">Thursday, May 20, 2021</div>
-                      <div className="video">
-                        <div className="videoWrapper">
-                          <iframe width="560" height="315" src="https://www.youtube.com/embed/yf5iFiCg_Tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                      </div>
-                      <div className="details">
-                        <h2>Upgrades In Large Scale OpenStack Infrastructure</h2>
-                        <p className="description">
-                          Keeping up with new #OpenStack releases can be a challenge. At a very large scale, it can be daunting. In this episode of OpenInfra.Live, operators from some of the largest OpenStack deployments.
-                        </p>
-                        <div className="platforms">
-                          <a className="social-links" href="https://www.youtube.com/watch?v=yf5iFiCg_Tw">
-                            <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
-                            Watch on YouTube
-                          </a>
-                          <a className="social-links" href="//superuser.openstack.org/articles/upgrades-in-large-scale-openstack-infrastructure-openinfra-live-episode-6/">
-                            <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
-                            Superuser Recap
-                          </a>
-                        </div>
-                    </div>
-                  </div>
                   {/* End right recent episode */}
                 </div>
                 <a href="#all-episodes" className="schedule-link">
@@ -172,39 +175,21 @@ export const OpenInfraLiveTemplate = ({
               <div className="schedule-list">
                 {/* Start single episode */}
                 <div className="schedule-single">
-                  <div className="date">Thursday, June 3, 2021 @ 14:00 UTC (9AM CT)</div>
-                  <div className="details">
-                    <h2>OpenInfra AMA (Ask Me Anything)</h2>
-                    <p className="fix-h5">
-                      Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Join us as Jonathan Bryce (Executive Director, OpenInfra Foundation), Mark Collier (COO, OpenInfra Foundation) and Allison Randal (Board Chair, OpenInfra Foundation) answer all of your toughest questions live on Thursday, June 3rd 14:00 UTC. Share your questions with us in advance in the comments section of our social media channels like <a href="//twitter.com/openinfradev">Twitter</a>, <a href="//www.facebook.com/openinfradev">Facebook</a>, and <a href="https://www.linkedin.com/company/open-infrastructure-foundation/">LinkedIn</a>.
-                    </p>
-                    <p className="guests">
-                      <span>Featuring</span>
-                      Jonathan Bryce, Mark Collier, Allison Randal
-                    </p>
-                    <div className="platforms">
-                      <a className="social-links" href="/invites/openinfralive-june3.ics">
-                        <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
-                        Add to calendar
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                {/* End single episode */}
-                {/* Start single episode */}
-                <div className="schedule-single">
                   <div className="date">Thursday, June 10, 2021 @ 14:00 UTC (9AM CT)</div>
                   <div className="details">
                     <h2>Upgrades in Large scale OpenStack infrastructure: the discussion</h2>
                     <p className="fix-h5">
                       Keeping up with new OpenStack releases can be a challenge. In this continuation of the <a href="//www.youtube.com/watch?v=yf5iFiCg_Tw">May 20 OpenInfra Live episode</a>, a panel of large scale OpenStack infrastructure operators from Blizzard Entertainment, OVHcloud, Workday, Vexxhost and CERN, join us again to further discuss upgrades.
                     </p>
+                    <p className="fix-h5">
+                      Have a question for the panel? <a href="https://openinfrafoundation.formstack.com/forms/oil_questions_upgrades">Submit it ahead of the live show!</a>
+                    </p>
                     <p className="guests">
                       <span>Featuring</span>
                       Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), and Joshua Slater (Blizzard)
                     </p>
                     <div className="platforms">
-                      <a className="social-links" href="/invites/openinfralive-june10.ics">
+                      <a className="social-links" href="/invites/openinfralive-june10a.ics">
                         <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
                         Add to calendar
                       </a>
@@ -236,6 +221,36 @@ export const OpenInfraLiveTemplate = ({
             <div className="container">
               <h2 className="section-title" id="all-episodes">Watch Previous Episodes</h2>
               <div className="all-episode-list">
+                {/* Start single episode */}
+                <div className="all-episode-single">
+                   <div className="video">
+                      <div className="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/d5ieK74F804" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div className="details">
+                      <div className="date">Thursday, June 3, 2021</div>
+                      <h2>OpenInfra AMA (Ask Me Anything)</h2>
+                      <p className="fix-h5">
+                        Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Join us as Jonathan Bryce (Executive Director, OpenInfra Foundation), Mark Collier (COO, OpenInfra Foundation) and Allison Randal (Board Chair, OpenInfra Foundation) answer all of your toughest questions live on Thursday, June 3rd 14:00 UTC. Share your questions with us in advance in the comments section of our social media channels like <a href="//twitter.com/openinfradev">Twitter</a>, <a href="//www.facebook.com/openinfradev">Facebook</a>, and <a href="//www.linkedin.com/company/open-infrastructure-foundation/">LinkedIn</a>.
+                      </p>
+                      <p className="guests">
+                        <span>Featuring</span>
+                        Jonathan Bryce, Mark Collier, Allison Randal
+                      </p>
+                      <div className="platforms">
+                        <a className="social-links" href="//www.youtube.com/watch?v=d5ieK74F804">
+                          <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
+                          Watch on YouTube
+                        </a>
+                        {/* <a className="social-links" href="//superuser.openstack.org/articles/large-scale-open-source-ci-featuring-zuul-openinfra-live-episode-7/">
+                          <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
+                          Read the Superuser Recap
+                        </a> */}
+                      </div>
+                    </div>
+                </div>
+                {/* End single episode */}
                 {/* Start single episode */}
                 <div className="all-episode-single">
                    <div className="video">
