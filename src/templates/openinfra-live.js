@@ -79,6 +79,9 @@ export const OpenInfraLiveTemplate = ({
                   <p className="fix-h5">
                     Keeping up with new OpenStack releases can be a challenge. In this continuation of the <a href="//www.youtube.com/watch?v=yf5iFiCg_Tw">May 20 OpenInfra Live episode</a>, a panel of large scale OpenStack infrastructure operators from Blizzard Entertainment, OVHcloud, Workday, Vexxhost and CERN, join us again to further discuss upgrades.
                   </p>
+                  <p className="fix-h5">
+                    Have a question for the panel? <a href="https://openinfrafoundation.formstack.com/forms/oil_questions_upgrades">Submit it ahead of the live show!</a>
+                  </p>
                   <p className="guests">
                     <span>Featuring</span>
                     Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), and Joshua Slater (Blizzard)
@@ -177,6 +180,9 @@ export const OpenInfraLiveTemplate = ({
                     <h2>Upgrades in Large scale OpenStack infrastructure: the discussion</h2>
                     <p className="fix-h5">
                       Keeping up with new OpenStack releases can be a challenge. In this continuation of the <a href="//www.youtube.com/watch?v=yf5iFiCg_Tw">May 20 OpenInfra Live episode</a>, a panel of large scale OpenStack infrastructure operators from Blizzard Entertainment, OVHcloud, Workday, Vexxhost and CERN, join us again to further discuss upgrades.
+                    </p>
+                    <p className="fix-h5">
+                      Have a question for the panel? <a href="https://openinfrafoundation.formstack.com/forms/oil_questions_upgrades">Submit it ahead of the live show!</a>
                     </p>
                     <p className="guests">
                       <span>Featuring</span>
