@@ -4,7 +4,7 @@ seo:
   description: The OpenInfra Foundation staff serves developers, users, and
     ecosystem by providing a set of shared resources to help organizations build
     and operate open infrastructure.  "
-  image: /img/osficon-social.png
+  image: /img/openinfrastructurefoundation-logo-rgb-horiz3.png
   title: Staff
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/about/staff/
