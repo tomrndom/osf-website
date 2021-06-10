@@ -115,7 +115,7 @@ export const OpenInfraLiveTemplate = ({
                         </div>
                       </div>
                       <div className="details">
-                        <h2>Upgrades in Large scale OpenStack infrastructure: the discussion</h2>
+                        <h2>Upgrades In Large Scale OpenStack Infrastructure: The Discussion</h2>
                         <p className="description">
                           Keeping up with new OpenStack releases can be a challenge. In this continuation of the <a href="//www.youtube.com/watch?v=yf5iFiCg_Tw">May 20 OpenInfra Live episode</a>, a panel of large scale OpenStack infrastructure operators from Blizzard Entertainment, OVHcloud, Workday, Vexxhost and CERN, join us again to further discuss upgrades.
                         </p>
@@ -124,10 +124,10 @@ export const OpenInfraLiveTemplate = ({
                             <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                             Watch on YouTube
                           </a>
-                          {/* <a className="social-links" href="#">
+                          <a className="social-links" href="//superuser.openstack.org/articles/experts-discuss-tradeoffs-frequency-and-more-around-upgrades-of-large-scale-openstack-deployments-openinfra-live-recap/">
                             <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
                             Superuser Recap
-                          </a> */}
+                          </a>
                         </div>
                       </div>
                   </div>
@@ -224,7 +224,7 @@ export const OpenInfraLiveTemplate = ({
                     </div>
                     <div className="details">
                       <div className="date">Thursday, June 10, 2021</div>
-                      <h2>Upgrades in Large scale OpenStack infrastructure: the discussion</h2>
+                      <h2>Upgrades In Large Scale OpenStack Infrastructure: The Discussion</h2>
                       <p className="fix-h5">
                         Keeping up with new OpenStack releases can be a challenge. In this continuation of the <a href="//www.youtube.com/watch?v=yf5iFiCg_Tw">May 20 OpenInfra Live episode</a>, a panel of large scale OpenStack infrastructure operators from Blizzard Entertainment, OVHcloud, Workday, Vexxhost and CERN, join us again to further discuss upgrades.
                       </p>
@@ -237,10 +237,10 @@ export const OpenInfraLiveTemplate = ({
                           <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                           Watch on YouTube
                         </a>
-                        {/* <a className="social-links" href="#">
+                        <a className="social-links" href="//superuser.openstack.org/articles/experts-discuss-tradeoffs-frequency-and-more-around-upgrades-of-large-scale-openstack-deployments-openinfra-live-recap/">
                           <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
                           Read the Superuser Recap
-                        </a> */}
+                        </a>
                       </div>
                     </div>
                 </div>
@@ -314,7 +314,7 @@ export const OpenInfraLiveTemplate = ({
                     </div>
                     <div className="details">
                       <div className="date">Thursday, May 20, 2021</div>
-                      <h2>Upgrades in Large Scale OpenStack infrastructure</h2>
+                      <h2>Upgrades In Large Scale OpenStack Infrastructure</h2>
                       <p className="fix-h5">
                         Keeping up with new #OpenStack releases can be a challenge. At a very large scale, it can be daunting. In this episode of OpenInfra.Live, operators from some of the largest OpenStack deployments at Blizzard Entertainment, OVH, Bloomberg, Workday, Vexxhost or CERN will explain their upgrades methodology, share their experience, and answer the questions of our live audience.
                       </p>
