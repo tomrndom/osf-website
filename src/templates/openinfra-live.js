@@ -67,39 +67,36 @@ export const OpenInfraLiveTemplate = ({
           <section className="live-section">
             <div className="container">
               <h2 className="section-title">The Next Episode Is Airing Soon!</h2>
-              <a href="//www.youtube.com/watch?v=C2fSy005lDs" className="up-next-highlight">Up Next: Thursday, June 10 @ 14:00 UTC (9AM CT)</a>
+              <a href="//www.youtube.com/watch?v=4kGtM4J_hjM" className="up-next-highlight">Up Next: Thursday, June 17 @ 14:00 UTC (9AM CT)</a>
               <section className="up-next-wrapper">
                 <div className="video">
                   <div className="videoWrapper">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/C2fSy005lDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4kGtM4J_hjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div className="details">
-                  <h2>Upgrades in Large scale OpenStack infrastructure: the discussion</h2>
+                  <h2>How to Start Contributing Upstream to OpenInfra</h2>
                   <p className="fix-h5">
-                    Keeping up with new OpenStack releases can be a challenge. In this continuation of the <a href="//www.youtube.com/watch?v=yf5iFiCg_Tw">May 20 OpenInfra Live episode</a>, a panel of large scale OpenStack infrastructure operators from Blizzard Entertainment, OVHcloud, Workday, Vexxhost and CERN, join us again to further discuss upgrades.
-                  </p>
-                  <p className="fix-h5">
-                    Have a question for the panel? <a href="https://openinfrafoundation.formstack.com/forms/oil_questions_upgrades">Submit it ahead of the live show!</a>
+                    Victoria Martinez de la Cruz, an OpenStack contributor who joined the community through the Outreachy internship program, will be joined by Kendall Nelson, OpenInfra Upstream Developer Advocate, and contributors who are just getting started. The group will discuss internships, mentoring, and how you can get started contributing upstream to open source projects like OpenStack, Airship, Kata, StarlingX and Zuul.
                   </p>
                   <p className="guests">
                     <span>Featuring</span>
-                    Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), and Joshua Slater (Blizzard)
+                    Victoria Martinez de la Cruz, Kendall Kelson, Archana Kumari
                   </p>
                   <div className="platforms">
-                    <a className="social-links" href="/invites/openinfralive-june10a.ics">
+                    <a className="social-links" href="/invites/openinfralive-june17.ics">
                       <img src="/img/socials/calendar.svg" className="social-icon" alt="Add OpenInfra Live to your calendar"/>
                       Add to Calendar
                     </a>
-                    <a className="social-links" href="//www.youtube.com/watch?v=C2fSy005lDs">
+                    <a className="social-links" href="//www.youtube.com/watch?v=4kGtM4J_hjM">
                       <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
                       Watch on YouTube
                     </a>
-                    <a className="social-links" href="//www.linkedin.com/feed/update/urn:li:ugcPost:6806241782301626368/">
+                    <a className="social-links" href="//www.linkedin.com/feed/update/urn:li:ugcPost:6808870825278640128/">
                       <img src="/img/socials/linkedin.svg" className="social-icon" alt="OpenInfra Live on LinkedIn"/>
                       Watch on LinkedIn
                     </a>
-                    <a className="social-links" href="//www.facebook.com/104139126308032/posts/4037348229653749/">
+                    <a className="social-links" href="//www.facebook.com/104139126308032/posts/4058210514234187/">
                       <img src="/img/socials/facebook.svg" className="social-icon" alt="OpenInfra Live on Facebook"/>
                       Watch on Facebook
                     </a>
@@ -111,7 +108,33 @@ export const OpenInfraLiveTemplate = ({
                 <div className="more-recent-episodes">
                   {/* Start left recent episode */}
                   <div className="more-recent-single-left">
-                    <div className="date">Thursday, May 27, 2021</div>
+                    <div className="date">Thursday, June 10, 2021</div>
+                      <div className="video">
+                        <div className="videoWrapper">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/C2fSy005lDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div className="details">
+                        <h2>Upgrades in Large scale OpenStack infrastructure: the discussion</h2>
+                        <p className="description">
+                          Keeping up with new OpenStack releases can be a challenge. In this continuation of the <a href="//www.youtube.com/watch?v=yf5iFiCg_Tw">May 20 OpenInfra Live episode</a>, a panel of large scale OpenStack infrastructure operators from Blizzard Entertainment, OVHcloud, Workday, Vexxhost and CERN, join us again to further discuss upgrades.
+                        </p>
+                        <div className="platforms">
+                          <a className="social-links" href="//www.youtube.com/watch?v=C2fSy005lDs">
+                            <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
+                            Watch on YouTube
+                          </a>
+                          {/* <a className="social-links" href="#">
+                            <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
+                            Superuser Recap
+                          </a> */}
+                        </div>
+                      </div>
+                  </div>
+                  {/* End left recent episode */}
+                  {/* Start right recent episode */}
+                  <div className="more-recent-single-right">
+                    <div className="date">Thursday, June 3, 2021</div>
                       <div className="video">
                         <div className="videoWrapper">
                           <iframe width="560" height="315" src="https://www.youtube.com/embed/d5ieK74F804" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -134,32 +157,6 @@ export const OpenInfraLiveTemplate = ({
                         </div>
                     </div>
                   </div>
-                  {/* End left recent episode */}
-                  {/* Start right recent episode */}
-                  <div className="more-recent-single-right">
-                    <div className="date">Thursday, May 27, 2021</div>
-                      <div className="video">
-                        <div className="videoWrapper">
-                          <iframe width="560" height="315" src="https://www.youtube.com/embed/MptrjDKrKhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                      </div>
-                      <div className="details">
-                        <h2>Large Scale Open Source CI Featuring Zuul</h2>
-                        <p className="description">
-                          Don’t merge broken code. Infrastructure at scale relies on quality software that is tested before it’s deployed. Operators rely on open source CI systems like Zuul for gating, scaling across organizations and cross-project dependencies.
-                        </p>
-                        <div className="platforms">
-                          <a className="social-links" href="//youtu.be/MptrjDKrKhI">
-                            <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
-                            Watch on YouTube
-                          </a>
-                          <a className="social-links" href="//superuser.openstack.org/articles/large-scale-open-source-ci-featuring-zuul-openinfra-live-episode-7/">
-                            <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
-                            Superuser Recap
-                          </a> */}
-                        </div>
-                    </div>
-                  </div>
                   {/* End right recent episode */}
                 </div>
                 <a href="#all-episodes" className="schedule-link">
@@ -175,21 +172,18 @@ export const OpenInfraLiveTemplate = ({
               <div className="schedule-list">
                 {/* Start single episode */}
                 <div className="schedule-single">
-                  <div className="date">Thursday, June 10, 2021 @ 14:00 UTC (9AM CT)</div>
+                  <div className="date">Thursday, June 17, 2021 @ 14:00 UTC (9AM CT)</div>
                   <div className="details">
-                    <h2>Upgrades in Large scale OpenStack infrastructure: the discussion</h2>
+                    <h2>How to Start Contributing Upstream to OpenInfra</h2>
                     <p className="fix-h5">
-                      Keeping up with new OpenStack releases can be a challenge. In this continuation of the <a href="//www.youtube.com/watch?v=yf5iFiCg_Tw">May 20 OpenInfra Live episode</a>, a panel of large scale OpenStack infrastructure operators from Blizzard Entertainment, OVHcloud, Workday, Vexxhost and CERN, join us again to further discuss upgrades.
-                    </p>
-                    <p className="fix-h5">
-                      Have a question for the panel? <a href="https://openinfrafoundation.formstack.com/forms/oil_questions_upgrades">Submit it ahead of the live show!</a>
+                      Victoria Martinez de la Cruz, an OpenStack contributor who joined the community through the Outreachy internship program, will be joined by Kendall Nelson, OpenInfra Upstream Developer Advocate, and contributors who are just getting started. The group will discuss internships, mentoring, and how you can get started contributing upstream to open source projects like OpenStack, Airship, Kata, StarlingX and Zuul.
                     </p>
                     <p className="guests">
                       <span>Featuring</span>
-                      Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), and Joshua Slater (Blizzard)
+                      Victoria Martinez de la Cruz, Kendall Kelson, Archana Kumari
                     </p>
                     <div className="platforms">
-                      <a className="social-links" href="/invites/openinfralive-june10a.ics">
+                      <a className="social-links" href="/invites/openinfralive-june17.ics">
                         <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar"/>
                         Add to calendar
                       </a>
@@ -221,6 +215,36 @@ export const OpenInfraLiveTemplate = ({
             <div className="container">
               <h2 className="section-title" id="all-episodes">Watch Previous Episodes</h2>
               <div className="all-episode-list">
+                {/* Start single episode */}
+                <div className="all-episode-single">
+                   <div className="video">
+                      <div className="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/C2fSy005lDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div className="details">
+                      <div className="date">Thursday, June 10, 2021</div>
+                      <h2>Upgrades in Large scale OpenStack infrastructure: the discussion</h2>
+                      <p className="fix-h5">
+                        Keeping up with new OpenStack releases can be a challenge. In this continuation of the <a href="//www.youtube.com/watch?v=yf5iFiCg_Tw">May 20 OpenInfra Live episode</a>, a panel of large scale OpenStack infrastructure operators from Blizzard Entertainment, OVHcloud, Workday, Vexxhost and CERN, join us again to further discuss upgrades.
+                      </p>
+                      <p className="guests">
+                        <span>Featuring</span>
+                        Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), and Joshua Slater (Blizzard)
+                      </p>
+                      <div className="platforms">
+                        <a className="social-links" href="//www.youtube.com/watch?v=C2fSy005lDs">
+                          <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube"/>
+                          Watch on YouTube
+                        </a>
+                        {/* <a className="social-links" href="#">
+                          <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser"/>
+                          Read the Superuser Recap
+                        </a> */}
+                      </div>
+                    </div>
+                </div>
+                {/* End single episode */}
                 {/* Start single episode */}
                 <div className="all-episode-single">
                    <div className="video">
