@@ -22,8 +22,8 @@ export const OpenInfraLiveTemplate = ({
 
   const today = moment().utc().format();
 
-  const futureEpisodes = episodes.filter(e => e.hidden === false && e.date > today).sort((a, b) => a.date.localeCompare(b.date));
-  const pastEpisodes = episodes.filter(e => e.hidden === false && e.date < today).sort((a, b) => b.date.localeCompare(a.date));
+  const futureEpisodes = episodes.filter(e => e.hidden === false && moment(e.date).utc().format() > today).sort((a, b) => moment(a.date).utc().format().localeCompare(moment(b.date).utc().format()));
+  const pastEpisodes = episodes.filter(e => e.hidden === false && moment(e.date).utc().format() < today).sort((a, b) => moment(b.date).utc().format().localeCompare(moment(a.date).utc().format()));
 
   return (
     <div>

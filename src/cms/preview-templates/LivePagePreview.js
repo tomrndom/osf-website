@@ -9,7 +9,6 @@ const LivePagePreview = ({ entry, widgetFor }) => {
   const entryEpisodes = entry.getIn(['data', 'episodes'])
   const episodes = entryEpisodes ? entryEpisodes.toJS() : []
   
-  console.log('data', data);
 
   if(data) {
     return (

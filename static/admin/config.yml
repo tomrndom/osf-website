@@ -606,7 +606,7 @@ collections:
   - name: "openinfra-live-page"
     label: "OpenInfra Live"
     folder: "src/pages/openinfra-live/"
-    identifier_field: "hero"
+    identifier_field: "hero.title"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "openinfra-live"}
       - {label: SEO, name: seo, widget: object, fields: [
