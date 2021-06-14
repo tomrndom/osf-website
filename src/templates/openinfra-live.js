@@ -126,7 +126,7 @@ export const OpenInfraLiveTemplate = ({
                   {pastEpisodes.map((episode, index) => {
                     if (index >= 0 && index < 2) {
                       return (
-                        <div className={`more-recent-single-${index === 0 ? 'left' : 'right'}`}>
+                        <div className={`more-recent-single-${index === 0 ? 'left' : 'right'}`} key={`recent-${index}`}>
                           <div className="date">{moment.utc(episode.date).format("dddd, MMMM DD, YYYY")}</div>
                           <div className="video">
                             <div className="videoWrapper">
@@ -168,9 +168,9 @@ export const OpenInfraLiveTemplate = ({
               <h2 className="section-title">Upcoming OpenInfra Live Episodes</h2>
               <div className="schedule-list">
                 {/* Start single episode */}
-                {futureEpisodes.map(episode => {
+                {futureEpisodes.map((episode, index) => {
                   return (
-                    <div className="schedule-single">
+                    <div className="schedule-single" key={`future-${index}`}>
                       <div className="date">{moment.utc(episode.date).format("dddd, MMMM DD, Y @ H:mm z")} {moment(episode.date).tz("America/Chicago").format("(HA CT)")}</div>
                       <div className="details">
                         <h2>{episode.episodeTitle}</h2>
@@ -218,9 +218,9 @@ export const OpenInfraLiveTemplate = ({
               <h2 className="section-title" id="all-episodes">Watch Previous Episodes</h2>
               <div className="all-episode-list">
                 {/* Start past episodes */}
-                {pastEpisodes.map(episode => {
+                {pastEpisodes.map((episode, index) => {
                   return (
-                    <div className="all-episode-single">
+                    <div className="all-episode-single" key={`past-${index}`}>
                       <div className="video">
                         <div className="videoWrapper">
                           <iframe width="560" height="315" src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -268,7 +268,7 @@ OpenInfraLiveTemplate.propTypes = {
   header: PropTypes.object,
 }
 
-const OpenInfraLivePage = ({ OpenInfraLivePage, data }) => {
+const OpenInfraLivePage = ({ OpenInfraLivePage, data, isLoggedUser }) => {
   const { markdownRemark: post } = data
 
   return (
@@ -281,6 +281,7 @@ const OpenInfraLivePage = ({ OpenInfraLivePage, data }) => {
         episodes={post.frontmatter.episodes}
         content={post.html}
         footer={post.frontmatter.footer}
+        isLoggedUser={isLoggedUser}
       />
     </Layout>
   )
