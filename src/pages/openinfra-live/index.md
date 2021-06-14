@@ -13,7 +13,7 @@ hero:
   Catch every episode on several streaming platforms, airing Thursdays at 14:00 UTC (9am CT)."
 episodes:
   - date: 2021-06-10T14:00:00.000Z
-    episodeTitle: "Upgrades in Large scale OpenStack infrastructure: the discussion"
+    episodeTitle: "Upgrades in Large Scale OpenStack infrastructure: The Discussion"
     episodeDescription: >-
       Keeping up with new OpenStack releases can be a challenge. In this continuation of the <a href="//www.youtube.com/watch?v=yf5iFiCg_Tw">May 20 OpenInfra Live episode</a>, a panel of large scale OpenStack infrastructure operators from Blizzard Entertainment, OVHcloud, Workday, Vexxhost and CERN, join us again to further discuss upgrades.
     episodeSpeakers: "Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser (Vexxhost), Imtiaz Chowdhury (Workday), and Joshua Slater (Blizzard)"
@@ -22,12 +22,12 @@ episodes:
     facebookLink: https://www.facebook.com/104139126308032/posts/4037348229653749/
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6806241782301626368/
     calendarInvite: /invites/openinfralive-june10a.ics
-    superuserRecap: ''
+    superuserRecap: 'https://superuser.openstack.org/articles/experts-discuss-tradeoffs-frequency-and-more-around-upgrades-of-large-scale-openstack-deployments-openinfra-live-recap/'
     hidden: false
   - date: 2021-06-03T00:00:00.000Z
     episodeTitle: "OpenInfra AMA (Ask Me Anything)"
     episodeDescription: >-
-      Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Jonathan Bryce, Mark Collier and Allison Randal  answer all of your toughest questions live.
+      Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Join us as Jonathan Bryce (Executive Director, OpenInfra Foundation), Mark Collier (COO, OpenInfra Foundation) and Allison Randal (Board Chair, OpenInfra Foundation) answer all of your toughest questions live on Thursday, June 3rd 14:00 UTC. Share your questions with us in advance in the comments section of our social media channels like <a href="https://twitter.com/openinfradev">Twitter</a>, <a href="https://www.facebook.com/openinfradev">Facebook</a>, and <a href="https://www.linkedin.com/company/open-infrastructure-foundation/">LinkedIn</a>.
     episodeSpeakers: "Jonathan Bryce, Mark Collier, Allison Randal"
     youtubeEmbed: https://www.youtube.com/embed/d5ieK74F804
     youtubeLink: https://www.youtube.com/watch?v=d5ieK74F804
@@ -118,6 +118,18 @@ episodes:
     facebookLink: ''
     linkedinLink: ''
     calendarInvite: '' 
+    superuserRecap: ''
+    hidden: false
+  - date: 2021-06-17T14:00:00.000Z
+    episodeTitle: "How to Start Contributing Upstream to OpenInfra"
+    episodeDescription: >-
+      Victoria Martinez de la Cruz, an OpenStack contributor who joined the community through the Outreachy internship program, will be joined by Kendall Nelson, OpenInfra Upstream Developer Advocate, and contributors who are just getting started. The group will discuss internships, mentoring, and how you can get started contributing upstream to open source projects like OpenStack, Airship, Kata, StarlingX and Zuul.
+    episodeSpeakers: "Victoria Martinez de la Cruz, Kendall Kelson, Archana Kumari"
+    youtubeEmbed: https://www.youtube.com/embed/4kGtM4J_hjM
+    youtubeLink: https://www.youtube.com/watch?v=4kGtM4J_hjM
+    facebookLink: 'https://www.facebook.com/104139126308032/posts/4058210514234187/'
+    linkedinLink: 'https://www.linkedin.com/feed/update/urn:li:ugcPost:6808870825278640128/'
+    calendarInvite: '/invites/openinfralive-june17.ics' 
     superuserRecap: ''
     hidden: false           
 footer:
