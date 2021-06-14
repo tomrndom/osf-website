@@ -89,9 +89,9 @@ export const OpenInfraLiveTemplate = ({
                         <div className="details">
                           <h2>{episode.episodeTitle}</h2>
                           <p className="fix-h5" dangerouslySetInnerHTML={{ __html: episode.episodeDescription }} />
-                          <p className="fix-h5">
+                          {/* <p className="fix-h5">
                             Have a question for the panel? <a href="https://openinfrafoundation.formstack.com/forms/oil_questions_upgrades">Submit it ahead of the live show!</a>
-                          </p>
+                          </p> */}
                           <p className="guests">
                             <span>Featuring</span>
                             {episode.episodeSpeakers}
@@ -175,9 +175,9 @@ export const OpenInfraLiveTemplate = ({
                       <div className="details">
                         <h2>{episode.episodeTitle}</h2>
                         <p className="fix-h5" dangerouslySetInnerHTML={{ __html: episode.episodeDescription }} />
-                        <p className="fix-h5">
+                        {/* <p className="fix-h5">
                           Have a question for the panel? <a href="https://openinfrafoundation.formstack.com/forms/oil_questions_upgrades">Submit it ahead of the live show!</a>
-                        </p>
+                        </p> */}
                         <p className="guests">
                           <span>Featuring</span>
                           {episode.episodeSpeakers}
@@ -227,7 +227,7 @@ export const OpenInfraLiveTemplate = ({
                         </div>
                       </div>
                       <div className="details">
-                        <div className="date">{moment.utc(episode.date).format("dddd, MMMM DD, YYYY")}</div>
+                        <div className="date">{moment.utc(episode.date).format("dddd, MMMM D, YYYY")}</div>
                         <h2>{episode.episodeTitle}</h2>
                         <p className="fix-h5" dangerouslySetInnerHTML={{ __html: episode.episodeDescription }} />
                         <p className="guests">
