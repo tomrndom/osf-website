@@ -8,11 +8,11 @@ seo:
   twitterUsername: "@OpenInfraDev"
 hero:
   title: Conversations around all things open infrastructure
-  description: >-
-    Introducing: OpenInfra Live—a weekly hour-long series sharing production case studies, open source demos, industry conversations, and the latest updates from the global open infrastructure community!
-    <br />
-    <br />
-    Catch every episode on several streaming platforms, airing <strong>Thursdays at 14:00 UTC (9am CT)</strong>.
+  description: "Introducing: OpenInfra Live—a weekly hour-long series sharing
+    production case studies, open source demos, industry conversations, and the
+    latest updates from the global open infrastructure community! <br /> <br />
+    Catch every episode on several streaming platforms, airing <strong>Thursdays
+    at 14:00 UTC (9am CT)</strong>."
 episodes:
   - facebookLink: https://www.facebook.com/104139126308032/posts/4037348229653749/
     episodeDescription: Keeping up with new OpenStack releases can be a challenge.
@@ -179,6 +179,13 @@ episodes:
     superuserRecap: ""
     episodeTitle: How to Start Contributing Upstream to OpenInfra
     youtubeLink: https://www.youtube.com/watch?v=4kGtM4J_hjM
+  - hidden: false
+    date: 2021-06-24T14:00:35.869Z
+    episodeTitle: Open Source Job Openings (and how to land them)
+    episodeDescription: Are you looking for a job in open source? Curious about what
+      companies might be right for you? Join us as we spotlight companies with
+      open infrastructure job openings, learn about their company cultures, and
+      hear what they are looking for in candidates.
 footer:
   title: ""
   subTitle: Join the OpenInfra Foundation to learn how you can get involved in
