@@ -30,7 +30,7 @@ episodes:
     youtubeEmbed: https://www.youtube.com/embed/C2fSy005lDs
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6806241782301626368/
     superuserRecap: https://superuser.openstack.org/articles/experts-discuss-tradeoffs-frequency-and-more-around-upgrades-of-large-scale-openstack-deployments-openinfra-live-recap/
-    episodeTitle: "Upgrades in Large Scale OpenStack infrastructure: The Discussion!"
+    episodeTitle: "Upgrades in Large Scale OpenStack infrastructure: The Discussion!!!"
     youtubeLink: https://www.youtube.com/watch?v=C2fSy005lDs
   - facebookLink: ""
     episodeDescription: Are the hyperscale public clouds killing open source? Is
