@@ -618,11 +618,11 @@ collections:
         ]}
       - {label: "Hero", name: "hero", widget: "object", fields: [
           {label: "Title", name: title, widget: string},
-          {label: "Description", name: description, widget: string}
+          {label: "Description", name: description, widget: text}
         ]}
       - {label: "Episodes", name: "episodes", widget: "list", fields: [
-          {label: "Date (UTC)", name: date, widget: datetime, picker_utc: true},
           {label: "Title", name: episodeTitle, widget: string, required: false},
+          {label: "Date (UTC)", name: date, widget: datetime, picker_utc: true, time_format: "HH:mm"},
           {label: "Description", name: episodeDescription, widget: text, required: false},
           {label: "Speakers", name: episodeSpeakers, widget: text, required: false},
           {label: "Youtube Embed", name: youtubeEmbed, widget: string, required: false},

@@ -15,6 +15,7 @@ export const OpenInfraLiveTemplate = ({
   isLoggedUser,
   contentComponent,
   content,
+  hero,
   episodes,
   footer
 }) => {
@@ -40,13 +41,8 @@ export const OpenInfraLiveTemplate = ({
                 <img src="/img/OpenInfra-live-logo-RGB.svg" alt="OpenInfra Live" />
               </figure>
               <div className="text">
-                <h1>Conversations Around All Things Open Infrastructure</h1>
-                <p className="fix-h5">
-                  Join us on OpenInfra Live — a weekly hour-long series sharing production case studies, open source demos, industry conversations, and the latest updates from the global open infrastructure community!
-                </p>
-                <p className="fix-h5">
-                  Catch every episode on several streaming platforms, airing <strong>Thursdays at 14:00 UTC (9am CT)</strong>
-                </p>
+                <h1>{hero.title}</h1>
+                <p className="fix-h5" dangerouslySetInnerHTML={{ __html: hero.description }} />                
                 <p className="fix-h5">
                   Subscribe to the <a href="https://www.openstack.org/community/email-signup">OpenInfra newsletter</a> to hear more about upcoming episodes.
                 </p>
@@ -239,9 +235,9 @@ export const OpenInfraLiveTemplate = ({
                             <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube" />
                             Watch on YouTube
                           </a>
-                          {episode.superuserRecap && 
-                          <a className="social-links" href={episode.superuserRecap}>
-                            <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser" />
+                          {episode.superuserRecap &&
+                            <a className="social-links" href={episode.superuserRecap}>
+                              <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser" />
                             Read the Superuser Recap
                           </a>
                           }
@@ -250,7 +246,7 @@ export const OpenInfraLiveTemplate = ({
                     </div>
                   )
                 })}
-                {/* End single episode */}                
+                {/* End single episode */}
               </div>
             </div>
           </section>
@@ -264,10 +260,6 @@ export const OpenInfraLiveTemplate = ({
   )
 }
 
-OpenInfraLiveTemplate.propTypes = {
-  header: PropTypes.object,
-}
-
 const OpenInfraLivePage = ({ OpenInfraLivePage, data, isLoggedUser }) => {
   const { markdownRemark: post } = data
 
@@ -277,7 +269,7 @@ const OpenInfraLivePage = ({ OpenInfraLivePage, data, isLoggedUser }) => {
       <OpenInfraLiveTemplate
         OpenInfraLivePage={OpenInfraLivePage}
         contentComponent={HTMLContent}
-        header={post.frontmatter.header}
+        hero={post.frontmatter.hero}
         episodes={post.frontmatter.episodes}
         content={post.html}
         footer={post.frontmatter.footer}

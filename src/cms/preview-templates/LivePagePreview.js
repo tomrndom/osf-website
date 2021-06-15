@@ -13,9 +13,9 @@ const LivePagePreview = ({ entry, widgetFor }) => {
   if(data) {
     return (
       <OpenInfraLiveTemplate
-        header={{
-          title: entry.getIn(['data', 'header', 'title']),
-          subTitle: entry.getIn(['data', 'header', 'subTitle']),
+        hero={{
+          title: entry.getIn(['data', 'hero', 'title']),
+          description: entry.getIn(['data', 'hero', 'description']),
         }}
         episodes={episodes}
         footer={{

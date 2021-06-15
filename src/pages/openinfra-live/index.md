@@ -9,11 +9,10 @@ seo:
 hero:
   title: Conversations around all things open infrastructure
   description: >-
-    Introducing: OpenInfra Live—a weekly hour-long series sharing production
-    case studies, open source demos, industry conversations, and the latest
-    updates from the global open infrastructure community!
-
-    Catch every episode on several streaming platforms, airing Thursdays at 14:00 UTC (9am CT).
+    Introducing: OpenInfra Live—a weekly hour-long series sharing production case studies, open source demos, industry conversations, and the latest updates from the global open infrastructure community!
+    <br />
+    <br />
+    Catch every episode on several streaming platforms, airing <strong>Thursdays at 14:00 UTC (9am CT)</strong>.
 episodes:
   - facebookLink: https://www.facebook.com/104139126308032/posts/4037348229653749/
     episodeDescription: Keeping up with new OpenStack releases can be a challenge.
