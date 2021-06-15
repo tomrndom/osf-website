@@ -205,18 +205,17 @@ members:
     picture: /img/about-staff/AllisonPrice.jpg
     title: Director of Marketing & Community
     twitter: https://twitter.com/amprice88
-  - description: <p>Kendall is an Upstream Developer Advocate at the Open
-      Infrastructure Foundation based in Seattle, WA.  She first started working
-      on Cinder and os-brick in the Liberty release and since then
-      gotten  involved in Release Mangement, StoryBoard, the Women of OpenStack
-      (WoO), the First Contact SIG,  the Contributor Guide, and OpenStack
-      Upstream Institute. She has also worked as an election  official for TC
-      and PTL elections (Pike-Rocky) and served as a track chair for the
-      Barcelona,  Boston, Sydney, and Vancouver summits.</p> <p>When she is not
-      evangelizing about the awesomeness of OpenStack, bringing people into
-      the  community, or working to make upstream development a friendlier
-      place, she can be found reading  Harry Potter, watching Doctor Who, or out
-      on a photo taking adventure.</p>
+  - description: >-
+      <p>Kendall is an Upstream Developer Advocate at the Open Infrastructure
+      Foundation based in the United States. She first started working on
+      OpenStack during the Liberty release (2015) on Cinder and since then been
+      involved in Release Management, StoryBoard, the Women of OpenStack (WoO),
+      the First Contact SIG, the Contributor Guide, and OpenStack Upstream
+      Institute.
+
+      She’s recently gotten more involved in the Kubernetes community helping to bridge it with the OpenStack community via SIG Cloud Provider and provider OpenStack. 
+
+      When she is not evangelizing about the awesomeness of OpenStack, bringing people into the community, binding open source communities together, or working to make upstream development in open source a friendlier place, she can be found reading Harry Potter, watching Doctor Who, or out on a photo taking adventure.</p>
     linkedin: https://www.linkedin.com/in/kendall-nelson-a7409575/
     name: Kendall Nelson
     openStack: https://www.openstack.org/community/members/profile/35859/kendall-nelson
