@@ -21,7 +21,7 @@ episodes:
       companies might be right for you? Join us as we spotlight companies with
       open infrastructure job openings, learn about their company cultures, and
       hear what they are looking for in candidates.
-    calendarInvite: /img/openinfralive-june24.ics
+    calendarInvite: /static/invites/openinfralive-june24.ics
   - facebookLink: https://www.facebook.com/104139126308032/posts/4058210514234187/
     episodeDescription: Victoria Martinez de la Cruz, an OpenStack contributor who
       joined the community through the Outreachy internship program, will be
@@ -29,7 +29,7 @@ episodes:
       contributors who are just getting started. The group will discuss
       internships, mentoring, and how you can get started contributing upstream
       to open source projects like OpenStack, Airship, Kata, StarlingX and Zuul.
-    calendarInvite: /static/invites/openinfralive-june24.ics
+    calendarInvite: /static/invites/openinfralive-june17.ics
     hidden: false
     date: 2021-06-17T14:00:00.000Z
     episodeSpeakers: Victoria Martinez de la Cruz, Kendall Kelson, Archana Kumari
@@ -45,7 +45,7 @@ episodes:
       episode</a>, a panel of large scale OpenStack infrastructure operators
       from Blizzard Entertainment, OVHcloud, Workday, Vexxhost and CERN, join us
       again to further discuss upgrades.
-    calendarInvite: /invites/openinfralive-june10a.ics
+    calendarInvite: /static/invites/openinfralive-june10a.ics
     hidden: false
     date: 2021-06-10T14:00:00.000Z
     episodeSpeakers: Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser

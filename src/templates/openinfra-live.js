@@ -100,7 +100,7 @@ export const OpenInfraLiveTemplate = ({
                               </p>
                               <div className="platforms">
                                 {episode.calendarInvite &&
-                                  <a className="social-links" href={episode.calendarInvite}>
+                                  <a className="social-links" href={episode.calendarInvite.replace('/static', '')}>
                                     <img src="/img/socials/calendar.svg" className="social-icon" alt="Add OpenInfra Live to your calendar" />
                                   Add to Calendar
                                 </a>
@@ -200,7 +200,7 @@ export const OpenInfraLiveTemplate = ({
                         </p>
                         <div className="platforms">
                           {episode.calendarInvite &&
-                            <a className="social-links" href={episode.calendarInvite}>
+                            <a className="social-links" href={episode.calendarInvite.replace('/static', '')}>
                               <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar" />
                             Add to calendar
                           </a>
