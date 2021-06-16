@@ -207,7 +207,7 @@ export const OpenInfraLiveTemplate = ({
                     Share now
                   </a>
                 </div>
-                <img src="/img/multi-color border.svg" className="multi-color-border" alt="" />
+                <img src="/img/color-bar.png" className="multi-color-border" alt="" />
               </div>
             </div>
           </section>
