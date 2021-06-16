@@ -29,7 +29,7 @@ episodes:
       contributors who are just getting started. The group will discuss
       internships, mentoring, and how you can get started contributing upstream
       to open source projects like OpenStack, Airship, Kata, StarlingX and Zuul.
-    calendarInvite: /invites/openinfralive-june17.ics
+    calendarInvite: /static/invites/openinfralive-june24.ics
     hidden: false
     date: 2021-06-17T14:00:00.000Z
     episodeSpeakers: Victoria Martinez de la Cruz, Kendall Kelson, Archana Kumari
