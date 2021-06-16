@@ -14,6 +14,29 @@ hero:
     Catch every episode on several streaming platforms, airing <strong>Thursdays
     at 14:00 UTC (9am CT)</strong>."
 episodes:
+  - hidden: false
+    date: 2021-06-24T14:00:35.869Z
+    episodeTitle: Open Source Job Openings (and how to land them)
+    episodeDescription: Are you looking for a job in open source? Curious about what
+      companies might be right for you? Join us as we spotlight companies with
+      open infrastructure job openings, learn about their company cultures, and
+      hear what they are looking for in candidates.
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4058210514234187/
+    episodeDescription: Victoria Martinez de la Cruz, an OpenStack contributor who
+      joined the community through the Outreachy internship program, will be
+      joined by Kendall Nelson, OpenInfra Upstream Developer Advocate, and
+      contributors who are just getting started. The group will discuss
+      internships, mentoring, and how you can get started contributing upstream
+      to open source projects like OpenStack, Airship, Kata, StarlingX and Zuul.
+    calendarInvite: /invites/openinfralive-june17.ics
+    hidden: false
+    date: 2021-06-17T14:00:00.000Z
+    episodeSpeakers: Victoria Martinez de la Cruz, Kendall Kelson, Archana Kumari
+    youtubeEmbed: https://www.youtube.com/embed/4kGtM4J_hjM
+    linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6808870825278640128/
+    superuserRecap: ""
+    episodeTitle: How to Start Contributing Upstream to OpenInfra
+    youtubeLink: https://www.youtube.com/watch?v=4kGtM4J_hjM  
   - facebookLink: https://www.facebook.com/104139126308032/posts/4037348229653749/
     episodeDescription: Keeping up with new OpenStack releases can be a challenge.
       In this continuation of the <a
@@ -163,29 +186,6 @@ episodes:
     superuserRecap: ""
     episodeTitle: Wallaby Release Community Meeting
     youtubeLink: https://www.youtube.com/watch?v=tZ2bfdF0fOg
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4058210514234187/
-    episodeDescription: Victoria Martinez de la Cruz, an OpenStack contributor who
-      joined the community through the Outreachy internship program, will be
-      joined by Kendall Nelson, OpenInfra Upstream Developer Advocate, and
-      contributors who are just getting started. The group will discuss
-      internships, mentoring, and how you can get started contributing upstream
-      to open source projects like OpenStack, Airship, Kata, StarlingX and Zuul.
-    calendarInvite: /invites/openinfralive-june17.ics
-    hidden: false
-    date: 2021-06-17T14:00:00.000Z
-    episodeSpeakers: Victoria Martinez de la Cruz, Kendall Kelson, Archana Kumari
-    youtubeEmbed: https://www.youtube.com/embed/4kGtM4J_hjM
-    linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6808870825278640128/
-    superuserRecap: ""
-    episodeTitle: How to Start Contributing Upstream to OpenInfra
-    youtubeLink: https://www.youtube.com/watch?v=4kGtM4J_hjM
-  - hidden: false
-    date: 2021-06-24T14:00:35.869Z
-    episodeTitle: Open Source Job Openings (and how to land them)
-    episodeDescription: Are you looking for a job in open source? Curious about what
-      companies might be right for you? Join us as we spotlight companies with
-      open infrastructure job openings, learn about their company cultures, and
-      hear what they are looking for in candidates.
 footer:
   title: ""
   subTitle: Join the OpenInfra Foundation to learn how you can get involved in
