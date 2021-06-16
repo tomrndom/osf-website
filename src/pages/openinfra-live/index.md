@@ -21,6 +21,7 @@ episodes:
       companies might be right for you? Join us as we spotlight companies with
       open infrastructure job openings, learn about their company cultures, and
       hear what they are looking for in candidates.
+    calendarInvite: /img/openinfralive-june24.ics
   - facebookLink: https://www.facebook.com/104139126308032/posts/4058210514234187/
     episodeDescription: Victoria Martinez de la Cruz, an OpenStack contributor who
       joined the community through the Outreachy internship program, will be
@@ -36,7 +37,7 @@ episodes:
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6808870825278640128/
     superuserRecap: ""
     episodeTitle: How to Start Contributing Upstream to OpenInfra
-    youtubeLink: https://www.youtube.com/watch?v=4kGtM4J_hjM  
+    youtubeLink: https://www.youtube.com/watch?v=4kGtM4J_hjM
   - facebookLink: https://www.facebook.com/104139126308032/posts/4037348229653749/
     episodeDescription: Keeping up with new OpenStack releases can be a challenge.
       In this continuation of the <a
