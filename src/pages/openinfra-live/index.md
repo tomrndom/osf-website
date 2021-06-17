@@ -21,7 +21,7 @@ episodes:
       companies might be right for you? Join us as we spotlight companies with
       open infrastructure job openings, learn about their company cultures, and
       hear what they are looking for in candidates.
-    calendarInvite: ""
+    calendarInvite: /static/invites/openinfralive-june24.ics
   - facebookLink: https://www.facebook.com/104139126308032/posts/4058210514234187/
     episodeDescription: Victoria Martinez de la Cruz, an OpenStack contributor who
       joined the community through the Outreachy internship program, will be
