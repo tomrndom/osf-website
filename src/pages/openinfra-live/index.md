@@ -40,7 +40,7 @@ episodes:
     episodeSpeakers: Victoria Martinez de la Cruz, Kendall Kelson, Archana Kumari
     youtubeEmbed: https://www.youtube.com/embed/4kGtM4J_hjM
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6808870825278640128/
-    superuserRecap: ""
+    superuserRecap: https://superuser.openstack.org/articles/how-to-start-contributing-upstream-to-openinfra-openinfra-live-recap/
     episodeTitle: How to Start Contributing Upstream to OpenInfra
     youtubeLink: https://www.youtube.com/watch?v=4kGtM4J_hjM
   - facebookLink: https://www.facebook.com/104139126308032/posts/4037348229653749/
