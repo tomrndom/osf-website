@@ -8,6 +8,7 @@ import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
 import Hero from '../components/Hero'
+import ColorBar from '../img/color-bar.png'
 
 import { connect } from "react-redux";
 
@@ -227,7 +228,7 @@ export const OpenInfraLiveTemplate = ({
                     Share now
                   </a>
                 </div>
-                <img src="/img/color-bar.png" className="multi-color-border" alt="" />
+                <img src={ColorBar} className="multi-color-border" alt="Color Bar" />
               </div>
             </div>
           </section>
