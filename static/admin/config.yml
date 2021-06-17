@@ -603,4 +603,41 @@ collections:
           {label: "Button Text", name: buttonText, widget: string, required: false},
           {label: "Display", name: display, widget: boolean, required: false}
         ]}
+  - name: "openinfra-live-page"
+    label: "OpenInfra Live"
+    folder: "src/pages/openinfra-live/"
+    identifier_field: "hero.title"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "openinfra-live"}
+      - {label: SEO, name: seo, widget: object, fields: [
+          {label: "Title", name: "title", widget: string},
+          {label: "Description", name: "description", widget: string},
+          {label: "Url", name: "url", widget: string},
+          {label: "Image", name: "image", widget: image},
+          {label: "Twitter Username", name: "twitterUsername", widget: string},
+        ]}
+      - {label: "Hero", name: "hero", widget: "object", fields: [
+          {label: "Title", name: title, widget: string},
+          {label: "Description", name: description, widget: text}
+        ]}
+      - {label: "Episodes", name: "episodes", widget: "list", add_to_top: true, fields: [
+          {label: "Title", name: episodeTitle, widget: string, required: false},
+          {label: "Date (UTC)", name: date, widget: datetime, picker_utc: true, time_format: "HH:mm"},
+          {label: "Description", name: episodeDescription, widget: text, required: false},
+          {label: "Speakers", name: episodeSpeakers, widget: text, required: false},
+          {label: "Youtube Embed", name: youtubeEmbed, widget: string, required: false},
+          {label: "Youtube Link", name: youtubeLink, widget: string, required: false},
+          {label: "Facebook Link", name: facebookLink, widget: string, required: false},
+          {label: "LinkedIn Link", name: linkedinLink, widget: string, required: false},
+          {label: "Calendar Invite", name: calendarInvite, widget: file, required: false, media_folder: /static/invites, public_folder: /static/invites, hint: "Create a calendar invite at https://ical.marudot.com"},
+          {label: "Superuser Recap", name: superuserRecap, widget: string, required: false},
+          {label: "Hidden", name: hidden, widget: boolean, default: true, required: false},
+        ]}
+      - {label: "Footer", name: footer, widget: object, required: false, fields: [
+          {label: "Title", name: title, widget: string, required: false },
+          {label: "Sub Title", name: subTitle, widget: string, required: false},
+          {label: "Button Link", name: button, widget: string, required: false},
+          {label: "Button Text", name: buttonText, widget: string, required: false},
+          {label: "Display", name: display, widget: boolean, required: false}
+        ]}
     
