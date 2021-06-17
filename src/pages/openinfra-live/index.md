@@ -14,14 +14,19 @@ hero:
     Catch every episode on several streaming platforms, airing <strong>Thursdays
     at 14:00 UTC (9am CT)</strong>."
 episodes:
-  - hidden: false
-    date: 2021-06-24T14:00:35.869Z
-    episodeTitle: Open Source Job Openings (and how to land them)
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4076497655738806/
     episodeDescription: Are you looking for a job in open source? Curious about what
       companies might be right for you? Join us as we spotlight companies with
       open infrastructure job openings, learn about their company cultures, and
       hear what they are looking for in candidates.
     calendarInvite: /static/invites/openinfralive-june24.ics
+    hidden: false
+    date: 2021-06-24T14:00:35.869Z
+    episodeSpeakers: Canonical, City Network, Mirantis, T-Systems
+    youtubeEmbed: https://www.youtube.com/embed/xfrvN9zkjs8
+    linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6811309941610049536/
+    episodeTitle: Open Source Job Openings (and how to land them)
+    youtubeLink: https://www.youtube.com/watch?v=xfrvN9zkjs8
   - facebookLink: https://www.facebook.com/104139126308032/posts/4058210514234187/
     episodeDescription: Victoria Martinez de la Cruz, an OpenStack contributor who
       joined the community through the Outreachy internship program, will be
