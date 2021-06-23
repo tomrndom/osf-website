@@ -22,7 +22,7 @@ episodes:
     calendarInvite: /static/invites/openinfralive-june24.ics
     hidden: false
     date: 2021-06-24T14:00:35.869Z
-    episodeSpeakers: Canonical, City Network, Mirantis, T-Systems
+    episodeSpeakers: Canonical, Facebook, OVH, T-Systems, Whitestack
     youtubeEmbed: https://www.youtube.com/embed/xfrvN9zkjs8
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6811309941610049536/
     episodeTitle: Open Source Job Openings (and how to land them)
