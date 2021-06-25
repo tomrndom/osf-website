@@ -14,6 +14,27 @@ hero:
     Catch every episode on several streaming platforms, airing <strong>Thursdays
     at 14:00 UTC (9am CT)</strong>."
 episodes:
+  - hidden: false
+    date: 2021-07-08T14:00:00.000Z
+    episodeTitle: The role of open source in Digital Sovereignty
+    episodeDescription: Johan Christenson, CEO of CityNetwork, hosts a discussion
+      around the role of open source in digital sovereignty between Pierre
+      Gronlier, CTO of Gaia-X, Kurt Garloff, CTO at Sovereign Cloud Stack, and
+      Linda Siwe, chief commercial officer at Binero.
+    episodeSpeakers: Johan Christenson, Pierre Gronlier, Kurt Garloff, Linda Siwe
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4096084423780129/
+    episodeDescription: Ildiko Vancsa will host Mark Collier, OpenInfra Foundation
+      COO and Paul Miller, Wind River CTO, to learn about the results of the
+      edge computing survey conducted by Wind River and provide insight into how
+      upstream communities are making progress for this emerging use case.
+    calendarInvite: /static/invites/openinfralive-july1.ics
+    hidden: false
+    date: 2021-07-01T14:00:00.000Z
+    episodeSpeakers: Paul Miller, Mark Collier, Ildiko Vancsa
+    youtubeEmbed: https://www.youtube.com/embed/pHHCIGkpNzs
+    linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6813893379852763136/
+    episodeTitle: Building the Intelligent Edge with Open Source Technologies
+    youtubeLink: https://www.youtube.com/watch?v=pHHCIGkpNzs
   - facebookLink: https://www.facebook.com/104139126308032/posts/4076497655738806/
     episodeDescription: Are you looking for a job in open source? Curious about what
       companies might be right for you? Join us as we spotlight companies with
@@ -22,9 +43,10 @@ episodes:
     calendarInvite: /static/invites/openinfralive-june24.ics
     hidden: false
     date: 2021-06-24T14:00:35.869Z
-    episodeSpeakers: Canonical, Facebook, OVH, T-Systems, Whitestack
+    episodeSpeakers: Canonical, OVH, T-Systems, Whitestack
     youtubeEmbed: https://www.youtube.com/embed/xfrvN9zkjs8
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6811309941610049536/
+    superuserRecap: https://superuser.openstack.org/articles/open-source-job-openings-and-how-to-land-them-openinfra-live-recap/
     episodeTitle: Open Source Job Openings (and how to land them)
     youtubeLink: https://www.youtube.com/watch?v=xfrvN9zkjs8
   - facebookLink: https://www.facebook.com/104139126308032/posts/4058210514234187/
