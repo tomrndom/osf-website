@@ -12,7 +12,7 @@ seo:
   description: OpenInfra Foundation’s 2021 event agenda features weekly ‘OpenInfra
     Live’ show and community-led OpenStack Days and OpenInfra Days around the
     world; In-person Open Infrastructure Summit slated to return in 2022
-  url: https://www.openinfra.dev/blog/Open-Infrastructure-Foundation-Unveils-OpenInfra-Live-Virtual-Event-Schedule
+  url: https://openinfra.dev/blog/Open-Infrastructure-Foundation-Unveils-OpenInfra-Live-Virtual-Event-Schedule
   twitterUsername: OpenInfraDev
 ---
 AUSTIN, Texas — June 29, 2021 — The Open Infrastructure (OpenInfra) Foundation today announced the schedule of upcoming episodes for its recently launched OpenInfra Live series of one-hour virtual events. OpenInfra Live is a weekly, live-streamed series of one-hour episodes featuring topics such as production use cases around open source projects like OpenStack, Kubernetes and Magma; industry leader conversations; and upstream development updates and roadmaps.
