@@ -15,6 +15,11 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-07-15T14:00:00.000Z
+    episodeTitle: How OpenStack Large Clouds Manage their Spare Capacity
+    episodeDescription: A panel of users running OpenStack in production will
+      discuss and answer questions live.
+  - hidden: false
     date: 2021-07-08T14:00:00.000Z
     episodeTitle: The role of open source in Digital Sovereignty
     episodeDescription: Johan Christenson, CEO of CityNetwork, hosts a discussion
