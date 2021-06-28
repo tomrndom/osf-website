@@ -15,6 +15,14 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-07-29T14:00:00.000Z
+    episodeTitle: Kubernetes and OpenStack Working Together
+    episodeDescription: "The Kubernetes steering committee and OpenStack technical
+      committee meet regularly to talk about cross-community learnings and
+      collaboration opportunities. Join members of both governance bodies to ask
+      questions about integration, cross-project support and how you can stay
+      updated on the latest developments. "
+  - hidden: false
     date: 2021-07-22T14:00:00.000Z
     episodeTitle: "Kata Containers "
     episodeDescription: "The Kata Containers community hosts AMD and Ant Group to
