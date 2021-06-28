@@ -15,6 +15,12 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-07-22T14:00:00.000Z
+    episodeTitle: "Kata Containers "
+    episodeDescription: "The Kata Containers community hosts AMD and Ant Group to
+      share how they are running Kata and upstream contributors will provide an
+      update on the project roadmap. "
+  - hidden: false
     date: 2021-07-15T14:00:00.000Z
     episodeTitle: How OpenStack Large Clouds Manage their Spare Capacity
     episodeDescription: A panel of users running OpenStack in production will
