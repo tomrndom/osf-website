@@ -231,15 +231,15 @@
   .schedule-single {
     color: $primary;
     flex: 0 45%;
-    margin-left: 10%;
-    &:first-of-type {
-      margin-left: 0;
+    margin-bottom: 2rem;
+    &:nth-child(even) {
+      margin-left: 10%;
     }
     @media (max-width: 768px) {
       flex: 0 100%;
       margin-left: 0;
-      &:last-of-type {
-        margin-top: 3rem;
+      &:nth-child(even) {
+        margin-left: 0;
       }
     }
     h2 {
