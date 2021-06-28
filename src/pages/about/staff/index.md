@@ -119,6 +119,19 @@ members:
     picture: /img/about-staff/Wes-headshot.jpg
     title: Director of Product & Engineering
     twitter: https://twitter.com/iamweswilson
+  - description: Allison manages Marketing Content initiatives including case study
+      development, advertising  campaigns, the Superuser online publication and
+      OpenStack User Survey. Her past roles have  specialized in social strategy
+      and execution for both B2B and B2C global companies in the  technology and
+      consumer industries. In her spare time, she enjoys finding new hiking
+      trails and  sharing her love with Celine Dion with anyone and everyone who
+      will listen.
+    linkedin: https://www.linkedin.com/in/allisonmarieprice
+    name: Allison Price
+    openStack: https://www.openstack.org/community/members/profile/17777
+    picture: /img/about-staff/AllisonPrice.jpg
+    title: Director of Marketing & Community
+    twitter: https://twitter.com/amprice88
   - description: It all started as a volunteer sysadmin at Portland State
       University. Since then Clark has operated  large network infrastructures,
       built radios for airplanes, and is now a core member of the
@@ -192,19 +205,6 @@ members:
     picture: /img/about-staff/jimmymcarthur.jpg
     title: Senior Manager Community & Business Development
     twitter: https://twitter.com/jimmymcarthur
-  - description: Allison manages Marketing Content initiatives including case study
-      development, advertising  campaigns, the Superuser online publication and
-      OpenStack User Survey. Her past roles have  specialized in social strategy
-      and execution for both B2B and B2C global companies in the  technology and
-      consumer industries. In her spare time, she enjoys finding new hiking
-      trails and  sharing her love with Celine Dion with anyone and everyone who
-      will listen.
-    linkedin: https://www.linkedin.com/in/allisonmarieprice
-    name: Allison Price
-    openStack: https://www.openstack.org/community/members/profile/17777
-    picture: /img/about-staff/AllisonPrice.jpg
-    title: Director of Marketing & Community
-    twitter: https://twitter.com/amprice88
   - description: >-
       <p>Kendall is an Upstream Developer Advocate at the Open Infrastructure
       Foundation based in the United States. She first started working on
