@@ -6,7 +6,7 @@ date: 2021-06-29T11:05:00.000Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   title: Open Infrastructure Foundation Unveils OpenInfra Live Virtual Event Schedule
   description: OpenInfra Foundation’s 2021 event agenda features weekly ‘OpenInfra
