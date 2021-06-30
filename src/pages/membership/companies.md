@@ -99,8 +99,6 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_AWCloud.png
       - alt: Bluvalt
         image: /img/companies/_New/Silver/binero-silver.jpg
-      - alt: Bluvalt
-        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_bluvalt.png
       - alt: CDAC
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_CDAC.png
       - alt: Cloud & Heat
@@ -149,16 +147,12 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Samsung.png
       - alt: Sardina
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Sardina.png
-      - alt: Saudi Telecom
-        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_SaudiTelecom.png
       - alt: SecuStack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_secustack.png
       - alt: Societe Generale
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_SocieteGenerale.png
       - alt: StackHPC
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_StackHPC.png
-      - alt: SUSE
-        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_SUSE.png
       - alt: Ultimum Technologies
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_UltimumTechnologies.png
       - alt: Vexxhost
