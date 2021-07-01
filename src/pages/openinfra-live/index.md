@@ -33,6 +33,8 @@ episodes:
     episodeTitle: How OpenStack Large Clouds Manage their Spare Capacity
     episodeDescription: A panel of users running OpenStack in production will
       discuss and answer questions live.
+    calendarInvite: /static/invites/openinfralive-july15.ics
+    youtubeLink: https://www.youtube.com/watch?v=G7oN2XdI__k
   - facebookLink: https://www.facebook.com/104139126308032/posts/4115187991869772/
     episodeDescription: Johan Christenson, CEO of CityNetwork, hosts a discussion
       around the role of open source in digital sovereignty between Pierre
