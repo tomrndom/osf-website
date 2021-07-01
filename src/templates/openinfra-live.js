@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import moment from 'moment-timezone';
+import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
@@ -18,14 +19,22 @@ export const OpenInfraLiveTemplate = ({
   content,
   hero,
   episodes,
-  footer
+  footer,
 }) => {
   const PageContent = contentComponent || Content
 
-  const today = moment().utc().format();
+  const [today, setToday] = useState(0)
 
-  const futureEpisodes = episodes.filter(e => e.hidden === false && moment(e.date).utc().format() > today).sort((a, b) => moment(a.date).utc().format().localeCompare(moment(b.date).utc().format()));
-  const pastEpisodes = episodes.filter(e => e.hidden === false && moment(e.date).utc().format() < today).sort((a, b) => moment(b.date).utc().format().localeCompare(moment(a.date).utc().format()));
+  useEffect(() => {
+    fetch(`https://timeintervalsince1970.appspot.com/`)
+      .then(response => response.json())
+      .then(resultData => {
+        setToday(Math.trunc(resultData.timestamp) - 7200);
+      })
+  }, [])
+
+  const futureEpisodes = episodes.filter(e => e.hidden === false && moment(e.date).utc().unix() > today).sort((a, b) => moment(a.date).utc().unix() - moment(b.date).utc().unix());
+  const pastEpisodes = episodes.filter(e => e.hidden === false && moment(e.date).utc().unix() < today).sort((a, b) => moment(b.date).utc().unix() - moment(a.date).utc().unix());
 
   return (
     <div>
@@ -69,10 +78,11 @@ export const OpenInfraLiveTemplate = ({
             </section>
           </div>
           <section className="live-section">
+            <AjaxLoader relative={true} color={'#ffffff'} show={today === 0} size={120} />
             <div className="container">
               {futureEpisodes.length > 0 &&
                 <>
-                  <h2 className="section-title">The Next Episode Is Airing Soon!</h2>
+                  <h2 className="section-title">{moment(futureEpisodes[0].date).utc().unix() >= today && moment(futureEpisodes[0].date).utc().unix() <= today + 7200 ? 'OpenInfra Live is Airing!' : 'The Next Episode Is Airing Soon!'}</h2>
                   {/* Next episode */}
                   {futureEpisodes.map((episode, index) => {
                     if (index === 0) {
@@ -103,8 +113,8 @@ export const OpenInfraLiveTemplate = ({
                                 {episode.calendarInvite &&
                                   <a className="social-links" href={episode.calendarInvite.replace('/static', '')}>
                                     <img src="/img/socials/calendar.svg" className="social-icon" alt="Add OpenInfra Live to your calendar" />
-                                  Add to Calendar
-                                </a>
+                                    Add to Calendar
+                                  </a>
                                 }
                                 {episode.youtubeLink &&
                                   <a className="social-links" href={episode.youtubeLink}>
@@ -159,8 +169,8 @@ export const OpenInfraLiveTemplate = ({
                               {episode.superuserRecap &&
                                 <a className="social-links" href={episode.superuserRecap}>
                                   <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser" />
-                                Superuser Recap
-                              </a>
+                                  Superuser Recap
+                                </a>
                               }
                             </div>
                           </div>
@@ -171,7 +181,7 @@ export const OpenInfraLiveTemplate = ({
                 </div>
                 <a href="#all-episodes" className="schedule-link">
                   See All Previous Episodes
-                   <img src="/img/icons/arrow-down.svg" className="link-icon" alt="See all previous episodes" />
+                  <img src="/img/icons/arrow-down.svg" className="link-icon" alt="See all previous episodes" />
                 </a>
               </section>
             </div>
@@ -203,8 +213,8 @@ export const OpenInfraLiveTemplate = ({
                           {episode.calendarInvite &&
                             <a className="social-links" href={episode.calendarInvite.replace('/static', '')}>
                               <img src="/img/socials/calendar.svg" className="social-icon" alt="Add episode to your calendar" />
-                            Add to calendar
-                          </a>
+                              Add to calendar
+                            </a>
                           }
                         </div>
                       </div>
@@ -261,8 +271,8 @@ export const OpenInfraLiveTemplate = ({
                           {episode.superuserRecap &&
                             <a className="social-links" href={episode.superuserRecap}>
                               <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser" />
-                            Read the Superuser Recap
-                          </a>
+                              Read the Superuser Recap
+                            </a>
                           }
                         </div>
                       </div>
