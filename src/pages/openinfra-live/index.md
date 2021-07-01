@@ -41,6 +41,9 @@ episodes:
       Gronlier, CTO of Gaia-X, Kurt Garloff, CTO at Sovereign Cloud Stack, and
       Linda Siwe, chief commercial officer at Binero.
     episodeSpeakers: Johan Christenson, Pierre Gronlier, Kurt Garloff, Linda Siwe
+    youtubeEmbed: https://www.youtube.com/embed/JPfo6wXM0BY
+    youtubeLink: https://www.youtube.com/watch?v=JPfo6wXM0BY
+    calendarInvite: /static/invites/openinfralive-july8.ics
   - facebookLink: https://www.facebook.com/104139126308032/posts/4096084423780129/
     episodeDescription: Ildiko Vancsa will host Mark Collier, OpenInfra Foundation
       COO and Paul Miller, Wind River CTO, to learn about the results of the
