@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import moment from 'moment-timezone';
-import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
