@@ -22,6 +22,8 @@ episodes:
       collaboration opportunities. Join members of both governance bodies to ask
       questions about integration, cross-project support and how you can stay
       updated on the latest developments. "
+    calendarInvite: /static/invites/openinfralive-july29.ics
+    youtubeLink: https://www.youtube.com/watch?v=G1vplawafw4
   - hidden: false
     date: 2021-07-22T14:00:00.000Z
     episodeTitle: "Kata Containers "
