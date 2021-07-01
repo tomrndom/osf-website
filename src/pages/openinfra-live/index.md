@@ -33,17 +33,19 @@ episodes:
     episodeTitle: How OpenStack Large Clouds Manage their Spare Capacity
     episodeDescription: A panel of users running OpenStack in production will
       discuss and answer questions live.
-  - hidden: false
-    date: 2021-07-08T14:00:00.000Z
-    episodeTitle: The role of open source in Digital Sovereignty
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4115187991869772/
     episodeDescription: Johan Christenson, CEO of CityNetwork, hosts a discussion
       around the role of open source in digital sovereignty between Pierre
       Gronlier, CTO of Gaia-X, Kurt Garloff, CTO at Sovereign Cloud Stack, and
-      Linda Siwe, chief commercial officer at Binero.
+      Linda Siwe, Chief Commercial Officer at Binero.
+    calendarInvite: /static/invites/openinfralive-july8.ics
+    hidden: false
+    date: 2021-07-08T14:00:00.000Z
     episodeSpeakers: Johan Christenson, Pierre Gronlier, Kurt Garloff, Linda Siwe
     youtubeEmbed: https://www.youtube.com/embed/JPfo6wXM0BY
+    linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6816387657984155648/
+    episodeTitle: The Role of Open Source in Digital Sovereignty
     youtubeLink: https://www.youtube.com/watch?v=JPfo6wXM0BY
-    calendarInvite: /static/invites/openinfralive-july8.ics
   - facebookLink: https://www.facebook.com/104139126308032/posts/4096084423780129/
     episodeDescription: Ildiko Vancsa will host Mark Collier, OpenInfra Foundation
       COO and Paul Miller, Wind River CTO, to learn about the results of the
